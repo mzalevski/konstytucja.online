@@ -14,7 +14,7 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     ul {
       display: flex;
       justify-content: center;

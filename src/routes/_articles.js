@@ -21,8 +21,7 @@ const articles = [
 		html: `
 			<p>Rzeczpospolita Polska jest demokratycznym państwem prawnym, urzeczywistniającym zasady sprawiedliwości społecznej.</p>
 		`,
-		desc: `<p>To podstawowa zasada demokratycznego państwa prawnego. Oznacza ona, że państwo ma być rządzone prawem, prawo stoi ponad państwem (przedstawicielami władzy), ma być wytyczną działania dla władz i dla społeczeństwa. Zasada ta ma również zabezpieczać wpływ obywateli na władzę państwową i ich udział w podejmowaniu decyzji państwowych. Przepis ten mówi także o tym, że działalność państwa i jego organów ma być oparta na wartościach, które dobrze służą zapewnieniu praworządności, wyraża on bowiem zasadę legalizmu. Z tej zasady wynika między innymi najwyższa ranga Konstytucji w systemie źródeł prawa, i rola ustaw, ich priorytet w tworzeniu porządku prawnego w państwie (koncepcja hierarchicznej budowy systemu źródeł prawa). Nieodzownym elementem zasady demokratycznego państwa prawnego pozostają reguły stanowienia prawa, określane czasem jako zasady przyzwoitej legislacji. Należy tutaj wymienić m.in.: zasadę niedziałania prawa wstecz (lex retro non agit), zasadę ochrony praw słusznie nabytych, zasadę ochrony interesów w toku, nakaz zachowania odpowiedniego okresu dostosowawczego przy wprowadzaniu nowych norm prawnych w życie (vacatio legis), zasadę pewności (określoności) prawa, nakazującą formułowanie przepisów prawa w sposób jasny.</p>
-		`
+		desc: ``
 	},
 	{
 		title: 'Art. 3',
@@ -135,9 +134,7 @@ const articles = [
 			<p>1. Rzeczpospolita Polska zapewnia wolność tworzenia i działania partii politycznych. Partie polityczne zrzeszają na zasadach dobrowolności i równości obywateli polskich w celu wpływania metodami demokratycznymi na kształtowanie polityki państwa.</p>
 			<p>2. Finansowanie partii politycznych jest jawne.</p>
 		`,
-		desc: `
-			<p>Konstytucja Rzeczypospolitej, przyjmując zasadę pluralizmu politycznego, zapewnia wolność tworzenia i działania partii politycznych. Stanowi jednocześnie, że mają one zrzeszać obywateli polskich na zasadzie dobrowolności i równości. Za formy organizacji społeczeństwa obywatelskiego, które realizują się w zasadzie pluralizmu, należy uznać m.in. takie podmioty jak: partie polityczne art. 11 oraz <a href='/13'>13</a> Konstytucji RP), związki zawodowe, organizacje społeczno-zawodowe rolników, stowarzyszenia, ruchy obywatelskie, inne dobrowolne zrzeszenia oraz fundacje (<a href='/12'>art. 12</a> Konstytucji RP).  Celem partii politycznych jest demokratyczny udział w rządzeniu lub przynajmniej pośredni wpływ na władzę. Żeby pluralizm polityczny mógł funkcjonować prawidłowo, niezbędne jest istnienie pewnych sprzyjających warunków prawnych, społecznych i politycznych. Przede wszystkim konieczne jest istnienie: wolnych i obiektywnych środków masowego przekazu (wolne media), wolne wybory, odpowiednie zasady finansowania działalności politycznej.</p>
-		`
+		desc: ``
 	},
 	{
 		title: 'Art. 12',
@@ -186,8 +183,7 @@ const articles = [
 			<p>1. Ustrój terytorialny Rzeczypospolitej Polskiej zapewnia decentralizację władzy publicznej.</p>
 			<p>2. Zasadniczy podział terytorialny państwa uwzględniający więzi społeczne, gospodarcze lub kulturowe i zapewniający jednostkom terytorialnym zdolność wykonywania zadań publicznych określa ustawa.</p>
 		`,
-		desc: `<p>Zasada decentralizacji wyraża ideę, by władza była jak najbliżej obywatela. Jej najważniejszym aspektem jest decentralizacja poprzez samorząd lokalny. Zasada ta określa, że zasadniczy podział terytorialny państwa, powinien uwzględniać więzi społeczne, gospodarcze lub kulturowe istniejące między obywatelami i mieszkańcami Polski. Dodatkowo zapewnia on jednostkom samorządu terytorialnego możliwość wykonywania zadań publicznych.</p>
-		`
+		desc: ``
 	},
 	{
 		title: 'Art. 16',
@@ -416,17 +412,8 @@ const articles = [
 			<p>2. Nikt nie może być dyskryminowany w życiu politycznym, społecznym lub gospodarczym z jakiejkolwiek przyczyny.</p>
 		`,
 		desc: `
-			<p>1. Równość — wraz z godnością i wolnością — stanowi podstawę porządku ustrojowego i w tym powiązaniu należy ją rozpatrywać. Jest to zarówno zasada konstytucyjna, jak i zasada systemu praw i wolności. Zasada równości wyznacza sposób i zakres korzystania z innych wolności i praw, oraz określa zakres dopuszczalnych ograniczeń. Konstytucja gwarantuje wszystkim równość wobec prawa. Oznacza to, że nierówności społeczne będą niezgodne z Konstytucją wtedy, gdy są efektem obowiązującego prawa. Równość rozumiana jako prawo podmiotowe może być traktowana jako „równość wobec prawa” oraz „równość w prawie”, tak w stanowieniu jak i w stosowaniu prawa. Zasadę równości rozpatruje się w relacjach jednostka – władza publiczna. Zasada równości oznacza, że wszystkie podmioty prawa charakteryzujący się daną cechą istotną w równym stopniu powinny być traktowane równo, według jednolitej miary, bez zróżnicowań dyskryminujących lub faworyzujących. Jednocześnie zasada ta zakłada odmienne traktowanie tych podmiotów, które nie posiadają wspólnej cechy istotnej.</p>
-			<p>2. Konstytucja zakazuje dyskryminacji z jakiejkolwiek przyczyny. Zakaz dyskryminacji jest konsekwencją i logicznym następstwem zasady równości. Konstytucja zakazuje wprost wprowadzania nieuzasadnionych zróżnicowań. Zakaz dyskryminacji ma charakter uniwersalny podmiotowo („nikt”) i przedmiotowo (obejmuje „życie polityczne, społeczne lub gospodarcze”). Dyskryminacja to gorsze traktowanie ze względu na cechę osobistą. Jest to kwalifikowana forma nierównego traktowania osoby ze względu na jakąś jej cechę osobistą, bez racjonalnego uzasadnienia. Do najczęściej wymienianych przesłanek dyskryminacji zalicza się płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek, orientację seksualną lub tożsamość płciową, ale mogą do nich należeć także inne cechy osobiste jak np. pochodzenie społeczne czy status materialny. Niedopuszczalne jest, by organy władzy publicznej odstępowały od zakazu dyskryminacji. Żeby ustalić, czy mamy do czynienia z dyskryminacją, musimy zbadać, czy rzeczywiście dwa podmioty zostały różnie potraktowane. Jeśli tak, to dlaczego: czy powodem była konkretna cecha danej osoby (to jest dyskryminacja) czy też inne przyczyny (Przykład: osoby z niepełnosprawnością mają prawo do głosowania korespondencyjnego. Osoby bez orzeczonej niepełnosprawności są więc traktowane nierówno, ale to nie jest dyskryminacja). Standard ochrony prawnej przed nierównym traktowaniem i dyskryminacją wynika z aktów prawa międzynarodowego i europejskiego. Na gruncie prawa polskiego podstawowe znaczenie mają regulacje Kodeksu pracy oraz ustawy o wdrożeniu niektórych przepisów Unii Europejskiej w zakresie równego traktowania. W ocenie Rzecznika – niezależnego organu ds. równego traktowania – środki ochrony prawnej przed dyskryminacją są obecnie niewystarczające. Rzecznik Praw Obywatelskich jest organem zobowiązanym ustawowo do stania na straży realizacji praw osób dyskryminowanych i wykluczanych w szczególności ze względu na:</p>
-			<ul>
-				<li>pochodzenie etniczne, narodowość lub rasę</li>
-				<li>religię, wyznanie, światopogląd</li>
-				<li>orientację seksualną</li>
-				<li>niepełnosprawność</li>
-				<li>płeć</li>
-				<li>wiek</li>
-			</ul>
-			<p>Realizując to zadanie bierze udział w postępowaniach sądowych, ale – przede wszystkim – stara się przekonywać właściwe organy do wprowadzenia zmian w przepisach prawa lub w praktyce ich stosowania. Rzecznik zleca także badania społeczne, w wyniku których powstają raporty opisujące problemy z jakimi borykają się osoby dyskryminowane w analizowanym obszarze oraz formułujące, w oparciu o poczynione ustalenia, rekomendacje Rzecznika kierowane do właściwych organów władzy publicznej.</p>
+			<p>Ustęp 1. Równość — wraz z godnością i wolnością — stanowi podstawę porządku ustrojowego i w tym powiązaniu należy ją rozpatrywać. Jest to zarówno zasada konstytucyjna, jak i zasada systemu praw i wolności. Zasada równości wyznacza sposób i zakres korzystania z innych wolności i praw, oraz określa zakres dopuszczalnych ograniczeń. Konstytucja gwarantuje wszystkim równość wobec prawa. Oznacza to, że nierówności społeczne będą niezgodne z Konstytucją wtedy, gdy są efektem obowiązującego prawa. Równość rozumiana jako prawo podmiotowe może być traktowana jako „równość wobec prawa” oraz „równość w prawie”, tak w stanowieniu jak i w stosowaniu prawa. Zasadę równości rozpatruje się w relacjach jednostka – władza publiczna. Zasada równości oznacza, że wszystkie podmioty prawa charakteryzujący się daną cechą istotną w równym stopniu powinny być traktowane równo, według jednolitej miary, bez zróżnicowań dyskryminujących lub faworyzujących. Jednocześnie zasada ta zakłada odmienne traktowanie tych podmiotów, które nie posiadają wspólnej cechy istotnej.</p>
+			<p>Ustęp 2. Konstytucja zakazuje dyskryminacji z jakiejkolwiek przyczyny. Zakaz dyskryminacji jest konsekwencją i logicznym następstwem zasady równości. Konstytucja zakazuje wprost wprowadzania nieuzasadnionych zróżnicowań. Zakaz dyskryminacji ma charakter uniwersalny podmiotowo („nikt”) i przedmiotowo (obejmuje „życie polityczne, społeczne lub gospodarcze”). Dyskryminacja to gorsze traktowanie ze względu na cechę osobistą. Jest to kwalifikowana forma nierównego traktowania osoby ze względu na jakąś jej cechę osobistą, bez racjonalnego uzasadnienia. Do najczęściej wymienianych przesłanek dyskryminacji zalicza się płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek, orientację seksualną lub tożsamość płciową, ale mogą do nich należeć także inne cechy osobiste jak np. pochodzenie społeczne czy status materialny. Niedopuszczalne jest, by organy władzy publicznej odstępowały od zakazu dyskryminacji. Żeby ustalić, czy mamy do czynienia z dyskryminacją, musimy zbadać, czy rzeczywiście dwa podmioty zostały różnie potraktowane. Jeśli tak, to dlaczego: czy powodem była konkretna cecha danej osoby (to jest dyskryminacja) czy też inne przyczyny (Przykład: osoby z niepełnosprawnością mają prawo do głosowania korespondencyjnego. Osoby bez orzeczonej niepełnosprawności są więc traktowane nierówno, ale to nie jest dyskryminacja). Standard ochrony prawnej przed nierównym traktowaniem i dyskryminacją wynika z aktów prawa międzynarodowego i europejskiego. Na gruncie prawa polskiego podstawowe znaczenie mają regulacje Kodeksu pracy oraz ustawy o wdrożeniu niektórych przepisów Unii Europejskiej w zakresie równego traktowania. W ocenie Rzecznika – niezależnego organu ds. równego traktowania – środki ochrony prawnej przed dyskryminacją są obecnie niewystarczające.</p>
 		`
 	},
 	{
@@ -441,7 +428,7 @@ const articles = [
 			<p>2. Kobieta i mężczyzna mają w szczególności równe prawo do kształcenia, zatrudnienia i awansów, do jednakowego wynagradzania za pracę jednakowej wartości, do zabezpieczenia społecznego oraz do zajmowania stanowisk, pełnienia funkcji oraz uzyskiwania godności publicznych i odznaczeń.</p>
 		`,
 		desc: `
-			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie art. 32.
+			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie <a href='/32'>art. 32</a>.
 			<p>To kolejna z norm, którą można rozpatrywać w trzech wymiarach: jako zasadę porządku konstytucyjnego, jako zasadę systemu praw i wolności jednostki oraz jako prawo podmiotowe.</p>
 			<p>Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 EKPCz. Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi.</p>
 			<p>W płaszczyźnie m.in. praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
@@ -784,12 +771,15 @@ const articles = [
 			<p>5. Zasady i tryb gromadzenia oraz udostępniania informacji określa ustawa.</p>
 		`,
 		desc: `
-			<p>1. wolności jednostki od ujawniania informacji jej dotyczących innym osobom oraz szczególnie władzom publicznym. Wolności tej odpowiada zakaz podejmowania prób uzyskiwania tego rodzaju informacji poprzez przesłuchiwanie (indagację);</p>
-			<p>2. kompetencji władz publicznych do pozyskiwania, gromadzenia oraz udostępniania informacji o obywatelach w zakresie niezbędnym w demokratycznym państwie prawnym;</p>
-			<p>3. prawie dostępu każdego mieszkańca Polski do dotyczących go dokumentów urzędowych i zbiorów danych;</p>
-			<p>4. prawie żądania sprostowania informacji zawartych w zbiorach dokumentów urzędowych lub w zbiorach danych, o ile są to informacje nieprawdziwe, niepełne lub zebrane niezgodnie z ustawą;</p>
-			<p>5. prawie żądania usunięcia informacji zawartych w jednym lub drugim zbiorze w tych samych przypadkach.</p>
-			<p>Władze publiczne nie mogą dla własnych celów dokumentować danych osobowych, sprawdzać i dokumentować zachowań osób prywatnych czy zmuszać do ujawniania swych indywidualnych cech, właściwości oraz postępowania.</p></p>
+			<p>Artykuł ten stanowi o:
+			<ul>
+				<li>1) wolności jednostki od ujawniania informacji jej dotyczących innym osobom oraz szczególnie władzom publicznym. Wolności tej odpowiada zakaz podejmowania prób uzyskiwania tego rodzaju informacji poprzez przesłuchiwanie (indagację);</li>
+				<li>2) kompetencji władz publicznych do pozyskiwania, gromadzenia oraz udostępniania informacji o obywatelach w zakresie niezbędnym w demokratycznym państwie prawnym;</li>
+				<li>3) prawie dostępu każdego mieszkańca Polski do dotyczących go dokumentów urzędowych i zbiorów danych;</li>
+				<li>4) prawie żądania sprostowania informacji zawartych w zbiorach dokumentów urzędowych lub w zbiorach danych, o ile są to informacje nieprawdziwe, niepełne lub zebrane niezgodnie z ustawą;</li>
+				<li>5) prawie żądania usunięcia informacji zawartych w jednym lub drugim zbiorze w tych samych przypadkach.</li>
+			</ul>
+			<p>Władze publiczne nie mogą dla własnych celów dokumentować danych osobowych, sprawdzać i dokumentować zachowań osób prywatnych czy zmuszać do ujawniania swych indywidualnych cech, właściwości oraz postępowania.</p>
 		`
 	},
 	{
