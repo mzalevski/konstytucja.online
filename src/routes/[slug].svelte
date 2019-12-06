@@ -84,7 +84,7 @@
       border-bottom: none;
       margin-bottom: 0.5em;
     }
-    h3 {
+    .chapter-name {
       word-wrap: break-word;
       width: 200px;
       text-align: center;
