@@ -1,0 +1,4 @@
+Sitemap: https://konstytucja.online/sitemap.xml
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
