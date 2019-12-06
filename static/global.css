@@ -47,6 +47,9 @@ a {
 li {
   list-style-type: none;
 }
+.article p {
+  text-align: justify;
+}
 
 code {
   font-family: menlo, inconsolata, monospace;
