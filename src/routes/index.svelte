@@ -169,7 +169,7 @@
 </nav>
 
 {#each articles as article}
-  {#if article.html.toLowerCase().includes(` ${searchValue}`)}
+  {#if article.html.toLowerCase().includes(` ${searchValue.toLowerCase()}`)}
     {#if article.chapter['id'] === selectedChapter || selectedChapter === '_'}
       <a rel="prefetch" href="/{article.slug}">
         <div id={article.slug} class="article">
@@ -179,7 +179,7 @@
         </div>
       </a>
     {/if}
-  {:else if article.title.toLowerCase().includes(searchValue)}
+  {:else if article.title.toLowerCase().includes(searchValue.toLowerCase())}
     <a rel="prefetch" href="/{article.slug}">
       <div id={article.slug} class="article">
         <strong>{article.title}</strong>
