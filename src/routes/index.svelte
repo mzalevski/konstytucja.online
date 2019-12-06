@@ -76,9 +76,42 @@
     justify-content: flex-end;
   }
 
-  /* @media (min-width: 480px) {
-
-  } */
+  @media (max-width: 450px) {
+    ul {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+      margin-bottom: 0.5em;
+    }
+    li a {
+      margin: 0em 0;
+      padding: 0.2em 0.5em;
+      text-align: center;
+    }
+    nav {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.5em;
+    }
+    .search-bar {
+      display: block;
+    }
+    #back-to-the-top-btn {
+      height: 25px;
+      width: 25px;
+    }
+    .chapter-pick, .search {
+      display: flex;
+    }
+    .chapter-pick select,
+    .search input {
+      margin: 0.2em 0;
+      width: 100%;
+    }
+    .article {
+      margin: 0.5em 0em;
+    }
+  }
 </style>
 
 <svelte:head>

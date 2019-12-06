@@ -24,6 +24,36 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
+  @media (max-width: 450px) {
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+    li a {
+      margin: 0em 0;
+      padding: 0.2em 0.5em;
+      text-align: center;
+    }
+    nav {
+      display: block;
+    }
+    .search-bar {
+      display: block;
+    }
+    #back-to-the-top-btn {
+      height: 25px;
+      width: 25px;
+    }
+    .chapter-pick,
+    .search {
+      display: flex;
+    }
+    .chapter-pick select,
+    .search input {
+      margin: 0.2em 0;
+      width: 100%;
+    }
+  }
 </style>
 
 <svelte:head>
