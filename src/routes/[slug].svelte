@@ -23,6 +23,10 @@
   .back {
     width: 60px;
   }
+  h3 {
+    /* padding-bottom: 1em; */
+    margin-top: 0.2em;
+  }
 
   .big-article-nav {
     display: flex;
@@ -80,6 +84,11 @@
       display: block;
       border-bottom: none;
       margin-bottom: 0.5em;
+    }
+    h3 {
+      word-wrap: break-word;
+      width: 200px;
+      text-align: center;
     }
   }
 </style>
