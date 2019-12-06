@@ -64,6 +64,24 @@
   .content :global(li) {
     margin: 0 0 0.5em 0;
   }
+    @media (max-width: 450px) {
+    ul {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+      margin-bottom: 0.5em;
+    }
+    li a {
+      margin: 0em 0;
+      padding: 0.2em 0.5em;
+      text-align: center;
+    }
+    nav {
+      display: block;
+      border-bottom: none;
+      margin-bottom: 0.5em;
+    }
+  }
 </style>
 
 <svelte:head>

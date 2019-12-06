@@ -37,8 +37,8 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 2em 1em;
   }
 
@@ -55,8 +55,7 @@
     background-position-x: 0.2em;
     background-position-y: 0.2em;
     background-size: 20px;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;

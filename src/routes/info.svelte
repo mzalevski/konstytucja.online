@@ -37,22 +37,6 @@
     nav {
       display: block;
     }
-    .search-bar {
-      display: block;
-    }
-    #back-to-the-top-btn {
-      height: 25px;
-      width: 25px;
-    }
-    .chapter-pick,
-    .search {
-      display: flex;
-    }
-    .chapter-pick select,
-    .search input {
-      margin: 0.2em 0;
-      width: 100%;
-    }
   }
 </style>
 
