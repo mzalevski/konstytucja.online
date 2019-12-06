@@ -78,7 +78,7 @@
     justify-content: flex-end;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 800px) {
     ul {
       display: flex;
       justify-content: center;

@@ -24,7 +24,6 @@
     width: 60px;
   }
   h3 {
-    /* padding-bottom: 1em; */
     margin-top: 0.2em;
   }
 
@@ -68,7 +67,7 @@
   .content :global(li) {
     margin: 0 0 0.5em 0;
   }
-    @media (max-width: 450px) {
+    @media (max-width: 800px) {
     ul {
       display: flex;
       justify-content: center;
