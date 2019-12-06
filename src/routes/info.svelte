@@ -58,7 +58,7 @@
 		<li><a href="mailto:konstytucja.online@gmail.com"><img src="envelope-regular.svg" alt=""/></a></li> -->
   </ul>
 </nav>
-<h2>Manifest</h2>
+<!-- <h2>Manifest</h2> -->
 <p>
   Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu prawa
   oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać
@@ -77,16 +77,17 @@
 
 <h3>Aplikacja mobilna</h3>
 
-<p>
+<!-- <p>
   Do Państwa dyspozycji jest nie tylko niniejsza strona internetowa, ale także
   aplikacja mobilna, która działa w trybie offline.
-</p>
+</p> -->
 
-<h3>Chrome (i inne przeglądarki oparte na Chromium)</h3>
+<!-- <h3>Chrome (i inne przeglądarki oparte na Chromium)</h3> -->
 <p>
   Po wejściu na stronę konstytucja.online na dole ekranu pojawi się komenda
   "Dodaj aplikację Konstytucja do ekranu głównego". Po kliknięciu tejże komendy,
   potwierdzamy klikając "Dodaj". Jak widać udało się dodać aplikację.
-  Konstytucja powinna pojawić się w spisie aplikacji
+  Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez
+  dostępu do internetu.
 </p>
 <!-- <img src="instrukcja_cala.png" alt="" srcset="" /> -->
