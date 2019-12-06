@@ -37,12 +37,13 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 4em;
-    height: 4em;
+    width: 2.5em;
+    height: 2.5em;
     margin: 2em 1em;
+    opacity: 0.5;
   }
   #back-to-the-top-btn img {
-    size: 4em;
+    size: 50%;
   }
 
   .chapter-pick select,
@@ -71,6 +72,7 @@
 
   .chapter-pick select {
     background-image: url("/chapter.png");
+    cursor: pointer;
   }
 
   .search-bar {
