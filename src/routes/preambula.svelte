@@ -44,8 +44,6 @@
     <li>
       <a href="info">Informacje</a>
     </li>
-    <!-- <li><a href="https://github.com/mzalevski/konstytucja.online"><img src="github-brands.svg" alt=""/></a></li>
-		<li><a href="mailto:konstytucja.online@gmail.com"><img src="envelope-regular.svg" alt=""/></a></li> -->
   </ul>
 </nav>
 <div in:fly={{ y: 200, duration: 2000 }}>
