@@ -164,7 +164,7 @@
         <option value="X">Rozdział X Finanse publiczne</option>
         <option value="XI">Rozdział XI Stany nadzwyczajne</option>
         <option value="XII">Rozdział XII Zmiana Konstytucji</option>
-        <option value="XII">
+        <option value="XIII">
           Rozdział XIII Przepisy przejściowe i końcowe
         </option>
       </select>
