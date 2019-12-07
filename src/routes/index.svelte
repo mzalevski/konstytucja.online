@@ -126,16 +126,14 @@
 <nav>
   <ul>
     <li>
-      <a href="preambula">Preambuła</a>
+      <a rel="prefetch" href="preambula">Preambuła</a>
     </li>
     <li>
       <a class="selected" rel="prefetch" href=".">Artykuły</a>
     </li>
     <li>
-      <a href="info">Informacje</a>
+      <a rel="prefetch" href="info">Informacje</a>
     </li>
-    <!-- <li><a href="https://github.com/mzalevski/konstytucja.online"><img src="github-brands.svg" alt=""/></a></li>
-		<li><a href="mailto:konstytucja.online@gmail.com"><img src="envelope-regular.svg" alt=""/></a></li> -->
   </ul>
   <div class="search-bar">
     <div class="search">

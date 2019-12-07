@@ -36,13 +36,13 @@
 <nav>
   <ul>
     <li>
-      <a class="selected" href="preambula">Preambuła</a>
+      <a class="selected" rel="prefetch" href="preambula">Preambuła</a>
     </li>
     <li>
       <a rel="prefetch" href=".">Artykuły</a>
     </li>
     <li>
-      <a href="info">Informacje</a>
+      <a rel="prefetch" href="info">Informacje</a>
     </li>
   </ul>
 </nav>

@@ -109,13 +109,13 @@
 <nav>
   <ul>
     <li>
-      <a href="preambula">Preambuła</a>
+      <a rel="prefetch" href="preambula">Preambuła</a>
     </li>
     <li>
       <a class="selected" rel="prefetch" href=".">Artykuły</a>
     </li>
     <li>
-      <a href="info">Informacje</a>
+      <a rel="prefetch" href="info">Informacje</a>
     </li>
   </ul>
 </nav>
@@ -126,7 +126,7 @@
   </h3>
   <div class="small-article-nav">
     {#if $page.params.slug > 1}
-      <a
+      <a rel="prefetch"
         href="/{parseInt($page.params.slug) - 1}"
         transition:fade={{ duration: 1000 }}
         on:click={() => (showComment = false)}>
@@ -134,7 +134,7 @@
       </a>
     {/if}
     {#if $page.params.slug < 243}
-      <a
+      <a rel="prefetch"
         href="/{parseInt($page.params.slug) + 1}"
         transition:fade={{ duration: 1000 }}
         on:click={() => (showComment = false)}>
