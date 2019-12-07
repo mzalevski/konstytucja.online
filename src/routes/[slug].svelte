@@ -117,8 +117,6 @@
     <li>
       <a href="info">Informacje</a>
     </li>
-    <!-- <li><a href="https://github.com/mzalevski/konstytucja.online"><img src="github-brands.svg" alt=""/></a></li>
-		<li><a href="mailto:konstytucja.online@gmail.com"><img src="envelope-regular.svg" alt=""/></a></li> -->
   </ul>
 </nav>
 <div class="big-article-nav">
@@ -161,8 +159,8 @@
     </button>
     {#if showComment}
       <div
-        in:fly={{ y: 100, duration: 2000 }}
-        out:fly={{ y: 100, duration: 1000 }}>
+        in:fade={{ duration: 1000 }}
+        out:fade={{ duration: 500 }}>
         <br />
         <br />
         <h3>Komentarz</h3>
