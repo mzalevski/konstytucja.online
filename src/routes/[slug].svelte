@@ -12,11 +12,22 @@
 </script>
 
 <script>
+  import { onMount } from "svelte";
   import { fly, fade } from "svelte/transition";
-  import { stores } from "@sapper/app";
+  import { stores, goto } from "@sapper/app";
   const { page } = stores();
   let showComment = false;
   export let article;
+
+  onMount(() => {
+    document.onkeydown = e => {
+      if (e.keyCode === 37) {
+        goto(`/${parseInt($page.params.slug) - 1}`);
+      } else if (e.keyCode === 39) {
+        goto(`/${parseInt($page.params.slug) + 1}`);
+      }
+    };
+  });
 </script>
 
 <style>
@@ -67,7 +78,7 @@
   .content :global(li) {
     margin: 0 0 0.5em 0;
   }
-    @media (max-width: 1000px) {
+  @media (max-width: 1000px) {
     ul {
       display: flex;
       justify-content: center;
@@ -149,8 +160,9 @@
       {/if}
     </button>
     {#if showComment}
-      <div in:fly={{ y: 100, duration: 2000 }}
-          out:fly={{ y: 100, duration: 1000 }}>
+      <div
+        in:fly={{ y: 100, duration: 2000 }}
+        out:fly={{ y: 100, duration: 1000 }}>
         <br />
         <br />
         <h3>Komentarz</h3>
