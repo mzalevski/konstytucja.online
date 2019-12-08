@@ -67,11 +67,11 @@
   }
 
   .search input {
-    background-image: url("/search.png");
+    background-image: url("/images/search.png");
   }
 
   .chapter-pick select {
-    background-image: url("/chapter.png");
+    background-image: url("/images/chapter.png");
     cursor: pointer;
   }
 

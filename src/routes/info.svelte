@@ -84,17 +84,12 @@
 
 <h3>Aplikacja mobilna</h3>
 
-<!-- <h3>Chrome (i inne przeglądarki oparte na Chromium)</h3> -->
 <p>
   <strong>Chrome</strong> (i inne przeglądarki oparte na Chromium, np. Brave). Po wejściu na stronę konstytucja.online na smartfonie na dole ekranu pojawi się komenda "Dodaj aplikację Konstytucja do ekranu głównego". Po kliknięciu tej komendy, potwierdzamy klikając "Dodaj". Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez dostępu do internetu. Jeżeli część treści nie będzie się ładować w trybie offline, to należy włączyć internet i przeładować stronę; przy następnym podejściu te treści będą widoczne także w trybie offline.
 </p>
-<img src="chrome-app-guide.png" alt="" srcset="" />
+<img src="images/chrome-app-guide.png" alt="" srcset="" />
 <p>
   <strong>Firefox.</strong> Po wejściu na stronę konstytucja.online na smartfonie u góry ekranu pojawi się ikonka domu z plusem w środku. Po kliknięciu ikonki potwierdzamy klikając "Dodaj do ekranu głównego". Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez dostępu do internetu. Jeżeli część treści nie będzie się ładować w trybie offline, to należy włączyć internet i przeładować stronę; przy następnym podejściu te treści będą widoczne także w trybie offline.
 </p>
-<img src="ff-app-guide.png" alt="" srcset="" />
-<!-- <p>
-  <strong>Safari (do zrobienia).</strong> Po wejściu na stronę konstytucja.online na smartfonie u góry ekranu pojawi się komenda "Dodaj aplikację Konstytucja do ekranu głównego". Po kliknięciu tejże komendy, potwierdzamy klikając "Dodaj". Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez dostępu do internetu.
-</p>
-<img src="ff-app-guide.png" alt="" srcset="" /> -->
+<img src="images/ff-app-guide.png" alt="" srcset="" />
 
