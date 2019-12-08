@@ -196,6 +196,6 @@
   <!-- ten transition się buguje -->
   <!-- transition:fly={{ y: 200, duration: 2000 }} -->
   <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
-    <img src="angle-double-up-solid.svg" alt="" />
+    <img src="images/angle-double-up-solid.svg" alt="" />
   </button>
 {/if}

@@ -130,7 +130,7 @@
         href="/{parseInt($page.params.slug) - 1}"
         transition:fade={{ duration: 1000 }}
         on:click={() => (showComment = false)}>
-        <img src="angle-left-solid.svg" alt="" />
+        <img src="images/angle-left-solid.svg" alt="" />
       </a>
     {/if}
     {#if $page.params.slug < 243}
@@ -138,7 +138,7 @@
         href="/{parseInt($page.params.slug) + 1}"
         transition:fade={{ duration: 1000 }}
         on:click={() => (showComment = false)}>
-        <img src="angle-right-solid.svg" alt="" />
+        <img src="images/angle-right-solid.svg" alt="" />
       </a>
     {/if}
   </div>
