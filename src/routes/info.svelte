@@ -8,11 +8,11 @@
     text-align: right;
     font-style: italic;
   }
-
-  h2 {
-    text-align: center;
+  .metadata {
+    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    padding-bottom: 1em;
+    margin-bottom: 2em;
   }
-
   img {
     width: 100%;
   }
@@ -56,17 +56,16 @@
     </li>
   </ul>
 </nav>
+<div class="metadata">
 <p>
   Konstytucja Rzeczypospolitej Polskiej (<a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483'>Dz.U. 1997 nr 78 poz. 483</a>) z dnia 2 kwietnia 1997 r. uchwalona przez Zgromadzenie Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum konstytucyjnym w dniu 25 maja 1997 r., podpisana przez Prezydenta Rzeczypospolitej Polskiej w dniu 16 lipca 1997 r.</p>
 <p>Akty zmieniające:</p>
 <ul>
-  <li><a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319'>Obwieszczenie Prezesa Rady Ministrów z dnia 26 marca 2001 r. o sprostowaniu błędów (Dz.U. 2001 nr 28 poz. 319)</a></li>
-  <li><a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20062001471'>Ustawa z dnia 8 września 2006 r. o zmianie Konstytucji Rzeczypospolitej Polskiej (Dz.U. 2006 nr 200 poz. 1471)</a></li>
-  <li><a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20091140946'>Ustawa z dnia 7 maja 2009 r. o zmianie Konstytucji Rzeczypospolitej Polskiej (Dz.U. 2009 nr 114 poz. 946)</a></li>
+  <li>1) <a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319'>Obwieszczenie Prezesa Rady Ministrów z dnia 26 marca 2001 r. o sprostowaniu błędów (Dz.U. 2001 nr 28 poz. 319)</a></li>
+  <li>2) <a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20062001471'>Ustawa z dnia 8 września 2006 r. o zmianie Konstytucji Rzeczypospolitej Polskiej (Dz.U. 2006 nr 200 poz. 1471)</a></li>
+  <li>3) <a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20091140946'>Ustawa z dnia 7 maja 2009 r. o zmianie Konstytucji Rzeczypospolitej Polskiej (Dz.U. 2009 nr 114 poz. 946)</a></li>
 </ul>
-<br>
-<hr>
-<br>
+</div>
 <p>
   Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu prawa
   oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać
