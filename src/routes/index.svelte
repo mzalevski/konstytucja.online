@@ -120,6 +120,9 @@
 
 <svelte:head>
   <title>Konstytucja</title>
+  <meta name="description" content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.">
+  <meta name="keywords" content="konstytucja, konstytucjarp, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
+  <meta name="konstytucja" content="website">
 </svelte:head>
 
 <svelte:window bind:scrollY={y} />

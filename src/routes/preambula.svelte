@@ -35,6 +35,9 @@
 
 <svelte:head>
   <title>Preambuła</title>
+  <meta name="description" content="Preambuła Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.">
+  <meta name="keywords" content="preambuła, konstytucja, konstytucjarp, preambuła konstytucji, preambulakonstytucja, preambula, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
+  <meta name="konstytucja" content="website">
 </svelte:head>
 <nav>
   <ul>

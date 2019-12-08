@@ -104,7 +104,10 @@
 </style>
 
 <svelte:head>
-  <title>{article.title}</title>
+  <title>{article.title} Konstytucji RP</title>
+  <meta name="description" content="{article.title} Konstytucji RP">
+  <meta name="keywords" content="{article.title} konstytucji rp, konstytucja {article.slug}, art {article.slug}, art. {article.title}, konstytucja, konstytucjarp, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
+  <meta name="konstytucja" content="website">
 </svelte:head>
 <nav>
   <ul>
