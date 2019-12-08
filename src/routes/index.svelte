@@ -135,7 +135,7 @@
       <a rel="prefetch" href="info">Informacje</a>
     </li>
   </ul>
-  <div class="search-bar">
+  <div class="search-bar" in:fly={{ y: -100, duration: 1000 }}>
     <div class="search">
       <input bind:value={searchValue} />
     </div>
@@ -169,10 +169,19 @@
     </div>
   </div>
 </nav>
-
-{#each articles as article}
-  {#if article.html.toLowerCase().includes(` ${searchValue.toLowerCase()}`)}
-    {#if article.chapter['id'] === selectedChapter || selectedChapter === '_'}
+<div in:fly={{y: 100, duration: 1000}}>
+  {#each articles as article}
+    {#if article.html.toLowerCase().includes(` ${searchValue.toLowerCase()}`)}
+      {#if article.chapter['id'] === selectedChapter || selectedChapter === '_'}
+        <a rel="prefetch" href="/{article.slug}">
+          <div id={article.slug} class="article">
+            <strong>{article.title}</strong>
+            <span>({article.chapter['id']} {article.chapter['title']})</span>
+            {@html article.html}
+          </div>
+        </a>
+      {/if}
+    {:else if article.title.toLowerCase().includes(searchValue.toLowerCase())}
       <a rel="prefetch" href="/{article.slug}">
         <div id={article.slug} class="article">
           <strong>{article.title}</strong>
@@ -181,21 +190,12 @@
         </div>
       </a>
     {/if}
-  {:else if article.title.toLowerCase().includes(searchValue.toLowerCase())}
-    <a rel="prefetch" href="/{article.slug}">
-      <div id={article.slug} class="article">
-        <strong>{article.title}</strong>
-        <span>({article.chapter['id']} {article.chapter['title']})</span>
-        {@html article.html}
-      </div>
-    </a>
-  {/if}
-{/each}
-
+  {/each}
+</div>
 {#if y > 300}
-  <!-- ten transition się buguje -->
-  <!-- transition:fly={{ y: 200, duration: 2000 }} -->
-  <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
-    <img src="images/angle-double-up-solid.svg" alt="" />
-  </button>
+<!-- ten transition się buguje -->
+<!-- transition:fly={{ y: 200, duration: 2000 }} -->
+<button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
+  <img src="images/angle-double-up-solid.svg" alt="" />
+</button>
 {/if}

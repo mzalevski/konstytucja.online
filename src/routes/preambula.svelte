@@ -9,6 +9,9 @@
   a {
     text-decoration: none;
   }
+  .preamble {
+    padding: 1em 3em;
+  }
 
   a:focus,
   a:hover {
@@ -46,7 +49,7 @@
     </li>
   </ul>
 </nav>
-<div in:fly={{ y: 200, duration: 2000 }}>
+<div class="preamble" in:fly={{ y: 100, duration: 1000 }}>
   <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
   <p>
     odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego stanowienia

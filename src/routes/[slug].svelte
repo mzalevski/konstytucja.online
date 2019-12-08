@@ -146,7 +146,7 @@
 
 <h1>{article.title}</h1>
 
-<div class="content">
+<div in:fade={{duration: 1000}} class="content">
   {@html article.html}
 
   {#if article.desc != ``}
