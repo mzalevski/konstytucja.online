@@ -26,8 +26,15 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
+
+  ol {
+    padding-left: 2em;
+  }
   ol li {
     list-style-type: decimal;
+  }
+  ol li a {
+    padding: 0;
   }
   @media (max-width: 1000px) {
     nav ul {
