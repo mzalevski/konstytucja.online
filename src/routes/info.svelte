@@ -36,6 +36,7 @@
   ol li a {
     padding: 0;
   }
+
   @media (max-width: 1000px) {
     nav ul {
       display: flex;
@@ -45,6 +46,9 @@
       margin: 0em 0;
       padding: 0.2em 0.5em;
       text-align: center;
+    }
+    ol li {
+      text-align: justify;
     }
     nav {
       display: block;
