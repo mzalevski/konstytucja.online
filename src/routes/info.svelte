@@ -105,7 +105,7 @@
   <h3>Aplikacja mobilna</h3>
 
   <p>
-    <strong>Chrome</strong> (i inne przeglądarki oparte na Chromium, np. Brave). Po wejściu na stronę konstytucja.online na smartfonie na dole ekranu pojawi się komenda "Dodaj aplikację Konstytucja do ekranu głównego". Po kliknięciu tej komendy, potwierdzamy klikając "Dodaj". Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez dostępu do internetu. Jeżeli część treści nie będzie się ładować w trybie offline, to należy włączyć internet i przeładować stronę; przy następnym podejściu te treści będą widoczne także w trybie offline.
+    <strong>Chrome</strong> (i inne przeglądarki oparte na Chromium, np. Opera, Brave). Po wejściu na stronę konstytucja.online na smartfonie na dole ekranu pojawi się komenda "Dodaj aplikację Konstytucja do ekranu głównego". Po kliknięciu tej komendy, potwierdzamy klikając "Dodaj". Konstytucja powinna pojawić się w spisie aplikacji. Aplikacja działa także bez dostępu do internetu. Jeżeli część treści nie będzie się ładować w trybie offline, to należy włączyć internet i przeładować stronę; przy następnym podejściu te treści będą widoczne także w trybie offline.
   </p>
   <img src="images/chrome-app-guide.png" alt="" srcset="" />
   <p>
