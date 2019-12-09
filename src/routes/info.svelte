@@ -11,8 +11,8 @@
   }
   .metadata {
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    padding-bottom: 2em;
-    margin-bottom: 3em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
     margin-top: 2em;
   }
   img {
