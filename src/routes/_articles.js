@@ -579,7 +579,7 @@ const articles = [
 		<p>[8] Rezolucja Zgromadzenia Ogólnego ONZ 3452(XXX)</p>
 		<p>[9] Dz. U. z 1989‏. Nr 63, poz. 378</p>
 		<p>[10] Por. Sprawa Al Nashiri przeciwko Polsce (skarga nr 28761/11, wyrok z dnia 24.07.2014‏)</p>
-		<p>[11] Por. sprawa Piechowicz przeciwko Polsce (skarga nr 2007 r.1/07, wyrok z dnia 17.04.2012 r‏.)</p>
+		<p>[11] Por. sprawa Piechowicz przeciwko Polsce (skarga nr 2007 r. 1/07, wyrok z dnia 17.04.2012 r‏.)</p>
 		<p>[12] Już wówczas kilka organizacji międzynarodowych połączyło swoje siły w celu znalezienia dodatkowych, bardziej pragmatycznych, sposobów zapobiegania takim nadużyciom. Szwajcarski filantrop Jean Jacques Gautier, zainspirowany wynikami wizyt więzień przeprowadzanych przez Międzynarodowy Komitet Czerwonego Krzyża podczas wojny, starał się stworzyć system regularnych wizyt wszystkich miejsc zatrzymań na całym świecie. W 1977 r‏. powołał Stowarzyszenie Zapobiegania Torturom (APT), niezależną organizację pozarządową z siedzibą w Genewie, która od początku broniła prostej, lecz nowatorskiej zasady wysuniętej przez niego, iż wizytowanie miejsc, w których przebywają ludzie pozbawieni wolności to najbardziej skuteczna metoda zapobiegania torturom i maltretowaniu. Przez wiele lat członkowie APT zabiegali o utworzenie takiego systemu w strukturach ONZ.</p>
 		<p>[13] Dz. U. z 2007 r. nr 30, poz. 192</p>
 		<p>[14] Dz. U. z 2014 r., poz. 1648</p>
@@ -1313,7 +1313,7 @@ const articles = [
 		`,
 		desc: `
 			<p>1. Przepis ten obejmuje każdego, komu została wyrządzona szkoda przez niezgodne z prawem działanie organu władzy publicznej. Ponadto oznacza on, że prawo do wynagrodzenia szkody przysługuje nie tylko obywatelowi polskiemu, ale także obcokrajowcom. Komentatorzy wskazują różne źródła potencjalnej szkody, spowodowanej działaniem władz publicznych: jednostkowe działania faktyczne (czynności materialno-techniczne), wydanie aktu indywidualnego (orzeczeń sądowych, aktów administracyjnych), nienormatywne akty generalne, akty normatywne (z ustawami włącznie). Konieczną przesłanką uzasadniającą roszczenie o wynagrodzenie szkody, jest stwierdzenie niezgodności z prawem działań organów władzy publicznej.</p>
-			<p>2. Regulacja ta ma uniwersalny wymiar. Gwarantuje drogę sądową nie tylko w sprawach o roszczenia odszkodowawcze wobec władzy publicznej, ale również gwarantuje drogę sądową w orzekaniu o wszelkich przypadkach naruszenia praw i wolności. Prawo do sądu należy do jednych z podstawowych praw jednostki i stanowi jedną z fundamentalnych gwarancji praworządności. Komentatorzy podkreślają, że zakres przedmiotowy ustępu 2 ma nieporównywalnie szerszy charakter i wiąże się raczej z <a href='/45'>art. 45</a> ust. 1 Konstytucji niż z art. 77 ust.1. Oba wspomniane przepisy nie powtarzają swojej treści, <a href='/45'>art. 45</a> stanowi pozytywne ujęcie prawa do sądu, natomiast art. 77 ust 2. negatywne. Art. 77 ust. 2 dotyczy dochodzenia naruszonych wolności i praw zagwarantowanych w Konstytucji RP. Sąd Najwyższy stwierdził, że posługuje się on pojęciem drogi sądowej w szerokim znaczeniu, obejmującej postępowanie przed jakimkolwiek sądem przewidzianym w <a href='/175'>art. 175</a> Konstytucji, a więc przed Sądem Najwyższym, sądami powszechnym, administracyjnymi i wojskowymi.</p>
+			<p>2. Regulacja ta ma uniwersalny wymiar. Gwarantuje drogę sądową nie tylko w sprawach o roszczenia odszkodowawcze wobec władzy publicznej, ale również gwarantuje drogę sądową w orzekaniu o wszelkich przypadkach naruszenia praw i wolności. Prawo do sądu należy do jednych z podstawowych praw jednostki i stanowi jedną z fundamentalnych gwarancji praworządności. Komentatorzy podkreślają, że zakres przedmiotowy ustępu 2 ma nieporównywalnie szerszy charakter i wiąże się raczej z <a href='/45'>art. 45</a> ust. 1 Konstytucji niż z art. 77 ust. 1. Oba wspomniane przepisy nie powtarzają swojej treści, <a href='/45'>art. 45</a> stanowi pozytywne ujęcie prawa do sądu, natomiast art. 77 ust 2. negatywne. Art. 77 ust. 2 dotyczy dochodzenia naruszonych wolności i praw zagwarantowanych w Konstytucji RP. Sąd Najwyższy stwierdził, że posługuje się on pojęciem drogi sądowej w szerokim znaczeniu, obejmującej postępowanie przed jakimkolwiek sądem przewidzianym w <a href='/175'>art. 175</a> Konstytucji, a więc przed Sądem Najwyższym, sądami powszechnym, administracyjnymi i wojskowymi.</p>
 		`
 	},
 	{
@@ -2851,7 +2851,7 @@ const articles = [
 			title: "Sądy i Trybunały"
 		},
 		html: `
-			<p>1.Krajowa Rada Sądownictwa składa się z:</p>
+			<p>1. Krajowa Rada Sądownictwa składa się z:</p>
 			<ul>
 				<li>1) Pierwszego Prezesa Sądu Najwyższego, Ministra Sprawiedliwości, Prezesa Naczelnego Sądu Administracyjnego i osoby powołanej przez Prezydenta Rzeczypospolitej,</li>
 				<li>2) piętnastu członków wybranych spośród sędziów Sądu Najwyższego, sądów powszechnych, sądów administracyjnych i sądów wojskowych,</li>
