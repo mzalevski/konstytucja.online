@@ -73,6 +73,7 @@
   .chapter-pick select {
     background-image: url("/images/chapter.png");
     cursor: pointer;
+    height: 1em;
   }
 
   .search-bar {
