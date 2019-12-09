@@ -10,7 +10,8 @@
     text-decoration: none;
   }
   .preamble {
-    padding: 1em 3em;
+    padding: 0 3em;
+    margin-top: 2em;
   }
 
   a:focus,
