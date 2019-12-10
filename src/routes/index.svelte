@@ -10,6 +10,7 @@
 
 <script>
   import { fly, fade } from "svelte/transition";
+  import Article from "../components/Article.svelte";
   let y;
   let searchValue = "";
   let selectedChapter = "_";
@@ -17,21 +18,6 @@
 </script>
 
 <style>
-  .article {
-    margin: 1em 0em;
-    padding: 1em;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-  }
-  a {
-    text-decoration: none;
-  }
-
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
-
   #back-to-the-top-btn {
     display: block;
     position: fixed;
@@ -105,7 +91,8 @@
       height: 25px;
       width: 25px;
     }
-    .chapter-pick, .search {
+    .chapter-pick,
+    .search {
       display: flex;
     }
     .chapter-pick select,
@@ -113,17 +100,21 @@
       margin: 0.2em 0;
       width: 100%;
     }
-    .article {
-      margin: 0.5em 0em;
-    }
   }
 </style>
 
 <svelte:head>
   <title>Konstytucja</title>
-  <meta name="description" content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.">
-  <meta name="keywords" content="konstytucja, konstytucjarp, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
-  <meta name="konstytucja" content="website">
+  <meta
+    name="description"
+    content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+    1997 r." />
+  <meta
+    name="keywords"
+    content="konstytucja, konstytucjarp, konstytucjaonline, online, prawo,
+    konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
+    rada ministrów, sejm, senat" />
+  <meta name="konstytucja" content="website" />
 </svelte:head>
 
 <svelte:window bind:scrollY={y} />
@@ -173,33 +164,25 @@
     </div>
   </div>
 </nav>
-<div in:fly={{y: 100, duration: 1000}}>
+<div in:fly={{ y: 100, duration: 1000 }}>
   {#each articles as article}
     {#if article.html.toLowerCase().includes(` ${searchValue.toLowerCase()}`)}
       {#if article.chapter['id'] === selectedChapter || selectedChapter === '_'}
-        <a rel="prefetch" href="/{article.slug}">
-          <div id={article.slug} class="article">
-            <strong>{article.title}</strong>
-            <span>({article.chapter['id']} {article.chapter['title']})</span>
-            {@html article.html}
-          </div>
-        </a>
+        <Article {...article} />
       {/if}
     {:else if article.title.toLowerCase().includes(searchValue.toLowerCase())}
-      <a rel="prefetch" href="/{article.slug}">
-        <div id={article.slug} class="article">
-          <strong>{article.title}</strong>
-          <span>({article.chapter['id']} {article.chapter['title']})</span>
-          {@html article.html}
-        </div>
-      </a>
+      <Article {...article} />
+    {:else if article.chapter['title']
+      .toLowerCase()
+      .includes(searchValue.toLowerCase())}
+      <Article {...article} />
     {/if}
   {/each}
 </div>
 {#if y > 300}
-<!-- ten transition się buguje -->
-<!-- transition:fly={{ y: 200, duration: 2000 }} -->
-<button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
-  <img src="images/angle-double-up-solid.svg" alt="" />
-</button>
+  <!-- ten transition się buguje -->
+  <!-- transition:fly={{ y: 200, duration: 2000 }} -->
+  <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
+    <img src="images/angle-double-up-solid.svg" alt="" />
+  </button>
 {/if}

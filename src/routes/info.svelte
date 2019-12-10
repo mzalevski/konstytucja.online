@@ -9,7 +9,7 @@
     text-align: right;
     font-style: italic;
   }
-  .metadata {
+  .cnstttn-act-info {
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
     padding-bottom: 1em;
     margin-bottom: 2em;
@@ -17,9 +17,6 @@
   }
   img {
     width: 100%;
-  }
-  a {
-    text-decoration: none;
   }
 
   a:focus,
@@ -75,8 +72,8 @@
     </li>
   </ul>
 </nav>
-<div class="info" in:fly={{ y: 100, duration: 1000 }}>
-  <div class="metadata">
+<div in:fly={{ y: 100, duration: 1000 }}>
+  <div class="cnstttn-act-info">
     <p>
       Konstytucja Rzeczypospolitej Polskiej (<a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483'>Dz.U. 1997 nr 78 poz. 483</a>) z dnia 2 kwietnia 1997 r. uchwalona przez Zgromadzenie Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum konstytucyjnym w dniu 25 maja 1997 r., podpisana przez Prezydenta Rzeczypospolitej Polskiej w dniu 16 lipca 1997 r.</p>
     <p>Akty zmieniające:</p>

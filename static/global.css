@@ -33,7 +33,6 @@ h6 {
   line-height: 1;
 }
 
-
 h1 {
   font-size: 2em;
   text-align: center;
@@ -41,6 +40,8 @@ h1 {
 }
 
 a {
+  /* otherwise the color is blue */
+  text-decoration: none;
   color: inherit;
 }
 
@@ -105,6 +106,10 @@ nav a {
   text-decoration: none;
   padding: 1em 1em 1em 0em;
   display: block;
+}
+nav a:focus,
+nav a:hover {
+  color: rgb(160, 40, 40);
 }
 .low-opacity {
   color: rgba(0, 0, 0, 0.3);
