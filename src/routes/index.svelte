@@ -180,8 +180,7 @@
   {/each}
 </div>
 {#if y > 300}
-  <!-- ten transition się buguje -->
-  <!-- transition:fly={{ y: 200, duration: 2000 }} -->
+  <!-- ten transition się buguje transition:fly={{ y: 200, duration: 2000 }} -->
   <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
     <img src="images/angle-double-up-solid.svg" alt="" />
   </button>

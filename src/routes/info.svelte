@@ -8,6 +8,7 @@
   .signature {
     text-align: right;
     font-style: italic;
+    text-decoration: underline;
   }
   .cnstttn-act-info {
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
