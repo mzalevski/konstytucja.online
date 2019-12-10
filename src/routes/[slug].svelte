@@ -21,9 +21,11 @@
 
   onMount(() => {
     document.onkeydown = e => {
-      if (e.keyCode === 37) {
+      if (e.keyCode === 37 && $page.params.slug > 1) {
+        showComment = false;
         goto(`/${parseInt($page.params.slug) - 1}`);
-      } else if (e.keyCode === 39) {
+      } else if (e.keyCode === 39 && $page.params.slug < 243) {
+        showComment = false;
         goto(`/${parseInt($page.params.slug) + 1}`);
       }
     };
