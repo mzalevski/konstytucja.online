@@ -1,5 +1,6 @@
 <script>
   import { fly } from "svelte/transition";
+  import Nav from "../components/Nav.svelte";
 </script>
 
 <style>
@@ -7,9 +8,6 @@
     text-align: center;
     font-size: 1.5em;
     margin-top: 0;
-  }
-  a {
-    text-decoration: none;
   }
   .decor-border {
     padding: 3em;
@@ -20,24 +18,7 @@
   .bc3 { border-color: rgba(160, 40, 40, 0.5) }
   .bc4 { border-color: rgba(160, 40, 40, 0.65) }
 
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
-
   @media (max-width: 1000px) {
-    ul {
-      display: flex;
-      justify-content: center;
-    }
-    li a {
-      margin: 0em 0;
-      padding: 0.2em 0.5em;
-      text-align: center;
-    }
-    nav {
-      display: block;
-    }
     .bc1, .bc2, .bc3, .bc4 {
       padding: 0;
       border-color: transparent;
@@ -51,19 +32,9 @@
   <meta name="keywords" content="preambuła, konstytucja, konstytucjarp, preambuła konstytucji, preambulakonstytucja, preambula, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
   <meta name="konstytucja" content="website">
 </svelte:head>
-<nav>
-  <ul>
-    <li>
-      <a class="selected" rel="prefetch" href="preambula">Preambuła</a>
-    </li>
-    <li>
-      <a rel="prefetch" href=".">Artykuły</a>
-    </li>
-    <li>
-      <a rel="prefetch" href="info">Informacje</a>
-    </li>
-  </ul>
-</nav>
+
+<Nav segment={'preambula'}/>
+
 <div class="decor-border bc1"in:fly={{ y: 40, duration: 400 }}>
   <div class="decor-border bc2"in:fly={{ y: 100, duration: 1000 }}>
     <div class="decor-border bc3"in:fly={{ y: 140, duration: 1400 }}>

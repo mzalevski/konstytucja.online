@@ -11,97 +11,13 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Article from "../components/Article.svelte";
-  let y;
-  let searchValue = "";
-  let selectedChapter = "_";
+  import Nav from "../components/Nav.svelte";
+  import Search from "../components/Search.svelte";
+  import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
+  import { searchedText, selectedChapter } from "../stores";
+  let yAxisPosition;
   export let articles;
 </script>
-
-<style>
-  #back-to-the-top-btn {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 2.5em;
-    height: 2.5em;
-    margin: 2em 1em;
-    opacity: 0.5;
-  }
-  #back-to-the-top-btn img {
-    size: 50%;
-  }
-
-  .chapter-pick select,
-  .search input {
-    box-sizing: content-box;
-    margin: 12px 0px 16px 8px;
-    border: dotted 1px;
-    min-width: 15em;
-    min-height: 2em;
-    outline: none;
-    padding: 0 15px 0 30px;
-    border-color: rgba(0, 0, 0, 0.3);
-    background-position-x: 0.2em;
-    background-position-y: 0.2em;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(255, 255, 255);
-  }
-
-  .search input {
-    background-image: url("/images/search.png");
-  }
-
-  .chapter-pick select {
-    background-image: url("/images/chapter.png");
-    cursor: pointer;
-    height: 1em;
-  }
-
-  .search-bar {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  @media (max-width: 1000px) {
-    ul {
-      display: flex;
-      justify-content: center;
-      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-      margin-bottom: 0.5em;
-    }
-    li a {
-      margin: 0em 0;
-      padding: 0.2em 0.5em;
-      text-align: center;
-    }
-    nav {
-      display: block;
-      border-bottom: none;
-      margin-bottom: 0.5em;
-    }
-    .search-bar {
-      display: block;
-    }
-    #back-to-the-top-btn {
-      height: 25px;
-      width: 25px;
-    }
-    .chapter-pick,
-    .search {
-      display: flex;
-    }
-    .chapter-pick select,
-    .search input {
-      margin: 0.2em 0;
-      width: 100%;
-    }
-  }
-</style>
 
 <svelte:head>
   <title>Konstytucja</title>
@@ -117,71 +33,28 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<svelte:window bind:scrollY={y} />
-<nav>
-  <ul>
-    <li>
-      <a rel="prefetch" href="preambula">Preambuła</a>
-    </li>
-    <li>
-      <a class="selected" rel="prefetch" href=".">Artykuły</a>
-    </li>
-    <li>
-      <a rel="prefetch" href="info">Informacje</a>
-    </li>
-  </ul>
-  <div class="search-bar" in:fly={{ y: -100, duration: 1000 }}>
-    <div class="search">
-      <input bind:value={searchValue} />
-    </div>
-    <div class="chapter-pick">
-      <select bind:value={selectedChapter}>
-        <option value="_">Wszystkie rozdziały</option>
-        <option value="I">Rozdział I Rzeczpospolita</option>
-        <option value="II">
-          Rozdział II Wolności, prawa i obowiązki człowieka i obywatela
-        </option>
-        <option value="III">Rozdział III Źródła prawa</option>
-        <option value="IV">Rozdział IV Sejm i Senat</option>
-        <option value="V">
-          Rozdział V Prezydent Rzeczypospolitej Polskiej
-        </option>
-        <option value="VI">
-          Rozdział VI Rada Ministrów i administracja rządowa
-        </option>
-        <option value="VII">Rozdział VII Samorząd terytorialny</option>
-        <option value="VIII">Rozdział VIII Sądy i Trybunały</option>
-        <option value="IX">
-          Rozdział IX Organy kontroli państwowej i ochrony prawa
-        </option>
-        <option value="X">Rozdział X Finanse publiczne</option>
-        <option value="XI">Rozdział XI Stany nadzwyczajne</option>
-        <option value="XII">Rozdział XII Zmiana Konstytucji</option>
-        <option value="XIII">
-          Rozdział XIII Przepisy przejściowe i końcowe
-        </option>
-      </select>
-    </div>
-  </div>
-</nav>
+<svelte:window bind:scrollY={yAxisPosition} />
+
+<Nav>
+  <Search />
+</Nav>
+
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#each articles as article}
-    {#if article.html.toLowerCase().includes(` ${searchValue.toLowerCase()}`)}
-      {#if article.chapter['id'] === selectedChapter || selectedChapter === '_'}
+    {#if article.html.toLowerCase().includes(` ${$searchedText.toLowerCase()}`)}
+      {#if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
         <Article {...article} />
       {/if}
-    {:else if article.title.toLowerCase().includes(searchValue.toLowerCase())}
+    {:else if article.title.toLowerCase().includes($searchedText.toLowerCase())}
       <Article {...article} />
-    {:else if article.chapter['title']
-      .toLowerCase()
-      .includes(searchValue.toLowerCase())}
-      <Article {...article} />
+    {:else if article.chapter['title'].toLowerCase().includes($searchedText.toLowerCase())}
+      {#if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
+        <Article {...article} />
+      {/if}
     {/if}
   {/each}
 </div>
-{#if y > 300}
-  <!-- ten transition się buguje transition:fly={{ y: 200, duration: 2000 }} -->
-  <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
-    <img src="images/angle-double-up-solid.svg" alt="" />
-  </button>
+
+{#if yAxisPosition > 300}
+  <ToTheTopBtn />
 {/if}

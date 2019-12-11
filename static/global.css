@@ -8,8 +8,8 @@ html {
 
 body {
   margin: 0;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
@@ -32,87 +32,15 @@ h6 {
   font-weight: 400;
   line-height: 1;
 }
-
-h1 {
-  font-size: 2em;
-  text-align: center;
-  margin: 1em;
-}
-
 a {
-  /* otherwise the color is blue */
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
 }
-
+.art-scroll:hover {
+  color: rgb(200, 40, 40)
+}
 li {
   list-style-type: none;
-}
-p {
-  text-align: justify;
-}
-
-code {
-  font-family: menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
-  color: #555;
-  background-color: #f0f0f0;
-  padding: 0.2em 0.4em;
-  border-radius: 2px;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-  font-weight: 300;
-  padding: 0 0em;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  max-width: 65em;
-}
-nav ul {
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-nav li {
-  display: block;
-  float: left;
-}
-nav .selected {
-  position: relative;
-  display: inline-block;
-}
-
-nav .selected::after {
-  position: absolute;
-
-  content: "";
-  width: calc(100% - 1em);
-  height: 2px;
-  background-color: rgb(160, 40, 40);
-  display: block;
-  bottom: -1px;
-}
-
-nav a {
-  text-decoration: none;
-  padding: 1em 1em 1em 0em;
-  display: block;
-}
-nav a:focus,
-nav a:hover {
-  color: rgb(160, 40, 40);
-}
-.low-opacity {
-  color: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 500px) {

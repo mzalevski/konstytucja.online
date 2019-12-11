@@ -11,12 +11,16 @@
     padding: 1em;
     border: dotted 1px;
     border-color: rgba(0, 0, 0, 0.3);
+    text-align: justify;
   }
+
   a {
     text-decoration: none;
+    cursor: pointer;
   }
-  a:focus,
-  a:hover {
+
+  .article:focus,
+  .article:hover {
     color: rgb(160, 40, 40);
   }
   @media (max-width: 1000px) {

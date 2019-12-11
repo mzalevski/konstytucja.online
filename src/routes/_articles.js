@@ -282,7 +282,7 @@ const articles = [
 			title: "Rzeczpospolita"
 		},
 		html: `
-			<p>Podstawą ustroju rolnego państwa jest gospodarstwo rodzinne. Zasada ta nie narusza postanowień <a href='/21'>art. 21</a> i <a href='/22'>art. 22.</a></p>
+			<p>Podstawą ustroju rolnego państwa jest gospodarstwo rodzinne. Zasada ta nie narusza postanowień <a class="art-scroll" href='/21'>art. 21</a> i <a class="art-scroll" href='/22'>art. 22.</a></p>
 		`,
 		desc: ``
 	},
@@ -428,7 +428,7 @@ const articles = [
 			<p>2. Kobieta i mężczyzna mają w szczególności równe prawo do kształcenia, zatrudnienia i awansów, do jednakowego wynagradzania za pracę jednakowej wartości, do zabezpieczenia społecznego oraz do zajmowania stanowisk, pełnienia funkcji oraz uzyskiwania godności publicznych i odznaczeń.</p>
 		`,
 		desc: `
-			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie <a href='/32'>art. 32</a>.
+			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie <a class="art-scroll" href='/32'>art. 32</a>.
 			<p>To kolejna z norm, którą można rozpatrywać w trzech wymiarach: jako zasadę porządku konstytucyjnego, jako zasadę systemu praw i wolności jednostki oraz jako prawo podmiotowe.</p>
 			<p>Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 EKPCz. Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi.</p>
 			<p>W płaszczyźnie m.in. praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
@@ -471,7 +471,7 @@ const articles = [
 		`,
 		desc: `
 		<p>Naród Polski tworzą wszyscy obywatele, także przedstawiciele mniejszości. Każda osoba, która przynależy do danej mniejszości może samodzielnie zdecydować, czy życzy sobie ujawniać te informacje i być traktowana jak członek mniejszości. Władza publiczna ma respektować taką decyzję.</p>
-		<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
+		<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a class="art-scroll" href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
 		<ul>
 			<li>1) zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
 			<li>2) zasady równego traktowania i</li>
@@ -512,7 +512,7 @@ const articles = [
 			<p>Rozwój międzynarodowych regulacji praw człowieka w II połowie XX wieku doprowadził do uznania, że pewne prawa przysługują jednostkom niezależnie od ich przynależności państwowej. Różnicowanie sytuacji obywateli danego państwa i cudzoziemców może być dopuszczalne tylko w uzasadnionych przypadkach.</p>
 			<p>Dlatego wszystkie prawa i wolności, których Konstytucja nie zastrzega dla obywateli, przysługują także cudzoziemcom.</p>
 			<p>Pod władzą RP znajdują się przede wszystkim osoby, które przebywają na terytorium Polski (w rozumieniu regulacji prawa międzynarodowego) lub są poddane polskim regulacjom prawnym.</p>
-			<p>Wyjątki od zasady uniwersalności mogą odnosić się jedynie do cudzoziemców i muszą zostać ustanowione w ustawie. Dopuszczalny zakres wyjątków należy ustalić w relacji z <a href='/31'>art. 31</a> ust. 3, <a href='/32'>art. 32</a> (zasada równości) oraz <a href='/30'>art. 30</a> Konstytucji (zasada godności).</p>
+			<p>Wyjątki od zasady uniwersalności mogą odnosić się jedynie do cudzoziemców i muszą zostać ustanowione w ustawie. Dopuszczalny zakres wyjątków należy ustalić w relacji z <a class="art-scroll" href='/31'>art. 31</a> ust. 3, <a class="art-scroll" href='/32'>art. 32</a> (zasada równości) oraz <a class="art-scroll" href='/30'>art. 30</a> Konstytucji (zasada godności).</p>
 		`
 	},
 	{
@@ -543,7 +543,7 @@ const articles = [
 		`,
 		desc: `
 			<p>Rozwój medycyny i nauk biologicznych stawia nowe wyzwania dla ochrony praw człowieka i realizacji podstawowych praw i wolności konstytucyjnych.</p>
-			<p>Z Konstytucji wynika, że eksperymenty medyczne oraz inne nie mogą być obarczone świadomym ryzykiem negatywnych skutków dla osób poddanych eksperymentowi. Dobrowolnie wyrażona zgoda na udział w eksperymencie powinna być zawsze udzielona indywidualnie, a nie w sposób zbiorowy. Dobrowolność zgody oznacza również pełne poinformowanie o celach, przebiegu oraz możliwych następstwach poddania się procedurze. Eksperymentem naukowym może być jedynie eksperyment przeprowadzony przez osoby posiadające odpowiednią wiedzę i uprawnienia. Zagadnienia związane z bioetyką i prawami człowieka zostały opisane przy <a href='/38'>art. 38</a> (Prawo do ochrony życia)</p>
+			<p>Z Konstytucji wynika, że eksperymenty medyczne oraz inne nie mogą być obarczone świadomym ryzykiem negatywnych skutków dla osób poddanych eksperymentowi. Dobrowolnie wyrażona zgoda na udział w eksperymencie powinna być zawsze udzielona indywidualnie, a nie w sposób zbiorowy. Dobrowolność zgody oznacza również pełne poinformowanie o celach, przebiegu oraz możliwych następstwach poddania się procedurze. Eksperymentem naukowym może być jedynie eksperyment przeprowadzony przez osoby posiadające odpowiednią wiedzę i uprawnienia. Zagadnienia związane z bioetyką i prawami człowieka zostały opisane przy <a class="art-scroll" href='/38'>art. 38</a> (Prawo do ochrony życia)</p>
 		`
 	},
 	{
@@ -601,9 +601,9 @@ const articles = [
 		`,
 		desc: `
 		<p>1. Wolnością osobistą jest możliwość swobodnego określania przez jednostkę swojego zachowania i postępowania, nieograniczoną przez jakiekolwiek inne czynniki ludzkie. Umożliwia faktyczne korzystanie z pozostałych praw i wolności. Wolność osobista nie jest jednak absolutna – możliwość określania swojego zachowania musi mieścić się w obowiązujących granicach prawnych. W ścisłym związku z wolnością osobistą pozostaje nietykalność osobista. Jest to zagwarantowana możliwość utrzymywania tożsamości i integralności (fizycznej i psychicznej) oraz zakaz bezpośredniej lub pośredniej ingerencji z zewnątrz. Nietykalność osobista ma bezpośredni związek z zasadą godności, posiada wymiar absolutny i ustawy nie mogą jej ograniczać. Ustawy powinny uregulować zasady i tryb ograniczania lub pozbawiania wolności osobistej.</p>
-		<p>2 i 3. Pozbawienie wolności osobistej nie oznacza pozbawienia jednostki możliwości decydowania o sobie, ale jedynie pozbawienie wolności osobistej sensu stricto. O pozbawieniu wolności orzeka sąd (prawo jednostki do sądu wynika z <a href='/45'>art. 45</a> Konstytucji). Zasada ta nie ma zastosowania do sytuacji ograniczenia wolności, chyba, że uzna tak ustawodawca. Konstytucja posługuje się także pojęciem „zatrzymanie”, które umożliwia innym instytucjom publicznym ingerencję w wolność. Musi się ono odbywać jednak wyjątkowo, w trybie i sytuacjach określonych na podstawie przepisów ustawy. Przedstawiciele władzy w momencie zatrzymania mają obowiązek niezwłocznego poinformowania zatrzymanego o przyczynach ich ingerencji. Poinformowanie to powinno polegać również na wskazaniu konieczności danej interwencji w formie zatrzymania. Informacja ta powinna zostać przekazana niezwłocznie (gdy będzie to możliwe) oraz w zrozumiały sposób (także np. poprzez tłumacza języka obcego lub migowego). Kolejny obowiązek spoczywający na władzach publicznych w sytuacji zatrzymania to przekazanie zatrzymanego w ciągu 48 godzin do dyspozycji sądu. Oznacza to między innymi obowiązek starannego rozważenia całokształtu sytuacji zatrzymanego i natychmiastowe zwolnienie go, o ile wygasły przyczyny zatrzymania, bez przedstawienia do dyspozycji sądu. Przekazanie do dyspozycji sądu oznacza uznanie przez przedstawicieli władz konieczności podjęcia dalszych kroków prawnych wobec zatrzymanego. Powinno więc być połączone z odpowiednim wnioskiem, o czym należy poinformować zatrzymanego. Sąd w takiej sytuacji może zdecydować o zwolnieniu zatrzymanego lub tymczasowym aresztowaniu go (na doręczenie postanowienia sądu w tym zakresie przedstawiciele władz mają 24 godziny).</p>
+		<p>2 i 3. Pozbawienie wolności osobistej nie oznacza pozbawienia jednostki możliwości decydowania o sobie, ale jedynie pozbawienie wolności osobistej sensu stricto. O pozbawieniu wolności orzeka sąd (prawo jednostki do sądu wynika z <a class="art-scroll" href='/45'>art. 45</a> Konstytucji). Zasada ta nie ma zastosowania do sytuacji ograniczenia wolności, chyba, że uzna tak ustawodawca. Konstytucja posługuje się także pojęciem „zatrzymanie”, które umożliwia innym instytucjom publicznym ingerencję w wolność. Musi się ono odbywać jednak wyjątkowo, w trybie i sytuacjach określonych na podstawie przepisów ustawy. Przedstawiciele władzy w momencie zatrzymania mają obowiązek niezwłocznego poinformowania zatrzymanego o przyczynach ich ingerencji. Poinformowanie to powinno polegać również na wskazaniu konieczności danej interwencji w formie zatrzymania. Informacja ta powinna zostać przekazana niezwłocznie (gdy będzie to możliwe) oraz w zrozumiały sposób (także np. poprzez tłumacza języka obcego lub migowego). Kolejny obowiązek spoczywający na władzach publicznych w sytuacji zatrzymania to przekazanie zatrzymanego w ciągu 48 godzin do dyspozycji sądu. Oznacza to między innymi obowiązek starannego rozważenia całokształtu sytuacji zatrzymanego i natychmiastowe zwolnienie go, o ile wygasły przyczyny zatrzymania, bez przedstawienia do dyspozycji sądu. Przekazanie do dyspozycji sądu oznacza uznanie przez przedstawicieli władz konieczności podjęcia dalszych kroków prawnych wobec zatrzymanego. Powinno więc być połączone z odpowiednim wnioskiem, o czym należy poinformować zatrzymanego. Sąd w takiej sytuacji może zdecydować o zwolnieniu zatrzymanego lub tymczasowym aresztowaniu go (na doręczenie postanowienia sądu w tym zakresie przedstawiciele władz mają 24 godziny).</p>
 		<p>4. Humanitarne traktowanie to coś więcej niż zakaz tortur, okrutnego, poniżającego i nieludzkiego traktowania. Oznacza ono takie obchodzenie się z osobą pozbawioną wolności, które uwzględnia i respektuje pewne minimalne potrzeby każdego człowieka, odnosząc je do standardów danego społeczeństwa. Warto podkreślić, że sposób traktowania osób pozbawionych wolności określono za pomocą najbardziej pojemnego terminu. Twórcy Konstytucji wykorzystali pojęcie humanitarnego traktowania, kierując się założeniem o możliwości resocjalizacji i powrotu do społeczeństwa. Dlatego rolą państwa jest także tworzenie warunków sprzyjających resocjalizacji i podejmowanie na szeroką skalę działań wychowawczych.</p>
-		<p>5. Każde pozbawienie wolności to bardzo daleka ingerencja w sferę wolności jednostki, dlatego naruszenie tego dobra musi być traktowane ze szczególną powagą. Twórcy Konstytucji stworzyli zatem osobną regulację, która umożliwia dochodzenie tego rodzaju odszkodowań. Odszkodowanie za bezprawne pozbawienie wolności jest jednym z przypadków „wynagrodzenia za szkody”, które przysługuje jednostce „za niezgodne z prawem działanie organu władzy publicznej” (<a href='/77'>art. 77</a> ust. 1).</p>
+		<p>5. Każde pozbawienie wolności to bardzo daleka ingerencja w sferę wolności jednostki, dlatego naruszenie tego dobra musi być traktowane ze szczególną powagą. Twórcy Konstytucji stworzyli zatem osobną regulację, która umożliwia dochodzenie tego rodzaju odszkodowań. Odszkodowanie za bezprawne pozbawienie wolności jest jednym z przypadków „wynagrodzenia za szkody”, które przysługuje jednostce „za niezgodne z prawem działanie organu władzy publicznej” (<a class="art-scroll" href='/77'>art. 77</a> ust. 1).</p>
 		`
 	},
 	{
@@ -619,9 +619,9 @@ const articles = [
 			<p>3. Każdego uważa się za niewinnego, dopóki jego wina nie zostanie stwierdzona prawomocnym wyrokiem sądu.</p>
 		`,
 		desc: `
-		<p>1 Twórcy Konstytucji w sposób szczególny podkreślili tutaj odpowiedzialność za przestępstwa, a więc takie czyny zabronione pod groźbą kary, które są społecznie nieakceptowalne, wysoko szkodliwe, przy których wymierzane dolegliwości powinny być szczególnie odczuwalne. Zasadę, że odpowiedzialności karnej podlega tylko ten, kto popełnia czyn zabroniony pod groźbą kary przez ustawę obowiązującą w czasie jego popełnienia, prawnicy opisują po łacinie jako nullum crimen sine lege (nullum crimen, nulla poena sine lege poenali anteriori).	Zarówno zasada nullum crime (nie ma przestępstwa) jak i zasada nulla poena (nie ma kary) znajdują swoje źródło już w <a href='/31'>artykule 31</a> ust. 3 Konstytucji (Ograniczenia w zakresie korzystania z konstytucyjnych wolności i praw mogą być ustanawiane tylko w ustawie i tylko wtedy, gdy są konieczne w demokratycznym państwie dla jego bezpieczeństwa). Obie zasady mają charakter absolutny i nie mogą być poddawane żadnym wyjątkom.</p>
+		<p>1 Twórcy Konstytucji w sposób szczególny podkreślili tutaj odpowiedzialność za przestępstwa, a więc takie czyny zabronione pod groźbą kary, które są społecznie nieakceptowalne, wysoko szkodliwe, przy których wymierzane dolegliwości powinny być szczególnie odczuwalne. Zasadę, że odpowiedzialności karnej podlega tylko ten, kto popełnia czyn zabroniony pod groźbą kary przez ustawę obowiązującą w czasie jego popełnienia, prawnicy opisują po łacinie jako nullum crimen sine lege (nullum crimen, nulla poena sine lege poenali anteriori).	Zarówno zasada nullum crime (nie ma przestępstwa) jak i zasada nulla poena (nie ma kary) znajdują swoje źródło już w <a class="art-scroll" href='/31'>artykule 31</a> ust. 3 Konstytucji (Ograniczenia w zakresie korzystania z konstytucyjnych wolności i praw mogą być ustanawiane tylko w ustawie i tylko wtedy, gdy są konieczne w demokratycznym państwie dla jego bezpieczeństwa). Obie zasady mają charakter absolutny i nie mogą być poddawane żadnym wyjątkom.</p>
 		<p>2. Prawo do obrony oznacza możliwość podejmowania wszelkich działań zgodnych z prawem, które mają potwierdzić wersję zdarzeń uczestnika postępowania (jego niewinność lub określony charakter winy). W żadnym wypadku nie można wymagać współdziałania w udowodnieniu stawianych zarzutów. Prawo to przysługuje na wszystkich stadiach postępowania i we wszystkich instancjach. Za każdym razem występuje w pełnym zakresie, niezależnie od zapadłych orzeczeń.	Niezwykle istotne jest w tym wypadku prawo do korzystania z pomocy obrońcy. Obrońca działa w interesie podejrzanego, umożliwiając mu pełne i efektywne korzystanie z przysługujących praw.</p>
-		<p>3. Fakt popełnienia zabronionego czynu oraz fakt popełnienia go w sposób zawiniony muszą być udowodnione. Domniemanie niewinności odnosi się do każdego, kto dopuścił się czynu zabronionego, a nie jedynie do oskarżonego. Takie szerokie ujęcie jest istotne ponieważ artykuł 42 dotyczy odpowiedzialności karnej i postępowania karnego w każdej postaci. Przepis ten należy bezpośrednio powiązać z prawem do sądu (<a href='/45'>art. 45</a> ust. 1). Jednocześnie warto podkreślić, że wyroki sądowe to najczęściej spotykane rozstrzygnięcia orzekające o wymierzeniu kary. Domniemanie niewinności przypisane jest również osobom, przeciwko którym toczy się dochodzenie lub śledztwo, a także obwinionym o popełnienie wykroczenia lub innego czynu zabronionego pod groźbą kary.</p>
+		<p>3. Fakt popełnienia zabronionego czynu oraz fakt popełnienia go w sposób zawiniony muszą być udowodnione. Domniemanie niewinności odnosi się do każdego, kto dopuścił się czynu zabronionego, a nie jedynie do oskarżonego. Takie szerokie ujęcie jest istotne ponieważ artykuł 42 dotyczy odpowiedzialności karnej i postępowania karnego w każdej postaci. Przepis ten należy bezpośrednio powiązać z prawem do sądu (<a class="art-scroll" href='/45'>art. 45</a> ust. 1). Jednocześnie warto podkreślić, że wyroki sądowe to najczęściej spotykane rozstrzygnięcia orzekające o wymierzeniu kary. Domniemanie niewinności przypisane jest również osobom, przeciwko którym toczy się dochodzenie lub śledztwo, a także obwinionym o popełnienie wykroczenia lub innego czynu zabronionego pod groźbą kary.</p>
 		`
 	},
 	{
@@ -670,7 +670,7 @@ const articles = [
 		`,
 		desc: `
 		<p>Każdy może zwrócić się do sądu, gdy poszukuje sprawiedliwości lub gdy odczuwa potrzebę ustalenia swojego statusu prawnego. Prawo do sądu oznacza, że o statusie jednostki decyduje ostatecznie sąd – i nikt inny. Prawo do sądu jest również gwarancją praw i wolności jednostki, pod warunkiem, że sąd jest niezawisły i niezależny.</p>
-		<p>Z takiego ukształtowania artykułu 45 wynika także zasada dostępności do sądów. Powinno być to względnie łatwe (także w sprawach rozpoznawanych przez wyższe instancje), a wszelkie ograniczenia w tym zakresie muszą być zgodne z <a href='/31'>art. 31</a> ust. 3 Konstytucji.</p>
+		<p>Z takiego ukształtowania artykułu 45 wynika także zasada dostępności do sądów. Powinno być to względnie łatwe (także w sprawach rozpoznawanych przez wyższe instancje), a wszelkie ograniczenia w tym zakresie muszą być zgodne z <a class="art-scroll" href='/31'>art. 31</a> ust. 3 Konstytucji.</p>
 		<p>Prawo do niezawisłego i niezależnego sądu wynika także z dalszych szczegółowych rozwiązań konstytucyjnych (art. 173, 178 oraz 186 Konstytucji). Sąd nie może sprzyjać żadnej ze stron procesowych, musi być bezstronny, także – a może szczególnie – w sprawach, w których jednostka procesuje się z państwem. Tak rozumiana bezstronność sędziów jest elementem ich niezależności i niezawisłości. Artykuł 45 charakteryzuje również sposób działania sądów – sprawy powinny być rozpatrywane sprawiedliwie, jawnie i bez nieuzasadnionej zwłoki.</p>
 		`
 	},
@@ -702,7 +702,7 @@ const articles = [
 		`,
 		desc: `
 			<p>Artykuł ten dotyczy dwóch sytuacji: prawa jednostki do prawnej ochrony wskazanych sfer życia oraz prawa do decydowania o sprawach dotyczących życia osobistego.</p>
-			<p>Z prawa do ochrony życia prywatnego wynika obowiązek władz publicznych, by uregulować te zagadnienia oraz powstrzymać się od ingerencji w sfery prywatne. Przepis ten powiązany jest bezpośrednio z wolnością człowieka (<a href='/31'>art. 31</a> ust. 1) i wolnością osobistą jednostki (<a href='/41'>art. 41</a>).</p>
+			<p>Z prawa do ochrony życia prywatnego wynika obowiązek władz publicznych, by uregulować te zagadnienia oraz powstrzymać się od ingerencji w sfery prywatne. Przepis ten powiązany jest bezpośrednio z wolnością człowieka (<a class="art-scroll" href='/31'>art. 31</a> ust. 1) i wolnością osobistą jednostki (<a class="art-scroll" href='/41'>art. 41</a>).</p>
 			<p>Twórcy Konstytucji posłużyli się trzema zazębiającymi się pojęciami: życie prywatne, życie rodzinne oraz życie osobiste.</p>
 		`
 	},
@@ -797,7 +797,7 @@ const articles = [
 			<p>5. Osoba, której pochodzenie polskie zostało stwierdzone zgodnie z ustawą, może osiedlić się na terytorium Rzeczypospolitej Polskiej na stałe.</p>
 		`,
 		desc: `
-			<p>Swoboda poruszania się jest tradycyjną, klasyczną wolnością jednostki, zazwyczaj traktowaną jako przejaw realizacji wolności osobistej (<a href='/31'>art. 31</a> ust. 2). Artykuł 52 należy postrzegać również jako przejaw prawa do decydowania o życiu osobistym (<a href='/47'>art. 47</a>) oraz jako przykład ogólnego, wolnościowego statusu jednostki (<a href='/31'>art. 31</a> ust. 1).</p>
+			<p>Swoboda poruszania się jest tradycyjną, klasyczną wolnością jednostki, zazwyczaj traktowaną jako przejaw realizacji wolności osobistej (<a class="art-scroll" href='/31'>art. 31</a> ust. 2). Artykuł 52 należy postrzegać również jako przejaw prawa do decydowania o życiu osobistym (<a class="art-scroll" href='/47'>art. 47</a>) oraz jako przykład ogólnego, wolnościowego statusu jednostki (<a class="art-scroll" href='/31'>art. 31</a> ust. 1).</p>
 			<p>Wolność poruszania się oznacza możliwość zmiany miejsca pobytu, zamieszkiwanie (jeśli dysponuje się mieszkaniem) lub pobyt (niezależnie od posiadania mieszkania i tymczasowości). Konstytucja reguluje także swobodę wyjazdu z Polski w dowolnym celu oraz swobodę emigrowania. Wolności te przysługują nie tylko obywatelom RP, ale każdej jednostce.</p>
 			<p>Obywatel polski przebywający w Rzeczypospolitej, nie może być deportowany do innego państwa (zakaz wydalenia z kraju), nie można mu również zakazać powrotu do kraju.</p>
 			<p>Cudzoziemcy, których pochodzenie polskie zostało stwierdzone, mają zaś prawo osiedlenia się na stałe na terytorium Polski.</p>
@@ -813,7 +813,7 @@ const articles = [
 		html: `
 			<p>1. Każdemu zapewnia się wolność sumienia i religii.</p>
 			<p>2. Wolność religii obejmuje wolność wyznawania lub przyjmowania religii według własnego wyboru oraz uzewnętrzniania indywidualnie lub z innymi, publicznie lub prywatnie, swojej religii przez uprawianie kultu, modlitwę, uczestniczenie w obrzędach, praktykowanie i nauczanie. Wolność religii obejmuje także posiadanie świątyń i innych miejsc kultu w zależności od potrzeb ludzi wierzących oraz prawo osób do korzystania z pomocy religijnej tam, gdzie się znajdują.</p>
-			<p>3. Rodzice mają prawo do zapewnienia dzieciom wychowania i nauczania moralnego i religijnego zgodnie ze swoimi przekonaniami. Przepis <a href='/48'>art. 48</a> ust. 1 stosuje się odpowiednio.</p>
+			<p>3. Rodzice mają prawo do zapewnienia dzieciom wychowania i nauczania moralnego i religijnego zgodnie ze swoimi przekonaniami. Przepis <a class="art-scroll" href='/48'>art. 48</a> ust. 1 stosuje się odpowiednio.</p>
 			<p>4. Religia kościoła lub innego związku wyznaniowego o uregulowanej sytuacji prawnej może być przedmiotem nauczania w szkole, przy czym nie może być naruszona wolność sumienia i religii innych osób.</p>
 			<p>5. Wolność uzewnętrzniania religii może być ograniczona jedynie w drodze ustawy i tylko wtedy, gdy jest to konieczne do ochrony bezpieczeństwa państwa, porządku publicznego, zdrowia, moralności lub wolności i praw innych osób.</p>
 			<p>6. Nikt nie może być zmuszany do uczestniczenia ani do nieuczestniczenia w praktykach religijnych.</p>
@@ -841,7 +841,7 @@ const articles = [
 		desc: `
 			<p>Wolność słowa, wyrażana bezpośrednio lub poprzez środki przekazu, jest tradycyjną wolnością konstytucyjną. Artykuł 54 gwarantuje trzy odrębne choć powiązane ze sobą wolności: wolność wyrażania swoich poglądów, wolność pozyskiwania informacji oraz wolność rozpowszechniania informacji.</p>
 			<p>Wyrażenie „pogląd” należy w tym wypadku rozumieć jak najszerzej, jako wyrażanie osobistych ocen, prezentowanie opinii czy przypuszczeń, informowanie o faktach etc. Wolność ta ma zastosowanie zarówno w sferze publicznej jak i prywatnej (choć szczególnego znaczenia nabiera na gruncie przestrzeni publicznej, życia społecznego, a zwłaszcza politycznego), obejmuje osoby fizyczne i prawne. Forma wyrażania poglądów może być dowolna, niekoniecznie poprzez wypowiedzi słowne (np. poprzez noszenie określonego stroju).</p>
-			<p>Wolność pozyskiwania informacji dotyczyć może zbierania danych z dowolnych sfer życia publicznego (<a href='/61'>art. 61</a> Konstytucji nakłada na władze obowiązek udzielania odpowiednich informacji) lub prywatnego.</p>
+			<p>Wolność pozyskiwania informacji dotyczyć może zbierania danych z dowolnych sfer życia publicznego (<a class="art-scroll" href='/61'>art. 61</a> Konstytucji nakłada na władze obowiązek udzielania odpowiednich informacji) lub prywatnego.</p>
 			<p>Poprzez rozpowszechnianie informacji należy rozumieć udostępnianie zebranych danych osobom trzecim (indywidualnie wybranym) lub upowszechnianie ich (czyli podawanie do wiadomości publicznej, np. poprzez środki społecznego przekazu). Potwierdza to konstytucyjną zasadę wolności prasy zawartą w art. 14.</p>
 		`
 	},
@@ -918,14 +918,14 @@ const articles = [
 			<p>3. Ustawa określa rodzaje zrzeszeń podlegających sądowej rejestracji, tryb tej rejestracji oraz formy nadzoru nad tymi zrzeszeniami.</p>
 		`,
 		desc: `
-			<p>Wolność zrzeszania się ujęto jako zasadę ustrojową (społeczeństwa obywatelskiego) w <a href='/12'>art. 12</a> Konstytucji. Jest ona źródłem szeregu praw podmiotowych, takich jak:</p>
+			<p>Wolność zrzeszania się ujęto jako zasadę ustrojową (społeczeństwa obywatelskiego) w <a class="art-scroll" href='/12'>art. 12</a> Konstytucji. Jest ona źródłem szeregu praw podmiotowych, takich jak:</p>
 			<ul>
 				<li>prawo do tworzenia zrzeszeń (w tym prawo swobodnego określenia celu, rodzaju, struktury władz i nazwy zrzeszenia),</li>
 				<li>prawo do przystępowania lub nieprzystępowania do zrzeszeń już istniejących (w tym określenie warunków członkostwa),</li>
 				<li>prawo do wystąpienia ze zrzeszenia,</li>
 				<li>prawo do udziału w kierowaniu zrzeszeniem (uczestniczenia w pracach, tworzenia struktur, swobodnego działania w granicach prawa).</li>
 			</ul>
-			<p>Sama instytucja zrzeszenia ma także prawo do swobodnego działania. Ważnym aspektem korzystania z tej wolności jest dobrowolność zrzeszeń (<a href='/11'>art. 11</a> i <a href='/12'>12</a> Konstytucji). Władze państwa muszą odpowiednio rozważnie decydować o ewentualnej dopuszczalnej ingerencji w wolność zrzeszania się (zawsze jedynie na podstawie i w granicach obowiązującego prawa).</p>
+			<p>Sama instytucja zrzeszenia ma także prawo do swobodnego działania. Ważnym aspektem korzystania z tej wolności jest dobrowolność zrzeszeń (<a class="art-scroll" href='/11'>art. 11</a> i <a class="art-scroll" href='/12'>12</a> Konstytucji). Władze państwa muszą odpowiednio rozważnie decydować o ewentualnej dopuszczalnej ingerencji w wolność zrzeszania się (zawsze jedynie na podstawie i w granicach obowiązującego prawa).</p>
 		`
 	},
 	{
@@ -942,7 +942,7 @@ const articles = [
 			<p>4. Zakres wolności zrzeszania się w związkach zawodowych i organizacjach pracodawców oraz innych wolności związkowych może podlegać tylko takim ograniczeniom ustawowym, jakie są dopuszczalne przez wiążące Rzeczpospolitą Polską umowy międzynarodowe.</p>
 		`,
 		desc: `
-		<p>Artykuł ten konkretyzuje ogólną wolność zrzeszania się z <a href='/58'>art. 58</a> Konstytucji. Wolność działalności w związkach zawodowych jest niezwykle istotna z perspektywy historii Polski, dlatego przepis ten jest szczególnie rozbudowany i reguluje różnorodne zagadnienia. Gwarantuje to bowiem, że ograniczenia tej wolności zgodne z <a href='/31'>art. 31</a> ust. 3 zawarte w ustawie nie mogą wykraczać poza szczegółowo określone ramy. Formy zrzeszania się przewidziane w tym przepisie Konstytucji to:</p>
+		<p>Artykuł ten konkretyzuje ogólną wolność zrzeszania się z <a class="art-scroll" href='/58'>art. 58</a> Konstytucji. Wolność działalności w związkach zawodowych jest niezwykle istotna z perspektywy historii Polski, dlatego przepis ten jest szczególnie rozbudowany i reguluje różnorodne zagadnienia. Gwarantuje to bowiem, że ograniczenia tej wolności zgodne z <a class="art-scroll" href='/31'>art. 31</a> ust. 3 zawarte w ustawie nie mogą wykraczać poza szczegółowo określone ramy. Formy zrzeszania się przewidziane w tym przepisie Konstytucji to:</p>
 		<ul>
 			<li>związki zawodowe,</li>
 			<li>organizacje społeczno-zawodowe rolników,</li>
@@ -980,7 +980,7 @@ const articles = [
 			<p>4. Tryb udzielania informacji, o których mowa w ust. 1 i 2, określają ustawy, a w odniesieniu do Sejmu i Senatu ich regulaminy.</p>
 		`,
 		desc: `
-			<p>1. Prawo dostępu do informacji publicznej, czyli prawo do informacji o działalności organów władzy publicznej, a także osób pełniących funkcje publiczne, zagwarantowane jest jedynie obywatelom, co jest związane z politycznym charakterem tego prawa. Warto wskazać, ze konstytucyjne prawo do informacji o stanie i ochronie środowiska jest zagwarantowane każdemu, także osobom nieposiadającym obywatelstwa (<a href='/74'>art. 74</a> ust. 3). Prawo do informacji publicznej przysługuje bez względu na ewentualny interes prawny w dostępie do danej informacji, dlatego nie jest konieczne podawanie powodu ubiegania się o informację. Może być też realizowane w różnych formach. Prawo obywateli nie jest ograniczone tylko do organów przedstawicielskich. Z treści art. 61 ust. 1 wynika, że obejmuje ono także uzyskiwanie informacji o działalności samorządu gospodarczego i zawodowego, a także innych jednostek organizacyjnych, jeśli wykonują one zadania władzy publicznej, a także jeśli gospodarują mieniem komunalnym lub majątkiem Skarbu Państwa.</p>
+			<p>1. Prawo dostępu do informacji publicznej, czyli prawo do informacji o działalności organów władzy publicznej, a także osób pełniących funkcje publiczne, zagwarantowane jest jedynie obywatelom, co jest związane z politycznym charakterem tego prawa. Warto wskazać, ze konstytucyjne prawo do informacji o stanie i ochronie środowiska jest zagwarantowane każdemu, także osobom nieposiadającym obywatelstwa (<a class="art-scroll" href='/74'>art. 74</a> ust. 3). Prawo do informacji publicznej przysługuje bez względu na ewentualny interes prawny w dostępie do danej informacji, dlatego nie jest konieczne podawanie powodu ubiegania się o informację. Może być też realizowane w różnych formach. Prawo obywateli nie jest ograniczone tylko do organów przedstawicielskich. Z treści art. 61 ust. 1 wynika, że obejmuje ono także uzyskiwanie informacji o działalności samorządu gospodarczego i zawodowego, a także innych jednostek organizacyjnych, jeśli wykonują one zadania władzy publicznej, a także jeśli gospodarują mieniem komunalnym lub majątkiem Skarbu Państwa.</p>
 			<p>2-4. Prawo do informacji może być realizowane w różnych formach. Konstytucja wymienia tylko najważniejsze z nich, co nie wyczerpuje pełnego katalogu. Z tych najważniejszych form wymienia się dostęp do dokumentów, a także wstęp na posiedzenia kolegialnych organów władzy publicznej pochodzących z powszechnych wyborów (posiedzenia Sejmu, Senatu, organów stanowiących samorządu terytorialnego), z prawem rejestracji dźwięku lub zapisu. Ograniczenia tego prawa, o których wspomina ustęp 3, nie są liczne i zostały uzasadnione potrzebą ochrony wolności i praw innych osób, ochrony porządku publicznego, bezpieczeństwa lub ważnego interesu gospodarczego państwa.</p>
 		`
 	},
@@ -1040,7 +1040,7 @@ const articles = [
 		`,
 		desc: `
 			<p>Konstytucja rozróżnia własność od innych praw majątkowych i wyraźnie akcentuje jej wyższą rangę. Odrębnie art. 64 gwarantuje ochronę prawa dziedziczenia. Adresatem obowiązków wynikających z tego prawa (w tym zapewnienia im równej ochrony prawnej) są władze publiczne.</p>
-			<p>Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a href='/31'>art. 31</a> ust. 3 oraz art. 64 ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z art. 64 ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
+			<p>Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a class="art-scroll" href='/31'>art. 31</a> ust. 3 oraz art. 64 ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z art. 64 ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
 		`
 	},
 	{
@@ -1058,8 +1058,8 @@ const articles = [
 			<p>5. Władze publiczne prowadzą politykę zmierzającą do pełnego, produktywnego zatrudnienia poprzez realizowanie programów zwalczania bezrobocia, w tym organizowanie i wspieranie poradnictwa i szkolenia zawodowego oraz robót publicznych i prac interwencyjnych.</p>
 		`,
 		desc: `
-			<p>1. Konstytucja rozróżnia własność od innych praw majątkowych i wyraźnie akcentuje jej wyższą rangę. Odrębnie <a href='/64'>art. 64</a> gwarantuje ochronę prawa dziedziczenia. Adresatem obowiązków wynikających z tego prawa (w tym zapewnienia im równej ochrony prawnej) są władze publiczne. Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a href='/31'>art. 31</a> ust. 3 oraz <a href='/64'>art. 64</a> ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z <a href='/64'>art. 64</a> ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
-			<p>2-5. Kolejne ustępy art. 65 regulują bardziej szczegółowo prawa pracownicze. Ustęp drugi określa aspekt negatywny wolności pracy. Oznacza on zakaz wprowadzania obowiązku pracy, któremu niepodporządkowanie się prowadziłoby do sankcji karnych lub administracyjnych. Władza nie może narzucić podjęcia pracy. Zakaz pracy przymusowej oznacza też zakaz zmuszania kogokolwiek przez władze do podejmowania określonego zatrudnienia (rodzaju czy miejsca pracy). Zakaz ten nie ma jednak charakteru absolutnego i dopuszcza się ustawowe nałożenie obowiązku pracy (musiałoby być to jednak zgodne z wiążącym Polskę prawem międzynarodowym). Konstytucja zakazuje także stałego zatrudniania dzieci do lat 16. Przepis ten jest jedną z gwarancji ochrony praw dziecka (<a href='/72'>art. 72</a>). Konstytucyjnym obowiązkiem ustawodawcy jest określenie minimalnej wysokości wynagrodzenia za pracę oraz sposobu ustalania tej wysokości. Wyraźnie zakazuje się różnicowania wynagrodzenia za pracę jednakowej wartości ze względu na płeć (<a href='/33'>art. 33</a> ust. 2). Z artykułu 65 można zatem wyprowadzić prawo pracownika do minimalnego wynagrodzenia.</p>
+			<p>1. Konstytucja rozróżnia własność od innych praw majątkowych i wyraźnie akcentuje jej wyższą rangę. Odrębnie <a class="art-scroll" href='/64'>art. 64</a> gwarantuje ochronę prawa dziedziczenia. Adresatem obowiązków wynikających z tego prawa (w tym zapewnienia im równej ochrony prawnej) są władze publiczne. Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a class="art-scroll" href='/31'>art. 31</a> ust. 3 oraz <a class="art-scroll" href='/64'>art. 64</a> ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z <a class="art-scroll" href='/64'>art. 64</a> ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
+			<p>2-5. Kolejne ustępy art. 65 regulują bardziej szczegółowo prawa pracownicze. Ustęp drugi określa aspekt negatywny wolności pracy. Oznacza on zakaz wprowadzania obowiązku pracy, któremu niepodporządkowanie się prowadziłoby do sankcji karnych lub administracyjnych. Władza nie może narzucić podjęcia pracy. Zakaz pracy przymusowej oznacza też zakaz zmuszania kogokolwiek przez władze do podejmowania określonego zatrudnienia (rodzaju czy miejsca pracy). Zakaz ten nie ma jednak charakteru absolutnego i dopuszcza się ustawowe nałożenie obowiązku pracy (musiałoby być to jednak zgodne z wiążącym Polskę prawem międzynarodowym). Konstytucja zakazuje także stałego zatrudniania dzieci do lat 16. Przepis ten jest jedną z gwarancji ochrony praw dziecka (<a class="art-scroll" href='/72'>art. 72</a>). Konstytucyjnym obowiązkiem ustawodawcy jest określenie minimalnej wysokości wynagrodzenia za pracę oraz sposobu ustalania tej wysokości. Wyraźnie zakazuje się różnicowania wynagrodzenia za pracę jednakowej wartości ze względu na płeć (<a class="art-scroll" href='/33'>art. 33</a> ust. 2). Z artykułu 65 można zatem wyprowadzić prawo pracownika do minimalnego wynagrodzenia.</p>
 		`
 	},
 	{
@@ -1131,7 +1131,7 @@ const articles = [
 			</ul>
 			<p>Ustęp 2 ustanawia zasadę równego dostępu obywateli do świadczeń opieki zdrowotnej finansowanej ze środków publicznych oraz dostępu niezależnie od sytuacji materialnej. Chociaż gwarantuje obywatelom równy dostęp do świadczeń, nie formułuje jednak jakichkolwiek gwarancji bezpłatności – choćby podstawowych świadczeń. Pojęcie „dostępu” nie jest jednoznaczne. Konstytucja nie określa także zakresu świadczeń opieki zdrowotnej dostępnych dla obywateli na równych zasadach, odsyłając to zagadnienie do uregulowania w ustawie.</p>
 			<p>3. Konieczność zapewnienia szczególnej opieki zdrowotnej dzieciom, kobietom ciężarnym, osobom z niepełnosprawnościami i w podeszłym wieku stanowi wyjątek od obowiązku zapewnienia wszystkim obywatelom – niezależnie od ich sytuacji materialnej – równego dostępu do świadczeń opieki zdrowotnej finansowanych ze środków publicznych.	Art. 68 ust. 3 Konstytucji RP nie jest uważany za źródło praw podmiotowych dla wymienionych w nim osób. Nie oznacza to jednak, że władze publiczne mogą lekceważyć wynikające z niego obowiązki. Nie można jednoznacznie stwierdzić, jakie konkretne działania, zgodnie z wolą twórców Konstytucji należałoby zaliczyć do szczególnej opieki zdrowotnej. Władze publiczne mają w tym zakresie daleko idącą swobodę. 3. Konieczność zapewnienia szczególnej opieki zdrowotnej dzieciom, kobietom ciężarnym, osobom z niepełnosprawnościami i w podeszłym wieku stanowi wyjątek od obowiązku zapewnienia wszystkim obywatelom – niezależnie od ich sytuacji materialnej – równego dostępu do świadczeń opieki zdrowotnej finansowanych ze środków publicznych.	Art. 68 ust. 3 Konstytucji RP nie jest uważany za źródło praw podmiotowych dla wymienionych w nim osób. Nie oznacza to jednak, że władze publiczne mogą lekceważyć wynikające z niego obowiązki. Nie można jednoznacznie stwierdzić, jakie konkretne działania, zgodnie z wolą twórców Konstytucji należałoby zaliczyć do szczególnej opieki zdrowotnej. Władze publiczne mają w tym zakresie daleko idącą swobodę.</p>
-			<p>4. Ten przepis Konstytucji nakłada na władze publiczne obowiązek zwalczania chorób epidemicznych i zapobiegania negatywnym dla zdrowia skutkom degradacji środowiska.	Komentatorzy podkreślają, że chodzi przede wszystkim o podejmowanie działań prewencyjnych, tj. profilaktycznych, edukacyjnych, dbałość o higienę, kontrolę zakażeń oraz leczenie chorób epidemicznych[1].	Ten obowiązek należy analizować łącznie z <a href='/74'>art. 74</a> Konstytucji, który zobowiązuje władze publiczne do prowadzenia polityki zapewniającej bezpieczeństwo ekologiczne współczesnemu i przyszłym pokoleniom, ochrony środowiska, wspierania działań obywateli na rzecz poprawy stanu środowiska oraz zapewnienia jednostkom prawa do informacji o stanie i ochronie środowiska, a także z art. 86, który nakłada na każdego obowiązek dbałości o stan środowiska oraz odpowiedzialność za jego pogorszenie, której zasady określa ustawa.</p>
+			<p>4. Ten przepis Konstytucji nakłada na władze publiczne obowiązek zwalczania chorób epidemicznych i zapobiegania negatywnym dla zdrowia skutkom degradacji środowiska.	Komentatorzy podkreślają, że chodzi przede wszystkim o podejmowanie działań prewencyjnych, tj. profilaktycznych, edukacyjnych, dbałość o higienę, kontrolę zakażeń oraz leczenie chorób epidemicznych[1].	Ten obowiązek należy analizować łącznie z <a class="art-scroll" href='/74'>art. 74</a> Konstytucji, który zobowiązuje władze publiczne do prowadzenia polityki zapewniającej bezpieczeństwo ekologiczne współczesnemu i przyszłym pokoleniom, ochrony środowiska, wspierania działań obywateli na rzecz poprawy stanu środowiska oraz zapewnienia jednostkom prawa do informacji o stanie i ochronie środowiska, a także z art. 86, który nakłada na każdego obowiązek dbałości o stan środowiska oraz odpowiedzialność za jego pogorszenie, której zasady określa ustawa.</p>
 			<p>5. W art. 68 ust. 5 Konstytucji uregulowany został obowiązek nałożony na władze publiczne, by popierały kulturę fizyczną i jej rozwój, zwłaszcza wśród dzieci i młodzieży. Może to być realizowane poprzez budowę obiektów sportowych, ścieżek rowerowych, lodowisk, basenów, organizowanie konkursów dla dzieci i młodzieży, popieranie tego typu działań oraz prowadzenie kampanii nakłaniających do uprawiania sportu.	[1] Konstytucja Rzeczypospolitej Polskiej. Komentarz, pod red. L. Garlickiego, tom III – Warszawa 2003 r.</p>
 		`
 	},
@@ -1149,7 +1149,7 @@ const articles = [
 			<p>Artykuł ten formułuje zasadę polityki państwa, nie przybiera zaś formy prawa podmiotowego. Przepis ten wyraźnie wskazuje na określone obowiązki, leżące po stronie władz publicznych. Nie można więc wyprowadzić z niego roszczeń dla jednostki.</p>
 			<p>Przepis ten ma ścisły związek z zasadą godności jednostki. Udzielenie pomocy osobom z niepełnosprawnościami, tak by mogły prowadzić życie w społeczeństwie, dotyczyć ma trzech dziedzin:</p>
 			<ul>
-				<li>zabezpieczenia egzystencji (pokrywa się to częściowo z normą wynikającą z <a href='/67'>art. 67</a> ust. 1, odrębne uregulowanie sytuacji osób z niepełnosprawnościami sugeruje dopuszczalność przyznania im pewnych preferencji);</li>
+				<li>zabezpieczenia egzystencji (pokrywa się to częściowo z normą wynikającą z <a class="art-scroll" href='/67'>art. 67</a> ust. 1, odrębne uregulowanie sytuacji osób z niepełnosprawnościami sugeruje dopuszczalność przyznania im pewnych preferencji);</li>
 				<li>przysposobienia do pracy (w tym tworzenie programów szkoleniowych i przygotowawczych, wprowadzanie zachęt i ułatwień);</li>
 				<li>komunikacji społecznej (w tym tworzenie odpowiedniej infrastruktury).</li>
 			</ul>
@@ -1171,7 +1171,7 @@ const articles = [
 			<p>5. Zapewnia się autonomię szkół wyższych na zasadach określonych w ustawie.</p>
 		`,
 		desc: `
-			<p>1. Przepis ten należy interpretować w powiązaniu między innymi z <a href='/73'>art. 73</a> (wolność nauczania i badań naukowych) i <a href='/53'>art. 53</a> (prawo rodziców do wychowywania i nauczania zgodnego z ich przekonaniami).	Tak ukształtowane prawo do nauki stanowi prawo podmiotowe jednostki, jest również przesłanką należytej realizacji pozostałych wolności i praw. Jego treścią jest możliwość zdobywania wiedzy, kształcenia prowadzonego w zorganizowanych formach, w sposób regularny i ciągły, obejmującego kształcenie podstawowe jak i wiedzę specjalistyczną, jednolitego na terenie całego kraju. Kształcenie to ma umożliwić dalsze zdobywanie wiedzy lub wykonywanie określonego zawodu.	Prawo to przysługuje zarówno obywatelom jak i cudzoziemcom.</p>
+			<p>1. Przepis ten należy interpretować w powiązaniu między innymi z <a class="art-scroll" href='/73'>art. 73</a> (wolność nauczania i badań naukowych) i <a class="art-scroll" href='/53'>art. 53</a> (prawo rodziców do wychowywania i nauczania zgodnego z ich przekonaniami).	Tak ukształtowane prawo do nauki stanowi prawo podmiotowe jednostki, jest również przesłanką należytej realizacji pozostałych wolności i praw. Jego treścią jest możliwość zdobywania wiedzy, kształcenia prowadzonego w zorganizowanych formach, w sposób regularny i ciągły, obejmującego kształcenie podstawowe jak i wiedzę specjalistyczną, jednolitego na terenie całego kraju. Kształcenie to ma umożliwić dalsze zdobywanie wiedzy lub wykonywanie określonego zawodu.	Prawo to przysługuje zarówno obywatelom jak i cudzoziemcom.</p>
 			<p>2. Kolejne ustępy artykułu 70 formułują szczegółowe gwarancje prawa do nauki:</p>
 			<ul>
 				<li>zasadę dwusektorowości systemu szkolnictwa (równoległe istnienie systemu szkół publicznych i niepublicznych);</li>
@@ -1180,7 +1180,7 @@ const articles = [
 				<li>zasadę pomocy władz publicznych dla uczniów i studentów.</li>
 				<li>Zasada bezpłatności (ustęp 2) dotyczy jedynie szkół publicznych, dlatego ich funkcjonowanie musi być w całości finansowane ze środków publicznych. Wolność zakładania i prowadzenia odpłatnych szkół niepublicznych jest elementem wolności gospodarczej. W publicznych szkołach wyższych dopuszczalne jest tworzenie równoległych systemów studiów odpłatnych.</li>
 			</ul>
-			<p>3. Ustęp 3 w zdaniu 1 reguluje wolność wyboru typu szkoły – publicznej lub niepublicznej. Z tego przepisu można również wyprowadzić zakaz dyskryminowania szkół niepublicznych i ich uczniów. Kolejne ustępy precyzują wolność zakładania szkół innych niż publiczne, np. prowadzonych przez Kościół. Jest to gwarancja zasady pluralizmu w kontekście wolności religii i praw rodziców do wychowywania dzieci zgodnie z własnymi przekonaniami.	4. Zasada powszechnego i równego dostępu do wykształcenia odnosi się jedynie do obywateli Rzeczypospolitej. Przepis ten tworzy zasadę polityki państwa, a nie prawo podmiotowe, więc nie stwarza bezpośrednich roszczeń. Jednakże zasada powszechności i równości ma bezpośredni związek z realizacją prawa do nauki i jest konieczna, by w pełni korzystać z tego prawa.	Zasada ta dotyczy kształcenia w systemie szkolnictwa publicznego. Powszechność nauki oznacza, że każda osoba objęta obowiązkiem szkolnym musi mieć zapewnioną możliwość nauki w szkole publicznej, chyba że decyduje się na korzystanie z oferty szkół niepublicznych. Z zasady powszechności wynika także, że osoby, które ukończyły 18 lat, również muszą mieć zagwarantowaną możliwość pobierania nauki w szkołach na różnych szczeblach. Równość w dostępie do nauki to realizacja ogólnej zasady równości (art. 32). Każdy powinien mieć jednakową szansę podjęcia nauki w szkołach na różnych szczeblach edukacji. Szczególnie istotne w tym kontekście jest uwzględnienie <a href='/33'>art. 33</a> i zapewnienie równości w dostępie do nauki niezależnie od płci.</p>
+			<p>3. Ustęp 3 w zdaniu 1 reguluje wolność wyboru typu szkoły – publicznej lub niepublicznej. Z tego przepisu można również wyprowadzić zakaz dyskryminowania szkół niepublicznych i ich uczniów. Kolejne ustępy precyzują wolność zakładania szkół innych niż publiczne, np. prowadzonych przez Kościół. Jest to gwarancja zasady pluralizmu w kontekście wolności religii i praw rodziców do wychowywania dzieci zgodnie z własnymi przekonaniami.	4. Zasada powszechnego i równego dostępu do wykształcenia odnosi się jedynie do obywateli Rzeczypospolitej. Przepis ten tworzy zasadę polityki państwa, a nie prawo podmiotowe, więc nie stwarza bezpośrednich roszczeń. Jednakże zasada powszechności i równości ma bezpośredni związek z realizacją prawa do nauki i jest konieczna, by w pełni korzystać z tego prawa.	Zasada ta dotyczy kształcenia w systemie szkolnictwa publicznego. Powszechność nauki oznacza, że każda osoba objęta obowiązkiem szkolnym musi mieć zapewnioną możliwość nauki w szkole publicznej, chyba że decyduje się na korzystanie z oferty szkół niepublicznych. Z zasady powszechności wynika także, że osoby, które ukończyły 18 lat, również muszą mieć zagwarantowaną możliwość pobierania nauki w szkołach na różnych szczeblach. Równość w dostępie do nauki to realizacja ogólnej zasady równości (art. 32). Każdy powinien mieć jednakową szansę podjęcia nauki w szkołach na różnych szczeblach edukacji. Szczególnie istotne w tym kontekście jest uwzględnienie <a class="art-scroll" href='/33'>art. 33</a> i zapewnienie równości w dostępie do nauki niezależnie od płci.</p>
 			<p>4. Ustęp 4 tworzy także zasadę pomocy władz publicznych dla uczniów i studentów, której realizacja może odbywać się na różne przewidziane przez ustawodawcę sposoby.</p>
 			<p>5. Zasada autonomii szkół wyższych dotyczy zarówno szkół publicznych, jak i niepublicznych. Te drugie, w związku ze swoim charakterem, są niezależne od władz publicznych. Zasada autonomii nie odnosi się do szkół innych szczebli. Uczelnie, korzystając z autonomii, nie mogą jednak podejmować działań sprzecznych z powszechnie obowiązującym prawem.	Poprzez tę zasadę Konstytucja chroni sferę wolności prowadzenia badań naukowych i kształcenia w ramach obowiązującego porządku prawnego. Władzom szkół wyższych musi być pozostawiona sfera swobodnego decydowania o nauce i nauczaniu, decydowania o organizacji wewnętrznej i władzach uczelni, toku nauczania, zasadach przyjmowania studentów, określenia ich praw i obowiązków. Szczególnie istotne jest w tym wypadku zadbanie o odpowiednie gwarancje praw studentów i studentek.</p>
 		`
@@ -1261,8 +1261,8 @@ const articles = [
 		`,
 		desc: `
 			<p>Ochrona środowiska jest jedną z zasadniczych wartości chronionych przez Konstytucję. Rzeczpospolita Polska zapewnia ochronę środowiska, kierując się zasadą zrównoważonego rozwoju, zaś władze publiczne mają obowiązek ochrony środowiska i prowadzenia polityki zapewniającej bezpieczeństwo ekologiczne współczesnemu i przyszłym pokoleniom.</p>
-			<p>Artykuł 74 przede wszystkim formułuje zadania i obowiązki władz publicznych i tworzy zasadę polityki państwa. Dwa zasadnicze obowiązki to ochrona środowiska (ust. 2) oraz wspieranie odpowiednich działań obywateli (ust 4). Ochrona środowiska to całokształt działań i narzędzi, które przeciwdziałają pogorszaniu się stanu środowiska. Warto podkreślić w tym kontekście przeciwdziałanie negatywnym dla zdrowia skutkom degradacji środowiska (<a href='/68'>art. 68</a> ust. 4).</p>
-			<p>Ustęp trzeci formułuje prawo podmiotowe (obywateli i cudzoziemców) do informacji o stanie i ochronie środowiska. Jest to konkretyzacja szerszego prawa do informacji (<a href='/54'>art. 54</a> i <a href='/61'>art. 61</a>).</p>
+			<p>Artykuł 74 przede wszystkim formułuje zadania i obowiązki władz publicznych i tworzy zasadę polityki państwa. Dwa zasadnicze obowiązki to ochrona środowiska (ust. 2) oraz wspieranie odpowiednich działań obywateli (ust 4). Ochrona środowiska to całokształt działań i narzędzi, które przeciwdziałają pogorszaniu się stanu środowiska. Warto podkreślić w tym kontekście przeciwdziałanie negatywnym dla zdrowia skutkom degradacji środowiska (<a class="art-scroll" href='/68'>art. 68</a> ust. 4).</p>
+			<p>Ustęp trzeci formułuje prawo podmiotowe (obywateli i cudzoziemców) do informacji o stanie i ochronie środowiska. Jest to konkretyzacja szerszego prawa do informacji (<a class="art-scroll" href='/54'>art. 54</a> i <a class="art-scroll" href='/61'>art. 61</a>).</p>
 			<p>Adresatem tych obowiązków są władze publiczne.</p>
 		`
 	},
@@ -1313,7 +1313,7 @@ const articles = [
 		`,
 		desc: `
 			<p>1. Przepis ten obejmuje każdego, komu została wyrządzona szkoda przez niezgodne z prawem działanie organu władzy publicznej. Ponadto oznacza on, że prawo do wynagrodzenia szkody przysługuje nie tylko obywatelowi polskiemu, ale także obcokrajowcom. Komentatorzy wskazują różne źródła potencjalnej szkody, spowodowanej działaniem władz publicznych: jednostkowe działania faktyczne (czynności materialno-techniczne), wydanie aktu indywidualnego (orzeczeń sądowych, aktów administracyjnych), nienormatywne akty generalne, akty normatywne (z ustawami włącznie). Konieczną przesłanką uzasadniającą roszczenie o wynagrodzenie szkody, jest stwierdzenie niezgodności z prawem działań organów władzy publicznej.</p>
-			<p>2. Regulacja ta ma uniwersalny wymiar. Gwarantuje drogę sądową nie tylko w sprawach o roszczenia odszkodowawcze wobec władzy publicznej, ale również gwarantuje drogę sądową w orzekaniu o wszelkich przypadkach naruszenia praw i wolności. Prawo do sądu należy do jednych z podstawowych praw jednostki i stanowi jedną z fundamentalnych gwarancji praworządności. Komentatorzy podkreślają, że zakres przedmiotowy ustępu 2 ma nieporównywalnie szerszy charakter i wiąże się raczej z <a href='/45'>art. 45</a> ust. 1 Konstytucji niż z art. 77 ust. 1. Oba wspomniane przepisy nie powtarzają swojej treści, <a href='/45'>art. 45</a> stanowi pozytywne ujęcie prawa do sądu, natomiast art. 77 ust 2. negatywne. Art. 77 ust. 2 dotyczy dochodzenia naruszonych wolności i praw zagwarantowanych w Konstytucji RP. Sąd Najwyższy stwierdził, że posługuje się on pojęciem drogi sądowej w szerokim znaczeniu, obejmującej postępowanie przed jakimkolwiek sądem przewidzianym w <a href='/175'>art. 175</a> Konstytucji, a więc przed Sądem Najwyższym, sądami powszechnym, administracyjnymi i wojskowymi.</p>
+			<p>2. Regulacja ta ma uniwersalny wymiar. Gwarantuje drogę sądową nie tylko w sprawach o roszczenia odszkodowawcze wobec władzy publicznej, ale również gwarantuje drogę sądową w orzekaniu o wszelkich przypadkach naruszenia praw i wolności. Prawo do sądu należy do jednych z podstawowych praw jednostki i stanowi jedną z fundamentalnych gwarancji praworządności. Komentatorzy podkreślają, że zakres przedmiotowy ustępu 2 ma nieporównywalnie szerszy charakter i wiąże się raczej z <a class="art-scroll" href='/45'>art. 45</a> ust. 1 Konstytucji niż z art. 77 ust. 1. Oba wspomniane przepisy nie powtarzają swojej treści, <a class="art-scroll" href='/45'>art. 45</a> stanowi pozytywne ujęcie prawa do sądu, natomiast art. 77 ust 2. negatywne. Art. 77 ust. 2 dotyczy dochodzenia naruszonych wolności i praw zagwarantowanych w Konstytucji RP. Sąd Najwyższy stwierdził, że posługuje się on pojęciem drogi sądowej w szerokim znaczeniu, obejmującej postępowanie przed jakimkolwiek sądem przewidzianym w <a class="art-scroll" href='/175'>art. 175</a> Konstytucji, a więc przed Sądem Najwyższym, sądami powszechnym, administracyjnymi i wojskowymi.</p>
 		`
 	},
 	{
@@ -1342,7 +1342,7 @@ const articles = [
 		},
 		html: `
 			<p>1. Każdy, czyje konstytucyjne wolności lub prawa zostały naruszone, ma prawo, na zasadach określonych w ustawie, wnieść skargę do Trybunału Konstytucyjnego w sprawie zgodności z Konstytucją ustawy lub innego aktu normatywnego, na podstawie którego sąd lub organ administracji publicznej orzekł ostatecznie o jego wolnościach lub prawach albo o jego obowiązkach określonych w Konstytucji.</p>
-			<p>2. Przepis ust. 1 nie dotyczy praw określonych w <a href='/56'>art. 56</a>.</p>
+			<p>2. Przepis ust. 1 nie dotyczy praw określonych w <a class="art-scroll" href='/56'>art. 56</a>.</p>
 		`,
 		desc: `
 			<p>Ochronie za pomocą skargi konstytucyjnej podlegają konstytucyjne wolności i prawa, które zostały naruszone. Prawo to przysługuje każdemu, a więc nie jest związane z faktem posiadania obywatelstwa polskiego (wyjątki przewiduje Konstytucja w ust. 2, a dotyczą one tylko cudzoziemców starających się w Polsce o azyl lub o uzyskanie statusu uchodźcy).</p>
@@ -1375,7 +1375,7 @@ const articles = [
 			title: "Wolności, prawa i obowiązki człowieka i obywatela"
 		},
 		html: `
-			<p>Praw określonych w <a href='/65'>art. 65</a> ust. 4 i 5, <a href='/66'>art. 66</a>, <a href='/69'>art. 69</a>, <a href='/71'>art. 71</a> i <a href='/74'>art. 74-76</a> można dochodzić w granicach określonych w ustawie.</p>
+			<p>Praw określonych w <a class="art-scroll" href='/65'>art. 65</a> ust. 4 i 5, <a class="art-scroll" href='/66'>art. 66</a>, <a class="art-scroll" href='/69'>art. 69</a>, <a class="art-scroll" href='/71'>art. 71</a> i <a class="art-scroll" href='/74'>art. 74-76</a> można dochodzić w granicach określonych w ustawie.</p>
 		`,
 		desc: ``
 	},
@@ -1499,7 +1499,7 @@ const articles = [
 		html: `
 			<p>1. Rzeczpospolita Polska może na podstawie umowy międzynarodowej przekazać organizacji międzynarodowej lub organowi międzynarodowemu kompetencje organów władzy państwowej w niektórych sprawach.</p>
 			<p>2. Ustawa, wyrażająca zgodę na ratyfikację umowy międzynarodowej, o której mowa w ust. 1, jest uchwalana przez Sejm większością 2/3 głosów w obecności co najmniej połowy ustawowej liczby posłów oraz przez Senat większością 2/3 głosów w obecności co najmniej połowy ustawowej liczby senatorów.</p>
-			<p>3. Wyrażenie zgody na ratyfikację takiej umowy może być uchwalone w referendum ogólnokrajowym zgodnie z przepisem <a href='/125'>art. 125</a>.</p>
+			<p>3. Wyrażenie zgody na ratyfikację takiej umowy może być uchwalone w referendum ogólnokrajowym zgodnie z przepisem <a class="art-scroll" href='/125'>art. 125</a>.</p>
 			<p>4. Uchwałę w sprawie wyboru trybu wyrażenia zgody na ratyfikację podejmuje Sejm bezwzględną większością głosów w obecności co najmniej połowy ustawowej liczby posłów.</p>
 		`,
 		desc: ``
@@ -1744,7 +1744,7 @@ const articles = [
 			title: "Sejm i Senat"
 		},
 		html: `
-			<p>Do senatorów stosuje się odpowiednio przepisy <a href='/103'>art. 103-107</a>.</p>
+			<p>Do senatorów stosuje się odpowiednio przepisy <a class="art-scroll" href='/103'>art. 103-107</a>.</p>
 		`,
 		desc: ``
 	},
@@ -1757,7 +1757,7 @@ const articles = [
 		},
 		html: `
 			<p>1. Sejm i Senat obradują na posiedzeniach.</p>
-			<p>2. Pierwsze posiedzenia Sejmu i Senatu Prezydent Rzeczypospolitej zwołuje na dzień przypadający w ciągu 30 dni od dnia wyborów, z wyjątkiem przypadków określonych w <a href='/98'>art. 98</a> ust. 3 i 5.</p>
+			<p>2. Pierwsze posiedzenia Sejmu i Senatu Prezydent Rzeczypospolitej zwołuje na dzień przypadający w ciągu 30 dni od dnia wyborów, z wyjątkiem przypadków określonych w <a class="art-scroll" href='/98'>art. 98</a> ust. 3 i 5.</p>
 		`,
 		desc: ``
 	},
@@ -1926,7 +1926,7 @@ const articles = [
 			title: "Sejm i Senat"
 		},
 		html: `
-			<p>1. Po zakończeniu postępowania określonego w <a href='/121'>art. 121</a> Marszałek Sejmu przedstawia uchwaloną ustawę do podpisu Prezydentowi Rzeczypospolitej.</p>
+			<p>1. Po zakończeniu postępowania określonego w <a class="art-scroll" href='/121'>art. 121</a> Marszałek Sejmu przedstawia uchwaloną ustawę do podpisu Prezydentowi Rzeczypospolitej.</p>
 			<p>2. Prezydent Rzeczypospolitej podpisuje ustawę w ciągu 21 dni od dnia przedstawienia i zarządza jej ogłoszenie w Dzienniku Ustaw Rzeczypospolitej Polskiej.</p>
 			<p>3. Przed podpisaniem ustawy Prezydent Rzeczypospolitej może wystąpić do Trybunału Konstytucyjnego z wnioskiem w sprawie zgodności ustawy z Konstytucją. Prezydent Rzeczypospolitej nie może odmówić podpisania ustawy, którą Trybunał Konstytucyjny uznał za zgodną z Konstytucją.</p>
 			<p>4. Prezydent Rzeczypospolitej odmawia podpisania ustawy, którą Trybunał Konstytucyjny uznał za niezgodną z Konstytucją. Jeżeli jednak niezgodność z Konstytucją dotyczy poszczególnych przepisów ustawy, a Trybunał Konstytucyjny nie orzeknie, że są one nierozerwalnie związane z całą ustawą, Prezydent Rzeczypospolitej, po zasięgnięciu opinii Marszałka Sejmu, podpisuje ustawę z pominięciem przepisów uznanych za niezgodne z Konstytucją albo zwraca ustawę Sejmowi w celu usunięcia niezgodności.</p>
@@ -1957,7 +1957,7 @@ const articles = [
 			title: "Sejm i Senat"
 		},
 		html: `
-			<p>Do Senatu stosuje się odpowiednio przepisy <a href='/110'>art. 110</a>, <a href='/112'>art. 112</a>, <a href='/113'>art. 113</a> i <a href='/120'>art. 120</a>.</p>
+			<p>Do Senatu stosuje się odpowiednio przepisy <a class="art-scroll" href='/110'>art. 110</a>, <a class="art-scroll" href='/112'>art. 112</a>, <a class="art-scroll" href='/113'>art. 113</a> i <a class="art-scroll" href='/120'>art. 120</a>.</p>
 		`,
 		desc: ``
 	},
@@ -1972,7 +1972,7 @@ const articles = [
 			<p>1. W sprawach o szczególnym znaczeniu dla państwa może być przeprowadzone referendum ogólnokrajowe.</p>
 			<p>2. Referendum ogólnokrajowe ma prawo zarządzić Sejm bezwzględną większością głosów w obecności co najmniej połowy ustawowej liczby posłów lub Prezydent Rzeczypospolitej za zgodą Senatu wyrażoną bezwzględną większością głosów w obecności co najmniej połowy ustawowej liczby senatorów.</p>
 			<p>3. Jeżeli w referendum ogólnokrajowym wzięło udział więcej niż połowa uprawnionych do głosowania, wynik referendum jest wiążący.</p>
-			<p>4. Ważność referendum ogólnokrajowego oraz referendum, o którym mowa w <a href='/235'>art. 235</a> ust. 6, stwierdza Sąd Najwyższy.</p>
+			<p>4. Ważność referendum ogólnokrajowego oraz referendum, o którym mowa w <a class="art-scroll" href='/235'>art. 235</a> ust. 6, stwierdza Sąd Najwyższy.</p>
 			<p>5. Zasady i tryb przeprowadzania referendum określa ustawa.</p>
 		`,
 		desc: ``
@@ -2032,7 +2032,7 @@ const articles = [
 		html: `
 			<p>1. Ważność wyboru Prezydenta Rzeczypospolitej stwierdza Sąd Najwyższy.</p>
 			<p>2. Wyborcy przysługuje prawo zgłoszenia do Sądu Najwyższego protestu przeciwko ważności wyboru Prezydenta Rzeczypospolitej na zasadach określonych w ustawie.</p>
-			<p>3. W razie stwierdzenia nieważności wyboru Prezydenta Rzeczypospolitej przeprowadza się nowe wybory, na zasadach przewidzianych w <a href='/128'>art. 128</a> ust. 2 dla przypadku opróżnienia urzędu Prezydenta Rzeczypospolitej.</p>
+			<p>3. W razie stwierdzenia nieważności wyboru Prezydenta Rzeczypospolitej przeprowadza się nowe wybory, na zasadach przewidzianych w <a class="art-scroll" href='/128'>art. 128</a> ust. 2 dla przypadku opróżnienia urzędu Prezydenta Rzeczypospolitej.</p>
 		`,
 		desc: ``
 	},
@@ -2214,7 +2214,7 @@ const articles = [
 			title: "Prezydent Rzeczypospolitej Polskiej"
 		},
 		html: `
-			<p>1. Prezydent Rzeczypospolitej wydaje rozporządzenia i zarządzenia na zasadach określonych w <a href='/92'>art. 92</a> i <a href='/93'>art. 93</a>.</p>
+			<p>1. Prezydent Rzeczypospolitej wydaje rozporządzenia i zarządzenia na zasadach określonych w <a class="art-scroll" href='/92'>art. 92</a> i <a class="art-scroll" href='/93'>art. 93</a>.</p>
 			<p>2. Prezydent Rzeczypospolitej wydaje postanowienia w zakresie realizacji pozostałych swoich kompetencji.</p>
 		`,
 		desc: ``
@@ -2271,7 +2271,7 @@ const articles = [
 				<li>26) powoływania i odwoływania członków Rady Bezpieczeństwa Narodowego,</li>
 				<li>27) powoływania członków Krajowej Rady Radiofonii i Telewizji,</li>
 				<li>28) nadawania statutu Kancelarii Prezydenta Rzeczypospolitej oraz powoływania i odwoływania Szefa Kancelarii Prezydenta Rzeczypospolitej,</li>
-				<li>29) wydawania zarządzeń na zasadach określonych w <a href='/93'>art. 93</a>,</li>
+				<li>29) wydawania zarządzeń na zasadach określonych w <a class="art-scroll" href='/93'>art. 93</a>,</li>
 				<li>30) zrzeczenia się urzędu Prezydenta Rzeczypospolitej.</li>
 			</ul>
 		`,
@@ -2287,7 +2287,7 @@ const articles = [
 		html: `
 			<p>1. Prezydent Rzeczypospolitej za naruszenie Konstytucji, ustawy lub za popełnienie przestępstwa może być pociągnięty do odpowiedzialności przed Trybunałem Stanu.</p>
 			<p>2. Postawienie Prezydenta Rzeczypospolitej w stan oskarżenia może nastąpić uchwałą Zgromadzenia Narodowego podjętą większością co najmniej 2/3 głosów ustawowej liczby członków Zgromadzenia Narodowego na wniosek co najmniej 140 członków Zgromadzenia Narodowego.</p>
-			<p>3. Z dniem podjęcia uchwały o postawieniu Prezydenta Rzeczypospolitej w stan oskarżenia przed Trybunałem Stanu sprawowanie urzędu przez Prezydenta Rzeczypospolitej ulega zawieszeniu. Przepis <a href='/131'>art. 131</a> stosuje się odpowiednio.</p>
+			<p>3. Z dniem podjęcia uchwały o postawieniu Prezydenta Rzeczypospolitej w stan oskarżenia przed Trybunałem Stanu sprawowanie urzędu przez Prezydenta Rzeczypospolitej ulega zawieszeniu. Przepis <a class="art-scroll" href='/131'>art. 131</a> stosuje się odpowiednio.</p>
 		`,
 		desc: ``
 	},
@@ -2352,7 +2352,7 @@ const articles = [
 		html: `
 			<p>1. Ministrowie kierują określonymi działami administracji rządowej lub wypełniają zadania wyznaczone im przez Prezesa Rady Ministrów. Zakres działania ministra kierującego działem administracji rządowej określają ustawy.</p>
 			<p>2. Minister kierujący działem administracji rządowej wydaje rozporządzenia. Rada Ministrów, na wniosek Prezesa Rady Ministrów, może uchylić rozporządzenie lub zarządzenie ministra.</p>
-			<p>3. Do przewodniczącego komitetu, o którym mowa w <a href='/147'>art. 147</a> ust. 4, stosuje się odpowiednio przepisy odnoszące się do ministra kierującego działem administracji rządowej.</p>
+			<p>3. Do przewodniczącego komitetu, o którym mowa w <a class="art-scroll" href='/147'>art. 147</a> ust. 4, stosuje się odpowiednio przepisy odnoszące się do ministra kierującego działem administracji rządowej.</p>
 		`,
 		desc: ``
 	},
@@ -2428,7 +2428,7 @@ const articles = [
 			title: "Rada Ministrów i administracja rządowa"
 		},
 		html: `
-			<p>1. W razie niepowołania Rady Ministrów w trybie <a href='/154'>art. 154</a> ust. 3 Prezydent Rzeczypospolitej w ciągu 14 dni powołuje Prezesa Rady Ministrów i na jego wniosek pozostałych członków Rady Ministrów oraz odbiera od nich przysięgę. Sejm w ciągu 14 dni od dnia powołania Rady Ministrów przez Prezydenta Rzeczypospolitej udziela jej wotum zaufania większością głosów w obecności co najmniej połowy ustawowej liczby posłów.</p>
+			<p>1. W razie niepowołania Rady Ministrów w trybie <a class="art-scroll" href='/154'>art. 154</a> ust. 3 Prezydent Rzeczypospolitej w ciągu 14 dni powołuje Prezesa Rady Ministrów i na jego wniosek pozostałych członków Rady Ministrów oraz odbiera od nich przysięgę. Sejm w ciągu 14 dni od dnia powołania Rady Ministrów przez Prezydenta Rzeczypospolitej udziela jej wotum zaufania większością głosów w obecności co najmniej połowy ustawowej liczby posłów.</p>
 			<p>2. W razie nieudzielenia Radzie Ministrów wotum zaufania w trybie określonym w ust. 1, Prezydent Rzeczypospolitej skraca kadencję Sejmu i zarządza wybory.</p>
 		`,
 		desc: ``
@@ -2480,7 +2480,7 @@ const articles = [
 			title: "Rada Ministrów i administracja rządowa"
 		},
 		html: `
-			<p>1. Sejm może wyrazić ministrowi wotum nieufności. Wniosek o wyrażenie wotum nieufności może być zgłoszony przez co najmniej 69 posłów. Przepis <a href='/158'>art. 158</a> ust. 2 stosuje się odpowiednio.</p>
+			<p>1. Sejm może wyrazić ministrowi wotum nieufności. Wniosek o wyrażenie wotum nieufności może być zgłoszony przez co najmniej 69 posłów. Przepis <a class="art-scroll" href='/158'>art. 158</a> ust. 2 stosuje się odpowiednio.</p>
 			<p>2. Prezydent Rzeczypospolitej odwołuje ministra, któremu Sejm wyraził wotum nieufności większością głosów ustawowej liczby posłów.</p>
 		`,
 		desc: ``
@@ -2877,7 +2877,7 @@ const articles = [
 				<li>2) zgodności ustaw z ratyfikowanymi umowami międzynarodowymi, których ratyfikacja wymagała uprzedniej zgody wyrażonej w ustawie,</li>
 				<li>3) zgodności przepisów prawa, wydawanych przez centralne organy państwowe, z Konstytucją, ratyfikowanymi umowami międzynarodowymi i ustawami,</li>
 				<li>4) zgodności z Konstytucją celów lub działalności partii politycznych,</li>
-				<li>5) skargi konstytucyjnej, o której mowa w <a href='/79'>art. 79</a> ust. 1.</li>
+				<li>5) skargi konstytucyjnej, o której mowa w <a class="art-scroll" href='/79'>art. 79</a> ust. 1.</li>
 			</ul>
 		`,
 		desc: ``
@@ -2903,7 +2903,7 @@ const articles = [
 		},
 		html: `
 			<p>1. Orzeczenia Trybunału Konstytucyjnego mają moc powszechnie obowiązującą i są ostateczne.</p>
-			<p>2. Orzeczenia Trybunału Konstytucyjnego w sprawach wymienionych w <a href='/188'>art. 188</a> podlegają niezwłocznemu ogłoszeniu w organie urzędowym, w którym akt normatywny był ogłoszony. Jeżeli akt nie był ogłoszony, orzeczenie ogłasza się w Dzienniku Urzędowym Rzeczypospolitej Polskiej \"Monitor Polski\".</p>
+			<p>2. Orzeczenia Trybunału Konstytucyjnego w sprawach wymienionych w <a class="art-scroll" href='/188'>art. 188</a> podlegają niezwłocznemu ogłoszeniu w organie urzędowym, w którym akt normatywny był ogłoszony. Jeżeli akt nie był ogłoszony, orzeczenie ogłasza się w Dzienniku Urzędowym Rzeczypospolitej Polskiej \"Monitor Polski\".</p>
 			<p>3. Orzeczenie Trybunału Konstytucyjnego wchodzi w życie z dniem ogłoszenia, jednak Trybunał Konstytucyjny może określić inny termin utraty mocy obowiązującej aktu normatywnego. Termin ten nie może przekroczyć osiemnastu miesięcy, gdy chodzi o ustawę, a gdy chodzi o inny akt normatywny dwunastu miesięcy. W przypadku orzeczeń, które wiążą się z nakładami finansowymi nie przewidzianymi w ustawie budżetowej, Trybunał Konstytucyjny określa termin utraty mocy obowiązującej aktu normatywnego po zapoznaniu się z opinią Rady Ministrów.</p>
 			<p>4. Orzeczenie Trybunału Konstytucyjnego o niezgodności z Konstytucją, umową międzynarodową lub z ustawą aktu normatywnego, na podstawie którego zostało wydane prawomocne orzeczenie sądowe, ostateczna decyzja administracyjna lub rozstrzygnięcie w innych sprawach, stanowi podstawę do wznowienia postępowania, uchylenia decyzji lub innego rozstrzygnięcia na zasadach i w trybie określonych w przepisach właściwych dla danego postępowania.</p>
 			<p>5. Orzeczenia Trybunału Konstytucyjnego zapadają większością głosów.</p>
@@ -2918,14 +2918,14 @@ const articles = [
 			title: "Sądy i Trybunały"
 		},
 		html: `
-			<p>Z wnioskiem w sprawach, o których mowa w <a href='/188'>art. 188</a>, do Trybunału Konstytucyjnego wystąpić mogą:</p>
+			<p>Z wnioskiem w sprawach, o których mowa w <a class="art-scroll" href='/188'>art. 188</a>, do Trybunału Konstytucyjnego wystąpić mogą:</p>
 			<ul>
 				<li>1) Prezydent Rzeczypospolitej, Marszałek Sejmu, Marszałek Senatu, Prezes Rady Ministrów, 50 posłów, 30 senatorów, Pierwszy Prezes Sądu Najwyższego, Prezes Naczelnego Sądu Administracyjnego, Prokurator Generalny, Prezes Najwyższej Izby Kontroli, Rzecznik Praw Obywatelskich,</li>
-				<li>2) Krajowa Rada Sądownictwa w zakresie, o którym mowa w <a href='/186'>art. 186</a> ust. 2,</li>
+				<li>2) Krajowa Rada Sądownictwa w zakresie, o którym mowa w <a class="art-scroll" href='/186'>art. 186</a> ust. 2,</li>
 				<li>3) organy stanowiące jednostek samorządu terytorialnego,</li>
 				<li>4) ogólnokrajowe organy związków zawodowych oraz ogólnokrajowe władze organizacji pracodawców i organizacji zawodowych,</li>
 				<li>5) kościoły i inne związki wyznaniowe,</li>
-				<li>6) podmioty określone w <a href='/79'>art. 79</a> w zakresie w nim wskazanym.</li>
+				<li>6) podmioty określone w <a class="art-scroll" href='/79'>art. 79</a> w zakresie w nim wskazanym.</li>
 			</ul>
 			<p>2. Podmioty, o których mowa w ust. 1 pkt 3-5, mogą wystąpić z takim wnioskiem, jeżeli akt normatywny dotyczy spraw objętych ich zakresem działania.</p>
 		`,
@@ -2939,7 +2939,7 @@ const articles = [
 			title: "Sądy i Trybunały"
 		},
 		html: `
-			<p>Z wnioskiem w sprawach, o których mowa w <a href='/189'>art. 189</a>, do Trybunału Konstytucyjnego wystąpić mogą: Prezydent Rzeczypospolitej, Marszałek Sejmu, Marszałek Senatu, Prezes Rady Ministrów, Pierwszy Prezes Sądu Najwyższego, Prezes Naczelnego Sądu Administracyjnego i Prezes Najwyższej Izby Kontroli.</p>
+			<p>Z wnioskiem w sprawach, o których mowa w <a class="art-scroll" href='/189'>art. 189</a>, do Trybunału Konstytucyjnego wystąpić mogą: Prezydent Rzeczypospolitej, Marszałek Sejmu, Marszałek Senatu, Prezes Rady Ministrów, Pierwszy Prezes Sądu Najwyższego, Prezes Naczelnego Sądu Administracyjnego i Prezes Najwyższej Izby Kontroli.</p>
 		`,
 		desc: ``
 	},
@@ -3015,7 +3015,7 @@ const articles = [
 		},
 		html: `
 			<p>1. Za naruszenie Konstytucji lub ustawy, w związku z zajmowanym stanowiskiem lub w zakresie swojego urzędowania, odpowiedzialność konstytucyjną przed Trybunałem Stanu ponoszą: Prezydent Rzeczypospolitej, Prezes Rady Ministrów oraz członkowie Rady Ministrów, Prezes Narodowego Banku Polskiego, Prezes Najwyższej Izby Kontroli, członkowie Krajowej Rady Radiofonii i Telewizji, osoby, którym Prezes Rady Ministrów powierzył kierowanie ministerstwem oraz Naczelny Dowódca Sił Zbrojnych.</p>
-			<p>2. Odpowiedzialność konstytucyjną przed Trybunałem Stanu ponoszą również posłowie i senatorowie w zakresie określonym w <a href='/107'>art. 107</a>.</p>
+			<p>2. Odpowiedzialność konstytucyjną przed Trybunałem Stanu ponoszą również posłowie i senatorowie w zakresie określonym w <a class="art-scroll" href='/107'>art. 107</a>.</p>
 			<p>3. Rodzaje kar orzekanych przez Trybunał Stanu określa ustawa.</p>
 		`,
 		desc: ``
@@ -3270,7 +3270,7 @@ const articles = [
 			<p>Nakładanie podatków, innych danin publicznych, określanie podmiotów, przedmiotów opodatkowania i stawek podatkowych, a także zasad przyznawania ulg i umorzeń oraz kategorii podmiotów zwolnionych od podatków następuje w drodze ustawy.</p>
 		`,
 		desc: `
-			<p>Jak wskazał Trybunał Konstytucyjny art. 217 jest szczególnie powiązany z <a href='/84'>art. 84</a> (obowiązek ponoszenia ciężarów publicznych), <a href='/82'>art. 82</a> (troska o wspólne dobro), <a href='/83'>art. 83</a> (obowiązek przestrzegania prawa) i <a href='/1'>art. 1</a> (państwo jako dobro wspólne obywateli) – wyrok TK z 6 marca 2002, P 7/00.</p>
+			<p>Jak wskazał Trybunał Konstytucyjny art. 217 jest szczególnie powiązany z <a class="art-scroll" href='/84'>art. 84</a> (obowiązek ponoszenia ciężarów publicznych), <a class="art-scroll" href='/82'>art. 82</a> (troska o wspólne dobro), <a class="art-scroll" href='/83'>art. 83</a> (obowiązek przestrzegania prawa) i <a class="art-scroll" href='/1'>art. 1</a> (państwo jako dobro wspólne obywateli) – wyrok TK z 6 marca 2002, P 7/00.</p>
 			<p>Przepis ten formułuje wyraźnie i wprost bezwzględny nakaz regulacji tej materii na drodze ustawy. Artykuł 217 kładzie kres możliwościom nakładania podatków i danin publicznych, ustalania stawek podatkowych, zasad przyznawania ulg i umorzeń, jak również zwolnień od podatku w innej formie niż w drodze ustawy.</p>
 		`
 	},
@@ -3358,7 +3358,7 @@ const articles = [
 			title: "Finanse publiczne"
 		},
 		html: `
-			<p>1. Prezydent Rzeczypospolitej podpisuje w ciągu 7 dni ustawę budżetową albo ustawę o prowizorium budżetowym przedstawioną przez Marszałka Sejmu. Do ustawy budżetowej i ustawy o prowizorium budżetowym nie stosuje się przepisu <a href='/122'>art. 122</a> ust. 5.</p>
+			<p>1. Prezydent Rzeczypospolitej podpisuje w ciągu 7 dni ustawę budżetową albo ustawę o prowizorium budżetowym przedstawioną przez Marszałka Sejmu. Do ustawy budżetowej i ustawy o prowizorium budżetowym nie stosuje się przepisu <a class="art-scroll" href='/122'>art. 122</a> ust. 5.</p>
 			<p>2. W przypadku zwrócenia się Prezydenta Rzeczypospolitej do Trybunału Konstytucyjnego w sprawie zgodności z Konstytucją ustawy budżetowej albo ustawy o prowizorium budżetowym przed jej podpisaniem, Trybunał orzeka w tej sprawie nie później niż w ciągu 2 miesięcy od dnia złożenia wniosku w Trybunale.</p>
 		`,
 		desc: ``
@@ -3481,9 +3481,9 @@ const articles = [
 			title: "Stany nadzwyczajne"
 		},
 		html: `
-			<p>1. Ustawa określająca zakres ograniczeń wolności i praw człowieka i obywatela w czasie stanu wojennego i wyjątkowego nie może ograniczać wolności i praw określonych w <a href='/30'>art. 30</a> (godność człowieka), <a href='/34'>art. 34</a> i <a href='/36'>art. 36</a> (obywatelstwo), <a href='/38'>art. 38</a> (ochrona życia), <a href='/39'>art. 39</a>, <a href='/40'>art. 40</a> i <a href='/41'>art. 41</a> ust. 4 (humanitarne traktowanie), <a href='/42'>art. 42</a> (ponoszenie odpowiedzialności karnej), <a href='/45'>art. 45</a> (dostęp do sądu), <a href='/47'>art. 47</a> (dobra osobiste), <a href='/53'>art. 53</a> (sumienie i religia), <a href='/63'>art. 63</a> (petycje) oraz <a href='/48'>art. 48</a> i <a href='/72'>art. 72</a> (rodzina i dziecko).</p>
+			<p>1. Ustawa określająca zakres ograniczeń wolności i praw człowieka i obywatela w czasie stanu wojennego i wyjątkowego nie może ograniczać wolności i praw określonych w <a class="art-scroll" href='/30'>art. 30</a> (godność człowieka), <a class="art-scroll" href='/34'>art. 34</a> i <a class="art-scroll" href='/36'>art. 36</a> (obywatelstwo), <a class="art-scroll" href='/38'>art. 38</a> (ochrona życia), <a class="art-scroll" href='/39'>art. 39</a>, <a class="art-scroll" href='/40'>art. 40</a> i <a class="art-scroll" href='/41'>art. 41</a> ust. 4 (humanitarne traktowanie), <a class="art-scroll" href='/42'>art. 42</a> (ponoszenie odpowiedzialności karnej), <a class="art-scroll" href='/45'>art. 45</a> (dostęp do sądu), <a class="art-scroll" href='/47'>art. 47</a> (dobra osobiste), <a class="art-scroll" href='/53'>art. 53</a> (sumienie i religia), <a class="art-scroll" href='/63'>art. 63</a> (petycje) oraz <a class="art-scroll" href='/48'>art. 48</a> i <a class="art-scroll" href='/72'>art. 72</a> (rodzina i dziecko).</p>
 			<p>2. Niedopuszczalne jest ograniczenie wolności i praw człowieka i obywatela wyłącznie z powodu rasy, płci, języka, wyznania lub jego braku, pochodzenia społecznego, urodzenia oraz majątku.</p>
-			<p>3. Ustawa określająca zakres ograniczeń wolności i praw człowieka i obywatela w stanie klęski żywiołowej może ograniczać wolności i prawa określone w <a href='/22'>art. 22</a> (wolność działalności gospodarczej), <a href='/41'>art. 41</a> ust. 1, 3 i 5 (wolność osobista), <a href='/50'>art. 50</a> (nienaruszalność mieszkania), <a href='/52'>art. 52</a> ust. 1 (wolność poruszania się i pobytu na terytorium Rzeczypospolitej Polskiej), <a href='/59'>art. 59</a> ust. 3 (prawo do strajku), <a href='/64'>art. 64</a> (prawo własności), <a href='/65'>art. 65</a> ust. 1 (wolność pracy), <a href='/66'>art. 66</a> ust. 1 (prawo do bezpiecznych i higienicznych warunków pracy) oraz <a href='/66'>art. 66</a> ust. 2 (prawo do wypoczynku).</p>
+			<p>3. Ustawa określająca zakres ograniczeń wolności i praw człowieka i obywatela w stanie klęski żywiołowej może ograniczać wolności i prawa określone w <a class="art-scroll" href='/22'>art. 22</a> (wolność działalności gospodarczej), <a class="art-scroll" href='/41'>art. 41</a> ust. 1, 3 i 5 (wolność osobista), <a class="art-scroll" href='/50'>art. 50</a> (nienaruszalność mieszkania), <a class="art-scroll" href='/52'>art. 52</a> ust. 1 (wolność poruszania się i pobytu na terytorium Rzeczypospolitej Polskiej), <a class="art-scroll" href='/59'>art. 59</a> ust. 3 (prawo do strajku), <a class="art-scroll" href='/64'>art. 64</a> (prawo własności), <a class="art-scroll" href='/65'>art. 65</a> ust. 1 (wolność pracy), <a class="art-scroll" href='/66'>art. 66</a> ust. 1 (prawo do bezpiecznych i higienicznych warunków pracy) oraz <a class="art-scroll" href='/66'>art. 66</a> ust. 2 (prawo do wypoczynku).</p>
 		`,
 		desc: ``
 	},
@@ -3495,7 +3495,7 @@ const articles = [
 			title: "Stany nadzwyczajne"
 		},
 		html: `
-			<p>1. Jeżeli w czasie stanu wojennego Sejm nie może zebrać się na posiedzenie, Prezydent Rzeczypospolitej na wniosek Rady Ministrów wydaje rozporządzenia z mocą ustawy w zakresie i w granicach określonych w <a href='/228'>art. 228</a> ust. 3-5. Rozporządzenia te podlegają zatwierdzeniu przez Sejm na najbliższym posiedzeniu.</p>
+			<p>1. Jeżeli w czasie stanu wojennego Sejm nie może zebrać się na posiedzenie, Prezydent Rzeczypospolitej na wniosek Rady Ministrów wydaje rozporządzenia z mocą ustawy w zakresie i w granicach określonych w <a class="art-scroll" href='/228'>art. 228</a> ust. 3-5. Rozporządzenia te podlegają zatwierdzeniu przez Sejm na najbliższym posiedzeniu.</p>
 			<p>2. Rozporządzenia, o których mowa w ust. 1, mają charakter źródeł powszechnie obowiązującego prawa.</p>
 		`,
 		desc: ``
@@ -3527,7 +3527,7 @@ const articles = [
 		},
 		html: `
 			<p>1. W okresie 2 lat od dnia wejścia w życie Konstytucji Rada Ministrów przedstawi Sejmowi projekty ustaw niezbędnych do stosowania Konstytucji.</p>
-			<p>2. Ustawy wprowadzające w życie <a href='/176'>art. 176</a> ust. 1 w zakresie dotyczącym postępowania przed sądami administracyjnymi zostaną uchwalone przed upływem 5 lat od dnia wejścia w życie Konstytucji. Do czasu wejścia w życie tych ustaw obowiązują przepisy dotyczące rewizji nadzwyczajnej od orzeczeń Naczelnego Sądu Administracyjnego.</p>
+			<p>2. Ustawy wprowadzające w życie <a class="art-scroll" href='/176'>art. 176</a> ust. 1 w zakresie dotyczącym postępowania przed sądami administracyjnymi zostaną uchwalone przed upływem 5 lat od dnia wejścia w życie Konstytucji. Do czasu wejścia w życie tych ustaw obowiązują przepisy dotyczące rewizji nadzwyczajnej od orzeczeń Naczelnego Sądu Administracyjnego.</p>
 		`,
 		desc: ``
 	},
@@ -3592,13 +3592,13 @@ const articles = [
 			title: "Przepisy przejściowe i końcowe"
 		},
 		html: `
-			<p>1. Umowy międzynarodowe ratyfikowane dotychczas przez Rzeczpospolitą Polską na podstawie obowiązujących w czasie ich ratyfikacji przepisów konstytucyjnych i ogłoszone w Dzienniku Ustaw, uznaje się za umowy ratyfikowane za uprzednią zgodą wyrażoną w ustawie i stosuje się do nich przepisy <a href='/91'>art. 91</a> Konstytucji, jeżeli z treści umowy międzynarodowej wynika, że dotyczą one kategorii spraw wymienionych w <a href='/89'>art. 89</a> ust. 1 Konstytucji.</p>
+			<p>1. Umowy międzynarodowe ratyfikowane dotychczas przez Rzeczpospolitą Polską na podstawie obowiązujących w czasie ich ratyfikacji przepisów konstytucyjnych i ogłoszone w Dzienniku Ustaw, uznaje się za umowy ratyfikowane za uprzednią zgodą wyrażoną w ustawie i stosuje się do nich przepisy <a class="art-scroll" href='/91'>art. 91</a> Konstytucji, jeżeli z treści umowy międzynarodowej wynika, że dotyczą one kategorii spraw wymienionych w <a class="art-scroll" href='/89'>art. 89</a> ust. 1 Konstytucji.</p>
 			<p>2. Rada Ministrów w ciągu 2 lat od wejścia w życie Konstytucji przedstawi Sejmowi wykaz umów międzynarodowych zawierających postanowienia niezgodne z Konstytucją.</p>
 			<p>3. Senatorowie wybrani przed dniem wejścia w życie Konstytucji, którzy nie ukończyli 30 lat zachowują swoje mandaty do końca kadencji na którą zostali wybrani.</p>
-			<p>4. Połączenie mandatu posła lub senatora z funkcją lub zatrudnieniem, których dotyczy zakaz określony w <a href='/103'>art. 103</a>, powoduje wygaśnięcie mandatu po upływie miesiąca od dnia wejścia w życie Konstytucji, chyba że poseł albo senator wcześniej zrzeknie się funkcji albo ustanie zatrudnienie.</p>
+			<p>4. Połączenie mandatu posła lub senatora z funkcją lub zatrudnieniem, których dotyczy zakaz określony w <a class="art-scroll" href='/103'>art. 103</a>, powoduje wygaśnięcie mandatu po upływie miesiąca od dnia wejścia w życie Konstytucji, chyba że poseł albo senator wcześniej zrzeknie się funkcji albo ustanie zatrudnienie.</p>
 			<p>5. Sprawy będące przedmiotem postępowania ustawodawczego albo przed Trybunałem Konstytucyjnym bądź Trybunałem Stanu, a rozpoczęte przed wejściem w życie Konstytucji, są prowadzone zgodnie z przepisami konstytucyjnymi obowiązującymi w dniu rozpoczęcia sprawy.</p>
-			<p>6. W okresie 2 lat od dnia wejścia w życie Konstytucji Rada Ministrów ustali, które z uchwał Rady Ministrów oraz zarządzeń ministrów lub innych organów administracji rządowej podjęte lub wydane przed dniem wejścia w życie Konstytucji wymagają - stosownie do warunków określonych w <a href='/87'>art. 87</a> ust. 1 i <a href='/92'>art. 92</a> Konstytucji - zastąpienia ich przez rozporządzenia wydane na podstawie upoważnienia ustawy, której projekt w odpowiednim czasie Rada Ministrów przedstawi Sejmowi. W tym samym okresie Rada Ministrów przedstawi Sejmowi projekt ustawy określającej, które akty normatywne organów administracji rządowej wydane przed dniem wejścia w życie Konstytucji stają się uchwałami albo zarządzeniami w rozumieniu <a href='/93'>art. 93</a> Konstytucji.</p>
-			<p>7. Obowiązujące w dniu wejścia w życie Konstytucji akty prawa miejscowego oraz przepisy gminne stają się aktami prawa miejscowego w rozumieniu <a href='/87'>art. 87</a> ust. 2 Konstytucji.</p>
+			<p>6. W okresie 2 lat od dnia wejścia w życie Konstytucji Rada Ministrów ustali, które z uchwał Rady Ministrów oraz zarządzeń ministrów lub innych organów administracji rządowej podjęte lub wydane przed dniem wejścia w życie Konstytucji wymagają - stosownie do warunków określonych w <a class="art-scroll" href='/87'>art. 87</a> ust. 1 i <a class="art-scroll" href='/92'>art. 92</a> Konstytucji - zastąpienia ich przez rozporządzenia wydane na podstawie upoważnienia ustawy, której projekt w odpowiednim czasie Rada Ministrów przedstawi Sejmowi. W tym samym okresie Rada Ministrów przedstawi Sejmowi projekt ustawy określającej, które akty normatywne organów administracji rządowej wydane przed dniem wejścia w życie Konstytucji stają się uchwałami albo zarządzeniami w rozumieniu <a class="art-scroll" href='/93'>art. 93</a> Konstytucji.</p>
+			<p>7. Obowiązujące w dniu wejścia w życie Konstytucji akty prawa miejscowego oraz przepisy gminne stają się aktami prawa miejscowego w rozumieniu <a class="art-scroll" href='/87'>art. 87</a> ust. 2 Konstytucji.</p>
 		`,
 		desc: ``
 	},
