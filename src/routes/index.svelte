@@ -10,11 +10,11 @@
 
 <script>
   import { fly, fade } from "svelte/transition";
-  import Article from "../components/Article.svelte";
+  import { searchedText, selectedChapter } from "../stores";
   import Nav from "../components/Nav.svelte";
   import Search from "../components/Search.svelte";
+  import Article from "../components/Article.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
-  import { searchedText, selectedChapter } from "../stores";
   let yAxisPosition;
   export let articles;
 </script>

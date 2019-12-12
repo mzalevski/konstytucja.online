@@ -11,6 +11,7 @@
 	}
 
 	h1 {
+		text-align: center;
 		font-size: 6em;
 		font-weight: 700;
 		margin: 0 0 0.5em 0;
