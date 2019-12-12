@@ -21,6 +21,7 @@
 
 <svelte:head>
   <title>Konstytucja</title>
+  <link rel="canonical" href="https://konstytucja.online" />
   <meta
     name="description"
     content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia

@@ -104,6 +104,7 @@
 
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
+  <link rel="canonical" href="https://konstytucja.online/{article.slug}" />
   <meta name="description" content="{article.title} Konstytucji RP" />
   <meta
     name="keywords"
