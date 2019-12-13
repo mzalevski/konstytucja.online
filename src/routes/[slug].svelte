@@ -78,8 +78,8 @@
 
   .content {
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    padding-bottom: 2em;
-    margin-bottom: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
   }
 
   .content :global(div) {
@@ -177,28 +177,31 @@
 
 <div in:fade={{ duration: 1000 }} class="content">
   {@html article.html}
+</div>
 
-  {#if article.desc != ``}
+
+{#if article.desc != ``}
+  <div class="content">
     <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
       {#if !isDescriptionVisible}
-        <span class="low-opacity">pokaż komentarz</span>
+        <span class="low-opacity">pokaż opis</span>
       {:else}
-        <span class="low-opacity">schowaj komentarz</span>
+        <span class="low-opacity">schowaj opis</span>
       {/if}
     </button>
     {#if isDescriptionVisible}
       <div style="art-desc" in:fade={{ duration: 1000 }} out:fade={{ duration: 500 }}>
-        <h3>Komentarz</h3>
+        <h3>Opis</h3>
         {@html article.desc}
       </div>
     {/if}
-  {/if}
-</div>
+  </div>
+{/if}
 
 {#if !isDisqusVisible}
-  <button class="low-opacity" on:click={() => showDisqus()}>pokaż disqus</button>
+  <button class="low-opacity" on:click={() => showDisqus()}>pokaż sekcję komentarzy</button>
 {:else}
-  <button class="low-opacity" on:click={() => isDisqusVisible = false}>schowaj disqus</button>
+  <button class="low-opacity" on:click={() => isDisqusVisible = false}>schowaj sekcję komentarzy</button>
 {/if}
 
 {#if isDisqusVisible}
