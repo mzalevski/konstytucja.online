@@ -17,8 +17,18 @@
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
   const { page } = stores();
-  let showComment = false;
+  let isDescriptionVisible = false;
+  let isDisqusVisible = false;
   export let article;
+
+  let showDisqus = () => {
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://konstytucja.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    isDisqusVisible = true;
+  }
 
   onMount(() => {
     document.onkeydown = e => {
@@ -30,6 +40,7 @@
         goto(`/${parseInt($page.params.slug) + 1}`);
       }
     };
+
   });
 </script>
 
@@ -63,6 +74,16 @@
   .small-article-nav a img {
     width: 25px;
     height: 25px;
+  }
+
+  .content {
+    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+  }
+
+  .content :global(div) {
+    margin: 2em 0 2em 0;
   }
 
   .content :global(p, li) {
@@ -102,6 +123,10 @@
   }
 </style>
 
+<noscript>
+  Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
   <link rel="canonical" href="https://konstytucja.online/{article.slug}" />
@@ -128,7 +153,10 @@
         rel="prefetch"
         href="/{parseInt($page.params.slug) - 1}"
         transition:fade={{ duration: 1000 }}
-        on:click={() => (showComment = false)}>
+        on:click={() => {
+          isDescriptionVisible = false;
+          isDisqusVisible = false;
+        }}>
         <img src="images/angle-left-solid.svg" alt="" />
       </a>
     {/if}
@@ -137,7 +165,10 @@
         rel="prefetch"
         href="/{parseInt($page.params.slug) + 1}"
         transition:fade={{ duration: 1000 }}
-        on:click={() => (showComment = false)}>
+        on:click={() => {
+          isDescriptionVisible = false;
+          isDisqusVisible = false;
+        }}>
         <img src="images/angle-right-solid.svg" alt="" />
       </a>
     {/if}
@@ -150,20 +181,28 @@
   {@html article.html}
 
   {#if article.desc != ``}
-    <button on:click={() => (showComment = !showComment)}>
-      {#if !showComment}
+    <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
+      {#if !isDescriptionVisible}
         <span class="low-opacity">pokaż komentarz</span>
       {:else}
         <span class="low-opacity">schowaj komentarz</span>
       {/if}
     </button>
-    {#if showComment}
-      <div in:fade={{ duration: 1000 }} out:fade={{ duration: 500 }}>
-        <br />
-        <br />
+    {#if isDescriptionVisible}
+      <div style="art-desc" in:fade={{ duration: 1000 }} out:fade={{ duration: 500 }}>
         <h3>Komentarz</h3>
         {@html article.desc}
       </div>
     {/if}
   {/if}
 </div>
+
+{#if !isDisqusVisible}
+  <button class="low-opacity" on:click={() => showDisqus()}>pokaż disqus</button>
+{:else}
+  <button class="low-opacity" on:click={() => isDisqusVisible = false}>schowaj disqus</button>
+{/if}
+
+{#if isDisqusVisible}
+  <div id="disqus_thread" in:fly={{ y: 200, duration: 3000 }} />
+{/if}
