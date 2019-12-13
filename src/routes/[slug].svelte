@@ -123,10 +123,8 @@
   }
 </style>
 
-<noscript>
-  Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
+<noscript>Włącz działanie skryptów, aby skorzystać ze strony.</noscript>
+
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
   <link rel="canonical" href="https://konstytucja.online/{article.slug}" />
@@ -204,5 +202,5 @@
 {/if}
 
 {#if isDisqusVisible}
-  <div id="disqus_thread" in:fly={{ y: 200, duration: 3000 }} />
+  <div id="disqus_thread" in:fly={{ y: 200, duration: 1000 }} />
 {/if}
