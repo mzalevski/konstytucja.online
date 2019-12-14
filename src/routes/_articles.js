@@ -378,7 +378,9 @@ const articles = [
 			<p>Przyrodzona i niezbywalna godność człowieka stanowi źródło wolności i praw człowieka i obywatela. Jest ona nienaruszalna, a jej poszanowanie i ochrona jest obowiązkiem władz publicznych.</p>
 		`,
 		desc: `
-			<p>Bezpośrednie naruszenia godności jednostki to sytuacje nietypowe, ekstremalne, głęboko ingerujące w nasze poczucie sprawiedliwości. Niemniej zdarzają się także w Polsce i wymagają nieustającej uwagi i wrażliwości. Konstytucja wywodzi nasze prawa z trzech fundamentalnych wartości: godności, wolności i równości. Godność jest najważniejszym z tych terminów. Możemy rozumieć ją zarówno jako źródło i podstawę wolności i praw człowieka lub jako odrębne, przysługujące nam prawo. Godność przysługuje każdemu z nas, każdemu człowiekowi, bez względu na jakiekolwiek cechy – wiek, płeć, niepełnosprawność, chorobę, pochodzenie, poglądy itd. – niezależnie również od naszego zachowania. Obowiązkiem państwa, społeczeństwa i innych ludzi jest uznawanie i nienaruszanie tej godności. Oznacza to zapewnienie wszystkim „minimum szacunku” oraz takich ram do samorealizacji, które umożliwią działanie zgodne z naszą wolą i systemem wartości. Naruszeniem godności będzie każda sytuacja, gdy człowiek staje się wyłącznie przedmiotem działań podejmowanych przez władzę. Godność jest przyrodzona – jej źródłem nie jest Konstytucja lub inny akt prawny, ale sam fakt bycia człowiekiem (prawo naturalne). Jest również nienaruszalna – co oznacza, że żaden, nawet najważniejszy interes publiczny nie może uzasadniać ingerencji w naszą godność. Nie można jej w żaden sposób stracić, nawet wskutek najbardziej nagannego zachowania czy popełnienia najcięższego przestępstwa, nie może zostać nam odebrana i nie możemy się jej zrzec. Godność jest więc z jednej strony matką innych praw, „pojęciem-kluczem” dla rozumienia całego systemu, gwarantem naszych wolności. Z drugiej zaś osobnym prawem, pewnego rodzaju buforem bezpieczeństwa dla jednostki. Niektóre naganne działania, które formalnie nie naruszają innych praw lub wolności wynikających z Konstytucji, mogą stanowić naruszenie samej godności i właśnie dlatego być niedopuszczalne. Bardzo rzadko jednak prawnicy powołują się na pojęcie godności bezpośrednio – zazwyczaj godność naruszana jest wskutek naruszenia innego przysługującego nam prawa.</p>
+			<p>Bezpośrednie naruszenia godności jednostki to sytuacje nietypowe, ekstremalne, głęboko ingerujące w nasze poczucie sprawiedliwości. Niemniej zdarzają się także w Polsce i wymagają nieustającej uwagi i wrażliwości. Konstytucja wywodzi nasze prawa z trzech fundamentalnych wartości: godności, wolności i równości. Godność jest najważniejszym z tych terminów. Możemy rozumieć ją zarówno jako źródło i podstawę wolności i praw człowieka lub jako odrębne, przysługujące nam prawo. Godność przysługuje każdemu z nas, każdemu człowiekowi, bez względu na jakiekolwiek cechy – wiek, płeć, niepełnosprawność, chorobę, pochodzenie, poglądy itd. – niezależnie również od naszego zachowania. Obowiązkiem państwa, społeczeństwa i innych ludzi jest uznawanie i nienaruszanie tej godności. Oznacza to zapewnienie wszystkim „minimum szacunku” oraz takich ram do samorealizacji, które umożliwią działanie zgodne z naszą wolą i systemem wartości.</p>
+			<p>Naruszeniem godności będzie każda sytuacja, gdy człowiek staje się wyłącznie przedmiotem działań podejmowanych przez władzę. Godność jest przyrodzona – jej źródłem nie jest Konstytucja lub inny akt prawny, ale sam fakt bycia człowiekiem (jest to tzw. prawo naturalne). Jest również nienaruszalna – co oznacza, że żaden, nawet najważniejszy interes publiczny nie może uzasadniać ingerencji w naszą godność. Nie można jej w żaden sposób stracić, nawet wskutek najbardziej nagannego zachowania czy popełnienia najcięższego przestępstwa, nie może zostać nam odebrana i nie możemy się jej zrzec.</p>
+			<p>Godność jest więc z jednej strony matką innych praw, „pojęciem-kluczem” dla rozumienia całego systemu, gwarantem naszych wolności. Z drugiej zaś osobnym prawem, pewnego rodzaju buforem bezpieczeństwa dla jednostki. Niektóre naganne działania, które formalnie nie naruszają innych praw lub wolności wynikających z Konstytucji, mogą stanowić naruszenie samej godności i właśnie dlatego być niedopuszczalne. Bardzo rzadko jednak prawnicy powołują się na pojęcie godności bezpośrednio – zazwyczaj godność naruszana jest wskutek naruszenia innego przysługującego nam prawa.</p>
 		`,
 	},
 	{
@@ -394,10 +396,17 @@ const articles = [
 			<p>3. Ograniczenia w zakresie korzystania z konstytucyjnych wolności i praw mogą być ustanawiane tylko w ustawie i tylko wtedy, gdy są konieczne w demokratycznym państwie dla jego bezpieczeństwa lub porządku publicznego, bądź dla ochrony środowiska, zdrowia i moralności publicznej, albo wolności i praw innych osób. Ograniczenia te nie mogą naruszać istoty wolności i praw.</p>
 		`,
 		desc: `
-			<p>W artykule 31 znajdziemy zarówno ogólną zasadę wolności (ust. 1 i 2) jak i przesłanki ustanawiania ograniczeń praw i wolności (ust. 3). Wolność postrzegana jest jako swoboda decydowania o własnym postępowaniu i taka jest treść wolności rozpatrywanej w kategoriach prawa podmiotowego[1]. Wolność oznacza zatem zakaz ingerowania czynników zewnętrznych (np. władz) w sferę decyzji jednostki. Ma charakter uniwersalny – obejmuje zarówno sfery życia prywatnego jak i publicznego. Dlatego ingerencja władzy publicznej w wolność jednostki może nastąpić jedynie w wyjątkowych sytuacjach i być uzasadnione przyczynami wymienionymi w Konstytucji. Ograniczenie naszej wolności zawsze wymaga jednak uchwalenia ustawy. Zasada wolności to kolejna z zasad, którym można przyznać kilka funkcji: funkcja zasady ustrojowej, funkcja zasady systemu praw i wolności jednostki oraz funkcja samoistnego prawa podmiotowego. Wspólnie z godnością i równością, wolność tworzy oś dla całego porządku konstytucyjnego i determinuje sposób rozumienia i stosowania przepisów konstytucji. Art. 31 stanowi punkt wyjścia do rozważań o konkretnych wolnościach zawartych w rozdziale II Konstytucji. Dalsze przepisy szczegółowe powtarzają ogólną zasadę wolności i konkretyzują ją. Prawa i wolności zawarte w Konstytucji nie mają charakteru absolutnego – to znaczy, że mogą podlegać ograniczeniom, jeśli zostaną spełnione odpowiednie przesłanki, co precyzuje ust. 3 art. 31 Konstytucji. Jest to przepis wyjątkowy, bo służy zawężeniu wolności i praw. Dlatego podczas jego interpretacji należy stosować zasady wykładni wyjątków – czyli przede wszystkim zakaz interpretacji rozszerzającej jego postanowienia[2]. Z konstytucyjnej zasady proporcjonalności wynika tymczasem przekonanie, że stopień intensywności ingerencji w sytuację prawną jednostki musi znajdować uzasadnienie w randze promowanego interesu publicznego. Innymi słowy, ograniczenie praw jednostki musi być ekwiwalentne wobec celu, któremu służy dana regulacja. Przy spełnieniu pewnych warunków dopuszczalne jest więc ograniczenie konstytucyjnych praw i wolności jednostki dla ochrony innych dóbr. Zgodność ograniczenia z Konstytucją zależy zawsze jednak od odpowiedzi na trzy pytania: czy wprowadzone ograniczenia służą realizacji określonego celu (przydatność), czy jest niezbędne dla jego osiągnięcia (konieczność), czy nie stanowi zbyt wysokiego kosztu realizacji założonego celu, a zatem czy – poświęcone dobro pozostaje we właściwej proporcji do osiągniętego efektu (proporcjonalność)[3].</p>
-			<p>[1] Tak m.in. Konstytucja Rzeczypospolitej Polskiej. Komentarz, pod red. L. Garlickiego, tom III – Warszawa 2003 r.,</p>
-			<p>[2] Tak M. Wyrzykowski „Granice praw i wolności – granice władzy” [w:] Obywatel – jego wolności i prawa. Warszawa 1998, s. 45-59)</p>
-			<p>[3] Tak L. Garlicki, Orzecznictwo Trybunału Konstytucyjnego w 2000 r., Przegląd Sejmowy 2001 r., nr 9, s. 97</p>
+			<p>W artykule 31 znajdziemy zarówno ogólną zasadę wolności (ust. 1 i 2) jak i przesłanki ustanawiania ograniczeń praw i wolności (ust. 3). Wolność postrzegana jest jako swoboda decydowania o własnym postępowaniu. Wolność oznacza zatem zakaz ingerowania czynników zewnętrznych (np. władz) w sferę decyzji jednostki.</p>
+
+			<p>Zasada wolności, wspólnie z godnością i równością, wolność tworzy oś dla całego porządku konstytucyjnego i determinuje sposób rozumienia i stosowania przepisów konstytucji. Art. 31 stanowi punkt wyjścia do rozważań o konkretnych wolnościach zawartych w rozdziale II Konstytucji. Dalsze przepisy szczegółowe powtarzają ogólną zasadę wolności i konkretyzują ją.</p>
+
+			<p>Prawa i wolności zawarte w Konstytucji nie mają charakteru absolutnego – to znaczy, że mogą podlegać ograniczeniom, jeśli zostaną spełnione odpowiednie przesłanki, co precyzuje ust. 3 art. 31 Konstytucji. Dlatego ingerencja władzy publicznej w wolność jednostki może nastąpić jedynie w wyjątkowych sytuacjach i być uzasadnione przyczynami wymienionymi w Konstytucji. Ponadto ograniczenie naszej wolności zawsze wymaga uchwalenia ustawy. Jest to przepis wyjątkowy, bo służy zawężeniu wolności i praw. Dlatego podczas jego interpretacji należy stosować zasady wykładni wyjątków – czyli przede wszystkim zakaz interpretacji rozszerzającej jego postanowienia[1].</p>
+
+			<p>Z kolei z konstytucyjnej zasady proporcjonalności wynika przekonanie, że stopień intensywności ingerencji w sytuację prawną jednostki musi znajdować uzasadnienie w randze promowanego interesu publicznego. Innymi słowy, ograniczenie praw jednostki musi być ekwiwalentne wobec celu, któremu służy dana regulacja. Przy spełnieniu pewnych warunków dopuszczalne jest więc ograniczenie konstytucyjnych praw i wolności jednostki dla ochrony innych dóbr. Zgodność ograniczenia z Konstytucją zależy zawsze jednak od odpowiedzi na trzy pytania: czy wprowadzone ograniczenia służą realizacji określonego celu (przydatność), czy jest niezbędne dla jego osiągnięcia (konieczność), czy nie stanowi zbyt wysokiego kosztu realizacji założonego celu, a zatem czy – poświęcone dobro pozostaje we właściwej proporcji do osiągniętego efektu (proporcjonalność)[2].</p>
+
+			<p>[1] Tak M. Wyrzykowski „Granice praw i wolności – granice władzy” [w:] Obywatel – jego wolności i prawa. Warszawa 1998, s. 45-59)</p>
+
+			<p>[2] Tak L. Garlicki, Orzecznictwo Trybunału Konstytucyjnego w 2000 r., Przegląd Sejmowy 2001 r., nr 9, s. 97</p>
 		`
 	},
 	{
@@ -412,8 +421,9 @@ const articles = [
 			<p>2. Nikt nie może być dyskryminowany w życiu politycznym, społecznym lub gospodarczym z jakiejkolwiek przyczyny.</p>
 		`,
 		desc: `
-			<p>Ustęp 1. Równość — wraz z godnością i wolnością — stanowi podstawę porządku ustrojowego i w tym powiązaniu należy ją rozpatrywać. Jest to zarówno zasada konstytucyjna, jak i zasada systemu praw i wolności. Zasada równości wyznacza sposób i zakres korzystania z innych wolności i praw, oraz określa zakres dopuszczalnych ograniczeń. Konstytucja gwarantuje wszystkim równość wobec prawa. Oznacza to, że nierówności społeczne będą niezgodne z Konstytucją wtedy, gdy są efektem obowiązującego prawa. Równość rozumiana jako prawo podmiotowe może być traktowana jako „równość wobec prawa” oraz „równość w prawie”, tak w stanowieniu jak i w stosowaniu prawa. Zasadę równości rozpatruje się w relacjach jednostka – władza publiczna. Zasada równości oznacza, że wszystkie podmioty prawa charakteryzujący się daną cechą istotną w równym stopniu powinny być traktowane równo, według jednolitej miary, bez zróżnicowań dyskryminujących lub faworyzujących. Jednocześnie zasada ta zakłada odmienne traktowanie tych podmiotów, które nie posiadają wspólnej cechy istotnej.</p>
-			<p>Ustęp 2. Konstytucja zakazuje dyskryminacji z jakiejkolwiek przyczyny. Zakaz dyskryminacji jest konsekwencją i logicznym następstwem zasady równości. Konstytucja zakazuje wprost wprowadzania nieuzasadnionych zróżnicowań. Zakaz dyskryminacji ma charakter uniwersalny podmiotowo („nikt”) i przedmiotowo (obejmuje „życie polityczne, społeczne lub gospodarcze”). Dyskryminacja to gorsze traktowanie ze względu na cechę osobistą. Jest to kwalifikowana forma nierównego traktowania osoby ze względu na jakąś jej cechę osobistą, bez racjonalnego uzasadnienia. Do najczęściej wymienianych przesłanek dyskryminacji zalicza się płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek, orientację seksualną lub tożsamość płciową, ale mogą do nich należeć także inne cechy osobiste jak np. pochodzenie społeczne czy status materialny. Niedopuszczalne jest, by organy władzy publicznej odstępowały od zakazu dyskryminacji. Żeby ustalić, czy mamy do czynienia z dyskryminacją, musimy zbadać, czy rzeczywiście dwa podmioty zostały różnie potraktowane. Jeśli tak, to dlaczego: czy powodem była konkretna cecha danej osoby (to jest dyskryminacja) czy też inne przyczyny (Przykład: osoby z niepełnosprawnością mają prawo do głosowania korespondencyjnego. Osoby bez orzeczonej niepełnosprawności są więc traktowane nierówno, ale to nie jest dyskryminacja). Standard ochrony prawnej przed nierównym traktowaniem i dyskryminacją wynika z aktów prawa międzynarodowego i europejskiego. Na gruncie prawa polskiego podstawowe znaczenie mają regulacje Kodeksu pracy oraz ustawy o wdrożeniu niektórych przepisów Unii Europejskiej w zakresie równego traktowania. W ocenie Rzecznika – niezależnego organu ds. równego traktowania – środki ochrony prawnej przed dyskryminacją są obecnie niewystarczające.</p>
+			<p>Ustęp 1. Równość — wraz z godnością i wolnością — stanowi podstawę porządku ustrojowego i w tym powiązaniu należy ją rozpatrywać. Zasada równości wyznacza sposób i zakres korzystania z innych wolności i praw, oraz określa zakres dopuszczalnych ograniczeń. Konstytucja gwarantuje wszystkim równość wobec prawa. Oznacza to, że nierówności społeczne będą niezgodne z Konstytucją wtedy, gdy są efektem obowiązującego prawa. Równość rozumiana jako prawo podmiotowe może być traktowana jako „równość wobec prawa” oraz „równość w prawie”, tak w stanowieniu jak i w stosowaniu prawa. Zasadę równości rozpatruje się w relacjach jednostka – władza publiczna. Zasada równości oznacza, że wszystkie podmioty prawa charakteryzujący się daną cechą istotną w równym stopniu powinny być traktowane równo, według jednolitej miary, bez zróżnicowań dyskryminujących lub faworyzujących. Jednocześnie zasada ta zakłada odmienne traktowanie tych podmiotów, które nie posiadają wspólnej cechy istotnej.</p>
+
+			<p>Ustęp 2. Konstytucja zakazuje dyskryminacji z jakiejkolwiek przyczyny. Zakaz dyskryminacji jest konsekwencją i logicznym następstwem zasady równości. Konstytucja zakazuje wprost wprowadzania nieuzasadnionych zróżnicowań. Zakaz dyskryminacji ma charakter uniwersalny podmiotowo („nikt”) i przedmiotowo (obejmuje „życie polityczne, społeczne lub gospodarcze”). Dyskryminacja to gorsze traktowanie ze względu na cechę osobistą. Jest to kwalifikowana forma nierównego traktowania osoby ze względu na jakąś jej cechę osobistą, bez racjonalnego uzasadnienia. Do najczęściej wymienianych przesłanek dyskryminacji zalicza się płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek, orientację seksualną lub tożsamość płciową, ale mogą do nich należeć także inne cechy osobiste jak np. pochodzenie społeczne czy status materialny. Niedopuszczalne jest, by organy władzy publicznej odstępowały od zakazu dyskryminacji. Żeby ustalić, czy mamy do czynienia z dyskryminacją, musimy zbadać, czy rzeczywiście dwa podmioty zostały różnie potraktowane. Jeśli tak, to dlaczego: czy powodem była konkretna cecha danej osoby (to jest dyskryminacja) czy też inne przyczyny (Przykład: osoby z niepełnosprawnością mają prawo do głosowania korespondencyjnego. Osoby bez orzeczonej niepełnosprawności są więc traktowane nierówno, ale to nie jest dyskryminacja). Standard ochrony prawnej przed nierównym traktowaniem i dyskryminacją wynika z aktów prawa międzynarodowego i europejskiego. Na gruncie prawa polskiego podstawowe znaczenie mają regulacje Kodeksu pracy oraz ustawy o wdrożeniu niektórych przepisów Unii Europejskiej w zakresie równego traktowania.</p>
 		`
 	},
 	{
@@ -429,9 +439,10 @@ const articles = [
 		`,
 		desc: `
 			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie <a class="art-scroll" rel="prefetch" href='/32'>art. 32</a>.
-			<p>To kolejna z norm, którą można rozpatrywać w trzech wymiarach: jako zasadę porządku konstytucyjnego, jako zasadę systemu praw i wolności jednostki oraz jako prawo podmiotowe.</p>
-			<p>Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 EKPCz. Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi.</p>
-			<p>W płaszczyźnie m.in. praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
+
+			<p>Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 Europejskiej Konwencji Praw Człowieka.</p>
+
+			<p>Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi, np. na płaszczyźnie praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
 		`
 	},
 	{
@@ -448,11 +459,13 @@ const articles = [
 		desc: `
 			<p>Wszystkie polskie konstytucje posługiwały się pojęciem obywatelstwa w kontekście określania praw i wolności jednostki. W Konstytucji z 1997 roku odróżniono wyraźnie prawa człowieka od praw obywatela. W związku z tym koniecznym okazało się określenie w rozdziale drugim przesłanek posiadania obywatelstwa.</p>
 			<p>Artykuł 34 wskazuje trzy główne zasady:</p>
+
 			<ul>
 				<li>1) zasadę krwi (obywatelstwo nabywa się poprzez urodzenie przez obywateli RP, gdy przynajmniej jedno z rodziców posiada obywatelstwo polskie),</li>
 				<li>2) zasadę dopuszczalności innych dróg (określonych w ustawie),</li>
 				<li>3) zasadę trwałości obywatelstwa (nie można go utracić inaczej niż poprzez zrzeczenie się go).</li>
 			</ul>
+
 			<p>Konstytucja wyklucza możliwość pozbawienia obywatelstwa bez zgody obywatela. Historycznie jest to niezwykle istotne rozwiązanie, ponieważ w Polsce utrata obywatelstwa stosowana była jako forma kary lub represji zazwyczaj w kontekście politycznym.</p>
 
 			<p>Warto przypomnieć tu, że obywatelom polskim – tak jak wszystkim obywatelom państw członkowskich Unii Europejskiej – przysługuje także obywatelstwo europejskie.</p>
@@ -467,17 +480,21 @@ const articles = [
 		},
 		html: `
 			<p>1. Rzeczpospolita Polska zapewnia obywatelom polskim należącym do mniejszości narodowych i etnicznych wolność zachowania i rozwoju własnego języka, zachowania obyczajów i tradycji oraz rozwoju własnej kultury.</p>
+
 			<p>2. Mniejszości narodowe i etniczne mają prawo do tworzenia własnych instytucji edukacyjnych, kulturalnych i instytucji służących ochronie tożsamości religijnej oraz do uczestnictwa w rozstrzyganiu spraw dotyczących ich tożsamości kulturowej.</p>
 		`,
 		desc: `
-		<p>Naród Polski tworzą wszyscy obywatele, także przedstawiciele mniejszości. Każda osoba, która przynależy do danej mniejszości może samodzielnie zdecydować, czy życzy sobie ujawniać te informacje i być traktowana jak członek mniejszości. Władza publiczna ma respektować taką decyzję.</p>
-		<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a class="art-scroll" rel="prefetch" href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
-		<ul>
-			<li>1) zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
-			<li>2) zasady równego traktowania i</li>
-			<li>3) zakazu dyskryminacji.</li>
-		</ul>
-		<p>Obywatel polski będący przedstawicielem mniejszości ma konstytucyjne prawo do zachowania i rozwoju swojej tożsamości narodowej lub etnicznej: języka, obyczajów, tradycji i kultury. Należyta realizacja tych wolności wymaga także pozytywnych działań państwa. W rozumieniu ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszością narodową jest grupa obywateli polskich, która jest mniej liczebna od pozostałej części ludności RP, w sposób istotny odróżnia się od pozostałych obywateli językiem, kulturą lub tradycją, dąży do zachowania tych odrębności, ma świadomość własnej historycznej wspólnoty narodowej i jest ukierunkowana na jej wyrażanie i ochronę, a jej przodkowie zamieszkiwali obecne terytorium Polski od co najmniej 100 lat. Grupa taka, aby zostać uznana za mniejszość narodową, powinna ponadto utożsamiać się z narodem zorganizowanym we własnym państwie. Mniejszością etniczną jest natomiast grupa obywateli polskich spełniająca powyższe kryteria, lecz nieutożsamiająca się z narodem zorganizowanym we własnym państwie.</p>
+			<p>Naród Polski tworzą wszyscy obywatele, także przedstawiciele mniejszości. Każda osoba, która przynależy do danej mniejszości może samodzielnie zdecydować, czy życzy sobie ujawniać te informacje i być traktowana jak członek mniejszości. Władza publiczna ma respektować taką decyzję.</p>
+
+			<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a class="art-scroll" rel="prefetch" href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
+
+			<ul>
+				<li>1) zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
+				<li>2) zasady równego traktowania i</li>
+				<li>3) zakazu dyskryminacji.</li>
+			</ul>
+
+			<p>Obywatel polski będący przedstawicielem mniejszości ma konstytucyjne prawo do zachowania i rozwoju swojej tożsamości narodowej lub etnicznej: języka, obyczajów, tradycji i kultury. Należyta realizacja tych wolności wymaga także pozytywnych działań państwa. W rozumieniu ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszością narodową jest grupa obywateli polskich, która jest mniej liczebna od pozostałej części ludności RP, w sposób istotny odróżnia się od pozostałych obywateli językiem, kulturą lub tradycją, dąży do zachowania tych odrębności, ma świadomość własnej historycznej wspólnoty narodowej i jest ukierunkowana na jej wyrażanie i ochronę, a jej przodkowie zamieszkiwali obecne terytorium Polski od co najmniej 100 lat. Grupa taka, aby zostać uznana za mniejszość narodową, powinna ponadto utożsamiać się z narodem zorganizowanym we własnym państwie. Mniejszością etniczną jest natomiast grupa obywateli polskich spełniająca powyższe kryteria, lecz nieutożsamiająca się z narodem zorganizowanym we własnym państwie.</p>
 		`
 	},
 	{
@@ -492,8 +509,11 @@ const articles = [
 		`,
 		desc: `
 			<p>Takie ujęcie obowiązku opieki nad obywatelem oraz umieszczenie go w rozdziale II Konstytucji oznacza, że chodzi tu o prawo podmiotowe.</p>
+
 			<p>Podmiotem jest obywatel polski, poza zakresem ochrony pozostają więc Polacy nieposiadający obywatelstwa polskiego.</p>
+
 			<p>Prawo do opieki ze strony Rzeczypospolitej istnieje niezależnie od charakteru pobytu za granicą (stałego, tymczasowego, legalnego etc.). Obowiązek opieki spoczywa na władzach publicznych, przede wszystkim na instytucjach działających w stosunkach zagranicznych (np. konsulatach). Prawo to istnieje w każdej sytuacji, także w przypadku naruszenia przez obywatela prawa (polskiego lub obcego).</p>
+
 			<p>Artykuł 36 nie precyzuje, na czym ma polegać opieka. Pozostawia to ustawodawcy, dlatego trudno sprecyzować katalog uprawnień i obowiązków.</p>
 		`
 	},
@@ -506,12 +526,16 @@ const articles = [
 		},
 		html: `
 			<p>1. Kto znajduje się pod władzą Rzeczypospolitej Polskiej, korzysta z wolności i praw zapewnionych w Konstytucji.</p>
+
 			<p>2. Wyjątki od tej zasady, odnoszące się do cudzoziemców, określa ustawa.</p>
 		`,
 		desc: `
 			<p>Rozwój międzynarodowych regulacji praw człowieka w II połowie XX wieku doprowadził do uznania, że pewne prawa przysługują jednostkom niezależnie od ich przynależności państwowej. Różnicowanie sytuacji obywateli danego państwa i cudzoziemców może być dopuszczalne tylko w uzasadnionych przypadkach.</p>
+
 			<p>Dlatego wszystkie prawa i wolności, których Konstytucja nie zastrzega dla obywateli, przysługują także cudzoziemcom.</p>
+
 			<p>Pod władzą RP znajdują się przede wszystkim osoby, które przebywają na terytorium Polski (w rozumieniu regulacji prawa międzynarodowego) lub są poddane polskim regulacjom prawnym.</p>
+
 			<p>Wyjątki od zasady uniwersalności mogą odnosić się jedynie do cudzoziemców i muszą zostać ustanowione w ustawie. Dopuszczalny zakres wyjątków należy ustalić w relacji z <a class="art-scroll" rel="prefetch" href='/31'>art. 31</a> ust. 3, <a class="art-scroll" rel="prefetch" href='/32'>art. 32</a> (zasada równości) oraz <a class="art-scroll" rel="prefetch" href='/30'>art. 30</a> Konstytucji (zasada godności).</p>
 		`
 	},

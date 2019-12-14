@@ -21,8 +21,8 @@
   let isDisqusVisible = false;
   export let article;
 
-  let showDisqus = () => {
-    var d = document,
+  const showDisqus = () => {
+    let d = document,
       s = d.createElement('script');
     s.src = 'https://konstytucja.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
@@ -205,5 +205,5 @@
 {/if}
 
 {#if isDisqusVisible}
-  <div id="disqus_thread" in:fly={{ y: 200, duration: 1000 }} />
+  <div id="disqus_thread" in:fly={{ y: 200, duration: 1000 }} out:fly={{ y: 100, duration: 500 }} />
 {/if}
