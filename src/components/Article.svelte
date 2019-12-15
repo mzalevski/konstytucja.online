@@ -23,7 +23,7 @@
   .article:hover {
     color: rgb(160, 40, 40);
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .article {
       margin: 0.5em 0em;
     }

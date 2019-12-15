@@ -114,7 +114,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .chapter-name {
       word-wrap: break-word;
       width: 200px;

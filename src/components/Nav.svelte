@@ -59,7 +59,57 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
-  @media (max-width: 1000px) {
+  .logo-letter {
+    font-family: "Alex Brush", cursive;
+    font-size: 2.3em;
+    font-weight: 700;
+    padding: 0px 0.85em 0px 0.1em;
+    color: rgb(160, 40, 40);
+  }
+  li {
+    display: block;
+    transition-duration: 0.5s;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -2.8em;
+    top: 3.3em;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 1.5px;
+    border-color: rgb(160, 40, 40);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover,
+  .dropdown-content a:focus {
+    color: rgb(160, 40, 40);
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media (max-width: 1100px) {
     ul {
       display: flex;
       justify-content: center;
@@ -67,8 +117,6 @@
       margin-bottom: 0.5em;
     }
     li a {
-      margin: 0em 0;
-      padding: 0.2em 0.5em;
       text-align: center;
     }
     nav {
@@ -76,11 +124,33 @@
       border-bottom: none;
       margin-bottom: 0.5em;
     }
+    .dropdown-content {
+      left: -2.8em;
+    }
+
+  }
+  @media (max-width: 500px) {
+    .dropdown-content {
+      left: -3.6em;
+    }
+    .logo-letter {
+      padding-left: 4px;
+      padding-right: 0.5em;
+      padding-top: 0.26em;
+      font-size: 1.8em;
+    }
+    a {
+      padding-right: 4px;
+      padding-left: 1px;
+    }
   }
 </style>
 
 <nav>
   <ul>
+    <li>
+      <a class="logo-letter" rel="prefetch" href=".">Konstytucja</a>
+    </li>
     <li>
       <a
         class:selected={segment === 'preambula'}
@@ -95,9 +165,18 @@
       </a>
     </li>
     <li>
-      <a class:selected={segment === 'info'} rel="prefetch" href="info">
-        Informacje
-      </a>
+      <div class="dropdown">
+        <a class:selected={segment === 'info'} rel="prefetch" href="info">
+          Informacje
+        </a>
+        <div class="dropdown-content">
+          <a href="/info">Konstytucja</a>
+          <a href="/info">Inicjatywa</a>
+          <a href="/info">Słownik pojęć</a>
+          <a href="/info">Aplikacja mobilna</a>
+        </div>
+      </div>
+
     </li>
   </ul>
   <slot />

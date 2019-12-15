@@ -8,7 +8,6 @@
   .signature {
     text-align: right;
     font-style: italic;
-    text-decoration: underline;
   }
   p {
     text-align: justify;
@@ -38,7 +37,7 @@
     padding: 0;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     li a {
       margin: 0em 0;
       padding: 0.2em 0.5em;

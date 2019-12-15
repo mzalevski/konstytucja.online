@@ -9,10 +9,10 @@
     box-sizing: content-box;
     margin: 12px 0px 16px 8px;
     border: dotted 1px;
-    min-width: 15em;
+    min-width: 12em;
     min-height: 2em;
     outline: none;
-    padding: 0 15px 0 30px;
+    padding: 0 0px 0 30px;
     border-color: rgba(0, 0, 0, 0.3);
     background-position-x: 0.2em;
     background-position-y: 0.2em;
@@ -32,6 +32,7 @@
     background-image: url("/images/chapter.png");
     cursor: pointer;
     height: 1em;
+    max-width: 24em;
   }
 
   .search-bar {
@@ -39,7 +40,7 @@
     justify-content: flex-end;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .search-bar {
       display: block;
     }
@@ -52,6 +53,7 @@
     .search input {
       margin: 0.2em 0;
       width: 100%;
+      max-width: none;
     }
   }
 </style>

@@ -18,7 +18,7 @@
   .bc3 { border-color: rgba(160, 40, 40, 0.5) }
   .bc4 { border-color: rgba(160, 40, 40, 0.65) }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .bc1, .bc2, .bc3, .bc4 {
       padding: 0;
       border-color: transparent;
