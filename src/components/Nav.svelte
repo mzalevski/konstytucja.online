@@ -136,7 +136,7 @@
     .logo-letter {
       padding-left: 4px;
       padding-right: 0.5em;
-      padding-top: 0.25em;
+      padding-top: 0.24em;
       font-size: 1.8em;
     }
     a {
