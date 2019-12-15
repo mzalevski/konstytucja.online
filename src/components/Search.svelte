@@ -32,6 +32,7 @@
     background-image: url("/images/chapter.png");
     cursor: pointer;
     max-width: 24em;
+    -webkit-appearance: none;
   }
 
   .search-bar {
