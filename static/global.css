@@ -14,7 +14,6 @@ body {
   line-height: 1.5;
   color: #333;
   overflow-y: scroll;
-  -webkit-text-size-adjust: none;
 }
 
 button {
@@ -48,5 +47,8 @@ li {
 @media (max-width: 500px) {
   body {
     font-size: 14px;
+  }
+  p {
+    -webkit-text-size-adjust: none;
   }
 }
