@@ -43,7 +43,7 @@
     position: absolute;
 
     content: "";
-    width: calc(100% - 1em);
+    width: calc(100% - 0.9em);
     height: 2px;
     background-color: rgb(160, 40, 40);
     display: block;
@@ -143,6 +143,9 @@
       padding-right: 4px;
       padding-left: 1px;
     }
+      .selected::after {
+        width: calc(100% - 0.35em);
+      }
   }
 </style>
 
