@@ -39,7 +39,8 @@
     color: transparent;
     position: absolute;
     right: 20px;
-    top: 22px;
+    top: 20px;
+    height: 44px;
     border-right: 1px dotted;
     border-bottom: 1px dotted;
     border-top: 1px dotted;
@@ -53,8 +54,9 @@
     content: "-";
     color: transparent;
     position: absolute;
-    right: 28px;
-    top: 22px;
+    right: 27px;
+    top: 20px;
+    height: 44px;
     border-left: 1px dotted;
     border-bottom: 1px dotted;
     border-top: 1px dotted;
@@ -95,6 +97,11 @@
     }
     .chapter-pick:before {
       right: 27px;
+    }
+  }
+  @media (max-width: 500px) {
+    .chapter-pick:before {
+      right: 26px;
     }
   }
 </style>
