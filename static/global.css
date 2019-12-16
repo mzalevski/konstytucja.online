@@ -48,6 +48,7 @@ li {
   list-style-type: none;
 }
 
+
 @media (max-width: 500px) {
   body {
     font-size: 14px;

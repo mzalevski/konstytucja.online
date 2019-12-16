@@ -12,7 +12,7 @@
 
 <svelte:head>
   <link
-    href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap"
+    href="https://fonts.googleapis.com/css?family=Alex+Brush&text=Konstytucja"
     rel="stylesheet" />
 </svelte:head>
 
