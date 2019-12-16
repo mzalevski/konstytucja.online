@@ -508,13 +508,9 @@ const articles = [
 			<p>Podczas pobytu za granicą obywatel polski ma prawo do opieki ze strony Rzeczypospolitej Polskiej.</p>
 		`,
 		desc: `
-			<p>Takie ujęcie obowiązku opieki nad obywatelem oraz umieszczenie go w rozdziale II Konstytucji oznacza, że chodzi tu o prawo podmiotowe.</p>
-
-			<p>Podmiotem jest obywatel polski, poza zakresem ochrony pozostają więc Polacy nieposiadający obywatelstwa polskiego.</p>
-
 			<p>Prawo do opieki ze strony Rzeczypospolitej istnieje niezależnie od charakteru pobytu za granicą (stałego, tymczasowego, legalnego etc.). Obowiązek opieki spoczywa na władzach publicznych, przede wszystkim na instytucjach działających w stosunkach zagranicznych (np. konsulatach). Prawo to istnieje w każdej sytuacji, także w przypadku naruszenia przez obywatela prawa (polskiego lub obcego).</p>
 
-			<p>Artykuł 36 nie precyzuje, na czym ma polegać opieka. Pozostawia to ustawodawcy, dlatego trudno sprecyzować katalog uprawnień i obowiązków.</p>
+			<p>Podmiotem opieki jest obywatel polski, poza zakresem ochrony pozostają więc Polacy nieposiadający obywatelstwa polskiego. Artykuł 36 nie precyzuje jednak, na czym ma polegać opieka. Pozostawia to ustawodawcy, dlatego trudno sprecyzować katalog uprawnień i obowiązków.</p>
 		`
 	},
 	{
