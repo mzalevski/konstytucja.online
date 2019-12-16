@@ -35,26 +35,34 @@
     -webkit-appearance: none;
   }
   .chapter-pick:after {
-    content: ".";
+    content: "-";
     color: transparent;
     position: absolute;
     right: 20px;
     top: 22px;
+    border-right: 1px dotted;
+    border-bottom: 1px dotted;
+    border-top: 1px dotted;
+    border-color: rgba(0, 0, 0, 0.3);
     background-position-x: 100px;
     background-position-y: 10px;
     background-size: 20px;
     background-color: rgb(160, 40, 40);
   }
   .chapter-pick:before {
-    content: ".";
+    content: "-";
     color: transparent;
     position: absolute;
-    right: 23px;
+    right: 28px;
     top: 22px;
+    border-left: 1px dotted;
+    border-bottom: 1px dotted;
+    border-top: 1px dotted;
+    border-color: rgba(0, 0, 0, 0.3);
     background-position-x: 10px;
     background-position-y: 10px;
     background-size: 20px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(255, 255, 255);
   }
 
   .search-bar {
