@@ -32,12 +32,38 @@
     background-image: url("/images/chapter.png");
     cursor: pointer;
     max-width: 24em;
-    -webkit-appearance: menulist-button;
+    -webkit-appearance: none;
+  }
+  .chapter-pick:after {
+    content: ".";
+    color: transparent;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    background-position-x: 100px;
+    background-position-y: 10px;
+    background-size: 20px;
+    background-color: rgb(160, 40, 40);
+  }
+  .chapter-pick:before {
+    content: ".";
+    color: transparent;
+    position: absolute;
+    right: 23px;
+    top: 22px;
+    background-position-x: 10px;
+    background-position-y: 10px;
+    background-size: 20px;
+    background-color: rgb(242, 242, 242);
   }
 
   .search-bar {
     display: flex;
+
     justify-content: flex-end;
+  }
+  .arrow-helper-div {
+    position: relative;
   }
 
   @media (max-width: 1100px) {
@@ -55,6 +81,13 @@
       width: 100%;
       max-width: none;
     }
+    .chapter-pick:after,
+    .chapter-pick:before {
+      top: 15px;
+    }
+    .chapter-pick:before {
+      right: 23px;
+    }
   }
 </style>
 
@@ -62,28 +95,37 @@
   <div class="search">
     <input bind:value={$searchedText} />
   </div>
-  <div class="chapter-pick">
-    <select bind:value={$selectedChapter}>
-      <option value="_">Wszystkie rozdziały</option>
-      <option value="I">Rozdział I Rzeczpospolita</option>
-      <option value="II">
-        Rozdział II Wolności, prawa i obowiązki człowieka i obywatela
-      </option>
-      <option value="III">Rozdział III Źródła prawa</option>
-      <option value="IV">Rozdział IV Sejm i Senat</option>
-      <option value="V">Rozdział V Prezydent Rzeczypospolitej Polskiej</option>
-      <option value="VI">
-        Rozdział VI Rada Ministrów i administracja rządowa
-      </option>
-      <option value="VII">Rozdział VII Samorząd terytorialny</option>
-      <option value="VIII">Rozdział VIII Sądy i Trybunały</option>
-      <option value="IX">
-        Rozdział IX Organy kontroli państwowej i ochrony prawa
-      </option>
-      <option value="X">Rozdział X Finanse publiczne</option>
-      <option value="XI">Rozdział XI Stany nadzwyczajne</option>
-      <option value="XII">Rozdział XII Zmiana Konstytucji</option>
-      <option value="XIII">Rozdział XIII Przepisy przejściowe i końcowe</option>
-    </select>
+  <div class="arrow-helper-div">
+    <div class="chapter-pick">
+      <select bind:value={$selectedChapter}>
+        <option value="_">
+          Wszystkie rozdziały
+          <img src="images/search.png" alt="" />
+        </option>
+        <option value="I">Rozdział I Rzeczpospolita</option>
+        <option value="II">
+          Rozdział II Wolności, prawa i obowiązki człowieka i obywatela
+        </option>
+        <option value="III">Rozdział III Źródła prawa</option>
+        <option value="IV">Rozdział IV Sejm i Senat</option>
+        <option value="V">
+          Rozdział V Prezydent Rzeczypospolitej Polskiej
+        </option>
+        <option value="VI">
+          Rozdział VI Rada Ministrów i administracja rządowa
+        </option>
+        <option value="VII">Rozdział VII Samorząd terytorialny</option>
+        <option value="VIII">Rozdział VIII Sądy i Trybunały</option>
+        <option value="IX">
+          Rozdział IX Organy kontroli państwowej i ochrony prawa
+        </option>
+        <option value="X">Rozdział X Finanse publiczne</option>
+        <option value="XI">Rozdział XI Stany nadzwyczajne</option>
+        <option value="XII">Rozdział XII Zmiana Konstytucji</option>
+        <option value="XIII">
+          Rozdział XIII Przepisy przejściowe i końcowe
+        </option>
+      </select>
+    </div>
   </div>
 </div>
