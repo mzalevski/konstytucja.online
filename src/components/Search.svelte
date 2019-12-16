@@ -94,7 +94,7 @@
       top: 15px;
     }
     .chapter-pick:before {
-      right: 23px;
+      right: 27px;
     }
   }
 </style>
