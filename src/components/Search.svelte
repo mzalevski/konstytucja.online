@@ -118,7 +118,7 @@
     <div class="chapter-pick">
       <select bind:value={$selectedChapter}>
         <option value="_">
-          Wszystkie rozdziały
+          Wszystkie rozdziały ↴
           <img src="images/search.png" alt="" />
         </option>
         <option value="I">Rozdział I Rzeczpospolita</option>
