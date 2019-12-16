@@ -39,11 +39,11 @@
     color: transparent;
     position: absolute;
     right: 20px;
-    top: 20px;
-    height: 44px;
+    top: 11px;
+    height: 48px;
     border-right: 1px dotted;
     border-bottom: 1px dotted;
-    border-top: 1px dotted;
+    border-top: 2px double;
     border-color: rgba(0, 0, 0, 0.3);
     background-position-x: 100px;
     background-position-y: 10px;
@@ -55,11 +55,11 @@
     color: transparent;
     position: absolute;
     right: 27px;
-    top: 20px;
-    height: 44px;
+    top: 11px;
+    height: 48px;
     border-left: 1px dotted;
     border-bottom: 1px dotted;
-    border-top: 1px dotted;
+    border-top: 2px double;
     border-color: rgba(0, 0, 0, 0.3);
     background-position-x: 10px;
     background-position-y: 10px;
@@ -93,13 +93,17 @@
     }
     .chapter-pick:after,
     .chapter-pick:before {
-      top: 15px;
+      top: 2px;
     }
     .chapter-pick:before {
       right: 27px;
     }
   }
   @media (max-width: 500px) {
+    .chapter-pick:after,
+    .chapter-pick:before {
+      top: 1px;
+    }
     .chapter-pick:before {
       right: 26px;
     }
