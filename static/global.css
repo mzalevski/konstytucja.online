@@ -1,5 +1,6 @@
 *:focus {
   outline: none;
+  -webkit-text-size-adjust: none;
 }
 
 html {
@@ -47,8 +48,5 @@ li {
 @media (max-width: 500px) {
   body {
     font-size: 14px;
-  }
-  p {
-    -webkit-text-size-adjust: none;
   }
 }

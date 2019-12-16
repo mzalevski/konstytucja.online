@@ -127,7 +127,6 @@
     .dropdown-content {
       left: -2.8em;
     }
-
   }
   @media (max-width: 500px) {
     .dropdown-content {
@@ -143,9 +142,9 @@
       padding-right: 4px;
       padding-left: 1px;
     }
-      .selected::after {
-        width: calc(100% - 0.35em);
-      }
+    .selected::after {
+      width: calc(100% - 0.35em);
+    }
   }
 </style>
 
