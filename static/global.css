@@ -47,6 +47,9 @@ a {
 li {
   list-style-type: none;
 }
+h3 {
+  padding-top: 16px;
+}
 
 
 @media (max-width: 500px) {

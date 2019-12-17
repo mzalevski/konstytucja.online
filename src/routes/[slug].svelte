@@ -34,9 +34,11 @@
     document.onkeydown = e => {
       if (e.keyCode === 37 && $page.params.slug > 1) {
         isDescriptionVisible = false;
+        isDisqusVisible = false;
         goto(`/${parseInt($page.params.slug) - 1}`);
       } else if (e.keyCode === 39 && $page.params.slug < 243) {
         isDescriptionVisible = false;
+        isDisqusVisible = false;
         goto(`/${parseInt($page.params.slug) + 1}`);
       }
     };
