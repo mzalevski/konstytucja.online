@@ -12,6 +12,9 @@
   p {
     text-align: justify;
   }
+  h3 {
+    padding-top: 16px;
+  }
 
   a:focus,
   a:hover {

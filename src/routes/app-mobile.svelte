@@ -12,6 +12,9 @@
   img {
     width: 100%;
   }
+  h3 {
+    padding-top: 16px;
+  }
 </style>
 
 <svelte:head>

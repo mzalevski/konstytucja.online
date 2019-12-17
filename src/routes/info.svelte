@@ -22,6 +22,9 @@
   ol li a {
     padding: 0;
   }
+  h3 {
+    padding-top: 16px;
+  }
 
   @media (max-width: 1100px) {
     li a {
