@@ -168,14 +168,14 @@
     </li>
     <li>
       <div class="dropdown">
-        <a class:selected={segment === 'info'} rel="prefetch" href="info">
+        <a class:selected={segment === 'info'}>
           Informacje
         </a>
         <div class="dropdown-content">
-          <a href="/info">Konstytucja</a>
-          <a href="/info">Inicjatywa</a>
-          <a href="/info">Słownik pojęć</a>
-          <a href="/info">Aplikacja mobilna</a>
+          <a rel="prefetch" aria-busy=""href="/info">Konstytucja</a>
+          <a rel="prefetch" aria-busy=""href="/inicjatywa">Inicjatywa</a>
+          <a rel="prefetch" aria-busy=""href="/slownik">Słownik pojęć</a>
+          <a rel="prefetch" aria-busy=""href="/app">Aplikacja mobilna</a>
         </div>
       </div>
 
