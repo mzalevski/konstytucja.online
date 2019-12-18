@@ -39,8 +39,8 @@
 
 <nav>
   <p>
-  <!-- used white & red blocks coz Windows does not render 🇵🇱 emoji as flag -->
-    z miłości ❤️ do Polski ⬜🟥 ~
+  <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
+    z miłości ❤️ do Polski ⚪️🔴 ~
     <a href="https://maciej-zalewski.pl">Maciej Zalewski</a>
   </p>
 </nav>
