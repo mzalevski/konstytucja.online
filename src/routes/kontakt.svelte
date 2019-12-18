@@ -2,6 +2,7 @@
   import { stores } from "@sapper/app";
   import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <style>
@@ -37,3 +38,5 @@
     Prace w toku... 🧰🔨
   </h4>
 </div>
+
+<!-- <Footer /> -->

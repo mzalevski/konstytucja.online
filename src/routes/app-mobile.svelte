@@ -2,6 +2,7 @@
   import { stores } from "@sapper/app";
   import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <style>
@@ -38,3 +39,5 @@
   </p>
   <img src="images/ff-app-guide.png" alt="" srcset="" />
 </div>
+
+<Footer />

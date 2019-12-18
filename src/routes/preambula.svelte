@@ -1,6 +1,7 @@
 <script>
   import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <style>
@@ -103,3 +104,5 @@
     </div>
   </div>
 </div>
+
+<Footer />

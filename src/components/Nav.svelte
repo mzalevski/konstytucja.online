@@ -172,7 +172,7 @@
           Informacje
         </a>
         <div class="dropdown-content">
-          <a rel="prefetch" aria-busy=""href="/info">Proces legislacyjny</a>
+          <a rel="prefetch" aria-busy=""href="/legislacja">Proces legislacyjny</a>
           <!-- <a rel="prefetch" aria-busy=""href="/inicjatywa">Inicjatywa</a> -->
           <a rel="prefetch" aria-busy=""href="/slownik">Słownik pojęć</a>
           <a rel="prefetch" aria-busy=""href="/app-mobile">Aplikacja mobilna</a>

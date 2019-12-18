@@ -12,6 +12,7 @@
   import { fly, fade } from "svelte/transition";
   import { searchedText, selectedChapter } from "../stores";
   import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
@@ -59,3 +60,5 @@
 {#if yAxisPosition > 300}
   <ToTheTopBtn />
 {/if}
+
+<Footer />
