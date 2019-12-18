@@ -175,8 +175,8 @@
           <a rel="prefetch" aria-busy=""href="/legislacja">Proces legislacyjny</a>
           <!-- <a rel="prefetch" aria-busy=""href="/inicjatywa">Inicjatywa</a> -->
           <a rel="prefetch" aria-busy=""href="/slownik">Słownik pojęć</a>
-          <a rel="prefetch" aria-busy=""href="/app-mobile">Aplikacja mobilna</a>
-          <a rel="prefetch" aria-busy=""href="/app-desktop">Aplikacja desktopowa</a>
+          <a rel="prefetch" aria-busy=""href="/app-mobile">Aplikacja - mobile</a>
+          <a rel="prefetch" aria-busy=""href="/app-desktop">Aplikacja - desktop</a>
           <a rel="prefetch" aria-busy=""href="/kontakt">Kontakt</a>
         </div>
       </div>
