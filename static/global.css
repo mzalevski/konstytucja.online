@@ -41,8 +41,9 @@ a {
   text-decoration: underline;
   color: inherit;
 }
-.art-scroll:hover {
-  color: rgb(220, 40, 40)
+.art-scroll:hover,
+.art-scroll:focus {
+  color: rgb(220, 40, 40);
 }
 li {
   list-style-type: none;
