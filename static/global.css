@@ -45,9 +45,6 @@ a {
 .art-scroll:focus {
   color: rgb(220, 40, 40);
 }
-li {
-  list-style-type: none;
-}
 
 @media (max-width: 500px) {
   body {

@@ -50,6 +50,9 @@
   .low-opacity {
     color: rgba(0, 0, 0, 0.3);
   }
+  .no-dots :global(li) {
+      list-style-type: none;
+  }
   h1 {
     font-size: 2em;
     text-align: center;
@@ -177,7 +180,7 @@
 
 <h1>{article.title}</h1>
 
-<div in:fade={{ duration: 1000 }} class="content">
+<div in:fade={{ duration: 1000 }} class="content no-dots">
   {@html article.html}
 </div>
 

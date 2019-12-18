@@ -461,9 +461,9 @@ const articles = [
 			<p>Artykuł 34 wskazuje trzy główne zasady:</p>
 
 			<ul>
-				<li>1) zasadę krwi (obywatelstwo nabywa się poprzez urodzenie przez obywateli RP, gdy przynajmniej jedno z rodziców posiada obywatelstwo polskie),</li>
-				<li>2) zasadę dopuszczalności innych dróg (określonych w ustawie),</li>
-				<li>3) zasadę trwałości obywatelstwa (nie można go utracić inaczej niż poprzez zrzeczenie się go).</li>
+				<li>zasadę krwi (obywatelstwo nabywa się poprzez urodzenie przez obywateli RP, gdy przynajmniej jedno z rodziców posiada obywatelstwo polskie),</li>
+				<li>zasadę dopuszczalności innych dróg (określonych w ustawie),</li>
+				<li>zasadę trwałości obywatelstwa (nie można go utracić inaczej niż poprzez zrzeczenie się go).</li>
 			</ul>
 
 			<p>Konstytucja wyklucza możliwość pozbawienia obywatelstwa bez zgody obywatela. Historycznie jest to niezwykle istotne rozwiązanie, ponieważ w Polsce utrata obywatelstwa stosowana była jako forma kary lub represji zazwyczaj w kontekście politycznym.</p>
@@ -489,9 +489,9 @@ const articles = [
 			<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a class="art-scroll" rel="prefetch" href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
 
 			<ul>
-				<li>1) zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
-				<li>2) zasady równego traktowania i</li>
-				<li>3) zakazu dyskryminacji.</li>
+				<li>zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
+				<li>zasady równego traktowania i</li>
+				<li>zakazu dyskryminacji.</li>
 			</ul>
 
 			<p>Obywatel polski będący przedstawicielem mniejszości ma konstytucyjne prawo do zachowania i rozwoju swojej tożsamości narodowej lub etnicznej: języka, obyczajów, tradycji i kultury. Należyta realizacja tych wolności wymaga także pozytywnych działań państwa. W rozumieniu ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszością narodową jest grupa obywateli polskich, która jest mniej liczebna od pozostałej części ludności RP, w sposób istotny odróżnia się od pozostałych obywateli językiem, kulturą lub tradycją, dąży do zachowania tych odrębności, ma świadomość własnej historycznej wspólnoty narodowej i jest ukierunkowana na jej wyrażanie i ochronę, a jej przodkowie zamieszkiwali obecne terytorium Polski od co najmniej 100 lat. Grupa taka, aby zostać uznana za mniejszość narodową, powinna ponadto utożsamiać się z narodem zorganizowanym we własnym państwie. Mniejszością etniczną jest natomiast grupa obywateli polskich spełniająca powyższe kryteria, lecz nieutożsamiająca się z narodem zorganizowanym we własnym państwie.</p>
@@ -671,8 +671,8 @@ const articles = [
 		desc: `
 			<p>Podobna regulacja nie występowała przed rokiem 1997 w polskim konstytucjonalizmie. Aby wystąpiło zawieszenie biegu przedawnienia, wymagane jest spełnienie dwóch przesłanek:</p>
 			<ul>
-				<li>1) przestępstwo musi być popełnione przez funkcjonariusza publicznego (lub na jego zlecenie), oraz</li>
-				<li>2) w stosunku do sprawcy tego czynu z przyczyn politycznych nie wszczęto lub przerwano (zawieszono) postępowanie (dochodzenie, śledztwo).</li>
+				<li>przestępstwo musi być popełnione przez funkcjonariusza publicznego (lub na jego zlecenie), oraz</li>
+				<li>w stosunku do sprawcy tego czynu z przyczyn politycznych nie wszczęto lub przerwano (zawieszono) postępowanie (dochodzenie, śledztwo).</li>
 			</ul>
 			<p>Nie chodzi jedynie o przestępstwa polityczne, ale o wszystkie przestępstwa – w tym także czyny wymienione w art. 43. Przepis ten ma szczególne znaczenie w kontekście zdarzeń, które zaszły w trakcie trwania poprzedniego ustroju. Obecnie nieściganie przestępstw z przyczyn politycznych jest niekonstytucyjne.</p>
 		`
@@ -756,9 +756,9 @@ const articles = [
 		desc: `
 		<p>Tajemnica korespondencji jest jedną z tradycyjnych wolności obywatelskich. Wolność komunikowania się obejmuje możliwość porozumiewania się ludzi między sobą, komunikowania wiadomości, ocen, wrażeń, itd. Artykuł 49 dotyczy jednak tylko komunikowania się za pomocą środka przekazu. Komunikacja bezpośrednia jest zagwarantowana przez prawo do prywatności. Twórcy Konstytucji, by kompleksowo uregulować wolność komunikowania się jednostki, zapewnili także wolność wyrażania poglądów (w artykule 54). Wolności te rozróżnia się poprzez analizę okoliczności przekazywania treści (wolność słowa polega na adresowaniu swego stanowiska do nieokreślonych indywidualnie osób). Wolność ta obejmuje również wolność otrzymywania określonych treści. Tajemnica komunikowania się to:</p>
 		<ul>
-			<li>1) prawo do nieujawniania treści przekazu,</li>
-			<li>2) prawo do nieujawniania faktu, że się przekaz otrzymało,</li>
-			<li>3) zakaz zdobywania wiedzy o treści przekazu bez zgody adresata (zakaz ten dotyczy także władz publicznych).</li>
+			<li>prawo do nieujawniania treści przekazu,</li>
+			<li>prawo do nieujawniania faktu, że się przekaz otrzymało,</li>
+			<li>zakaz zdobywania wiedzy o treści przekazu bez zgody adresata (zakaz ten dotyczy także władz publicznych).</li>
 		</ul>
 		`
 	},
@@ -793,11 +793,11 @@ const articles = [
 		desc: `
 			<p>Artykuł ten stanowi o:
 			<ul>
-				<li>1) wolności jednostki od ujawniania informacji jej dotyczących innym osobom oraz szczególnie władzom publicznym. Wolności tej odpowiada zakaz podejmowania prób uzyskiwania tego rodzaju informacji poprzez przesłuchiwanie (indagację);</li>
-				<li>2) kompetencji władz publicznych do pozyskiwania, gromadzenia oraz udostępniania informacji o obywatelach w zakresie niezbędnym w demokratycznym państwie prawnym;</li>
-				<li>3) prawie dostępu każdego mieszkańca Polski do dotyczących go dokumentów urzędowych i zbiorów danych;</li>
-				<li>4) prawie żądania sprostowania informacji zawartych w zbiorach dokumentów urzędowych lub w zbiorach danych, o ile są to informacje nieprawdziwe, niepełne lub zebrane niezgodnie z ustawą;</li>
-				<li>5) prawie żądania usunięcia informacji zawartych w jednym lub drugim zbiorze w tych samych przypadkach.</li>
+				<li>wolności jednostki od ujawniania informacji jej dotyczących innym osobom oraz szczególnie władzom publicznym. Wolności tej odpowiada zakaz podejmowania prób uzyskiwania tego rodzaju informacji poprzez przesłuchiwanie (indagację);</li>
+				<li>kompetencji władz publicznych do pozyskiwania, gromadzenia oraz udostępniania informacji o obywatelach w zakresie niezbędnym w demokratycznym państwie prawnym;</li>
+				<li>prawie dostępu każdego mieszkańca Polski do dotyczących go dokumentów urzędowych i zbiorów danych;</li>
+				<li>prawie żądania sprostowania informacji zawartych w zbiorach dokumentów urzędowych lub w zbiorach danych, o ile są to informacje nieprawdziwe, niepełne lub zebrane niezgodnie z ustawą;</li>
+				<li>prawie żądania usunięcia informacji zawartych w jednym lub drugim zbiorze w tych samych przypadkach.</li>
 			</ul>
 			<p>Władze publiczne nie mogą dla własnych celów dokumentować danych osobowych, sprawdzać i dokumentować zachowań osób prywatnych czy zmuszać do ujawniania swych indywidualnych cech, właściwości oraz postępowania.</p>
 		`

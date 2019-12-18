@@ -18,7 +18,9 @@
     text-decoration: none;
     cursor: pointer;
   }
-
+  .article :global(li) {
+      list-style-type: none;
+  }
   .article:focus,
   .article:hover {
     color: rgb(160, 40, 40);
