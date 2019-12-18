@@ -49,10 +49,6 @@
       {/if}
     {:else if article.title.toLowerCase().includes($searchedText.toLowerCase())}
       <Article {...article} />
-    {:else if article.chapter['title'].toLowerCase().includes($searchedText.toLowerCase())}
-      {#if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
-        <Article {...article} />
-      {/if}
     {/if}
   {/each}
 </div>
