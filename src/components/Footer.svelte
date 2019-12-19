@@ -19,9 +19,6 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
-  p {
-
-  }
 
   @media (max-width: 1100px) {
     nav {
@@ -40,7 +37,7 @@
 <nav>
   <p>
   <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
-    z miłości ❤️ do Polski ⚪️🔴 ~
+    z miłości ❤️ do Polski ~
     <a href="https://maciej-zalewski.pl">Maciej Zalewski</a>
   </p>
 </nav>
