@@ -6,21 +6,10 @@
 </script>
 
 <style>
-  .signature {
-    text-align: right;
-    font-style: italic;
-  }
-  p {
-    text-align: justify;
-  }
   h3 {
     padding-top: 16px;
   }
 
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
 </style>
 
 <svelte:head>
@@ -33,10 +22,10 @@
 <Nav segment={'info'}/>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-  <h3>Kontakt</h3>
   <h4>
     Prace w toku... 🧰🔨
   </h4>
+  <h3>Kontakt</h3>
 </div>
 
-<!-- <Footer /> -->
+<Footer />

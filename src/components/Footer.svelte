@@ -10,8 +10,11 @@
     justify-content: center;
     text-align: center;
   }
+  img {
+    height: 1em;
+  }
   a {
-    padding: 1em 1em 1em 0em;
+    padding: 1.15em 0.5em 1em 0em;
     color: inherit;
     font-style: italic;
   }
@@ -20,18 +23,6 @@
     color: rgb(160, 40, 40);
   }
 
-  @media (max-width: 1100px) {
-    nav {
-      display: block;
-      margin-top: 0.5em;
-    }
-  }
-  @media (max-width: 500px) {
-    a {
-      padding-right: 4px;
-      padding-left: 1px;
-    }
-  }
 </style>
 
 <nav>
@@ -39,5 +30,7 @@
   <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
     z miłości ❤️ do Polski ~
     <a href="https://maciej-zalewski.pl">Maciej Zalewski</a>
+
   </p>
+  <a href="mailto:konstytucja.online@gmail.com"><img src="/images/envelope-regular.svg" alt=""></a>
 </nav>
