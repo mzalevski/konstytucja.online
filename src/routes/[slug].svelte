@@ -189,14 +189,14 @@
   <div class="content">
     <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
       {#if !isDescriptionVisible}
-        <span class="low-opacity">pokaż opis</span>
+        <span class="low-opacity">wyjaśnienie treści artykułu | pokaż</span>
       {:else}
-        <span class="low-opacity">schowaj opis</span>
+        <span class="low-opacity">wyjaśnienie treści artykułu | schowaj</span>
       {/if}
     </button>
     {#if isDescriptionVisible}
       <div style="art-desc" in:fade={{ duration: 1000 }} out:fade={{ duration: 500 }}>
-        <h3>Opis</h3>
+        <h3>Wyjaśnienie treści artykułu</h3>
         {@html article.desc}
       </div>
     {/if}
@@ -204,9 +204,9 @@
 {/if}
 
 {#if !isDisqusVisible}
-  <button class="low-opacity" on:click={() => showDisqus()}>pokaż sekcję komentarzy</button>
+  <button class="low-opacity" on:click={() => showDisqus()}>dyskusja nad artykułem | pokaż</button>
 {:else}
-  <button class="low-opacity" on:click={() => isDisqusVisible = false}>schowaj sekcję komentarzy</button>
+  <button class="low-opacity" on:click={() => isDisqusVisible = false}>dyskusja nad artykułem | schowaj</button>
 {/if}
 
 {#if isDisqusVisible}
