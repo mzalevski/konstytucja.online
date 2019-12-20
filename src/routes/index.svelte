@@ -54,7 +54,7 @@
             .replace(/href='#/g, `href='\/`)
             .replace(
               new RegExp(`${$searchedText}`, 'gi'),
-              `<span style="background-color: yellow">$&</span>`
+              `<span style="background-color: rgb(255, 200, 200)">$&</span>`
             )}
           slug={article.slug}
           title={article.title}
