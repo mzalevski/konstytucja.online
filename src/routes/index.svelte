@@ -49,13 +49,18 @@
       {#if article.html
         .toLowerCase()
         .includes(` ${$searchedText.toLowerCase()}`)}
-        <Article
-          html={article.html
-            .replace(/href='#/g, `href='\/`)
-            .replace(
-              new RegExp(`${$searchedText}`, 'gi'),
-              `<span style="background-color: rgb(255, 200, 200)">$&</span>`
-            )}
+          <Article
+            html={article.html
+              .replace(/href='#/g, `href='\/`)
+              .replace(
+                new RegExp($searchedText, 'gi'), (match) => {
+                  if ($searchedText !== '') {
+                    return `<span style="background-color: rgb(255, 200, 200)">${match}</span>`
+                  } else {
+                    return match
+                  }
+                }
+              )}
           slug={article.slug}
           title={article.title}
           chapter={article.chapter} />
