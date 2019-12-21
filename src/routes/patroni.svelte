@@ -13,7 +13,7 @@
 </style>
 
 <svelte:head>
-  <title>Kontakt</title>
+  <title>Patroni</title>
   <meta name="description" content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.">
   <meta name="keywords" content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline, online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent, rada ministrów, sejm, senat">
   <meta name="konstytucja" content="website">
@@ -25,7 +25,7 @@
   <h4>
     Prace w toku... 🧰🔨
   </h4>
-  <h3>Kontakt</h3>
+  <h3>Patroni</h3>
 </div>
 
 <Footer />
