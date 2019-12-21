@@ -44,23 +44,23 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#each articles as article}
     {#if $selectedChapter === '_' && $searchedText === ''}
-      <Article {...article} />
+      <Article
+        html={article.html.replace(/href='\//g, `href='#`)}
+        slug={article.slug}
+        title={article.title}
+        chapter={article.chapter} />
     {:else if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
       {#if article.html
         .toLowerCase()
         .includes(` ${$searchedText.toLowerCase()}`)}
-          <Article
-            html={article.html
-              .replace(/href='#/g, `href='\/`)
-              .replace(
-                new RegExp($searchedText, 'gi'), (match) => {
-                  if ($searchedText !== '') {
-                    return `<span style="background-color: rgb(255, 200, 200)">${match}</span>`
-                  } else {
-                    return match
-                  }
-                }
-              )}
+        <Article
+          html={article.html.replace(new RegExp($searchedText, 'gi'), match => {
+            if ($searchedText !== '') {
+              return `<span style="background-color: rgb(255, 200, 200)">${match}</span>`;
+            } else {
+              return match;
+            }
+          })}
           slug={article.slug}
           title={article.title}
           chapter={article.chapter} />
@@ -68,7 +68,7 @@
         .toLowerCase()
         .includes($searchedText.toLowerCase())}
         <Article
-          html={article.html.replace(/href='#/g, `href='\/`)}
+          html={article.html}
           slug={article.slug}
           title={article.title}
           chapter={article.chapter} />
