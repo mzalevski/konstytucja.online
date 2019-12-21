@@ -118,6 +118,10 @@
   .content :global(a) {
     text-decoration: underline;
   }
+  .content :global(.desc-author) {
+    text-align: right;
+    font-style: italic;
+  }
 
   @media (max-width: 1100px) {
     .chapter-name {
