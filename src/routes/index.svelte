@@ -42,39 +42,44 @@
 </Nav>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
+
   {#each articles as article}
+
     {#if $selectedChapter === '_' && $searchedText === ''}
+
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
         title={article.title}
         chapter={article.chapter} />
+
     {:else if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
-      {#if article.html
-        .toLowerCase()
-        .includes(` ${$searchedText.toLowerCase()}`)}
-        <Article
-          html={article.html.replace(new RegExp($searchedText, 'gi'), match => {
-            if ($searchedText !== '') {
-              return `<span style="background-color: rgb(255, 200, 200)">${match}</span>`;
-            } else {
-              return match;
-            }
-          })}
-          slug={article.slug}
-          title={article.title}
-          chapter={article.chapter} />
-      {:else if article.title
-        .toLowerCase()
-        .includes($searchedText.toLowerCase())}
-        <Article
-          html={article.html}
-          slug={article.slug}
-          title={article.title}
-          chapter={article.chapter} />
+
+      {#if new RegExp(` ${$searchedText}`, 'gi')
+        .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), ''))}
+
+          <Article
+            html={article.html.replace(
+              new RegExp(`[ >]${$searchedText}`, 'gi'), (match, offset, string) => {
+                if ($searchedText !== '' && !['href', 'clas'].includes(string.slice(offset + 1, offset + 5))) {
+                  return ` <span style="background-color: rgb(255, 200, 200)">${match.slice(1)}</span>`;
+                }
+              }
+            )}
+            slug={article.slug}
+            title={article.title}
+            chapter={article.chapter} />
+
+      {:else if article.title.toLowerCase().includes($searchedText.toLowerCase())}
+
+        <Article {...article} />
+
       {/if}
+
     {/if}
+
   {/each}
+
 </div>
 
 {#if yAxisPosition > 300}
