@@ -48,11 +48,11 @@
 
   <p>Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć. Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.</p>
 
-  <p>Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania prawa już istniejącego. Chciałbym wykorzystać swoje umiejętności techniczne, aby krok po kroku tworzyć takie rozwiązania. Konstytucja.online to mój pierwszy krok.</p>
+  <p>Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania tego już istniejącego. Chciałbym wykorzystać swoje umiejętności techniczne, aby krok po kroku tworzyć takie rozwiązania. Konstytucja.online to mój pierwszy krok.</p>
 
-  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>. Po trzecie, jeżeli chciałbyś wesprzeć finansowo ten i moje kolejne projekty to serdecznie zapraszam do wsparcia przez <a href="https://patronite.pl/maciejzalewski">Patronite</a>, nawet mała kwota może przyczynić się do usprawnienia tworzenia społecznie zaangażowanych projektów, dzięki którym prawo będzie bardziej otwarte i przejrzyste.</p>
+  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>. Po trzecie, jeżeli chciałbyś wesprzeć finansowo ten i kolejne moje projekty to serdecznie zapraszam do wsparcia przez <a href="https://patronite.pl/maciejzalewski">Patronite</a>.</p>
 
-  <p>Chciałbym też podziękować prof. Marcinowi Matczakowi i prof. Ryszardowi Piotrowskiemu za wsparcie merytoryczne projektu.</p>
+  <p>Chciałbym podziękować prof. Marcinowi Matczakowi i prof. Ryszardowi Piotrowskiemu za wsparcie merytoryczne projektu.</p>
 
   <p class="signature">
     <a
