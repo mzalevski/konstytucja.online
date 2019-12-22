@@ -77,7 +77,7 @@
   <h4>Nowelizacja z 2009</h4>
   <h5><a href='http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20091140946'>Dz.U. 2009 nr 114 poz. 946</a></h5>
 
-  <p>7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie <a rel="prefetch" href="/99">art. 99</a> Konstytucji (dodano ust. 3), dotyczącą rozszerzenia przesłanek biernego prawa wyborczego. Dodany przepis art. 99 ust. 3 Konstytucji stanowi, że „wybraną do Sejmu lub do Senatu nie może być osoba skazana prawomocnym wyrokiem na karę pozbawienia wolności za przestępstwo umyślne, ścigane z oskarżenia publicznego”</p>
+  <p>7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie <a rel="prefetch" href="/99">art. 99</a> Konstytucji (dodano ust. 3), dotyczącą rozszerzenia przesłanek biernego prawa wyborczego. Dodany przepis art. 99 ust. 3 Konstytucji stanowi, że „wybraną do Sejmu lub do Senatu nie może być osoba skazana prawomocnym wyrokiem na karę pozbawienia wolności za przestępstwo umyślne, ścigane z oskarżenia publicznego”.</p>
 
   <p> W <a href="http://orka.sejm.gov.pl/SQL.nsf/glosowania?OpenAgent&6&41&8">głosowaniu</a> wzięło udział 413 posłów, za głosowało 404, przeciw 0, wstrzymało się 9, nie głosowało 47. Ustawa została 1 lipca 2009 uchwalona przez Senat, a następnie <a href="https://www.prezydent.pl/archiwum-lecha-kaczynskiego/ustawy/ustawy-podpisane/art,1,lipiec-2009-r-.html">podpisana</a> 9 lipca 2009 przez Prezydenta RP Lecha Kaczyńskiego i opublikowana 20 lipca 2009. Zmiana weszła w życie 21 października 2009, mając jednak zastosowanie dopiero począwszy od kolejnych kadencji Sejmu i Senatu (tj. od VII kadencji Sejmu i VIII kadencji Senatu).</p>
 
