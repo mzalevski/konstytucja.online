@@ -29,7 +29,7 @@
   <p>
   <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
     z miłości ❤️ do Polski ~
-    <a href="https://maciej-zalewski.pl">Maciej Zalewski</a>
+    <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">Maciej Zalewski</a>
 
   </p>
   <a href="mailto:konstytucja.online@gmail.com"><img src="/images/envelope-regular.svg" alt=""></a>
