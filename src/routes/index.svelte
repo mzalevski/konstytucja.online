@@ -59,14 +59,14 @@
 
         <Article {...article} />
 
-      {:else if new RegExp(` ${$searchedText}`, 'gi')
+      {:else if new RegExp(`[ >]${$searchedText}`, 'gi')
         .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), ''))}
 
           <Article
             html={article.html.replace(
               new RegExp(`[ >]${$searchedText}`, 'gi'), (match, offset, string) => {
                 if ($searchedText !== '' && !['href', 'clas'].includes(string.slice(offset + 1, offset + 5))) {
-                  return ` <span style="background-color: rgb(255, 200, 200)">${match.slice(1)}</span>`;
+                  return `${match.slice(0, 1)}<span style="background-color: rgb(255, 200, 200)">${match.slice(1)}</span>`;
                 }
               }
             )}
