@@ -65,7 +65,7 @@
           <Article
             html={article.html.replace(
               new RegExp(`[ >]${$searchedText.replace(/[\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi'), (match, offset, string) => {
-                  if ($searchedText !== '' && !['href', 'clas'].includes(string.slice(offset + 1, offset + 5))) {
+                  if ($searchedText !== '' && !['href', 'clas', 'rel='].includes(string.slice(offset + 1, offset + 5))) {
                     return `${match.slice(0, 1)}<span style="background-color: rgb(255, 200, 200)">${match.slice(1)}</span>`;
                   }
                 }

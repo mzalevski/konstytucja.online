@@ -446,7 +446,7 @@ const articles = [
 			<p>Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 Europejskiej Konwencji Praw Człowieka.</p>
 
 			<p>Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi, np. na płaszczyźnie praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
-			
+
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a></p>
 		`
 	},
@@ -474,7 +474,7 @@ const articles = [
 			<p>Konstytucja wyklucza możliwość pozbawienia obywatelstwa bez zgody obywatela. Historycznie jest to niezwykle istotne rozwiązanie, ponieważ w Polsce utrata obywatelstwa stosowana była jako forma kary lub represji zazwyczaj w kontekście politycznym.</p>
 
 			<p>Warto przypomnieć tu, że obywatelom polskim – tak jak wszystkim obywatelom państw członkowskich Unii Europejskiej – przysługuje także obywatelstwo europejskie.</p>
-			
+
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a></p>
 		`
 	},
@@ -502,7 +502,7 @@ const articles = [
 			</ul>
 
 			<p>Obywatel polski będący przedstawicielem mniejszości ma konstytucyjne prawo do zachowania i rozwoju swojej tożsamości narodowej lub etnicznej: języka, obyczajów, tradycji i kultury. Należyta realizacja tych wolności wymaga także pozytywnych działań państwa. W rozumieniu ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszością narodową jest grupa obywateli polskich, która jest mniej liczebna od pozostałej części ludności RP, w sposób istotny odróżnia się od pozostałych obywateli językiem, kulturą lub tradycją, dąży do zachowania tych odrębności, ma świadomość własnej historycznej wspólnoty narodowej i jest ukierunkowana na jej wyrażanie i ochronę, a jej przodkowie zamieszkiwali obecne terytorium Polski od co najmniej 100 lat. Grupa taka, aby zostać uznana za mniejszość narodową, powinna ponadto utożsamiać się z narodem zorganizowanym we własnym państwie. Mniejszością etniczną jest natomiast grupa obywateli polskich spełniająca powyższe kryteria, lecz nieutożsamiająca się z narodem zorganizowanym we własnym państwie.</p>
-			
+
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a></p>
 		`
 	},
