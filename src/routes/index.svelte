@@ -55,7 +55,11 @@
 
     {:else if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
 
-      {#if new RegExp(` ${$searchedText}`, 'gi')
+      {#if $searchedText === ''}
+
+        <Article {...article} />
+
+      {:else if new RegExp(` ${$searchedText}`, 'gi')
         .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), ''))}
 
           <Article
