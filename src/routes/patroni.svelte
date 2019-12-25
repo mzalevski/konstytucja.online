@@ -39,7 +39,7 @@
   <h3>Patroni 2.0 🥈</h3>
   <p class="low-opacity">brak</p>
   <h3>Patroni 1.0 🥉</h3>
-  <p class="low-opacity">Karolina Król, ... </p>
+  <p class="low-opacity">Karolina Król, Aleksander Droszcz, ...</p>
 </div>
 
 <Footer />
