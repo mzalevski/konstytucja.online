@@ -42,7 +42,7 @@
   <h3>Patroni 2.0 🥈</h3>
   <p class="low-opacity">brak</p>
   <h3>Patroni 1.0 🥉</h3>
-  <p class="patrons">Karolina Król, Aleksander Droszcz, ...</p>
+  <p class="patrons">Karolina Król, Aleksander Droszcz</p>
 </div>
 
 <Footer />
