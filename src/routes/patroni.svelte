@@ -10,7 +10,10 @@
     padding-top: 16px;
   }
   .low-opacity {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.2);
+  }
+  .patrons {
+    color: rgba(0, 0, 0, 0.5);
   }
 </style>
 
@@ -39,7 +42,7 @@
   <h3>Patroni 2.0 🥈</h3>
   <p class="low-opacity">brak</p>
   <h3>Patroni 1.0 🥉</h3>
-  <p class="low-opacity">Karolina Król, Aleksander Droszcz, ...</p>
+  <p class="patrons">Karolina Król, Aleksander Droszcz, ...</p>
 </div>
 
 <Footer />
