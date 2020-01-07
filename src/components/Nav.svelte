@@ -172,6 +172,7 @@
           Informacje
         </a>
         <div class="dropdown-content">
+          <a rel="prefetch" href="/komisja">Komisja Konstytucyjna</a>
           <a rel="prefetch" href="/legislacja">Proces legislacyjny</a>
           <a rel="prefetch" href="/slownik">Słownik pojęć</a>
           <a rel="prefetch" href="/app-mobile">Aplikacja - mobile</a>
