@@ -1,16 +1,4 @@
-<script context="module">
-  export function preload({ params, query }) {
-    return this.fetch(`komisja.json`)
-      .then(r => r.json())
-      .then(posts => {
-        return { posts };
-      });
-  }
-</script>
-
 <script>
-  export let posts;
-
   import { stores } from "@sapper/app";
   import { fly } from "svelte/transition";
   import Nav from "../../components/Nav.svelte";
@@ -26,12 +14,6 @@
     color: rgb(160, 40, 40);
   }
 
-  ol {
-    padding-left: 2em;
-  }
-  ol li {
-    list-style-type: decimal;
-  }
   ol li a {
     padding: 0;
   }
@@ -49,9 +31,6 @@
       margin: 0em 0;
       padding: 0.2em 0.5em;
       text-align: center;
-    }
-    ol li {
-      text-align: justify;
     }
   }
 </style>
@@ -120,26 +99,17 @@
     </a>
   </h5>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repudiandae ab
-    cumque est minus quis earum, dignissimos sed aperiam. Autem, cum. Omnis
-    autem voluptas error iusto. Eum laudantium officia rem dolore quis, dolor
-    unde suscipit accusantium repudiandae quas, temporibus architecto earum
-    atque qui ducimus repellendus aut tempore animi harum, nam modi quasi iure
-    ab consectetur. Saepe ipsam in corrupti molestias voluptatum expedita,
-    omnis, illo odio, nobis reiciendis vitae ea vero.
-  </p>
-
   <ul>
-    {#each posts as post}
-      <!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-      <li>
-        <a rel="prefetch" href="komisja/{post.slug}">{post.title}</a>
-      </li>
-    {/each}
+
+    <li>
+      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+    </li>
+    <li>
+      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+    </li>
+    <li>
+      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+    </li>
   </ul>
 
 </div>
