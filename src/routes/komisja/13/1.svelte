@@ -8,17 +8,20 @@
   p {
     text-align: justify;
   }
-.last {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-}
-.rep-statement {
-    margin: 1em 0em;
-    padding: 1em;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-}
+  h3 {
+    padding-top: 16px;
+  }
+  .last {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+      margin-bottom: 2rem;
+  }
+  .rep-statement {
+      margin: 1em 0em;
+      padding: 1em;
+      border: dotted 1px;
+      border-color: rgba(0, 0, 0, 0.3);
+  }
 </style>
 
 <svelte:head>
@@ -1683,10 +1686,7 @@
     będzie to państwo w jakiejś mierze socjalizujące, choć również będzie to
     państwo prawne. Jeżeli w tej kwestii zostanie osiągnięte rozstrzygnięcie,
     będzie to zasadniczy krok w pracach nad konstytucją. Nie jest kwestią
-    przypadku, że od początku była mowa o tym, że zagadnieniem — dylematem prac
-  </p>
-  <p>
-    20 nad konstytucją — jest pytanie o to, w jakim zakresie państwo prawne ma
+    przypadku, że od początku była mowa o tym, że zagadnieniem — dylematem prac nad konstytucją — jest pytanie o to, w jakim zakresie państwo prawne ma
     być również państwem socjalnym. Spór ten odżył teraz. Dyskusję
     usprawiedliwia nie rozwikłany spór dotyczący relacji między prawem a
     sprawiedliwością. Jeżeli ktoś interesuje się tym sporem, to dodam, że spór
@@ -1850,7 +1850,7 @@
     roszczeń o rezultaty działań państwa w zakresie polityki socjalnej.
   </p>
 
-  <p class="page-break">strona 22</p>
+  <!-- <p class="page-break">strona 22</p> -->
 
   <p class="rep-statement">
     <strong>Poseł Irena Lipowicz (UW):</strong>
@@ -1979,10 +1979,7 @@
     Polsce reforma usług publicznych, czy też nie. Jest to jednak uwaga na
     marginesie. Jeżeli natomiast chodzi o moje główne pytanie, to otrzymałem — w
     zasadzie — dwie sprzeczne odpowiedzi ze strony ekspertów. Nie padła
-    odpowiedź
-  </p>
-  <p>
-    23 ze strony przewodniczącego podkomisji. Jeżeli chodzi o opinię ekspertów,
+    odpowiedź ze strony przewodniczącego podkomisji. Jeżeli chodzi o opinię ekspertów,
     to prof. K. Działocha stwierdził, że nie istnieje możliwość kontroli
     Trybunału Konstytucyjnego nad wydatkami budżetowymi. Prof. W. Osiatyński
     wspierając się opinią prof. L. Garlickiego — ponoć jednoznaczną — udzielił
@@ -2029,10 +2026,7 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Na tle tego, o czym poprzednio mówił poseł J. Ciemniewski, chcę powie-
-  </p>
-  <p>
-    24 dzieć, że nie kierowałem do niego uwagi w sprawie innych elementów
+    Na tle tego, o czym poprzednio mówił poseł J. Ciemniewski, chcę powiedzieć, że nie kierowałem do niego uwagi w sprawie innych elementów
     ukierunkowujących politykę państwa w konstytucji. Miałem takie
     przeświadczenie, że ponieważ poza wnioskiem ogólnym nikt nie przedstawiał
     trudności wokół innych formuł ogólnych, to rysuje się zgodność poglądów.
@@ -2177,7 +2171,6 @@
   </p>
 
   <!--<hr><p class="page-break">strona 25</p><hr>-->
-  —— Ema e
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof:</strong>
     Paweł Sarnecki: Art. 4 nie musi się znaleźć w konstytucji. Jest to formuła
@@ -2268,8 +2261,7 @@
     w Polsce tylko to, że coś było w konstytucji kwietniowej, jest argumentem
     przekonywającym. Utrzymywanie takiego stanu rzeczy nie jest najlepsze.
     Zaproponuję jutro, aby na cenzurowanym była nie tylko jedna konstytucja.
-    Przedłożę propozycję przepisu zapożyczonego z konstytucji z dnia 22 lipca...
-    1807 r.
+    Przedłożę propozycję przepisu zapożyczonego z konstytucji z dnia 22 lipca... 1807 roku.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>

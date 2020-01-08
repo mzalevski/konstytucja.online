@@ -8,17 +8,20 @@
   p {
     text-align: justify;
   }
-.last {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-}
-.rep-statement {
-    margin: 1em 0em;
-    padding: 1em;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-}
+  h3 {
+    padding-top: 16px;
+  }
+  .last {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+      margin-bottom: 2rem;
+  }
+  .rep-statement {
+      margin: 1em 0em;
+      padding: 1em;
+      border: dotted 1px;
+      border-color: rgba(0, 0, 0, 0.3);
+  }
 </style>
 
 <svelte:head>
@@ -33,7 +36,12 @@
 
 <h3>Obrady w dniu 9 lutego 1995 r.</h3>
   <!--<hr><p class="page-break">strona 63</p><hr>-->
-
+  <p class="last">
+    W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
+    przedstawiciele: Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej
+    Rzepliński, dr Władysław Kulesza i Rady Ministrów — prof. Stanisław
+    Gebethner, prof. Andrzej Gwiżdż.
+  </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wznawiam obrady Komisji Konstytucyjnej Zgromadzenia Narodowego. Witam
@@ -201,10 +209,7 @@
     granicach prawa”. Poddaję pod głosowanie wniosek o przyjęcie art. 7 w
     brzmieniu zaproponowanym przez podkomisję. Stwierdzam, że w głosowaniu
     wniosek uzyskał 24 głosy popierające i 6 przeciwnych, przy 4 wstrzymujących
-    się. EEE ——— mewa a aw
-  </p>
-  <p>
-    65 nana m da m Ka — z —— Poddaję pod głosowanie wniosek o przyjęcie art. 7 w
+    się. Poddaję pod głosowanie wniosek o przyjęcie art. 7 w
     następującym brzmieniu zaproponowanym przez senator A. Grześkowiak:
     „Wszystkie organy Państwa są podporządkowane Konstytucji i wypełniają swoje
     uprawnienia w granicach w niej przewidzianych”. Stwierdzam, że w głosowaniu
@@ -247,10 +252,7 @@
     Wszystkie organy władzy publicznej działają na podstawie 1 w granicach
     przepisów prawa. Ust. 3. Akty prawne organów władzy publicznej, z których
     wynikają prawa I obowiązki obywateli, mają moc obowiązującą tylko wtedy,
-    kiedy wydane zostały z upoważnienia ustawy i z powołaniem się na nią”.
-  </p>
-  <p>
-    66 nz m Poddaję pod głosowanie poprawkę nr 5 przedłożoną przez posła R.
+    kiedy wydane zostały z upoważnienia ustawy i z powołaniem się na nią”. Poddaję pod głosowanie poprawkę nr 5 przedłożoną przez posła R.
     Grodzickiego. Stwierdzam, że w głosowaniu wniosek uzyskał 19 głosów
     popierających, 9 głosów przeciwnych, przy 6 wstrzymujących się. Spośród
     pięciu przegłosowanych wniosków dwa uzyskały więcej głosów popierających niż
@@ -284,10 +286,8 @@
     : Uważam, że przedłożony ust. 3 podważa zasadę konstytucjonalizmu, nad
     którą dyskutowaliśmy wczoraj. Zasada ta przewiduje, że akty władzy
     publicznej, które dotyczą wolności lub praw obywateli mogą wynikać wyłącznie
-    z konstytucji, a nie z ustawy. Zgodnie z zasadą konstytucjonalizmu prawa 1
-    wolności obywatelskie stoją ponad ustawą. Ustawodawca nie
-  </p>
-  <p>423 może „mieszać” w prawach 1 wolnościach.</p>
+    z konstytucji, a nie z ustawy. Zgodnie z zasadą konstytucjonalizmu prawa i
+    wolności obywatelskie stoją ponad ustawą. Ustawodawca nie może „mieszać” w prawach i wolnościach.</p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S:</strong>
     : Uważam, że prof. W. Osiatyński ma rację. Prawa 1 wolności obywatelskie
@@ -680,10 +680,7 @@
     przedstawiłem na początku wczorajszej dyskusji. Poseł W. Majewski przedłożył
     formułę, którą zaproponowałęm na zakończenie wczorajszej dyskusji. Wniosek
     senator A. Grześkowiak to formuła, którą przedłożyłem jako ekspert Komisji
-    Konstytucyjnej Sena-
-  </p>
-  <p>
-    10 tu I kadencji w 1990 r., przy czym Senat dodał: „lub wskazane w niej
+    Konstytucyjnej Senatu I kadencji w 1990 r., przy czym Senat dodał: „lub wskazane w niej
     wartości i zasady”. Chcę dodać, że z tych wszystkich formuł dzisiaj
     najbardzej podoba mi się brzmienie zawarte we wniosku nr 14, który
     przedłożył poseł W. Majewski.
@@ -870,10 +867,7 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
-    Czuję się w obowiązku zabrać głos, gdyż podkomisja za-
-  </p>
-  <p>
-    72 gadnień systemu Źródeł prawa poświęciła tej kwestii kilka posiedzeń z
+    Czuję się w obowiązku zabrać głos, gdyż podkomisja zagadnień systemu Źródeł prawa poświęciła tej kwestii kilka posiedzeń z
     udziałem ekspertów. Uzasadnione wydaje się pytanie posła J. Szymańskiego,
     lecz jest to pytanie z zakresu systematyki konstytucji. Zasada, o której
     mówimy, była wielokrotnie wyrażana przez prof. K. Skubiszewskiego, a w
@@ -1066,10 +1060,7 @@
     władzy wykonawczej — Rada Ministrów, w zakresie władzy sądowniczej —
     niezależne i niezawisłe sądy i trybunały. Ust. 3. Prezydent jako najwyższy
     przedstawiciel Rzeczypospolitej Polskiej gwarantuje ciągłość i
-    współdziałanie władz”.
-  </p>
-  <p>
-    74 Stwierdzam, że w głosowaniu wniosek uzyskał 8 głosów popierających, 15
+    współdziałanie władz”. Stwierdzam, że w głosowaniu wniosek uzyskał 8 głosów popierających, 15
     głosów przeciwnych, przy 8 wstrzymujących się. Przechodzimy do propozycji
     poseł K. Łybackiej.
   </p>
@@ -1210,10 +1201,7 @@
     : Wyniki naszych głosowań zrozumiałam w ten sposób, że przyjęty został
     przepis w brzmieniu: „Władza państwowa jest sprawowana przez rozdzielone i
     wzajemnie równoważące się oraz współdziałające organy ustawodawcze,
-    wykonawcze i sądownicze . Teraz
-  </p>
-  <p>
-    75 byłaby kolej na przyjęcie przepisu stwierdzającego, jakie organy sprawują
+    wykonawcze i sądownicze. Teraz byłaby kolej na przyjęcie przepisu stwierdzającego, jakie organy sprawują
     jaką władzę. Trudno wyobrazić sobie, aby wśród zasad ustroju nie było
     przepisu określającego, jakie organy sprawują jaki rodzaj władzy. Jeżeli
     chodzi o mój wniosek, to cieszę się, że zostało przyjęte brzmienie niemal
@@ -1444,10 +1432,7 @@
     samorządy zawodowe i gospodarcze są organami władzy publicznej. Nie są
     natomiast zrzeszeniami działającymi na podstawie art. 9 Konwencji
     europejskiej, która mówi o wolności zrzeszania się obywateli. Tak więc w
-    pra-
-  </p>
-  <p>
-    78 wie międzynarodowym jest wyraźna dystynkcja między dobrowolnymi
+    prawie międzynarodowym jest wyraźna dystynkcja między dobrowolnymi
     zrzeszeniami i stowarzyszeniami, a samorządami, które są organami władzy
     publicznej.
   </p>
@@ -1588,10 +1573,7 @@
     normę interpretacyjną dla Trybunału Konstytucyjnego w ocenianiu
     ustawodawstwa z punktu widzenia zgodności z konstytucją. Chodzi o zgodność z
     punktu widzenia realnych i istniejących gwarancji ustawowych, zapewniających
-    udział samorządu w sprawowaniu władzy publicznej.
-  </p>
-  <p>
-    79 Ponadto formuła z wariantu I jest również normą interpretacyjną dla
+    udział samorządu w sprawowaniu władzy publicznej. Ponadto formuła z wariantu I jest również normą interpretacyjną dla
     orzecznictwa innych organów — co do sposobu funkcjonowania i konsekwencji
     powołania organów samorządowych.
   </p>
@@ -1640,10 +1622,7 @@
     terytorialny jest elementem ustroju Państwa. Rzeczpospolita Polska
     gwarantuje udział samorządu terytorialnego w sprawowaniu władzy. Ust. 2.
     Rzeczpospolita Polska gwarantuje swobodę działalności innych form
-    samorządności”.
-  </p>
-  <p>
-    80 m z. zz mna zma EE m „za —Nasza propozycja nie zawiera formuły dającej
+    samorządności”. Nasza propozycja nie zawiera formuły dającej
     podstawy do ustawowych ograniczeń samorządu. Należy bowiem pamiętać o
     zasadzie legalizmu. Ponadto warto pamiętać, że samorządność to realizacja
     praw obywatelskich. Tam gdzie obywatele, choćby na zasadzie form
@@ -1840,10 +1819,7 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Bardzo gorąco protestuję przeciwko
-  </p>
-  <p>
-    82 przyjęciu ust. 3, zaproponowanego przez prof. L. WiŚniewskiego i posła M.
+     Stanisław Gebethner: Bardzo gorąco protestuję przeciwko przyjęciu ust. 3, zaproponowanego przez prof. L. WiŚniewskiego i posła M.
     Mazurkiewicza. Nie jest to bowiem materia rozdziału pierwszego. Żaden z
     dotychczas przyjętych artykułów nie odsyła tak szczegółowo do ustawy. Uważam
     więc, że należy przyjąć formułę, stwierdzającą, że Rzeczpospolita w
@@ -2026,7 +2002,7 @@
     ogóle nie można mówić jako o organach władzy publicznej, gdyż część
     samorządów nie ma charakteru przymusowego.
   </p>
-  <p>84 r x sanok m we, m w M 1 1 A O A R m M m m ———- NT</p>
+
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Odnosiłem wrażenie, że o tym cały czas dyskutujemy.
@@ -2175,10 +2151,7 @@
     gospodarczym, w interesie państwa i obywateli. Mam na myśli ustawę o zwrocie
     nieuzasadnionych korzyści niesłusznie uzyskanych kosztem skarbu państwa. To,
     że ze względów politycznych i merytorycznych żaden z rządzących układów nie
-    chciał korzystać z tej ustawy, nie Świadczy o tym, że wola ustawodawcy nie
-  </p>
-  <p>
-    85 przywraca zasady słuszności jako podstawy roszczenia, odwołując się do
+    chciał korzystać z tej ustawy, nie Świadczy o tym, że wola ustawodawcy nie przywraca zasady słuszności jako podstawy roszczenia, odwołując się do
     orzecznictwa sądowego opartego na Kodeksie zobowiązań. Nie jest to więc
     potoczne sformułowanie równoważne zasadzie sprawiedliwości czy wymierności,
     jest to całkowicie odrębne i ugruntowane kryterium.
@@ -2188,7 +2161,7 @@
     Jeżeli chodzi o stan prac nad art. 12, to oprócz propozycji podkomisji
     zostały zgłoszone poprawki: posła K. Kamińskiego, senatora P.
     Andrzejewskiego 1 posła L. Moczulskiego. Zostaną one poddane pod głosowanie
-    na kolejnym posiedzeniu, wraz z propozycjami dotyczącymi art. 13 1 14. Nie
+    na kolejnym posiedzeniu, wraz z propozycjami dotyczącymi art. 13 i 14. Nie
     możemy na razie podjąć jako Komisja art. 15, gdyż podkomisja podstaw ustroju
     politycznego i społeczno-gospodarczego nie przygotowała nowych
     kompromisowych propozycji. Uważam ponadto, że moglibyśmy podjąć kwestię
@@ -2227,10 +2200,7 @@
     <strong>Poseł Leszek Moczulski (KPN):</strong>
     Chcę wskazać na niebezpieczną lukę znajdującą się w art. 12. Art. 12
     dopuszcza naruszenie prawa własności tylko poprzez wywłaszczenie. Nie można
-    natomiast zapomnieć
-  </p>
-  <p>
-    86 o konfiskacie i to nie tyle w stanach nadzwyczajnych, ile w oparciu o
+    natomiast zapomnieć o konfiskacie i to nie tyle w stanach nadzwyczajnych, ile w oparciu o
     orzeczenia sądowe. Wydaje się, że przy takim brzmieniu art. 12 sąd nie
     mógłby orzec konfiskaty narzędzi przestępstwa. Nóż służący zabójstwu
     musiałby więc być zwrócony mordercy.
@@ -2431,10 +2401,7 @@
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     W moim przekonaniu brzmienie art. 14 w wersji podkomisji jest zawężeniem
-    problemu. Wobec tego proponuję nastę-
-  </p>
-  <p>
-    88 pujące brzmienie art. 14: „Władze publiczne zapewniają socjalną,
+    problemu. Wobec tego proponuję następujące brzmienie art. 14: „Władze publiczne zapewniają socjalną,
     ekonomiczną 1 prawną ochronę pracy. Ochrona socjalna to tworzenie warunków
     do powstawania miejsc pracy.
   </p>
@@ -2639,10 +2606,7 @@
     głosowanie wniosek o przyjęcie art. 5 w brzmieniu wariantu I projektu
     podkomisji o treści: „Ust. 1. Rzeczpospolita Polska gwarantuje wolność
     tworzenia i działania partii politycznych. Biorą one udział w kształtowaniu
-    1 wyrażaniu woli obywateli >w szczególności przez uczestnictwo w wyborach.
-  </p>
-  <p>
-    90 Ust. 2. Finansowanie partii politycznych jest jawne”. Stwierdzam, że w
+    1 wyrażaniu woli obywateli >w szczególności przez uczestnictwo w wyborach. Ust. 2. Finansowanie partii politycznych jest jawne”. Stwierdzam, że w
     głosowaniu wniosek uzyskał 16 głosów popierających, 12 głosów przeciwnych,
     przy 1 wstrzymującym się. Przechodzimy do głosowania nad drugim wariantem.
     Jest to wniosek senatorów A. Grześkowiak i P. Andrzejewskiego o treści
@@ -2942,10 +2906,7 @@
   <p>
     Walerian Piotrowski był przewodniczącym Komisji Konsty-tucyjnej Zgromadzenia
     Narodowego, składającej się z posłów I kadencji i senatorów II kadencji, w
-    latach 1991-1993 [przyp. wydawcy].
-  </p>
-  <p>
-    94 e Nie wiadomo jeszcze jaką decyzję podejmie Zgromadzenie Narodowe, jeżeli
+    latach 1991-1993 [przyp. wydawcy]. Nie wiadomo jeszcze jaką decyzję podejmie Zgromadzenie Narodowe, jeżeli
     ono będzie w tym składzie uchwalać Konstytucję, ale można przypuszczać, że
     zdanie większości posłów i senatorów będzie analogiczne jak Komisji
     Konstytucyjnej... Boję się, że projekt zawierający preambułę może liczyć na
@@ -3053,10 +3014,7 @@
     systemów społecznych były przez państwo gwarantowane,żeby niektóre kwestie
     społeczne państwo miało obowiązek rozwiązywać, ale nie w taki sposób, jak to
     się działo w minionym półwieczu. Dlatego w przepisach wprowadzających
-    piszemy np. o reformie systemu ubezpieczeń społecznych, o uzupełniającym,
-  </p>
-  <p>
-    95 zdecentralizowanym systemie ubezpieczeń zdrowotnych etc. To jest
+    piszemy np. o reformie systemu ubezpieczeń społecznych, o uzupełniającym, zdecentralizowanym systemie ubezpieczeń zdrowotnych etc. To jest
     całkowicie zgodne z tym, co głoszą encykliki papieskie. Kaczyński, Hall i
     inni ze wstrętem mówią o zbytnio rozbudowanym — ich zdaniem — katalogu praw
     socjalnych i ekonomicznych w solidarnościowym projekcie konstytucji. To też
@@ -3093,10 +3051,7 @@
     wprowadzające” jest tak długi? Uważamy, że aby Polska mogła się stać
     państwem prawa, trzeba wpierw wiele spraw uregulować. A więc jest tam mowa o
     odbudowie niektórych instytucji, np. instytucji sędziego Śledczego, kasacji
-    czy też wspomnianej gruntownej reformie systemu
-  </p>
-  <p>
-    96 ubezpieczeń społecznych, który się w tej chwili zupełnie zawalił. W tym
+    czy też wspomnianej gruntownej reformie systemu ubezpieczeń społecznych, który się w tej chwili zupełnie zawalił. W tym
     rozdziale proponujemy ponadto przepisy dotyczące restytucji obywatelstwa
     polskiego. Proponujemy jeszcze, żeby archiwa UB i SB z lat 1945-89 zostały
     przekazane do Instytutu Pamięci Narodowej, podobnego do niemieckiego

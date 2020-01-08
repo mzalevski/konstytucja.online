@@ -54,7 +54,7 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Komisja Konstytucyjna</h3>
-  <h5>
+  <!-- <h5>
     <a
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
@@ -62,7 +62,7 @@
       Dz.U. 1997 nr 78 poz. 483
     </a>
     nie wiem co tu
-  </h5>
+  </h5> -->
 
   <p>
     Komisja Konstytucyjna
@@ -95,20 +95,20 @@
       href="https://bs.sejm.gov.pl/F?func=find-b&request=000007248&find_code=SYS&local_base=BIS01"
       rel="nofollow"
       target="_blank">
-      biuletyny lista
+      lista biuletynów
     </a>
   </h5>
 
   <ul>
 
     <li>
-      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+      <a rel="prefetch" href="komisja/13">Biuletyn nr 13</a>
     </li>
     <li>
-      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+      <a rel="prefetch" href="komisja">Biuletyn nr 14</a> Prace w toku... 🧰🔨
     </li>
     <li>
-      <a rel="prefetch" href="komisja/13">Biuletyn 13</a>
+      <a rel="prefetch" href="komisja">Biuletyn nr 15</a> Prace w toku... 🧰🔨
     </li>
   </ul>
 

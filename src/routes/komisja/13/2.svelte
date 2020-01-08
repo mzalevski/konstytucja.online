@@ -8,17 +8,20 @@
   p {
     text-align: justify;
   }
-.last {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-}
-.rep-statement {
-    margin: 1em 0em;
-    padding: 1em;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-}
+  h3 {
+    padding-top: 16px;
+  }
+  .last {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+      margin-bottom: 2rem;
+  }
+  .rep-statement {
+      margin: 1em 0em;
+      padding: 1em;
+      border: dotted 1px;
+      border-color: rgba(0, 0, 0, 0.3);
+  }
 </style>
 
 <svelte:head>
@@ -30,7 +33,12 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Obrady w dniu 8 lutego 1995 r.</h3>
-
+  <p class="last">
+    W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
+    przedstawiciele: Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej
+    Rzepliński, dr Władysław Kulesza i Rady Ministrów — prof. Stanisław
+    Gebethner, prof. Andrzej Gwiżdż.
+  </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wznawiam obrady Komisji Konstytucyjnej Zgromadzenia Narodowego. Wczoraj po
@@ -53,11 +61,7 @@
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Dwa pierwsze artykuły dotyczą generalnej charakterystyki państwa. Może
-    warto byłoby rozważyć teraz to, co
-  </p>
-
-  <p>
-    27 jest zawarte w art. 4. Następnie można umieścić art. 3 z przedłożonego
+    warto byłoby rozważyć teraz to, co jest zawarte w art. 4. Następnie można umieścić art. 3 z przedłożonego
     projektu, który dotyczy celów państwa. Wpierw powinna być jednak
     charakterystyka generalna państwa, potem jego cele 1 następnie kwestie
     dotyczące struktury władzy.
@@ -110,10 +114,7 @@
     rozwiązania dotyczące samorządu regionalnego potwierdza, że poważnie
     dyskutowano nad wprowadzeniem autonomicznych samorządów regionalnych, które
     miałyby prawo stanowienia ustaw, prawo do własnego pieniądza i polityki
-    zagranicznej. Pojawiły
-  </p>
-  <p>
-    28 oma mama m —— a się takie propozycje. Dlatego uważam, że ta sprawa jest
+    zagranicznej. Pojawiły się takie propozycje. Dlatego uważam, że ta sprawa jest
     ważna i powinna być uwzględniona w art. 3.
   </p>
   <p class="rep-statement">
@@ -311,8 +312,8 @@
     władztwa, czy obowiązków państwa?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Zaproponowaliśmy wewnętrzny porządek tego rozdziału.
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Zaproponowaliśmy wewnętrzny porządek tego rozdziału.
     Wczoraj nastąpiło pewne przesunięcie, ale uważam, że kolejności trzeba
     pilnować, bo z niej wynika spójność całego rozdziału. Proszę popatrzeć na
     nasz materiał, w którym proponujemy, żeby pierwszą grupę w rozdziale I
@@ -321,10 +322,7 @@
     art. 4 1 art. 5 według projektu podkomisji. Następną grupę powinny stanowić
     przepisy określające społeczno-polityczne podstawy władzy publicznej w
     państwie. Chodzi o zasadę zwierzchnictwa narodu. Z tym wiąże się kwestia
-    instytucjonali-
-  </p>
-  <p>
-    30 zacji partii politycznych, potrzeba określenia ich roli w państwie oraz
+    instytucjonalizacji partii politycznych, potrzeba określenia ich roli w państwie oraz
     zasada wolności tworzenia partii politycznych. W trzeciej grupie powinny być
     przepisy określające cele 1 zadania Rzeczypospolitej. Może najpierw Komisja
     przesądzi artykuły dotyczące zwierzchnictwa narodu, wolności tworzenia
@@ -338,8 +336,8 @@
     władztwa. Czy może on dotyczyć obowiązków państwa?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Powinien dotyczyć tylko władztwa.
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Powinien dotyczyć tylko władztwa.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -363,8 +361,8 @@
     Gdzie znalazłby się dotychczasowy art. 3, mówiący o obowiązkach państwa?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Najpierw trzeba określić, do kogo władza należy, a
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Najpierw trzeba określić, do kogo władza należy, a
     potem dopiero, jakie ma ona realizować cele.
   </p>
   <p class="rep-statement">
@@ -374,7 +372,7 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Odnoszę wrażenie, że logika zaproponowana przez prof. K. Działochę jest
+    Odnoszę wrażenie, że logika zaproponowana przez prof. K. Działochę jest
     następująca. Wpierw jest władztwo, które należy do narodu, następnie partie
     polityczne, które są niezbędnym pośrednikiem między narodem a realizacją
     władztwa. Z kolei zamieszczone będą cele państwa, a potem organizacja
@@ -465,7 +463,7 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Byłby artykułem 5.
+    Byłby artykułem 5.
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
@@ -486,7 +484,7 @@
     według propozycji prof. W. Osiatyńskiego przepis o władztwie ma
     pierwszeństwo. Kolejność artykułów byłaby następująca: władza, partie
     polityczne i cele państwa. Proponuję przejść do art. 3 zawartego w projekcie
-    podkomisji. Mamy następujący dylemat: czy używap>31 my sformułowania
+    podkomisji. Mamy następujący dylemat: czy używamy sformułowania
     „strzeże dziedzictwa kultury i języka Narodu” czy też „kultury narodowej i
     języka”. Jest to pierwszy dylemat do rozstrzygnięcia. Drugi wynika z wniosku
     m.in. senatora J. Madeja, żeby uwzględnić ochronę środowiska poprzez
@@ -537,7 +535,6 @@
     przedstawione przez prof. W. Osiatyńskiego jest dobre 1 wnoszę propozycję z
     tym zgodną.
   </p>
-  <p>32 pn</p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Traktu jemy to jako kolejny wniosek. Czy nie byłby on wyczerpaniem
@@ -739,10 +736,7 @@
     Leszek Wiśniewski: Mam nadzieję, że ocaleje zasada bezpośredniego
     stosowania przepisów konstytucji. Jest ona niemal we wszystkich projektach
     ustawy zasadniczej. Skarga konstytucyjna nie będzie dawała podstawy do
-    roszczeń je-
-  </p>
-  <p>
-    34 dnostki wynikających z klauzul generalnych, o których teraz mówimy.
+    roszczeń jednostki wynikających z klauzul generalnych, o których teraz mówimy.
     Skarga konstytucyjna będzie przysługiwać tylko w przypadku naruszenia
     podstawowych praw jednostki gwarantowanych konstytucją. Skarga zorientowana
     jest na ochronę podstawowych praw zawarowanych w konstytucji, po wyczerpaniu
@@ -935,10 +929,7 @@
     „Ust. 1. Władza zwierzchnia w Rzeczypospolitej należy do narodu. Ust. 2.
     Naród sprawuje ją przez swoich przedstawicieli wybieranych do Sejmu i
     Senatu, powołanego w powszechnym głosowaniu Prezydenta Rzeczypospolitej,j
-    odpowiedzialny przed Sejmem Rząd oraz niezawisłe sądy.
-  </p>
-  <p>
-    36 nnn > O ZN Ust. 3. Sprawowanie władzy następuje także poprzez wyrażenie
+    odpowiedzialny przed Sejmem Rząd oraz niezawisłe sądy. Ust. 3. Sprawowanie władzy następuje także poprzez wyrażenie
     woli w referendum oraz obywatelską inicjatywę ustawodawczą”. Jest to władza
     zwierzchnia, która może być powoływana przez naród. Rząd z racji charakteru
     i funkcji jest władzą zwierzchnią odpowiedzialną przed Sejmem. Nie sposób
@@ -1031,8 +1022,8 @@
     z interpretacji systemowej, bez wyliczania organów?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Dyskusja dotyczy zasadniczego problemu. Chciałbym
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:<strong>
+    Dyskusja dotyczy zasadniczego problemu. Chciałbym
     uświadomić Komisji możliwe rozstrzygnięcia w tej kwestii. Czy chodzi o
     pojęcie przedstawicielstwa polityczno-prawnego, czy pojęcie
     przedstawicielskich organów władzy narodu? Według jednych poglądów organami
@@ -1306,10 +1297,7 @@
     właśnie kluczową zasadą ustroju. Mówimy, że władza należy do narodu.
     Uzupełnienie zasady zwierzchnictwa narodu powinno nastąpić w późniejszych
     fragmentach konstytucji. Zgadzam się z propozycją podkomisji i z tym, co
-    proponuje senator H. Rot. Czy pojęcie
-  </p>
-  <p>
-    40 narodu nie wymaga dodatkowego zdefiniowania czy dookreślenia jako ogół
+    proponuje senator H. Rot. Czy pojęcie narodu nie wymaga dodatkowego zdefiniowania czy dookreślenia jako ogół
     obywateli? Chodzi tu o zasadę, która stanowi podstawę wielu szczegółowych
     przepisów. Nie widziałbym konfliktu między późniejszymi dookreśleniami w
     sprawie Sejmu 1 Senatu a generalną zasadą zawartą w art. 6.
@@ -1333,8 +1321,8 @@
     konstytucyjną 1 wymagałoby zmiany?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: W naszych uwagach preferowaliśmy art. 10 w wariancie
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    W naszych uwagach preferowaliśmy art. 10 w wariancie
     I, a nie w wariancie II, któremu zarzucaliśmy zbyt doktrynalne ujęcie i
     posługiwanie się terminami prawniczo nie usprawiedliwionymi. W tym wariancie
     wymienia się, oprócz partii politycznych, jeszcze nie zdefiniowane i nie
@@ -1446,10 +1434,7 @@
     całkowicie wyczerpuje treść art. 10. Gdyby zapadła decyzja, że artykuł ten
     należy zachować w tym miejscu, to uważam, że wystarczy pierwsze zdanie:
     „Rzeczpospolita Polska gwarantuje wolność tworzenia i działania partii
-    politycznych”.
-  </p>
-  <p>
-    41 Działanie obejmuje także udział w wyrażaniu opinii, udział w wyborach
+    politycznych”. Działanie obejmuje także udział w wyrażaniu opinii, udział w wyborach
     itd. Ust. 2 nadaje się do ustawy o partiach politycznych.
   </p>
   <p class="rep-statement">
@@ -1495,10 +1480,7 @@
     Inne podmioty nie mogłyby występować aktywnie np. w procedurze wyborczej, bo
     korzystanie z pośrednictwa struktur partyjnych byłoby obligatoryjne. Drugi
     problem, który pojawił się w dyskusji, dotyczy tego, czy ograniczamy
-    zagadnienie do jawności działania partii politycznych, czy także do legal-
-  </p>
-  <p>
-    42 ności ich działania. Pojawiają się obecnie tego typu problemy. Czy partie
+    zagadnienie do jawności działania partii politycznych, czy także do legalności ich działania. Pojawiają się obecnie tego typu problemy. Czy partie
     nie uwidocznione w rejestrze mogą wystawiać swoich kandydatów lub
     partycypować w koalicjach wyborczych? Państwowa Komisja Wyborcza odpowiadała
     na ten problem negatywnie. Trzeba jednoznacznie o tym przesądzić, ale w
@@ -1540,8 +1522,8 @@
     metodami demokratycznymi na działalność władzy publicznej .
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Grozi nam przesadne rozczłonkowanie materii o
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Grozi nam przesadne rozczłonkowanie materii o
     partiach politycznych w różnych miejscach konstytucji. Państwo proponują
     uwzględnić funkcje partii politycznych. Postulują państwo, żeby wolność
     tworzenia partii była zagwarantowana w rozdziale o prawach 1 wolnościach
@@ -1874,10 +1856,7 @@
     osoba wstrzymała się od głosu. Przyjęliśmy, że ten artykuł powinien znaleźć
     się w konstytucji. Przechodzimy do kolejnego głosowania. Kto z członków
     Komisji Konstytucyjnej jest za ujęciem tego przepisu w art. 3 projektu
-    konstytucji?
-  </p>
-  <p>
-    46 Za umieszczeniem przepisu w art. 3 głosowało 21 osób, przeciw — 14 1 nikt
+    konstytucji? Za umieszczeniem przepisu w art. 3 głosowało 21 osób, przeciw — 14 1 nikt
     nie wstrzymał się od głosu. Przyjęliśmy następujące brzmienie art. 3:
     „„Rzeczpospolita Polska jest Państwem jednolitym 1 niepodzielnym”.
     Przechodzimy do kolejnego głosowania. Eksperci proponują, aby w art. 4
@@ -1894,10 +1873,7 @@
     wniosek, kto jest za tym, aby — podzielając opinię części Komisji oraz
     ekspertów — artykuł dotyczący władzy zwierzchniej poprzedzał artykuł o
     celach państwa? Przystępujemy do głosowania. Kto jest za tym, aby artykuł
-    dotyczący władztwa poprzedzał artykuł o celach państwa?
-  </p>
-  <p>
-    20 posłów 1 senatorów głosowało za tym, żeby artykuł określający zasady
+    dotyczący władztwa poprzedzał artykuł o celach państwa? 20 posłów i senatorów głosowało za tym, żeby artykuł określający zasady
     władzy zwierzchniej poprzedzał artykuł o celach państwa, 15 osób głosowało
     przeciw 1 2 osoby wstrzymały się od głosu. Z tego wynika, że kolejny artykuł
     będzie bazował na art. 6 projektu podkomisji. Przechodzimy do propozycji
@@ -2213,15 +2189,14 @@
     propozycja nie złamie konstrukcji, którą mamy przegłosowaną?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Uważamy, że kolejność przepisów w rozdziale I powinna
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Uważamy, że kolejność przepisów w rozdziale I powinna
     być taka jak w naszym pisemnym projekcie. Przepis wyrażający zasadę
     legalności lub — jak inni nazywają — praworządności powinien znajdować Się
     po przepisie o zasadzie podziału władzy. Powinien on rozstrzygać podstawowe
     kwestie dotyczące organizacji funkcjonowania aparatu państwowe80, bo zasada
     legalności odnosi się do organów państwa.
   </p>
-  <p>49 are m ne</p>
 
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2265,10 +2240,7 @@
     dnia 8 lutego. Pod nr. 8 jest wniosek, który jest ponowieniem obecnych
     przepisów konstytucyjnych: „Art. 10. Ust. 1. Partie polityczne zrzeszają na
     zasadach dobrowolności 1 równości obywateli w celu wpływania metodami
-    demokratycznymi na kształto-
-  </p>
-  <p>
-    50 wanie polityki Państwa. Ust. 2. O sprzeczności z Konstytucją celów lub
+    demokratycznymi na kształtowanie polityki Państwa. Ust. 2. O sprzeczności z Konstytucją celów lub
     działalności partii politycznej orzeka Trybunał Konstytucyjny”. Kto jest za
     przyjęciem tego wniosku? Za wnioskiem głosowało 13 osób, przeciw — 20 1 6
     osób wstrzymało się od głosu. Poprawka poseł K. Łybackiej figuruje pod nr.
@@ -2477,7 +2449,6 @@
     Proszę wyjaśnić, o jaki język chodzi? Przepraszam za takie rudymentarne
     pytanie.
   </p>
-  <p>52 ATA ————N—N — nnaz</p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Ono jest rzeczywiście rudymentarne. Problem ten był wyjaśniany w czasie
@@ -2628,10 +2599,7 @@
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Proponuję zapisanie tej zasady w wersji, która znajduje się w projekcie
     senackim. Jest to następująca propozycja: „Wszystkie organy państwa są
-    podporządkowane Konstytucji i wypełniają swoje uprawnienia
-  </p>
-  <p>
-    53 w granicach w niej przewidzianych”. Myślę, że nie muszę uzasadniać
+    podporządkowane Konstytucji i wypełniają swoje uprawnienia w granicach w niej przewidzianych”. Myślę, że nie muszę uzasadniać
     potrzeby takiego sformułowania, bowiem debaty na ten temat już się odbyły.
     Proszę też pamiętać, że taką poprawkę zgłosiłam już wczoraj.
   </p>
@@ -2682,10 +2650,7 @@
     dotychczas formułowana zasada praworządnoŚci, która nakładała obowiązek
     przestrzegania prawa przez organy państwowe. Po tej dyskusji mógłbym
     zrezygnować z zasady praworządności sformułowanej w ust. 1, ponieważ zasada
-    legalizmu uzyskuje pełny wymiar przy rozpoczęciu przepisów konstytu-
-  </p>
-  <p>
-    54 cyjnych od zasady państwa prawnego. Składam gotowość wycofania wniosku i
+    legalizmu uzyskuje pełny wymiar przy rozpoczęciu przepisów konstytucyjnych od zasady państwa prawnego. Składam gotowość wycofania wniosku i
     proszę o skreślenie mojej poprawki. Opowiadam się za pozostawieniem art. J w
     brzmieniu przedstawionym przez podkomisję.
   </p>
@@ -2727,8 +2692,8 @@
     też wniosek posła R. Grodzickiego.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Parę słów powiem na temat relacji między zasadą
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Parę słów powiem na temat relacji między zasadą
     państwa prawnego a zasadą legalności, którą wyraża art. 7 w projekcie
     podkomisji. Zasada państwa prawnego jest tak pojemna, że mieści w sobie
     wiele kwestii. Według dzisiejszych poglądów i judykatury Trybunału
@@ -2896,8 +2861,8 @@
     przesunięta do rozdziału III.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Odnośnie do celowości utrzymania artykułu
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Odnośnie do celowości utrzymania artykułu
     zawierającego jak gdyby definicję prawa w rozumieniu prawa powszechnie
     obowiązującego, czy aktu prawa powszechnie obowiązującego, nie kruszyłbym
     kopii. Chciałbym tylko przypomnieć względy, jakie przemawiały za tym, by
@@ -3201,8 +3166,8 @@
     Osiatyńskiego.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Nie można mówić o unieważnieniu ustaw czy innych
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Nie można mówić o unieważnieniu ustaw czy innych
     aktów sprzecznych z konstytucją w następstwie orzeczenia Trybunału
     Konstytucyjnego. Jest to bardzo złożony problem. Większość aktów jest tylko
     uchylana, a nie unieważniana od początku ich obowiązywania. Nie można tej
@@ -3216,10 +3181,7 @@
     prawa. Druga propozycja dotyczy wpisania zasady konstytucjonalizmu, która
     zaproponowana jest w różnych wariantach. Mamy wnioski senator A. Grześkowiak
     i senatora P. Andrzejewskiego oraz propozycję podkomisji zawartą w art. 69.
-    Zgłoszono jeszcze inne wnioski, które wpłynęły do
-  </p>
-  <p>
-    59 RAA — —— m _— a m O am nn mn sekretariatu Komisji i zostaną przedstawione
+    Zgłoszono jeszcze inne wnioski, które wpłynęły do sekretariatu Komisji i zostaną przedstawione
     do głosowania.
   </p>
   <p class="rep-statement">
@@ -3279,7 +3241,6 @@
     wniosek poseł K. Łybackiej. Jest to bowiem kompleks podstawowych problemów.
     Rozpoczynanie dyskusji w tych warunkach doprowadzi do jej powtórzenia jutro.
   </p>
-  <p>60 ma — = M a a — 1 nw mam m —.</p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie ma łatwych problemów, chodzi o czas. Jeżeli czasu nie wykorzystamy

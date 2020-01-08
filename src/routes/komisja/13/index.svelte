@@ -44,7 +44,7 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)</h3>
-  <h5>
+  <!-- <h5>
     <a
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
@@ -52,7 +52,7 @@
       Dz.U. 1997 nr 78 poz. 483
     </a>
     nie wiem co tu
-  </h5>
+  </h5> -->
   <p>
     W dniach 7, 8 i 9 lutego 1995 r., Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
