@@ -468,7 +468,7 @@
     senator S. Pastuszka — zgłosiło wniosek o skreślenie obecnego art. 1.
     Poddaję pod głosowanie wniosek o skreślenie art. 1 projektu. Stwierdzam, że
     Komisja w głosowaniu, większością 25 głosów popierających, przy 2
-    przeciwnych 11 wstrzymującym się, przyjęła wniosek. Tak więc art. I w
+    przeciwnych 11 wstrzymującym się, przyjęła wniosek. Tak więc art. 1 w
     dotychczasowym brzmieniu zostaje skreślony. W tej sytuacji będziemy
     rozpatrywać propozycje nowego brzmienia art. 1. Przypomnę propozycje złożone
     dotychczas. Posłowie: J. Zdrada i L. Pastusiak: „Rzeczpospolita Polska jest
@@ -483,7 +483,7 @@
     państwem prawa urzeczywistniającym zasady sprawiedliwości społecznej ”. Art.
     i według posła T. Mazowieckiego to: „Państwo Polskie ma ustrój
     republikański”. Państwo Polskie nosi nazwę — Rzeczpospolita Polska. Senator
-    S. Pastuszka proponuje, aby art. I miał brzmienie: „Rzeczpospolita Polska —
+    S. Pastuszka proponuje, aby art. 1 miał brzmienie: „Rzeczpospolita Polska —
     wspólne dobro wszystkich obywateli — jest republikańskim, demokratycznym
     państwem prawa, urzeczywistniającym zasady sprawiedliwości społecznej ”.
     Otrzymałem również propozycję posłów KPN przewidującą, że art. 1 będzie się
@@ -518,7 +518,7 @@
 
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    W związku z decyzją Komisji o wykreśleniu art. I w dotychczasowym brzmieniu,
+    W związku z decyzją Komisji o wykreśleniu art. 1 w dotychczasowym brzmieniu,
     zgłaszam jako poprawkę następujące brzmienie art. 1: „Państwo Polskie jest
     Rzecząpospolitą ".
   </p>
@@ -620,7 +620,7 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Debata dotyczy cech Rzeczypospolitej. Mimo że moja propozycja art. I upadła,
+    Debata dotyczy cech Rzeczypospolitej. Mimo że moja propozycja art. 1 upadła,
     to jednak chcę przedłożyć poprawkę do złożonych propozycji. Proponuję, aby
     artykuł obejmujący cechy Rzeczypospolitej miał następującą treść: „Ust. 1.
     Rzeczpospolita Polska jako wspólne dobro wszystkich jej obywateli, jest
@@ -668,7 +668,7 @@
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
     Mam propozycję dotyczącą sekwencji głosowań, która powinna służyć zachowaniu
-    spójności przyjmowanych przepisów. Uważam, że jako art. I powinna być
+    spójności przyjmowanych przepisów. Uważam, że jako art. 1 powinna być
     poddana pod głosowanie propozycja zgłoszona przez posła T. Mazowieckiego.
     Artykułem 2 byłby dotychczasowy art. 2 z projektu podkomisji. Artykułem 3
     byłaby treść obecnego art. 5. Taka sekwencja byłaby najwłaściwszym
@@ -1302,7 +1302,7 @@
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
     Na tle złożonych wniosków pierwszy dylemat, jaki się rysuje, to konieczność
-    rozstrzygnięcia kolejności, a więc czy art. I ma mówić o tym, że
+    rozstrzygnięcia kolejności, a więc czy art. 1 ma mówić o tym, że
     Rzeczpospolita Polska jest wspólnym dobrem wszystkich obywateli, czy też że
     jest państwem niepodzielnym, czy też, że jest demokratycznym państwem
     prawnym kierującym się zasadami sprawiedliwości społecznej.
@@ -1335,20 +1335,20 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie wykluczam dyskusji, lecz jednocześnie pewne kwestie powinny być już
     rozstrzygane, zwłaszcza że wyraźnie rysują się trzy opcje art. 1. Pierwsza z
-    nich opowiada się za tym, aby art. I mówił o wspólnym dobru. Opcja druga to
+    nich opowiada się za tym, aby art. 1 mówił o wspólnym dobru. Opcja druga to
     państwo prawne urzeczywistniające zasady sprawiedliwości społecznej. Opcja
     trzecia akcentuje jednolitość i niepodzielność. Uważam więc, że w pierwszym
     głosowaniu powinniśmy ustalić, która opcja ma największe poparcie. Następnie
     przystąpiibyśmy do sformułowania konkretnego brzmienia przepisu art. 1.
     Proponuję głosowanie, w którym każdy z członków Komisji będzie mógł
     opowiedzieć się za jedną z trzech możliwości. Poddaję pod głosowanie
-    wniosek, aby art. I konstytucji stanowił o tym, że Rzeczpospolita Polska
+    wniosek, aby art. 1 konstytucji stanowił o tym, że Rzeczpospolita Polska
     jest wspólnym dobrem wszystkich obywateli. Stwierdzam, że wniosek w
     głosowaniu uzyskał poparcie 8 członków Komisji. Poddaję pod głosowanie
     wniosek, aby art. 1 konstytucji stanowił o tym, że Rzeczpospolita Polska
     jest demokratycznym państwem prawnym urzeczywistniającym zasadę
     sprawiedliwości społecznej. Stwierdzam, że wniosek w głosowaniu uzyskał
-    poparcie 20 członków Komisji. Poddaję pod głosowanie wniosek, aby art. I
+    poparcie 20 członków Komisji. Poddaję pod głosowanie wniosek, aby art. 1
     konstytucji stanowił o tym, że Rzeczpospolita Polska jest państwem
     jednolitym i niepodzielnym. Stwierdzam, że wniosek w głosowaniu nie uzyskał
     poparcia żadnego członka Komisji. Tak więc Komisja zdecydowała, że art. 1
@@ -1702,7 +1702,7 @@
     znajduje się w art. 1 utrzymanych w mocy przepisów konstytucji z 1952 r.
     Została przyjęta w 1989 r. i stanowi podstawowe dokonanie polskich przemian.
     Tymczasem teraz kwestionuje się brzmienie tej formuły i jej obecność jako
-    art. I nowej Konstytucji RP. Doprawdy trudno ustalić, kto czego broni i o co
+    art. 1 nowej Konstytucji RP. Doprawdy trudno ustalić, kto czego broni i o co
     komu chodzi, chyba że mówienie jest po to, aby stosować abstrakcję
     parlamentamą w tym celu, aby nie doprowadzić do żadnych konkluzji.
   </p>
