@@ -23,14 +23,14 @@
   }
   .l img {
     margin: 0 1em 0 0;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.1);
   }
   .r img {
     margin: 0 0 0 1em;
-    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
   }
   .l p {
-     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
   }
   .r p {
      box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.1);
