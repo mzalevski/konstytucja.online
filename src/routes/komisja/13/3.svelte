@@ -67,7 +67,7 @@
     Dokonana już po posiedzeniu Komisji analiza treści przyjętych artykułów
     zrodziła pewne wątpliwości natury terminologicznej w odniesieniu do artykułu
     dotyczącego partii politycznych i zgłoszonego przez poseł K. Łybacką. Jego
-    brzmienie jest następujące: „Kształtowanie 1 wyrażanie woli obywateli w
+    brzmienie jest następujące: „Kształtowanie i wyrażanie woli obywateli w
     zakresie realizacji władzy zwierzchniej Narodu odbywa się za pośrednictwem
     jawnie finansowanych partii politycznych, działających w ramach porządku
     konstytucyjnego Rzeczypospolitej Polskiej”. W związku z takim brzmieniem
@@ -80,7 +80,7 @@
     że nie mogą tego czynić. Wydaje się, że przyczyną jest fakt, iż w omawianym
     artykule połączono kilka myśli. Zatarły się relacje i zagubiony został sens
     poszczególnych części składowych zdania tworzącego przepis. Należy przyjąć,
-    że konstytucja powinna być budowana ze zdań pojedynczych, jasnych 1 nie
+    że konstytucja powinna być budowana ze zdań pojedynczych, jasnych i nie
     budzących wątpliwości. Nadmiar czy też wielość myśli ujmowanych w jednym
     zdaniu mogą budzić wątpliwości.
   </p>
@@ -142,7 +142,7 @@
     charakterze poprawek przepisy całego rozdziału pierwszego z projektu
     senackiego, w którym znajduje się artykuł dotyczący partii politycznych.
     Uważam również, że dyskutowanego artykułu nie uda się naprawić przepisami
-    zawartymi w rozdziale o wolnościach 1 prawach obywatelskich. Zasady mają
+    zawartymi w rozdziale o wolnościach i prawach obywatelskich. Zasady mają
     bowiem swoje znaczenie w konstytucji. W konkluzji chcę przypomnieć brzmienie
     arprojektu senackiego, który dotyczy partii politycznych: „Partie
     polityczne, ruchy obywatelskie i inne ugrupowania obywateli działające w
@@ -156,13 +156,13 @@
     głosowania. Poparło je 4 członków Komisji. Przeciwnego zdania było 33
     członków Komisji, przy 3 wstrzymujących się. Głosowaliśmy również nad innymi
     wariantami, wśród których był również wariant przygotowany przez podkomisję
-    podstaw ustroju politycznego 1 społeczno-gospodarczego.
+    podstaw ustroju politycznego i społeczno-gospodarczego.
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
     : W ramach troski o szacunek do samego siebie chcę przeprosić poseł K.
     Łybacką i pozostałych członków Komisji, gdyż formułując dyskutowany artykuł
-    popełniłem błąd. Artykuł ten jest sprzeczny z moją intencją 1 logiką,
+    popełniłem błąd. Artykuł ten jest sprzeczny z moją intencją i logiką,
     Chodziło mi bowiem o to, aby stworzyć jak najszersze warunki do tworzenia i
     funkcjonowania tzw. społeczeństwa obywatelskiego, a nie dla monopolu parti.
     Przychylam się również do koncepcji, aby do kwestii tej powrócić po
@@ -217,7 +217,7 @@
     wstrzymujących się. Poddaję pod głosowanie wniosek o przyjęcie art. 7 w
     następującym brzmieniu, zaproponowanym przez senatora P. Andrzejewskiego:
     „Konstytucja jest najwyższym źródłem stanowionego prawa w Rzeczypospolitej
-    Polskiej. Władza w Państwie jest sprawowana wyłącznie na zasadach 1 w
+    Polskiej. Władza w Państwie jest sprawowana wyłącznie na zasadach i w
     granicach prawa”. Stwierdzam, że w głosowaniu wniosek uzyskał 3 głosy
     popierające, 23 głosy przeciwne, przy 6 wstrzymujących się. Przechodzimy do
     głosowania nad poprawką 4, której autorami są przedstawiciele Prezydenta RP:
@@ -249,7 +249,7 @@
     następujące brzmienie: „Ust. 1. Przestrzeganie Konstytucji i praw
     Rzeczypospolitej Polskiej jest podstawowym obowiązkiem każdego organu
     Państwa i samorządu terytorialnego lub innej władzy publicznej. Ust. 2.
-    Wszystkie organy władzy publicznej działają na podstawie 1 w granicach
+    Wszystkie organy władzy publicznej działają na podstawie i w granicach
     przepisów prawa. Ust. 3. Akty prawne organów władzy publicznej, z których
     wynikają prawa I obowiązki obywateli, mają moc obowiązującą tylko wtedy,
     kiedy wydane zostały z upoważnienia ustawy i z powołaniem się na nią”. Poddaję pod głosowanie poprawkę nr 5 przedłożoną przez posła R.
@@ -290,7 +290,7 @@
     wolności obywatelskie stoją ponad ustawą. Ustawodawca nie może „mieszać” w prawach i wolnościach.</p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S:</strong>
-    : Uważam, że prof. W. Osiatyński ma rację. Prawa 1 wolności obywatelskie
+    : Uważam, że prof. W. Osiatyński ma rację. Prawa i wolności obywatelskie
     mogą być określone w konstytucji lub ustawie. Dobrze byłoby, aby była to
     ustawa organiczna. Uważam ponadto, że ust. 3 działa przesądzająco dla
     rozdziału o źródłach prawa. Nie jest to właściwe rozwiązanie.
@@ -298,7 +298,7 @@
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof:</strong>
     Paweł Sarnecki: W ust. 3 poprawki posła R. Grodzickiego chodzi o akty
-    stosowania prawa. Można zgodzić się z tezą prof. W. Osiatyńskiego 1 senator
+    stosowania prawa. Można zgodzić się z tezą prof. W. Osiatyńskiego i senator
     A. Grześkowiak, iż rzeczywiście prawa, wolności i obowiązki są regulowane w
     konstytucji. Natomiast konkretne orzekanie wobec obywatela nie może być
     stosowane na podstawie tak ogólnych przepisów konstytucji. Można powoływać
@@ -309,9 +309,9 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Muszę jednak przypomnieć, że pracujemy nad przepisami rozdziału o zasadach
-    ustroju. Uważam więc, że konieczna jest pewna generalizacja 1 ogólność
+    ustroju. Uważam więc, że konieczna jest pewna generalizacja i ogólność
     sformułtego rozdziału. W przypadku rozdziałów dotyczących poszczególnych
-    organów 1 instytucji prawnych konieczne będą przepisy bardziej szczegółowe.
+    organów i instytucji prawnych konieczne będą przepisy bardziej szczegółowe.
     Proszę również pamiętać, że norma, która uzyskała największe poparcie,
     stanowi, że wszystkie organy władzy publicznej działają na podstawie i w
     granicach prawa. Jest to właśnie sformułowanie o stopniu ogólności właściwym
@@ -373,10 +373,10 @@
     dokonanie wyboru między propozycją podkomisji — użycie przycisku „za”, a
     propozycją posła R. Grodzickiego —- użycie przycisku „przeciw ”, wraz z
     możliwością wstrzymania się. Stwierdzam, że Komisja w głosowaniu,
-    większością 30 głosów popierających, przy 5 przeciwnych i 1 wstrzymującym
+    większością 30 głosów popierających, przy 5 przeciwnych i i wstrzymującym
     się, przyjęła brzmienie przedłożone przez podkomisję. Tak więc podkomisja
     zdecydowała, że art. 7 uzyskał brzmienie: „Wszystkie organy władzy
-    publicznej działają na podstawie 1 w granicach prawa”. Przechodzimy do art.
+    publicznej działają na podstawie i w granicach prawa”. Przechodzimy do art.
     8, który w wersji przedłożonej przez podkomisję brzmi: „Prawo
     Rzeczypospolitej Polskiej tworzą: Konstytucja, powszechnie uznane zasady
     prawa międzynarodowego, ratyfikowane umowy międzynarodowe, us(rozporządzenia
@@ -424,7 +424,7 @@
 
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
-    Wydaje mi się, że wnioski: posła R. Grodzickiego 1 senatora H. Rota są
+    Wydaje mi się, że wnioski: posła R. Grodzickiego i senatora H. Rota są
     tożsame.
   </p>
   <p class="rep-statement">
@@ -445,7 +445,7 @@
     przyjęcie propozycji senatora H. Rota, aby zawiesić decyzję o treŚci i
     usytuowaniu art. 8 do zakończenia prac nad rozdziałem o źródłach prawa.
     Stwierdzam, że Komisja w głosowaniu, większością 18 głosów przeciwnych, przy
-    14 popierających 1 3 wstrzymujących się, odrzuciła wniosek. Poddaję pod
+    14 popierających i 3 wstrzymujących się, odrzuciła wniosek. Poddaję pod
     głosowanie wniosek posła R. Grodzickiego, aby skreślić treść art. 8 w
     brzmieniu podkomisji w rozdziale I i przenieść go do rozdziału III.
     Stwierdzam, że Komisja w głosowaniu, większością 24 głosów popierających,
@@ -560,7 +560,7 @@
     uchwali przepisów lub ochrona nie będzie wystarczająca, wówczas obywatel
     może bezpośrednio powołać się na konstytucję. Ponadto chcę dodać, że trzy
     wnioski są niemal identyczne lub zbieżne. Nieco odmienny jest tylko wniosek
-    senator A. Grześkowiak 1 posła W. Majewskiego.
+    senator A. Grześkowiak i posła W. Majewskiego.
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
@@ -626,7 +626,7 @@
     zamach na prawa już posiadane. Organy władzy obowiązuje zasada legalizmu.
     Tak więc w sytuacjach, w których ustawa precyzuje przepisy konstytucyjne,
     nie jest możliwe bezpośrednie stosowanie konstytucji. Inaczej jest w
-    przypadku praw 1 wolności obywateli. Nie ma wówczas zastosowania zasada
+    przypadku praw i wolności obywateli. Nie ma wówczas zastosowania zasada
     legalizmu, lecz zasada, że wszystko jest dozwolone z wyjątkiem tego, co jest
     zabronione. W związku z tym formuła projektu senackiego, którą przypomniał
     prof. S$. Gebethner, daje pewne gwarancje, tego rodzaju, że ta sama
@@ -655,7 +655,7 @@
     konstytucję zmienia zasadniczo charakter konstytucji i sprzyja przepisom
     tego typu jak przepis o urzeczywistnianiu sprawiedliwości społecznej.
     Przepis konstytucji odsyłający do ustawy nie zmienia zasady generalnej.
-    Apeluję więc do senatora P. Andrzejewskiego 1 senator A. Grześkowiak o
+    Apeluję więc do senatora P. Andrzejewskiego i senator A. Grześkowiak o
     rozważenie swoich wniosków. Uważam bowiem, że granica przebiega między tymi,
     którzy również w odniesieniu do praw socjalnych chcą realnego dochodzenia
     roszczeń, a tymi, którzy opowiadają się za pewną kalkulacją, w której
@@ -748,7 +748,7 @@
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Proponuję, aby poprzez użycie przycisku „za” móc się opowiedzieć za
     wnioskiem nr 10, a poprzez użycie przycisku „przeciw” móc się opowiedzieć za
-    wnioskiem nr 12 ust. 1 1 ust. 2.
+    wnioskiem nr 12 ust. 1 i ust. 2.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -794,14 +794,14 @@
     „Ust. 1. Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej. Ust.
     2. Przepisy Konstytucji stosuje się bezpośrednio, chyba że Konstytucja
     stanowi inaczej”. Stwierdzam, że w głosowaniu wniosek uzyskał 25 głosów
-    popierających, 7 głosów przeciwnych, przy 1 wstrzymującym się. Informuję, że
+    popierających, 7 głosów przeciwnych, przy i wstrzymującym się. Informuję, że
     w wyniku przeprowadzonych głosowań dwa wnioski otrzymały więcej głosów
     popierających niż przeciwnych. Są to wnioski: przedstawicieli Prezydenta RP
     i posła W. Cimoszewicza. Poddaję pod głosowanie wniosek o dokonanie wyboru
     między propozycją przedstawicieli Prezydenta RP — użycie przycisku „za”, a
     propozycją posła W. Cimoszewicza — użycie przycisku „przeciw ”, wraz z
     możliwością wstrzymania się. Stwierdzam, że Komisja w głosowaniu większością
-    23 głosów popierających, przy 9 głosach przeciwnych i 1 wstrzymującym się,
+    23 głosów popierających, przy 9 głosach przeciwnych i i wstrzymującym się,
     przyjęła poprawkę posła W. Cimoszewicza. Tak więc art. 8 uzyskał brzmienie:
     „Ust. 1. Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej. Ust.
     2. Przepisy Konstytucji stosuje się bezpośrednio, chyba że Konstytucja
@@ -855,7 +855,7 @@
      Stanisław Gebethner: Zaproponowaną formułę należy rozumieć przede
     wszystkim jako normy i zasady wynikające z zobowiązań, jakie przyjęła
     Rzeczpospolita Polska ratyfikując umowy lub zawierając umowy nie podlegające
-    ratyfikacji. Chodzi więc o cały zespół zasad 1 norm. Proponowana zasada nie
+    ratyfikacji. Chodzi więc o cały zespół zasad i norm. Proponowana zasada nie
     dotyczy tylko źródeł prawa. Chodzi bowiem o pewną zasadę polityczną
     wyrażającą stosunek Rzeczypospolitej jako państwa do społeczności
     międzynarodowej. Proponowana formuła powinna więc znaleźć się wśród zasad
@@ -897,7 +897,7 @@
     brzmieniu, zaproponowanym przez przedstawiciela Rady Ministrów, prof. $.
     Gebethnera: „Rzeczpospolita Polska przestrzega wiążącego Ją prawa
     międzynarodowego”. Stwierdzam, że Komisja w głosowaniu, większością 28
-    głosów popierających, przy 1 przeciwnym i braku wstrzymujących się, przyjęła
+    głosów popierających, przy i przeciwnym i braku wstrzymujących się, przyjęła
     wniosek. Tak więc art. 9 uzyskał następującą treść: „Rzeczpospolita Polska
     przestrzega wiążącego Ją prawa międzynarodowego . Przechodzimy do artykułu
     dotyczącego zasad podziału władz. Z wczorajszej ożywionej dyskusji narodziły
@@ -931,7 +931,7 @@
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     W rozdziale dotyczącym sądownictwa dla określenia pozycji ustrojowej sądów
-    1 sędziów używa się dwóch określeń: „niezależne sądy” 1 „niezawiśli
+    i sędziów używa się dwóch określeń: „niezależne sądy” 1 „niezawiśli
     sędziowie”. Tradycja polska wskazuje natomiast na używanie pojęcia:
     „niezawisłe sądy”. Problem polega na tym, czy zastosować ujęcie tradycyjne,
     czy też przyjąć ujęcie szersze — „podwójne' — stosowane w rozdziale o
@@ -979,14 +979,14 @@
     Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji,
     zawierającego formułę „„niezależne i niezawisłe”. Stwierdzam, że Komisja w
     głosowaniu, większoŚcią 29 głosów popierających, przy braku głosów
-    przeciwnych i 1 wstrzymującym się, przyjęła wniosek. Druga kwestia
+    przeciwnych i i wstrzymującym się, przyjęła wniosek. Druga kwestia
     wymagająca rozstrzygnięcia w ust. 2 to zagadnienie użycia formuły mówiącej o
-    sądach, czy o sądach 1 trybunałach.
+    sądach, czy o sądach i trybunałach.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
     Opowiadam się za pominięciem formuły: „i trybunały”, zarówno bowiem.
-    Trybunał Stanu, jak i Trybunał Konstytucyjny, to sądy — sądy szczególne 1 co
+    Trybunał Stanu, jak i Trybunał Konstytucyjny, to sądy — sądy szczególne i co
     do tego nie ma wątpliwości, jeżeli chodzi o stanowisko nauki prawa
     konstytucyjnego.
   </p>
@@ -1010,7 +1010,7 @@
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     W porównaniu z poglądami senatora P. Andrzejewskiego mam zupełnie inne
     wnioski. Przyjmując kryterium czysto formalne należy pamiętać, że tytuł
-    rozdziału VII brzmi: „Sądy 1 trybunały”. W dyskutowanym artykule powinno to
+    rozdziału VII brzmi: „Sądy i trybunały”. W dyskutowanym artykule powinno to
     znaleźć odzwierciedlenie. Jestem zwolennikiem tezy, że trybunały to sądy,
     ale jednocześnie nie można zapomnieć o tytule rozdziału VII. Gdyby rozdział
     VII miał tytuł: „Władza sądownicza” i zawierał postanowienia dotyczące sądów
@@ -1038,13 +1038,13 @@
     Wyraża on przekonanie, że wobec sporu zasadę trójpodziału należy wyrazić
     ogólnie. Inni wnioskodawcy podjęli próbę zdefiniowania pozycji prezydenta w
     systemie władz. Takie koncepcje przedstawili: poseł W. Majewski, poseł K.
-    Łybacka 1 senator A. Grześkowiak. Odmiennie kwestię tę ujmuje wniosek
+    Łybacka i senator A. Grześkowiak. Odmiennie kwestię tę ujmuje wniosek
     podkomisji, gdyż pomija instytucję prezydenta. Przechodzimy do głosowań.
     Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji wraz
     z wyrazami: „i trybunały”. Stwierdzam, że Komisja w głosowaniu, większością
-    18 głosów popierających, przy 12 głosach przeciwnych 1 1 wstrzymującym się,
+    18 głosów popierających, przy 12 głosach przeciwnych i 1 wstrzymującym się,
     przyjęła wniosek. Tak więc propozycja podkomisji uzyskała treść: „Ust. 1.
-    Władza państwowa jest sprawowana przez rozdzielone 1 wzajemnie równoważące
+    Władza państwowa jest sprawowana przez rozdzielone i wzajemnie równoważące
     się oraz współdziałające organy ustawodawcze, wykonawcze i sądownicze. Ust.
     2. Organami Rzeczypospolitej Polskiej w zakresie władzy ustawodawczej jest
     Sejm I Senat, w zakresie władzy wykonawczej — Rada Ministrów, w zakresie
@@ -1067,7 +1067,7 @@
   <p class="rep-statement">
     <strong>Poseł "Krystyna Łybacka (SLD):</strong>
     Proszę o uwzględnienie autopoprawki w ust. 2: „przez niezależne i
-    niezawisłe sądy 1 trybunały”.
+    niezawisłe sądy i trybunały”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1087,10 +1087,10 @@
     głosów przeciwnych, przy 5 wstrzymujących się. Poddaję pod głosowanie
     wniosek o przyjęcie propozycji senator A. Grześkowiak, o następującej
     treŚci: „Ust. 1. Władza państwowa jest sprawowana przez rozdzielone 1
-    wzajemnie równoważące się organy ustawodawcze, wykonawcze 1 sądownicze. Ust.
+    wzajemnie równoważące się organy ustawodawcze, wykonawcze i sądownicze. Ust.
     2. Władza ustawodawcza wykonywana jest przez Sejm 1 Senat, władza wykonawcza
     przez Prezydenta i Rząd, na którego czele stoi Premier, władza sądownicza —
-    przez niezależne 1 niezawisłe sądy”. Stwierdzam, że w głosowaniu wniosek
+    przez niezależne i niezawisłe sądy”. Stwierdzam, że w głosowaniu wniosek
     uzyskał 3 głosy popierające, 26 głosów przeciwnych, przy 4 wstrzymujących
     się. Ostatecznego wyboru dokonamy między dwiema propozycjami, które uzyskały
     więcej głosów popierających niż przeciwnych. Są to propozycje: podkomisji
@@ -1135,7 +1135,7 @@
     przycisku „za”, a zmodyfikowaną propozycją posła J. Ciemniewskiego — użycie
     przycisku „przeciw ”, wraz z możliwością wstrzymania się. Stwierdzam, że
     Komisja w głosowaniu, większością 24 głosów popierających, przy 10 głosach
-    przeciwnych 1 braku wstrzymujących się, przyjęła brzmienie zaproponowane
+    przeciwnych i braku wstrzymujących się, przyjęła brzmienie zaproponowane
     przez podkomisję. W związku z tym chcę wyrazić pewną obawę, gdyż w ramach
     zasad ustroju „gubimy” tak ważny naczelny organ państwowy jak Prezydent RP.
   </p>
@@ -1275,7 +1275,7 @@
     silniejszą niż w sytuacji, gdy jest tylko gwarantem ciągłości władzy
     wykonawczej. Nie musi to więc mieć wymowy antyprezydenckiej. Pojawia się
     również problem uzupełnienia projektu o kolejny artykuł, który dotyczyłby
-    prezydenta. Ponieważ upadła poprawka posła W. Majewskiego 1 poseł K.
+    prezydenta. Ponieważ upadła poprawka posła W. Majewskiego i poseł K.
     Łybackiej, a Komisja uzna, że brakuje jakiegoś przepisu po artykule o
     podziale władz, to możliwe jest przyjęcie przepisu dotyczącego prezydenta.
   </p>
@@ -1390,7 +1390,7 @@
     propozycją posła J. Ciemniewskiego zawartą we wniosku nr 18 — użycie
     przycisku „przeciw”, wraz z możliwością wstrzymania się. Stwierdzam, że
     Komisja w głosowaniu, większością 23 głosów popierających, przy 4
-    przeciwnych i 1 wstrzymującym się, przyjęła propozycję posła J.
+    przeciwnych i i wstrzymującym się, przyjęła propozycję posła J.
     Ciemniewskiego. Tak więc art. 10 otrzymał następującą treść: „Ustrój
     Rzeczypospolitej Polskiej opiera się na podziale i równowadze władzy
     ustawodawczej, władzy wykonawczej i władzy sądowniczej”. Powracamy do
@@ -1441,11 +1441,11 @@
     Uważam, że kwestie samorządu zawodowego i innych form samorządu, to
     kwestie bardzo skomplikowane i wymagające odrębnej dyskusji. Są to bowiem
     kwestie wyraźnie różne od kwestii samorządu terytorialnego. Proponuję więc
-    oddzielić dyskusję na temat samorządu terytorialnego 1 na temat innych form
+    oddzielić dyskusję na temat samorządu terytorialnego i na temat innych form
     samorządu. Uważam więc, że propozycja prof. L. Wiśniewskiego powinna być
     dyskutowana na następnym posiedzeniu. Jest to bowiem sprawa o charakterze
     fundamentalnym, zarówno z punktu widzenia organizacji władzy publicznej, jak
-    1 z punktu widzenia statusu obywatela wobec władzy publicznej. Generalnie
+    i z punktu widzenia statusu obywatela wobec władzy publicznej. Generalnie
     rzecz biorąc, popieram myśl wyrażoną w propozycji prof. L. Wiśniewskiego.
     Dyskusji wymaga natomiast na pewno kwestia katalogu przesłanek materialnych
     koniecznych do zaprezentowanych ograniczeń. Proponuję więc, aby ust. 2 był
@@ -1456,7 +1456,7 @@
     Należy jednak pamiętać, że nie dyskutujemy o przepisach dotyczących
     samorządu w ogóle, lecz o przepisach wyrażających ogólną zasadę dotyczącą
     samorządu, która będzie zawarta w rozdziale pierwszym. Uważam więc, że
-    możemy rozdzielić problematykę zawartą w ust. 1 1 problematykę zawartą w
+    możemy rozdzielić problematykę zawartą w ust. 1 i problematykę zawartą w
     ust. 2, lecz dyskusja nad obydwoma kwestiami powinna odbyć się na
     dzisiejszym posiedzeniu. Jeżeli dobrze zrozumiałem posła J. Ciemniewskiego,
     to skłania się on do koncepcji, że kwestia innych —- poza terytorialnym —
@@ -1470,7 +1470,7 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Przyjmuję zgłoszoną uwagę 1 proponuję, abyśmy rozpoczęli od kwestii
+    Przyjmuję zgłoszoną uwagę i proponuję, abyśmy rozpoczęli od kwestii
     ujętych w ust. 1 propozycji podkomisji, a więc od kwestii samorządu
     terytorialnego. Jeżeli chodzi o art. 11 ust. 1, to w wariancie I brzmi on
     następująco: „Rzeczpospolita Polska gwarantuje udział samorządu
@@ -1534,9 +1534,9 @@
     formie samorządu? Dotychczasowy dorobek orzecznictwa Naczelnego Sądu
     Administracyjnego takie znaczenie przypisywał określeniu „podstawowa ”. Stąd
     też ta niewinna z pozoru formuła zaczęła wydawać się nam niejednoznaczna i
-    otwierająca w przyszłości różne możliwości interpretacyjne 1 możliwości
+    otwierająca w przyszłości różne możliwości interpretacyjne i możliwości
     nieprecyzyjnego rozumienia tego pojęcia. Chcąc odejść od tylko
-    deklaratoryjnego opisania rzeczywistości 1 sposobu, w jaki obywatele
+    deklaratoryjnego opisania rzeczywistości i sposobu, w jaki obywatele
     sprawują władzę publiczną, dążono do wskazania na zobowiązania
     Rzeczypospolitej do czynnego chronienia i gwarantowania tego, aby samorząd
     terytorialny miał rzeczywiście udział w sprawowaniu władzy publicznej.
@@ -1597,7 +1597,7 @@
     jest — na zasadzie wniosków a contrario — upośledzeniem życia samorządowego
     sprowadzeniem go do form terytorialnych. Dlatego też opowiadam się za tym,
     aby w zasadach ustroju figurowała — nie ograniczona ustawą — możliwość
-    działania innych form samorządu. Tak więc popieram ust. 1 1 ust. 2, lecz ze
+    działania innych form samorządu. Tak więc popieram ust. 1 i ust. 2, lecz ze
     skreśleniem wyrazów: „w granicach określonych ustawą”. Formuła ta wskazuje
     na to, że ustawa będzie raczej ograniczać. Uważamy również, że przepis
     konstytucyjny nie ma waloru definicji, lecz walor dyrektywy egzekwowalnej.
@@ -1718,7 +1718,7 @@
   <p class="rep-statement">
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Nie chcę być uszczypliwy wobec posła J. Ciemniewskiego, ale jest tak, że
-    każdy ma swoją perspektywę 1 genezę interpretacji instytucji prawnych. Moja
+    każdy ma swoją perspektywę i genezę interpretacji instytucji prawnych. Moja
     interpretacja wywodzi się ze społecznej nauki Kościoła i kilku encyklik.
     Jeżeli więc poseł J. Ciemniewski podsumowuje, skąd wzięła się moja
     koncepcja, to zgodnie z moją genezą i osobniczym rozwojem Świadomości, a nie
@@ -1748,7 +1748,7 @@
     mogła domagać się udziału we władzy. Tymczasem powinno być tak, że jest
     system przedstawicielski i logiczny system sprawowania władzy oraz
     konstytucyjna koncesja na rzecz zasłużonego samorządu terytorialnego. W
-    takiej sytuacji tylko ustawa 1 to w określonych przypadkach może — na
+    takiej sytuacji tylko ustawa i to w określonych przypadkach może — na
     przykład samorządowi lekarskiemu, czy kombatanckiemu — odstąpić cząstkę
     władzy. Natomiast stworzenie takiego prawa podmiotowego, które każdej grupie
     obywateli, która się stowarzyszy, da cząstkę władzy, mogłoby spowodować
@@ -1930,7 +1930,7 @@
     Tocząca się ciekawa debata wynika z dwóch przyczyn. Przyczyna pierwsza to
     spory o pojęcie i istotę samorządu. Mam nadzieję, że wyjaśnienia ekspertów
     pozwolą ominąć tę rafę. Druga przyczyna to novum w postaci uwagi prof. L.
-    Wiśniewskiego 1 wniosku posła M. Mazurkiewicza. Świadczą one o tym, że
+    Wiśniewskiego i wniosku posła M. Mazurkiewicza. Świadczą one o tym, że
     dostrzegamy w tym momencie poważny brak w dotychczasowych rozważaniach na
     ten temat. Poprawka posła M. Mazurkiewicza jest bardzo ważnym uzupełnieniem,
     które nie może być przeoczone. Wydaje się, że sprzeciw prof. S. Gebethnera
@@ -1968,7 +1968,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wydaje się, że powinniśmy zmierzać w kierunku takiego rozwiązania, aby
-    artykuł mówiący o obowiązkowej przynależności do samorządu 1 atrybucji jego
+    artykuł mówiący o obowiązkowej przynależności do samorządu i atrybucji jego
     uprawnień znalazł się w rozdziale o samorządzie, który w obecnym brzmieniu
     nie jest zbyt obszerny.
   </p>
@@ -2100,7 +2100,7 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Odnoszę wrażenie, że w rozdziale drugim, dotyczącym praw 1 wolności, nie
+    : Odnoszę wrażenie, że w rozdziale drugim, dotyczącym praw i wolności, nie
     ma przepisu dotyczącego własności. Jeżeli tak jest, to powstaje kłopotliwa
     sytuacja, gdy przepis o własności umieścimy wśród zasad ustroju. W dniu
     wczorajszym prof. K. Działocha Posiedzenia Komisji Konstytucyjnej ZN
@@ -2134,7 +2134,7 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Piotr Andrzejewski (NSZZ:</strong>
-    S”): Popieram propozycję, aby treść artykułów: 12, 13 1 14 została ujęta w
+    S”): Popieram propozycję, aby treść artykułów: 12, 13 i 14 została ujęta w
     jednym artykule, który w projekcie obywatelskim NSZZ „Solidarność ”
     oznaczony jest jako art. 7 i ma następujące brzmienie: „Praca jest podstawą
     rozwoju państwa. Rzeczpospolita chroni prawo do pracy, własności 1
@@ -2160,12 +2160,12 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jeżeli chodzi o stan prac nad art. 12, to oprócz propozycji podkomisji
     zostały zgłoszone poprawki: posła K. Kamińskiego, senatora P.
-    Andrzejewskiego 1 posła L. Moczulskiego. Zostaną one poddane pod głosowanie
+    Andrzejewskiego i posła L. Moczulskiego. Zostaną one poddane pod głosowanie
     na kolejnym posiedzeniu, wraz z propozycjami dotyczącymi art. 13 i 14. Nie
     możemy na razie podjąć jako Komisja art. 15, gdyż podkomisja podstaw ustroju
     politycznego i społeczno-gospodarczego nie przygotowała nowych
     kompromisowych propozycji. Uważam ponadto, że moglibyśmy podjąć kwestię
-    artykułów:16, 17, 18, które dotyczą godła, barw, hymnu 1 stolicy.
+    artykułów:16, 17, 18, które dotyczą godła, barw, hymnu i stolicy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
@@ -2215,10 +2215,10 @@
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
     : Powracam do swojej wątpliwości, iż w rozdziale o zasadach ustroju znajdą
     się dwie normy ogólne, które będą mówić o szczegółach i odstępstwach od tych
-    norm, a jest to materia praw 1 wolności obywatelskich, kiedy stwierdza się,
+    norm, a jest to materia praw i wolności obywatelskich, kiedy stwierdza się,
     że coś jest dopuszczalne ustawą, W rozdziale o zasadach ustroju powinna być
     sformułowana zasada ogólna. Tego typu zasada ogólna mogłaby brzmieć:
-    „Rzeczpospolita Polska chroni własność 1 zapewnia swobodę działalności
+    „Rzeczpospolita Polska chroni własność i zapewnia swobodę działalności
     gospodarczej”. Natomiast bardziej szczegółowo kwestia prawa własności
     powinna być podjęta w przepisach o prawach osobistych. Byłoby to właściwe
     miejsce dla przejęcia formuły o odszkodowaniu słusznym i niezwłocznym oraz o
@@ -2231,7 +2231,7 @@
     powinna dotyczyć prawa własności i swobody działalności gospodarczej.
     Zgadzam się również, iż nie jest dobrze, że w rozdziale o prawach 1
     wolnościach nie ma przepisu dotyczącego prawa własności. Byłby to przepis,
-    który powinien podjąć m.in. kwestię wywłaszczenia, ale 1 kwestię konfiskaty,
+    który powinien podjąć m.in. kwestię wywłaszczenia, ale i kwestię konfiskaty,
     na co trafnie zwrócił uwagę poseł L. Moczulski. Przepadek mienia jako
     legalna kara musi mieć podstawę konstytucyjną.
   </p>
@@ -2255,14 +2255,14 @@
     Konstytucje państw współczesnych również ujmują podstawy ustroju
     społeczno-gospodarczego. Zrozumiały apel o lakoniczność nie może jednak
     powodować, że lakoniczność zaczyna przekraczać granicę lakonicznoŚci, którą
-    cechuje się obowiązujące prawo konstytucyjne. Art. 6 1 art. 7 utrzymanych w
+    cechuje się obowiązujące prawo konstytucyjne. Art. 6 i art. 7 utrzymanych w
     mocy przepisów konstytucji z 1952 r. zawierają więcej treści niż niektóre
     spośród zgłaszanych propozycji. Chcę dodać, że lakoniczność obowiązujących
     przepisów była krytykowana. Determinująca ustawodawstwo zwykłe rola nowych
     przepisów konstytucyjnych będzie żadna, jeżeli zostanie przyjęty kierunek
     bardzo dużej lakonicznośŚci. Jeśli chodzi o słuszną uwagę posła L.
     Moczulskiego, dotyczącą konfiskaty, to dobrym miejscem na jej uwzględnienie
-    są przepisy dotyczące praw 1 wolności obywatelskich. Tak kwestia ta jest
+    są przepisy dotyczące praw i wolności obywatelskich. Tak kwestia ta jest
     uregulowana w obowiązujących przepisach konstytucyjnych. Jest to art. 8/7
     ust. 3 przepisów utrzymanych w mocy, który brzmi: „Przepadek mienia może
     nastąpić jedynie w przypadkach przewidzianych ustawą, na podstawie
@@ -2318,14 +2318,14 @@
     zmodyfikowane brzmienie art. 13: „Ust. 1. Rzeczpospolita Polska zapewnia
     swobodę działalności gospodarczej. Ust. 2. Podstawą ustroju rolnego Państwa
     jest gospodarstwo rodzinne. Ust. 3. Ograniczenie swobody działalności
-    gospodarczej jest dopuszczalne tylko w ustawie 1 ze względu na ważny interes
+    gospodarczej jest dopuszczalne tylko w ustawie i ze względu na ważny interes
     publiczny”. Uzasadnienie złożonej propozycji, a zwłaszcza ust. 2, wynika z
     następujących przesłanek. Po pierwsze, artykuł otwierający konstytucję
     stwierdza, że Rzeczpospolita Polska jest państwem urzeczywistniającym zasady
     sprawiedliwości społecznej. Po drugie, gospodarstwo rodzinne było zawsze
     jednym z podstawowych elementów zapewniających wyżywienie narodu i siłę
     państwa. Po trzecie, w Europie Zachodniej występują podobne tendencje,
-    wyrażające się w przepisach konstytucyjnych 1 ustawowych ograniczających
+    wyrażające się w przepisach konstytucyjnych i ustawowych ograniczających
     wielkość gospodarstw rolnych. Skoro zmierzamy do integracji z Europą, to
     konieczne jest unormowanie naszej gospodarki. Chcę dodać, że w tej chwili
     nie definiujemy pojęcia gospodarstwa rodzinnego. Generalnie rzecz ujmując,
@@ -2402,7 +2402,7 @@
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     W moim przekonaniu brzmienie art. 14 w wersji podkomisji jest zawężeniem
     problemu. Wobec tego proponuję następujące brzmienie art. 14: „Władze publiczne zapewniają socjalną,
-    ekonomiczną 1 prawną ochronę pracy. Ochrona socjalna to tworzenie warunków
+    ekonomiczną i prawną ochronę pracy. Ochrona socjalna to tworzenie warunków
     do powstawania miejsc pracy.
   </p>
   <p class="rep-statement">
@@ -2455,7 +2455,7 @@
     artykuły — 16, 17 i 18 — jak się wydaje, nie wymagają dyskusji. W związku z
     tym chcę zapytać ekspertów, czy z punktu widzenia reguł systematyki
     konstytucji jest uzasadnienie, aby tego rodzaju kwestie jak barwy, hymn,
-    godło 1 stolica były regulowane wśród zasad ustroju. Być może bardziej
+    godło i stolica były regulowane wśród zasad ustroju. Być może bardziej
     właściwe byłoby ujęcie tych kwestii w ramach przepisów końcowych lub w
     ramach innego odrębnego rozdziału. Nie chodzi oczywiście o deprecjonowanie
     kwestii symboliki narodowej.
@@ -2485,7 +2485,7 @@
   <p class="rep-statement">
     <strong>Senator Krzysztof Kozłowski (KD):</strong>
     Chcę dodać, że kwestia ta była dyskutowana w trakcie prac podkomisji
-    podstaw ustroju politycznego 1 społeczno-gospodarczego. Upadł pomysł
+    podstaw ustroju politycznego i społeczno-gospodarczego. Upadł pomysł
     stworzenia odrębnego rozdziału. Przeważał pogląd, że kwestie symboli nie
     bardzo mieszczą się w zasadach, ale mogą być ujęte w końcowej części
     rozdziału. pierwszego.
@@ -2494,7 +2494,7 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Kwestię tę rozstrzygniemy w głosowaniu na następnym posiedzeniu Komisji.
     Ponadto głosowania obejmą artykuły: 11, 12, 13 i 14. Jeżeli podkomisja
-    podstaw ustroju politycznego 1 społeczno-gospodarczego przygotuje
+    podstaw ustroju politycznego i społeczno-gospodarczego przygotuje
     kompromisową propozycję, to przedmiotem głosowań będzie również art. 15,
     Przechodzimy do rozstrzygnięcia kwestii art. D. Sprawa pierwsza to
     konieczność dokonania reasumpcji poprzedniego głosowania dotyczącego art. 5.
@@ -2571,8 +2571,8 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Zwracam również uwagę, że oznaczony jako nr 2 wniosek poseł K. Łybackiej
     nie jest aktualny. Poseł K. Łybacka zgłosiła nowy wniosek, który za chwilę
-    zostanie powielony 1 dostarczony członkom Komisji. Jego brzmienie jest
-    następujące: „Partie polityczne finansowane jawnie 1 działające w ramach
+    zostanie powielony i dostarczony członkom Komisji. Jego brzmienie jest
+    następujące: „Partie polityczne finansowane jawnie i działające w ramach
     porządku konstytucyjnego Rzeczypospolitej Polskiej zrzeszają na zasadach
     dobrowolności i równości obywateli w celu wpływania metodami demokratycznymi
     na kształtowanie polityki państwa”.
@@ -2582,7 +2582,7 @@
     Czy w związku z tym, że propozycja poseł K. Łybackiej nie przewiduje
     formuły, że Rzeczpospolita Polska gwarantuje wolność tworzenia partii
     politycznych, jest to przeoczenie, czy też świadomy zamysł pozbycia się
-    gwarancji dla powstawania 1 istnienia partii politycznych?
+    gwarancji dla powstawania i istnienia partii politycznych?
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
@@ -2596,7 +2596,7 @@
     Jeżeli chodzi o głosowanie, to w pierwszej kolejności głosowaniu będzie
     poddany wariant I podkomisji, a następnie wariant II podkomisji, który
     faktycznie jest wariantem senatorów: A. Grześkowiak i P. Andrzejewskiego, z
-    dodaniem fragmentów art. 32 ust. 2 1 ust. 3 projektu obywatelskiego.
+    dodaniem fragmentów art. 32 ust. 2 i ust. 3 projektu obywatelskiego.
     Następnie głosowaniu będzie poddana nowa propozycja poseł K. Łybackiej.
     Kolejny wniosek to propozycja przedstawicieli Prezydenta RP, prof. A.
     Rzeplińskiego i dr. W. Kuleszy, bez wycofanego ust. 3. Następny wariant
@@ -2606,16 +2606,16 @@
     głosowanie wniosek o przyjęcie art. 5 w brzmieniu wariantu I projektu
     podkomisji o treści: „Ust. 1. Rzeczpospolita Polska gwarantuje wolność
     tworzenia i działania partii politycznych. Biorą one udział w kształtowaniu
-    1 wyrażaniu woli obywateli >w szczególności przez uczestnictwo w wyborach. Ust. 2. Finansowanie partii politycznych jest jawne”. Stwierdzam, że w
+    i wyrażaniu woli obywateli >w szczególności przez uczestnictwo w wyborach. Ust. 2. Finansowanie partii politycznych jest jawne”. Stwierdzam, że w
     głosowaniu wniosek uzyskał 16 głosów popierających, 12 głosów przeciwnych,
-    przy 1 wstrzymującym się. Przechodzimy do głosowania nad drugim wariantem.
+    przy i wstrzymującym się. Przechodzimy do głosowania nad drugim wariantem.
     Jest to wniosek senatorów A. Grześkowiak i P. Andrzejewskiego o treści
-    identycznej z brzmieniem wariantu II wraz z ust. 2 1 3 art. 32 projektu
+    identycznej z brzmieniem wariantu II wraz z ust. 2 i 3 art. 32 projektu
     obywatelskiego. Poddaję pod głosowanie wniosek o przyjęcie art. 5 jako
     propozycji następującej treści: „Ust. 1. Partie polityczne, ruchy
     obywatelskie i inne ugrupowania obywateli, działające w oparciu o zasadę
-    pluralizmu politycznego są formą dobrowolnego 1 równego uczestnictwa
-    politycznego w kształtowaniu 1 wyrażaniu woli obywateli oraz wpływania na
+    pluralizmu politycznego są formą dobrowolnego i równego uczestnictwa
+    politycznego w kształtowaniu i wyrażaniu woli obywateli oraz wpływania na
     polityk Państwa. Ust. 2. Obywatele mogą zrzeszać się w partie polityczne w
     celu wpływania metodami demokratycznymi na politykę państwa. Ustawa określa
     zasady zgłaszania i trybu rejestracji partii politycznych. Ust. 3. Zakazane
@@ -2634,7 +2634,7 @@
     przy 6 wstrzymujących się. Poddaję pod głosowanie wniosek o przyjęcie art. 5
     w następującym brzmieniu, zaproponowanym przez przedstawicieli Prezydenta
     RP: prof. A. Rzeplińskiego i dr. W. Kuleszę: „Ust. 1. Rzeczpospolita Polska
-    gwarantuje wolność tworzenia 1 działania partii politycznych. Partie
+    gwarantuje wolność tworzenia i działania partii politycznych. Partie
     polityczne zrzeszają na zasadach dobrowolności i równości obywateli
     Rzeczypospolitej Polskiej w celu wpływania metodami demokratycznymi na
     kształtowanie polityki Państwa. Ust. 2. Finansowanie partii politycznych
@@ -2647,7 +2647,7 @@
     głosowaniu wniosek uzyskał 4 głosy popierające, 24 głosy przeciwne, przy 2
     wstrzymujących się. Poddaję pod głosowanie wniosek o przyjęcie art. 5 w
     następującym brzmieniu, zaproponowanym przez posła L. Pastusiaka:
-    „Rzeczpospolita Polska gwarantuje wolność tworzenia 1 działania partii
+    „Rzeczpospolita Polska gwarantuje wolność tworzenia i działania partii
     politycznych”. Stwierdzam, że w głosowaniu wniosek uzyskał 7 głosów
     popierających, 19 głosów przeciwnych, przy 4 wstrzymujących się. Poddaję pod
     głosowanie wniosek o przyjęcie art. 5 w następującym brzmieniu,
@@ -2658,7 +2658,7 @@
     Stwierdzam, że wniosek w głosowaniu uzyskał 3 głosy popierające, 16 głosów
     przeciwnych, przy 8 wstrzymujących się. Z. przeprowadzonych głosowań wynika,
     że największe poparcie uzyskał wariant I podkomisji oraz propozycja
-    przedstawicieli Prezydenta RP: prof. A. Rzeplińskiego 1 dr. W. Kuleszy.
+    przedstawicieli Prezydenta RP: prof. A. Rzeplińskiego i dr. W. Kuleszy.
     Ostatecznego wyboru art. 5 dokonamy wybierając jeden z tych dwóch wniosków.
     Poddaję pod głosowanie wniosek o dokonanie wyboru między wariantem I
     podkomisji — użycie przycisku „za”, a propozycją przedłożoną przez
@@ -2668,7 +2668,7 @@
     przy 8 głosach przeciwnych i braku wstrzymujących się, przyjęła propozycję
     przedłożoną przez przedstawicieli Prezydenta RP: prof. A. Rzeplińskiego 1
     dr. W. Kuleszę. Tak więc art. 5 otrzymuje brzmienie: „Ust. 1. Rzeczpospolita
-    Polska gwarantuje wolność tworzenia 1 działania partii politycznych. Partie
+    Polska gwarantuje wolność tworzenia i działania partii politycznych. Partie
     polityczne zrzeszają na zasadach dobrowolności i równości obywateli
     Rzeczypospolitej Polskiej w celu wpływania metodami demokratycznymi na
     kształtowanie polityki Państwa. Ust. 2. Finansowanie partii politycznych
@@ -2677,7 +2677,7 @@
     głosowaniach podczas następnego posiedzenia kolejnych artykułów, oprócz art.
     15. Zakończyliśmy debatę nad rozdziałem pierwszym, z wyjątkiem art. 15. Na
     następnym posiedzeniu przyjmiemy w głosowaniach pozostałe artykuły rozdziału
-    pierwszego i rozstrzygniemy losy artykułów: 16, 17 1 18. Planowane jest
+    pierwszego i rozstrzygniemy losy artykułów: 16, 17 i 18. Planowane jest
     również rozpoczęcie debaty nad rozdzia-łem drugim. Czy ktoś chciałby zabrać
     głos w sprawach różnych przed zamknięciem posiedzenia? Nie ma. Zamykam
     posiedzenie. Prasa o pracach konstytucyjnych
@@ -2705,13 +2705,13 @@
     Zgromadzenia Narodowego podczas swego trzydniowego posiedzenia. Zostały one
     umieszczone w rozdziale otwierającym projekt, który postanowiono zatytułować
     „Zasady ustroju”. Można by więc powiedzieć, że prace konstytucyjne ruszyły
-    wreszcie z miejsca 1 zaczynają przynosić pierwsze efekty. Idzie to jednak
+    wreszcie z miejsca i zaczynają przynosić pierwsze efekty. Idzie to jednak
     opomie. Wcześniejsze deklaracje Aleksandra Kwaśniewskiego, że już w marcu
     Komisja przedstawi pod obrady Z.gromadzenia Narodowego gotowy projekt,
     grzeszyły niczym nie uzasadnionym optymizmem. Zanim to nastąpi, przed
     Komisją jest jeszcze wiele kilkudniowych posiedzeń, co musi potrwać
     tygodnie, jeśli nie miesiące. Trzeba sobie też zdawać sprawę,że dalsza
-    procedura nie jest wcale prosta 1 na jej przeprowadzenie potrzeba kilku
+    procedura nie jest wcale prosta i na jej przeprowadzenie potrzeba kilku
     miesięcy. Jesteśmy więc ciągle jeszcze na początku drogi do nowej ustawy
     zasadniczej. Tymczasem zaczyna się„psuć pogoda polityczna”. Niektórzy z
     uczestników prac konstytucyjnych nie kryją obaw, że mogą one znowu pójść na
@@ -2745,7 +2745,7 @@
     ustrojowoprawnej. Zasadnicze deklaracje w tym zakresie są więc niezbędne.
     Wspierał go ekspert Komisji, profesor Piotr Winczorek, mówiąc, że
     konstytucja musi się jednak różnić czymś od regulaminu. Zawarte w pierwszej
-    czę-Ści zasady ogólne mają zresztą normatywny charakter 1 bogatą treść, choć
+    czę-Ści zasady ogólne mają zresztą normatywny charakter i bogatą treść, choć
     na pierwszy rzut oka może się wydawać, że są to sformułowania banalne. Ich
     ujęcie, a nawet kolejność zamieszczenia ma kapitalne
   </p>
@@ -2844,7 +2844,7 @@
     narodowego oraz zapewnia ochronę Środowiska, kierując się zasadą
     zrównoważonego rozwoju”. Zasady legalizmu i konstytucjonalizmu zostały
     zapisane w dwóch kolejnych artykułach. Pierwsza z nich mówi, że: „Wszystkie
-    organy władzy publicznej działają na podstawie 1 w granicach prawa”. O ile
+    organy władzy publicznej działają na podstawie i w granicach prawa”. O ile
     bowiem obywatele mogą czynić wszystko to, czego prawo nie zabrania, o tyle
     organ państwowy musi mieć zawsze podstawę prawną dla swych poczynań.
     Najwyższym prawem w Rzeczypospolitej Polskiej jest konstytucja. Jej przepisy
@@ -2857,7 +2857,7 @@
     Komisja Konstytucyjna przyjęła klasyczną formułę trójpodziału władz.
     Sformułowanie zaproponowane przez posła Jerzego Ciemniewskiego (UW)
     umieszczono w art. 10. Brzmi ono następująco: „Ustrój Rzeczypospolitej
-    Polskiej opiera się na podziale 1 równowadze władzy ustawodawczej, władzy
+    Polskiej opiera się na podziale i równowadze władzy ustawodawczej, władzy
     wykonawczej i władzy sądowniczej . Do takiego rozwiązania Komisja doszła po
     reasumpcji poprzedniego głosowania w tej sprawie. Wątpliwości nie budziła
     sama zasada trójpodziału, lecz sposób jej wyrażenia. Początkowo przyjęto, że
@@ -2963,7 +2963,7 @@
     będzie się on już powoływał na marksizm, ale będzie czerpał swoją żywotną
     siłę z laickiej koncepcji człowieka. Jeżeli więc nie chcemy tego odcięcia
     władzy od narodu, musimy się opowiedzieć za wezwaniem w Konstytucji Imienia
-    Bożego 1 za preambułą historyczną. e Ani preambuła, ani inwokacja nie mają
+    Bożego i za preambułą historyczną. e Ani preambuła, ani inwokacja nie mają
     jednak charakteru normatywnego... Konstytucja powinna być aktem politycznym,
     ale nie ma takiej konstytucji, która poprzestałaby na zapisach jurydycznych.
     Konstytucja jest przecież tak-że pewną wartością, do ktorej powinny odnosić
@@ -3026,7 +3026,7 @@
     tam równocześnie bardzo ściśle staramy się określić obszar, w jakim państwo
     się porusza. Np. w „Zasadach Naczelnpodkreślamy, że źródłem bogactwa państwa
     jest praca, ale tam również bronimy własności prywatnej, prawa dziedziczenia
-    1 mówimy, że ustrój gospodarczy państwa oparty jest na gospodarce rynkowej i
+    i mówimy, że ustrój gospodarczy państwa oparty jest na gospodarce rynkowej i
     solidarności społecznej. Te dwa elementy powinny być nierozdzielnie związane
     w państwie, którego wizję tworzymy. Parlamentarna Komisja Konstytucyjna
     zrezygnowała z preambuły, obecnej m.in. w obywatelskim projekcie ustawy
@@ -3040,8 +3040,8 @@
     wszystko w preambule piszemy. Nawiązujemy w niej do I Rzeczypospolitej, do
     Konstytucji 3 Maja, do walki o wolność, wreszcie do okresu międzywojennego —
     II Rzeczypospolitej. Jednym słowem, stawiamy fundament III Rzeczypospolitej
-    na naszych bogatych tradycjach 1 doświadczeniach. Mało tego — uważamy, że
-    nasza cała kultura oparta jest na wierze i na tradycji chrześcijańskiej 1 w
+    na naszych bogatych tradycjach i doświadczeniach. Mało tego — uważamy, że
+    nasza cała kultura oparta jest na wierze i na tradycji chrześcijańskiej i w
     takich warunkach się rozwijała. Niestety, są Środowiska, zwłaszcza w
     parlamencie, które chciałyby to wszystko odrzucić i to jest bardzo
     niebezpieczne. Wprawdzie preambuła nie ma znaczenia prawnego, ale w końcu
@@ -3103,17 +3103,17 @@
     Najdalej w uprzywilejowaniu pracowników idzie projekt SLD, który nie
     przewiduje zrzeszeń pracodawców. Większość projektów ustawy zasadniczej
     postuluje przestrzeganie zasady równowagi budżetowej i obowiązek wskazywania
-    pokrycia zwiększonych wydatków 1 zmniejszonych dochodów. W przypadku
+    pokrycia zwiększonych wydatków i zmniejszonych dochodów. W przypadku
     nieuchwalenia budżetu w ustawowym terminie większość projektów przewiduje
     finansowanie na podstawie projektu budżetu. Tylko dwa projekty opowiadają
     się za ograniczeniem wydatków do przewidzianych w zeszłorocznym budżecie.
-    Wszystkie projekty wyłączają sprawy podatków 1 budżetu z ewentualnego
+    Wszystkie projekty wyłączają sprawy podatków i budżetu z ewentualnego
     referendum, a także akcentują konieczność ustawowego przyzwolenia na
-    zaciąganie przez państwo kredytów 1 zgody na decyzje zwiększające dług
+    zaciąganie przez państwo kredytów i zgody na decyzje zwiększające dług
     publiczny. Niektóre projekty nawiązują do tradycji z okresu II
     Rzeczypospolitej i eksponują potrzebę powołania prokuratorii generalnej do
     ochrony interesów Skarbu Państwa. Projekt senacki proponuje regulację takich
-    dziedzin, jak system kredytowo-pieniężny, finanse publiczne 1 budżet, zasady
+    dziedzin, jak system kredytowo-pieniężny, finanse publiczne i budżet, zasady
     systemu bankowego, zarządzanie mieniem Skarbu Państwa itd. przez uchwalenie
     odrębnych ustaw. Według projektu KPN, Skarb Państwa powinien integrować
     całość gospodarki i finansów państwa. Wszystkie projekty skupiają się na
@@ -3122,7 +3122,7 @@
     projekt SLD uważa bank centralny za wykonawcę polityki monetarnej. Niestety,
     projektodawcy nie wymieniają, czyjej. W kilku projektach usiłuje się włączyć
     do ustawy zasadniczej postulaty reform ubezpieczeń społecznych,
-    reprywatyzację 1 powszechne uwłaszczenie włącznie z terminami ich
+    reprywatyzację i powszechne uwłaszczenie włącznie z terminami ich
     załatwienia. W niektórych projektach proponuje się nie tylko udział
     pracowników w zarządzaniu przedsiębiorstwem, lecz także obowiązek
     informowania pracowników o sytuacji ekonomicznej i finansowej
@@ -3143,7 +3143,7 @@
   <p>
     Prasa o pracach Konstytucyjnych wskazał, że w proponowanych zapisach
     konstytucyjnych dotyczących gospodarki brakuje równowagi w traktowaniu klasy
-    przedsiębiorców 1 klasy pracobiorców. Powiedział, że aczkolwiek wątpliwe
+    przedsiębiorców i klasy pracobiorców. Powiedział, że aczkolwiek wątpliwe
     jest wypracowanie jednorodnego stanowiska obecnej rady w sprawie
     konstytucji, to jednak rada ta może jeszcze odegrać pozytywną rolę przy
     konstruowaniu ustawy zasadniczej. Krzysztof Grzegrzótka

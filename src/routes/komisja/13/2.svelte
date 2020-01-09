@@ -12,15 +12,15 @@
     padding-top: 16px;
   }
   .last {
-      padding-bottom: 2rem;
-      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-      margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    margin-bottom: 2rem;
   }
   .rep-statement {
-      margin: 1em 0em;
-      padding: 1em;
-      border: dotted 1px;
-      border-color: rgba(0, 0, 0, 0.3);
+    margin: 1em 0em;
+    padding: 1em;
+    border: dotted 1px;
+    border-color: rgba(0, 0, 0, 0.3);
   }
 </style>
 
@@ -60,45 +60,43 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
-    Dwa pierwsze artykuły dotyczą generalnej charakterystyki państwa. Może
-    warto byłoby rozważyć teraz to, co jest zawarte w art. 4. Następnie można umieścić art. 3 z przedłożonego
-    projektu, który dotyczy celów państwa. Wpierw powinna być jednak
-    charakterystyka generalna państwa, potem jego cele 1 następnie kwestie
-    dotyczące struktury władzy.
+    Dwa pierwsze artykuły dotyczą generalnej charakterystyki państwa. Może warto
+    byłoby rozważyć teraz to, co jest zawarte w art. 4. Następnie można umieścić
+    art. 3 z przedłożonego projektu, który dotyczy celów państwa. Wpierw powinna
+    być jednak charakterystyka generalna państwa, potem jego cele i następnie
+    kwestie dotyczące struktury władzy.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: W podkomisji redakcyjnej przesunęliśmy z rozdziału o
-    prawach człowieka do art. 3 fragment mówiący o gwarancji praw człowieka.
-    Wczoraj pojawiły się propozycje, żeby ta kwestia powróciła do rozdziału o
-    prawach obywatelskich. Proszę, by ten problem nie zniknął, albo niech będzie
-    on uwzględniony w art. 3 albo w rozdziale o prawach obywatelskich. Nie wiem,
-    czy trafne jest określenie dotyczące strzeżenia dziedzictwa kultury 1 języka
-    narodu. Art. 6 definiuje pojęcie narodu politycznego. Byłbym za tym, żeby
-    użyć określenia: „kultury narodowej i języka”, ponieważ nie powinniśmy
-    wynaradawiać Polonii.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Jaka z trzech merytorycznych kwestii powinna znaleźć się w art. 3?
-    Rozumiem, że opinia prof. P. Winczorka jest taka, że z uwagi na logikę i
-    systematykę powinna w tym miejscu znaleźć się zawartość merytoryczna art. 4
-    projektu przygotowanego przez podkomisję, czyli „Rzeczpospolita Polska jest
-    państwem jednolitym i niepodzielnym”. Pozostałe treści merytoryczne na pewno
-    znajdą się w tekście, ale pierwszeństwo powinien uzyskać przepis o
-    jednolitości i niepodzielności państwa. Czy w tej sprawie są inne zdania?
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Chciałbym przypomnieć, że w rozdziale I zawarta jest
-    zasada samorządu terytorialnego, która ustala terytoriaIny ustrój państwa.
-    Może należałoby się zastanowić nad celowością art. 4, o czym wczoraj
-    mówiliśmy.
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    W podkomisji redakcyjnej przesunęliśmy z rozdziału o prawach człowieka do
+    art. 3 fragment mówiący o gwarancji praw człowieka. Wczoraj pojawiły się
+    propozycje, żeby ta kwestia powróciła do rozdziału o prawach obywatelskich.
+    Proszę, by ten problem nie zniknął, albo niech będzie on uwzględniony w art.
+    3 albo w rozdziale o prawach obywatelskich. Nie wiem, czy trafne jest
+    określenie dotyczące strzeżenia dziedzictwa kultury i języka narodu. Art. 6
+    definiuje pojęcie narodu politycznego. Byłbym za tym, żeby użyć określenia:
+    „kultury narodowej i języka”, ponieważ nie powinniśmy wynaradawiać Polonii.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Pamiętam opinię w tej sprawie. Pytanie do przegłosowania brzmi: czy
-    uważamy, że przepis „Rzeczpospolita Polska jest państwem jednolitym 1
+    Jaka z trzech merytorycznych kwestii powinna znaleźć się w art. 3? Rozumiem,
+    że opinia prof. P. Winczorka jest taka, że z uwagi na logikę i systematykę
+    powinna w tym miejscu znaleźć się zawartość merytoryczna art. 4 projektu
+    przygotowanego przez podkomisję, czyli „Rzeczpospolita Polska jest państwem
+    jednolitym i niepodzielnym”. Pozostałe treści merytoryczne na pewno znajdą
+    się w tekście, ale pierwszeństwo powinien uzyskać przepis o jednolitości i
+    niepodzielności państwa. Czy w tej sprawie są inne zdania?
+  </p>
+  <p class="rep-statement">
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Chciałbym przypomnieć, że w rozdziale I zawarta jest zasada samorządu
+    terytorialnego, która ustala terytoriaIny ustrój państwa. Może należałoby
+    się zastanowić nad celowością art. 4, o czym wczoraj mówiliśmy.
+  </p>
+  <p class="rep-statement">
+    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+    Pamiętam opinię w tej sprawie. Pytanie do przegłosowania brzmi: czy uważamy,
+    że przepis „Rzeczpospolita Polska jest państwem jednolitym 1
     niepodzielpowinien znaleźć się w art. 3, czy też — zgodnie z opinią prof. P.
     Sameckiego — wystarczy, że ta regulacja znajdzie się we fragmencie
     konstytucji dotyczącym samorządu?
@@ -109,23 +107,23 @@
     Polski? Czy bez tego przepisu Polska stanie się państwem federacyjnym?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Analiza programu różnych stowarzyszeń proponujących
-    rozwiązania dotyczące samorządu regionalnego potwierdza, że poważnie
-    dyskutowano nad wprowadzeniem autonomicznych samorządów regionalnych, które
-    miałyby prawo stanowienia ustaw, prawo do własnego pieniądza i polityki
-    zagranicznej. Pojawiły się takie propozycje. Dlatego uważam, że ta sprawa jest
-    ważna i powinna być uwzględniona w art. 3.
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Analiza programu różnych stowarzyszeń proponujących rozwiązania dotyczące
+    samorządu regionalnego potwierdza, że poważnie dyskutowano nad wprowadzeniem
+    autonomicznych samorządów regionalnych, które miałyby prawo stanowienia
+    ustaw, prawo do własnego pieniądza i polityki zagranicznej. Pojawiły się
+    takie propozycje. Dlatego uważam, że ta sprawa jest ważna i powinna być
+    uwzględniona w art. 3.
   </p>
   <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ:</strong>
-    ,„S”): Czy propozycja alternatywna złożona na podstawie projektu
-    obywatelskiego NSZZ, „Solidarność” w brzmieniu: „Rzeczpospolita zapewnia i
-    gwarantuje prawa człowieka oraz ich nienaruszalność, strzeże niepodległości
-    i całości swojego terytorium, dziedzictwa kultury, języka narodu oraz
-    zapewnia ochronę 1 rozwój środowiska”, byłaby tożsama ze sformułowaniem o
-    jednolitości i niepodzielności państwa? Taką poprawkę zgłosiłem, ale
-    chciałbym wiedzieć, czy przepis ten jest tożsamy.
+    <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
+    Czy propozycja alternatywna złożona na podstawie projektu obywatelskiego
+    NSZZ, „Solidarność” w brzmieniu: „Rzeczpospolita zapewnia i gwarantuje prawa
+    człowieka oraz ich nienaruszalność, strzeże niepodległości i całości swojego
+    terytorium, dziedzictwa kultury, języka narodu oraz zapewnia ochronę i
+    rozwój środowiska”, byłaby tożsama ze sformułowaniem o jednolitości i
+    niepodzielności państwa? Taką poprawkę zgłosiłem, ale chciałbym wiedzieć,
+    czy przepis ten jest tożsamy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -158,13 +156,13 @@
     Proszę o opinię odnośnie do umiejscowienia tego przepisu.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Samorząd terytorialny będący podstawowym elementem ustroju
-    terytorialnego wyklucza, aby pod nazwą „samorząd terytorialny” mogło powstać
-    federacyjne czy reglonalne województwo, nie mówiąc o gminach. Samorząd
-    terytorialny jest formą zdecentralizowanego państwa jednolitego. Co do tego
-    nie ma sporu. Przepis ten może być umieszczony przy regulacji dotyczącej
-    samorządu terytorialnego, który ma dość jasno określoną treść znaczeniową.
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Samorząd terytorialny będący podstawowym elementem ustroju terytorialnego
+    wyklucza, aby pod nazwą „samorząd terytorialny” mogło powstać federacyjne
+    czy reglonalne województwo, nie mówiąc o gminach. Samorząd terytorialny jest
+    formą zdecentralizowanego państwa jednolitego. Co do tego nie ma sporu.
+    Przepis ten może być umieszczony przy regulacji dotyczącej samorządu
+    terytorialnego, który ma dość jasno określoną treść znaczeniową.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -208,8 +206,8 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Czy należy rozumieć, że podda pan pod głosowanie art. 4, ale poza tym
-    będzie jeszcze debata nad art. 3, ewentualnie w zmienionym kształcie?
+    Czy należy rozumieć, że podda pan pod głosowanie art. 4, ale poza tym będzie
+    jeszcze debata nad art. 3, ewentualnie w zmienionym kształcie?
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -223,7 +221,7 @@
     kwestią jest Posiedzenia Komisji Konstytucyjnej ZN jednolitość i
     niepodzielność państwa. Argumentacje już przytoczono. Czym innym są
     gwarancje państwa wobec praw człowieka, niepodległości, dziedzictwa kultury,
-    języka, zapewnienia ochrony Środowiska, harmonijnego 1 zrównoważonego
+    języka, zapewnienia ochrony Środowiska, harmonijnego i zrównoważonego
     rozwoju. Art. 3 będzie jeszcze rozpatrywany.
   </p>
   <p class="rep-statement">
@@ -313,27 +311,27 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Zaproponowaliśmy wewnętrzny porządek tego rozdziału.
-    Wczoraj nastąpiło pewne przesunięcie, ale uważam, że kolejności trzeba
-    pilnować, bo z niej wynika spójność całego rozdziału. Proszę popatrzeć na
-    nasz materiał, w którym proponujemy, żeby pierwszą grupę w rozdziale I
-    stanowiły przepisy określające podstawowe cechy państwa polskiego. To są
-    przepisy uchwalone wczoraj. Proponowaliśmy następującą kolejność: art. 2,
-    art. 4 1 art. 5 według projektu podkomisji. Następną grupę powinny stanowić
-    przepisy określające społeczno-polityczne podstawy władzy publicznej w
-    państwie. Chodzi o zasadę zwierzchnictwa narodu. Z tym wiąże się kwestia
-    instytucjonalizacji partii politycznych, potrzeba określenia ich roli w państwie oraz
-    zasada wolności tworzenia partii politycznych. W trzeciej grupie powinny być
-    przepisy określające cele 1 zadania Rzeczypospolitej. Może najpierw Komisja
-    przesądzi artykuły dotyczące zwierzchnictwa narodu, wolności tworzenia
-    partii politycznych oraz ich roli w kształtowaniu 1 wyrażaniu woli
-    obywateli.
+    Zaproponowaliśmy wewnętrzny porządek tego rozdziału. Wczoraj nastąpiło pewne
+    przesunięcie, ale uważam, że kolejności trzeba pilnować, bo z niej wynika
+    spójność całego rozdziału. Proszę popatrzeć na nasz materiał, w którym
+    proponujemy, żeby pierwszą grupę w rozdziale I stanowiły przepisy
+    określające podstawowe cechy państwa polskiego. To są przepisy uchwalone
+    wczoraj. Proponowaliśmy następującą kolejność: art. 2, art. 4 i art. 5
+    według projektu podkomisji. Następną grupę powinny stanowić przepisy
+    określające społeczno-polityczne podstawy władzy publicznej w państwie.
+    Chodzi o zasadę zwierzchnictwa narodu. Z tym wiąże się kwestia
+    instytucjonalizacji partii politycznych, potrzeba określenia ich roli w
+    państwie oraz zasada wolności tworzenia partii politycznych. W trzeciej
+    grupie powinny być przepisy określające cele i zadania Rzeczypospolitej.
+    Może najpierw Komisja przesądzi artykuły dotyczące zwierzchnictwa narodu,
+    wolności tworzenia partii politycznych oraz ich roli w kształtowaniu i
+    wyrażaniu woli obywateli.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Podjęte przez nas decyzje mogą być jeszcze zweryfikowane przez
-    Zgromadzenie Narodowe. Art. 4 w systematyce ekspertów powinien dotyczyć
-    władztwa. Czy może on dotyczyć obowiązków państwa?
+    Podjęte przez nas decyzje mogą być jeszcze zweryfikowane przez Zgromadzenie
+    Narodowe. Art. 4 w systematyce ekspertów powinien dotyczyć władztwa. Czy
+    może on dotyczyć obowiązków państwa?
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
@@ -341,9 +339,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Eksperci proponują, aby art. 4 był oparty na art. 6 projektu podkomisji.
-    Czy w sprawie kolejności artykułów chciałby ktoś zabrać głos? Dopóki Komisja
-    nie skończy pracy, wszystko jest możliwe. Wyciągając wnioski z wątpliwości,
+    Eksperci proponują, aby art. 4 był oparty na art. 6 projektu podkomisji. Czy
+    w sprawie kolejności artykułów chciałby ktoś zabrać głos? Dopóki Komisja nie
+    skończy pracy, wszystko jest możliwe. Wyciągając wnioski z wątpliwości,
     które zrodziły się wczoraj wieczorem, proponuję nieco inną procedurę. Wpierw
     wysłuchajmy ekspertów, a później podejmować będziemy decyzje. Eksperci
     uważają, że art. 4 powinien dotyczyć władztwa. Czy w tej sprawie członkowie
@@ -362,8 +360,8 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Najpierw trzeba określić, do kogo władza należy, a
-    potem dopiero, jakie ma ona realizować cele.
+    Najpierw trzeba określić, do kogo władza należy, a potem dopiero, jakie ma
+    ona realizować cele.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -377,7 +375,7 @@
     polityczne, które są niezbędnym pośrednikiem między narodem a realizacją
     władztwa. Z kolei zamieszczone będą cele państwa, a potem organizacja
     struktury władzy. Po celach państwa należy umieścić przepis, że władza może
-    działać tylko z upoważnienia 1 w granicach prawa. Jest to ogólne
+    działać tylko z upoważnienia i w granicach prawa. Jest to ogólne
     ograniczenie właPosiedzenia Komisji Konstytucyjnej ZN dzy. Następnie trzeba
     przesądzić o tym, jak jest ona podzielona w strukturze organów władzy,
     między władzę ogólną a samorząd terytorialny. Nie prowadziłoby to do
@@ -392,7 +390,7 @@
     władzy wynika. Cele państwa i cele władzy nie są identyczne. Władza
     państwowa powinna realizować cele państwa, ale przecież nie wszystkie.
     Znaczną część celów państwa realizuje się poza władzą państwową. Państwo
-    jest bowiem wspólnotą obywateli 1 wszyscy powinni realizować jego cele.
+    jest bowiem wspólnotą obywateli i wszyscy powinni realizować jego cele.
     Jeżeli uwzględnimy tego typu kolejność, to będzie oznaczało, że władzę
     państwa sytuujemy powyżej państwa i obywateli, a nie odwrotnie. Dlatego
     najpierw trzeba uwzględnić wszystko to, co dotyczy państwa, jego charakteru
@@ -405,7 +403,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem, że jedno głosowanie będzie dotyczyło tego, czy kolejne artykuły
-    powinny uwzględniać problemy władzy 1 sposoby jej sprawowania, a dopiero po
+    powinny uwzględniać problemy władzy i sposoby jej sprawowania, a dopiero po
     nich powinny znaleźć się przepisy określające cele państwa, czyli art. 3.
     Jest to propozycja ekspercka popierana przez kilku członków Komisji. Odrębną
     propozycję zgłosił poseł L. Moczulski, który proponuje, żeby najpierw
@@ -458,8 +456,8 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
-    Nawiązując do wypowiedzi prof. W. Osiatyńskiego chciałbym zapytać, czy
-    art. 3 powędruje między art. 1l a art. 12?
+    Nawiązując do wypowiedzi prof. W. Osiatyńskiego chciałbym zapytać, czy art.
+    3 powędruje między art. 1l a art. 12?
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
@@ -484,22 +482,22 @@
     według propozycji prof. W. Osiatyńskiego przepis o władztwie ma
     pierwszeństwo. Kolejność artykułów byłaby następująca: władza, partie
     polityczne i cele państwa. Proponuję przejść do art. 3 zawartego w projekcie
-    podkomisji. Mamy następujący dylemat: czy używamy sformułowania
-    „strzeże dziedzictwa kultury i języka Narodu” czy też „kultury narodowej i
-    języka”. Jest to pierwszy dylemat do rozstrzygnięcia. Drugi wynika z wniosku
-    m.in. senatora J. Madeja, żeby uwzględnić ochronę środowiska poprzez
-    stosowanie zasady zrównoważonego rozwoju. Trzecia propozycja wynika z
-    projektu obywatelskiego. Artykuł ten brzmiałby następująco: ,„Rzeczpospolita
-    zapewnia i gwarantuje prawa człowieka oraz ich nienaruszalność, strzeże
+    podkomisji. Mamy następujący dylemat: czy używamy sformułowania „strzeże
+    dziedzictwa kultury i języka Narodu” czy też „kultury narodowej i języka”.
+    Jest to pierwszy dylemat do rozstrzygnięcia. Drugi wynika z wniosku m.in.
+    senatora J. Madeja, żeby uwzględnić ochronę środowiska poprzez stosowanie
+    zasady zrównoważonego rozwoju. Trzecia propozycja wynika z projektu
+    obywatelskiego. Artykuł ten brzmiałby następująco: ,„Rzeczpospolita zapewnia
+    i gwarantuje prawa człowieka oraz ich nienaruszalność, strzeże
     niepodległości swego terytorium, dziedzictwa kultury, języka narodu oraz
     zapewnia ochronę i rozwój Śśrodowiska”. Różnica jest tylko w pierwszej
     części artykułu. Senator P. Andrzejewski proponuje, żeby Rzeczpospolita nie
-    tylko gwarantowała, ale i zapewniała prawa człowieka 1 ich nienaruszalność.
+    tylko gwarantowała, ale i zapewniała prawa człowieka i ich nienaruszalność.
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
-    Proszę wziąć pod uwagę złożoną przeze mnie propozycję art. 14. OkreŚliem
-    go jako art. 14 nie dlatego, że uważałem, iż powinien on być w takiej
+    Proszę wziąć pod uwagę złożoną przeze mnie propozycję art. 14. OkreŚliem go
+    jako art. 14 nie dlatego, że uważałem, iż powinien on być w takiej
     kolejności umieszczony, tylko dopasowałem do zaproponowanego schematu.
   </p>
   <p class="rep-statement">
@@ -512,27 +510,27 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Art. 3 mówi o celach państwa. Celem państwa jest ochrona niepodległości
-    1 całości terytorium, ale także zagwarantowanie bezpieczeństwa obywateli.
-    Był to cel nie tylko XVII-wiecznej umowy społecznej. Tego celu nie
-    kwestionowała żadne teoria państwa i prawa od tamtego czasu. Tego celu nie
-    określono w art. 3. Eksperci proponują, żeby dopisać sformułowanie:
-    „gwarantuje bezpieczeństwo obywateli”. Wczoraj przedstawiciel prezydenta
-    zgłosił wniosek, żeby dopisać, iż państwo gwarantuje wolności i prawa
-    człowieka. Jest to bardzo ważne, ponieważ same prawa człowieka prowadzą do
-    zawężenia tej formuły. Jeżeli użyjemy określenia „wolności i prawa człowieka
-    , to wówczas ani czasownik „gwarantuje”, ani czasownik „zapewnia” nie będzie
+    Art. 3 mówi o celach państwa. Celem państwa jest ochrona niepodległości i
+    całości terytorium, ale także zagwarantowanie bezpieczeństwa obywateli. Był
+    to cel nie tylko XVII-wiecznej umowy społecznej. Tego celu nie kwestionowała
+    żadne teoria państwa i prawa od tamtego czasu. Tego celu nie określono w
+    art. 3. Eksperci proponują, żeby dopisać sformułowanie: „gwarantuje
+    bezpieczeństwo obywateli”. Wczoraj przedstawiciel prezydenta zgłosił
+    wniosek, żeby dopisać, iż państwo gwarantuje wolności i prawa człowieka.
+    Jest to bardzo ważne, ponieważ same prawa człowieka prowadzą do zawężenia
+    tej formuły. Jeżeli użyjemy określenia „wolności i prawa człowieka , to
+    wówczas ani czasownik „gwarantuje”, ani czasownik „zapewnia” nie będzie
     właściwy. W związku z tym proponuję następujące sformułowanie:
     „Rzeczpospolita Polska chroni wolności i prawa człowieka”. Wolności nie
     zapewnia się, bo one są, a obowiązkiem państwa jest ich ochrona.
     „Rzeczpospolita Polska chroni wolności i prawa człowieka, gwarantuje
-    bezpieczeństwo obywateli >strzeże niepodległości 1 całości swojego
+    bezpieczeństwo obywateli >strzeże niepodległości i całości swojego
     terytorium... Tyle na temat zasadniczych celów państwa.
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
     Trzeba przyznać, że jedna sprawa umknęła naszej uwadze. Sformułowanie
-    przedstawione przez prof. W. Osiatyńskiego jest dobre 1 wnoszę propozycję z
+    przedstawione przez prof. W. Osiatyńskiego jest dobre i wnoszę propozycję z
     tym zgodną.
   </p>
   <p class="rep-statement">
@@ -558,35 +556,34 @@
     następująca: „Ust. 1. Dziedzictwo narodowe, ziemia, środowisko przyrodnicze,
     krajobraz, zabytki przeszłości, tradycja, kultura, wspólny majątek są pod
     szczególną ochroną Rzeczypospolitej. Ust. 2. Tworzenie nowych wartości
-    kulturowych, artystycznych 1 intelektualnych otrzymuje pomoc i wsparcie ze
+    kulturowych, artystycznych i intelektualnych otrzymuje pomoc i wsparcie ze
     strony państwa”. Rozumiem, że pod głosowanie mam poddać ust. I, bo ust. 2
     znajduje się w dalszych częściach projektu przygotowanego przez podkomisję.
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Jestem zwolennikiem sformułowania mówiącego o wspieraniu kultury
-    narodowej, ale nie powinno ono znajdować się w tym rozdziale, tylko dalej,
-    gdzie zadania państwa będą określone bardziej konkretnie. Gdybyśmy umieścili
-    ten problem na wstępie, to z katalogu różnych zwybralibyśmy tylko to jedno.
+    Jestem zwolennikiem sformułowania mówiącego o wspieraniu kultury narodowej,
+    ale nie powinno ono znajdować się w tym rozdziale, tylko dalej, gdzie
+    zadania państwa będą określone bardziej konkretnie. Gdybyśmy umieścili ten
+    problem na wstępie, to z katalogu różnych zwybralibyśmy tylko to jedno.
     Dlaczego pan poseł uważa, że akurat ten problem należy umieścić w tym
     miejscu?
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
-    Sądzę, że kultura narodowa zasługuje na taką samą ochronę jak
-    bezpieczeństwo socjalne obywateli. Na pewno nie jest to wartość mniejsza. W
-    ustawach będą rozwijane sprawy bezpieczeństwa socjalnego, podobnie jak
-    kwestie kultury. Uważam, że kultura powinna być uwzględniona wśród głównych
-    zpaństwa.
+    Sądzę, że kultura narodowa zasługuje na taką samą ochronę jak bezpieczeństwo
+    socjalne obywateli. Na pewno nie jest to wartość mniejsza. W ustawach będą
+    rozwijane sprawy bezpieczeństwa socjalnego, podobnie jak kwestie kultury.
+    Uważam, że kultura powinna być uwzględniona wśród głównych zpaństwa.
   </p>
   <p class="rep-statement">
     <strong>Senator Stefan Pastuszka (PSL):</strong>
-    W art. 3 powinien znaleźć się przepis, iż państwo realizuje zasady
-    trwałego i zrównoważonego rozwoju.
+    W art. 3 powinien znaleźć się przepis, iż państwo realizuje zasady trwałego
+    i zrównoważonego rozwoju.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Ten wniosek jest już zgłoszony 1 będzie przegłosowany. Rozumiem, że już
+    Ten wniosek jest już zgłoszony i będzie przegłosowany. Rozumiem, że już
     wszystkie poglądy na ten temat zostały wymienione.
   </p>
   <p class="rep-statement">
@@ -596,7 +593,7 @@
     wyczerpalibyśmy zarówno kulturę, jak i język. Do tych spraw można wrócić w
     innym miejscu. Dziedzictwo narodowe wyczerpuje wszystkie warunki, o których
     była mowa. Zrodziła się wątpliwość, czy kolejność nie powinna być taka:
-    Rzeczpospolita Polska strzeże niepodległości 1 całości terytorium, chroni
+    Rzeczpospolita Polska strzeże niepodległości i całości terytorium, chroni
     wolności i prawa człowieka, gwarantuje bezpieczeństwo obywateli itd. Składam
     tego rodzaju propozycję.
   </p>
@@ -605,23 +602,23 @@
     Czy eksperci uważają, że tego rodzaju logika byłaby słuszna? Jeśli tak, to
     rozumiem, że pod głosowanie poddane byłyby następujące propozycje: wstępnie
     musielibyśmy rozstrzygnąć, czy chcemy używać sformułowania: „dziedzictwa
-    kultury 1 języka narodu” czy też „kultury narodowej i języka”.
-    „Rzeczpospolita Polska strzeże niepodległości 1 całości swojego terytorium,
-    chroni prawa 1 wolności człowieka, gwarantuje bezpieczeństwo obywateli,
+    kultury i języka narodu” czy też „kultury narodowej i języka”.
+    „Rzeczpospolita Polska strzeże niepodległości i całości swojego terytorium,
+    chroni prawa i wolności człowieka, gwarantuje bezpieczeństwo obywateli,
     strzeże dziedzictwa narodowego, zapewnia ochronę środowiska poprzez
     zrównoważony rozwój”. Czy tak miałby brzmieć ten artykuł?
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
-    Chciałbym skierować pytanie do prof. Osiatyńskiego, bo mam wątpliwości,
-    czy przy wolnościach i prawach człowieka można mówić o ochronie, a przy
+    Chciałbym skierować pytanie do prof. Osiatyńskiego, bo mam wątpliwości, czy
+    przy wolnościach i prawach człowieka można mówić o ochronie, a przy
     bezpieczeństwie obywateli o gwarantowaniu? Prawa człowieka muszą być
     zagwarantowane, więc wyraz „chrosłabia to sformułowanie. Możemy napisać, że
     gwarantuje wolności i prawa człowieka oraz bezpieczeństwo obywateli.
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Bałbym się użyć spójnika „oraz ', bo wyglądałoby to na to, że jest to
+    Bałbym się użyć spójnika „oraz ', bo wyglądałoby to na to, że jest to
     tożsama forma działalności. Z, konstytucji w ostatnich latach została
     Świadomie — jak rozumiem —- usunięta zasada tzw. horyzontalnego działania
     praw, która była w projekcie poznańskim i w pierwszym projekcie sejmowym z
@@ -655,23 +652,23 @@
   <!--<hr><p class="page-break">strona 33</p><hr>-->
 
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Zgodziłbym się z argumentacją posła T. Mazowieckiego,
-    który ma doświadczenia z Jugosławii, ale nie tylko. W podkomisji
-    proponowaliśmy wyraz „gwarancja”, ponieważ jest to pojęcie szersze. Nie
-    chodzi tylko o ochronę praw i wolności osobistych 1 politycznych, ale
-    również o prawa socjalne. Pojęcie „gwaranodnosiłoby się do praw socjalnych.
-    W związku z tym dobrze byłoby je zachować, Kwestia horyzontalnego działania
-    praw. W podkomisji przepis ten został wyeliminowany, ale nie byłem do końca
-    przekonany, przy pełnym zrozumieniu istoty horyzontalnego działania praw
-    obywatelskich. Konstytucja jako akt fundamentalny dla państwa powinna
-    zawierać wolności i prawa funkcjonujące nie tylko w relacji wertykalnej, to
-    znaczy państwo—samorządy-—jednostka, ale także między jednostkami.
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Zgodziłbym się z argumentacją posła T. Mazowieckiego, który ma doświadczenia
+    z Jugosławii, ale nie tylko. W podkomisji proponowaliśmy wyraz „gwarancja”,
+    ponieważ jest to pojęcie szersze. Nie chodzi tylko o ochronę praw i wolności
+    osobistych i politycznych, ale również o prawa socjalne. Pojęcie
+    „gwaranodnosiłoby się do praw socjalnych. W związku z tym dobrze byłoby je
+    zachować, Kwestia horyzontalnego działania praw. W podkomisji przepis ten
+    został wyeliminowany, ale nie byłem do końca przekonany, przy pełnym
+    zrozumieniu istoty horyzontalnego działania praw obywatelskich. Konstytucja
+    jako akt fundamentalny dla państwa powinna zawierać wolności i prawa
+    funkcjonujące nie tylko w relacji wertykalnej, to znaczy
+    państwo—samorządy-—jednostka, ale także między jednostkami.
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
-    Przy wolnościach i prawach człowieka optowałbym za wyrazem „gwarantuje”,
-    bo konstytucja powinna prawa gwarantować, a nie tylko chronić.
+    Przy wolnościach i prawach człowieka optowałbym za wyrazem „gwarantuje”, bo
+    konstytucja powinna prawa gwarantować, a nie tylko chronić.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -686,40 +683,39 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jan Orzechowski (PSL):</strong>
-    Uważam, że do podstawowych obowiązków państwa należy ochrona mm ar nA ma
-    na bezpieczeństwa obywateli. Dlatego sądzę, że jeśli piszemy, Iż państwo
-    gwarantuje prawa 1 wolności człowieka, to również należy napisać, że
+    Uważam, że do podstawowych obowiązków państwa należy ochrona mm ar nA ma na
+    bezpieczeństwa obywateli. Dlatego sądzę, że jeśli piszemy, Iż państwo
+    gwarantuje prawa i wolności człowieka, to również należy napisać, że
     gwarantuje bezpieczeństwo obywateli, a nie zapewnia, bo jest to zbyt słabe
     określenie.
   </p>
   <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ:</strong>
-    „S”): Po skonsultowaniu i wysłuchaniu ważkich argumentów prof. W.
-    Osiatyńskiego przychylam się do zdania posła T. Mazowieckiego, które jest
-    zbieżne z intencją projektu obywatelskiego NSZZ, „Solidarność ”. Propozycja
-    zapisania tylko „ochrony” nie jest obowiązkiem zapewnienia jej właściwego
-    rezultatu. W tej sytuacji państwo nie ponosi odpowiedzialności za jakość, bo
-    wystarczy, że formalnie dokona czynności ochronnych. W projekcie
-    obywatelskim NSZZ „„Solidarność popartym przez posła T. Mazowieckiego,
-    odnośnie do istoty obowiązków państwa jest przepis o zapewnieniu i gwarancji
-    rezultatu, a także o nienaruszalności, co wychodzi naprzeciw wyeliminowanemu
-    horyzontalnemu ujęciu tej sprawy. Nie wystarczy tylko dopełnienie obowiązku.
-    Jednocześnie te trzy sformułowania dają najmocniejszą ochronę przedmiotu
-    ochrony. Obstaję przy zapisie: „Rzeczpospolita zapewnia i gwarantuje prawa
-    człowieka, bezpieczeństwo obywateli oraz ich nienaruszalność, strzeże
-    niepodległoŚci 1 całości terytorium, dziedzictwa kultury, języka oraz
-    zapewnia ochronę i rozwój Środowiska”. Taka jest chyba intencja wszystkich
-    zabierających głos. Chodzi o to, żeby zapisać jak najdalej idące gwarancje
-    ze strony państwa na rzecz praw człowieka i bezpieczeństwa obywateli.
-    Dlatego przepis projektu obywatelskiego uzupełniony o bezpieczeństwo
-    obywateli daje potrójne gwarancje rezultatu funkcji państwa w tej
-    dziedzinie.
+    <strong>Senator Piotr Andrzejewski (NSZZ S”):</strong>
+    o skonsultowaniu i wysłuchaniu ważkich argumentów prof. W. Osiatyńskiego
+    przychylam się do zdania posła T. Mazowieckiego, które jest zbieżne z
+    intencją projektu obywatelskiego NSZZ, „Solidarność ”. Propozycja zapisania
+    tylko „ochrony” nie jest obowiązkiem zapewnienia jej właściwego rezultatu. W
+    tej sytuacji państwo nie ponosi odpowiedzialności za jakość, bo wystarczy,
+    że formalnie dokona czynności ochronnych. W projekcie obywatelskim NSZZ
+    „„Solidarność popartym przez posła T. Mazowieckiego, odnośnie do istoty
+    obowiązków państwa jest przepis o zapewnieniu i gwarancji rezultatu, a także
+    o nienaruszalności, co wychodzi naprzeciw wyeliminowanemu horyzontalnemu
+    ujęciu tej sprawy. Nie wystarczy tylko dopełnienie obowiązku. Jednocześnie
+    te trzy sformułowania dają najmocniejszą ochronę przedmiotu ochrony. Obstaję
+    przy zapisie: „Rzeczpospolita zapewnia i gwarantuje prawa człowieka,
+    bezpieczeństwo obywateli oraz ich nienaruszalność, strzeże niepodległoŚci i
+    całości terytorium, dziedzictwa kultury, języka oraz zapewnia ochronę i
+    rozwój Środowiska”. Taka jest chyba intencja wszystkich zabierających głos.
+    Chodzi o to, żeby zapisać jak najdalej idące gwarancje ze strony państwa na
+    rzecz praw człowieka i bezpieczeństwa obywateli. Dlatego przepis projektu
+    obywatelskiego uzupełniony o bezpieczeństwo obywateli daje potrójne
+    gwarancje rezultatu funkcji państwa w tej dziedzinie.
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     W świetle dotychczasowej dyskusji chciałabym postawić pytanie: czy
     przewidujecie państwo, że w projekcie konstytucji będzie zapisana zasada
-    bezpośredniej stosowalności jej przepisów 1 skargi sądowej? Jeśli tak i
+    bezpośredniej stosowalności jej przepisów i skargi sądowej? Jeśli tak i
     będzie przepis, że państwo zapewnia bezpieczeństwo obywateli, to jeżeli
     komukolwiek cokolwiek się stanie, poszkodowany będzie mógł zgłaszać
     roszczenia w stosunku do Rzeczypospolitej Polskiej za złamanie przepisów
@@ -732,14 +728,14 @@
     drogi może powodować roszczenia ze strony obywatela?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Mam nadzieję, że ocaleje zasada bezpośredniego
-    stosowania przepisów konstytucji. Jest ona niemal we wszystkich projektach
-    ustawy zasadniczej. Skarga konstytucyjna nie będzie dawała podstawy do
-    roszczeń jednostki wynikających z klauzul generalnych, o których teraz mówimy.
-    Skarga konstytucyjna będzie przysługiwać tylko w przypadku naruszenia
-    podstawowych praw jednostki gwarantowanych konstytucją. Skarga zorientowana
-    jest na ochronę podstawowych praw zawarowanych w konstytucji, po wyczerpaniu
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Mam nadzieję, że ocaleje zasada bezpośredniego stosowania przepisów
+    konstytucji. Jest ona niemal we wszystkich projektach ustawy zasadniczej.
+    Skarga konstytucyjna nie będzie dawała podstawy do roszczeń jednostki
+    wynikających z klauzul generalnych, o których teraz mówimy. Skarga
+    konstytucyjna będzie przysługiwać tylko w przypadku naruszenia podstawowych
+    praw jednostki gwarantowanych konstytucją. Skarga zorientowana jest na
+    ochronę podstawowych praw zawarowanych w konstytucji, po wyczerpaniu
     wszystkich innych środków. Jej podstawą materialno-prawną nie mogą być
     ogólne sformułowania o celach państwa.
   </p>
@@ -761,9 +757,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Mamy kilka kwestii do przegłosowania, które wiążą się z art. 3. Proszę,
-    żeby poseł T. Mazowiecki sformułował swoją propozycję na piśmie. Chyba znam
-    ją już na pamięć, ale proszę o spełnienie proceduralnego obowiązku. Jest
+    Mamy kilka kwestii do przegłosowania, które wiążą się z art. 3. Proszę, żeby
+    poseł T. Mazowiecki sformułował swoją propozycję na piśmie. Chyba znam ją
+    już na pamięć, ale proszę o spełnienie proceduralnego obowiązku. Jest
     propozycja senatora P. Andrzejewskiego, żeby do końcowego kompromisowego
     rozwiązania dopisać wyraz „nienaruszalność '. Musimy też przegłosować
     sformułowanie dotyczące strzeżenia dziedzictwa kultury i języka narodu.
@@ -791,20 +787,19 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Wczoraj na ten temat dyskutowaliśmy z udziałem gości, więc nie wracajmy
-    już do tego problemu. Mamy wniosek senatora J. Madeja 1 odmienny pogląd
-    senatora P. Andrzejewskiego. Proszę nie rozpoczynać dyskusji na ten temat,
-    bo został on już omówiony.
+    Wczoraj na ten temat dyskutowaliśmy z udziałem gości, więc nie wracajmy już
+    do tego problemu. Mamy wniosek senatora J. Madeja i odmienny pogląd senatora
+    P. Andrzejewskiego. Proszę nie rozpoczynać dyskusji na ten temat, bo został
+    on już omówiony.
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Moja propozycja zmierzała do tego, żeby w artykule tym napisać o
-    środowisku w ogóle, a nie o Środowisku przyrodniczym. Środowisko w ogóle
-    tworzy również mieszkanie, dom, osiedle, a nie tylko Środowisko
-    przyrodnicze. Chodzi właśnie o zapewnienie ochrony środowiska człowieka w
-    szerokim znaczeniu — poprzez zasadę zrównoważonego rozwoju. Zasada ta
-    oznacza zaspokajanie potrzeb ludzkości bez uszczerbku dla przyszłych
-    pokoleń.
+    Moja propozycja zmierzała do tego, żeby w artykule tym napisać o środowisku
+    w ogóle, a nie o Środowisku przyrodniczym. Środowisko w ogóle tworzy również
+    mieszkanie, dom, osiedle, a nie tylko Środowisko przyrodnicze. Chodzi
+    właśnie o zapewnienie ochrony środowiska człowieka w szerokim znaczeniu —
+    poprzez zasadę zrównoważonego rozwoju. Zasada ta oznacza zaspokajanie
+    potrzeb ludzkości bez uszczerbku dla przyszłych pokoleń.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
@@ -838,16 +833,16 @@
     i do propozycji wyeliminowania wyrazów „demokratycznie wybranych”.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Przypominam, że w art. 25 Międzynarodowego Paktu Praw
-    Obywatelskich i Politycznych podkreśla się wyraźnie demokratycznie wybranych
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Przypominam, że w art. 25 Międzynarodowego Paktu Praw Obywatelskich i
+    Politycznych podkreśla się wyraźnie demokratycznie wybranych
     przedstawicielii bo mogą być różni przedstawiciele narodu. W związku z tym
     uważam, że dobrze byłoby zachować to określenie.
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Proponowałabym, aby ust. 2 tego artykułu brzmiał: „Naród sprawuje władzę
-    przez swych przedstawicieli wybranych do Sejmu 1 Senatu lub bezpośrednio”.
+    przez swych przedstawicieli wybranych do Sejmu i Senatu lub bezpośrednio”.
     Bez tego sprecyzowania nie odpowiadamy jednoznacznie na kardynalne pytanie,
     kto reprezentuje naród, czyli suwerena, kto jest nośnikiem praw narodu?
     Sądzę, że dopiero poprzez to sprecyzowanie unikamy dwuznaczności
@@ -910,10 +905,10 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
-    Jeśli używamy określenia ogólnego i wyjaśniamy, czym ono jest, to nikogo
-    nie pozbawiamy takiej możliwości. Czy ogół obywateli stanowi odrębną
-    tożsamość, jaką jest naród polityczny, czy jest to przypadkowe zbiorowisko?
-    Ogół obywateli polskich stanowi odrębną tożsamość.
+    Jeśli używamy określenia ogólnego i wyjaśniamy, czym ono jest, to nikogo nie
+    pozbawiamy takiej możliwości. Czy ogół obywateli stanowi odrębną tożsamość,
+    jaką jest naród polityczny, czy jest to przypadkowe zbiorowisko? Ogół
+    obywateli polskich stanowi odrębną tożsamość.
   </p>
   <p class="rep-statement">
     <strong>Poseł Irena Lipowicz (UW):</strong>
@@ -929,26 +924,27 @@
     „Ust. 1. Władza zwierzchnia w Rzeczypospolitej należy do narodu. Ust. 2.
     Naród sprawuje ją przez swoich przedstawicieli wybieranych do Sejmu i
     Senatu, powołanego w powszechnym głosowaniu Prezydenta Rzeczypospolitej,j
-    odpowiedzialny przed Sejmem Rząd oraz niezawisłe sądy. Ust. 3. Sprawowanie władzy następuje także poprzez wyrażenie
-    woli w referendum oraz obywatelską inicjatywę ustawodawczą”. Jest to władza
-    zwierzchnia, która może być powoływana przez naród. Rząd z racji charakteru
-    i funkcji jest władzą zwierzchnią odpowiedzialną przed Sejmem. Nie sposób
-    pominąć deprecjonowanej dotychczas roli niezawisłych sądów jako władzy
-    zwierzchniej w myśl monteskiuszowskiego podziału. Nie są one wybierane przez
-    ogół obywateli stanowiących naród, ale funkcja pełniona w państwie przez
-    niezawisłe sądy upoważnia do wyodrębnienia ich jako oddzielnej władzy
-    zwierzchniej odnośnie całości tego, co stanowi państwo i naród. Następny
-    artykuł mówi o wadze i randze samorządów. Podzielając argumentację co do
-    roli samorządów, nie można powiedzieć, że jest to władza zwierzchnia nad
-    całością narodu i państwa. Dlatego jest to przedmiot prerogatyw
-    wyodrębnionych w następnym artykule. Popieram wniosek alternatywny z
-    projektu NSZZ „Solidarność, bo daje on konkretną gwarancję zrealizowania
-    postulatów, o których była przed chwilą mowa.
+    odpowiedzialny przed Sejmem Rząd oraz niezawisłe sądy. Ust. 3. Sprawowanie
+    władzy następuje także poprzez wyrażenie woli w referendum oraz obywatelską
+    inicjatywę ustawodawczą”. Jest to władza zwierzchnia, która może być
+    powoływana przez naród. Rząd z racji charakteru i funkcji jest władzą
+    zwierzchnią odpowiedzialną przed Sejmem. Nie sposób pominąć deprecjonowanej
+    dotychczas roli niezawisłych sądów jako władzy zwierzchniej w myśl
+    monteskiuszowskiego podziału. Nie są one wybierane przez ogół obywateli
+    stanowiących naród, ale funkcja pełniona w państwie przez niezawisłe sądy
+    upoważnia do wyodrębnienia ich jako oddzielnej władzy zwierzchniej odnośnie
+    całości tego, co stanowi państwo i naród. Następny artykuł mówi o wadze i
+    randze samorządów. Podzielając argumentację co do roli samorządów, nie można
+    powiedzieć, że jest to władza zwierzchnia nad całością narodu i państwa.
+    Dlatego jest to przedmiot prerogatyw wyodrębnionych w następnym artykule.
+    Popieram wniosek alternatywny z projektu NSZZ „Solidarność, bo daje on
+    konkretną gwarancję zrealizowania postulatów, o których była przed chwilą
+    mowa.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
-    Pragnę wyrazić sprzeciw wobec myśli zawartej we wniosku poseł K.
-    Łybackiej, ponieważ Prezydent RP jest także przedstawicielem narodu. Próba
+    Pragnę wyrazić sprzeciw wobec myśli zawartej we wniosku poseł K. Łybackiej,
+    ponieważ Prezydent RP jest także przedstawicielem narodu. Próba
     przekreślenia tego jest decyzją polityczną, wymagającą rozstrzygnięcia przez
     to gremium. Należy podnieść wątpliwość, na którą zwrócili uwagę poseł J.
     Szymański, senator P. Andrzejewski i poseł K. Lipowicz. Jeżeli będziemy
@@ -993,8 +989,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
-    Mam pytania do ekspertów. Kto może reprezentować suwerena, czyli naród?
-    Czy jest korzystna sytuacja, kiedy więcej jest nośników praw tego samego
+    Mam pytania do ekspertów. Kto może reprezentować suwerena, czyli naród? Czy
+    jest korzystna sytuacja, kiedy więcej jest nośników praw tego samego
     podmiotu? Czy nie prowadzi to do dwuwładzy i konfliktów?
   </p>
   <p class="rep-statement">
@@ -1022,40 +1018,43 @@
     z interpretacji systemowej, bez wyliczania organów?
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof. Kazimierz Działocha:<strong>
-    Dyskusja dotyczy zasadniczego problemu. Chciałbym
-    uświadomić Komisji możliwe rozstrzygnięcia w tej kwestii. Czy chodzi o
-    pojęcie przedstawicielstwa polityczno-prawnego, czy pojęcie
-    przedstawicielskich organów władzy narodu? Według jednych poglądów organami
-    przedstawicielskimi władzy narodu miałyby być Sejm i Senat. Tak
-    przyzwyczailiśmy się rozumieć ten problem w związku z brzmieniem art. 2
-    zachowanych przepisów konstytucyjnych. Wczoraj drugą tendencję najsilniej
-    zasygnalizował prof. A. Rzepliński. Przedstawicielami władzy narodu są także
-    urzędnicy państwowi, sędziowie, nie mówiąc już o prezydencie. Jest to bardzo
-    szerokie rozumienie przedstawicielskich organów władzy narodu. Konsekwencje
-    rozstrzygnięcia są daleko idące, ale jest to zasadnicza zmiana w stosunku do
-    obecnego systemu pojęć, które obowiązują na gruncie konstytucji i doktryny
-    prawa.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawicielstwo narodu rozumiano w te:</strong>
-    sposób, że organ przedstawicielski pochodzi z demokratycznych wyborów,
-    jest wieloosobowy, działa kolegialnie przez określoną kadencję. Drugą cechą
-    strukturalną tego pojęcia jest posiadanie przez organ przedstawicielski
-    odpowiednich kompetencji ustawodawczych 1 kontrolnych. Tak jest według
-    obecnego rozumienia i tak to przeważa w demokratycznej doktrynie, na której
-    wyrasta system parlamentarno-gabinetowy. Czy inne organy, poza Sejmem i
-    Senatem, które chce się uznać za organy przedstawicielskie władzy narodu,
-    odpowiadają dotychczasowemu pojęciu? Odpowiedź brzmi: nie. Jeżeli przyjmiemy
-    szerokie rozumienie przedstawicielstwa, to tworzymy inny Świat pojęć.
-    Konsekwencje są daleko idące. Na pewno prezydent jest organem pochodzącym z
-    wyborów bezpośrednich 1 demokratycznych. Nie jest organem działającym
-    kolegialnie. Czy można mu przyznać takie kompetencje jak organom
-    przedstawicielskim w dotychczasowym rozumieniu? Z konstytucji to nie wynika.
-    W dniu 27 stycznia br. głosowaliście pa stwo, że inaczej ma być określony
-    charakter roli prezydenta. Państwo nie przegłosowaliście, czy krąg organów
-    przedstawicielskich ma być zrozumiany szeroko, czy tradycyjnie, jak w art. 2
-    obowiązujących przepisów konstytucyjnych. Ja niczego nie przesądzam.
+    <strong>
+      Ekspert Komisji, prof. Kazimierz Działocha:
+      <strong>
+        Dyskusja dotyczy zasadniczego problemu. Chciałbym uświadomić Komisji
+        możliwe rozstrzygnięcia w tej kwestii. Czy chodzi o pojęcie
+        przedstawicielstwa polityczno-prawnego, czy pojęcie przedstawicielskich
+        organów władzy narodu? Według jednych poglądów organami
+        przedstawicielskimi władzy narodu miałyby być Sejm i Senat. Tak
+        przyzwyczailiśmy się rozumieć ten problem w związku z brzmieniem art. 2
+        zachowanych przepisów konstytucyjnych. Wczoraj drugą tendencję
+        najsilniej zasygnalizował prof. A. Rzepliński. Przedstawicielami władzy
+        narodu są także urzędnicy państwowi, sędziowie, nie mówiąc już o
+        prezydencie. Jest to bardzo szerokie rozumienie przedstawicielskich
+        organów władzy narodu. Konsekwencje rozstrzygnięcia są daleko idące, ale
+        jest to zasadnicza zmiana w stosunku do obecnego systemu pojęć, które
+        obowiązują na gruncie konstytucji i doktryny prawa. Przedstawicielstwo
+        narodu rozumiano w ten sposób, że organ przedstawicielski pochodzi z
+        demokratycznych wyborów, jest wieloosobowy, działa kolegialnie przez
+        określoną kadencję. Drugą cechą strukturalną tego pojęcia jest
+        posiadanie przez organ przedstawicielski odpowiednich kompetencji
+        ustawodawczych i kontrolnych. Tak jest według obecnego rozumienia i tak
+        to przeważa w demokratycznej doktrynie, na której wyrasta system
+        parlamentarno-gabinetowy. Czy inne organy, poza Sejmem i Senatem, które
+        chce się uznać za organy przedstawicielskie władzy narodu, odpowiadają
+        dotychczasowemu pojęciu? Odpowiedź brzmi: nie. Jeżeli przyjmiemy
+        szerokie rozumienie przedstawicielstwa, to tworzymy inny Świat pojęć.
+        Konsekwencje są daleko idące. Na pewno prezydent jest organem
+        pochodzącym z wyborów bezpośrednich i demokratycznych. Nie jest organem
+        działającym kolegialnie. Czy można mu przyznać takie kompetencje jak
+        organom przedstawicielskim w dotychczasowym rozumieniu? Z konstytucji to
+        nie wynika. W dniu 27 stycznia br. głosowaliście pa stwo, że inaczej ma
+        być określony charakter roli prezydenta. Państwo nie przegłosowaliście,
+        czy krąg organów przedstawicielskich ma być zrozumiany szeroko, czy
+        tradycyjnie, jak w art. 2 obowiązujących przepisów konstytucyjnych. Ja
+        niczego nie przesądzam.
+      </strong>
+    </strong>
   </p>
   <p class="rep-statement">
     <strong>Senator Stefan Pastuszka (PSL):</strong>
@@ -1069,14 +1068,14 @@
 
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
-    Uprzejmie informuję, że już zgłosiłam propozycję tego przepisu.
-    Przypominam, że dokonaliśmy pewnych .rozstrzygnięć kierunkowych. W świetle
-    tych decyzji miałam wątpliwości odnośnie do tego, czy możemy dopuszczać do
-    interpretacji — przy braku precyzyjnego sformułowania — że mamy różnych
-    nośników praw suwerena. Dlatego o to pytałam. Czym innym jest odczytywanie
-    powszechnych wyborów jako wzmocnienie autorytetu, a czym innym jest
-    odczytywanie wyników powszechnych wyborów w sensie interpretacji prawa do
-    reprezentowania suwerena. To są dwie zupełnie różne sprawy.
+    Uprzejmie informuję, że już zgłosiłam propozycję tego przepisu. Przypominam,
+    że dokonaliśmy pewnych .rozstrzygnięć kierunkowych. W świetle tych decyzji
+    miałam wątpliwości odnośnie do tego, czy możemy dopuszczać do interpretacji
+    — przy braku precyzyjnego sformułowania — że mamy różnych nośników praw
+    suwerena. Dlatego o to pytałam. Czym innym jest odczytywanie powszechnych
+    wyborów jako wzmocnienie autorytetu, a czym innym jest odczytywanie wyników
+    powszechnych wyborów w sensie interpretacji prawa do reprezentowania
+    suwerena. To są dwie zupełnie różne sprawy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
@@ -1092,11 +1091,11 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
-    Początkowo wydawało się, że to zagadnienie jest proste, ale okazało się,
-    że dotykamy problemów zasadniczych. Chciałbym, aby był odnotowany wniosek,
-    iż uważam, że dyskutowana problematyka powinna być zawarta w odrębnym
-    artykule, a nie w ust. 2, jak to się kształtowało na początku dyskusji. Jest
-    to materia na odrębny artykuł konstytucji. Przytaczano rozmaite argumenty
+    Początkowo wydawało się, że to zagadnienie jest proste, ale okazało się, że
+    dotykamy problemów zasadniczych. Chciałbym, aby był odnotowany wniosek, iż
+    uważam, że dyskutowana problematyka powinna być zawarta w odrębnym artykule,
+    a nie w ust. 2, jak to się kształtowało na początku dyskusji. Jest to
+    materia na odrębny artykuł konstytucji. Przytaczano rozmaite argumenty
     przeciwko wnioskowi poseł K. Łybackiej, ale i przeciwko wnioskowi senatora
     P. Andrzejewskiego. Formuła ogólna zawarta w art. 6 chyba najlepiej
     odpowiada naszym intencjom I charakterowi konstytucji. Pozostaje problem
@@ -1131,7 +1130,7 @@
     władzę w rozumieniu określonych organów. Ta formuła nie budziła wątpliwości.
     Chodzi o organy przedstawicielskie, przy założeniu, że jeżeli prezydent
     pochodzi z wyboru, to też można stwierdzić, że jest organem
-    przedstawicielIskim. W historii funkcjonowała taka formuła 1 tego pominąć
+    przedstawicielIskim. W historii funkcjonowała taka formuła i tego pominąć
     nie można. Na tym bym poprzestał, bez prób definiowania poszczególnych
     terminów, bo będziemy musieli rozstrzygnąć, czy przedstawiciele mniejszości
     narodowych są obywatelami i członkami narodu. Przyjmujemy tradycyjne
@@ -1148,19 +1147,19 @@
     art. 6.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Chciałem odpowiedzieć poseł K. Łybackiej, która pytała,
-    czy korzystne jest, jeśli będziemy mieli do czynienia z wieloma organami
-    będącymi nośnikami suwerenności. Odpowiadam, że zależy to od tego, jakie w
-    funkcjonowaniu państwa najbardziej ceni się wartości. Jeżeli ceni się
-    bezwzględną sprawność państwa, to można postulować, że powinien być jeden
-    ośrodek, któremu wszystkie pozostałe organy powinny być podporządkowane.
-    Jest to znana teoria jedności władzy państwowej. Jeżeli za wartość wielkiego
-    formatu uważa się to, aby istniała wewnętrzna kontrola w obrębie aparatu
-    władzy 1 wewnętrzne hamowanie, by sfera aktywności państwa była ograniczona
-    i była zapewniona szeroka swoboda działalnoŚci obywateli, to wówczas uważa
-    się, że powinno być wielu nośników suwerenności. W tym przypadku opowiadamy
-    się za zasadą podziału władzy.
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Chciałem odpowiedzieć poseł K. Łybackiej, która pytała, czy korzystne jest,
+    jeśli będziemy mieli do czynienia z wieloma organami będącymi nośnikami
+    suwerenności. Odpowiadam, że zależy to od tego, jakie w funkcjonowaniu
+    państwa najbardziej ceni się wartości. Jeżeli ceni się bezwzględną sprawność
+    państwa, to można postulować, że powinien być jeden ośrodek, któremu
+    wszystkie pozostałe organy powinny być podporządkowane. Jest to znana teoria
+    jedności władzy państwowej. Jeżeli za wartość wielkiego formatu uważa się
+    to, aby istniała wewnętrzna kontrola w obrębie aparatu władzy i wewnętrzne
+    hamowanie, by sfera aktywności państwa była ograniczona i była zapewniona
+    szeroka swoboda działalnoŚci obywateli, to wówczas uważa się, że powinno być
+    wielu nośników suwerenności. W tym przypadku opowiadamy się za zasadą
+    podziału władzy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
@@ -1169,7 +1168,7 @@
     ZN pisów pozostających w mocy na podstawie art. 77 małej konstytucji nie
     wchodzi w grę, ponieważ tamto sformułowanie było oparte na przyjęciu w
     Konstytucji PRL zasady jednolitości władzy. Wyliczenie mogło sprowadzać się
-    do Sejmu 1 Senatu, ponieważ prezydent nie do końca był nosicielem
+    do Sejmu i Senatu, ponieważ prezydent nie do końca był nosicielem
     zwierzchnictwa czy suwerenności narodu. Na gruncie zasady podziału władz
     jest tak, że nie da się wyliczyć wszystkich podmiotów uzewnętrzniających
     zasadę zwierzchnictwa narodu. Dlatego formułuje się ogólną dyrektywę, normę,
@@ -1191,7 +1190,7 @@
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Spór ma zasadniczy charakter. Kontynuując myśl wyrażoną przez prof. P.
     Sarneckiego, że w gruncie rzeczy sposób rozumienia tego artykułu związany
-    jest z aksjologią 1 wartościowaniem politycznym, warto zwrócić uwagę na
+    jest z aksjologią i wartościowaniem politycznym, warto zwrócić uwagę na
     fakt, że w wyniku wstępnych głosowań przyjęliśmy wersję słabej prezydentury.
     Podnoszono argumenty, konstrukcji zwierzchnictwa narodu, mówiące o tym, że
     podmiotów powinno być wiele, zakładając, że należy realizować zasadę
@@ -1202,7 +1201,7 @@
     którym próbujemy osłabić pozycję prezydenta, powiadając, że nie jest organem
     władzy wykonawczej, tylko gwarantem 1 arbitrem stojącym poza strukturą
     władzy, i jeśli sięgniemy do art. 171, w którym mowa jest o orzeczeniach
-    Trybunału Konstytucyjnego 1 tylko jedna wersja zakłada, że są one
+    Trybunału Konstytucyjnego i tylko jedna wersja zakłada, że są one
     bezwzględnie ostateczne, a trzy pozostałe przewidują, że parlament ma coś
     jeszcze do powiedzenia, to wówczas stwierdzenie, że tylko Sejm 1 Senat są
     emanacją narodu, jest uzasadnione. W tym znaczeniu warto by poprzeć
@@ -1220,7 +1219,7 @@
     powstrzymującą? Prof. P. Samecki powiedział jednak jedną rzecz
     niezrozumiałą. Parlament jest sam w sobie taką konstrukcją władzy, w którą
     wbudowany jest element hamowania. Konstrukcja ta zawiera bowiem myśl o
-    opozycji parlamentarnej. Nikt nie kwestionuje funkcji sądów 1 Trybunału
+    opozycji parlamentarnej. Nikt nie kwestionuje funkcji sądów i Trybunału
     Konstytucyjnego, które są elementem hamującym. Opowiadałbym się za taką
     koncepcją, która lokuje pojęcie władzy zwierzchniej w szeroko rozumianym
     parlamencie, w organie wielosobowym, który może wyrażać różne opcje obecne w
@@ -1236,7 +1235,7 @@
     Podnoszono problem, który był już dyskutowany wiele razy, czy w art. 6
     należy mówić o tym, że naród jest tworzony przez ogół obywateli. Oczywiście,
     współczesna doktryna konstytucjonalizmu przyjmuje, że naród to jest ogół
-    obywateli 1 na ogół nie jest to kwestionowane, bo naród rozumie się w sensie
+    obywateli i na ogół nie jest to kwestionowane, bo naród rozumie się w sensie
     politycznym. W naszym kraju jest dostatecznie wiele osób, które kwestionują
     taką koncepcję narodu, powołując się na koncepcję etniczną. Zabezpieczając
     się przed tego rodzaju niebezpieczeństwem, płynącym z tej interpretacji,
@@ -1274,11 +1273,11 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Zgadzam się z rozumowaniem posła J. Ciemniewskiego. Idąc tym tropem
-    uważam, że dodanie, jak chciałaby tego poseł K. Łybacka, przedstawicieli
-    Sejmu 1 Senatu w gruncie rzeczy zwolniłoby prezydenta z funkcji sprawowania
-    władzy zwierzchniej. Władza ta należy do narodu i jest sprawowana przez
-    przedstawicieli wybranych do Sejmu 1 Senatu. Gdzie byłby prezydent? Sądzę,
+    Zgadzam się z rozumowaniem posła J. Ciemniewskiego. Idąc tym tropem uważam,
+    że dodanie, jak chciałaby tego poseł K. Łybacka, przedstawicieli Sejmu i
+    Senatu w gruncie rzeczy zwolniłoby prezydenta z funkcji sprawowania władzy
+    zwierzchniej. Władza ta należy do narodu i jest sprawowana przez
+    przedstawicieli wybranych do Sejmu i Senatu. Gdzie byłby prezydent? Sądzę,
     że konsekwencją przyjęcia takiego rozwiązania byłaby konieczność
     wprowadzenia do konstytucji zasady wyboru prezydenta przez parlament. Byłoby
     to rozwiązanie również demokratyczne, taka byłaby logiczna konsekwencja.
@@ -1297,42 +1296,40 @@
     właśnie kluczową zasadą ustroju. Mówimy, że władza należy do narodu.
     Uzupełnienie zasady zwierzchnictwa narodu powinno nastąpić w późniejszych
     fragmentach konstytucji. Zgadzam się z propozycją podkomisji i z tym, co
-    proponuje senator H. Rot. Czy pojęcie narodu nie wymaga dodatkowego zdefiniowania czy dookreślenia jako ogół
-    obywateli? Chodzi tu o zasadę, która stanowi podstawę wielu szczegółowych
-    przepisów. Nie widziałbym konfliktu między późniejszymi dookreśleniami w
-    sprawie Sejmu 1 Senatu a generalną zasadą zawartą w art. 6.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł K. Łybacka zgłosił:</strong>
-    swój wniosek na piśmie, mamy również wniosek senatora H. Rota i propozycję
-    podkomisji. Eksperci proponują, żeby następnym artykułem był art. 10. Chodzi
-    o to, by po zasadzie zwierzchnictwa narodu określona została zasada udziału
-    partii politycznych w kształtowaniu i wyrażaniu woli obywateli. Mamy dwa
-    warianty art. 10. Wariant I „Ust. 1. Rzeczpospolita Polska gwarantuje
-    wolność tworzenia i działania partii politycznych. Biorą one udział w
-    kształtowaniu i wyrażaniu woli obywateli, w szczególności przez uczestnictwo
-    w wyborach. Ust. 2. Finansowanie partii politycznych jest jawne”. Wariant II
-    „Partie polityczne, ruchy obywatelskie 1 inne ugrupowania obywateli,
-    działające w oparciu o zasadę pluralizmu politycznego są formą dobrowolnego
-    1 równego uczestnictwa politycznego w kształtowaniu i wyrażaniu woli
-    obywateli oraz wpływaniu na politykę Państwa . Chciałbym zapytać, czy
-    członkowie Komisji mają w tej sprawie wnioski? Czy eksperci mają uwagi do
-    wariantów art. 10? Czy jest w tych wariantach coś, co kłóci się z logiką
-    konstytucyjną 1 wymagałoby zmiany?
+    proponuje senator H. Rot. Czy pojęcie narodu nie wymaga dodatkowego
+    zdefiniowania czy dookreślenia jako ogół obywateli? Chodzi tu o zasadę,
+    która stanowi podstawę wielu szczegółowych przepisów. Nie widziałbym
+    konfliktu między późniejszymi dookreśleniami w sprawie Sejmu i Senatu a
+    generalną zasadą zawartą w art. 6. Poseł K. Łybacka zgłosiła swój wniosek na
+    piśmie, mamy również wniosek senatora H. Rota i propozycję podkomisji.
+    Eksperci proponują, żeby następnym artykułem był art. 10. Chodzi o to, by po
+    zasadzie zwierzchnictwa narodu określona została zasada udziału partii
+    politycznych w kształtowaniu i wyrażaniu woli obywateli. Mamy dwa warianty
+    art. 10. Wariant I „Ust. 1. Rzeczpospolita Polska gwarantuje wolność
+    tworzenia i działania partii politycznych. Biorą one udział w kształtowaniu
+    i wyrażaniu woli obywateli, w szczególności przez uczestnictwo w wyborach.
+    Ust. 2. Finansowanie partii politycznych jest jawne”. Wariant II „Partie
+    polityczne, ruchy obywatelskie i inne ugrupowania obywateli, działające w
+    oparciu o zasadę pluralizmu politycznego są formą dobrowolnego i równego
+    uczestnictwa politycznego w kształtowaniu i wyrażaniu woli obywateli oraz
+    wpływaniu na politykę Państwa . Chciałbym zapytać, czy członkowie Komisji
+    mają w tej sprawie wnioski? Czy eksperci mają uwagi do wariantów art. 10?
+    Czy jest w tych wariantach coś, co kłóci się z logiką konstytucyjną i
+    wymagałoby zmiany?
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    W naszych uwagach preferowaliśmy art. 10 w wariancie
-    I, a nie w wariancie II, któremu zarzucaliśmy zbyt doktrynalne ujęcie i
-    posługiwanie się terminami prawniczo nie usprawiedliwionymi. W tym wariancie
-    wymienia się, oprócz partii politycznych, jeszcze nie zdefiniowane i nie
-    znajdujące w dalszych częściach konstytucji sensownego rozwinięcia pojęcie
-    ruchów obywatelskich i ugrupowań obywateli. Nie widać konsekwencji tych
-    sformułowań w dalszych przepisach konstytucyjnych. Nie wyklucza to inicjatyw
-    obywateli i innych form quasi-demokracji bezpośredniej. Zostawmy możliwość
-    uczestnictwa obywateli w życiu politycznym zasadzie wolności zrzeszania się.
-    Tutaj chodzi o określenie roli partii politycznych w realizacji władzy
-    politycznej narodu.
+    W naszych uwagach preferowaliśmy art. 10 w wariancie I, a nie w wariancie
+    II, któremu zarzucaliśmy zbyt doktrynalne ujęcie i posługiwanie się
+    terminami prawniczo nie usprawiedliwionymi. W tym wariancie wymienia się,
+    oprócz partii politycznych, jeszcze nie zdefiniowane i nie znajdujące w
+    dalszych częściach konstytucji sensownego rozwinięcia pojęcie ruchów
+    obywatelskich i ugrupowań obywateli. Nie widać konsekwencji tych sformułowań
+    w dalszych przepisach konstytucyjnych. Nie wyklucza to inicjatyw obywateli i
+    innych form quasi-demokracji bezpośredniej. Zostawmy możliwość uczestnictwa
+    obywateli w życiu politycznym zasadzie wolności zrzeszania się. Tutaj chodzi
+    o określenie roli partii politycznych w realizacji władzy politycznej
+    narodu.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1346,8 +1343,8 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Czy rzeczywiście umieszczenie tego artykułu w tym miejscu, zaraz po art.
-    6, jest uzasadnione? Czy jest to kwestia o tak wielkim znaczeniu systemu
+    Czy rzeczywiście umieszczenie tego artykułu w tym miejscu, zaraz po art. 6,
+    jest uzasadnione? Czy jest to kwestia o tak wielkim znaczeniu systemu
     władzy, że gwarancje dotyczące wolności tworzenia i działania partii
     politycznych muszą być umieszczone bezpośrednio po artykule mówiącym o tym,
     że władza zwierzchnia należy do narodu? Jest to sposób sprawowania władzy.
@@ -1370,14 +1367,14 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
-    Umieszczenie tego artykułu zaraz po przepisie dotyczącym władzy
-    zwierzchniej ma uzasadnienie. Podam dla przykładu, że w systematyce
-    konstytucji francuskiej ten artykuł zajmuje wysokie miejsce, bo jest to art.
-    4. Mówi się tam nawet, że realizacja suwerenności narodu następuje przy
-    udziale partii politycznych. W naszym projekcie wspomina się o wyrażaniu
-    woli obywateli i uczestnictwie w wyborach, co jest formą realizacji władzy,
-    która ma być urzeczywistniona przez przedstawicieli. Sugerowałbym właśnie
-    taką systematykę. Ust. 2 rzeczywiście można przenieść do ustawy o partiach
+    Umieszczenie tego artykułu zaraz po przepisie dotyczącym władzy zwierzchniej
+    ma uzasadnienie. Podam dla przykładu, że w systematyce konstytucji
+    francuskiej ten artykuł zajmuje wysokie miejsce, bo jest to art. 4. Mówi się
+    tam nawet, że realizacja suwerenności narodu następuje przy udziale partii
+    politycznych. W naszym projekcie wspomina się o wyrażaniu woli obywateli i
+    uczestnictwie w wyborach, co jest formą realizacji władzy, która ma być
+    urzeczywistniona przez przedstawicieli. Sugerowałbym właśnie taką
+    systematykę. Ust. 2 rzeczywiście można przenieść do ustawy o partiach
     politycznych. Chcę przypomnieć perypetie, jakie miały miejsce w Niemczech w
     związku z przyjmowaniem ustawy o finansowaniu partii politycznych. Nie jest
     to tylko przypadek charakterystyczny dla Niemiec, że tam partie polityczne
@@ -1405,7 +1402,7 @@
     obywatelskich. W tym miejscu powinniśmy mówić o funkcjach partii
     politycznych w procesie realizacji zwierzchnictwa narodu. Nic nie szkodzi,
     że jedna struktura organizacyjna jest regulowana w dwóch miejscach. Wiele
-    jest takich kwestii, o których mówi się w części ogólnej 1 później w
+    jest takich kwestii, o których mówi się w części ogólnej i później w
     przepisach szczegółowych. Uważam, że nie w tym miejscu należy mówić o
     wolności tworzenia i działania partii politycznych. Istota rzeczy w tym
     fragmencie konstytucji polega na tym, że poprzez partie polityczne realizuje
@@ -1434,8 +1431,8 @@
     całkowicie wyczerpuje treść art. 10. Gdyby zapadła decyzja, że artykuł ten
     należy zachować w tym miejscu, to uważam, że wystarczy pierwsze zdanie:
     „Rzeczpospolita Polska gwarantuje wolność tworzenia i działania partii
-    politycznych”. Działanie obejmuje także udział w wyrażaniu opinii, udział w wyborach
-    itd. Ust. 2 nadaje się do ustawy o partiach politycznych.
+    politycznych”. Działanie obejmuje także udział w wyrażaniu opinii, udział w
+    wyborach itd. Ust. 2 nadaje się do ustawy o partiach politycznych.
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
@@ -1447,100 +1444,100 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Przekonują mnie argumenty posła J. Ciemniewskiego 1 poseł K. Łybackiej.
-    W tym miejscu konstytucji najważniejsze jest to, jak się odbywa
-    przeniesienie zwierzchnictwa narodu na jego przedstawicieli. Partie
-    polityczne stanowią ważny element w tym procesie. Uważam jednak, że ich
-    finansowanie jest ważną materią. Równie ważną materią jest to, że
-    konstytucja nie powinna dopuszczać do istnienia tajnych partii 1 tajnych
-    związków. Wysłuchałem argumentów posła A. Kwaśniewskiego, który stwierdził,
-    że władztwo sprawowane jest nie tylko poprzez partie polityczne.
-    Kształtowanie woli obywateli w gruncie rzeczy odbywa się poprzez partie
-    polityczne. Władztwo oznacza nie tylko kształtowanie i wyrażanie woli
-    obywateli. Po wysłuchaniu tych opinii chciałbym zaprezentować przepis w
-    brzmieniu: „Kształtowanie i wyrażanie woli obywateli odbywa się za
-    pośrednictwem jawnie działających 1 finansowanych partii politycznych”. Mamy
-    element jawnego działania i finansowania. Przepis ten nie określałby
-    jednocześnie roli partii politycznych w zwierzchnictwie. Potem przeszlibyśmy
-    do artykułów mówiących o tym, jak władza jest ograniczona i jak jest
-    podzielona.
+    Przekonują mnie argumenty posła J. Ciemniewskiego i poseł K. Łybackiej. W
+    tym miejscu konstytucji najważniejsze jest to, jak się odbywa przeniesienie
+    zwierzchnictwa narodu na jego przedstawicieli. Partie polityczne stanowią
+    ważny element w tym procesie. Uważam jednak, że ich finansowanie jest ważną
+    materią. Równie ważną materią jest to, że konstytucja nie powinna dopuszczać
+    do istnienia tajnych partii i tajnych związków. Wysłuchałem argumentów posła
+    A. Kwaśniewskiego, który stwierdził, że władztwo sprawowane jest nie tylko
+    poprzez partie polityczne. Kształtowanie woli obywateli w gruncie rzeczy
+    odbywa się poprzez partie polityczne. Władztwo oznacza nie tylko
+    kształtowanie i wyrażanie woli obywateli. Po wysłuchaniu tych opinii
+    chciałbym zaprezentować przepis w brzmieniu: „Kształtowanie i wyrażanie woli
+    obywateli odbywa się za pośrednictwem jawnie działających i finansowanych
+    partii politycznych”. Mamy element jawnego działania i finansowania. Przepis
+    ten nie określałby jednocześnie roli partii politycznych w zwierzchnictwie.
+    Potem przeszlibyśmy do artykułów mówiących o tym, jak władza jest
+    ograniczona i jak jest podzielona.
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
-    Chciałbym przyłączyć się do konstrukcji myślowej, którą zapoczątkował
-    poseł J. Ciemniewski, a kontynuowała poseł K. Łybacka. Ostatnia wypowiedź
-    prof. W. Osiatyńskiego też była w tej tonacji. Zwracam uwagę na jeden
-    istotny problem. Czy chcemy doprowadzić do takiej sytuacji, w której
-    partycypacja obywateli w życiu politycznym, w realizacji zwierzchniej władzy
-    narodu będzie się odbywała tylko poprzez partie, czy też dopuszczamy inne
-    formy organizacyjne, które mogą aktywnie uczestniczyć w tego typu
-    działaniach” Wiele wskazuje na to, że sensowne byłoby przyjęcie takich
-    rozwiązań, które sytuowałyby partie na uprzywilejowanej pozycji. Konstrukcja
-    zaproponowana przez prof. W. Osiatyńskiego zmierza w tym właśnie kierunku.
-    Inne podmioty nie mogłyby występować aktywnie np. w procedurze wyborczej, bo
-    korzystanie z pośrednictwa struktur partyjnych byłoby obligatoryjne. Drugi
-    problem, który pojawił się w dyskusji, dotyczy tego, czy ograniczamy
-    zagadnienie do jawności działania partii politycznych, czy także do legalności ich działania. Pojawiają się obecnie tego typu problemy. Czy partie
-    nie uwidocznione w rejestrze mogą wystawiać swoich kandydatów lub
-    partycypować w koalicjach wyborczych? Państwowa Komisja Wyborcza odpowiadała
-    na ten problem negatywnie. Trzeba jednoznacznie o tym przesądzić, ale w
-    dalszym przepisach konstytucji, mówiących o prawie do zrzeszania Się.
+    Chciałbym przyłączyć się do konstrukcji myślowej, którą zapoczątkował poseł
+    J. Ciemniewski, a kontynuowała poseł K. Łybacka. Ostatnia wypowiedź prof. W.
+    Osiatyńskiego też była w tej tonacji. Zwracam uwagę na jeden istotny
+    problem. Czy chcemy doprowadzić do takiej sytuacji, w której partycypacja
+    obywateli w życiu politycznym, w realizacji zwierzchniej władzy narodu
+    będzie się odbywała tylko poprzez partie, czy też dopuszczamy inne formy
+    organizacyjne, które mogą aktywnie uczestniczyć w tego typu działaniach”
+    Wiele wskazuje na to, że sensowne byłoby przyjęcie takich rozwiązań, które
+    sytuowałyby partie na uprzywilejowanej pozycji. Konstrukcja zaproponowana
+    przez prof. W. Osiatyńskiego zmierza w tym właśnie kierunku. Inne podmioty
+    nie mogłyby występować aktywnie np. w procedurze wyborczej, bo korzystanie z
+    pośrednictwa struktur partyjnych byłoby obligatoryjne. Drugi problem, który
+    pojawił się w dyskusji, dotyczy tego, czy ograniczamy zagadnienie do
+    jawności działania partii politycznych, czy także do legalności ich
+    działania. Pojawiają się obecnie tego typu problemy. Czy partie nie
+    uwidocznione w rejestrze mogą wystawiać swoich kandydatów lub partycypować w
+    koalicjach wyborczych? Państwowa Komisja Wyborcza odpowiadała na ten problem
+    negatywnie. Trzeba jednoznacznie o tym przesądzić, ale w dalszym przepisach
+    konstytucji, mówiących o prawie do zrzeszania Się.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Podzielam pogląd posła R. Grodzickiego, żeby nie tylko
-    podkreślić rolę partii politycznych jako nośnika suwerena w zakresie
-    kształtowania jego woli, ponieważ inne struktury organizacyjne również
-    uczestniczą w tym procesie. Umieszczenie przepisu w rozdziale I jest
-    wskazane, bo jego przeniesienie do rozdziału o prawach obywatelskich
-    doprowadziłoby do wtłoczenia partii politycznych do ogólnej normy o wolności
-    zrzeszania się. Nie byłoby uzasadnione podkreślanie różnego rodzaju
-    zrzeszeń, bo mieszczą się tam stowarzyszenia i związki zawodowe oraz
-    wszystkie inne organizacje. Przy interpretacji sądowej sięga się do normy
-    generalnej o wolności zrzeszania się. Potem sędziowie sięgają do normy
-    szczególnej, określającej pozycję czy to związku zawodowego, czy partii
-    politycznej. Dlatego usytuowanie partii w tym miejscu jest potrzebne.
-    Chciałbym przestrzec przed wariantem II, który jest nie wskazany z różnych
-    względów, także tych, o których mówił prof. K. Działocha. Ruchy obywatelskie
-    i inne ugrupowania mieszczą się w prawie do zrzeszania się. Wariant ten
-    stanowi, że te organizacje mają tworzyć formę równego uczestnictwa w życiu
-    politycznym. Nie ma równego uczestnictwa, bo partie polityczne nie są równe.
-    Chyba chodziło tutaj o równoprawne uczestnictwo. W wyborach preferuje się
-    partie silniejsze. Przy okazji chciałbym określić, że poseł J. Ciemniewski
-    nieco odbiega od tego, co określono w projekcie Unii Demokratycznej. W art.
-    7 mówi się wyraźnie, że partie polityczne zrzeszają na zasadach
-    dobrowolności obywateli Rzeczypospolitej w celu wpływania metodami
-    demokratycznymi na sprawowanie władzy publicznej. Rozumiem, że w wyniku
-    zmiany poglądu nastąpiło odstępstwo od tej propoZYCJI.
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Podzielam pogląd posła R. Grodzickiego, żeby nie tylko podkreślić rolę
+    partii politycznych jako nośnika suwerena w zakresie kształtowania jego
+    woli, ponieważ inne struktury organizacyjne również uczestniczą w tym
+    procesie. Umieszczenie przepisu w rozdziale I jest wskazane, bo jego
+    przeniesienie do rozdziału o prawach obywatelskich doprowadziłoby do
+    wtłoczenia partii politycznych do ogólnej normy o wolności zrzeszania się.
+    Nie byłoby uzasadnione podkreślanie różnego rodzaju zrzeszeń, bo mieszczą
+    się tam stowarzyszenia i związki zawodowe oraz wszystkie inne organizacje.
+    Przy interpretacji sądowej sięga się do normy generalnej o wolności
+    zrzeszania się. Potem sędziowie sięgają do normy szczególnej, określającej
+    pozycję czy to związku zawodowego, czy partii politycznej. Dlatego
+    usytuowanie partii w tym miejscu jest potrzebne. Chciałbym przestrzec przed
+    wariantem II, który jest nie wskazany z różnych względów, także tych, o
+    których mówił prof. K. Działocha. Ruchy obywatelskie i inne ugrupowania
+    mieszczą się w prawie do zrzeszania się. Wariant ten stanowi, że te
+    organizacje mają tworzyć formę równego uczestnictwa w życiu politycznym. Nie
+    ma równego uczestnictwa, bo partie polityczne nie są równe. Chyba chodziło
+    tutaj o równoprawne uczestnictwo. W wyborach preferuje się partie
+    silniejsze. Przy okazji chciałbym określić, że poseł J. Ciemniewski nieco
+    odbiega od tego, co określono w projekcie Unii Demokratycznej. W art. 7 mówi
+    się wyraźnie, że partie polityczne zrzeszają na zasadach dobrowolności
+    obywateli Rzeczypospolitej w celu wpływania metodami demokratycznymi na
+    sprawowanie władzy publicznej. Rozumiem, że w wyniku zmiany poglądu
+    nastąpiło odstępstwo od tej propoZYCJI.
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
-    Chciałbym prosić pana profesora o posługiwanie się aktualnym projektem.
-    Jest on zawarty w druku nr 6. Dostrzegliśmy problemy, które rodzi takie
-    ujęcie, więc zmieniliśmy treść tego artykułu. W aktualnym przedłożeniu
-    naszego klubu art. 7 brzmi: „Partie polityczne służą obywatelom do wpływania
-    metodami demokratycznymi na działalność władzy publicznej .
+    Chciałbym prosić pana profesora o posługiwanie się aktualnym projektem. Jest
+    on zawarty w druku nr 6. Dostrzegliśmy problemy, które rodzi takie ujęcie,
+    więc zmieniliśmy treść tego artykułu. W aktualnym przedłożeniu naszego klubu
+    art. 7 brzmi: „Partie polityczne służą obywatelom do wpływania metodami
+    demokratycznymi na działalność władzy publicznej .
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Grozi nam przesadne rozczłonkowanie materii o
-    partiach politycznych w różnych miejscach konstytucji. Państwo proponują
-    uwzględnić funkcje partii politycznych. Postulują państwo, żeby wolność
-    tworzenia partii była zagwarantowana w rozdziale o prawach 1 wolnościach
-    obywatelskich, a więc w związku z zasadą wolności zrzeszania się. Będzie
-    jeszcze trzecie miejsce w konstytucji, w którym będzie mowa o partiach
-    politycznych. Chodzi o problem delegalizacji partii i kryteriów tej
-    delegalizacji. Nie wspominam już o organie, któremu będzie przysługiwało to
-    prawo. Takie rozczłonkowanie jest wbrew dyrektywom kodyfikacji przepisów
-    prawnych, zgodnie z którymi obowiązuje zasada koncentracji w jednym
-    przepisie materii rodzajowo jednorodnej. W tej chwili mamy do czynienia z
-    bardzo akademickim dzieleniem tej materii na trzy różne aspekty. Najbardziej
-    podoba mi się art. 4 ust. 1 obecnie obowiązujących przepisów
-    konstytucyjnych: „Partie polityczne zrzeszają się na zasadach dobrowolności
-    i równości obywateli Rzeczypospolitej Polskiej w celu wpływania metodami
-    demokratycznymi na kształtowanie polityki Państwa. W ust. 2 jest mowa, że o
-    sprzeczności z konstytucją celów działalności partii politycznej orzeka
-    Trybunał Konstytucyjny.
+    Grozi nam przesadne rozczłonkowanie materii o partiach politycznych w
+    różnych miejscach konstytucji. Państwo proponują uwzględnić funkcje partii
+    politycznych. Postulują państwo, żeby wolność tworzenia partii była
+    zagwarantowana w rozdziale o prawach i wolnościach obywatelskich, a więc w
+    związku z zasadą wolności zrzeszania się. Będzie jeszcze trzecie miejsce w
+    konstytucji, w którym będzie mowa o partiach politycznych. Chodzi o problem
+    delegalizacji partii i kryteriów tej delegalizacji. Nie wspominam już o
+    organie, któremu będzie przysługiwało to prawo. Takie rozczłonkowanie jest
+    wbrew dyrektywom kodyfikacji przepisów prawnych, zgodnie z którymi
+    obowiązuje zasada koncentracji w jednym przepisie materii rodzajowo
+    jednorodnej. W tej chwili mamy do czynienia z bardzo akademickim dzieleniem
+    tej materii na trzy różne aspekty. Najbardziej podoba mi się art. 4 ust. 1
+    obecnie obowiązujących przepisów konstytucyjnych: „Partie polityczne
+    zrzeszają się na zasadach dobrowolności i równości obywateli
+    Rzeczypospolitej Polskiej w celu wpływania metodami demokratycznymi na
+    kształtowanie polityki Państwa. W ust. 2 jest mowa, że o sprzeczności z
+    konstytucją celów działalności partii politycznej orzeka Trybunał
+    Konstytucyjny.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1555,7 +1552,7 @@
     politycznych. Podoba mi się również propozycja zgłoszona przez prof. W.
     Osiatyńskiego, w której mówi się o jawnoŚci działania i finansowania partii
     politycznych. Spełnione muszą być dwa istotne warunki: partie polityczne
-    muszą być rejestrowane 1 muszą określać swoje cele. Do tego dochodzi zasada
+    muszą być rejestrowane i muszą określać swoje cele. Do tego dochodzi zasada
     jawności ich finansowania i procedura delegalizacji partii politycznych
     przez Trybunał Konstytucyjny.
   </p>
@@ -1589,9 +1586,9 @@
     kwestię, ale we fragmencie dotyczącym prawa do zrzeszania Się i tworzenia
     partii politycznych, a także dalej — w kompetencjach Sądu Najwyższego do
     zakazywania działalności lub orzekania o delegalizacji poszczególnych partii
-    politycz nych. Reprezentuję taki pogląd 1 wydaje mi się, że w tym miejscu
+    politycz nych. Reprezentuję taki pogląd i wydaje mi się, że w tym miejscu
     nie powinny być uwzględnione przepisy dotyczące partii politycznych. Zasada
-    zwięzłości 1 koncentracji powinna być uzupełniona o zasadę niezbędności
+    zwięzłości i koncentracji powinna być uzupełniona o zasadę niezbędności
     normy. Nie jest tu miejsce na podawanie definicji partii politycznej.
     Uważam, że należy jeszcze coś zostawić woli obywateli w ramach realizacji
     praw i wolności, a nie ograniczać nadmiernie tej sfery regulacjami
@@ -1621,9 +1618,9 @@
 
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Proszę o przedłożenie propozycji na piśmie. Rozumiem, że prof. W.
-    Osiatyński przedłoży swój projekt na piśmie. Czy ktoś spośród członków
-    Komisji gotów jest podjąć inicjatywę prof. W. Osiatyńskiego?
+    Proszę o przedłożenie propozycji na piśmie. Rozumiem, że prof. W. Osiatyński
+    przedłoży swój projekt na piśmie. Czy ktoś spośród członków Komisji gotów
+    jest podjąć inicjatywę prof. W. Osiatyńskiego?
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
@@ -1642,7 +1639,7 @@
     stanęlibyśmy na gruncie czysto liberalnej doktryny państwa, to partie
     polityczne rzeczywiście nie są potrzebne w konstytucji jako odrębna
     kategoria. W tym przypadku byłyby one materią sfery wolności obywatelskich.
-    Tak było w okresie międzywojennym w Polsce 1 w klasycznych państwach
+    Tak było w okresie międzywojennym w Polsce i w klasycznych państwach
     liberalnych do II wojny Światowej. Okazało się, że partie polityczne
     stanowią integralny element mechanizmów urzeczywistniania przez naród swojej
     suwerenności. Tak uznano to po doświadczeniach różnych ruchów masowych. Dla
@@ -1656,8 +1653,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Rozumiem, że zakończyliśmy wymianę poglądów na temat treści zawartych w
-    art. 10 projektu podkomisji. Do rozstrzygnięcia mamy kilka kwestii.
+    Rozumiem, że zakończyliśmy wymianę poglądów na temat treści zawartych w art.
+    10 projektu podkomisji. Do rozstrzygnięcia mamy kilka kwestii.
   </p>
 
   <!--<hr><p class="page-break">strona 44</p><hr>-->
@@ -1691,9 +1688,9 @@
   </p>
   <p class="rep-statement">
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: Senator P. Andrzejewski wcześniej zgłosił poprawkę
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+    </strong>
+    Senator P. Andrzejewski wcześniej zgłosił poprawkę
     zmierzającą do tego, że o sprzeczności z konstytucją celów lub działalności
     partii politycznych orzekać będzie Sąd Najwyższy. Propozycja ta jest
     aktualna niezależnie od tego, w jakim miejscu będą przepisy o partiach
@@ -1705,7 +1702,7 @@
     program lub działalność zakłada lub dopuszcza stosowanie przemocy, w celu
     zdobycia władzy lub wpływu na politykę państwa, albo przewiduje utajnienie
     struktur względnie członkostwa”. Dlaczego expressis verbis wyliczyliśmy
-    partie nazistowskie 1 komunistyczne? Ze względu na to, że stworzyły one
+    partie nazistowskie i komunistyczne? Ze względu na to, że stworzyły one
     systemy, które doprowadziły w XX wieku do największych zbrodni w skali
     ludzkości. Naród polski ma prawo zapisać w swojej konstytucji, że takich
     partii sobie nie życzy i ma prawo nazwać je po imieniu. Chodzi o partie
@@ -1763,13 +1760,13 @@
 
   <p class="rep-statement">
     <strong>Poseł Jerzy Wiatr (SLD):</strong>
-    Nie ma problemów z wpisaniem zakazu działań polegających na użyciu
-    przemocy. W związku z ciekawym głosem przedstawiciela projektu
-    obywatelskiego chciałbym wyjaśnić następującą sprawę. Gdyby do konstytucji
-    został wpisany zakaz działania partii komunistycznych, to czy to znaczyłoby,
-    że w nazwie partii nie wolno posłużyć się określeniem „komunistyczna” — a
-    więc istniejący legalnie Związek Komunistów RP „„Proletariat” powinien
-    zostać zdelegalizowany — czy też jakieś ciało ustalałoby, które partie są
+    Nie ma problemów z wpisaniem zakazu działań polegających na użyciu przemocy.
+    W związku z ciekawym głosem przedstawiciela projektu obywatelskiego
+    chciałbym wyjaśnić następującą sprawę. Gdyby do konstytucji został wpisany
+    zakaz działania partii komunistycznych, to czy to znaczyłoby, że w nazwie
+    partii nie wolno posłużyć się określeniem „komunistyczna” — a więc
+    istniejący legalnie Związek Komunistów RP „„Proletariat” powinien zostać
+    zdelegalizowany — czy też jakieś ciało ustalałoby, które partie są
     komunistyczne, a które nie? Bliski dostojnemu przedstawicielowi projektu
     obywatelskiego „Tygodnik Solidarnz reguły o SdRP pisze jako o partii
     komunistycznej. Czy panowie chcecie iść tak daleko i nas też zdelegalizować,
@@ -1777,26 +1774,26 @@
   </p>
   <p class="rep-statement">
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: Nie ma takiej obawy, dopóki SdRP nie stosuje metod,
-    którymi posługiwały się rządzące partie komunistyczne w dawnych czasach,
-    nawet jeśli socjaldemokracja wywodzi się z tamtej przeszłości. Dlatego
-    często publicyści w skrócie określają SARP jako partię komunistyczną. Jest
-    to język publicystyczny, a nie prawny. Wyraźnie postulowaliśmy, żeby o
-    sprzeczności działań z porządkiem konstytucyjnym decydował Sąd Najwyższy,
-    który powinien rozważyć, co należy rozumieć przez pojęcie „komunizm”.
-    Przypomnę, że niemiecka konstytucja zakazuje działalności partii
-    politycznych o pewnym rodzaju programu. Jest tam praktyka stosowania
-    kryterium przy orzekaniu o legalności czy nielegalności działania partii
-    politycznych. Można zobaczyć, jak Niemcy to robią.
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+    </strong>
+    Nie ma takiej obawy, dopóki SdRP nie stosuje metod, którymi
+    posługiwały się rządzące partie komunistyczne w dawnych czasach, nawet jeśli
+    socjaldemokracja wywodzi się z tamtej przeszłości. Dlatego często publicyści
+    w skrócie określają SARP jako partię komunistyczną. Jest to język
+    publicystyczny, a nie prawny. Wyraźnie postulowaliśmy, żeby o sprzeczności
+    działań z porządkiem konstytucyjnym decydował Sąd Najwyższy, który powinien
+    rozważyć, co należy rozumieć przez pojęcie „komunizm”. Przypomnę, że
+    niemiecka konstytucja zakazuje działalności partii politycznych o pewnym
+    rodzaju programu. Jest tam praktyka stosowania kryterium przy orzekaniu o
+    legalności czy nielegalności działania partii politycznych. Można zobaczyć,
+    jak Niemcy to robią.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem, że pan M. Drozdek mówił o wymiarze moralnym czy politycznym tego
     stwierdzenia, a nie prawnym. Trzeba się tego trzymać, ponieważ ocena
     działalności partii nie zależy od nazwy. Nazwa m że być dowolna, a
-    działalność 1 tak niezgodna z prawem. Partią demokratyczno-liberalną jest
+    działalność i tak niezgodna z prawem. Partią demokratyczno-liberalną jest
     partia W. Żyrinowskiego, co stanowi pewien problem z punktu widzenia logiki
     reprezentowanej propozycji pana Drozdka. Trzeba szukać precyzyjnych
     określeń, które pozwalałyby odpowiedniemu trybunałowi określić, czy
@@ -1856,9 +1853,9 @@
     osoba wstrzymała się od głosu. Przyjęliśmy, że ten artykuł powinien znaleźć
     się w konstytucji. Przechodzimy do kolejnego głosowania. Kto z członków
     Komisji Konstytucyjnej jest za ujęciem tego przepisu w art. 3 projektu
-    konstytucji? Za umieszczeniem przepisu w art. 3 głosowało 21 osób, przeciw — 14 1 nikt
-    nie wstrzymał się od głosu. Przyjęliśmy następujące brzmienie art. 3:
-    „„Rzeczpospolita Polska jest Państwem jednolitym 1 niepodzielnym”.
+    konstytucji? Za umieszczeniem przepisu w art. 3 głosowało 21 osób, przeciw —
+    14 i nikt nie wstrzymał się od głosu. Przyjęliśmy następujące brzmienie art.
+    3: „„Rzeczpospolita Polska jest Państwem jednolitym 1 niepodzielnym”.
     Przechodzimy do kolejnego głosowania. Eksperci proponują, aby w art. 4
     znalazły się kwestie dotyczące władzy zwierzchniej, czyli to, co jest
     treścią art. 6. Cele państwa, czyli to, co jest treścią art. 3 projektu
@@ -1873,16 +1870,17 @@
     wniosek, kto jest za tym, aby — podzielając opinię części Komisji oraz
     ekspertów — artykuł dotyczący władzy zwierzchniej poprzedzał artykuł o
     celach państwa? Przystępujemy do głosowania. Kto jest za tym, aby artykuł
-    dotyczący władztwa poprzedzał artykuł o celach państwa? 20 posłów i senatorów głosowało za tym, żeby artykuł określający zasady
-    władzy zwierzchniej poprzedzał artykuł o celach państwa, 15 osób głosowało
-    przeciw 1 2 osoby wstrzymały się od głosu. Z tego wynika, że kolejny artykuł
-    będzie bazował na art. 6 projektu podkomisji. Przechodzimy do propozycji
-    związanych z art. 6.
+    dotyczący władztwa poprzedzał artykuł o celach państwa? 20 posłów i
+    senatorów głosowało za tym, żeby artykuł określający zasady władzy
+    zwierzchniej poprzedzał artykuł o celach państwa, 15 osób głosowało przeciw
+    i 2 osoby wstrzymały się od głosu. Z tego wynika, że kolejny artykuł będzie
+    bazował na art. 6 projektu podkomisji. Przechodzimy do propozycji związanych
+    z art. 6.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Czy mogę zgłosić reklamację? Przypominam, że zgłosiłem propozycję poprawki
-    i proponowałem, żeby zaraz po artykule formułującym zasadę zwierzchnictwa
+    Czy mogę zgłosić reklamację? Przypominam, że zgłosiłem propozycję poprawki i
+    proponowałem, żeby zaraz po artykule formułującym zasadę zwierzchnictwa
     narodu przyjąć postanowienie formułujące zasadę praworządności i zasadę
     legalizmu. W wydrukowanym wczoraj katalogu poprawek nie dostrzegam tej
     propozycji. Konsekwencją mojej poprawki jest to, żeby po zasadzie
@@ -1898,12 +1896,12 @@
     podkomisji. Otrzymaliście państwo propozycje poprawek na oddzielnym druku.
     Mamy poprawki: senatora H. Rota, poseł K. Łybackiej i senaPosiedzenia
     Komisji Konstytucyjnej ZN tora P. Andrzejewskiego oraz dwie koncepcje:
-    senator A. Grześkowiak 1 posła L. Moczulskiego.
+    senator A. Grześkowiak i posła L. Moczulskiego.
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
-    Rozumiem, że wniosek podkomisji będzie głosowany osobno, ponieważ
-    propozycja poseł K. Łybackiej połączona jest z pkt. 2.
+    Rozumiem, że wniosek podkomisji będzie głosowany osobno, ponieważ propozycja
+    poseł K. Łybackiej połączona jest z pkt. 2.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1920,7 +1918,7 @@
     referendum i obywatelską inicjatywę ustawodawczą ”. Następnie jest poprawka
     posła L. Moczulskiego: „Art. 4. Ust. 1. Władza w Rzeczypospolitej pochodzi
     od Narodu i należy do Narodu rozumianego jako ogół obywateli. Ust. 2.
-    Obywatele sprawują ją za pośrednictwem organów państwowych 1 samorządowych.
+    Obywatele sprawują ją za pośrednictwem organów państwowych i samorządowych.
     Ust. 3. Wszystkie władze państwowe i samorządowe działają w ramach prawa
     oraz mandatu zaufania udzielonego im drogą wyborów przez obywateli'.
     Rozumiem, że jest to zasada demokratycznego wyboru przedstawicieli. Na str.
@@ -1949,10 +1947,10 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Doprecyzowanie wniosków mieści się w formule głosowania. Czy są
-    niejasności w sprawie tych propozycji? Nie ma wątpliwości. Proponuję
-    głosowanie rozpocząć od artykułu zawartego w projekcie podkomisji. Rozumiem,
-    że będziemy głosowali nad wszystkimi propozycjami. Gdyby okazało się, że
+    Doprecyzowanie wniosków mieści się w formule głosowania. Czy są niejasności
+    w sprawie tych propozycji? Nie ma wątpliwości. Proponuję głosowanie
+    rozpocząć od artykułu zawartego w projekcie podkomisji. Rozumiem, że
+    będziemy głosowali nad wszystkimi propozycjami. Gdyby okazało się, że
     różnice są niewielkie, to przegłosujemy ponownie te propozycje, które
     uzyskały największą liczbę głosów.
   </p>
@@ -2000,19 +1998,18 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Jaka jest gwarancja, że np. poprawka piąta nie uzyska 30 głosów? Skąd o
-    tym wie pan przewodniczący? Skończył pan przewodniczący procedurę głosowania
+    Jaka jest gwarancja, że np. poprawka piąta nie uzyska 30 głosów? Skąd o tym
+    wie pan przewodniczący? Skończył pan przewodniczący procedurę głosowania
     mówiąc, że druga poprawka uzyskała bezwzględną większość i dalej nie
     głosujemy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Powiedziałem tak dlatego że przed głosowaniem poseł R. Bugaj zadał
-    pytanie, czy w momencie, kiedy jedna z poprawek uzyska bezwzględną większość
-    głosów kończy się procedura głosowania. Ja to potwierdziłem. Informuję, że w
-    naszym regulaminie zapisano, że uchwały podejmujemy większością głosów w
-    obecności co najmniej połowy liczby członków Komisji. Ten warunek został
-    spełniony.
+    Powiedziałem tak dlatego że przed głosowaniem poseł R. Bugaj zadał pytanie,
+    czy w momencie, kiedy jedna z poprawek uzyska bezwzględną większość głosów
+    kończy się procedura głosowania. Ja to potwierdziłem. Informuję, że w naszym
+    regulaminie zapisano, że uchwały podejmujemy większością głosów w obecności
+    co najmniej połowy liczby członków Komisji. Ten warunek został spełniony.
   </p>
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
@@ -2038,7 +2035,7 @@
     głosowania nad każdą ze zgłoszonych poprawek. Spośród dwóch poprawek, które
     uzyskają największą liczbę głosów dokonamy ostatecznego wyboru. Głosujemy
     nad każdą poprawką z tego względu, że mamy kłopot natury technicznej. Jest
-    siedem głosowań 1 tylko trzy przyciski.
+    siedem głosowań i tylko trzy przyciski.
   </p>
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
@@ -2047,8 +2044,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Albo głosujemy nad meritum, albo organizujemy konkurs poprawek. Każdy
-    chyba wie, jaką poprawkę uważa za najlepszą.
+    Albo głosujemy nad meritum, albo organizujemy konkurs poprawek. Każdy chyba
+    wie, jaką poprawkę uważa za najlepszą.
   </p>
   <p class="rep-statement">
     <strong>Poseł Marian Król (PSL):</strong>
@@ -2092,7 +2089,7 @@
     inicjatywę ustawodawczą”. Kto jest za wnioskiem senator A. Grześkowiak? Za
     wnioskiem głosowało 5 osób, przeciw — 28 i 5 osób wstrzymało się od głosu.
     Kto jest za przyjęciem wniosku posła L. Moczulskiego zawartego w pkt. 5:
-    „Art. 4. Ust. 1. Władza w Rzeczypospolitej pochodzi od Narodu 1 należy do
+    „Art. 4. Ust. 1. Władza w Rzeczypospolitej pochodzi od Narodu i należy do
     Narodu — rozumianego jako ogół obywateli. Ust. 2. Obywatele sprawują ją za
     pośrednictwem organów państwowych i samorządowych. Ust. 3. Wszystkie władze
     państwowe i samorządowe działają w ramach prawa oraz mandatu zaufania
@@ -2102,12 +2099,12 @@
     zwierzchnia należy do Narodu. Ust. 2. Naród sprawuje władzę przez swoich
     demokratycznie wybranych przedstawicieli lub bezpośrednio”. Kto jest za
     przyjęciem tego wniosku? Posiedzenia Komisji Konstytucyjnej ZN Za przyjęciem
-    wniosku głosowało 7 osób, przeciw — 25 1 6 osób wstrzymało się od głosu.
+    wniosku głosowało 7 osób, przeciw — 25 i 6 osób wstrzymało się od głosu.
     Przechodzimy do głosowania nad wnioskami z dnia 8 lutego. Kto jest za
     przyjęciem wniosku senatora H. Rota zapisanego w pkt. 5: „Art. 6. Władza
     zwierzchnia w Rzeczypospolitej Polskiej należy do Narodu, który sprawuje ją
     przez demokratycznie wybranych przedstawicieli lub bezpośrednio”? Za
-    przyjęciem wniosku głosowało 22 posłów 1 senatorów, przeciw — 14 i 4
+    przyjęciem wniosku głosowało 22 posłów i senatorów, przeciw — 14 i 4
     wstrzymało się od głosu. Przechodzimy do wniosku poseł K. Łybackiej, który
     zawarty jest w pkt. 6: „Art. 6. Ust. 1. Władza zwierzchnia w
     Rzeczypospolitej Polskiej należy do ogółu obywateli — tworzących Naród. Ust.
@@ -2137,7 +2134,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Kto jest za przyjęciem poprawki senatora P. Andrzejewskiego? Za przyjęciem
-    wniosku głosowały 4 osoby, przeciw — 30 1 6 osób wstrzymało się od głosu.
+    wniosku głosowały 4 osoby, przeciw — 30 i 6 osób wstrzymało się od głosu.
     Przegłosowaliśmy indykacyjnie siedem wniosków dotyczących brzmienia art. 4
     naszego projektu. Z tego głosowania wynika, że najwięcej głosów uzyskała
     propozycja podkomisji, bo 21, i senatora H. Rota — 22 głosy. Między tymi
@@ -2156,9 +2153,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Tak. Kto jest za przyjęciem wniosku senatora H. Rota? Za wnioskiem
-    senatora H. Rota głosowało 13 członków Komisji, za propozycją podkomisji —
-    24 członków Komisji i 2 wstrzymało się od głosu. Informuję, że art. 4 będzie
+    Tak. Kto jest za przyjęciem wniosku senatora H. Rota? Za wnioskiem senatora
+    H. Rota głosowało 13 członków Komisji, za propozycją podkomisji — 24
+    członków Komisji i 2 wstrzymało się od głosu. Informuję, że art. 4 będzie
     brzmiał zgodnie z propozycją podkomisji: „Władza zwierzchnia w
     Rzeczypospolitej Polskiej należy do ogółu obywateli — tworzących Naród,
     który sprawuje ją przez swoich demokratycznie wybranych przedstawicieli lub
@@ -2170,14 +2167,14 @@
     <strong>Poseł Janusz Szymański (UP):</strong>
     Podkreślam, że kiedy zgłaszałem w dniu 7 lutego poprawkę, to zmierzałem do
     tego, aby po zasadzie zwierzchnictwa narodu został umieszczony przepis
-    formułujący zasadę praworządności 1 zasadę legalizmu. Proszę o
+    formułujący zasadę praworządności i zasadę legalizmu. Proszę o
     rozstrzygnięcie kwestii, czy po artykule określającym zasadę zwierzchnictwa
     narodu zapiszemy zasadę praworządności i legalizmu.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Szkoda, że tej dyskusji nie przeprowadziliśmy wtedy, kiedy spieraliśmy się
-    o kolejność artykułu. Jaka jest opinia ekspertów na ten temat? W tej chwili
+    Szkoda, że tej dyskusji nie przeprowadziliśmy wtedy, kiedy spieraliśmy się o
+    kolejność artykułu. Jaka jest opinia ekspertów na ten temat? W tej chwili
     tworzymy dwa artykuły, jeden dotyczący władzy, a drugi — partii
     politycznych. Potem przejdziemy do artykułu określającego cele państwa. Jest
     propozycja posła J. Szymańskiego, rzeczywiście zgłaszana wcześniej i
@@ -2190,12 +2187,12 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Uważamy, że kolejność przepisów w rozdziale I powinna
-    być taka jak w naszym pisemnym projekcie. Przepis wyrażający zasadę
-    legalności lub — jak inni nazywają — praworządności powinien znajdować Się
-    po przepisie o zasadzie podziału władzy. Powinien on rozstrzygać podstawowe
-    kwestie dotyczące organizacji funkcjonowania aparatu państwowe80, bo zasada
-    legalności odnosi się do organów państwa.
+    Uważamy, że kolejność przepisów w rozdziale I powinna być taka jak w naszym
+    pisemnym projekcie. Przepis wyrażający zasadę legalności lub — jak inni
+    nazywają — praworządności powinien znajdować Się po przepisie o zasadzie
+    podziału władzy. Powinien on rozstrzygać podstawowe kwestie dotyczące
+    organizacji funkcjonowania aparatu państwowe80, bo zasada legalności odnosi
+    się do organów państwa.
   </p>
 
   <p class="rep-statement">
@@ -2221,7 +2218,7 @@
     idącego wniosku posła L. Pastusiaka, proponującego skreślenie art. 10,
     ponieważ zawarta w nim materia zostanie skonsumowana w art. 41. Kto jest za
     przyjęciem wniosku posła L. Pastusiaka? Za wnioskiem głosowały 4 osoby,
-    przeciw — 33 1 3 osoby wstrzymały się od głosu. Wniosek posła L. Pastusiaka
+    przeciw — 33 i 3 osoby wstrzymały się od głosu. Wniosek posła L. Pastusiaka
     nie uzyskał odpowiedniego poparcia. Przechodzimy do głosowania nad
     wariantami przedstawionymi w projekcie podkomisji. Proponuję przyjąć podobną
     metodę, czyli w finale dokonamy wyboru spośród tych wariantów, które
@@ -2235,24 +2232,24 @@
     obywateli, działające w oparciu o zasadę pluralizmu politycznego są formą
     dobrowolnego i równego uczestnictwa politycznego w kształtowaniu i wyrażaniu
     woli obywateli oraz wpływania na politykę Państwa . Kto jest za przyjęciem
-    tego wariantu? Za wnioskiem głosowały 4 osoby, przeciw — 33 1 3 osoby
+    tego wariantu? Za wnioskiem głosowały 4 osoby, przeciw — 33 i 3 osoby
     wstrzymały się od głosu. Przechodzimy do przegłosowania wniosków z druku z
     dnia 8 lutego. Pod nr. 8 jest wniosek, który jest ponowieniem obecnych
     przepisów konstytucyjnych: „Art. 10. Ust. 1. Partie polityczne zrzeszają na
-    zasadach dobrowolności 1 równości obywateli w celu wpływania metodami
-    demokratycznymi na kształtowanie polityki Państwa. Ust. 2. O sprzeczności z Konstytucją celów lub
-    działalności partii politycznej orzeka Trybunał Konstytucyjny”. Kto jest za
-    przyjęciem tego wniosku? Za wnioskiem głosowało 13 osób, przeciw — 20 1 6
-    osób wstrzymało się od głosu. Poprawka poseł K. Łybackiej figuruje pod nr.
-    9. „Art. 10. Kształtowanie 1 wyrażanie woli obywateli w zakresie realizacji
-    władzy zwierzchniej Narodu odbywa się za pośrednictwem jawnie finansowanych
-    partii politycznych działających w ramach porządku konstytucyjnego
-    Rzeczypospolitej Polskiej”. Kto jest za przyjęciem tej poprawki? Za
-    przyjęciem wniosku głosowało 18 osób, przeciw — 14 osób i 8 osób wstrzymało
-    się od głosu. Poprawka zapisana pod nr. 10 została zgłoszona w imieniu
-    prezydenta przez prof. A. Rzeplińskiego i dr. W. Kuleszę: „Art. 10. Ust. 1.
-    Rzeczpospolita Polska gwarantuje wolność tworzenia 1 działania partii
-    politycznych. Partie polityczne zrzeszają na zasadach dobrowolności i
+    zasadach dobrowolności i równości obywateli w celu wpływania metodami
+    demokratycznymi na kształtowanie polityki Państwa. Ust. 2. O sprzeczności z
+    Konstytucją celów lub działalności partii politycznej orzeka Trybunał
+    Konstytucyjny”. Kto jest za przyjęciem tego wniosku? Za wnioskiem głosowało
+    13 osób, przeciw — 20 i 6 osób wstrzymało się od głosu. Poprawka poseł K.
+    Łybackiej figuruje pod nr. 9. „Art. 10. Kształtowanie i wyrażanie woli
+    obywateli w zakresie realizacji władzy zwierzchniej Narodu odbywa się za
+    pośrednictwem jawnie finansowanych partii politycznych działających w ramach
+    porządku konstytucyjnego Rzeczypospolitej Polskiej”. Kto jest za przyjęciem
+    tej poprawki? Za przyjęciem wniosku głosowało 18 osób, przeciw — 14 osób i 8
+    osób wstrzymało się od głosu. Poprawka zapisana pod nr. 10 została zgłoszona
+    w imieniu prezydenta przez prof. A. Rzeplińskiego i dr. W. Kuleszę: „Art.
+    10. Ust. 1. Rzeczpospolita Polska gwarantuje wolność tworzenia i działania
+    partii politycznych. Partie polityczne zrzeszają na zasadach dobrowolności i
     równości obywateli Rzeczypospolitej Polskiej w celu wpływania metodami
     demokratycznymi na kształtowanie polityki Państwa. Ust. 2. Finansowanie
     partii politycznych jest jawne. Ust. 3. O legalności działania partii
@@ -2262,14 +2259,14 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
-    W zestawieniu jest widoczna poprawka, iż o sprzeczności z konstytucją
-    celów 1 działalności partii politycznych orzeka Sąd Najwyższy. We wszystkich
+    W zestawieniu jest widoczna poprawka, iż o sprzeczności z konstytucją celów
+    i działalności partii politycznych orzeka Sąd Najwyższy. We wszystkich
     innych wariantach określono, że o tej sprawie orzeka Trybunał Konstytucyjny.
     Rozumiem, że przegłosowanie tej kwestii umożliwia mi zgłoszenie poprawki w
     tej sprawie jako wniosku mniejszości do wielowariantowego sprawozdania, co
     jest zgodne z naszym regulaminem. Poprawka ta nie została umieszczona w
     zestawieniu do głosowania, niemniej oddziałuje na różnice zdań odnośnie
-    kompetencji Sądu Najwyższego 1 Trybunału Konstytucyjnego.
+    kompetencji Sądu Najwyższego i Trybunału Konstytucyjnego.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2315,25 +2312,21 @@
     Rzeczypospolitej Polskiej”. Kto jest za wnioskiem podkomisji? Za wnioskiem
     podkomisji padło 14 głosów, 21 głosów za wnioskiem poseł K. Łybackiej, a 3
     osoby wstrzymały się od głosu. Oznacza to, że art. 5 przygotowywanego przez
-    nas projektu otrzymuje brzmienie zgodne z wnioskiem poseł K. Łybackiej.
+    nas projektu otrzymuje brzmienie zgodne z wnioskiem poseł K. Łybackiej. Poseł R. Bugaj zgłasza
+    wniosek mniejszości. Przechodzimy do artykułu, który będzie oznaczony nr 6.
+    W projekcie podkomisji jest to art. 3, który określa cele państwa. Chciałbym
+    zwrócić uwagę na wnioski zgłoszone dzisiaj przez posłów T. Mazowieckiego, J.
+    Zdradę, J. Szymańskiego, L. Moczulskiego oraz senatora P. Andrzejewskiego.
+    Jak brzmiałby artykuł proponowany przez senator A. Grześkowiak?
   </p>
   <p class="rep-statement">
-    <strong>Poseł R. Bugaj zgłasz:</strong>
-    wniosek mniejszości. Przechodzimy do artykułu, który będzie oznaczony nr
-    6. W projekcie podkomisji jest to art. 3, który określa cele państwa.
-    Chciałbym zwrócić uwagę na wnioski zgłoszone dzisiaj przez posłów T.
-    Mazowieckiego, J. Zdradę, J. Szymańskiego, L. Moczulskiego oraz senatora P.
-    Andrzejewskiego. Jak brzmiałby artykuł proponowany przez senator A.
-    Grześkowiak?
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ:</strong>
-    „S”): Jest to artykuł wykazany w zestawieniu poprawek z dnia wczorajszego,
+    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
+    Jest to artykuł wykazany w zestawieniu poprawek z dnia wczorajszego,
     oznaczony nr. 1. „Ust. 1. Rzeczpospolita Polska jako wspólne dobro obywateli
     jest suwe- Posiedzenia Komisji Konstytucyjnej ZN rennym państwem
     demokratycznym, uznającym i gwarantującym nienaruszalność praw człowieka,
     wynikających z jego przyrodzonej godności i wartości. Ust. 2. Rzeczpospolita
-    Polska chroni niepodległość 1 niezbywalne prawo do całości terytorialnej
+    Polska chroni niepodległość i niezbywalne prawo do całości terytorialnej
     Państwa Polskiego”.
   </p>
   <p class="rep-statement">
@@ -2352,14 +2345,14 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    I tak podkomisja redakcyjna będzie miała co robić przy ustalaniu
-    jednolitego tekstu.
+    I tak podkomisja redakcyjna będzie miała co robić przy ustalaniu jednolitego
+    tekstu.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Chciałbym wstępnie rozstrzygnąć kwestię użycia sformułowania „dziedzictwo
     kultury i języka Narodu” czy „kultury narodowej i języka”. To nie jest
-    drobiazg. Dyskusja na ten temat trwała długo w podkomisji 1 na posiedzeniu
+    drobiazg. Dyskusja na ten temat trwała długo w podkomisji i na posiedzeniu
     Komisji. Jeśli o tym przesądzimy, to będziemy mieli jednolity wariant
     wypracowany przez podkomisję. Najdalej idący jest wniosek posła J.
     Ciemniewskiego o skreślenie art. 3.
@@ -2373,8 +2366,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Czy senator J. Madej nie zauważa daleko idącej zbieżności swojego wniosku
-    z propozycją posłów T. Mazowieckiego i J. Zdrady?
+    Czy senator J. Madej nie zauważa daleko idącej zbieżności swojego wniosku z
+    propozycją posłów T. Mazowieckiego i J. Zdrady?
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
@@ -2382,12 +2375,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Rozumiem, że posłowie T. Mazowiecki i J. Zdrada przyjmują jako
-    autopoprawkę następujące brzmienie końcowego fragmentu tego artykułu:
-    ,,...zapewnia ochronę środowiska, kierując się zasadą zrównoważonego
-    rozwoju”. Czy tak? Tak. Dziękuję. Czy senator J. Madej nie zauważa w tym
-    kształcie propozycji na tyle daleko idącej zbieżności, że można uznać to za
-    wspólny wniosek wszystkich panów?
+    Rozumiem, że posłowie T. Mazowiecki i J. Zdrada przyjmują jako autopoprawkę
+    następujące brzmienie końcowego fragmentu tego artykułu: ,,...zapewnia
+    ochronę środowiska, kierując się zasadą zrównoważonego rozwoju”. Czy tak?
+    Tak. Dziękuję. Czy senator J. Madej nie zauważa w tym kształcie propozycji
+    na tyle daleko idącej zbieżności, że można uznać to za wspólny wniosek
+    wszystkich panów?
   </p>
 
   <!--<hr><p class="page-break">strona 51</p><hr>-->
@@ -2412,7 +2405,7 @@
     <strong>Poseł Leszek Moczulski (KPN):</strong>
     Mój wniosek jest tylko poprawką do propozycji podkomisji. Jego
     przegłosowanie ma sens tylko wtedy, kiedy przejdzie propozycja podkomisji.
-    Mój wniosek nie jest alternatywny do wniosku posłów T. Mazowieckiego 1 J.
+    Mój wniosek nie jest alternatywny do wniosku posłów T. Mazowieckiego i J.
     Zdrady. |
   </p>
   <p class="rep-statement">
@@ -2440,7 +2433,7 @@
     „przeciw”, a kto uważa, że oba sformułowania są niedobre albo nie ma zdania
     w tej sprawie — wstrzymuje się od głosu. Kto jest za użyciem sformułowania
     „strzeże kultury i języka Narodu”? Za wnioskiem głosowało 12 osób, przeciw —
-    21 osób 1 5 osób wstrzymało się od głosu. Skreślamy więc wyrazy: „kultury i
+    21 osób i 5 osób wstrzymało się od głosu. Skreślamy więc wyrazy: „kultury i
     języka Narodu”. Pozostaje wytłuszczone w nawiasie określenie: „Kultury
     narodowej i języka”.
   </p>
@@ -2457,8 +2450,8 @@
     Uporządkowane poprawki zaczynamy głosować od wniosku podkomisji w znanym już
     trybie. Kto z państwa jest za zaakceptowaniem wniosku podkomisji, aby
     artykuł dotyczący celów państwa brzmiał: „Rzeczpospolita Polska gwarantuje
-    prawa człowieka, strzeże niepodległości 1 całości swojego terytorium,
-    strzeże dziedzictwa kultury narodowej 1 języka oraz zapewnia ochronę
+    prawa człowieka, strzeże niepodległości i całości swojego terytorium,
+    strzeże dziedzictwa kultury narodowej i języka oraz zapewnia ochronę
     środowiska przyrodniczego”? Za wnioskiem głosowało 11 osób, przeciw — 16 111
     osób wstrzymało się od głosu. Przechodzimy do przegłosowania wniosków z dnia
     7 lutego. Wniosek senator A. Grześkowiak to art. I w znanym już brzmieniu.
@@ -2480,12 +2473,12 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wniosek nr 12 został wycofany. Przechodzimy do druku z dnia 8 lutego.
-    Pierwszy jest wniosek posłów T. Mazowieckiego 1 J. Zdrady oraz senatora J.
+    Pierwszy jest wniosek posłów T. Mazowieckiego i J. Zdrady oraz senatora J.
     Madeja. Proszę o powtórzenie tego wniosku wraz z autopoprawką.
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
-    „Rzeczpospolita Polska strzeże niepodległości, całości 1 nienaruszalności
+    „Rzeczpospolita Polska strzeże niepodległości, całości i nienaruszalności
     swojego terytorium...” lub „Rzeczpospolita Polska strzeże niepodległości i
     nienaruszalności swojego terytorium... .
   </p>
@@ -2495,7 +2488,7 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
-    „Rzeczpospolita Polska strzeże niepodległości 1 nienaruszalności swojego
+    „Rzeczpospolita Polska strzeże niepodległości i nienaruszalności swojego
     terytorium, gwarantuje wolności i prawa człowieka, Posiedzenia Komisji
     Konstytucyjnej ZN zapewnia bezpieczeństwo obywateli, strzeże dziedzictwa
     narodowego oraz zapewnia ochronę środowiska kierując się zasadą
@@ -2507,7 +2500,7 @@
     senatora J. Madeja? Za wnioskiem głosowało 2/ osób, przeciw — 71 2 osoby
     wstrzymały się od głosu. Do przegłosowania pozostaje poprawka senatora P.
     Andrzejewskiego zapisana pod nr. 4. „Rzeczpospolita zapewnia i gwarantuje
-    prawa człowieka oraz ich nienaruszalność, strzeże niepodległości 1 całości
+    prawa człowieka oraz ich nienaruszalność, strzeże niepodległości i całości
     swojego terytorium, dziedzictwa kultury i języka Narodu oraz zapewnia
     ochronę i rozwój Środowiska”. Kto jest za przyjęciem tej propozycji? Za
     wnioskiem głosowały 4 osoby, przeciw — 20 i 9 osób wstrzymało się od głosu.
@@ -2526,7 +2519,7 @@
     Była to jedyna poprawka, która uzyskała więcej głosów niż „przeciw”. Nad
     czym mamy jeszcze głosować? O czym jeszcze chcemy w tej sprawie przesądzić?
     Jest to jedyna propozycja, która uzyskała tak znaczące poparcie ze strony
-    Komisji. Przyjęliśmy już art. 6 1 procedura głosowań została wyczerpana.
+    Komisji. Przyjęliśmy już art. 6 i procedura głosowań została wyczerpana.
     Głosowania w sprawach, które będą dzisiaj omówione, przeprowadzimy jutro o
     godz. 9. Przechodzimy do dyskusji. Co, zdaniem ekspertów, powinien zawierać
     kolejny artykuł konstytucji? Zespół ekspertów proponował, żeby po zasadzie
@@ -2535,29 +2528,29 @@
     co także przyjęliśmy. W tej chwili eksperci proponują przedyskutować
     przepisy określające podstawowe zasady organizacji i wykonywania władzy
     publicznej, poczynając od zasady podziału władzy określonej w art. 9,
-    poprzez art. 1l — zasady samorządu, artykuły 7 1 8 mówiące o zasadzie
+    poprzez art. 1l — zasady samorządu, artykuły 7 i 8 mówiące o zasadzie
     legalności. Czy do tej systematyki rozdziału I są uwagi? Czy eksperci
     podtrzymują propozycję?
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Czy artykuły 7 1 8 nie powinny poprzedzać artykułów mówiących o tym, że
+    Czy artykuły 7 i 8 nie powinny poprzedzać artykułów mówiących o tym, że
     władza państwowa jest sprawowana przez rozdzielone władze oraz określających
     sposób ich rozdzielenia? Chodzi o to, żeby wcześniej ograniczyć władzę, co
     jest konsekwencją suwerenno- Posiedzenia Komisji Konstytucyjnej ZN Ści,
-    władczości 1 celów państwa, a następnie ją podzielić.
+    władczości i celów państwa, a następnie ją podzielić.
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Chciałbym przyłączyć się do tej propozycji, ponieważ chodzi tu o zasadę
     konstytucjonalizmu, która polega na działalności w ramach prawa. Wysunięcie
-    prawa na pierwsze miejsce byłoby jak najbardziej na miejscu. Artykuły 7 1 8
+    prawa na pierwsze miejsce byłoby jak najbardziej na miejscu. Artykuły 7 i 8
     powinny być umieszczone zaraz po przyjętych już przepisach.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy byłaby zgoda Komisji na przejście do rozpatrzenia zasady legalności
-    zawartej w artykułach 7 1 8 projektu podkomisji?
+    zawartej w artykułach 7 i 8 projektu podkomisji?
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
@@ -2568,19 +2561,19 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Mamy wniosek posła J. Szymańskiego z dnia 7 lutego. Art. 7 brzmiałby:
-    „Ust. 1. Przestrzeganie praw Rzeczypospolitej Polskiej jest podstawowym
+    Mamy wniosek posła J. Szymańskiego z dnia 7 lutego. Art. 7 brzmiałby: „Ust.
+    1. Przestrzeganie praw Rzeczypospolitej Polskiej jest podstawowym
     obowiązkiem każdego organu władzy publicznej. Ust. 2. Wszystkie organy
     władzy publicznej działają na podstawie iw granicach prawa”.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Działanie organów władzy polegające na przestrzeganiu
-    prawa polega na działaniu na podstawie prawa. Nie można mylić przestrzegania
-    prawa przez obywateli. Obywatele mają jedynie obowiązek nienaruszania prawa.
-    Organy państwowe muszą natomiast wykazać się czymś więcej, legitymacją,
-    podstawą ustawową do działania. Od organów państwowych wymaga się czegoś
-    więcej niż od obywateli.
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Działanie organów władzy polegające na przestrzeganiu prawa polega na
+    działaniu na podstawie prawa. Nie można mylić przestrzegania prawa przez
+    obywateli. Obywatele mają jedynie obowiązek nienaruszania prawa. Organy
+    państwowe muszą natomiast wykazać się czymś więcej, legitymacją, podstawą
+    ustawową do działania. Od organów państwowych wymaga się czegoś więcej niż
+    od obywateli.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2588,8 +2581,8 @@
     J. Szymańskiego.
   </p>
   <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Chciałbym prosić o odłożenie dyskusji nad art. 8.
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Chciałbym prosić o odłożenie dyskusji nad art. 8.
     Uważam, że nie można dyskutować na temat tego artykułu bez rozstrzygnięcia
     istotnych spraw z rozdziału III o źródłach prawa. Rada Legislacyjna będzie
     miała w ciągu kilku najbliższych dni wypracowane stanowisko w tej kwestii.
@@ -2599,9 +2592,10 @@
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Proponuję zapisanie tej zasady w wersji, która znajduje się w projekcie
     senackim. Jest to następująca propozycja: „Wszystkie organy państwa są
-    podporządkowane Konstytucji i wypełniają swoje uprawnienia w granicach w niej przewidzianych”. Myślę, że nie muszę uzasadniać
-    potrzeby takiego sformułowania, bowiem debaty na ten temat już się odbyły.
-    Proszę też pamiętać, że taką poprawkę zgłosiłam już wczoraj.
+    podporządkowane Konstytucji i wypełniają swoje uprawnienia w granicach w
+    niej przewidzianych”. Myślę, że nie muszę uzasadniać potrzeby takiego
+    sformułowania, bowiem debaty na ten temat już się odbyły. Proszę też
+    pamiętać, że taką poprawkę zgłosiłam już wczoraj.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2609,8 +2603,8 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
-    W art. 1 zapisaliśmy, że Rzeczpospolita Polska jest demokratycznym
-    państwem prawnym. Jest to nowe pojęcie, od niedawna obowiązujące w naszym
+    W art. 1 zapisaliśmy, że Rzeczpospolita Polska jest demokratycznym państwem
+    prawnym. Jest to nowe pojęcie, od niedawna obowiązujące w naszym
     konstytucjonalizmie, wprowadzone zostało w 1989 r. Z. tej generalnej zasady
     wynika cały art. 7. Wszystkie organy państwa działają na podstawie, w
     granicach i w formie określonej przez ustawy czy prawo. Jest to wynik
@@ -2621,11 +2615,11 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
-    Przyłączam się do głosu prof. M. Pietrzaka. Piszemy podstawowe zasady,
-    więc nie może być tak, że znajdzie się tylko część takich zasad. Do
-    propozycji posła J. Szymańskiego należałoby dodać ust. 3 mówiący o tym, że
-    obywatel może czynić wszystko, czego ustawa wyraźnie mu nie zabrania. To
-    będzie podręcznikowa definicja państwa prawnego. Jej zapisanie w zasadach
+    Przyłączam się do głosu prof. M. Pietrzaka. Piszemy podstawowe zasady, więc
+    nie może być tak, że znajdzie się tylko część takich zasad. Do propozycji
+    posła J. Szymańskiego należałoby dodać ust. 3 mówiący o tym, że obywatel
+    może czynić wszystko, czego ustawa wyraźnie mu nie zabrania. To będzie
+    podręcznikowa definicja państwa prawnego. Jej zapisanie w zasadach
     podstawowych będzie co najmniej dziwne z punktu widzenia legislacyjnego.
     Podobnie jak prof. M. Pietrzak proponuję usunąć art. 7, bo jest on
     skonsumowany w art. 1.
@@ -2650,8 +2644,9 @@
     dotychczas formułowana zasada praworządnoŚci, która nakładała obowiązek
     przestrzegania prawa przez organy państwowe. Po tej dyskusji mógłbym
     zrezygnować z zasady praworządności sformułowanej w ust. 1, ponieważ zasada
-    legalizmu uzyskuje pełny wymiar przy rozpoczęciu przepisów konstytucyjnych od zasady państwa prawnego. Składam gotowość wycofania wniosku i
-    proszę o skreślenie mojej poprawki. Opowiadam się za pozostawieniem art. J w
+    legalizmu uzyskuje pełny wymiar przy rozpoczęciu przepisów konstytucyjnych
+    od zasady państwa prawnego. Składam gotowość wycofania wniosku i proszę o
+    skreślenie mojej poprawki. Opowiadam się za pozostawieniem art. J w
     brzmieniu przedstawionym przez podkomisję.
   </p>
   <p class="rep-statement">
@@ -2665,21 +2660,21 @@
     zastępuje się propozycją pochodzącą z projektu obywatelskiego NSZZ,
     „Solidarność” w następującym brzmieniu: „Konstytucja jest najwyższym źródłem
     stanowionego prawa w Rzeczypospolitej. Władza w Państwie jest sprawowana
-    wyłącznie na zasadach 1 w granicach prawa”. Gdyby miał być utrzymany podział
+    wyłącznie na zasadach i w granicach prawa”. Gdyby miał być utrzymany podział
     na dwa artykuły, to podtrzymuję wniosek, aby art. 8 miał brzmienie
     ograniczone do treści: „Prawo Rzeczypospolitej tworzy Konstytucja”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
-    Wydaje mi się, że utrzymanie art. / jest zasadne ze względów edukacyjnych,
-    a taką funkcję pełni także konstytucja. Rozumienie w naszym społeczeństwie
+    Wydaje mi się, że utrzymanie art. / jest zasadne ze względów edukacyjnych, a
+    taką funkcję pełni także konstytucja. Rozumienie w naszym społeczeństwie
     zasady państwa prawnego jest na tyle ograniczone, że bez takiej eksplikacji
     w praktyce mogą wystąpić problemy z percepcją konstytucji. O to tutaj
     chodzi, bo merytorycznie zgadzam się z opiniami prof. M. Pietrzaka i prof.
     A. Rzeplińskiego. Edukacyjny charakter konstytucji powinien przesądzić o
     pozostawieniu art. 7. Chciałbym zasygnalizować inną sprawę związaną z art.
     8. Podzielam pogląd prof. S$. Gebethnera, iż treść tego artykułu jest wysoce
-    wątpliwa 1 nie powinien on być zredagowany przed zakończeniem prac nad
+    wątpliwa i nie powinien on być zredagowany przed zakończeniem prac nad
     treścią rozdziału III, dotyczącego systemu Źródeł prawa. Tam będziemy mieli
     ostatecznie ustaloną hierarchię źródeł prawa. W przeciwnym razie dyskusję na
     ten temat musielibyśmy rozpocząć w tej chwili. Uważam, że wymienienie w
@@ -2693,27 +2688,27 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Parę słów powiem na temat relacji między zasadą
-    państwa prawnego a zasadą legalności, którą wyraża art. 7 w projekcie
-    podkomisji. Zasada państwa prawnego jest tak pojemna, że mieści w sobie
-    wiele kwestii. Według dzisiejszych poglądów i judykatury Trybunału
-    Konstytucyjnego mieści ona prawo do sądu, zasadę nieretroakcji w prawie,
-    kontrolę konstytucyjnoŚci prawa, czyli badanie zgodności prawa z
-    konstytucją. Zasada ta mieści bardzo wiele. Można powiePosiedzenia Komisji
-    Konstytucyjnej ZN dzieć, że również zasadę legalności, która jest
-    kwalifikowanym elementem państwa prawnego. We wszystkich konstytucjach, w
-    których wyrażona jest zasada państwa prawnego, np. w ustawie zasadniczej RFN
-    czy Austrii jest jeszcze przepis wyrażający Zzasadę legalności. Zwracam
-    uwagę np. na art. 18 konstytucji Republiki Austriackiej. Nie można przyjąć
-    systemowej formuły państwa prawnego w taki sposób, że prawnicy z tego
-    „gwoździa” będą gotować zupę, czyli starać się wszystko wyprowadzić z tej
-    formuły. Tak rozumując trzeba by wykluczyć wiele innych przepisów z tego
-    projektu, a nawet całe rozdziały. Trzeba brać pod uwagę ten wzgląd, o którym
-    mówił poseł R. Grodzicki. Chodzi o komunikatywność 1 czytelność konstytucji.
-    Co dla przeciętnego odbiorcy znaczy formuła państwa prawnego bez znajomości
-    doktryny prawa? Nic. Natomiast przepis, że wszystkie organy władzy
-    publicznej mają działać na podstawie 1 w granicach prawa, coś już wyraża.
-    Organy te mają działać na podstawie i w granicach ustawy.
+    Parę słów powiem na temat relacji między zasadą państwa prawnego a zasadą
+    legalności, którą wyraża art. 7 w projekcie podkomisji. Zasada państwa
+    prawnego jest tak pojemna, że mieści w sobie wiele kwestii. Według
+    dzisiejszych poglądów i judykatury Trybunału Konstytucyjnego mieści ona
+    prawo do sądu, zasadę nieretroakcji w prawie, kontrolę konstytucyjnoŚci
+    prawa, czyli badanie zgodności prawa z konstytucją. Zasada ta mieści bardzo
+    wiele. Można powiePosiedzenia Komisji Konstytucyjnej ZN dzieć, że również
+    zasadę legalności, która jest kwalifikowanym elementem państwa prawnego. We
+    wszystkich konstytucjach, w których wyrażona jest zasada państwa prawnego,
+    np. w ustawie zasadniczej RFN czy Austrii jest jeszcze przepis wyrażający
+    Zzasadę legalności. Zwracam uwagę np. na art. 18 konstytucji Republiki
+    Austriackiej. Nie można przyjąć systemowej formuły państwa prawnego w taki
+    sposób, że prawnicy z tego „gwoździa” będą gotować zupę, czyli starać się
+    wszystko wyprowadzić z tej formuły. Tak rozumując trzeba by wykluczyć wiele
+    innych przepisów z tego projektu, a nawet całe rozdziały. Trzeba brać pod
+    uwagę ten wzgląd, o którym mówił poseł R. Grodzicki. Chodzi o
+    komunikatywność i czytelność konstytucji. Co dla przeciętnego odbiorcy
+    znaczy formuła państwa prawnego bez znajomości doktryny prawa? Nic.
+    Natomiast przepis, że wszystkie organy władzy publicznej mają działać na
+    podstawie i w granicach prawa, coś już wyraża. Organy te mają działać na
+    podstawie i w granicach ustawy.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2724,12 +2719,12 @@
     Andrzejewskiego. Biuro Legislacyjne przygotuje odpowiedni materiał.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Z wywodu prof. M. Pietrzaka wynikało, że zarówno zasada
-    legalizmu, jak 1 zasada wolności jednostki mieszczą się w zasadzie państwa
-    prawa 1 z tego powodu mogą zostać wykreślone. Jest to niemożliwe, ponieważ
-    zasada wolności człowieka zawarta w art. 20 powinna konsekwentnie zostać
-    wykreślona. Uważam, że jest to niedopuszczalne.
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Z wywodu prof. M. Pietrzaka wynikało, że zarówno zasada legalizmu, jak i
+    zasada wolności jednostki mieszczą się w zasadzie państwa prawa i z tego
+    powodu mogą zostać wykreślone. Jest to niemożliwe, ponieważ zasada wolności
+    człowieka zawarta w art. 20 powinna konsekwentnie zostać wykreślona. Uważam,
+    że jest to niedopuszczalne.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
@@ -2746,9 +2741,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Prosiłbym uprzejmie o zgłoszenie tego wniosku na piśmie Posiedzenia
-    Komisji Konstytucyjnej ZN jeszcze dzisiaj. Rozumiem, że panowie wycofują
-    wniosek o skreślenie art. 7.
+    Prosiłbym uprzejmie o zgłoszenie tego wniosku na piśmie Posiedzenia Komisji
+    Konstytucyjnej ZN jeszcze dzisiaj. Rozumiem, że panowie wycofują wniosek o
+    skreślenie art. 7.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
@@ -2756,12 +2751,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Mamy wniosek podkomisji, senator A. Grześkowiak, senatora P.
-    Andrzejewskiego i będzie wniosek awizowany przez przedstawicieli Prezydenta.
-    Czy w sprawie art. J możemy zamknąć dyskusję? Tak. Przechodzimy do art. 8:
-    „Prawo Rzeczypospolitej Polskiej tworzą: Konstytucja, powszechnie uznane
-    zasady prawa międzynarodowego, ratyfikowane umowy międzynarodowe, ustawy
-    (rozporządzenia z mocą ustawy) oraz akty normatywne wydane na podstawie 1 w
+    Mamy wniosek podkomisji, senator A. Grześkowiak, senatora P. Andrzejewskiego
+    i będzie wniosek awizowany przez przedstawicieli Prezydenta. Czy w sprawie
+    art. J możemy zamknąć dyskusję? Tak. Przechodzimy do art. 8: „Prawo
+    Rzeczypospolitej Polskiej tworzą: Konstytucja, powszechnie uznane zasady
+    prawa międzynarodowego, ratyfikowane umowy międzynarodowe, ustawy
+    (rozporządzenia z mocą ustawy) oraz akty normatywne wydane na podstawie i w
     celu wykonania ustawy”.
   </p>
   <p class="rep-statement">
@@ -2778,15 +2773,15 @@
     „rozporządzenia z mocą ustawy”.
   </p>
   <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Wcale nie została przesądzona sprawa wydawania
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Wcale nie została przesądzona sprawa wydawania
     rozporządzeń z mocą ustawy, tylko dekretów wydawanych między sesjami
     parlamentu. Nie rozstrzygnięta została sprawa ustaw organicznych. W tym
     momencie rozpoczyna się dyskusja na temat rozdziału III.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Prof. 5. Gebethner zgłosił wniosek, a poseł R. Bugaj wniosek przeciwny.
+    Prof. S. Gebethner zgłosił wniosek, a poseł R. Bugaj wniosek przeciwny.
   </p>
   <p class="rep-statement">
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
@@ -2804,8 +2799,8 @@
   <!--<hr><p class="page-break">strona 55</p><hr>-->
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Poparłbym wniosek prof. S. Gebethnera, żeby zrezygnować w tej części z
-    art. 8. Proponowałbym zająć się sformułowaniem pełnego katalogu w rozdziale
+    Poparłbym wniosek prof. S. Gebethnera, żeby zrezygnować w tej części z art.
+    8. Proponowałbym zająć się sformułowaniem pełnego katalogu w rozdziale
     dotyczącymźródeł prawa. Popieram wniosek posła W. Cimoszewicza polegający na
     usunięciu sformułowania „powszechnie uznane zasady prawa międzynarodowego”.
     W art. 38 statutu Międzynarodowego Trybunału Sprawiedliwości jako Źródło
@@ -2827,7 +2822,7 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Rozdział III w całości będzie stanowił o systemie Źródeł prawa. Jestem
+    Rozdział III w całości będzie stanowił o systemie Źródeł prawa. Jestem
     więc za tym, żeby z obecnej treści art. 8 zrezygnować. Zastanawia mnie brak
     wśród zasad naczelnych zasady konstytucjonalizmu. Jest to zasada, do której
     Rzeczpospolita konsekwentnie od pięciu lat zmierza. Sądzę, że można w tym
@@ -2862,29 +2857,28 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Odnośnie do celowości utrzymania artykułu
-    zawierającego jak gdyby definicję prawa w rozumieniu prawa powszechnie
-    obowiązującego, czy aktu prawa powszechnie obowiązującego, nie kruszyłbym
-    kopii. Chciałbym tylko przypomnieć względy, jakie przemawiały za tym, by
-    art. 8 znalazł się właśnie w tym rozdziale. Poseł R. Bugaj może to
-    potwierdzić jako przewodniczący podkomisji. Przemawiał ten wzgląd, że po
-    zasadzie legalności, która odwołuje się do pojęcia prawa, art. 8 zawierał
-    określenie tego prawa, jego definicję. Merytoryczna kolejność tych dwóch
-    przepisów miała uzasadniać potrzebę art. 8. Zawartość tego artykułu, a więc
-    katalog aktów prawnych, wywołała pewną dyskusję, która do dzisiaj nie jest
-    rozstrzygnięta. Można przyjąć myśl prof. W. QOsiatyńskiego i umieścić w
-    rozdziale I konstytucji — zawierającym zasady naczelne — to, co jest dzisiaj
-    najważniejsze w myśli i prawie konstytucyjnym, a mianowicie zasadę
-    bezpośredniego obowiązywania konstytucji. Trzeba ją tylko nieco inaczej
-    wyartykułować, nie w ten sposób, że konstytucja jest naczelnym aktem
-    nornatywnym, bo to źle brzmi. Trzeba powiedzieć, że konstytucja jest
-    najwyższym prawem. Brzmi to trochę „po amerykańsku”, bo tak stanowi
-    konstytucja Stanów Zjednoczonych. Jeśli jest zasada bezpośredniego
-    stosowania konstytucji, to powstaje problem, w jakim zakresie jest ona
-    stosowana, pełnym czy ograniczonym. Wyraża to art. 69 projektu podkomisji. W
-    ust. 2 napisano: ,,...poza wyjątkami przez nią określonymi”. Konstytucja
-    będzie bezpośrednio stosowana w zakresie, w jakim nie odsyła ona do ustaw
-    zwykłych, precyzujących normy konstytucyjne.
+    Odnośnie do celowości utrzymania artykułu zawierającego jak gdyby definicję
+    prawa w rozumieniu prawa powszechnie obowiązującego, czy aktu prawa
+    powszechnie obowiązującego, nie kruszyłbym kopii. Chciałbym tylko
+    przypomnieć względy, jakie przemawiały za tym, by art. 8 znalazł się właśnie
+    w tym rozdziale. Poseł R. Bugaj może to potwierdzić jako przewodniczący
+    podkomisji. Przemawiał ten wzgląd, że po zasadzie legalności, która odwołuje
+    się do pojęcia prawa, art. 8 zawierał określenie tego prawa, jego definicję.
+    Merytoryczna kolejność tych dwóch przepisów miała uzasadniać potrzebę art.
+    8. Zawartość tego artykułu, a więc katalog aktów prawnych, wywołała pewną
+    dyskusję, która do dzisiaj nie jest rozstrzygnięta. Można przyjąć myśl prof.
+    W. QOsiatyńskiego i umieścić w rozdziale I konstytucji — zawierającym zasady
+    naczelne — to, co jest dzisiaj najważniejsze w myśli i prawie
+    konstytucyjnym, a mianowicie zasadę bezpośredniego obowiązywania
+    konstytucji. Trzeba ją tylko nieco inaczej wyartykułować, nie w ten sposób,
+    że konstytucja jest naczelnym aktem nornatywnym, bo to źle brzmi. Trzeba
+    powiedzieć, że konstytucja jest najwyższym prawem. Brzmi to trochę „po
+    amerykańsku”, bo tak stanowi konstytucja Stanów Zjednoczonych. Jeśli jest
+    zasada bezpośredniego stosowania konstytucji, to powstaje problem, w jakim
+    zakresie jest ona stosowana, pełnym czy ograniczonym. Wyraża to art. 69
+    projektu podkomisji. W ust. 2 napisano: ,,...poza wyjątkami przez nią
+    określonymi”. Konstytucja będzie bezpośrednio stosowana w zakresie, w jakim
+    nie odsyła ona do ustaw zwykłych, precyzujących normy konstytucyjne.
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
@@ -2901,16 +2895,16 @@
     posiedzenia.
   </p>
   <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Jako członek Rady Legislacyjnej chciałbym
-    stwierdzić, że na posiedzeniu Rady przedstawiciele nauki prawa
-    międzynarodowego wypowiadali się przeciwko wprowadzaniu nieokreślonych 1
-    niejednoznacznie interpretowanych, niepisanych zasad prawa międzynarodowego.
-    Byłoby to wprowadzenie do źródeł prawa polskiego nieokreślonych zasad prawa
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Jako członek Rady Legislacyjnej chciałbym stwierdzić,
+    że na posiedzeniu Rady przedstawiciele nauki prawa międzynarodowego
+    wypowiadali się przeciwko wprowadzaniu nieokreślonych 1 niejednoznacznie
+    interpretowanych, niepisanych zasad prawa międzynarodowego. Byłoby to
+    wprowadzenie do źródeł prawa polskiego nieokreślonych zasad prawa
     niestanowionego, prawa zwyczajowego. Faktem jest, że Polska jest związana
     prawem międzynarodowym przez liczną sieć umów międzynarodowych,
     wielostronnych i dwustronnych. Znalazły się one w naszym systemie prawnym
-    przez fakt ratyfikacji 1 wprowadzenia ich do porządku prawnego. Nie jest
+    przez fakt ratyfikacji i wprowadzenia ich do porządku prawnego. Nie jest
     tak, że Polska musi, jak kraje odzyskujące byt państwowy — np. kraje
     nadbałtyckie, czy jak nowe państwa — np. Słowacja lub Słowenia, podkreślać
     swoje przywiązanie do wspólnoty międzynarodowej. Dlatego jest poważny opór
@@ -2932,8 +2926,8 @@
     prosić o złożenie tego wniosku na piśmie?
   </p>
   <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Tak.
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Tak.
   </p>
 
   <!--<hr><p class="page-break">strona 57</p><hr>-->
@@ -2955,7 +2949,7 @@
     pozytywne, ogólne powszechnie uznane zasady prawa międzynarodowego i
     zwyczaje międzynarodowe. Taka koncepcja była wyłożona i przyjęta na
     posiedzeniu podkomisji przez wszystkich ekspertów. Nie była ona negowana. Ze
-    względów pedagogicznych 1 czytelności przepisów konstytucyjnych uznaliśmy,
+    względów pedagogicznych i czytelności przepisów konstytucyjnych uznaliśmy,
     żeby to, o czym mówi w sposób komplementarny sformułowanie proponowane przez
     prof. K. Skubiszewskiego, uzupełnić, oprócz umów międzynarodowych, o
     powszechnie uznane zasady prawa międzynarodowego. Przykłady podstawowych
@@ -2967,11 +2961,11 @@
     mają być wymienione w zasadach naczelnych, to dyskusja nasza ma prawo
     obywatelstwa. Jeżeli przesądzimy, zgodnie z wnioskami wielu osób
     występujących w dzisiejszej dyskusji, że mamy w tym rozdziale zapisać tylko
-    generalne zasady 1 zasadę konstytucyjności, a inne zagadnienia określić w
+    generalne zasady i zasadę konstytucyjności, a inne zagadnienia określić w
     rozdziale III, to trzeba dzisiaj przyjąć stosowne wnioski, zrezygnować z
     dyskusji na ten temat, przenosząc ją do czasu analizy rozdziału III. Na
     zakończenie chciałbym dodać, że uważam, iż w tym miejscu należy uwzględnić
-    generalną zasadę wynikającą z art. 7 1 zasadę konstytucyjności. Moja
+    generalną zasadę wynikającą z art. 7 i zasadę konstytucyjności. Moja
     propozycja jest identyczna co do intencji merytorycznej, bo chodzi o
     zapisanie zasady, że żadne prawo czy to międzynarodowe, czy wewnętrzne nie
     ma prawa obywatelstwa na terenie Rzeczypospolitej inaczej, jak przez
@@ -2979,7 +2973,7 @@
     inne sformułowanie niż w projekcie obywatelskim NSZZ „Solidarność”, to
     proponuję następujące brzmienie przepisu: „Prawo w Rzeczypospolitej Polskiej
     tworzy Konstytucja”., Oznacza to transmisję do praktycznego funkcjonowania
-    jakiegokolwiek źródła prawa w Polsce tylko 1 wyłącznie poprzez konstytucję.
+    jakiegokolwiek źródła prawa w Polsce tylko i wyłącznie poprzez konstytucję.
     Problem brzmienia tego przepisu jest otwarty. Jako przewodniczący podkomisji
     źródeł prawa podzielam głos prof. W. Osiatyńskiego.
   </p>
@@ -3058,11 +3052,11 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
-    Na tle dotychczasowej dyskusji mam dwie refleksje oraz pytania do
-    ekspertów lub innych osób, które będą formułowały przepisy. Pierwsza sprawa
-    dotyczy propozycji przedłożonej przez prof. S. Gebethnera, która stanowi, że
-    Polska przestrzega prawa międzynarodowego. Wydaje się, że jest to propozycja
-    za daleko idąca, bo prawo międzynarodowe jest bardzo szerokim zbiorem norm i
+    Na tle dotychczasowej dyskusji mam dwie refleksje oraz pytania do ekspertów
+    lub innych osób, które będą formułowały przepisy. Pierwsza sprawa dotyczy
+    propozycji przedłożonej przez prof. S. Gebethnera, która stanowi, że Polska
+    przestrzega prawa międzynarodowego. Wydaje się, że jest to propozycja za
+    daleko idąca, bo prawo międzynarodowe jest bardzo szerokim zbiorem norm i
     trzeba będzie to zdanie skonkretyzować, mówiąc np. tylko o ratyfikowanych
     umowach międzynarodowych. W przeciwnym razie pozwalać będziemy na
     interpretację bieżącego stosowania prawa w kraju na podstawie bardzo
@@ -3096,17 +3090,17 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Chciałbym poinformować panią senator, że gdybyśmy uznali, iż zamiast art.
-    8 będzie art. 69, to niewątpliwie pani propozycja będzie przegłosowana. Jest
+    Chciałbym poinformować panią senator, że gdybyśmy uznali, iż zamiast art. 8
+    będzie art. 69, to niewątpliwie pani propozycja będzie przegłosowana. Jest
     ona uwzględniona w zbiorczych wnioskach pani senator. W zbiorczych wnioskach
     senatora P. Andrzejewskiego mamy również zasadę konstytucjonalizmu. Art. 69
     projektu podkomisji zawiera też taką zasadę.
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    W art. 50 projektu senackiego znajduje się ust. I w następującym
-    brzmieniu: „Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej '.
-    Może przeczytam cały art. SO z rozdziału III — „Źródła prawa”: Ust. 1.
+    W art. 50 projektu senackiego znajduje się ust. I w następującym brzmieniu:
+    „Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej '. Może
+    przeczytam cały art. SO z rozdziału III — „Źródła prawa”: Ust. 1.
     „Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej. Ust. 2.
     Przepisy Konstytucji stosuje się bezpośrednio, chyba że Konstytucja stanowi
     inaczej. Ust. 3. Wszystkie akty prawne Rzeczypospolitej Polskiej muszą być
@@ -3116,8 +3110,8 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
-    Chciałbym wyjaśnić nieporozumienie, które było zawarte w wypowiedzi posła
-    W. Majewskiego. Wiele aktów normatywnych stosowanych jest obok konstytucji.
+    Chciałbym wyjaśnić nieporozumienie, które było zawarte w wypowiedzi posła W.
+    Majewskiego. Wiele aktów normatywnych stosowanych jest obok konstytucji.
     Kiedy te akty są sprzeczne z konstytucją, to ona ma prymat i stosuje się ją
     bezpośrednio. Nie można odwoływać się do dotychczas obowiązujących
     przepisów, które są sprzeczne z konstytucją. Powinny one zostać niezwłocznie
@@ -3129,16 +3123,16 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
-    Proponuję następujące brzmienie tego przepisu: „Konstytucja jest
-    najwyższym prawem Rzeczypospolitej i wiąże wszystkie organy państwa”. Cho-
-    Posiedzenia Komisji Konstytucyjnej ZN a dzi o to, żeby wyjść od konstytucji.
-    Druga część przepisu mówi, że organy państwa są podporządkowane konstytucji
-    i mogą działać tylko na jej podstawie.
+    Proponuję następujące brzmienie tego przepisu: „Konstytucja jest najwyższym
+    prawem Rzeczypospolitej i wiąże wszystkie organy państwa”. Cho- Posiedzenia
+    Komisji Konstytucyjnej ZN a dzi o to, żeby wyjść od konstytucji. Druga część
+    przepisu mówi, że organy państwa są podporządkowane konstytucji i mogą
+    działać tylko na jej podstawie.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
     Idąc tropem wniosku posła R. Grodzickiego, który uważa, że art. 8 nie
-    powinien znaleźć się w tym rozdziale 1 powinien być odesłany do rozdziału
+    powinien znaleźć się w tym rozdziale i powinien być odesłany do rozdziału
     III o źródłach prawa, warto sprecyzować myśl, żeby w miejsce tego artykułu
     pojawił się przepis precyzujący zasadę konstytucjonalizmu. Artykuł odnoszący
     się do prawa międzynarodowego powinien być konsekwentnie przeniesiony do
@@ -3147,7 +3141,7 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Wydaje mi się, że dyskusja nad fragmentem konstytucji dotyczącym zasady
+    Wydaje mi się, że dyskusja nad fragmentem konstytucji dotyczącym zasady
     konstytucjonalizmu jest szczególnie ważna. Przepis ten rozwinąłbym o krok
     dalej. Zasadę dotyczącą tego, że konstytucja jest najwyższym prawem
     uzupełniłbym o to, że istnieje organ, który decyduje, co jest zgodne, a co
@@ -3167,11 +3161,11 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-    Nie można mówić o unieważnieniu ustaw czy innych
-    aktów sprzecznych z konstytucją w następstwie orzeczenia Trybunału
-    Konstytucyjnego. Jest to bardzo złożony problem. Większość aktów jest tylko
-    uchylana, a nie unieważniana od początku ich obowiązywania. Nie można tej
-    sprawy przesądzić poprzez użycie terminu „nieważność ”.
+    Nie można mówić o unieważnieniu ustaw czy innych aktów sprzecznych z
+    konstytucją w następstwie orzeczenia Trybunału Konstytucyjnego. Jest to
+    bardzo złożony problem. Większość aktów jest tylko uchylana, a nie
+    unieważniana od początku ich obowiązywania. Nie można tej sprawy przesądzić
+    poprzez użycie terminu „nieważność ”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -3181,8 +3175,8 @@
     prawa. Druga propozycja dotyczy wpisania zasady konstytucjonalizmu, która
     zaproponowana jest w różnych wariantach. Mamy wnioski senator A. Grześkowiak
     i senatora P. Andrzejewskiego oraz propozycję podkomisji zawartą w art. 69.
-    Zgłoszono jeszcze inne wnioski, które wpłynęły do sekretariatu Komisji i zostaną przedstawione
-    do głosowania.
+    Zgłoszono jeszcze inne wnioski, które wpłynęły do sekretariatu Komisji i
+    zostaną przedstawione do głosowania.
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
@@ -3209,8 +3203,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Rozumiem, że najdalej idącym wnioskiem jest wykreślenie artykułu,
-    następnie zawieszenie jego rozpatrywania i dalej — wymiana na zasadę
+    Rozumiem, że najdalej idącym wnioskiem jest wykreślenie artykułu, następnie
+    zawieszenie jego rozpatrywania i dalej — wymiana na zasadę
     konstytucjonalizmu. Możemy uznać, że dyskusja i wymiana pogl dów na temat
     propozycji art. 8 została zakończona.
   </p>
@@ -3224,7 +3218,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Sądzę, że moglibyśmy jeszcze omówić ten artykuł. Byłaby szansa na
-    zakończenie prac nad rozdziałem I. Uważam, że artykuły 17 1 18 powinny
+    zakończenie prac nad rozdziałem I. Uważam, że artykuły 17 i 18 powinny
     wzbudzić mniej dyskusji. Prosiłbym o wykorzystanie czasu i przedyskutowanie
     art. 9. Nie możemy głosować wniosków formalnych tak daleko wykraczających
     poza ustalenia, które zapadły na początku posiedzenia. Ustaliliśmy, że
@@ -3249,7 +3243,7 @@
 
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Może nie mam prawa o tym mówić, ale chciałbym, żeby zaprotokołowano, że
+    Może nie mam prawa o tym mówić, ale chciałbym, żeby zaprotokołowano, że
     pojawia się autentyczny problem, ponieważ bardzo aktywnie dyskutujemy nad
     poszczególnymi zagadnieniami i rozwiązaniami, a głosowanie odbywa się
     następnego dnia w gruncie rzeczy w innym gronie. Wiem, że tego nie można
@@ -3274,18 +3268,17 @@
     przez niezależne (i niezawisłe) sądy (i trybunały)”.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Zwracam uwagę na wariant II, który — zdaniem zespołu
-    przygotowującego ostateczny tekst — w Świetle rozstrzygnięcia dotyczącego
-    pozycji prezydenta wydaje się a limine do wyeliminowania. W tym
-    rozstrzygnięciu Komisja zadecydowała, że prezydent nie powinien być
-    określany jako organ sprawujący władzę wykonawczą czy stojący na jej czele,
-    ale jako gwarant ciągłości władzy państwowej.
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Zwracam uwagę na wariant II, który — zdaniem zespołu przygotowującego
+    ostateczny tekst — w Świetle rozstrzygnięcia dotyczącego pozycji prezydenta
+    wydaje się a limine do wyeliminowania. W tym rozstrzygnięciu Komisja
+    zadecydowała, że prezydent nie powinien być określany jako organ sprawujący
+    władzę wykonawczą czy stojący na jej czele, ale jako gwarant ciągłości
+    władzy państwowej.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Czy chodzi o wyeliminowanie wariantu II w wyniku przyjętej wcześniej
-    zasady?
+    Czy chodzi o wyeliminowanie wariantu II w wyniku przyjętej wcześniej zasady?
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
@@ -3297,15 +3290,15 @@
 
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Rozumiem, że wniosek zmierza do skreślenia tego wariantu. Czy w tej
-    sprawie ma ktoś odrębne zdanie?
+    Rozumiem, że wniosek zmierza do skreślenia tego wariantu. Czy w tej sprawie
+    ma ktoś odrębne zdanie?
   </p>
 
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Jako członek podkomisji podstaw ustroju politycznego 1
     społeczno-gospodarczego chciałabym poinformować, że wariant II uzyskał
-    minimalne poparcie posłów 1 senatorów. Popieram propozycję wyeliminowania
+    minimalne poparcie posłów i senatorów. Popieram propozycję wyeliminowania
     tego wariantu.
   </p>
   <p class="rep-statement">
@@ -3336,17 +3329,17 @@
     obrębie wariantu II.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Wydaje się, że jest tu pewna logika. Skoro prezydent
-    zostaje określony jako gwarant ciągłości władzy państwowej, czyli gwarant
-    ciągłości i funkcji ustawodawczej, i funkcji wykonawczej, i funkcji
-    sądowniczej >i być może innych funkcji państwowych, i jeśli rozumie się go
-    jako arbitra, to nie może przecież być zaliczony do jednej z tych władz. Nie
-    może być zaliczony do władzy wykonawczej i jakiejkolwiek innej władzy. Kto
-    jest arbitrem nad władzami i zapewnia ciągłość wykonywania każdej z tych
-    funkcji, nie może być zaliczany do jednej z władz. Sądzę, że nie zamyka to
-    pola poszukiwań, aby do wariantu I ust. 2 wpisać prezydenta, ale nie w
-    obrębie władzy wykonawczej. Posiedzenia Komisji Konstytucyjnej ZN
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Wydaje się, że jest tu pewna logika. Skoro prezydent zostaje określony jako
+    gwarant ciągłości władzy państwowej, czyli gwarant ciągłości i funkcji
+    ustawodawczej, i funkcji wykonawczej, i funkcji sądowniczej >i być może
+    innych funkcji państwowych, i jeśli rozumie się go jako arbitra, to nie może
+    przecież być zaliczony do jednej z tych władz. Nie może być zaliczony do
+    władzy wykonawczej i jakiejkolwiek innej władzy. Kto jest arbitrem nad
+    władzami i zapewnia ciągłość wykonywania każdej z tych funkcji, nie może być
+    zaliczany do jednej z władz. Sądzę, że nie zamyka to pola poszukiwań, aby do
+    wariantu I ust. 2 wpisać prezydenta, ale nie w obrębie władzy wykonawczej.
+    Posiedzenia Komisji Konstytucyjnej ZN
   </p>
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
@@ -3398,11 +3391,11 @@
     określonych uprawnieniach przy pozycji władz przesądzają bardziej emocje niż
     konieczność określenia systemu władzy. W tej materii proponuję z projektu
     senackiego następujący przepis: „Ust. 1. Władza państwowa jest sprawowana
-    przez rozdzielone 1 wzajemnie równoważące się organy ustawodawcze,
-    wykonawcze 1 sądownicze. Ust. 2. Władza ustawodawcza wykonywana jest przez
-    Sejm składający się z Izby Poselskiej 1 z Senatu, władza wykonawcza przez
+    przez rozdzielone i wzajemnie równoważące się organy ustawodawcze,
+    wykonawcze i sądownicze. Ust. 2. Władza ustawodawcza wykonywana jest przez
+    Sejm składający się z Izby Poselskiej i z Senatu, władza wykonawcza przez
     Prezydenta i Rząd, na którego czele stoi premier, władza sądownicza poprzez
-    niezależne 1 niezawisłe sądy”. Proszę nie zwracać uwagi na użyte nazwy,
+    niezależne i niezawisłe sądy”. Proszę nie zwracać uwagi na użyte nazwy,
     ponieważ Senat uznał, że parlament dwuizbowy powinien nosić historyczną
     nazwę — Sejmu i składać się z Izby Poselskiej i Senatu. Sądzę, że trzeba
     uwzględnić fakt wybierania w drodze wyborów powszechnych Sejmu i Prezydenta.
@@ -3430,39 +3423,37 @@
     pytanie: co zrobić z prezydentem, odpowiada art. 113 tekstu jednolitego.
   </p>
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Nie wiem, jak to się stało, ale art. 113 nie został
-    poprawiony 1 nie uwzględnia wyniku głosowania. Jest tam właśnie napisane, że
-    prezydent jest gwarantem ciągłości władzy wykonawczej. Brzmienie tego
-    artykułu jest błędne. Art. 113 ust. 1 powinien brzmieć: „Prezydent jest
-    najwyższym przedstawicielem Rzeczypospolitej i gwarantem ciągłości władzy
-    państwowej”.
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Nie wiem, jak to się stało, ale art. 113 nie został poprawiony i nie
+    uwzględnia wyniku głosowania. Jest tam właśnie napisane, że prezydent jest
+    gwarantem ciągłości władzy wykonawczej. Brzmienie tego artykułu jest błędne.
+    Art. 113 ust. 1 powinien brzmieć: „Prezydent jest najwyższym
+    przedstawicielem Rzeczypospolitej i gwarantem ciągłości władzy państwowej”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Nie ulega wątpliwości, że jeżeli w zasadach ustrojowych, w art. 9, mówimy
-    o władzy państwowej, to jakieś sformułowanie dotyczące prezydenta
-    wybieranego w wyborach bezpośrednich jest konieczne. Nawet może to być
-    formuła przeniesiona z art. 113. Jest to problem, który nie może być
-    pominięty.
+    Nie ulega wątpliwości, że jeżeli w zasadach ustrojowych, w art. 9, mówimy o
+    władzy państwowej, to jakieś sformułowanie dotyczące prezydenta wybieranego
+    w wyborach bezpośrednich jest konieczne. Nawet może to być formuła
+    przeniesiona z art. 113. Jest to problem, który nie może być pominięty.
   </p>
 
-  <p>strona 62</p>
+  <!-- <p>strona 62</p> -->
 
   <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Art. 9 zarówno w ust. 1, jak i w dwóch wariantach ust.
-    2 zawiera liczne komplikacje i pułapki, których można by uniknąć, gdybyśmy
-    zdecydowali się skrócić ten artykuł do zwrotu stwierdzającego: „Władza
-    państwowa jest sprawowana przez organy ustawodawcze, wykonawcze 1 sądownicze
-    ”. Tocząca się w tej chwili dyskusja nad wariantem II ust. 2 wskazuje na to,
-    że wracamy do problemu już przegłosowanego. Chodzi o pozycję prezydenta w
-    systemie podziału władzy. Niewątpliwie prezydent wybierany w bezpośrednich
-    wyborach powinien być uwzględniony w tym rozdziale, ale w takim wariancie, w
-    jakim został już przegłosowany, czyli jako gwarant ciągłości władzy. Dla
-    jasności całej sprawy można dodać określenie „arbiter”. Byłbym przeciwny
-    wymienianiu, jakie organy należą do poszczególnych władz, ponieważ powoduje
-    to poważne komplikacje. Sama zasada podziału władzy mieści się w tym, co
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Art. 9 zarówno w ust. 1, jak i w dwóch wariantach ust. 2 zawiera liczne
+    komplikacje i pułapki, których można by uniknąć, gdybyśmy zdecydowali się
+    skrócić ten artykuł do zwrotu stwierdzającego: „Władza państwowa jest
+    sprawowana przez organy ustawodawcze, wykonawcze i sądownicze ”. Tocząca się
+    w tej chwili dyskusja nad wariantem II ust. 2 wskazuje na to, że wracamy do
+    problemu już przegłosowanego. Chodzi o pozycję prezydenta w systemie
+    podziału władzy. Niewątpliwie prezydent wybierany w bezpośrednich wyborach
+    powinien być uwzględniony w tym rozdziale, ale w takim wariancie, w jakim
+    został już przegłosowany, czyli jako gwarant ciągłości władzy. Dla jasności
+    całej sprawy można dodać określenie „arbiter”. Byłbym przeciwny wymienianiu,
+    jakie organy należą do poszczególnych władz, ponieważ powoduje to poważne
+    komplikacje. Sama zasada podziału władzy mieści się w tym, co
     zaproponowałem. Wystarczające jest określenie, że władza państwowa jest
     sprawowana przez organy ustawodawcze, wykonawcze i sądownicze.
   </p>
@@ -3477,23 +3468,23 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Wit Majewski (SLD):</strong>
-    W uzupełnieniu mojego wystąpienia chciałbym podać treść proponowanego art.
-    9 ust. 1 w brzmieniu podkomisji, ust. 2 w wariancie I podkomisji 1 ust. 3 w
+    W uzupełnieniu mojego wystąpienia chciałbym podać treść proponowanego art. 9
+    ust. 1 w brzmieniu podkomisji, ust. 2 w wariancie I podkomisji i ust. 3 w
     brzmieniu: „Prezydent jako najwyższy przedstawiciel Rzeczypospolitej
-    gwarantuje ciągłość 1 współdziałanie władz ".
+    gwarantuje ciągłość i współdziałanie władz ".
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Proponowałbym odejście od formuły organów w tym artykule. Proponuję
     następującą treść art. 9: „Ustrój Rzeczypospolitej Polskiej opiera się na
-    podziale i równowadze władzy ustawodawczej, wykonawczej 1 władzy sądowej”.
+    podziale i równowadze władzy ustawodawczej, wykonawczej i władzy sądowej”.
     Przy takiej propozycji odchodzimy od formuły organów państwowych i jest
     czystość konstrukcji podziału władz.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Byłbym ogromnie wdzięczny, gdyby zechciał pan poseł przedstawić ten
-    wniosek na piśmie.
+    Byłbym ogromnie wdzięczny, gdyby zechciał pan poseł przedstawić ten wniosek
+    na piśmie.
   </p>
   <p class="rep-statement">
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
@@ -3515,7 +3506,7 @@
     pokolenia. Takie powinny być ambitne zamiary twórców ustawy zasadniczej.
     Pewne względy współczesne nie powinny prowadzić do zmiany całej koncepcji
     ustroju państwowego. Jeżeli odejdziemy od monteskiuszowskiego podziału
-    władzy na władzę ustawodawczą, wykonawczą 1 sądową oraz prezydenta usuniemy
+    władzy na władzę ustawodawczą, wykonawczą i sądową oraz prezydenta usuniemy
     poza ten system władz, to wówczas stworzymy nowy system ustrojowy. Nie
     wiadomo, czym on będzie. Wiemy, czym jest ustrój parlamentarny. Oparty jest
     on na równowadze władzy ustawodawczej i wykonawczej. Władza sądowa zawsze
@@ -3532,7 +3523,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Gdyby pójść śladem wniosku prof. L. Wiśniewskiego, czy posła J.
-    Ciemniewskiego 1 zapisać w tym artykule wyłącznie samą zasadę, to chyba nie
+    Ciemniewskiego i zapisać w tym artykule wyłącznie samą zasadę, to chyba nie
     napotkalibyśmy przeszkód. I tak wszystkie kwestie szczegółowe związane z
     naczelnymi organami państwa będziemy musieli przedyskutować we właściwym
     momencie przy omawianiu odpowiedniego rozdziału.
@@ -3542,9 +3533,9 @@
     Dlatego przychylam się do wniosku posła J. Ciemniewskiego.
   </p>
   <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Ze względu na czas nie będę podejmował polemiki z
-    moim uczonym kolegą, bo mógłbym to samo powiedzieć na korzyść rządu, co na
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Ze względu na czas nie będę podejmował polemiki z moim
+    uczonym kolegą, bo mógłbym to samo powiedzieć na korzyść rządu, co na
     korzyść prezydenta. W pełni popieram wniosek posła J. Ciemniewskiego i prof.
     L. Wiśniewskiego, żeby artykuł składał się tylko z pierwszego ustępu. Gwoli
     ścisłości chciałbym przypomnieć, że w głosowaniu kierunkowym przyjęto takie
@@ -3562,14 +3553,14 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Nie byłem obecny na poprzednim posiedzeniu Komisji, ale na podstawie
+    Nie byłem obecny na poprzednim posiedzeniu Komisji, ale na podstawie
     sprawozdań odniosłem wrażenie, że ustalono już, iż prezydent jest gwarantem
     ciągłości władzy wykonawczej, a nie gwarantem władzy państwowej. Określenie
     „gwarant ciągłości władzy państwowej” dawałoby prezydentowi bądź jego
     prawnikom tytuł do roszczenia prawa do sprawowania władzy ustawodawczej,
     kiedy Sejm nie funkcjonuje albo po rozwiązaniu parlamentu. Wtedy prezydent
     byłby gwarantem ciągłości władzy państwowej, a więc władzy w całości. Takie
-    rozwiązanie byłoby ryzykowne 1 niebezpieczne. Gwarant ciągłości władzy
+    rozwiązanie byłoby ryzykowne i niebezpieczne. Gwarant ciągłości władzy
     wykonawczej to ten, kto w razie upadku rządu dba o to, by powstał rząd
     następny. Poprzednie debaty rozumiałem w ten sposób, że istnieją koncepcje
     silnej bądź słabej prezydentury. Prezydent może być szefem władzy
@@ -3585,9 +3576,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Namawiałbym nas wszystkich, żebyśmy poszli tym śladem, o którym mówił
-    poseł J. Ciemniewski. Proszę ten głos traktować jako wypowiedź w dyskusji, a
-    nie jako głos przewodniczącego. Moim zdaniem nie ma konieczności, aby w
+    Namawiałbym nas wszystkich, żebyśmy poszli tym śladem, o którym mówił poseł
+    J. Ciemniewski. Proszę ten głos traktować jako wypowiedź w dyskusji, a nie
+    jako głos przewodniczącego. Moim zdaniem nie ma konieczności, aby w
     naczelnych zasadach wchodzić dalej niż do kwestii generalnej, tzn. zasady
     rozdziału władzy, tym bardziej że o wszystkim mówimy w kolejnych rozdziałach
     poświęconych w całości ustrojowi organów państwa. Myślę, że nieuniknione
@@ -3600,7 +3591,7 @@
     zawartej w art. 9, bo ona i tak musi znaleźć swoje rozwinięcie w
     poszczególnych rozdziałach. Dyskusję na ten temat i tak powtórzymy później.
     Posłowie J. Ciemniewski, K. Łybacka i W. Majewski zgłosili konkretne
-    wnioski. Mamy również wnioski senator A. Grześkowiak 1 senatora P.
+    wnioski. Mamy również wnioski senator A. Grześkowiak i senatora P.
     Andrzejewskiego, inaczej formułujące to zagadnienie. Jutro przejdziemy do
     głosowań nad brzmieniem artykułów: 7, 8 19 na podstawie przeprowadzonej
     dzisiaj dyskusji. Była prośba, żeby ze względu na posiedzenie klubu

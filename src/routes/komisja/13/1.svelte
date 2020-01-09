@@ -12,15 +12,35 @@
     padding-top: 16px;
   }
   .last {
-      padding-bottom: 2rem;
-      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-      margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    margin-bottom: 2rem;
   }
   .rep-statement {
-      margin: 1em 0em;
-      padding: 1em;
-      border: dotted 1px;
-      border-color: rgba(0, 0, 0, 0.3);
+    padding: 2.5rem;
+    border: dotted 1px;
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+  .l img {
+    margin: 0 1em 0 0;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+  .r img {
+    margin: 0 0 0 1em;
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+  .l p {
+     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+  }
+  .r p {
+     box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+  }
+  .speaker-small {
+    display: flex;
+  }
+  .speaker-small img {
+    width: 110px;
+    height: 110px;
   }
 </style>
 
@@ -33,7 +53,6 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
   <!--<hr><p class="page-break">strona 3</p><hr>-->
 
-
   <h3>Obrady w dniu 7 lutego 1995 r.</h3>
 
   <p class="last">
@@ -42,154 +61,195 @@
     Rzepliński, dr Władysław Kulesza i Rady Ministrów — prof. Stanisław
     Gebethner, prof. Andrzej Gwiżdż.
   </p>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement ">
 
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Otwieram posiedzenie Komisji Konstytucyjnej Zgromadzenia Narodowego.
-    Zgodnie z przyjętym planem pracy odbywamy kolejne posiedzenie, nie bacząc na
-    wydarzenia wokół i na różne bardzo spektakularne spotkania i wypowiedzi.
-    Obowiązkiem Komisji Konstytucyjnej jest bowiem praca i dalsze
-    przygotowywanie rozwiązań konstytucyjnych. Główna groźba, która w tym gmachu
-    była rozpatrywana jeszcze kilka dni temu, dotycząca możliwości rozwiązania
-    parlamentu, została oddalona na jakiś czas. Apeluję więc, abyśmy potrafili
-    uciec od spraw bieżących proponując rozwiązania konstytucyjne, które powinny
-    wytrzymać próbę czasu obecnych konfliktów i następnych. Witam członków
-    Komisji oraz gości, a wśród nich przedstawicieli Prezydenta RP i Rady
-    Ministrów. Przedstawiciele Trybunału Konstytucyjnego są nieobecni z powodu
-    posiedzenia Trybunału. Witam również innych gości, ekspertów i dziennikarzy.
-    Proponowany porządek dzienny przewiduje rozpatrzenie artykułów składających
-    się na rozdział pierwszy jednolitego projektu Konstytucji RP (w ujęciu
-    wariantowym) oraz sprawy różne. Czy są wnioski lub uwagi do proponowanego
-    porządku dziennego?
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Składam wniosek, aby w tym tygodniu nie odbyło się posiedzenie Komisji
-    Konstytucyjnej. Uważam bowiem, że mieliśmy zbyt mało czasu, aby móc
-    właściwie zapoznać się ze wszystkimi propozycjami, które zostały uchwalone.
-    Konstytucja musi być aktem jednolitym, a w związku z tym musi mieć określoną
-    wspólną aksjologię. Każdy z nas musi zastanowić się, czy przepisy, które
-    zostały zaakceptowane przez większość Komisji, mieszczą się w systemie
-    wartości, na którym zbudowana jest konstytucja. Wymaga to zasięgnięcia
-    opinii ekspertów, a nie było na to czasu. Dlatego też zgłaszam wniosek
-    formalny o odwołanie — przerwanie — posiedzenia Komisji Konstytucyjnej.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Jerzy Wiatr (SLD):</strong>
-    Jestem zdziwiony wnioskiem senator A. Grześkowiak, gdyż termin posiedzenia
-    został ustalony już dawno, a ponadto od poprzedniego posiedzenia Komisji
-    upłynęły dwa tygodnie. Jeżeli jest to za krótki czas, aby zapoznać się z
-    wynikami dotychczasowych prac, to wątpię, abyśmy przyjmując jeszcze
-    wolniejsze tempo, mogli zakończyć prace nad nową konstytucją w tej kadencji.
-    Ponadto należy pamiętać, że jesteśmy krytykowani przez ważne ośrodki
-    polityczne znajdujące się poza Komisją. Chyba wczoraj J. Parys wystąpił z
-    tezą, że należy rozwiązać obecny Sejm i Senat, gdyż do tej pory nie została
-    uchwalona nowa konstytucja. Powołał się przy tym na to, że „Solidarności”
-    wystarczył bardzo krótki czas na przygotowanie projektu konstytucji. Tak
-    więc pracując jeszcze wolniej narazilibyśmy się na jeszcze bardziej
-    zdecydowaną krytykę. W związku z tym zgłaszam wniosek o odrzucenie wniosku
-    senator A. Grześkowiak.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Do wniosku tak radykalnego jak wniosek senator A. Grześkowiak nie
-    przychylam się, lecz jednocześnie chcę zwrócić uwagę, że zapewnienia, 1ż
-    czas na pracę Komisji Konstytucyjnej będzie czasem, w którym nie będą
-    obradować komisje sejmowe, nie zostały dotrzymane. W dniu dzisiejszym odbywa
-    się wiele posiedzeń komisji. Zwracam się więc do pana przewodniczącego, aby
-    spowodował realizację ustalenia, że w trakcie posiedzenia Komisji
-    Konstytucyjnej nie odbywają się posiedzenia komisji sejmowych.
-  </p>
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Otwieram posiedzenie Komisji Konstytucyjnej Zgromadzenia Narodowego.
+      Zgodnie z przyjętym planem pracy odbywamy kolejne posiedzenie, nie bacząc
+      na wydarzenia wokół i na różne bardzo spektakularne spotkania i
+      wypowiedzi. Obowiązkiem Komisji Konstytucyjnej jest bowiem praca i dalsze
+      przygotowywanie rozwiązań konstytucyjnych. Główna groźba, która w tym
+      gmachu była rozpatrywana jeszcze kilka dni temu, dotycząca możliwości
+      rozwiązania parlamentu, została oddalona na jakiś czas. Apeluję więc,
+      abyśmy potrafili uciec od spraw bieżących proponując rozwiązania
+      konstytucyjne, które powinny wytrzymać próbę czasu obecnych konfliktów i
+      następnych. Witam członków Komisji oraz gości, a wśród nich
+      przedstawicieli Prezydenta RP i Rady Ministrów. Przedstawiciele Trybunału
+      Konstytucyjnego są nieobecni z powodu posiedzenia Trybunału. Witam również
+      innych gości, ekspertów i dziennikarzy. Proponowany porządek dzienny
+      przewiduje rozpatrzenie artykułów składających się na rozdział pierwszy
+      jednolitego projektu Konstytucji RP (w ujęciu wariantowym) oraz sprawy
+      różne. Czy są wnioski lub uwagi do proponowanego porządku dziennego?
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
+      Składam wniosek, aby w tym tygodniu nie odbyło się posiedzenie Komisji
+      Konstytucyjnej. Uważam bowiem, że mieliśmy zbyt mało czasu, aby móc
+      właściwie zapoznać się ze wszystkimi propozycjami, które zostały
+      uchwalone. Konstytucja musi być aktem jednolitym, a w związku z tym musi
+      mieć określoną wspólną aksjologię. Każdy z nas musi zastanowić się, czy
+      przepisy, które zostały zaakceptowane przez większość Komisji, mieszczą
+      się w systemie wartości, na którym zbudowana jest konstytucja. Wymaga to
+      zasięgnięcia opinii ekspertów, a nie było na to czasu. Dlatego też
+      zgłaszam wniosek formalny o odwołanie — przerwanie — posiedzenia Komisji
+      Konstytucyjnej.
+    </p>
+    <img src="images/kk-speakers/grzeskowiak.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="images/kk-speakers/r-wiatr.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Jerzy Wiatr (SLD):</strong>
+      Jestem zdziwiony wnioskiem senator A. Grześkowiak, gdyż termin posiedzenia
+      został ustalony już dawno, a ponadto od poprzedniego posiedzenia Komisji
+      upłynęły dwa tygodnie. Jeżeli jest to za krótki czas, aby zapoznać się z
+      wynikami dotychczasowych prac, to wątpię, abyśmy przyjmując jeszcze
+      wolniejsze tempo, mogli zakończyć prace nad nową konstytucją w tej
+      kadencji. Ponadto należy pamiętać, że jesteśmy krytykowani przez ważne
+      ośrodki polityczne znajdujące się poza Komisją. Chyba wczoraj J. Parys
+      wystąpił z tezą, że należy rozwiązać obecny Sejm i Senat, gdyż do tej pory
+      nie została uchwalona nowa konstytucja. Powołał się przy tym na to, że
+      „Solidarności” wystarczył bardzo krótki czas na przygotowanie projektu
+      konstytucji. Tak więc pracując jeszcze wolniej narazilibyśmy się na
+      jeszcze bardziej zdecydowaną krytykę. W związku z tym zgłaszam wniosek o
+      odrzucenie wniosku senator A. Grześkowiak.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Ryszard Bugaj (UP):</strong>
+      Do wniosku tak radykalnego jak wniosek senator A. Grześkowiak nie
+      przychylam się, lecz jednocześnie chcę zwrócić uwagę, że zapewnienia, iż
+      czas na pracę Komisji Konstytucyjnej będzie czasem, w którym nie będą
+      obradować komisje sejmowe, nie zostały dotrzymane. W dniu dzisiejszym
+      odbywa się wiele posiedzeń komisji. Zwracam się więc do pana
+      przewodniczącego, aby spowodował realizację ustalenia, że w trakcie
+      posiedzenia Komisji Konstytucyjnej nie odbywają się posiedzenia komisji
+      sejmowych.
+    </p>
+    <img src="images/kk-speakers/r-bugaj.png" alt="" />
+  </div>
 
   <!--<hr><p class="page-break">strona 4</p><hr>-->
-
-  <p class="rep-statement">
-    <strong>Poseł Jacek Taylor (UW):</strong>
-    Chcę kontynuować uwagę R. Bugaja, gdyż piętro wyżej obradują trzy
-    połączone komisje w bliskiej sercu prawników sprawie ubezpieczeń. Właściwie
-    trudno zdecydować się, czy pozostać na posiedzeniu Komisji Konstytucyjnej,
-    czy też przejść na posiedzenie trzech połączonych komisji obradujących nad
-    kwestią ubezpieczeń. Myślę więc, że w słowach senator A. Grześkowiak 1 posła
-    R. Bugaja tkwi jednak ziarno prawdy.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Jerzy Madej (KD):</strong>
-    Kontynuując wątek uwagi posła R. Bugaja chcę powiedzieć, że termin
-    przyszłego posiedzenia Komisji Konstytucyjnej zbiega się z terminem
-    posiedzenia Senatu. Koordynacja prac Sejmu, Senatu 1 Komisji Konstytucyjnej
-    szwankuje więc wyraźnie. Komisja powinna jednak praCOWAć.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Odnosząc się do uwagi posła R. Bugaja, chcę przypomnieć, że list marszałka
-    Sejmu ustanawia zasadę, iż w dniach posiedzeń Komisji Konstytucyjnej nie
-    powinny odbywać się posiedzenia komisji sejmowych. Jeżeli natomiast zajdzie
-    absolutna konieczność odbycia posiedzenia komisji sejmowej, to nieobecność
-    na tego rodzaju posiedzeniu jest usprawiedliwiona poprzez obecność na
-    posiedzeniu Komisji Konstytucyjnej. Jeżeli chodzi o posiedzenie Senatu, to
-    została przyjęta zasada, że Komisja będzie kończyć obrady do południa w
-    czwartek, a Senat będzie rozpoczynał obrady w czwartek do południu. Nic mi
-    nie wiadomo o zmianie tej zasady. Odnosząc się do wniosku senator A.
-    Grześkowiak chcę przypomnieć, że wspólnie przyjęliśmy terminy posiedzeń
-    Komisji. Ponadto materiały na dzisiejsze posiedzenie zostały dostarczone w
-    zasadzie już na poprzednim posiedzeniu. W tej sytuacji trudno powiedzieć,
-    jak długie powinny być przerwy między posiedzeniami Komisji, aby były one
-    wystarczające dla zapoznania się z materiałami. Wydaje się, że jeżeli
-    zrezygnujemy z cyklu posiedzeń co dwa tygodnie, to w gruncie rzeczy w ogóle
-    staje się niemożliwe prowadzenie prac nad nową konstytucją. Nawiązując do
-    wypowiedzi posła J. Wiatra, który przytoczył krytykę przedstawiciela
-    opozycji parlamentarnej zbyt wolnych prac naszej Komisji, chcę przypomnieć,
-    skąd wziął się problem takiego a nie innego czasowego rytmu prac. Po
-    pierwsze, uznaliśmy, że zostanie zachowany 6-miesięczny termin na składanie
-    projektów nowej konstytucji. Po drugie, terminarz został przedłużony o czas
-    na złożenie projektów obywatelskich. Czynienie z tego powodu zarzutów
-    Komisji Konstytucyjnej nie jest zgodne z faktami, ani intencjami jakie nam
-    towarzyszyły. Odrzucam więc zarzuty, że prace nad nową konstytucją są
-    sztucznie wydłużane. Tyle moich uwag do zgłoszonych wniosków i uwag. Poddam
-    pod głosowanie wniosek senator A. Grześkowiak.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Janusz Szymański (UP):</strong>
-    Zwracam uwagę, że wniosek senator A. Grześkowiak nie jest kompleta, gdyż
-    nie określa terminu, do którego ma zostać odroczone posiedzenie.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Proszę senator A. Grześkowiak o uzupełnienie wniosku poprzez określenie
-    terminu odroczenia posiedzenia Komisji.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Proponuję, aby następne posiedzenie Komisji odbyło się za dwa tygodnie.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Wniosek został więc uzupełniony. Poddaję pod głosowanie wniosek o
-    odłożenie o dwa tygodnie posiedzenia Komisji Konstytucyjnej. Stwierdzam, że
-    Komisja w głosowaniu, większością 23 głosów przeciwnych, przy 5 głosach
-    popierających i 2 wstrzymujących się, odrzuciła wniosek. Tak więc
-    posiedzenie będzie kontynuowane. Powracam więc do kwestii przyjęcia
-    zaproponowanego porządku dziennego przewidującego rozpatrywanie rozdziału I
-    projektu oraz sprawy różne. Czy są wnioski lub uwagi do porządku dziennego?
-    Nie ma. Stwierdzam więc przyjęcie porządku dziennego.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Myślę, że nie byłoby to sprzeczne z naszym regulaminem, gdybyśmy przyjęli
-    zasadę, że ewentualne wnioski mniejszości mogłyby być składane po
-    zakończeniu rozpatrywania całego rozdziału lub może nawet całego projektu.
-    Wychodziłoby to częściowo naprzeciw postulatowi senator A. Grześkowiak, aby
-    dać czas na analizę przyjmowanych rozstrzygnięć 1 czas na decyzję o
-    ewentualnym złożeniu wniosku mniejszości. Sądzę, że procedura, którą
-    proponuję, ograniczy liczbę wniosków mniejszości.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Szczegółowo procedurę składania wniosków mniejszości normuje regulamin
-    Komisji i regulamin Sejmu. Uważam, że możemy przyjąć, iż wnioski mniejszości
-    będą składane po zakończeniu rozpatrywania rozdziału, a także po zakończeniu
-    rozpatrywania projektu.
-  </p>
+  <div class="speaker-small l">
+    <img src="images/kk-speakers/taylor.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Jacek Taylor (UW):</strong>
+      Chcę kontynuować uwagę R. Bugaja, gdyż piętro wyżej obradują trzy
+      połączone komisje w bliskiej sercu prawników sprawie ubezpieczeń.
+      Właściwie trudno zdecydować się, czy pozostać na posiedzeniu Komisji
+      Konstytucyjnej, czy też przejść na posiedzenie trzech połączonych komisji
+      obradujących nad kwestią ubezpieczeń. Myślę więc, że w słowach senator A.
+      Grześkowiak i posła R. Bugaja tkwi jednak ziarno prawdy.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Senator Jerzy Madej (KD):</strong>
+      Kontynuując wątek uwagi posła R. Bugaja chcę powiedzieć, że termin
+      przyszłego posiedzenia Komisji Konstytucyjnej zbiega się z terminem
+      posiedzenia Senatu. Koordynacja prac Sejmu, Senatu i Komisji
+      Konstytucyjnej szwankuje więc wyraźnie. Komisja powinna jednak pracować.
+    </p>
+    <img src="images/kk-speakers/r-madej.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Odnosząc się do uwagi posła R. Bugaja, chcę przypomnieć, że list marszałka
+      Sejmu ustanawia zasadę, iż w dniach posiedzeń Komisji Konstytucyjnej nie
+      powinny odbywać się posiedzenia komisji sejmowych. Jeżeli natomiast
+      zajdzie absolutna konieczność odbycia posiedzenia komisji sejmowej, to
+      nieobecność na tego rodzaju posiedzeniu jest usprawiedliwiona poprzez
+      obecność na posiedzeniu Komisji Konstytucyjnej. Jeżeli chodzi o
+      posiedzenie Senatu, to została przyjęta zasada, że Komisja będzie kończyć
+      obrady do południa w czwartek, a Senat będzie rozpoczynał obrady w
+      czwartek do południu. Nic mi nie wiadomo o zmianie tej zasady. Odnosząc
+      się do wniosku senator A. Grześkowiak chcę przypomnieć, że wspólnie
+      przyjęliśmy terminy posiedzeń Komisji. Ponadto materiały na dzisiejsze
+      posiedzenie zostały dostarczone w zasadzie już na poprzednim posiedzeniu.
+      W tej sytuacji trudno powiedzieć, jak długie powinny być przerwy między
+      posiedzeniami Komisji, aby były one wystarczające dla zapoznania się z
+      materiałami. Wydaje się, że jeżeli zrezygnujemy z cyklu posiedzeń co dwa
+      tygodnie, to w gruncie rzeczy w ogóle staje się niemożliwe prowadzenie
+      prac nad nową konstytucją. Nawiązując do wypowiedzi posła J. Wiatra, który
+      przytoczył krytykę przedstawiciela opozycji parlamentarnej zbyt wolnych
+      prac naszej Komisji, chcę przypomnieć, skąd wziął się problem takiego a
+      nie innego czasowego rytmu prac. Po pierwsze, uznaliśmy, że zostanie
+      zachowany 6-miesięczny termin na składanie projektów nowej konstytucji. Po
+      drugie, terminarz został przedłużony o czas na złożenie projektów
+      obywatelskich. Czynienie z tego powodu zarzutów Komisji Konstytucyjnej nie
+      jest zgodne z faktami, ani intencjami jakie nam towarzyszyły. Odrzucam
+      więc zarzuty, że prace nad nową konstytucją są sztucznie wydłużane. Tyle
+      moich uwag do zgłoszonych wniosków i uwag. Poddam pod głosowanie wniosek
+      senator A. Grześkowiak.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Janusz Szymański (UP):</strong>
+      Zwracam uwagę, że wniosek senator A. Grześkowiak nie jest kompletny, gdyż
+      nie określa terminu, do którego ma zostać odroczone posiedzenie.
+    </p>
+    <img src="/images/kk-speakers/szymanski.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Proszę senator A. Grześkowiak o uzupełnienie wniosku poprzez określenie
+      terminu odroczenia posiedzenia Komisji.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
+      Proponuję, aby następne posiedzenie Komisji odbyło się za dwa tygodnie.
+    </p>
+    <img src="images/kk-speakers/grzeskowiak.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Wniosek został więc uzupełniony. Poddaję pod głosowanie wniosek o
+      odłożenie o dwa tygodnie posiedzenia Komisji Konstytucyjnej. Stwierdzam,
+      że Komisja w głosowaniu, większością 23 głosów przeciwnych, przy 5 głosach
+      popierających i 2 wstrzymujących się, odrzuciła wniosek. Tak więc
+      posiedzenie będzie kontynuowane. Powracam więc do kwestii przyjęcia
+      zaproponowanego porządku dziennego przewidującego rozpatrywanie rozdziału
+      I projektu oraz sprawy różne. Czy są wnioski lub uwagi do porządku
+      dziennego? Nie ma. Stwierdzam więc przyjęcie porządku dziennego.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Ryszard Bugaj (UP):</strong>
+      Myślę, że nie byłoby to sprzeczne z naszym regulaminem, gdybyśmy przyjęli
+      zasadę, że ewentualne wnioski mniejszości mogłyby być składane po
+      zakończeniu rozpatrywania całego rozdziału lub może nawet całego projektu.
+      Wychodziłoby to częściowo naprzeciw postulatowi senator A. Grześkowiak,
+      aby dać czas na analizę przyjmowanych rozstrzygnięć i czas na decyzję o
+      ewentualnym złożeniu wniosku mniejszości. Sądzę, że procedura, którą
+      proponuję, ograniczy liczbę wniosków mniejszości.
+    </p>
+    <img src="images/kk-speakers/r-bugaj.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Szczegółowo procedurę składania wniosków mniejszości normuje regulamin
+      Komisji i regulamin Sejmu. Uważam, że możemy przyjąć, iż wnioski
+      mniejszości będą składane po zakończeniu rozpatrywania rozdziału, a także
+      po zakończeniu rozpatrywania projektu.
+    </p>
+  </div>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
     Nie ma wątpliwoŚci co do tego, że wnioski mniejszości można składać do
@@ -221,7 +281,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Myślę, że jeżeli kwestie proceduralne potraktujemy z uwzględnieniem dobrej
-    woli 1 zdrowego rozsądku, to nie widzę przeszkód, aby mogło tak być, jak
+    woli i zdrowego rozsądku, to nie widzę przeszkód, aby mogło tak być, jak
     mówił poseł J. Ciemniewski. Przechodzimy do dyskusji merytorycznej. Podstawą
     debaty będzie jednolity projekt Konstytucji RP w ujęciu wariantowym, noszący
     datę 26.1.1995 r. — wersja robocza. Jest to tekst, który powstał po
@@ -233,7 +293,7 @@
     „Podstawy ustroju Rzeczypospolitej Polskiej” zawarta jest w projekcie.
     Odbyła się również wstępna wymiana poglądów na temat kilku początkowych
     artykułów. Propozycje zmian i poprawek dotyczące tych artykułów zostały
-    zawarte w materiale dostarczonym członkom Komisji 1 noszącym tytuł:
+    zawarte w materiale dostarczonym członkom Komisji i noszącym tytuł:
     „Propozycje zgłoszone do projektu konstytucji na posiedzeniu Komisji
     Konstytucyjnej w dniu 27 stycznia 1995 r.”
   </p>
@@ -246,22 +306,22 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę
-    dostarczę tekst poprawek. Poprawki te to pierwszy rozdział z projektu
-    konstytucji przygotowanego przez Komisję Konstytucyjną Senatu I kadencji.
+    Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę dostarczę
+    tekst poprawek. Poprawki te to pierwszy rozdział z projektu konstytucji
+    przygotowanego przez Komisję Konstytucyjną Senatu I kadencji.
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Orzechowski (PSL):</strong>
-    Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że
-    zawierają określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie
-    tych trzech artykułów artykułem 1 o treści: „Rzeczpospolita Polska jest
-    demokratycznym państwem prawa, wspólnym dobrem jej obywateli,
-    urzeczywistniającym zasady sprawiedliwości społecznej”.
+    Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że zawierają
+    określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie tych trzech
+    artykułów artykułem 1 o treści: „Rzeczpospolita Polska jest demokratycznym
+    państwem prawa, wspólnym dobrem jej obywateli, urzeczywistniającym zasady
+    sprawiedliwości społecznej”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Proponuję jednak, abyśmy najpierw rozstrzygnęli kwestię tytułu rozdziału
-    I. Oprócz propozycji, o których już mówiłem, wpłynęła propozycja senatora H.
+    Proponuję jednak, abyśmy najpierw rozstrzygnęli kwestię tytułu rozdziału I.
+    Oprócz propozycji, o których już mówiłem, wpłynęła propozycja senatora H.
     Rota i posła J. Szymańskiego: „Zasady ustroju Rzeczypospolitej Polskiej. W
     projekcie senackim — o czym mówiła senator A. Grześkowiak — tytuł rozdziału
     I brzmi: „Zasady naczelne”. Czy są uwagi do przedłożonych propozycji?
@@ -297,8 +357,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Wnioskodawcy przyjmują dalej idącą propozycję poseł I. Lipowicz. Proszę,
-    aby eksperci wypowiedzieli się na temat propozycji tytułu rozdziału 1.
+    Wnioskodawcy przyjmują dalej idącą propozycję poseł I. Lipowicz. Proszę, aby
+    eksperci wypowiedzieli się na temat propozycji tytułu rozdziału 1.
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
@@ -327,12 +387,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Odnosząc się do uwagi posła R. Bugaja dotyczącej mojej propozycji
-    skreślenia art. 1-4, chcę wyjaśnić, że nie oznacza to eliminacji z projektu
-    wszystkich przepisów art. 1-4. Jestem za skreśleniem w całości art. 1 i 2.
-    Uważam również, że rozdział I powinien rozpoczynać się od art. |
-    wyrażającego zasadę demokratycznego państwa prawnego urzeczywistniającego
-    zasady sprawiedliwości społecznej.
+    Odnosząc się do uwagi posła R. Bugaja dotyczącej mojej propozycji skreślenia
+    art. 1-4, chcę wyjaśnić, że nie oznacza to eliminacji z projektu wszystkich
+    przepisów art. 1-4. Jestem za skreśleniem w całości art. 1 i 2. Uważam
+    również, że rozdział I powinien rozpoczynać się od art. | wyrażającego
+    zasadę demokratycznego państwa prawnego urzeczywistniającego zasady
+    sprawiedliwości społecznej.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -342,8 +402,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Nie, gdyż moja propozycja nie mówi o republikańskiej formie państwa, co
-    jest zawarte w propozycji posłów: T. Iwińskiego 1 J. Zdrady.
+    Nie, gdyż moja propozycja nie mówi o republikańskiej formie państwa, co jest
+    zawarte w propozycji posłów: T. Iwińskiego i J. Zdrady.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -352,8 +412,8 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
-    Zwracam jednak uwagę, że Komisja nie rozstrzygnęła tytułu konstytucji.
-    Może to być tytuł: „Konstytucja Polski” lub „Konstytucja Rzeczypospolitej
+    Zwracam jednak uwagę, że Komisja nie rozstrzygnęła tytułu konstytucji. Może
+    to być tytuł: „Konstytucja Polski” lub „Konstytucja Rzeczypospolitej
     Polskiej”.
   </p>
   <p class="rep-statement">
@@ -366,9 +426,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Szymański (UP):</strong>
-    Sądzę, że uwaga prof. M. Pietrzaka jest zasadna. Kwestia tytułu
-    konstytucji wymaga rozstrzygnięcia. Powinno ono jednak nastąpić w końcowej
-    fazie prac.
+    Sądzę, że uwaga prof. M. Pietrzaka jest zasadna. Kwestia tytułu konstytucji
+    wymaga rozstrzygnięcia. Powinno ono jednak nastąpić w końcowej fazie prac.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -390,8 +449,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Chcę wyrazić zdziwienie wnioskiem prof. A. Rzeplińskiego, który
-    uczestniczył w pracach podkomisji podstaw. ustroju politycznego i
+    Chcę wyrazić zdziwienie wnioskiem prof. A. Rzeplińskiego, który uczestniczył
+    w pracach podkomisji podstaw. ustroju politycznego i
     społeczno-gospodarczego, lecz nie złożył tego typu wniosku. Nie mogę również
     zgodzić się z uwagą pana przewodniczącego, że art. | ma charakter
     tautologiczny. Z, dyskusji na poprzednim posiedzeniu wynikało, że normę
@@ -403,8 +462,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Przyjmuję uwagi i wyjaśnienia posła R. Bugaja. Nie zmienia to jednak
-    faktu, że kilku członków Komisji — posłowie: L. Moczulski, J. Szymański, T.
+    Przyjmuję uwagi i wyjaśnienia posła R. Bugaja. Nie zmienia to jednak faktu,
+    że kilku członków Komisji — posłowie: L. Moczulski, J. Szymański, T.
     Iwiński, J. Zdrada, L. Pastusiak, T. Mazowiecki, M. Mazurkiewicz oraz
     senator S. Pastuszka — zgłosiło wniosek o skreślenie obecnego art. 1.
     Poddaję pod głosowanie wniosek o skreślenie art. 1 projektu. Stwierdzam, że
@@ -415,14 +474,14 @@
     dotychczas. Posłowie: J. Zdrada i L. Pastusiak: „Rzeczpospolita Polska jest
     republikańskim demokratycznym państwem prawa”. Art. 1 w propozycji
     przedstawicieli Prezydenta RP ma następujące brzmienie: „Ust. 1. Państwo
-    Polskie jest jednolitą 1 niepodzielną republiką. Jego tradycyjną nazwą jest
+    Polskie jest jednolitą i niepodzielną republiką. Jego tradycyjną nazwą jest
     — Rzeczpospolita Polska. Ust. 2 Państwo Polskie jest wspólnym dobrem
     wszystkich obywateli”. Posłowie T. Iwiński i J. Zdrada proponują:
     „Rzeczpospolita Polska jest republikańskim, demokratycznym państwem prawa
     urzeczywistniającym zasady sprawiedliwości społecznej ”. Propozycja posła J.
     Szymańskiego jest następująca: „Rzeczpospolita Polska jest demokratycznym
     państwem prawa urzeczywistniającym zasady sprawiedliwości społecznej ”. Art.
-    1 według posła T. Mazowieckiego to: „Państwo Polskie ma ustrój
+    i według posła T. Mazowieckiego to: „Państwo Polskie ma ustrój
     republikański”. Państwo Polskie nosi nazwę — Rzeczpospolita Polska. Senator
     S. Pastuszka proponuje, aby art. I miał brzmienie: „Rzeczpospolita Polska —
     wspólne dobro wszystkich obywateli — jest republikańskim, demokratycznym
@@ -459,9 +518,9 @@
 
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    W związku z decyzją Komisji o wykreśleniu art. I w dotychczasowym
-    brzmieniu, zgłaszam jako poprawkę następujące brzmienie art. 1: „Państwo
-    Polskie jest Rzecząpospolitą ".
+    W związku z decyzją Komisji o wykreśleniu art. I w dotychczasowym brzmieniu,
+    zgłaszam jako poprawkę następujące brzmienie art. 1: „Państwo Polskie jest
+    Rzecząpospolitą ".
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -502,9 +561,9 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
-    Swoją propozycję złożyłem dlatego, 1ż odniosłem wrażenie, że część
-    członków Komisji przywiązuje dużą wagę do republikańskiej formy państwa.
-    Ponadto proponuję modyfikację mojej propozycji: „Państwo Polskie ma ustrój
+    Swoją propozycję złożyłem dlatego, iż odniosłem wrażenie, że część członków
+    Komisji przywiązuje dużą wagę do republikańskiej formy państwa. Ponadto
+    proponuję modyfikację mojej propozycji: „Państwo Polskie ma ustrój
     republikański i nosi nazwę — Rzeczpospolita Polska”.
   </p>
 
@@ -517,8 +576,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Iwiński (SLD):</strong>
-    Uważam, że art. 1 powinien zostać oparty na treści obecnego art. 5.
-    Kwestia republikańskiej formy państwa jest kwestią drugorzędną.
+    Uważam, że art. 1 powinien zostać oparty na treści obecnego art. 5. Kwestia
+    republikańskiej formy państwa jest kwestią drugorzędną.
   </p>
   <p class="rep-statement">
     <strong>Senator Stefan Pastuszka (PSL):</strong>
@@ -529,8 +588,8 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Zgadzam się z senatorem S$. Pastuszką, gdyż było tak,
-    że przez długi czas używano pojęcia „Rzeczpospolita”, choć państwo było
+    Leszek Wiśniewski: Zgadzam się z senatorem S$. Pastuszką, gdyż było tak, że
+    przez długi czas używano pojęcia „Rzeczpospolita”, choć państwo było
     monarchią. W okresie międzywojennym używano nazwy „Rzeczpospolita” dla
     określenia republiki, lecz jest to tradycja krótsza. Zarówno więc
     monarchiści jak i republikanie mają do czego odwoływać się, choć tradycje
@@ -561,16 +620,16 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Debata dotyczy cech Rzeczypospolitej. Mimo że moja propozycja art. I
-    upadła, to jednak chcę przedłożyć poprawkę do złożonych propozycji.
-    Proponuję, aby artykuł obejmujący cechy Rzeczypospolitej miał następującą
-    treść: „Ust. 1. Rzeczpospolita Polska jako wspólne dobro wszystkich jej
-    obywateli, jest suwerennym państwem demokratycznym uznającym i gwarantującym
-    ienaruszalność praw człowieka wynikających z jego przyrodzonych godności i
-    wartości. Ust. 2 Rzeczpospolita Polska chroni niepodległość 1 niezbywalne
-    prawo do całości terytorialnej Państwa Polskiego”. Uzasadnienie przedłożonej
-    propozycji przedstawiałam już podczas posiedzenia Komisji Konstytucyjnej
-    oraz Zgromadzenia Narodowego. Jeżeli jednak ktoś będzie chciał usłyszeć
+    Debata dotyczy cech Rzeczypospolitej. Mimo że moja propozycja art. I upadła,
+    to jednak chcę przedłożyć poprawkę do złożonych propozycji. Proponuję, aby
+    artykuł obejmujący cechy Rzeczypospolitej miał następującą treść: „Ust. 1.
+    Rzeczpospolita Polska jako wspólne dobro wszystkich jej obywateli, jest
+    suwerennym państwem demokratycznym uznającym i gwarantującym ienaruszalność
+    praw człowieka wynikających z jego przyrodzonych godności i wartości. Ust. 2
+    Rzeczpospolita Polska chroni niepodległość i niezbywalne prawo do całości
+    terytorialnej Państwa Polskiego”. Uzasadnienie przedłożonej propozycji
+    przedstawiałam już podczas posiedzenia Komisji Konstytucyjnej oraz
+    Zgromadzenia Narodowego. Jeżeli jednak ktoś będzie chciał usłyszeć
     uzasadnienie, to mogę je przedstawić.
   </p>
   <p class="rep-statement">
@@ -579,12 +638,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Chcę kontynuować wątek podjęty przez prof. A. Rzeplińskiego. Chodzi o
-    zwrot: „demokratyczne państwo prawne”, przyjęty w 1989 r. Przypominam sobie
-    debatę nad tym sformułowaniem. W jej wyniku przyjęto formułę demokratycznego
+    Chcę kontynuować wątek podjęty przez prof. A. Rzeplińskiego. Chodzi o zwrot:
+    „demokratyczne państwo prawne”, przyjęty w 1989 r. Przypominam sobie debatę
+    nad tym sformułowaniem. W jej wyniku przyjęto formułę demokratycznego
     państwa prawnego. Uważam, że zanim przyjmiemy formułę art. 1 powinniśmy
     poprosić ekspertów o opinię, gdyż w doktrynie występuje zarówno pojęcie
-    państwa prawa, jak 1 państwa prawnego.
+    państwa prawa, jak i państwa prawnego.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -592,7 +651,7 @@
     republikańskiej formy państwa. Poddaję pod głosowanie wniosek, aby w jednym
     z początkowych artykułów konstytucji znalazło się stwierdzenie mówiące o
     republikańskim charakterze państwa. Stwierdzam, że Komisja w głosowaniu,
-    większością 18 głosów przeciwnych, przy 6 głosach popierających 1 2
+    większością 18 głosów przeciwnych, przy 6 głosach popierających i 2
     wstrzymujących się, odrzuciła wniosek. Z wyników głosowania wynika jednak,
     iż nie ma quorum, co oznacza, że Komisja nie podjęła decyzji. Głosowania
     formalne przeprowadzimy w późniejszym terminie.
@@ -608,12 +667,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
-    Mam propozycję dotyczącą sekwencji głosowań, która powinna służyć
-    zachowaniu spójności przyjmowanych przepisów. Uważam, że jako art. I powinna
-    być poddana pod głosowanie propozycja zgłoszona przez posła T.
-    Mazowieckiego. Artykułem 2 byłby dotychczasowy art. 2 z projektu podkomisji.
-    Artykułem 3 byłaby treść obecnego art. 5. Taka sekwencja byłaby
-    najwłaściwszym początkiem rozdziału I.
+    Mam propozycję dotyczącą sekwencji głosowań, która powinna służyć zachowaniu
+    spójności przyjmowanych przepisów. Uważam, że jako art. I powinna być
+    poddana pod głosowanie propozycja zgłoszona przez posła T. Mazowieckiego.
+    Artykułem 2 byłby dotychczasowy art. 2 z projektu podkomisji. Artykułem 3
+    byłaby treść obecnego art. 5. Taka sekwencja byłaby najwłaściwszym
+    początkiem rozdziału I.
   </p>
 
   <!--<hr><p class="page-break">strona 9</p><hr>-->
@@ -622,20 +681,20 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem, że równocześnie oznacza to, że poseł J. Z/drada wycofuje swoje
     propozycje. Czy są jeszcze wnioski lub uwagi dotyczące art. 1? Nie ma.
-    Informuję więc, że o godz. 15 odbędzie się głosowanie nad zgłoszonymi 1 nie
+    Informuję więc, że o godz. 15 odbędzie się głosowanie nad zgłoszonymi i nie
     wycofanymi propozycjami treści początkowych artykułów w rozdziale pierwszym.
     Przechodzimy do debaty nad treścią artykułów 3, 416. Wydaje się bowiem, że
     art. 1 skonsumuje treści zawarte w projekcie podkomisji w artykułach 1, 215.
-    Musimy więc teraz zdecydować o treści artykułów: 3, 4 1 6 oraz o ich
+    Musimy więc teraz zdecydować o treści artykułów: 3, 4 i 6 oraz o ich
     kolejności, gdyż zgłoszono wnioski dotyczące zmiany kolejności. Akcentowano
     zwłaszcza, aby artykułem 2 był artykuł poświęcony suwerenności narodu, a
     więc obecny art. 6.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
-    Mam dwie uwagi do art. 3. Pierwsza z nich dotyczy sformułowania mówiącego
-    o gwarantowaniu praw człowieka. Uważam, że w kontekście innych pojęć ujętych
-    w tym artykule, z formułą tą mogą być kłopoty interpretacyjne, jeżeli cały
+    Mam dwie uwagi do art. 3. Pierwsza z nich dotyczy sformułowania mówiącego o
+    gwarantowaniu praw człowieka. Uważam, że w kontekście innych pojęć ujętych w
+    tym artykule, z formułą tą mogą być kłopoty interpretacyjne, jeżeli cały
     przepis traktujemy jako całość merytoryczną. Ponieważ w dalszej części tego
     przepisu dwukrotnie użyto wyrazu: „Sstrzeże”, proponuję zastosowanie tego
     pojęcia również w odniesieniu do praw człowieka. Druga możliwa formuła to:
@@ -681,10 +740,10 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
-    Przychylam się do argumentów, że obecny art. 6 ze względu na treść
-    powinien być art. 2. Chcę dodać jeszcze jeden argument, aby treść obecnego
-    art. 6 poprzedzała art. 3. W obu tych artykułach występuje pojęcie narodu,
-    lecz jest ono zdefiniowane w art. 6, a pierwszy raz występuje w art. 3.
+    Przychylam się do argumentów, że obecny art. 6 ze względu na treść powinien
+    być art. 2. Chcę dodać jeszcze jeden argument, aby treść obecnego art. 6
+    poprzedzała art. 3. W obu tych artykułach występuje pojęcie narodu, lecz
+    jest ono zdefiniowane w art. 6, a pierwszy raz występuje w art. 3.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
@@ -697,8 +756,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
-    Moje stanowisko jest zapewne mało popularne, gdyż przewiduje skreślenie
-    art. 3. Uważam bowiem, że określenie celów państwa w konstytucji nie spełnia
+    Moje stanowisko jest zapewne mało popularne, gdyż przewiduje skreślenie art.
+    3. Uważam bowiem, że określenie celów państwa w konstytucji nie spełnia
     celów normatywnych. Jest to raczej ideologia, która nie służy normatywnemu i
     jurydycznemu charakterowi konstytucji. Art. 3 podejmuje kwestie oczywiste, a
     jednocześnie nie podejmuje innych, również ważnych kwestii. Nie proponuję
@@ -713,28 +772,28 @@
   <p class="rep-statement">
     <strong>Senator Stefan Pastuszka (PSL):</strong>
     Absolutnie nie mogę podzielić stanowiska posła J. Ciemniewskiego, który
-    postuluje skreślenie art. 3 określającego cele państwa 1 jego charakter. W
+    postuluje skreślenie art. 3 określającego cele państwa i jego charakter. W
     moim pojęciu skreślenie art. 3 spowoduje, że może stracić sens cały rozdział
     I.
   </p>
   <p class="rep-statement">
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: Podobnie jak senator S. Pastuszka chcę zdecydowanie
-    bronić art. 3. Jak już mówiłem na jednym z poprzednich posiedzeń,
-    konstytucja to nie tylko akt prawny określający wyłącznie funkcjonowanie
-    instytucji władzy. Konstytucja to również akt konstytuujący państwo, mówiący
-    o jego tożsamości i celach. Z prac podkomisji pamiętam, że poseł J.
-    Ciemniewski kwestionował przede wszystkim sformułowanie mówiące o strzeżeniu
-    języka narodu, co zostało ujęte alternatywnie. W związku z tym chcę
-    przypomnieć, że w art. 23 projekt przewiduje ochronę języków mniejszości
-    narodowych. Trudno więc byłoby przyjąć, żeby język polski jako język narodu,
-    który stworzył państwo polskie, nie był chroniony. Nie widzę również powodów
-    do obaw o równouprawnienie obywateli w kontekście art. 23. Uważam więc, że
-    państwo polskie ma obowiązek stania na straży języka polskiego i powinno to
-    być zapisane w konstytucji. Jeżeli chodzi o propozycję posła W. Cimoszewicza
-    przesunięcia kolejności art. 3 1 art. 6, to nie popieram Jej. gdyż uważam,
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj :
+    </strong>
+    Michał Drozdek: Podobnie jak senator S. Pastuszka chcę zdecydowanie bronić
+    art. 3. Jak już mówiłem na jednym z poprzednich posiedzeń, konstytucja to
+    nie tylko akt prawny określający wyłącznie funkcjonowanie instytucji władzy.
+    Konstytucja to również akt konstytuujący państwo, mówiący o jego tożsamości
+    i celach. Z prac podkomisji pamiętam, że poseł J. Ciemniewski kwestionował
+    przede wszystkim sformułowanie mówiące o strzeżeniu języka narodu, co
+    zostało ujęte alternatywnie. W związku z tym chcę przypomnieć, że w art. 23
+    projekt przewiduje ochronę języków mniejszości narodowych. Trudno więc
+    byłoby przyjąć, żeby język polski jako język narodu, który stworzył państwo
+    polskie, nie był chroniony. Nie widzę również powodów do obaw o
+    równouprawnienie obywateli w kontekście art. 23. Uważam więc, że państwo
+    polskie ma obowiązek stania na straży języka polskiego i powinno to być
+    zapisane w konstytucji. Jeżeli chodzi o propozycję posła W. Cimoszewicza
+    przesunięcia kolejności art. 3 i art. 6, to nie popieram Jej. gdyż uważam,
     że art. 3 ma większą wagę, ponieważ dotyczy celów państwa. Definicja państwa
     może być umieszczona również później.
   </p>
@@ -755,12 +814,12 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
-    Jestem w pełni za utrzymaniem w przyszłej konstytucji wartości
-    wymienionych w art. 3. Równocześnie chcę zwrócić uwagę, że sprawiają one
-    wrażenie niezupełnie pełnego katalogu. Chodzi mi zwłaszcza o fragment
-    mówiący o dziedzictwie. Pojęcie dziedzictwa jest pojęciem szerszym niż tylko
-    kultura, język i środowisko przyrodnicze. Pojęcie dziedzictwa dotyczy spraw
-    duchowych i materialnych. Wydaje się ponadto, że bardziej właściwe byłoby
+    Jestem w pełni za utrzymaniem w przyszłej konstytucji wartości wymienionych
+    w art. 3. Równocześnie chcę zwrócić uwagę, że sprawiają one wrażenie
+    niezupełnie pełnego katalogu. Chodzi mi zwłaszcza o fragment mówiący o
+    dziedzictwie. Pojęcie dziedzictwa jest pojęciem szerszym niż tylko kultura,
+    język i środowisko przyrodnicze. Pojęcie dziedzictwa dotyczy spraw duchowych
+    i materialnych. Wydaje się ponadto, że bardziej właściwe byłoby
     sformułowanie nie enumeratywne, gdyż może ono zawierać luki, a sformułowanie
     bardziej ogólne, obeJmujące całe dziedzictwo narodowe, zarówno w sensie
     duchowym, jak i materialnym. Chcę zwrócić uwagę, że w poprawce, którą
@@ -769,24 +828,24 @@
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Polskiego Towarzystwa Ekonomicznego:</strong>
-    prof. Zdzisław Sadowski: Chcę się odnieść do propozycji uzupełnienia art.
-    3 o pojęcie zrównoważonego rozwoju. Podzielam pogląd, że takie uzupełnienie
+    prof. Zdzisław Sadowski: Chcę się odnieść do propozycji uzupełnienia art. 3
+    o pojęcie zrównoważonego rozwoju. Podzielam pogląd, że takie uzupełnienie
     jest potrzebne, a wyliczenie elementów w art. 3 nie jest wystarczające. Samo
     pojęcie rozwoju byłoby zbyt ogólne. Ponieważ kwestia zrównoważonego rozwoju
     dotyczy mojej specjalności zawodowej, chcę przestrzec przed wprowadzeniem
     pojęcia zrównoważonego rozwoju, gdyż jest ono nieostre i wieloznaczne.
-    Myślę, że należałoby posłużyć się pojęciem trwałego 1 wszechstronnego
+    Myślę, że należałoby posłużyć się pojęciem trwałego i wszechstronnego
     rozwoju społecznego i gospodarczego. Jest to formuła dłuższa, lecz bardziej
     właŚciwa.
   </p>
   <p class="rep-statement">
     <strong>Poseł Irena Lipowicz (UW):</strong>
-    Zamierzałam mówić O czymś innym, lecz mój przedmówca sprowokował mnie
-    mówiąc o wszechstronnym rozwoju. Wiem bowiem, co ten „rozwój” oznaczał dla
+    Zamierzałam mówić O czymś innym, lecz mój przedmówca sprowokował mnie mówiąc
+    o wszechstronnym rozwoju. Wiem bowiem, co ten „rozwój” oznaczał dla
     województwa katowickiego, w którym mieszkam. Oznaczał klęskę ekologiczną 1
     zdrowotną. Uważam więc, że „wszechstronny rozwój” powinien być zakazany
     ustawowo. Nie możemy bowiem rozwijać się wszechstronnie >zwłaszcza
-    gospodarczo. Brakuje bowiem wody, powietrza 1 ziemi. Uważam, że pojęcie
+    gospodarczo. Brakuje bowiem wody, powietrza i ziemi. Uważam, że pojęcie
     „Zrównoważony rozwój” m ustalone znaczenie w literaturze światowej. Oznacza
     pryncypia rozwoju ekologicznego, a więc takiego, które uwzględniają potrzeby
     środowiska naturalnego. Chodzi więc o zupełnie inne pojęcie o stosunku do
@@ -843,14 +902,14 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Otrzymałem jeszcze jedną propozycję art. 3, którą przygotowali
-    senatorowie: H. Rot i P. Jankiewicz. Jej brzmienie jest następujące:
-    „Rzeczpospolita Polska gwarantuje wolności i prawa człowieka, strzeże
-    niepodległości, jednolitości i niepodzielności swojego terytorium, strzeże
-    dziedzictwa kultury narodowej i języka oraz zapewnia ochronę środowiska
-    przyrodniczego . RÓwnocześnie proponuje się skreślenie art. 4. Propozycję
-    brzmienia art. 3 przedstawił poseł J. Szymański. Jest ona następująca: „Ust.
-    1. Przestrzeganie praw Rzeczypospolitej Polskiej jest stawowym obowiązkiem
+    Otrzymałem jeszcze jedną propozycję art. 3, którą przygotowali senatorowie:
+    H. Rot i P. Jankiewicz. Jej brzmienie jest następujące: „Rzeczpospolita
+    Polska gwarantuje wolności i prawa człowieka, strzeże niepodległości,
+    jednolitości i niepodzielności swojego terytorium, strzeże dziedzictwa
+    kultury narodowej i języka oraz zapewnia ochronę środowiska przyrodniczego .
+    RÓwnocześnie proponuje się skreślenie art. 4. Propozycję brzmienia art. 3
+    przedstawił poseł J. Szymański. Jest ona następująca: „Ust. 1.
+    Przestrzeganie praw Rzeczypospolitej Polskiej jest stawowym obowiązkiem
     każdego organu władzy publicznej. Ust. 2. Wszystkie organy władzy publicznej
     działają na podstawie i w granicach prawa . Propozycje obejmujące pierwsze
     artykuły rozdziału I przedłożył również poseł J. Jaskiernia. Brzmienie art.
@@ -891,16 +950,15 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Przyjmuję uwagę posła J. Zdrady. Wspólna propozycja posła J. Zdrady i
-    posła T. Mazowieckiego oznaczona cyfma więc brzmienie: „Państwo polskie ma
-    ustrój republikański i nosi nazwę Rzeczpospolita Polska”. Powracam do
-    kwestii użycia określenia mówiącego o republikańskiej formie państwa.
-    Poddaję pod głosowanie wniosek, aby w rozdziale I znalazło się stwierdzenie
-    mówiące o republikańskiej formie państwa. Stwierdzam, że Komisja w
-    głosowaniu, większością 18 głosów przeciwnych, przy 9 głosach popierających
-    i 2 wstrzymujących się, odrzuciła wniosek. Tak więc republikańska forma
-    państwa nie będzie zapisana. Kwestia druga to: „państwo prawa” czy „państwo
-    prawne”?
+    Przyjmuję uwagę posła J. Zdrady. Wspólna propozycja posła J. Zdrady i posła
+    T. Mazowieckiego oznaczona cyfma więc brzmienie: „Państwo polskie ma ustrój
+    republikański i nosi nazwę Rzeczpospolita Polska”. Powracam do kwestii
+    użycia określenia mówiącego o republikańskiej formie państwa. Poddaję pod
+    głosowanie wniosek, aby w rozdziale I znalazło się stwierdzenie mówiące o
+    republikańskiej formie państwa. Stwierdzam, że Komisja w głosowaniu,
+    większością 18 głosów przeciwnych, przy 9 głosach popierających i 2
+    wstrzymujących się, odrzuciła wniosek. Tak więc republikańska forma państwa
+    nie będzie zapisana. Kwestia druga to: „państwo prawa” czy „państwo prawne”?
   </p>
 
   <!--<hr><p class="page-break">strona 12</p><hr>-->
@@ -919,7 +977,7 @@
     doszukiwało różnicy pomiędzy sformułowaniem wprowadzonym w 1989 r. a
     sformułowaniem z 1995 r. Nawet więc, jeżeli ktoś uważa, że nie jest to
     sformułowanie poprawne, to lepiej je utrzymać, gdyż opiera się na nim
-    orzecznictwo Trybunału Konstytucyjnego 1 literatura przedmiotu. Za tym, aby
+    orzecznictwo Trybunału Konstytucyjnego i literatura przedmiotu. Za tym, aby
     nie dokonywać zmiany przemawia również to, że nie jest proponowana zmiana
     treści tego pojęcia.
   </p>
@@ -1059,7 +1117,7 @@
 
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Proszę więc wnioskodawców, czyli posłów J. Zdradę 1 T. Mazowieckiego o
+    Proszę więc wnioskodawców, czyli posłów J. Zdradę i T. Mazowieckiego o
     przedstawienie brzmienia art. 2 w wersji poprawionej, po wypowiedzi prof. W.
     Osiatyńskiego.
   </p>
@@ -1118,8 +1176,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
-    Postuluję wykreślenie wyrazu „suwerennym ”. Wymienianie cechy państwa,
-    jaką jest suwerenność, jest — jak się wydaje — nie na miejscu w związku z
+    Postuluję wykreślenie wyrazu „suwerennym ”. Wymienianie cechy państwa, jaką
+    jest suwerenność, jest — jak się wydaje — nie na miejscu w związku z
     najnowszą historią.
   </p>
   <p class="rep-statement">
@@ -1134,14 +1192,14 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Czy są uwagi do wniosku nr 5 przygotowanego przez posła L. Moczulskiego?
-    Nie ma. Czy są uwagi do wniosku nr 6 przygotowanego przez przedstawicieli
+    Czy są uwagi do wniosku nr 5 przygotowanego przez posła L. Moczulskiego? Nie
+    ma. Czy są uwagi do wniosku nr 6 przygotowanego przez przedstawicieli
     Prezydenta RP?
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
-    Jak widać z przedłożonych propozycji, kwestia państwa prawnego jest ujęta.
-    W tej sytuacji, przyłączając się do argumentacji prof. W. Osiatyńskiego — po
+    Jak widać z przedłożonych propozycji, kwestia państwa prawnego jest ujęta. W
+    tej sytuacji, przyłączając się do argumentacji prof. W. Osiatyńskiego — po
     wymianie poglądów z prof. M. Pietrzakiem — proponujemy art. 4 w następującym
     brzmieniu: „Rzeczpospolita Polska jest państwem prawnym i socjalnym”.
     Ponadto w art. 1 ust. 1 zdanie pierwsze otrzymuje brzmienie: „Państwo
@@ -1173,8 +1231,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Czy są uwagi do wniosku nr 10 posła J. Szymańskiego? Nie ma. Jeżeli chodzi
-    o wniosek nr 11, to proszę poprawić, że jego autorami są senatorowie: P.
+    Czy są uwagi do wniosku nr 10 posła J. Szymańskiego? Nie ma. Jeżeli chodzi o
+    wniosek nr 11, to proszę poprawić, że jego autorami są senatorowie: P.
     Jankiewicz, H. Rot i J. Orzechowski. Czy są inne uwagi do wniosku nr 11? Nie
     ma. Czy są uwagi do wniosku nr 12 posła J. Ciemniewskiego, który proponuje
     skreślenie art. 3?
@@ -1196,11 +1254,11 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
-    Przepraszam, że nieco przedłużam procedurę, ale mam pewną uwagę. Jest
-    bowiem tak, że początkowe artykuły konstytucji wymieniają z reguły
-    najważniejsze kwestie. Dobrze byłoby więc — dla swego rodzaju elegancji
-    legislacyjnej, aby artykuły początkowe były jednoustępowe, a nie rozbudowane
-    w formie kilku ustępów.
+    Przepraszam, że nieco przedłużam procedurę, ale mam pewną uwagę. Jest bowiem
+    tak, że początkowe artykuły konstytucji wymieniają z reguły najważniejsze
+    kwestie. Dobrze byłoby więc — dla swego rodzaju elegancji legislacyjnej, aby
+    artykuły początkowe były jednoustępowe, a nie rozbudowane w formie kilku
+    ustępów.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1211,15 +1269,15 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Zwracam uwagę, że przedłożone warianty zakresowo nie są równoważne.
-    Wniosek posła J. Szymańskiego nie dotyka kwestii Posiedzenia Komisji
-    Konstytucyjnej ZN socjalnej i sprawiedliwości społecznej. Nie wydaje się
-    jednak możliwe, aby poseł J. Szymański nie chciał kwestii tej gdzieś ująć.
-    Popierając wniosek posła J. Szymańskiego nie mam pełnej gwarancji, że
-    kwestie socjalne zostaną później przyjęte. Tak więc musimy głosować nad
-    wnioskami, które są równoważne co do zawartości, choć oczywiście są różne co
-    do treści merytorycznej. Ponadto wydaje mi się, że jest chyba obowiązkiem
-    Komisji rozstrzygnięcie wariantów, które przygotowała podkomisja redakcyjna,
+    Zwracam uwagę, że przedłożone warianty zakresowo nie są równoważne. Wniosek
+    posła J. Szymańskiego nie dotyka kwestii Posiedzenia Komisji Konstytucyjnej
+    ZN socjalnej i sprawiedliwości społecznej. Nie wydaje się jednak możliwe,
+    aby poseł J. Szymański nie chciał kwestii tej gdzieś ująć. Popierając
+    wniosek posła J. Szymańskiego nie mam pełnej gwarancji, że kwestie socjalne
+    zostaną później przyjęte. Tak więc musimy głosować nad wnioskami, które są
+    równoważne co do zawartości, choć oczywiście są różne co do treści
+    merytorycznej. Ponadto wydaje mi się, że jest chyba obowiązkiem Komisji
+    rozstrzygnięcie wariantów, które przygotowała podkomisja redakcyjna,
     zagadnień ogólnych i przepisów wprowadzających konstytucję. Powinno to chyba
     nastąpić w pierwszej kolejności.
   </p>
@@ -1227,14 +1285,14 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Zamierzam poddać pod głosowanie te propozycje, które są równoważne, gdyż
     dotyczą art. 1, który jest ujmowany różnie z tego powodu, że poszczególni
-    wnioskodawcy różnie widzą treść 1 układ początkowych artykułów. Chcę
+    wnioskodawcy różnie widzą treść i układ początkowych artykułów. Chcę
     przypomnieć, że jeżeli chodzi o projekt, to podjęliśmy decyzję o skreśleniu
     art. 1. Utrzymanie dalszych artykułów oznacza, że konstytucja powinna
     rozpoczynać się od obecnego art. 2 stwierdzającego, że „Rzeczpospolita
     Polska jest wspólnym dobrem wszystkich obywateli. Identyczne wnioski
     dotyczące pierwszego artykułu zgłosili posłowie: J. Zdrada 1 [. Mazowiecki.
     Bardziej obszerną wersję art. 1 przedłożył poseł J. Jaskiernia. Obejmuje ona
-    treść art. 1 i art. 2 proponowanych przez posłów: J. Zdradę 1 T.
+    treść art. 1 i art. 2 proponowanych przez posłów: J. Zdradę i T.
     Mazowieckiego. Brzmienie odpowiadające treści art. 1 zawierają również:
     wniosek nr 3 posłów: T. Iwińskiego i J. Szymańskiego, wniosek nr 4 senator
     A. Grześkowiak, art. 1 ust. I wniosku nr 5 posła L. Moczulskiego, art. 1
@@ -1243,17 +1301,17 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Na tle złożonych wniosków pierwszy dylemat, jaki się rysuje, to
-    konieczność rozstrzygnięcia kolejności, a więc czy art. I ma mówić o tym, że
+    Na tle złożonych wniosków pierwszy dylemat, jaki się rysuje, to konieczność
+    rozstrzygnięcia kolejności, a więc czy art. I ma mówić o tym, że
     Rzeczpospolita Polska jest wspólnym dobrem wszystkich obywateli, czy też że
     jest państwem niepodzielnym, czy też, że jest demokratycznym państwem
     prawnym kierującym się zasadami sprawiedliwości społecznej.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Musimy zdecydować, czy art. 1 będzie zawierał formułę o dobru wspólnym,
-    czy też formułę o demokratycznym państwie prawnym lub jeszcze inną formułę,
-    na przykład taką, jaką zaproponował senator S. Pastuszka.
+    Musimy zdecydować, czy art. 1 będzie zawierał formułę o dobru wspólnym, czy
+    też formułę o demokratycznym państwie prawnym lub jeszcze inną formułę, na
+    przykład taką, jaką zaproponował senator S. Pastuszka.
   </p>
 
   <!--<hr><p class="page-break">strona 15</p><hr>-->
@@ -1279,7 +1337,7 @@
     rozstrzygane, zwłaszcza że wyraźnie rysują się trzy opcje art. 1. Pierwsza z
     nich opowiada się za tym, aby art. I mówił o wspólnym dobru. Opcja druga to
     państwo prawne urzeczywistniające zasady sprawiedliwości społecznej. Opcja
-    trzecia akcentuje jednolitość 1 niepodzielność. Uważam więc, że w pierwszym
+    trzecia akcentuje jednolitość i niepodzielność. Uważam więc, że w pierwszym
     głosowaniu powinniśmy ustalić, która opcja ma największe poparcie. Następnie
     przystąpiibyśmy do sformułowania konkretnego brzmienia przepisu art. 1.
     Proponuję głosowanie, w którym każdy z członków Komisji będzie mógł
@@ -1314,7 +1372,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jest to pewna trudność, ale wniosek senator A. Grześkowiak brał udział w
-    głosowaniu w ramach opcji głosowanej jako pierwsza 1 przewidująca, że art. 1
+    głosowaniu w ramach opcji głosowanej jako pierwsza i przewidująca, że art. 1
     będzie stanowił o tym, że Rzeczpospolita Polska jest wspólnym dobrem
     wszystkich obywateli. Formuła ta znajduje się bowiem w art. 1 ust. I wniosku
     senator A. Grześkowiak. Przypominam, że opcja uzyskała poparcie 8 członków
@@ -1323,8 +1381,8 @@
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Uważam, że w głosowaniu przesądziliśmy tylko generalną formułę art. 1.
-    Teraz powinniśmy rozstrzygnąć, czy znajdzie się w nim formuła mówiąca o
+    Uważam, że w głosowaniu przesądziliśmy tylko generalną formułę art. 1. Teraz
+    powinniśmy rozstrzygnąć, czy znajdzie się w nim formuła mówiąca o
     urzeczywistnianiu zasad sprawiedliwości społecznej, czy formuła mówiąca o
     kierowaniu się zasadami sprawiedliwości społecznej.
   </p>
@@ -1350,13 +1408,13 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Wydaje się, że dochodzimy do absurdu proceduralnego. Zwracam uwagę, że
-    część poprawek była zgłoszona na poprzednim posiedzeniu. Może więc być
-    poddana głosowaniu. Jeżeli jednak zgłoszone poprawki zostaną poddane
-    głosowaniu w kolejności zgłoszenia, to głosowanie powinno trwać do chwili,
-    kiedy jeden z wniosków uzyska większość. Oznacza to rozstrzygnięcie losów
-    pozostałych wniosków. Zasada demokratycznego państwa prawnego uzyskała
-    aprobatę większości członków Komisji. Ma więc rację senator J..Madej, że
+    Wydaje się, że dochodzimy do absurdu proceduralnego. Zwracam uwagę, że część
+    poprawek była zgłoszona na poprzednim posiedzeniu. Może więc być poddana
+    głosowaniu. Jeżeli jednak zgłoszone poprawki zostaną poddane głosowaniu w
+    kolejności zgłoszenia, to głosowanie powinno trwać do chwili, kiedy jeden z
+    wniosków uzyska większość. Oznacza to rozstrzygnięcie losów pozostałych
+    wniosków. Zasada demokratycznego państwa prawnego uzyskała aprobatę
+    większości członków Komisji. Ma więc rację senator J..Madej, że
     rozstrzygnięcia wymaga jedynie formuła odnosząca się do sprawiedliwości
     społecznej. Uważam więc, że reguła głosowania, jaką zastosował
     przewodniczący Komisji, jest regułą poprawną. Proponuję więc, aby zakończyć
@@ -1487,7 +1545,7 @@
     uzasadnienie z zasady wspólnego dobra. Warto dodać, że treść zasady
     sprawiedliwości społecznej będzie określał katalog praw socjalnych zawartych
     w konstytucji. Zasada ta miała więc oparcie na gruncie szczególnych
-    przepisów dotyczących praw socjalnych 1 kulturalnych. Opowiadam się za
+    przepisów dotyczących praw socjalnych i kulturalnych. Opowiadam się za
     utrzymaniem formuły mówiącej o urzeczywistnianiu zasad sprawiedliwości
     społecznej dlatego, że w pierwszym okresie — okresie zmian — właściwie
     większość spraw rozpatrywanych przez Trybunał Konstytucyjny dotyczyła zasady
@@ -1504,11 +1562,11 @@
 
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UW):</strong>
-    Ubolewam, że ta dyskusja toczy się, zwłaszcza że wywołał ją poseł J.
-    Rokita, który nie uczestniczył w żadnym z 12 dotychczasowych posiedzeń
-    podkomisji podstaw ustroju politycznego i społeczno-gospodarczego. Na częŚci
-    posiedzeń kwestia ta była dyskutowana. Ponadto proszę pamiętać, że mówimy o
-    formule, która jest formułą nie rewolucji konstytucyjnej, lecz kontynuacji
+    Ubolewam, że ta dyskusja toczy się, zwłaszcza że wywołał ją poseł J. Rokita,
+    który nie uczestniczył w żadnym z 12 dotychczasowych posiedzeń podkomisji
+    podstaw ustroju politycznego i społeczno-gospodarczego. Na częŚci posiedzeń
+    kwestia ta była dyskutowana. Ponadto proszę pamiętać, że mówimy o formule,
+    która jest formułą nie rewolucji konstytucyjnej, lecz kontynuacji
     konstytucyjnej. W związku z tym zakładanie, że spowoduje ona coroczną ocenę
     budżetu państwa przez Trybunał Konstytucyjny, wydaje się niezrozumiałe. Nie
     można bowiem zapominać, że w kwestii tej jest już pewna praktyka, o czym
@@ -1530,8 +1588,8 @@
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Podzielam uwagę posła R. Bugaja, że powielamy w sposób spłycony dyskusję,
     która przez kilka tygodni toczyła się podczas posiedzeń podkomisji podstaw
-    ustroju politycznego 1 społeczno-gospodarczego. Był wtedy czas na
-    merytoryczną 1 pogłębioną wymianę zdań. Ponadto chcę zdecydowanie
+    ustroju politycznego i społeczno-gospodarczego. Był wtedy czas na
+    merytoryczną i pogłębioną wymianę zdań. Ponadto chcę zdecydowanie
     opowiedzieć się za formułą mówiącą o urzeczywistnianiu zasad sprawiedliwości
     społecznej. Dyskutantów, którzy obawiają się skutków, odsyłam do
     orzecznictwa Trybunału Konstytucyjnego, w którym znajduje się dorobek
@@ -1554,7 +1612,7 @@
     politycznego i społeczno-gospodarczego, gdyby dzisiaj odebrano mi prawo
     wypowiedzenia się o tak fundamentalnej sprawie ustrojowej. Dziwię się tym
     członkom Komisji, którzy przez fakt przywileju udziału w pracach podkomisji
-    podstaw ustroju politycznego 1 społeczno-gospodarczego roszczą sobie
+    podstaw ustroju politycznego i społeczno-gospodarczego roszczą sobie
     pretensje do rozstrzygania tych spraw bez prawa zabrania głosu przez
     pozostałych członków Komisji. Kwestia druga to wybór jednej z dwóch formuł,
     nad którymi dyskutujemy. W związku z tym chcę powiedzieć, że kwestią
@@ -1606,14 +1664,14 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Dyskusja faktycznie trwa i jest rzeczowa. Uważam jednak, że mając już
-    wiedzę na dyskutowany temat możemy przystąpić do decydowania.
+    Dyskusja faktycznie trwa i jest rzeczowa. Uważam jednak, że mając już wiedzę
+    na dyskutowany temat możemy przystąpić do decydowania.
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Chcę zgłosić uwagę polemiczną, gdyż nie zostałem właściwie zrozumiany
-    przez posła J. Ciemniewskiego. Użyłem bowiem tego typu uzasadnienia, iż
-    tylko z powodu oszczędności czasu nie przytoczyłem argumentacji na rzecz
+    Chcę zgłosić uwagę polemiczną, gdyż nie zostałem właściwie zrozumiany przez
+    posła J. Ciemniewskiego. Użyłem bowiem tego typu uzasadnienia, iż tylko z
+    powodu oszczędności czasu nie przytoczyłem argumentacji na rzecz
     pozostawienia formuły o państwie urzeczywistniającym zasady Sprawiedliwości
     społecznej, w oparciu o ukształtowane orzecznictwo, jakie poseł J.
     Ciemniewski przedstawił dla uzasadnienia zasady demokratycznego państwa
@@ -1637,14 +1695,14 @@
     <strong>Poseł Wit Majewski (SLD):</strong>
     Chcę wyrazić zdziwienie, że tak doskonały prawnik jak poseł J. Ciemniewski
     nie wie, że dyskutowany przepis jest stosowany od kilku lat. Są orzeczenia
-    Trybunału Konstytucyjnego 1 wiadomo, że w formule o sprawiedliwoŚci
+    Trybunału Konstytucyjnego i wiadomo, że w formule o sprawiedliwoŚci
     społecznej chodzi o to, aby nie tworzyć nie uzasadnionych przywilejów. Jest
     to interpretacja, którą Trybunał Konstytucyjny stosował wielokrotnie.
     Formuła o państwie urzeczywistniającym zasady sprawiedliwości społecznej
     znajduje się w art. 1 utrzymanych w mocy przepisów konstytucji z 1952 r.
     Została przyjęta w 1989 r. i stanowi podstawowe dokonanie polskich przemian.
     Tymczasem teraz kwestionuje się brzmienie tej formuły i jej obecność jako
-    art. I nowej Konstytucji RP. Doprawdy trudno ustalić, kto czego broni 1 o co
+    art. I nowej Konstytucji RP. Doprawdy trudno ustalić, kto czego broni i o co
     komu chodzi, chyba że mówienie jest po to, aby stosować abstrakcję
     parlamentamą w tym celu, aby nie doprowadzić do żadnych konkluzji.
   </p>
@@ -1670,7 +1728,7 @@
     Pytanie to stawiam panu przewodniczącemu i ekspertom Komisji, jak również
     stawiam je posłowi R. Bugajowi jako przewodniczącemu podkomisji podstaw
     ustroju politycznego i społeczno-gospodarczego, gdzie kwestia ta była
-    dogłębnie dyskutowana. Jeżeli odpowiedź podkomisji zarówno w jednym jak 1 w
+    dogłębnie dyskutowana. Jeżeli odpowiedź podkomisji zarówno w jednym jak i w
     drugim przypadku nie jest rozstrzygająca, to będę zmuszony uznać, że
     postąpiłem rozsądnie rezygnując z prac w podkomisji w ich początkowym
     etapie. Zmienię to zdanie, jeżeli z prac podkomisji będzie wynikać
@@ -1678,74 +1736,74 @@
   </p>
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Chcę najpierw usprawiedliwić zasadność sporu, który
-    się toczy. Wiem, że z punktu widzenia procedury, która poprzedzała
-    dzisiejszą debatę, może to być trochę irytujące. Jest jednak tak, że
-    prowadzony jest spór o kwestię podstawową. Jest to bowiem spór o charakter
-    państwa, a więc czy państwo będzie państwem liberalnym choć prawnym, czy też
-    będzie to państwo w jakiejś mierze socjalizujące, choć również będzie to
-    państwo prawne. Jeżeli w tej kwestii zostanie osiągnięte rozstrzygnięcie,
-    będzie to zasadniczy krok w pracach nad konstytucją. Nie jest kwestią
-    przypadku, że od początku była mowa o tym, że zagadnieniem — dylematem prac nad konstytucją — jest pytanie o to, w jakim zakresie państwo prawne ma
-    być również państwem socjalnym. Spór ten odżył teraz. Dyskusję
-    usprawiedliwia nie rozwikłany spór dotyczący relacji między prawem a
-    sprawiedliwością. Jeżeli ktoś interesuje się tym sporem, to dodam, że spór
-    ten odżył pod wpływem artykułu w „Państwie i Prawie” prof. L. Morawskiego.
-    Jeżeli chodzi o materię proponowanych formuł, to odnoszę wrażenie, że wielu
-    członków Komisji niepokoi uwikłanie się w praktyczne konsekwencje formuły, w
-    myśl której państwo prawne ma urzeczywistniać zasady sprawiedliwości
-    społecznej. W związku z tym chcę powiedzieć, że konstytucja nie daje
-    zdecydowanej odpowiedzi, co to oznacza. Z, dziewięcioletniej działalności
-    Trybunału Konstytucyjnego coś jednak wynika. Chciałbym więc rozwiać obawy
-    tych, którzy uważają, że chodzi o sprawiedliwość w tym rozumieniu, które
-    kojarzy się z realnym socjalizmem. Tymczasem jest tak, że sprawiedliwość
-    społeczna wyraża się w różnych formułach. Nie jest więc przypadkowe to, że
-    obecna formuła mówi o zasadach, a nie o zasadzie sprawiedliwości. Można
-    bowiem mówić o sprawiedliwości rozdzielczej, o której słusznie mówi się na
-    ogół krytycznie. Jest również sprawiedliwość komutatywna, czyli wyrównawcza,
-    a więc ta, która zyskuje na znaczeniu w nowych czasach, czyli w warunkach
-    gospodarki wolnorynkowej 1 pełnej ochrony własności. Jest również
-    sprawiedliwość według nowszej doktryny, czyli tzw. sprawiedliwość
-    proceduralna. Ma ona również ślady, choć najmniejsze, w orzecznictwie
-    polskiego Trybunału Konstytucyjnego. Należy zwrócić uwagę na ewolucję, która
-    polega na tym, że powoli maleje znaczenie sprawiedliwości rozdzielczej —
-    dystrybutywnej — gdyż zmieniają się priorytetowe wartości. Wzrasta natomiast
-    znaczenie sprawiedliwości wyrównawczej, która wyraża się w formie: każdemu
-    według zobowiązań, które przyjął na siebie dobrowolnie w formie umowy.
-    Jeżeli chodzi o sprawiedliwość proceduralną, to mówi ona, że ważną kwestią
-    jest to, aby obywatelowi dać wszelkie środki dochodzenia swojego prawa, lecz
-    nie chodzi tylko o prawo w znaczeniu materialnym. Jest to pewne
-    uproszczenie, lecz chodzi o to, by dać taką możliwą wykładnię — zmieniającą
-    się i ewoluującą — aby dostosować sens tej formuły do nowych czasów. Jeżeli
-    chodzi o pytanie będące kwintesencją troski posła J. Rokity, to chodzi o
-    problem, czy ta formuła o sprawiedliwości społecznej może być podstawą
-    indywidualnych roszczeń obywateli. Uważam, że nie może być, nawet jeżeli
-    zostanie przyjęta instytucja skargi konstytucyjnej. Chodzi bowiem o formułę
-    skierowaną do ustawodawcy. Obywatel będzie posługiwał się skargą
-    konstytucyjną dla obrony swoich praw wyrażonych w innych, bardziej
-    szczegółowych przepisach konstytucyjnych. Czy zasada sprawiedliwości
-    społecznej może być podstawą zakwestionowania budżetu? Moim zdaniem nie może
-    być. Doszliśmy bowiem wreszcie Posiedzenia Komisji Konstytucyjnej ZN do
-    takiego sensu budżetu, który jest wyrażony od 1992 r. w małej konstytucji.
-    Trybunał Konstytucyjny wyciągnął z tego wriioski w jednym z ostatnich
-    orzeczeń. Art. 20 małej konstytucji stanowi, że: „„Dochody i wydatki Państwa
-    na rok kalendarzowy określa ustawa budżetowa”. W świetle orzeczenia
-    Trybunału Konstytucyjnego niemal nie jest to prawo. Jest. to liczbowe
-    zestawienie dochodów 1 wydatków, które ma formę ustawy. Materialnie nie jest
-    to ustawa, gdyż nie zawiera przepisów materialnych ani proceduralnych.
-    Należy dodać, że tak było przez bardzo wiele lat, że do ustawy budżetowej
-    włączano inne materie. Dzieje się tak również obecnie, choć jest już
-    stanowisko Trybunału Konstytucyjnego mające swoje oparcie w normie
-    konstytucyjnej. Być może dojdziemy do takiego rozumienia budżetu, że nie
-    będzie można go kwestionować przed Trybunałem Konstytucyjnym. Kwestia
-    ostatnia, a więc wybór formuły mówiącej o urzeczywistnianiu zasad
-    sprawiedliwości społecznej, czy formuły mówiącej o kierowaniu się zasadą
-    sprawiedliwości społecznej. Kwestii tej nie mylitbym z rozwojowym
-    charakterem praw. Poseł J. Ciemniewski doskonale pamięta, że teza o tym, iż
-    prawa mogą się tylko rozwijać, wynikała nie z normy art. 1 utrzymanych w
-    mocy przepisów konstytucyjnych, lecz z odrębnego przepisu konstytucyjnego
-    obowiązującego również obecnie, lecz traktowanego przez Trybunał
-    Konstytucyjny bardzo „delikatnie. Jest to art. 67 ust. 1 mówiący o
+    Kazimierz Działocha: Chcę najpierw usprawiedliwić zasadność sporu, który się
+    toczy. Wiem, że z punktu widzenia procedury, która poprzedzała dzisiejszą
+    debatę, może to być trochę irytujące. Jest jednak tak, że prowadzony jest
+    spór o kwestię podstawową. Jest to bowiem spór o charakter państwa, a więc
+    czy państwo będzie państwem liberalnym choć prawnym, czy też będzie to
+    państwo w jakiejś mierze socjalizujące, choć również będzie to państwo
+    prawne. Jeżeli w tej kwestii zostanie osiągnięte rozstrzygnięcie, będzie to
+    zasadniczy krok w pracach nad konstytucją. Nie jest kwestią przypadku, że od
+    początku była mowa o tym, że zagadnieniem — dylematem prac nad konstytucją —
+    jest pytanie o to, w jakim zakresie państwo prawne ma być również państwem
+    socjalnym. Spór ten odżył teraz. Dyskusję usprawiedliwia nie rozwikłany spór
+    dotyczący relacji między prawem a sprawiedliwością. Jeżeli ktoś interesuje
+    się tym sporem, to dodam, że spór ten odżył pod wpływem artykułu w „Państwie
+    i Prawie” prof. L. Morawskiego. Jeżeli chodzi o materię proponowanych
+    formuł, to odnoszę wrażenie, że wielu członków Komisji niepokoi uwikłanie
+    się w praktyczne konsekwencje formuły, w myśl której państwo prawne ma
+    urzeczywistniać zasady sprawiedliwości społecznej. W związku z tym chcę
+    powiedzieć, że konstytucja nie daje zdecydowanej odpowiedzi, co to oznacza.
+    Z, dziewięcioletniej działalności Trybunału Konstytucyjnego coś jednak
+    wynika. Chciałbym więc rozwiać obawy tych, którzy uważają, że chodzi o
+    sprawiedliwość w tym rozumieniu, które kojarzy się z realnym socjalizmem.
+    Tymczasem jest tak, że sprawiedliwość społeczna wyraża się w różnych
+    formułach. Nie jest więc przypadkowe to, że obecna formuła mówi o zasadach,
+    a nie o zasadzie sprawiedliwości. Można bowiem mówić o sprawiedliwości
+    rozdzielczej, o której słusznie mówi się na ogół krytycznie. Jest również
+    sprawiedliwość komutatywna, czyli wyrównawcza, a więc ta, która zyskuje na
+    znaczeniu w nowych czasach, czyli w warunkach gospodarki wolnorynkowej 1
+    pełnej ochrony własności. Jest również sprawiedliwość według nowszej
+    doktryny, czyli tzw. sprawiedliwość proceduralna. Ma ona również ślady, choć
+    najmniejsze, w orzecznictwie polskiego Trybunału Konstytucyjnego. Należy
+    zwrócić uwagę na ewolucję, która polega na tym, że powoli maleje znaczenie
+    sprawiedliwości rozdzielczej — dystrybutywnej — gdyż zmieniają się
+    priorytetowe wartości. Wzrasta natomiast znaczenie sprawiedliwości
+    wyrównawczej, która wyraża się w formie: każdemu według zobowiązań, które
+    przyjął na siebie dobrowolnie w formie umowy. Jeżeli chodzi o sprawiedliwość
+    proceduralną, to mówi ona, że ważną kwestią jest to, aby obywatelowi dać
+    wszelkie środki dochodzenia swojego prawa, lecz nie chodzi tylko o prawo w
+    znaczeniu materialnym. Jest to pewne uproszczenie, lecz chodzi o to, by dać
+    taką możliwą wykładnię — zmieniającą się i ewoluującą — aby dostosować sens
+    tej formuły do nowych czasów. Jeżeli chodzi o pytanie będące kwintesencją
+    troski posła J. Rokity, to chodzi o problem, czy ta formuła o
+    sprawiedliwości społecznej może być podstawą indywidualnych roszczeń
+    obywateli. Uważam, że nie może być, nawet jeżeli zostanie przyjęta
+    instytucja skargi konstytucyjnej. Chodzi bowiem o formułę skierowaną do
+    ustawodawcy. Obywatel będzie posługiwał się skargą konstytucyjną dla obrony
+    swoich praw wyrażonych w innych, bardziej szczegółowych przepisach
+    konstytucyjnych. Czy zasada sprawiedliwości społecznej może być podstawą
+    zakwestionowania budżetu? Moim zdaniem nie może być. Doszliśmy bowiem
+    wreszcie Posiedzenia Komisji Konstytucyjnej ZN do takiego sensu budżetu,
+    który jest wyrażony od 1992 r. w małej konstytucji. Trybunał Konstytucyjny
+    wyciągnął z tego wriioski w jednym z ostatnich orzeczeń. Art. 20 małej
+    konstytucji stanowi, że: „„Dochody i wydatki Państwa na rok kalendarzowy
+    określa ustawa budżetowa”. W świetle orzeczenia Trybunału Konstytucyjnego
+    niemal nie jest to prawo. Jest. to liczbowe zestawienie dochodów i wydatków,
+    które ma formę ustawy. Materialnie nie jest to ustawa, gdyż nie zawiera
+    przepisów materialnych ani proceduralnych. Należy dodać, że tak było przez
+    bardzo wiele lat, że do ustawy budżetowej włączano inne materie. Dzieje się
+    tak również obecnie, choć jest już stanowisko Trybunału Konstytucyjnego
+    mające swoje oparcie w normie konstytucyjnej. Być może dojdziemy do takiego
+    rozumienia budżetu, że nie będzie można go kwestionować przed Trybunałem
+    Konstytucyjnym. Kwestia ostatnia, a więc wybór formuły mówiącej o
+    urzeczywistnianiu zasad sprawiedliwości społecznej, czy formuły mówiącej o
+    kierowaniu się zasadą sprawiedliwości społecznej. Kwestii tej nie mylitbym z
+    rozwojowym charakterem praw. Poseł J. Ciemniewski doskonale pamięta, że teza
+    o tym, iż prawa mogą się tylko rozwijać, wynikała nie z normy art. 1
+    utrzymanych w mocy przepisów konstytucyjnych, lecz z odrębnego przepisu
+    konstytucyjnego obowiązującego również obecnie, lecz traktowanego przez
+    Trybunał Konstytucyjny bardzo „delikatnie. Jest to art. 67 ust. 1 mówiący o
     rozwojowym charakterze praw. Kwestia doboru właściwego wyrazu: „kieruje” czy
     „urzeczywistnia” jest problemem. Chcę jednak dodać, że w Świetle
     orzecznictwa Trybunału Konstytucyjnego nie widać różnicy, którą tym dwom
@@ -1766,7 +1824,7 @@
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
     Czas obecnej debaty jest dłuższy niż czas debaty w podkomisji podstaw
     ustroju politycznego i społeczno-gospodarczego. Debata w podkomisji nie była
-    wyczerpująca 1 bogata. Została ona dość stanowczo przecięta głosowaniem — z
+    wyczerpująca i bogata. Została ona dość stanowczo przecięta głosowaniem — z
     założeniem, że resztę argumentów będzie można przedstawić na posiedzeniu
     Komisji Konstytucyjnej. Posiedzenia Komisji Konstytucyjnej ZN Chcę również
     odnieść się do kwestii podjętej przez prof. W. Osiatyńskiego. Chodzi o
@@ -1841,7 +1899,7 @@
     Chodzi mi więc o pewną ostrożność. Za lepszą uważam formułę stosowaną w
     Niemczech, która mówi o demokratycznym państwie prawnym 1 socjalnym >daje to
     wspaniałe rezultaty. Nie mogę natomiast zgodzić się z prof. L. Wiśniewskim,
-    gdyż uważam, że niepełnosprawni 1 inne osoby skrzywdzone przez los są
+    gdyż uważam, że niepełnosprawni i inne osoby skrzywdzone przez los są
     chronione na zasadzie zakazu dyskryminacji. Jeżeli więc — jak rozumiem ze
     względów politycznych — zasada sprawiedliwości społecznej miałaby pozostać w
     konstytucji, to opowiadam się za przyjęciem formuły mówiącej o kierowaniu
@@ -1875,7 +1933,7 @@
     Dla mnie jest przekonujące to, co powiedział prof. K. Działocha, gdyż nie
     jestem w stanie w pełni samodzielnie ocenić dyskutowanej kwestii. Uważam, że
     w naszej dyskusji ważne jest to, abyśmy uznali, że aksjologiczne założenia
-    zarówno jednej, jak 1 drugiej formuły mają ogromne znaczenie 1 nikt nie jest
+    zarówno jednej, jak i drugiej formuły mają ogromne znaczenie i nikt nie jest
     w stanie wyzbyć się tego. Stąd raziła mnie nieco wczorajsza wypowiedź prof.
     W. Osiatyńskiego. Nie może być również tak, że nie można posługiwać się
     pewnymi kategoriami tylko z tego powodu, że zostały one zastosowane w
@@ -1888,7 +1946,7 @@
     nie są wyrażane obawy, co to znaczy, że zapewnia ochronę Środowiska. Czyżby
     wielki problem miał dotyczyć tylko kwestii formuły o sprawiedliwości
     społecznej? Moim zdaniem problemy mogą się pojawić zarówno przy jednej, jak
-    1 drugiej formule. Powstaje jednak problem, czy kwestię tę chcemy zapisać w
+    i drugiej formule. Powstaje jednak problem, czy kwestię tę chcemy zapisać w
     sposób zrównoważony, który zawiera oba elementy, czy też chcemy wpisać tylko
     tę część, która się podoba. Posiedzenia Komisji Konstytucyjnej ZN Oznacza to
     jednak selekcję czysto polityczną, a nie selekcję według możliwości
@@ -1925,48 +1983,48 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
-    Odnosząc się do wypowiedzi posła R. Bugaja chcę powiedzieć, że
-    wypowiadałem się przeciwko art. 3 właśnie z tych powodów, a więc ze względu
-    na niejasność tych pojęć ujętych w art. 3. Nie bardzo wiadomo, do czego mogą
-    prowadzić tak określone cele państwa. Jest to ponadto obudowywanie
-    konstytucji hasłami, a nie normami.
+    Odnosząc się do wypowiedzi posła R. Bugaja chcę powiedzieć, że wypowiadałem
+    się przeciwko art. 3 właśnie z tych powodów, a więc ze względu na niejasność
+    tych pojęć ujętych w art. 3. Nie bardzo wiadomo, do czego mogą prowadzić tak
+    określone cele państwa. Jest to ponadto obudowywanie konstytucji hasłami, a
+    nie normami.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
-    Odnosząc się do wypowiedzi posła R. Bugaja, że proponowany przez niego
-    zapis uniemożliwiałby restryktywne ustawy w kwestiach socjalnych, obawiam
-    się, że będzie wręcz odwrotnie, jeżeli Try- Posiedzenia Komisji
-    Konstytucyjnej ZN bunał będzie miał prawo wydawania orzeczeń ostatecznych.
-    Może bowiem być tak, że któryś z następnych parlamentów będzie skłonny
-    uchwalać bardzo korzystne dla obywateli ustawy socjalne, gdyż będzie
-    przekonany, że Trybunał Konstytucyjny uzna te ustawy za niekonstytucyjne.
-    Chcę dodać, że tak właśnie było w USA, kiedy to w pewnym okresie Sąd
-    Najwyższy stosunkowo często orzekał niekonstytucyjność ustaw. Spowodowało to
-    zmniejszenie odpowiedzialności Kongresu za treść ustaw. Parlamentarzyści
-    wiedzieli bowiem, że Sąd Najwyższy uchyli ustawy sprzeczne z konstytucją.
+    Odnosząc się do wypowiedzi posła R. Bugaja, że proponowany przez niego zapis
+    uniemożliwiałby restryktywne ustawy w kwestiach socjalnych, obawiam się, że
+    będzie wręcz odwrotnie, jeżeli Try- Posiedzenia Komisji Konstytucyjnej ZN
+    bunał będzie miał prawo wydawania orzeczeń ostatecznych. Może bowiem być
+    tak, że któryś z następnych parlamentów będzie skłonny uchwalać bardzo
+    korzystne dla obywateli ustawy socjalne, gdyż będzie przekonany, że Trybunał
+    Konstytucyjny uzna te ustawy za niekonstytucyjne. Chcę dodać, że tak właśnie
+    było w USA, kiedy to w pewnym okresie Sąd Najwyższy stosunkowo często
+    orzekał niekonstytucyjność ustaw. Spowodowało to zmniejszenie
+    odpowiedzialności Kongresu za treść ustaw. Parlamentarzyści wiedzieli
+    bowiem, że Sąd Najwyższy uchyli ustawy sprzeczne z konstytucją.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Myślę, że dyskusja wyjaśniła sens oraz możliwe skutki przepisów, które
-    będą przedmiotem głosowania. Część skutków jest jednak potencjalna, a więc
-    trudna do udowodnienia. Część została natomiast wyjaśniona. W głosowaniu
-    będziemy mogli wypowiedzieć się za jedną z trzech formuł: państwo
-    urzeczywistniające zasady sprawiedliwości społecznej, państwo kierujące się
-    zasadami sprawiedliwości społecznej oraz państwo socjalne. Do głosowania
-    przejdziemy za chwilę. Teraz proponuję ponowną lekturę zgłoszonych wniosków
-    i wypowiedzi na temat tego, jak rysuje się sytuacja, jeżeli chodzi o art. 2.
-    Rozumiem bowiem, że w części propozycji art. 2 związany jest z formułą
-    zwierzchnictwa narodu. Propozycja senator A. Grześkowiak akcentuje kwestię
-    praw człowieka. Jest to koncepcja na tyle odrębna, iż powinna być głosowana
-    odrębnie. Odrębnością cechuje się również koncepcja posła L. Moczulskiego.
-    Ponadto należałoby wyjaśnić, jak art. 2 widzą przedstawiciele Prezydenta RP,
-    wobec dość wyraźnego zarysowania się treści art. 1.
+    Myślę, że dyskusja wyjaśniła sens oraz możliwe skutki przepisów, które będą
+    przedmiotem głosowania. Część skutków jest jednak potencjalna, a więc trudna
+    do udowodnienia. Część została natomiast wyjaśniona. W głosowaniu będziemy
+    mogli wypowiedzieć się za jedną z trzech formuł: państwo urzeczywistniające
+    zasady sprawiedliwości społecznej, państwo kierujące się zasadami
+    sprawiedliwości społecznej oraz państwo socjalne. Do głosowania przejdziemy
+    za chwilę. Teraz proponuję ponowną lekturę zgłoszonych wniosków i wypowiedzi
+    na temat tego, jak rysuje się sytuacja, jeżeli chodzi o art. 2. Rozumiem
+    bowiem, że w części propozycji art. 2 związany jest z formułą zwierzchnictwa
+    narodu. Propozycja senator A. Grześkowiak akcentuje kwestię praw człowieka.
+    Jest to koncepcja na tyle odrębna, iż powinna być głosowana odrębnie.
+    Odrębnością cechuje się również koncepcja posła L. Moczulskiego. Ponadto
+    należałoby wyjaśnić, jak art. 2 widzą przedstawiciele Prezydenta RP, wobec
+    dość wyraźnego zarysowania się treści art. 1.
   </p>
   <p class="rep-statement">
     <strong>Senator Jerzy Madej (KD):</strong>
-    Możliwy jest również wariant art. 2 mówiący o tym, że państwo jest
-    wspólnym dobrem wszystkich obywateli. Ponadto chcę zachęcać członków Komisji
-    do przyjęcia formuły mówiącej o zrównoważonym rozwoju. Nie jest to bowiem
+    Możliwy jest również wariant art. 2 mówiący o tym, że państwo jest wspólnym
+    dobrem wszystkich obywateli. Ponadto chcę zachęcać członków Komisji do
+    przyjęcia formuły mówiącej o zrównoważonym rozwoju. Nie jest to bowiem
     hasło, lecz kierunek rozwoju Świata. _ Poseł Aleksander Kwaśniewski (SLD):
     Przyjmuję uwagę senatora J. Madeja, co powoduje, że zwiększa się liczba
     wariantów art. 2.
@@ -1975,15 +2033,15 @@
     <strong>Poseł Jan Rokita (UW):</strong>
     Chcę jeszcze powrócić do art. 1. Uważam, że w sprawach fundamentalnych
     trzeba być konsekwentnym i uzyskiwać jasność. Wydaje Się, że debata nad art.
-    1 może przesądzić o tym, czy w najbliższych latach zostanie przeprowadzona w
+    i może przesądzić o tym, czy w najbliższych latach zostanie przeprowadzona w
     Polsce reforma usług publicznych, czy też nie. Jest to jednak uwaga na
     marginesie. Jeżeli natomiast chodzi o moje główne pytanie, to otrzymałem — w
     zasadzie — dwie sprzeczne odpowiedzi ze strony ekspertów. Nie padła
-    odpowiedź ze strony przewodniczącego podkomisji. Jeżeli chodzi o opinię ekspertów,
-    to prof. K. Działocha stwierdził, że nie istnieje możliwość kontroli
-    Trybunału Konstytucyjnego nad wydatkami budżetowymi. Prof. W. Osiatyński
-    wspierając się opinią prof. L. Garlickiego — ponoć jednoznaczną — udzielił
-    przeciwnej odpowiedzi. Uważam więc, że do chwili, kiedy Komisja
+    odpowiedź ze strony przewodniczącego podkomisji. Jeżeli chodzi o opinię
+    ekspertów, to prof. K. Działocha stwierdził, że nie istnieje możliwość
+    kontroli Trybunału Konstytucyjnego nad wydatkami budżetowymi. Prof. W.
+    Osiatyński wspierając się opinią prof. L. Garlickiego — ponoć jednoznaczną —
+    udzielił przeciwnej odpowiedzi. Uważam więc, że do chwili, kiedy Komisja
     Konstytucyjna w dyskutowanej kwestii — także na użytek przyszłych
     interpretatorów konstytucji — nie wyrazi jednoznacznej opinii, głosowanie
     nad wyrazami jest zupełnie bez znaczenia. Konieczne jest bowiem
@@ -2026,7 +2084,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Na tle tego, o czym poprzednio mówił poseł J. Ciemniewski, chcę powiedzieć, że nie kierowałem do niego uwagi w sprawie innych elementów
+    Na tle tego, o czym poprzednio mówił poseł J. Ciemniewski, chcę powiedzieć,
+    że nie kierowałem do niego uwagi w sprawie innych elementów
     ukierunkowujących politykę państwa w konstytucji. Miałem takie
     przeświadczenie, że ponieważ poza wnioskiem ogólnym nikt nie przedstawiał
     trudności wokół innych formuł ogólnych, to rysuje się zgodność poglądów.
@@ -2038,8 +2097,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł J. Rokita powiedzia:</strong>
-     że przyjmując określony zapis przesądzamy o reformach usług publicznych,
-    a więc na przykład służby zdrowia. Ja rozumiem tak, że możliwa jest reforma
+    że przyjmując określony zapis przesądzamy o reformach usług publicznych, a
+    więc na przykład służby zdrowia. Ja rozumiem tak, że możliwa jest reforma
     służby zdrowia na tle proponowanej formuły, jeżeli reforma ta nie zostanie
     przeprowadzona wcześniej. Wówczas jednak może być problem z taką reformą,
     która chciałaby cofnąć wiele uprawnień z zakresu służby zdrowia. Mnie chodzi
@@ -2087,7 +2146,7 @@
     art. | mówiąca o sprawiedliwości społecznej. Ponadto norma ta jest bardzo
     trudna do zdefiniowania prawnego. Dla jej interpretacji duże znaczenie mieć
     będą panujące poglądy polityczne. Nie można również zakładać, że będzie
-    przynosić szkody 1 będzie narzędziem realizacji złych celów.
+    przynosić szkody i będzie narzędziem realizacji złych celów.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -2133,15 +2192,15 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Irena Lipowicz (UW):</strong>
-    Za najwłaściwszą uważaliśmy formułę mówiącą o kierowaniu. Wniosek ten
-    upadł. Drugim popieranym przez nas wnioskiem była formuła o państwie
-    socjalnym. Nie mieliśmy jednak możliwości głosować na tę formułę.
+    Za najwłaściwszą uważaliśmy formułę mówiącą o kierowaniu. Wniosek ten upadł.
+    Drugim popieranym przez nas wnioskiem była formuła o państwie socjalnym. Nie
+    mieliśmy jednak możliwości głosować na tę formułę.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Nie sądzę, aby inne głosowanie coś zmieniło, jeżeli chodzi o formułę,
-    która cieszy się poparciem większości. Aby jednak uczynić zadość wnioskowi1
-    poseł I. Lipowicz, odbędzie się jeszcze jedno głosowanie, w którym do wyboru
+    Nie sądzę, aby inne głosowanie coś zmieniło, jeżeli chodzi o formułę, która
+    cieszy się poparciem większości. Aby jednak uczynić zadość wnioskowi1 poseł
+    I. Lipowicz, odbędzie się jeszcze jedno głosowanie, w którym do wyboru
     będzie formuła mówiąca o urzeczywistnianiu i państwie socjalnym. Poddaję pod
     głosowanie wniosek, aby art. 1 brzmiał: „Rzeczpospolita Polska jest
     demokratycznym państwem prawnym, urzeczywistniającym Zasady sprawiedliwości
@@ -2219,8 +2278,8 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
-    Odmienny pogląd mam nie tylko ja, ale również senator A. Grześkowiak i
-    poseł T. Iwiński.
+    Odmienny pogląd mam nie tylko ja, ale również senator A. Grześkowiak i poseł
+    T. Iwiński.
   </p>
   <p class="rep-statement">
     <strong>Poseł Jerzy Zdrada (UW):</strong>
@@ -2249,19 +2308,20 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Uważam, że sprawa dojrzała do przegłosowania, choć chcę również dodać, że
-    z punktu widzenia konstytucji formuła, o której dyskutujemy, wyraża myśl
+    Uważam, że sprawa dojrzała do przegłosowania, choć chcę również dodać, że z
+    punktu widzenia konstytucji formuła, o której dyskutujemy, wyraża myśl
     niebagatelną. Jeżeli w konstytucji ma być wyrażona filozofia państwa, to
     myśl ta pomoże temu. Ponadto proszę pamiętać, że jest to propozycja
     przygotowana przez podkomisję.
   </p>
   <p class="rep-statement">
     <strong>Poseł Leszek Moczulski (KPN):</strong>
-    Uważam, że nie jest do przyjęcia, że ze wszystkich konstytucji uchwalonych
-    w Polsce tylko to, że coś było w konstytucji kwietniowej, jest argumentem
+    Uważam, że nie jest do przyjęcia, że ze wszystkich konstytucji uchwalonych w
+    Polsce tylko to, że coś było w konstytucji kwietniowej, jest argumentem
     przekonywającym. Utrzymywanie takiego stanu rzeczy nie jest najlepsze.
     Zaproponuję jutro, aby na cenzurowanym była nie tylko jedna konstytucja.
-    Przedłożę propozycję przepisu zapożyczonego z konstytucji z dnia 22 lipca... 1807 roku.
+    Przedłożę propozycję przepisu zapożyczonego z konstytucji z dnia 22 lipca...
+    1807 roku.
   </p>
   <p class="rep-statement">
     <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
@@ -2285,7 +2345,7 @@
     Posiedzenia Komisji Konstytucyjnej ZN odnoszone do zasad sprawiedliwości
     społecznej. Byłby to więc pleonazm. Ponadto chcę przypomnieć, że w
     pierwotnych propozycjach, które zostały przedłożone na poprzednim
-    posiedzeniu 1 zawarte w materiale, który otrzymaliśmy, była wspólna
+    posiedzeniu i zawarte w materiale, który otrzymaliśmy, była wspólna
     propozycja posła J. Zdrady oraz moja, która sprowadzała się do wykreślenia
     obecnego art. 2. Zawierała natomiast propozycje brzmienia czterech
     pierwszych artykułów, Uważam, że jest to propozycja nadal ważna 1
@@ -2305,7 +2365,7 @@
   <p class="rep-statement">
     <strong>Ekspert Komisji, prof:</strong>
     Kazimierz Działocha: W naszych uwagach pisemnych proponujemy, aby obecny
-    art. 2 był art. 1, gdyż jest ogólniejszy 1 pełniejszy w swoim wyrazie niż
+    art. 2 był art. 1, gdyż jest ogólniejszy i pełniejszy w swoim wyrazie niż
     artykuł o demokratycznym państwie prawnym.
   </p>
   <p class="rep-statement">
@@ -2315,7 +2375,7 @@
     Poddaję pod głosowanie wniosek, aby art. 2 miał brzmienie: „Rzeczpospolita
     Polska jest wspólnym dobrem wszystkich obywateli”. Stwierdzam, że Komisja w
     głosowaniu, większością 20 głosów popierających, przy 3 głosach przeciwnych
-    1 5 wstrzymujących się, przyjęła wniosek. Tak więc art. 2 projektu brzmi:
+    i 5 wstrzymujących się, przyjęła wniosek. Tak więc art. 2 projektu brzmi:
     „Rzeczpospolita Polska jest wspólnym dobrem wszystkich obywateli".
   </p>
   <p class="rep-statement">
@@ -2324,11 +2384,11 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Przyjmuję wniosek posła R. Bugaja, lecz równocześnie proszę o uwagi na
-    temat treści art. 3. Jeżeli chodzi o złożone wnioski, to rysują się
-    następujące opcje art. 3: zasada zwierzchnictwa, cele państwa oraz
-    jednolitość 1 niepodzielność. Jeżeli chodzi o tę ostatnią opcję, to prof. P.
-    Sarnecki stwierdził, że kwestia ta może być ujęta w rozdziale o samorządzie
+    Przyjmuję wniosek posła R. Bugaja, lecz równocześnie proszę o uwagi na temat
+    treści art. 3. Jeżeli chodzi o złożone wnioski, to rysują się następujące
+    opcje art. 3: zasada zwierzchnictwa, cele państwa oraz jednolitość 1
+    niepodzielność. Jeżeli chodzi o tę ostatnią opcję, to prof. P. Sarnecki
+    stwierdził, że kwestia ta może być ujęta w rozdziale o samorządzie
     terytorialnym. Zagadnienia te podejmiemy w jutrzejszej debacie. Czy przed
     zamknięciem debaty w dniu dzisiejszym ktoś chciałby zabrać głos w sprawach
     różnych? Posiedzenia Komisji Konstytucyjnej ZN
@@ -2358,7 +2418,7 @@
     Czy są dalsze sprawy różne? Nie ma. Zamykam obrady w dniu dzisiejszym.
     Wznowimy je jutro o 9.30.
   </p>
-  
+
 </div>
 
 <Footer />
