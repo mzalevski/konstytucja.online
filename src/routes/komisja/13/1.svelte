@@ -30,10 +30,10 @@
     box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
   }
   .l p {
-     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
   }
   .r p {
-     box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.1);
   }
   .speaker-small {
     display: flex;
@@ -147,6 +147,7 @@
       Grześkowiak i posła R. Bugaja tkwi jednak ziarno prawdy.
     </p>
   </div>
+
   <div class="speaker-small r">
     <p class="rep-statement">
       <strong>Senator Jerzy Madej (KD):</strong>
@@ -250,111 +251,149 @@
       po zakończeniu rozpatrywania projektu.
     </p>
   </div>
-  <p class="rep-statement">
-    <strong>Poseł Janusz Szymański (UP):</strong>
-    Nie ma wątpliwoŚci co do tego, że wnioski mniejszości można składać do
-    zakończenia prac. Chcę również przypomnieć, że wnioski mniejszoŚci można
-    składać tylko w sprawach, które były rozstrzygane na posiedzeniu Komisji.
-    Nie można składać wniosków przed rozstrzygnięciem danej sprawy, a tak się
-    dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości złożonych w
-    sprawach, które nie były przedmiotem głosowań w Komisji.
-  </p>
-
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Janusz Szymański (UP):</strong>
+      Nie ma wątpliwoŚci co do tego, że wnioski mniejszości można składać do
+      zakończenia prac. Chcę również przypomnieć, że wnioski mniejszoŚci można
+      składać tylko w sprawach, które były rozstrzygane na posiedzeniu Komisji.
+      Nie można składać wniosków przed rozstrzygnięciem danej sprawy, a tak się
+      dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości złożonych w
+      sprawach, które nie były przedmiotem głosowań w Komisji.
+    </p>
+    <img src="/images/kk-speakers/szymanski.png" alt="" />
+  </div>
   <!--<hr><p class="page-break">strona 5</p><hr>-->
 
-  <p class="rep-statement">
-    <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
-    Myślę, że charakter prawny materiałów, o których mówił poseł J. Szymański,
-    jest taki, iż są to poprawki błędnie nazwane wnioskami mniejszości.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Jerzy Ciemniewski (UW):</strong>
-    Nawiązując do tego, o czym mówiła senator A. Grześkowiak i co było
-    przesłanką jej wniosku, chcę zwrócić uwagę, że w toku naszych prac pojawiają
-    się zmiany, które muszą być koordynowane z innymi już przyjętymi przepisami.
-    Nie możemy więc przyjąć takiej procedury, która uniemożliwia powrót do
-    kwestii już rozstrzygniętych. Nie śledzimy bowiem całości projektu tak
-    dokładnie, aby wiedzieć, czy pojawią się sprzeczności w przyjmowanych
-    przepisach. W związku z tym w procedurze prac powinniśmy sobie zarezerwować
-    możliwość powrotu do kwestii, które były już wcześniej ustalone.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Myślę, że jeżeli kwestie proceduralne potraktujemy z uwzględnieniem dobrej
-    woli i zdrowego rozsądku, to nie widzę przeszkód, aby mogło tak być, jak
-    mówił poseł J. Ciemniewski. Przechodzimy do dyskusji merytorycznej. Podstawą
-    debaty będzie jednolity projekt Konstytucji RP w ujęciu wariantowym, noszący
-    datę 26.1.1995 r. — wersja robocza. Jest to tekst, który powstał po
-    uwzględnieniu konsekwencji wcześniejszych głosowań, z wyjątkiem głosowania
-    nad art. 26. Przypominam, że jeżeli chodzi o tytuł, to mamy trzy propozycje.
-    Przedstawiciel Prezydenta RP profliński i poseł W. . A. RzepMajewski
-    proponują tytuł: „Zasady podstawowe ustroju Rzeczypospolitej Polskiej. Poseł
-    L. Moczulski zaproponował tytuł: „Rzeczpospolita”. Trzecia propozycja:
-    „Podstawy ustroju Rzeczypospolitej Polskiej” zawarta jest w projekcie.
-    Odbyła się również wstępna wymiana poglądów na temat kilku początkowych
-    artykułów. Propozycje zmian i poprawek dotyczące tych artykułów zostały
-    zawarte w materiale dostarczonym członkom Komisji i noszącym tytuł:
-    „Propozycje zgłoszone do projektu konstytucji na posiedzeniu Komisji
-    Konstytucyjnej w dniu 27 stycznia 1995 r.”
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Rozumiem, że jeżeli chodzi o wniosek posła J. Szymańskiego ujęty jako
-    propozycja skreślenia art. 1-4, to chodzi o zmianę usytuowania wymienionych
-    artykułów, a nie o ich definitywne usunięcie. Proszę jednak o wyjaśnienie
-    tej kwestii.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-    Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę dostarczę
-    tekst poprawek. Poprawki te to pierwszy rozdział z projektu konstytucji
-    przygotowanego przez Komisję Konstytucyjną Senatu I kadencji.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Jerzy Orzechowski (PSL):</strong>
-    Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że zawierają
-    określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie tych trzech
-    artykułów artykułem 1 o treści: „Rzeczpospolita Polska jest demokratycznym
-    państwem prawa, wspólnym dobrem jej obywateli, urzeczywistniającym zasady
-    sprawiedliwości społecznej”.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Proponuję jednak, abyśmy najpierw rozstrzygnęli kwestię tytułu rozdziału I.
-    Oprócz propozycji, o których już mówiłem, wpłynęła propozycja senatora H.
-    Rota i posła J. Szymańskiego: „Zasady ustroju Rzeczypospolitej Polskiej. W
-    projekcie senackim — o czym mówiła senator A. Grześkowiak — tytuł rozdziału
-    I brzmi: „Zasady naczelne”. Czy są uwagi do przedłożonych propozycji?
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Tadeusz Iwiński (SLD):</strong>
-    Uważam, że zamiast: „Zasady podstawowe...” powinno być: „PodStawowe
-    zasady... .
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-    Wnioskodawcy wyrażają zgodę na zaproponowaną zmianę redakcyjną. W tej
-    sytuacji tytuł proponowany przez podkomisję oraz tytuł proponowany przez
-    prof. A. Rzeplińskiego i posła W. Majewskiego są do siebie bardzo podobne.
-    Warto rozważyć, czy byłaby możliwa rezygnacja z jednego z nich.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Ryszard Bugaj (UP):</strong>
-    Podczas prac podkomisji podstaw ustroju politycznego i
-    społeczno-gospodarczego tytuł nie budził wątpliwości i został przyjęty bez
-    szerszej debaty. Nie jestem do końca przekonany, czy mogę formalnie wycofać
-    tytuł przyjęty przez podkomisję. Ponieważ jednak nie dostrzegam
-    merytorycznej różnicy między tytułem podkomisji a tytułem zgłoszonym przez
-    przedstawiciela Prezydenta RP i jednego z posłów, wycofuję tytuł
-    zaproponowany przez podkomisję.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Irena Lipowicz (UW):</strong>
-    Zwracam się do senatora H. Rota i posła J. Szymańskiego, aby rozważyli
-    możliwość skreślenia swojej propozycji do formuły: „Zasady ustroju
-    Rzeczypospolitej Polskiej” lub nawet do formuły: „Zasady ustroju”. Zasady są
-    bowiem podstawowe.
-  </p>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/jaskiernia.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
+      Myślę, że charakter prawny materiałów, o których mówił poseł J. Szymański,
+      jest taki, iż są to poprawki błędnie nazwane wnioskami mniejszości.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Jerzy Ciemniewski (UW):</strong>
+      Nawiązując do tego, o czym mówiła senator A. Grześkowiak i co było
+      przesłanką jej wniosku, chcę zwrócić uwagę, że w toku naszych prac
+      pojawiają się zmiany, które muszą być koordynowane z innymi już przyjętymi
+      przepisami. Nie możemy więc przyjąć takiej procedury, która uniemożliwia
+      powrót do kwestii już rozstrzygniętych. Nie śledzimy bowiem całości
+      projektu tak dokładnie, aby wiedzieć, czy pojawią się sprzeczności w
+      przyjmowanych przepisach. W związku z tym w procedurze prac powinniśmy
+      sobie zarezerwować możliwość powrotu do kwestii, które były już wcześniej
+      ustalone.
+    </p>
+    <img src="/images/kk-speakers/ciemniewski.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Myślę, że jeżeli kwestie proceduralne potraktujemy z uwzględnieniem dobrej
+      woli i zdrowego rozsądku, to nie widzę przeszkód, aby mogło tak być, jak
+      mówił poseł J. Ciemniewski. Przechodzimy do dyskusji merytorycznej.
+      Podstawą debaty będzie jednolity projekt Konstytucji RP w ujęciu
+      wariantowym, noszący datę 26.1.1995 r. — wersja robocza. Jest to tekst,
+      który powstał po uwzględnieniu konsekwencji wcześniejszych głosowań, z
+      wyjątkiem głosowania nad art. 26. Przypominam, że jeżeli chodzi o tytuł,
+      to mamy trzy propozycje. Przedstawiciel Prezydenta RP prof. A. Rzepliński i poseł
+      W. Majewski proponują tytuł: „Zasady podstawowe ustroju
+      Rzeczypospolitej Polskiej. Poseł L. Moczulski zaproponował tytuł:
+      „Rzeczpospolita”. Trzecia propozycja: „Podstawy ustroju Rzeczypospolitej
+      Polskiej” zawarta jest w projekcie. Odbyła się również wstępna wymiana
+      poglądów na temat kilku początkowych artykułów. Propozycje zmian i
+      poprawek dotyczące tych artykułów zostały zawarte w materiale dostarczonym
+      członkom Komisji i noszącym tytuł: „Propozycje zgłoszone do projektu
+      konstytucji na posiedzeniu Komisji Konstytucyjnej w dniu 27 stycznia 1995
+      r.”
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Ryszard Bugaj (UP):</strong>
+      Rozumiem, że jeżeli chodzi o wniosek posła J. Szymańskiego ujęty jako
+      propozycja skreślenia art. 1-4, to chodzi o zmianę usytuowania
+      wymienionych artykułów, a nie o ich definitywne usunięcie. Proszę jednak o
+      wyjaśnienie tej kwestii.
+    </p>
+    <img src="/images/kk-speakers/r-bugaj.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/r-grzeskowiak.png" alt="" />
+    <p class="rep-statement">
+      <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
+      Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę
+      dostarczę tekst poprawek. Poprawki te to pierwszy rozdział z projektu
+      konstytucji przygotowanego przez Komisję Konstytucyjną Senatu I kadencji.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Senator Jan Orzechowski (PSL):</strong>
+      Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że
+      zawierają określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie
+      tych trzech artykułów artykułem 1 o treści: „Rzeczpospolita Polska jest
+      demokratycznym państwem prawa, wspólnym dobrem jej obywateli,
+      urzeczywistniającym zasady sprawiedliwości społecznej”.
+    </p>
+    <img src="/images/kk-speakers/orzechowski.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Proponuję jednak, abyśmy najpierw rozstrzygnęli kwestię tytułu rozdziału
+      I. Oprócz propozycji, o których już mówiłem, wpłynęła propozycja senatora
+      H. Rota i posła J. Szymańskiego: „Zasady ustroju Rzeczypospolitej
+      Polskiej. W projekcie senackim — o czym mówiła senator A. Grześkowiak —
+      tytuł rozdziału I brzmi: „Zasady naczelne”. Czy są uwagi do przedłożonych
+      propozycji?
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Tadeusz Iwiński (SLD):</strong>
+      Uważam, że zamiast: „Zasady podstawowe...” powinno być: „Podstawowe
+      zasady... .
+    </p>
+    <img src="/images/kk-speakers/iwinski.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      Wnioskodawcy wyrażają zgodę na zaproponowaną zmianę redakcyjną. W tej
+      sytuacji tytuł proponowany przez podkomisję oraz tytuł proponowany przez
+      prof. A. Rzeplińskiego i posła W. Majewskiego są do siebie bardzo podobne.
+      Warto rozważyć, czy byłaby możliwa rezygnacja z jednego z nich.
+    </p>
+  </div>
+  <div class="speaker-small r">
+    <p class="rep-statement">
+      <strong>Poseł Ryszard Bugaj (UP):</strong>
+      Podczas prac podkomisji podstaw ustroju politycznego i
+      społeczno-gospodarczego tytuł nie budził wątpliwości i został przyjęty bez
+      szerszej debaty. Nie jestem do końca przekonany, czy mogę formalnie
+      wycofać tytuł przyjęty przez podkomisję. Ponieważ jednak nie dostrzegam
+      merytorycznej różnicy między tytułem podkomisji a tytułem zgłoszonym przez
+      przedstawiciela Prezydenta RP i jednego z posłów, wycofuję tytuł
+      zaproponowany przez podkomisję.
+    </p>
+    <img src="/images/kk-speakers/r-bugaj.png" alt="" />
+  </div>
+  <div class="speaker-small l">
+    <img src="/images/kk-speakers/lipowicz.png" alt="" />
+    <p class="rep-statement">
+      <strong>Poseł Irena Lipowicz (UW):</strong>
+      Zwracam się do senatora H. Rota i posła J. Szymańskiego, aby rozważyli
+      możliwość skreślenia swojej propozycji do formuły: „Zasady ustroju
+      Rzeczypospolitej Polskiej” lub nawet do formuły: „Zasady ustroju”. Zasady
+      są bowiem podstawowe.
+    </p>
+  </div>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wnioskodawcy przyjmują dalej idącą propozycję poseł I. Lipowicz. Proszę, aby
@@ -385,6 +424,7 @@
     będzie miał tytuł: „Zasady ustroju”. Przechodzimy do debaty nad treścią
     pierwszych pięciu artykułów w rozdziale I.
   </p>
+
   <p class="rep-statement">
     <strong>Poseł Janusz Szymański (UP):</strong>
     Odnosząc się do uwagi posła R. Bugaja dotyczącej mojej propozycji skreślenia
@@ -420,7 +460,7 @@
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Działamy w oparciu i na podstawie ustawy konstytucyjnej o trybie
     przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej. Projekt
-    Konstytucji, który Posiedzenia Komisji Konstytucyjnej ZN mamy przygotować,
+    Konstytucji, który mamy przygotować,
     będzie więc projektem Konstytucji Rzeczypospolitej Polskiej. Kwestia tytułu
     konstytucji jest więc rozstrzygnięta i nie powinna być głosowana.
   </p>
@@ -536,7 +576,7 @@
     Komtsja wiedziała, że wyszłam z sali, aby przygotować na piśmie brzmienie
     poprawki. Uważam, że należy myśleć o wszystkich członkach Komisji. Jeżeli w
     momencie gdy przygotowywałam poprawki zost ło przeprowadzone głosowanie,
-    oznacza to, że KomiSja nie daje jednakowych możliwości wszystkim jej
+    oznacza to, że Komisja nie daje jednakowych możliwości wszystkim jej
     członkom. Mogę oczywiście swoje propozycje zgłosić jako wniosek mniejszości,
     gdyż nie miałam szansy zgłoszenia poprawki i brania udziału w głosowaniu,
     choć wychodząc z sali zgłosiłam panu przewodniczącemu cel wyjścia.
@@ -821,7 +861,7 @@
     język i środowisko przyrodnicze. Pojęcie dziedzictwa dotyczy spraw duchowych
     i materialnych. Wydaje się ponadto, że bardziej właściwe byłoby
     sformułowanie nie enumeratywne, gdyż może ono zawierać luki, a sformułowanie
-    bardziej ogólne, obeJmujące całe dziedzictwo narodowe, zarówno w sensie
+    bardziej ogólne, obejmujące całe dziedzictwo narodowe, zarówno w sensie
     duchowym, jak i materialnym. Chcę zwrócić uwagę, że w poprawce, którą
     dzisiaj złożyłem, jest zawarta stosowna propozycja. Jej miejsce widzę jednak
     nieco dalej w systematyce rozdziału I.
@@ -1004,7 +1044,7 @@
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Wydaje się, że pojęcie „państwo prawa” powstało jako dosłowne tłumaczenie
     oryginału niemieckiego. W literaturze prawnej i prawniczej przyjęło się
-    jednak: „państwo prawne”. Posiedzenia Komisji Konstytucyjnej ZN
+    jednak: „państwo prawne”.
   </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
@@ -1062,7 +1102,7 @@
     konsekwencje, zwłaszcza w demokratycznym państwie prawnym i państwie
     konstytucyjnym. Formuła o urzeczywistnianiu zasad sprawiedliwoŚci społecznej
     znalazła się tylko w jednym z siedmiu projektów konstytucji. Inny projekt
-    mówił o kiero- Posiedzenia Komisji Konstytucyjnej ZN m — nn waniu się zasadą
+    mówił o kierowaniu się zasadą
     sprawiedliwości społecznej. Różnica między tymi sformułowaniami jest
     ogromna. Kwestia zasadnicza dotyczy tego, czy sformułowanie konstytucyjne
     będzie tylko przyzwoleniem dla państwa do podejmowania ważnej działalności,
@@ -1208,7 +1248,7 @@
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy do wniosku nr 7, poza zamianą wyrazu „prawa” na „prawnym , są dalsze
-    uwagi? Nie ma. Posiedzenia Komisji Konstytucyjnej ZN Analogiczna zmiana
+    uwagi? Nie ma. Analogiczna zmiana
     następuje we wniosku nr 8 senatora J. Orzechowskiego. Czy są dalsze uwagi do
     wniosku nr 8?
   </p>
@@ -1607,7 +1647,7 @@
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Ze zdziwieniem słyszę ubolewanie z powodu wszczęcia tej dyskusji. Jest to
     bowiem dyskusja o charakterze fundamentalnym i czułbym się ograniczony w
-    prawach członka Posiedzenia Komisji Konstytucyjnej ZN Komisji
+    prawach członka Komisji
     Konstytucyjnej, który nie był członkiem podkomisji podstaw ustroju
     politycznego i społeczno-gospodarczego, gdyby dzisiaj odebrano mi prawo
     wypowiedzenia się o tak fundamentalnej sprawie ustrojowej. Dziwię się tym
@@ -1784,7 +1824,7 @@
     swoich praw wyrażonych w innych, bardziej szczegółowych przepisach
     konstytucyjnych. Czy zasada sprawiedliwości społecznej może być podstawą
     zakwestionowania budżetu? Moim zdaniem nie może być. Doszliśmy bowiem
-    wreszcie Posiedzenia Komisji Konstytucyjnej ZN do takiego sensu budżetu,
+    wreszcie do takiego sensu budżetu,
     który jest wyrażony od 1992 r. w małej konstytucji. Trybunał Konstytucyjny
     wyciągnął z tego wriioski w jednym z ostatnich orzeczeń. Art. 20 małej
     konstytucji stanowi, że: „„Dochody i wydatki Państwa na rok kalendarzowy
@@ -1826,7 +1866,7 @@
     ustroju politycznego i społeczno-gospodarczego. Debata w podkomisji nie była
     wyczerpująca i bogata. Została ona dość stanowczo przecięta głosowaniem — z
     założeniem, że resztę argumentów będzie można przedstawić na posiedzeniu
-    Komisji Konstytucyjnej. Posiedzenia Komisji Konstytucyjnej ZN Chcę również
+    Komisji Konstytucyjnej. Chcę również
     odnieść się do kwestii podjętej przez prof. W. Osiatyńskiego. Chodzi o
     uprawnienia Trybunału Konstytucyjnego. Ponieważ obecnie Sejm pełni rolę
     jakby izby odwoławczej od orzeczeń Trybunału Konstytucyjnego, nie do
@@ -1948,7 +1988,7 @@
     społecznej? Moim zdaniem problemy mogą się pojawić zarówno przy jednej, jak
     i drugiej formule. Powstaje jednak problem, czy kwestię tę chcemy zapisać w
     sposób zrównoważony, który zawiera oba elementy, czy też chcemy wpisać tylko
-    tę część, która się podoba. Posiedzenia Komisji Konstytucyjnej ZN Oznacza to
+    tę część, która się podoba. Oznacza to
     jednak selekcję czysto polityczną, a nie selekcję według możliwości
     prawnych. Rozumiem, że proponowana formuła mówiąca o urzeczywistnianiu
     sprawiedliwości społecznej może blokować pewne regresywne działania
@@ -1993,8 +2033,7 @@
     <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
     Odnosząc się do wypowiedzi posła R. Bugaja, że proponowany przez niego zapis
     uniemożliwiałby restryktywne ustawy w kwestiach socjalnych, obawiam się, że
-    będzie wręcz odwrotnie, jeżeli Try- Posiedzenia Komisji Konstytucyjnej ZN
-    bunał będzie miał prawo wydawania orzeczeń ostatecznych. Może bowiem być
+    będzie wręcz odwrotnie, jeżeli Trybunał będzie miał prawo wydawania orzeczeń ostatecznych. Może bowiem być
     tak, że któryś z następnych parlamentów będzie skłonny uchwalać bardzo
     korzystne dla obywateli ustawy socjalne, gdyż będzie przekonany, że Trybunał
     Konstytucyjny uzna te ustawy za niekonstytucyjne. Chcę dodać, że tak właśnie
@@ -2134,8 +2173,7 @@
     Chcę również dodać pewną kwestię wyjaśniającą w kontekście wypowiedzi posła
     J. Rokity. Mnie również nie podoba się zabezpieczenie dotyczące Trybunału,
     choć ja je wymyśliłem. Pragnę jednak zwrócić uwagę, że zasada państwa
-    prawnego urzeczywistniającego zasady sprawiedliwości społeczPosiedzenia
-    Komisji Konstytucyjnej ZN nej, to nie jedyna, lecz jedna z zasad naczelnych
+    prawnego urzeczywistniającego zasady sprawiedliwości społecznej, to nie jedyna, lecz jedna z zasad naczelnych
     konstytucji wyrażonych w rozdziale pierwszym. Zasady wyrażone w tym
     rozdziale będą się wyrażać przez bardziej szczegółowe instytucje i normy
     zawarte w następnych rozdziałach konstytucji. Zasada sprawiedliwości
@@ -2184,8 +2222,7 @@
     społecznej ”. Stwierdzam, że w głosowaniu wniosek uzyskał poparcie 19
     członków Komisji. Poddaję pod głosowanie wniosek, aby art. 1 miał brzmienie:
     „Rzeczpospolita Polska jest demokratycznym państwem prawnym, kierującym się
-    zasadami sprawiedliwości społecznej”. Posiedzenia Komisji Konstytucyjnej ZN
-    Stwierdzam, że w głosowaniu wniosek uzyskał poparcie 7 członków Komisji.
+    zasadami sprawiedliwości społecznej”. Stwierdzam, że w głosowaniu wniosek uzyskał poparcie 7 członków Komisji.
     Poddaję pod głosowanie wniosek, aby art. 1 miał brzmienie: „Rzeczpospolita
     Polska jest demokratycznym państwem prawnym 1 socjalnym”. Stwierdzam, że w
     głosowaniu wniosek zyskał poparcie członków Komisji. Nikt się nie wstrzymał.
@@ -2341,8 +2378,7 @@
   </p>
   <p class="rep-statement">
     <strong>Poseł Tadeusz Iwiński (SLD):</strong>
-    Zgadzam się z dr. W. Kuleszą, że pojęcie dobra wspólnego może być
-    Posiedzenia Komisji Konstytucyjnej ZN odnoszone do zasad sprawiedliwości
+    Zgadzam się z dr. W. Kuleszą, że pojęcie dobra wspólnego może być odnoszone do zasad sprawiedliwości
     społecznej. Byłby to więc pleonazm. Ponadto chcę przypomnieć, że w
     pierwotnych propozycjach, które zostały przedłożone na poprzednim
     posiedzeniu i zawarte w materiale, który otrzymaliśmy, była wspólna
@@ -2391,7 +2427,7 @@
     stwierdził, że kwestia ta może być ujęta w rozdziale o samorządzie
     terytorialnym. Zagadnienia te podejmiemy w jutrzejszej debacie. Czy przed
     zamknięciem debaty w dniu dzisiejszym ktoś chciałby zabrać głos w sprawach
-    różnych? Posiedzenia Komisji Konstytucyjnej ZN
+    różnych?
   </p>
 
   <p class="rep-statement">
