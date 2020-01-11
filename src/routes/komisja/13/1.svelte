@@ -23,25 +23,25 @@
   }
   .l img {
     margin: 0 1em 0 0;
-    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
   }
   .r img {
     margin: 0 0 0 1em;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
   }
   .l p {
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
   }
   .r p {
-    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
   }
   .speaker-small {
     display: flex;
   }
-  .speaker-small img {
+  /* .speaker-small img {
     width: 110px;
     height: 110px;
-  }
+  } */
 </style>
 
 <svelte:head>
@@ -62,10 +62,9 @@
     Gebethner, prof. Andrzej Gwiżdż.
   </p>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
-    <p class="rep-statement ">
-
-      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
+    <p class="rep-statement">
+      <strong>Poseł <a href="https://www.wikiwand.com/pl/Aleksander_Kwa%C5%9Bniewski" rel="nofollow" target="_blank">Aleksander Kwaśniewski</a> (<a href="https://www.wikiwand.com/pl/Sojusz_Lewicy_Demokratycznej" rel="nofollow" target="_blank">SLD</a>):</strong>
       Otwieram posiedzenie Komisji Konstytucyjnej Zgromadzenia Narodowego.
       Zgodnie z przyjętym planem pracy odbywamy kolejne posiedzenie, nie bacząc
       na wydarzenia wokół i na różne bardzo spektakularne spotkania i
@@ -98,10 +97,10 @@
       zgłaszam wniosek formalny o odwołanie — przerwanie — posiedzenia Komisji
       Konstytucyjnej.
     </p>
-    <img src="images/kk-speakers/grzeskowiak.png" alt="" />
+    <img src="images/kk-speakers/grzeskowiak.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="images/kk-speakers/r-wiatr.png" alt="" />
+    <img src="images/kk-speakers/r-wiatr.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Jerzy Wiatr (SLD):</strong>
       Jestem zdziwiony wnioskiem senator A. Grześkowiak, gdyż termin posiedzenia
@@ -131,12 +130,12 @@
       posiedzenia Komisji Konstytucyjnej nie odbywają się posiedzenia komisji
       sejmowych.
     </p>
-    <img src="images/kk-speakers/r-bugaj.png" alt="" />
+    <img src="images/kk-speakers/r-bugaj.png" alt="" loading="lazy" width="110" height="110" />
   </div>
 
   <!--<hr><p class="page-break">strona 4</p><hr>-->
   <div class="speaker-small l">
-    <img src="images/kk-speakers/taylor.png" alt="" />
+    <img src="images/kk-speakers/taylor.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Jacek Taylor (UW):</strong>
       Chcę kontynuować uwagę R. Bugaja, gdyż piętro wyżej obradują trzy
@@ -156,10 +155,10 @@
       posiedzenia Senatu. Koordynacja prac Sejmu, Senatu i Komisji
       Konstytucyjnej szwankuje więc wyraźnie. Komisja powinna jednak pracować.
     </p>
-    <img src="images/kk-speakers/r-madej.png" alt="" />
+    <img src="images/kk-speakers/r-madej.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
       Odnosząc się do uwagi posła R. Bugaja, chcę przypomnieć, że list marszałka
@@ -197,10 +196,10 @@
       Zwracam uwagę, że wniosek senator A. Grześkowiak nie jest kompletny, gdyż
       nie określa terminu, do którego ma zostać odroczone posiedzenie.
     </p>
-    <img src="/images/kk-speakers/szymanski.png" alt="" />
+    <img src="/images/kk-speakers/szymanski.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
       Proszę senator A. Grześkowiak o uzupełnienie wniosku poprzez określenie
@@ -212,10 +211,10 @@
       <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
       Proponuję, aby następne posiedzenie Komisji odbyło się za dwa tygodnie.
     </p>
-    <img src="images/kk-speakers/grzeskowiak.png" alt="" />
+    <img src="images/kk-speakers/grzeskowiak.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
       Wniosek został więc uzupełniony. Poddaję pod głosowanie wniosek o
@@ -239,12 +238,12 @@
       ewentualnym złożeniu wniosku mniejszości. Sądzę, że procedura, którą
       proponuję, ograniczy liczbę wniosków mniejszości.
     </p>
-    <img src="images/kk-speakers/r-bugaj.png" alt="" />
+    <img src="images/kk-speakers/r-bugaj.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
-      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      <strong>Poseł <a href="https://www.wikiwand.com/pl/Aleksander_Kwa%C5%9Bniewski" rel="nofollow" target="_blank">Aleksander Kwaśniewski</a> (<a href="https://www.wikiwand.com/pl/Sojusz_Lewicy_Demokratycznej" rel="nofollow" target="_blank">SLD</a>):</strong>
       Szczegółowo procedurę składania wniosków mniejszości normuje regulamin
       Komisji i regulamin Sejmu. Uważam, że możemy przyjąć, iż wnioski
       mniejszości będą składane po zakończeniu rozpatrywania rozdziału, a także
@@ -261,12 +260,12 @@
       dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości złożonych w
       sprawach, które nie były przedmiotem głosowań w Komisji.
     </p>
-    <img src="/images/kk-speakers/szymanski.png" alt="" />
+    <img src="/images/kk-speakers/szymanski.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <!--<hr><p class="page-break">strona 5</p><hr>-->
 
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/jaskiernia.png" alt="" />
+    <img src="/images/kk-speakers/jaskiernia.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
       Myślę, że charakter prawny materiałów, o których mówił poseł J. Szymański,
@@ -286,12 +285,12 @@
       sobie zarezerwować możliwość powrotu do kwestii, które były już wcześniej
       ustalone.
     </p>
-    <img src="/images/kk-speakers/ciemniewski.png" alt="" />
+    <img src="/images/kk-speakers/ciemniewski.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
-      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      <strong>Poseł <a href="https://www.wikiwand.com/pl/Aleksander_Kwa%C5%9Bniewski" rel="nofollow" target="_blank">Aleksander Kwaśniewski</a> (<a href="https://www.wikiwand.com/pl/Sojusz_Lewicy_Demokratycznej" rel="nofollow" target="_blank">SLD</a>):</strong>
       Myślę, że jeżeli kwestie proceduralne potraktujemy z uwzględnieniem dobrej
       woli i zdrowego rozsądku, to nie widzę przeszkód, aby mogło tak być, jak
       mówił poseł J. Ciemniewski. Przechodzimy do dyskusji merytorycznej.
@@ -319,10 +318,10 @@
       wymienionych artykułów, a nie o ich definitywne usunięcie. Proszę jednak o
       wyjaśnienie tej kwestii.
     </p>
-    <img src="/images/kk-speakers/r-bugaj.png" alt="" />
+    <img src="/images/kk-speakers/r-bugaj.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/r-grzeskowiak.png" alt="" />
+    <img src="/images/kk-speakers/r-grzeskowiak.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
       Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę
@@ -339,12 +338,12 @@
       demokratycznym państwem prawa, wspólnym dobrem jej obywateli,
       urzeczywistniającym zasady sprawiedliwości społecznej”.
     </p>
-    <img src="/images/kk-speakers/orzechowski.png" alt="" />
+    <img src="/images/kk-speakers/orzechowski.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
-      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      <strong>Poseł <a href="https://www.wikiwand.com/pl/Aleksander_Kwa%C5%9Bniewski" rel="nofollow" target="_blank">Aleksander Kwaśniewski</a> (<a href="https://www.wikiwand.com/pl/Sojusz_Lewicy_Demokratycznej" rel="nofollow" target="_blank">SLD</a>):</strong>
       Proponuję jednak, abyśmy najpierw rozstrzygnęli kwestię tytułu rozdziału
       I. Oprócz propozycji, o których już mówiłem, wpłynęła propozycja senatora
       H. Rota i posła J. Szymańskiego: „Zasady ustroju Rzeczypospolitej
@@ -359,12 +358,12 @@
       Uważam, że zamiast: „Zasady podstawowe...” powinno być: „Podstawowe
       zasady... .
     </p>
-    <img src="/images/kk-speakers/iwinski.png" alt="" />
+    <img src="/images/kk-speakers/iwinski.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/kwasniewski.png" alt="" />
+    <img src="/images/kk-speakers/kwasniewski.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
-      <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+      <strong>Poseł <a href="https://www.wikiwand.com/pl/Aleksander_Kwa%C5%9Bniewski" rel="nofollow" target="_blank">Aleksander Kwaśniewski</a> (<a href="https://www.wikiwand.com/pl/Sojusz_Lewicy_Demokratycznej" rel="nofollow" target="_blank">SLD</a>):</strong>
       Wnioskodawcy wyrażają zgodę na zaproponowaną zmianę redakcyjną. W tej
       sytuacji tytuł proponowany przez podkomisję oraz tytuł proponowany przez
       prof. A. Rzeplińskiego i posła W. Majewskiego są do siebie bardzo podobne.
@@ -382,10 +381,10 @@
       przedstawiciela Prezydenta RP i jednego z posłów, wycofuję tytuł
       zaproponowany przez podkomisję.
     </p>
-    <img src="/images/kk-speakers/r-bugaj.png" alt="" />
+    <img src="/images/kk-speakers/r-bugaj.png" alt="" loading="lazy" width="110" height="110" />
   </div>
   <div class="speaker-small l">
-    <img src="/images/kk-speakers/lipowicz.png" alt="" />
+    <img src="/images/kk-speakers/lipowicz.png" alt="" loading="lazy" width="110" height="110" />
     <p class="rep-statement">
       <strong>Poseł Irena Lipowicz (UW):</strong>
       Zwracam się do senatora H. Rota i posła J. Szymańskiego, aby rozważyli
