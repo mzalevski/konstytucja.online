@@ -17,8 +17,7 @@
   ol li a {
     padding: 0;
   }
-  h3,
-  h4 {
+  h3 {
     padding-top: 16px;
   }
   ul {
@@ -88,6 +87,15 @@
       Dz.U. z 1994 r. nr 61, poz. 251).
     </a>
   </p>
+  <h3>Skorowidz</h3>
+  <h5>
+    <a
+      href= "https://bs.sejm.gov.pl/exlibris/aleph/a22_1/apache_media/4FLECPPLHCENBQ5FISSAPRAQ6M4S2N.pdf"
+      rel="nofollow"
+      target="_blank">
+      skorowidz
+    </a>
+  </h5>
 
   <h3>Biuletyny</h3>
   <h5>

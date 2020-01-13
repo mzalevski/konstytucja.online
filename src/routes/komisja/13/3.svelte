@@ -36,12 +36,6 @@
 
 <h3>Obrady w dniu 9 lutego 1995 r.</h3>
   <!--<hr><p class="page-break">strona 63</p><hr>-->
-  <p class="last">
-    W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
-    przedstawiciele: Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej
-    Rzepliński, dr Władysław Kulesza i Rady Ministrów — prof. Stanisław
-    Gebethner, prof. Andrzej Gwiżdż.
-  </p>
   <p class="rep-statement">
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wznawiam obrady Komisji Konstytucyjnej Zgromadzenia Narodowego. Witam
