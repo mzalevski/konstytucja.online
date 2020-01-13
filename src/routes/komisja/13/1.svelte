@@ -24,10 +24,12 @@
   .l img {
     margin: 0 1em 0 0;
     box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
+    min-width: 110px;
   }
   .r img {
     margin: 0 0 0 1em;
     box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
+    min-width: 110px;
   }
   .l p {
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
