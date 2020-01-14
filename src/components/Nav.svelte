@@ -125,9 +125,15 @@
       margin-bottom: 0.5em;
     }
     .dropdown-content {
-      left: -2.8em;
+      left: -2.8rem;
     }
   }
+  @media (max-width: 480px) {
+    .dropdown-content {
+      left: -3.6rem;
+    }
+  }
+
   /* @media (max-width: 480px) {
 
     .dropdown-content {
