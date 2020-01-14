@@ -54,7 +54,7 @@ a {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   body {
     font-size: 10px;
   }
