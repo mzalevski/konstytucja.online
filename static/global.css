@@ -53,3 +53,9 @@ a {
     font-size: 12px;
   }
 }
+
+@media (max-width: 360px) {
+  body {
+    font-size: 10px;
+  }
+}
