@@ -128,24 +128,22 @@
       left: -2.8em;
     }
   }
-  @media (max-width: 500px) {
+  /* @media (max-width: 480px) {
+
     .dropdown-content {
       left: -3.6em;
     }
     .logo-letter {
-      padding-left: 4px;
-      padding-right: 0.5em;
+      padding-left: 0.5rem;
+      padding-right: 1rem;
       padding-top: 0.24em;
       font-size: 1.8em;
     }
-    a {
-      padding-right: 4px;
-      padding-left: 1px;
-    }
+
     .selected::after {
-      width: calc(100% - 0.35em);
+      width: calc(100% - 0.7rem);
     }
-  }
+  } */
 </style>
 
 <nav>

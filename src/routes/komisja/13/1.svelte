@@ -50,6 +50,23 @@
     box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
     order: 0;
   }
+  @media (max-width: 500px) {
+    .speaker img {
+      height: 60px;
+      width: 60px;
+      min-width: 60px;
+    }
+    .protocol .speaker:nth-child(odd) img {
+      margin: 0 0.5rem 0 0;
+    }
+    .protocol .speaker:nth-child(even) img {
+      margin: 0 0 0 0.5rem;
+    }
+    .speaker p {
+      padding: 0.5rem;
+      font-size: 12px;
+    }
+  }
 </style>
 
 <svelte:head>
