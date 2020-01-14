@@ -5,7 +5,6 @@
     background-color: white;
     padding: 0;
     margin: 1rem;
-    /* padding: 0 1rem; */
     box-sizing: border-box;
   }
 </style>

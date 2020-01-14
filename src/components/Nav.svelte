@@ -24,6 +24,10 @@
     padding: 0;
   }
 
+  ul li:last-child a {
+    padding-right: 0;
+  }
+
   ul::after {
     content: "";
     display: block;
