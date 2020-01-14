@@ -1,11 +1,11 @@
 <style>
   main {
-    position: relative;
-    max-width: 65em;
+
+    max-width: 65rem;
     background-color: white;
     padding: 0;
-    margin: 1em auto;
-    padding: 0 1em;
+    margin: 1rem;
+    /* padding: 0 1rem; */
     box-sizing: border-box;
   }
 </style>
