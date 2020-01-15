@@ -14,9 +14,7 @@
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
     font-weight: 300;
     padding: 0 0em;
-    margin: 0 auto;
     margin-bottom: 1em;
-    max-width: 65em;
   }
   ul {
     flex-shrink: 0;

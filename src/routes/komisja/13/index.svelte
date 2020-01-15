@@ -14,11 +14,25 @@
     color: rgb(160, 40, 40);
   }
   .rep-list {
+    padding-left: 0;
     list-style-type: none;
     margin-top: 1rem;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
   }
-  ol li a {
-    padding: 0;
+  .days {
+    display: flex;
+    padding-left: 0;
+  }
+  .days li {
+    list-style-type: none;
+    padding: 1rem;
+    margin-right: 2rem;
+    border: 1px dotted black;
+  }
+  .days a {
+    text-decoration: none;
   }
   h3 {
     padding-top: 16px;
@@ -28,11 +42,16 @@
     line-height: 1.5;
   }
 
-  @media (max-width: 1100px) {
-    li a {
-      margin: 0em 0;
-      padding: 0.2em 0.5em;
-      text-align: center;
+  @media (max-width: 600px) {
+    .rep-list {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    .days li {
+      padding: 0.5rem;
+      margin-right: 0;
+      justify-content: space-between;
     }
   }
 </style>
@@ -46,15 +65,14 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)</h3>
-  <!-- <h5>
+  <h5>
     <a
-      href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
+      href="https://drive.google.com/file/d/1awtjblaTcKfacOyLZwlw_y9ki_226um_/view?usp=sharing"
       rel="nofollow"
       target="_blank">
-      Dz.U. 1997 nr 78 poz. 483
+      ORYGINAŁ BIULETYNU
     </a>
-    nie wiem co tu
-  </h5> -->
+  </h5>
   <p>
     W dniach 7, 8 i 9 lutego 1995 r., Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
@@ -62,24 +80,17 @@
     (w ujęciu wariantowym), sprawy różne.
   </p>
 
-  <ul>
-    <li>
-      <a rel="prefetch" href="komisja/13/1">Dzień 1 (7 lutego)</a>
-    </li>
-    <li>
-      <a rel="prefetch" href="komisja/13/2">Dzień 2 (8 lutego)</a>
-    </li>
-    <li>
-      <a rel="prefetch" href="komisja/13/3">Dzień 3 (9 lutego)</a>
-    </li>
+  <ul class="days">
+    <a rel="prefetch" href="komisja/13/1">
+      <li>Dzień 1 (7 lutego)</li>
+    </a>
+    <a rel="prefetch" href="komisja/13/2">
+      <li>Dzień 2 (8 lutego)</li>
+    </a>
+    <a rel="prefetch" href="komisja/13/3">
+      <li>Dzień 3 (9 lutego)</li>
+    </a>
   </ul>
-
-  <p>
-    W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
-    przedstawiciele: Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej
-    Rzepliński, dr Władysław Kulesza i Rady Ministrów — prof. Stanisław
-    Gebethner, prof. Andrzej Gwiżdż.
-  </p>
 
   <div>
     <h3>Skład komisji konstytucyjnej zgromadzenia narodowego</h3>
@@ -96,7 +107,7 @@
       <li>7. Poseł Wojciech Borowik (UP)</li>
       <li>8. Poseł Ryszard Bugaj (UP)</li>
       <li>9. Poseł Piotr Chojnacki (PSL)</li>
-      <li>10.Poseł Jerzy Ciemniewski (UW)</li>
+      <li>10. Poseł Jerzy Ciemniewski (UW)</li>
       <li>11. Poseł Włodzimierz Cimoszewicz (SLD)</li>
       <li>12. Senator Adam Daraż (PSL)</li>
       <li>13. Poseł Henryk Dyrda (PKR)</li>
@@ -140,11 +151,19 @@
       <li>51. Poseł Czesław Sleziak (SLD)</li>
       <li>52. Poseł Jacek Taylor (UW)</li>
       <li>53. Poseł Danuta Waniek (SLD)</li>
-      <li>54. Poseł Jerzy Wiatr (SLD)
+      <li>54. Poseł Jerzy Wiatr (SLD)</li>
       <li>55. Poseł Janusz Wojciechowski (PSL)</li>
       <li>56. Poseł Jerzy Zdrada (UW)</li>
     </ul>
-
+    <p>
+      W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
+      przedstawiciele:
+      <br />
+      Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej Rzepliński, dr
+      Władysław Kulesza i
+      <br />
+      Rady Ministrów — prof. Stanisław Gebethner, prof. Andrzej Gwiżdż.
+    </p>
   </div>
 
 </div>
