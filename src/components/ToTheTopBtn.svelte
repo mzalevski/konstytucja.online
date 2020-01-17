@@ -1,3 +1,7 @@
+<script>
+  import { fly, fade } from "svelte/transition";
+</script>
+
 <style>
   #back-to-the-top-btn {
     display: block;
@@ -18,7 +22,10 @@
   }
 </style>
 
-  <!-- ten transition się buguje transition:fly={{ y: 200, duration: 2000 }} -->
-  <button id="back-to-the-top-btn" on:click={() => window.scroll(0, 0)}>
+  <button id="back-to-the-top-btn"
+  in:fly={{ y: 200, duration: 2000 }}
+  on:click={() => window.scroll(0, 0)}>
+
     <img src="images/angle-double-up-solid.svg" alt="" />
+
   </button>

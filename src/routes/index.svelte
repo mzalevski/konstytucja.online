@@ -87,7 +87,7 @@
 </div>
 
 {#if yAxisPosition > 300}
-  <ToTheTopBtn />
+  <ToTheTopBtn/>
 {/if}
 
 <Footer />

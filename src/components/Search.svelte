@@ -27,6 +27,11 @@
   .search input {
     background-image: url("/images/search.png");
   }
+  .search input:focus,
+  .chapter-pick select:focus {
+    border: 1px solid black;
+    /* box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15); */
+  }
 
   .chapter-pick select {
     background-image: url("/images/chapter.png");
