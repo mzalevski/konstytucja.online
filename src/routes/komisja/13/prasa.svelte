@@ -16,8 +16,6 @@
     margin: 0;
   }
   .header {
-    display: flex;
-    justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
@@ -34,19 +32,41 @@
   }
   .article-metadata,
   .press-article {
-    border: 1px solid black;
+    border: 1px dotted rgba(0, 0, 0, 0.3);
     padding: 1rem;
+    border-radius: 3px;
+  }
+
+  .article-metadata {
+  }
+  .author {
+    text-align: right;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 750;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .newspaper,
+  .date {
+    text-align: right;
   }
   .press-article {
     margin-bottom: 2rem;
   }
-  .title,
-  .sub-title,
+
   .author,
   .newspaper,
   .bold,
   .date {
-    font-weight: bold;
+    font-weight: 600;
   }
 </style>
 
@@ -65,43 +85,46 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <div class="header">
-    <div>
-      <h3>Prasa o pracach konstytucyjnych</h3>
-      <h5>
-        <a
-          href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
-          rel="nofollow"
-          target="_blank">
-          ORYGINAŁ BIULETYNU
+    <div style="display: flex; justify-content: space-between;">
+      <div>
+        <h3>Prasa o pracach konstytucyjnych</h3>
+        <h5>
+          <a
+            href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
+            rel="nofollow"
+            target="_blank">
+            ORYGINAŁ BIULETYNU
+          </a>
+        </h5>
+      </div>
+      <div class="small-article-nav">
+        <a rel="prefetch" href="/komisja/13/3">
+          <img src="images/angle-left-solid.svg" alt="" />
         </a>
-      </h5>
-    </div>
-    <div class="small-article-nav">
-      <a rel="prefetch" href="/komisja/13/3">
-        <img src="images/angle-left-solid.svg" alt="" />
-      </a>
 
+      </div>
     </div>
+
+    <p>
+      W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
+      oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji
+      prasowych o szerszym zakresie tematycznym w biuletynie zamieszczane są
+      tylko fragmenty dotyczące problematyki konstytucyjnej. Z zasady nie są
+      przedrukowywane zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone
+      są w zasadzie chronologicznie. Pomocniczo stosowane jest jednak również
+      grupowanie tematyczne. W związku z wejściem prac konstytucyjnych w fazę
+      ustalania brzmienia przepisów nowej konstytucji, preferencyjnie traktowane
+      są publikacje o charakterze problemowym.
+    </p>
   </div>
-  <p>
-    W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
-    oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji prasowych
-    o szerszym zakresie tematycznym w biuletynie zamieszczane są tylko fragmenty
-    dotyczące problematyki konstytucyjnej. Z zasady nie są przedrukowywane
-    zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone są w zasadzie
-    chronologicznie. Pomocniczo stosowane jest jednak również grupowanie
-    tematyczne. W związku z wejściem prac konstytucyjnych w fazę ustalania
-    brzmienia przepisów nowej konstytucji, preferencyjnie traktowane są
-    publikacje o charakterze problemowym.
-  </p>
   <div class="press-article">
     <div class="article-metadata">
       <p class="newspaper">„Rzeczpospolita”</p>
-      <p class="date">14.02.95</p>
-      <p class="title">
-        Komisja Konstytucyjna uchwaliła 10 artykułów przyszłej konstytucji
+      <p class="date">14 lutego 1995 r.</p>
+      <p class="title">Powolna ucieczka do przodu.</p>
+      <p class="subtitle">
+        Komisja Konstytucyjna uchwaliła 10 artykułów przyszłej konstytucji.
       </p>
-      <p class="title">Powolna ucieczka do przodu</p>
       <p class="author">Jerzy Pilczyński</p>
     </div>
     <p class="bold">
@@ -138,7 +161,7 @@
       wcześnie jeszcze, aby wyrokować.
     </p>
 
-    <p class="sub-title">Spór o zasady</p>
+    <p class="subtitle">Spór o zasady</p>
 
     <p>
       Pierwszy rozdział tworzonego projektu zawiera zasady ogólne. Już na
@@ -167,7 +190,7 @@
       więc sprawą szczególnie trudną i odpowiedzialną.
     </p>
 
-    <p class="sub-title">Państwo prawne i socjalne</p>
+    <p class="subtitle">Państwo prawne i socjalne</p>
 
     <p>
       Nic dziwnego, że do sporów o ich treść doszło już przy pierwszych
@@ -203,25 +226,24 @@
       że państwo czegoś nie spełnia, a Trybunał Konstytucyjny nie będzie mógł
       kwestionować kwot zawartych w ustawie budżetowej. Obawy te starał się
       rozwiewać ekspert Komisji, profesor Kazimierz Działocha, wskazując jednak,
-      że przyjęcie takiej fundamentalnej Prasa o pracach konstytucyjnych normy
-      nie powinno pozostać bez wpływu na katalog praw obywatelskich, a w tym
-      praw socjalnych, oraz na ustawodawstwo. Niektórzy inni eksperci, na
-      przykład profesor Wiktor Osiatyński, podtrzymywali w pewnej mierze obawy,
-      że takie sformułowanie mo-że okazać się niebezpieczne. Dobro wspólne
-      Zasada solidaryzmu społecznego i sprawiedliwości społecznej wiąże się też
-      z art. 2 projektu: „Rzeczpospolita Polska jest dobrem wspólnym wszystkich
-      obywateli”. Na bogatą treść tego artykułu i konsekwencje, jakie można stąd
-      wyciągać, wskazywał ekspert prezydenta doktor Władysław Kulesza. Większość
-      członków Komisji opowiedziała się za art. 3, stanowiącym, że
-      „Rzeczpospolita Polska jest państwem jednolitym i niepodzielnym”.
-      Przeciwnicy tego artykułu twierdzili, że może on wskazywać na nasze
-      narodowe kompleksy, które obecnie nie mają uzasadnienia (Irena Lipowicz —
-      UW). Argumentowano także, że mogłyby stąd wynikać utrudnienia dla
-      uczestnictwa w euroregionach. Zwolennicy tego artykułu, do których
-      zaliczał się m.in. Ryszard Bugaj (UP), uważali jednak, że konstytucję
-      pisze się na długie lata i choć Polsce nie grozi obecnie podział
-      terytorialny, taki artykuł w konstytucji „będzie dodatkową barierą przed
-      zbytłatwym przekraczaniem pewnych granic”.
+      że przyjęcie takiej fundamentalnej normy nie powinno pozostać bez wpływu
+      na katalog praw obywatelskich, a w tym praw socjalnych, oraz na
+      ustawodawstwo. Niektórzy inni eksperci, na przykład profesor Wiktor
+      Osiatyński, podtrzymywali w pewnej mierze obawy, że takie sformułowanie
+      mo-że okazać się niebezpieczne. Dobro wspólne Zasada solidaryzmu
+      społecznego i sprawiedliwości społecznej wiąże się też z art. 2 projektu:
+      „Rzeczpospolita Polska jest dobrem wspólnym wszystkich obywateli”. Na
+      bogatą treść tego artykułu i konsekwencje, jakie można stąd wyciągać,
+      wskazywał ekspert prezydenta doktor Władysław Kulesza. Większość członków
+      Komisji opowiedziała się za art. 3, stanowiącym, że „Rzeczpospolita Polska
+      jest państwem jednolitym i niepodzielnym”. Przeciwnicy tego artykułu
+      twierdzili, że może on wskazywać na nasze narodowe kompleksy, które
+      obecnie nie mają uzasadnienia (Irena Lipowicz — UW). Argumentowano także,
+      że mogłyby stąd wynikać utrudnienia dla uczestnictwa w euroregionach.
+      Zwolennicy tego artykułu, do których zaliczał się m.in. Ryszard Bugaj
+      (UP), uważali jednak, że konstytucję pisze się na długie lata i choć
+      Polsce nie grozi obecnie podział terytorialny, taki artykuł w konstytucji
+      „będzie dodatkową barierą przed zbytłatwym przekraczaniem pewnych granic”.
     </p>
 
     <p>
@@ -291,26 +313,39 @@
   <div class="press-article">
     <div class="article-metadata">
       <p class="newspaper">„Słowo. Dziennik Katolicki”</p>
-      <p class="date">15.02.95</p>
+      <p class="date">15 lutego 1995 r.</p>
       <p class="title">Konstytucja — spór o kulturę</p>
-      <p class="title">
+      <p
+        class="subtitle"
+        title="Walerian Piotrowski był przewodniczącym Komisji Konstytucyjnej
+        Zgromadzenia Narodowego, składającej się z posłów I kadencji i senatorów
+        II kadencji, w latach 1991-1993 [przyp. wydawcy].">
         Rozmawiamy z mec. Walerianem Piotrowskim, byłym senatorem RP,
         przewodniczącym Komisji Konstytucyjnej I kadencji Sejmu RP*
       </p>
       <p class="author">Romana Brzezińska</p>
     </div>
-    <p>
+
+    <p class="bold">
       Panie mecenasie, czy w momencie, kiedy Polska przeżywa głęboki kryzys
       rządowy, kiedy bez przerwy jesteśmy bombardowani informacjami o różnej
       rangi wydarzeniach i skandalach politycznych warto mówić o podstawach ładu
-      państwowego III Rzeczypospolitej. Oczywiście, tym bardziej że od kilku lat
-      toczy się w Polsce spór o podstawy, na jakich ma być budowane państwo. Czy
-      ma ono być oparte o prawo stanowione przez demokratyczną większość, czy
-      też ma to być państwo demokratyczne, respektujące prawo naturalne, które
-      ma być przed czy ponad państwem. e Prace nad nową Konstytucją RP trwają,
-      nic jeszcze nie jest przesądzone, ale stała się już rzecz jedna — Komisja
-      Konstytucyjna parlamentu postanowiła, że ustawa zasadnicza nie będzie
-      zawierała ani inwokacji, ani preambuły. Jak pan senator ocenia tę decyzję?
+      państwowego III Rzeczypospolitej.
+    </p>
+    <p>
+      Oczywiście, tym bardziej że od kilku lat toczy się w Polsce spór o
+      podstawy, na jakich ma być budowane państwo. Czy ma ono być oparte o prawo
+      stanowione przez demokratyczną większość, czy też ma to być państwo
+      demokratyczne, respektujące prawo naturalne, które ma być przed czy ponad
+      państwem.
+    </p>
+    <p class="bold">
+      Prace nad nową Konstytucją RP trwają, nic jeszcze nie jest przesądzone,
+      ale stała się już rzecz jedna — Komisja Konstytucyjna parlamentu
+      postanowiła, że ustawa zasadnicza nie będzie zawierała ani inwokacji, ani
+      preambuły. Jak pan senator ocenia tę decyzję?
+    </p>
+    <p>
       Myślę, że jest w niej zawarta myśl, iż III Rzeczpospolitą trzeba urządzić
       inaczej, niż to wynika z polskiej tradycji. Tak jak do niedawna chciano
       ukształtować nowego, socjalistycznego człowieka, tak teraz wielu obecnych
@@ -323,99 +358,119 @@
       przeciwko narodowi.
     </p>
 
+    <p class="bold">
+      Nie wiadomo jeszcze jaką decyzję podejmie Zgromadzenie Narodowe, jeżeli
+      ono będzie w tym składzie uchwalać Konstytucję, ale można przypuszczać, że
+      zdanie większości posłów i senatorów będzie analogiczne jak Komisji
+      Konstytucyjnej...
+    </p>
     <p>
-      Walerian Piotrowski był przewodniczącym Komisji Konsty-tucyjnej
-      Zgromadzenia Narodowego, składającej się z posłów I kadencji i senatorów
-      II kadencji, w latach 1991-1993 [przyp. wydawcy]. Nie wiadomo jeszcze jaką
-      decyzję podejmie Zgromadzenie Narodowe, jeżeli ono będzie w tym składzie
-      uchwalać Konstytucję, ale można przypuszczać, że zdanie większości posłów
-      i senatorów będzie analogiczne jak Komisji Konstytucyjnej... Boję się, że
-      projekt zawierający preambułę może liczyć na kilkanaście głosów. Znakomita
-      większość parlamentarzystów z SLD, PSL, Unii Wolności czy Unii Pracy,
-      głosować będzie za pominięciem w Konstytucji wezwania Imienia Bożego i
-      preambuły, dlatego, że w projektach, które je zawierają, mówi się o
-      chrześcijańskim charakterze polskiej kultury, o chrześcijańskiej
-      tożsamości polskiego narodu. Sądzę, że tak należy prognozować wynik
-      głosowania. Pamiętajmy, że inwokacji nie zawierają — projekty Unii
-      Wolności, Pana Prezydenta, PSL, Unii Pracy i SLD, a projekt PSL oparty
-      jest na liberalno-laickiej koncepcji państw. I preambułę, i inwokację —
-      wezwanie Imienia Bo-żego — zawierały projekt senacki z 1991 roku, później
-      projekt PC, obywatelski projekt „Solidarności , w innej formie niż dwa
-      poprzednie i dwa projekty pozaparlamentame — „Przymierza dla Poli
-      Stronnictwa Narodowo-Demokratycznego. Mamy w historycznej pamięci, że tego
-      rodzaju preambułę — zawierającą wezwanie Imienia Bożego i określenie
-      zespołu wartości, które państwo chce respektować — zawierała Konstytucja 3
-      Maja 1 pierwsza po odzyskaniu niepodległości — Konstytucja Marcowa. e
+      Boję się, że projekt zawierający preambułę może liczyć na kilkanaście
+      głosów. Znakomita większość parlamentarzystów z SLD, PSL, Unii Wolności
+      czy Unii Pracy, głosować będzie za pominięciem w Konstytucji wezwania
+      Imienia Bożego i preambuły, dlatego, że w projektach, które je zawierają,
+      mówi się o chrześcijańskim charakterze polskiej kultury, o
+      chrześcijańskiej tożsamości polskiego narodu. Sądzę, że tak należy
+      prognozować wynik głosowania. Pamiętajmy, że inwokacji nie zawierają —
+      projekty Unii Wolności, Pana Prezydenta, PSL, Unii Pracy i SLD, a projekt
+      PSL oparty jest na liberalno-laickiej koncepcji państw. I preambułę, i
+      inwokację — wezwanie Imienia Bo-żego — zawierały projekt senacki z 1991
+      roku, później projekt PC, obywatelski projekt „Solidarności , w innej
+      formie niż dwa poprzednie i dwa projekty pozaparlamentame — „Przymierza
+      dla Poli Stronnictwa Narodowo-Demokratycznego. Mamy w historycznej
+      pamięci, że tego rodzaju preambułę — zawierającą wezwanie Imienia Bożego i
+      określenie zespołu wartości, które państwo chce respektować — zawierała
+      Konstytucja 3 Maja 1 pierwsza po odzyskaniu niepodległości — Konstytucja
+      Marcowa.
+    </p>
+    <p class="bold">
       Dostrzegając już pierwsze symptomy poważnego sporu wiele osób, nawet o
       katolickiej proweniencji, uważało, że może trzeba z tych dwóch elementów
       Konstytucji zrezygnować, w zamian, by nie wzbudzać nowego konfliktu,
-      próbować mocno osadzić zasady konstytucyjne w prawie naturalnym...—
-      Rzeczywiście — twierdzono, że jeśli polska Konstytucja wyraźnie odwoła się
-      do ONZ-owskiej Deklaracji Praw Człowieka z 1948 roku, która jednoznacznie
-      uznaje, iż wszystkie narody Świata zobowiązane są respektować rozpoznane w
-      tej deklaracji prawa człowieka wywodzące się z jego godności, z prawa
-      natury, nie pochodzące od ustawodawcy państwowego, nie będące wynikiem
-      negocjacji międzynarodowych, to uda się uniknąć sporów. Szybko jednak
-      okazało się, że inkorporowanie ONZ-owskiej deklaracji do polskiej
-      Konstytucji nie zamyka różnej interpretacji. Szczególne wyraźnie można
-      było to dostrzec w debacie o zakres ochronyżycia ludzkiego.
+      próbować mocno osadzić zasady konstytucyjne w prawie naturalnym...
+    </p>
+    <p>
+      —Rzeczywiście — twierdzono, że jeśli polska Konstytucja wyraźnie odwoła
+      się do ONZ-owskiej Deklaracji Praw Człowieka z 1948 roku, która
+      jednoznacznie uznaje, iż wszystkie narody Świata zobowiązane są
+      respektować rozpoznane w tej deklaracji prawa człowieka wywodzące się z
+      jego godności, z prawa natury, nie pochodzące od ustawodawcy państwowego,
+      nie będące wynikiem negocjacji międzynarodowych, to uda się uniknąć
+      sporów. Szybko jednak okazało się, że inkorporowanie ONZ-owskiej
+      deklaracji do polskiej Konstytucji nie zamyka różnej interpretacji.
+      Szczególne wyraźnie można było to dostrzec w debacie o zakres ochronyżycia
+      ludzkiego.
     </p>
 
+    <p class="bold">
+      Społeczność katolicka powinna więc pańskim zdaniem bronić prawa do
+      umieszczenia w nowej Konstytucji i inwokacji, i preambuły?
+    </p>
     <p>
-      e Społeczność katolicka powinna więc pańskim zdaniem bronić prawa do
-      umieszczenia w nowej Konstytucji i inwokacji, i preambuły? Jeżeli chcemy,
-      by ład konstytucyjny, ład prawny naszej ojczyzny oparty był na
-      niezmiennych zasadach konstytucyjnych, to trzeba te zasady dokładPrasa o
-      pracach konstytucyjnych nie określić, według kultury narodu. Jeżeli polska
-      kultura narodowa jest kulturą chrześcijańską, to nie można budować państwa
-      polskiego odrywając go od korzeni. Tym bardziej po tym, co się stało w
-      1939 roku i w latach następnych, po latach dominacji komunistycznej,
-      wrogiej kulturze narodu. Rzeczpospolita jest państwem narodu polskiego —
-      nie mówię tego w sensie nacjonalistycznym. Państwo jest emanacją narodu
-      polskiego. Jeśli ten naród jest w swojej kulturze chrześcijańskiej to nie
-      można budować państwa, które by ten fakt ignorowało. Oznaczałoby to bowiem
-      budowanie ładu państwa przeciwko narodowi. To jest także uzasadnienie, że
-      nie można aprobować w nowej Konstytucji zasady oddzielenia Kościoła od
-      państwa. Wówczas myśli się o państwie tylko jako o strukturze władzy.
-      Tymczasem państwo, to przede wszystkim naród i terytorium, dopiero później
-      struktura władzy służąca narodowi zorganizowanemu w państwo. Jeżeli tak
-      jest, to nie można stawiać cezury między strukturami władzy a narodem,
-      ponieważ byłoby to sztuczne cięcie, które tworzy warunki do takiej
-      emancypacji, takiego odejścia władzy od narodu, które może zagrażać
-      autokratyzmem, nowym totalitaryzmem. Nie będzie się on już powoływał na
-      marksizm, ale będzie czerpał swoją żywotną siłę z laickiej koncepcji
-      człowieka. Jeżeli więc nie chcemy tego odcięcia władzy od narodu, musimy
-      się opowiedzieć za wezwaniem w Konstytucji Imienia Bożego i za preambułą
-      historyczną. e Ani preambuła, ani inwokacja nie mają jednak charakteru
-      normatywnego... Konstytucja powinna być aktem politycznym, ale nie ma
-      takiej konstytucji, która poprzestałaby na zapisach jurydycznych.
-      Konstytucja jest przecież tak-że pewną wartością, do ktorej powinny
-      odnosić się myśli i czyny obywateli. Czy konstytucja, która nie będzie
-      zawierała odniesienia do dziejów, nie będzie odwoływała się do Boga jako
-      Najwyższego Prawotwórcy (co dla wielu Polaków jest prawdą, którą wyznają),
-      zdolna będzie poruszyć serca, będzie zdolna sprawić, że Polacy staną się
-      współuczestnikami tego, co się w państwie dzieje? Dzisiaj, kiedy doznajemy
-      powszechnego zaniku postaw patriotycznych, jest to przeniesienie
-      historycznego stosunku, jaki Polacy mają do Konstytucji 3 Maja na to, co
-      ma się dziać w przyszłości. Nie wolno nam pozbawiać się w przyszłej
-      Konstytucji RP tego, co stanowi zabezpieczenie przed nadużyciem władzy. e
+      Jeżeli chcemy, by ład konstytucyjny, ład prawny naszej ojczyzny oparty był
+      na niezmiennych zasadach konstytucyjnych, to trzeba te zasady dokładPrasa
+      o pracach konstytucyjnych nie określić, według kultury narodu. Jeżeli
+      polska kultura narodowa jest kulturą chrześcijańską, to nie można budować
+      państwa polskiego odrywając go od korzeni. Tym bardziej po tym, co się
+      stało w 1939 roku i w latach następnych, po latach dominacji
+      komunistycznej, wrogiej kulturze narodu. Rzeczpospolita jest państwem
+      narodu polskiego — nie mówię tego w sensie nacjonalistycznym. Państwo jest
+      emanacją narodu polskiego. Jeśli ten naród jest w swojej kulturze
+      chrześcijańskiej to nie można budować państwa, które by ten fakt
+      ignorowało. Oznaczałoby to bowiem budowanie ładu państwa przeciwko
+      narodowi. To jest także uzasadnienie, że nie można aprobować w nowej
+      Konstytucji zasady oddzielenia Kościoła od państwa. Wówczas myśli się o
+      państwie tylko jako o strukturze władzy. Tymczasem państwo, to przede
+      wszystkim naród i terytorium, dopiero później struktura władzy służąca
+      narodowi zorganizowanemu w państwo. Jeżeli tak jest, to nie można stawiać
+      cezury między strukturami władzy a narodem, ponieważ byłoby to sztuczne
+      cięcie, które tworzy warunki do takiej emancypacji, takiego odejścia
+      władzy od narodu, które może zagrażać autokratyzmem, nowym totalitaryzmem.
+      Nie będzie się on już powoływał na marksizm, ale będzie czerpał swoją
+      żywotną siłę z laickiej koncepcji człowieka. Jeżeli więc nie chcemy tego
+      odcięcia władzy od narodu, musimy się opowiedzieć za wezwaniem w
+      Konstytucji Imienia Bożego i za preambułą historyczną. e
+    </p>
+    <p class="bold">
+      Ani preambuła, ani inwokacja nie mają jednak charakteru normatywnego...
+    </p>
+    <p>
+      Konstytucja powinna być aktem politycznym, ale nie ma takiej konstytucji,
+      która poprzestałaby na zapisach jurydycznych. Konstytucja jest przecież
+      tak-że pewną wartością, do ktorej powinny odnosić się myśli i czyny
+      obywateli. Czy konstytucja, która nie będzie zawierała odniesienia do
+      dziejów, nie będzie odwoływała się do Boga jako Najwyższego Prawotwórcy
+      (co dla wielu Polaków jest prawdą, którą wyznają), zdolna będzie poruszyć
+      serca, będzie zdolna sprawić, że Polacy staną się współuczestnikami tego,
+      co się w państwie dzieje? Dzisiaj, kiedy doznajemy powszechnego zaniku
+      postaw patriotycznych, jest to przeniesienie historycznego stosunku, jaki
+      Polacy mają do Konstytucji 3 Maja na to, co ma się dziać w przyszłości.
+      Nie wolno nam pozbawiać się w przyszłej Konstytucji RP tego, co stanowi
+      zabezpieczenie przed nadużyciem władzy.
+    </p>
+    <p class="bold">
       Obawiam się, że nawet pozostawienie inwokacji w nowej Konstytucji niewiele
       zmieni, jeśli nie zmieni się obyczaj polityczny, a to jest, jak widzimy,
-      proces długotrwały... Wezwanie Imienia Bożego nie ma być dekoracją
-      historyczną, wyniesioną z lamusa, ale ma być zobowiązaniem. Myślę, że
-      ludzie dobrej woli, nawet jeśli nie podzielają wiary w Boga, dostrzegą, iż
-      wezwanie Imienia Bożego jest gwarantem tego, że ich najbardziej podstawowe
-      prawa będą szanowane 1 że dla tych, którzy nie wierzą w Boga to
-      odniesienie do zasady istniejącej ponad państwem uniemożliwi ograniczenie
-      ich praw — wolności, wyznania i sumienia. Dziękuję za rozmowę.
+      proces długotrwały...
     </p>
+    <p>
+      Wezwanie Imienia Bożego nie ma być dekoracją historyczną, wyniesioną z
+      lamusa, ale ma być zobowiązaniem. Myślę, że ludzie dobrej woli, nawet
+      jeśli nie podzielają wiary w Boga, dostrzegą, iż wezwanie Imienia Bożego
+      jest gwarantem tego, że ich najbardziej podstawowe prawa będą szanowane 1
+      że dla tych, którzy nie wierzą w Boga to odniesienie do zasady istniejącej
+      ponad państwem uniemożliwi ograniczenie ich praw — wolności, wyznania i
+      sumienia.
+    </p>
+    <p class="bold">Dziękuję za rozmowę.</p>
+
   </div>
   <div class="press-article">
     <div class="article-metadata">
       <p class="newspaper">„Czas Krakowski”</p>
-      <p class="date">15.02.95</p>
+      <p class="date">15 lutego 1995 r.</p>
       <p class="title">Konstytucja to 1000 lat historii państwa</p>
-      <p class="title">
+      <p class="subtitle">
         Rozmowa z dr. Andrzejem Smirnowem, współautorem Obywatelskiego Projektu
         Konstytucji
       </p>
@@ -518,9 +573,10 @@
   <div class="press-article">
     <div class="article-metadata">
       <p class="newspaper">„Rzeczpospolita”</p>
-      <p class="date">17.02.95</p>
-      <p class="title">Rada Strategii Społeczno-Gospodarczej</p>
-      <p class="title">Za mało gospodarki w konstytucji</p>
+      <p class="date">17 lutego 1995 r.</p>
+      <p class="title">
+        Rada Strategii Społeczno-Gospodarczej:<br/>Za mało gospodarki w konstytucji
+      </p>
       <p class="author">Krzysztof Grzegrzółka</p>
     </div>
     <p>
@@ -531,31 +587,31 @@
       przedstawionych projektach za mało jest podmiotowości pracowników. Takie
       głosy w dyskusji nad kształtem gospodarczej części przyszłej konstytucji
       przeważały wśród uczestników wczorajszego posiedzenia Rady Strategii
-      Społeczno-Gospodarczej. Prasa o pracach konstytucyjnych W opinii profesora
-      Wacława Wilczyńskiego, we wszystkich siedmiu projektach konstytucji,
-      przedłożonych Komisji Konstytucyjnej Zgromadzenia Narodowego, jest
-      akcentowana wolność działalności gospodarczej, jednak z ograniczeniami
-      motywowanyrmi „,interesem publicznym” lub „dobrem ogólnym”. Praca i
-      własność są wymieniane obok wolności jako cechy określające ustrój.
-      Własność występuje jednak najczę-Ściej bez przymiotników „prywatna” lub
-      „publiczna ”. Akcentowana bywa natomiast własność komunalna. Większość
-      projektów podkreśla konieczność praworządnego wywłaszczenia w sytuacjach,
-      które tego wymagają. Jednak tylko projekt Senatu I kadencji podkreśla
-      konieczność „niezwłocznego” odszkodowania. Troska o spadkobierców jest
-      najsilniej akcentowana w projekcie SLD, gdzie postuluje się niski podatek
-      spadkowy. We wszystkich projektach przewiduje się prawo do strajku i do
-      zabezpieczeń społecznych. Najdalej w uprzywilejowaniu pracowników idzie
-      projekt SLD, który nie przewiduje zrzeszeń pracodawców. Większość
-      projektów ustawy zasadniczej postuluje przestrzeganie zasady równowagi
-      budżetowej i obowiązek wskazywania pokrycia zwiększonych wydatków i
-      zmniejszonych dochodów. W przypadku nieuchwalenia budżetu w ustawowym
-      terminie większość projektów przewiduje finansowanie na podstawie projektu
-      budżetu. Tylko dwa projekty opowiadają się za ograniczeniem wydatków do
-      przewidzianych w zeszłorocznym budżecie. Wszystkie projekty wyłączają
-      sprawy podatków i budżetu z ewentualnego referendum, a także akcentują
-      konieczność ustawowego przyzwolenia na zaciąganie przez państwo kredytów i
-      zgody na decyzje zwiększające dług publiczny. Niektóre projekty nawiązują
-      do tradycji z okresu II Rzeczypospolitej i eksponują potrzebę powołania
+      Społeczno-Gospodarczej. W opinii profesora Wacława Wilczyńskiego, we
+      wszystkich siedmiu projektach konstytucji, przedłożonych Komisji
+      Konstytucyjnej Zgromadzenia Narodowego, jest akcentowana wolność
+      działalności gospodarczej, jednak z ograniczeniami motywowanyrmi
+      „,interesem publicznym” lub „dobrem ogólnym”. Praca i własność są
+      wymieniane obok wolności jako cechy określające ustrój. Własność występuje
+      jednak najczę-Ściej bez przymiotników „prywatna” lub „publiczna ”.
+      Akcentowana bywa natomiast własność komunalna. Większość projektów
+      podkreśla konieczność praworządnego wywłaszczenia w sytuacjach, które tego
+      wymagają. Jednak tylko projekt Senatu I kadencji podkreśla konieczność
+      „niezwłocznego” odszkodowania. Troska o spadkobierców jest najsilniej
+      akcentowana w projekcie SLD, gdzie postuluje się niski podatek spadkowy.
+      We wszystkich projektach przewiduje się prawo do strajku i do zabezpieczeń
+      społecznych. Najdalej w uprzywilejowaniu pracowników idzie projekt SLD,
+      który nie przewiduje zrzeszeń pracodawców. Większość projektów ustawy
+      zasadniczej postuluje przestrzeganie zasady równowagi budżetowej i
+      obowiązek wskazywania pokrycia zwiększonych wydatków i zmniejszonych
+      dochodów. W przypadku nieuchwalenia budżetu w ustawowym terminie większość
+      projektów przewiduje finansowanie na podstawie projektu budżetu. Tylko dwa
+      projekty opowiadają się za ograniczeniem wydatków do przewidzianych w
+      zeszłorocznym budżecie. Wszystkie projekty wyłączają sprawy podatków i
+      budżetu z ewentualnego referendum, a także akcentują konieczność
+      ustawowego przyzwolenia na zaciąganie przez państwo kredytów i zgody na
+      decyzje zwiększające dług publiczny. Niektóre projekty nawiązują do
+      tradycji z okresu II Rzeczypospolitej i eksponują potrzebę powołania
       prokuratorii generalnej do ochrony interesów Skarbu Państwa. Projekt
       senacki proponuje regulację takich dziedzin, jak system
       kredytowo-pieniężny, finanse publiczne i budżet, zasady systemu bankowego,
