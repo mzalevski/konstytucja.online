@@ -11,7 +11,7 @@
     padding: 1em;
     border: dotted 1px;
     border-color: rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 3px;
     text-align: justify;
   }
 
