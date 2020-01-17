@@ -95,6 +95,7 @@
       margin: 0.2em 0;
       width: 100%;
       max-width: none;
+      border-radius: 15px;
     }
     .chapter-pick:after,
     .chapter-pick:before {
