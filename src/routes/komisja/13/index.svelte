@@ -30,6 +30,7 @@
     padding: 1rem;
     margin-right: 2rem;
     border: 1px dotted black;
+    height: 3rem;
   }
   .days a {
     text-decoration: none;
@@ -87,13 +88,13 @@
     <a rel="prefetch" href="komisja/13/2.1">
       <li>Dzień 2 - cz. I (8 lutego)</li>
     </a>
-        <a rel="prefetch" href="komisja/13/2.1">
+    <a rel="prefetch" href="komisja/13/2.2">
       <li>Dzień 2 - cz. II (8 lutego)</li>
     </a>
     <a rel="prefetch" href="komisja/13/3">
       <li>Dzień 3 (9 lutego)</li>
     </a>
-        <a rel="prefetch" href="komisja/13/prasa">
+    <a rel="prefetch" href="komisja/13/prasa">
       <li>Prasa</li>
     </a>
   </ul>

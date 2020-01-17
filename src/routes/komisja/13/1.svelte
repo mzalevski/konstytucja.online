@@ -2,6 +2,9 @@
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import Footer from "../../../components/Footer.svelte";
+  import ToTheTopBtn from "../../../components/ToTheTopBtn.svelte";
+
+  let yAxisPosition;
 </script>
 
 <style>
@@ -9,9 +12,12 @@
     text-align: justify;
   }
   h3 {
-    padding-top: 16px;
+    margin: 0;
   }
   .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
     margin-bottom: 2rem;
@@ -35,7 +41,7 @@
     order: 0;
   }
   .protocol .speaker:nth-child(even) {
-    justify-content: flex-end
+    justify-content: flex-end;
   }
   .protocol .speaker:nth-child(odd) p {
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
@@ -49,6 +55,15 @@
   .protocol .speaker:nth-child(even) p {
     box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
     order: 0;
+  }
+  .small-article-nav {
+    text-align: right;
+    width: 60px;
+  }
+
+  .small-article-nav a img {
+    width: 25px;
+    height: 25px;
   }
   @media (max-width: 500px) {
     .speaker img {
@@ -75,18 +90,32 @@
 
 <Nav segment={'info'} />
 
+<svelte:window bind:scrollY={yAxisPosition} />
+
+{#if yAxisPosition > 300}
+  <ToTheTopBtn />
+{/if}
+
 <div in:fly={{ y: 100, duration: 1000 }}>
   <!--<hr><p class="page-break">strona 3</p><hr>-->
   <div class="header">
+  <div>
     <h3>Obrady w dniu 7 lutego 1995 r.</h3>
-      <h5>
-    <a
-      href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
-      rel="nofollow"
-      target="_blank">
-      ORYGINAŁ BIULETYNU
+    <h5>
+      <a
+        href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
+        rel="nofollow"
+        target="_blank">
+        ORYGINAŁ BIULETYNU
+      </a>
+    </h5>
+    </div>
+    <div class="small-article-nav">
+
+    <a rel="prefetch" href="/komisja/13/2.1">
+      <img src="images/angle-right-solid.svg" alt="" />
     </a>
-  </h5>
+</div>
   </div>
   <div class="protocol">
 
@@ -463,7 +492,7 @@
       </p>
     </div>
     <div class="speaker">
-          <img
+      <img
         src="/images/kk-speakers/szaro/OrzechowskiJan.png"
         alt=""
         loading="lazy"
@@ -895,7 +924,7 @@
         Przedłożoną formułę zgłaszam jako poprawkę.
       </p>
     </div>
-        <div class="speaker">
+    <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/crowd.png"
         alt=""
@@ -1022,19 +1051,19 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/picture-not-set.png"
+        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
-        Zgadzam się z senatorem S. Pastuszką, gdyż było tak,
-        że przez długi czas używano pojęcia „Rzeczpospolita”, choć państwo było
-        monarchią. W okresie międzywojennym używano nazwy „Rzeczpospolita” dla
-        określenia republiki, lecz jest to tradycja krótsza. Zarówno więc
-        monarchiści jak i republikanie mają do czego odwoływać się, choć
-        tradycje monarchistyczne są dłuższe.
+        Zgadzam się z senatorem S. Pastuszką, gdyż było tak, że przez długi czas
+        używano pojęcia „Rzeczpospolita”, choć państwo było monarchią. W okresie
+        międzywojennym używano nazwy „Rzeczpospolita” dla określenia republiki,
+        lecz jest to tradycja krótsza. Zarówno więc monarchiści jak i
+        republikanie mają do czego odwoływać się, choć tradycje monarchistyczne
+        są dłuższe.
       </p>
     </div>
     <div class="speaker">
@@ -1381,25 +1410,26 @@
         height="110" />
       <p>
         <strong>
-          Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+          Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał
+          Drozdek:
         </strong>
-        Podobnie jak senator S. Pastuszka chcę zdecydowanie
-        bronić art. 3. Jak już mówiłem na jednym z poprzednich posiedzeń,
-        konstytucja to nie tylko akt prawny określający wyłącznie funkcjonowanie
-        instytucji władzy. Konstytucja to również akt konstytuujący państwo,
-        mówiący o jego tożsamości i celach. Z prac podkomisji pamiętam, że poseł
-        J. Ciemniewski kwestionował przede wszystkim sformułowanie mówiące o
-        strzeżeniu języka narodu, co zostało ujęte alternatywnie. W związku z
-        tym chcę przypomnieć, że w art. 23 projekt przewiduje ochronę języków
-        mniejszości narodowych. Trudno więc byłoby przyjąć, żeby język polski
-        jako język narodu, który stworzył państwo polskie, nie był chroniony.
-        Nie widzę również powodów do obaw o równouprawnienie obywateli w
-        kontekście art. 23. Uważam więc, że państwo polskie ma obowiązek stania
-        na straży języka polskiego i powinno to być zapisane w konstytucji.
-        Jeżeli chodzi o propozycję posła W. Cimoszewicza przesunięcia kolejności
-        art. 3 i art. 6, to nie popieram Jej. gdyż uważam, że art. 3 ma większą
-        wagę, ponieważ dotyczy celów państwa. Definicja państwa może być
-        umieszczona również później.
+        Podobnie jak senator S. Pastuszka chcę zdecydowanie bronić art. 3. Jak
+        już mówiłem na jednym z poprzednich posiedzeń, konstytucja to nie tylko
+        akt prawny określający wyłącznie funkcjonowanie instytucji władzy.
+        Konstytucja to również akt konstytuujący państwo, mówiący o jego
+        tożsamości i celach. Z prac podkomisji pamiętam, że poseł J. Ciemniewski
+        kwestionował przede wszystkim sformułowanie mówiące o strzeżeniu języka
+        narodu, co zostało ujęte alternatywnie. W związku z tym chcę
+        przypomnieć, że w art. 23 projekt przewiduje ochronę języków mniejszości
+        narodowych. Trudno więc byłoby przyjąć, żeby język polski jako język
+        narodu, który stworzył państwo polskie, nie był chroniony. Nie widzę
+        również powodów do obaw o równouprawnienie obywateli w kontekście art.
+        23. Uważam więc, że państwo polskie ma obowiązek stania na straży języka
+        polskiego i powinno to być zapisane w konstytucji. Jeżeli chodzi o
+        propozycję posła W. Cimoszewicza przesunięcia kolejności art. 3 i art.
+        6, to nie popieram Jej. gdyż uważam, że art. 3 ma większą wagę, ponieważ
+        dotyczy celów państwa. Definicja państwa może być umieszczona również
+        później.
       </p>
     </div>
     <div class="speaker">
@@ -1457,16 +1487,19 @@
         width="110"
         height="110" />
       <p>
-        <strong>Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław Sadowski:</strong>
-        Chcę się odnieść do propozycji uzupełnienia
-        art. 3 o pojęcie zrównoważonego rozwoju. Podzielam pogląd, że takie
-        uzupełnienie jest potrzebne, a wyliczenie elementów w art. 3 nie jest
-        wystarczające. Samo pojęcie rozwoju byłoby zbyt ogólne. Ponieważ kwestia
-        zrównoważonego rozwoju dotyczy mojej specjalności zawodowej, chcę
-        przestrzec przed wprowadzeniem pojęcia zrównoważonego rozwoju, gdyż jest
-        ono nieostre i wieloznaczne. Myślę, że należałoby posłużyć się pojęciem
-        trwałego i wszechstronnego rozwoju społecznego i gospodarczego. Jest to
-        formuła dłuższa, lecz bardziej właŚciwa.
+        <strong>
+          Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław
+          Sadowski:
+        </strong>
+        Chcę się odnieść do propozycji uzupełnienia art. 3 o pojęcie
+        zrównoważonego rozwoju. Podzielam pogląd, że takie uzupełnienie jest
+        potrzebne, a wyliczenie elementów w art. 3 nie jest wystarczające. Samo
+        pojęcie rozwoju byłoby zbyt ogólne. Ponieważ kwestia zrównoważonego
+        rozwoju dotyczy mojej specjalności zawodowej, chcę przestrzec przed
+        wprowadzeniem pojęcia zrównoważonego rozwoju, gdyż jest ono nieostre i
+        wieloznaczne. Myślę, że należałoby posłużyć się pojęciem trwałego i
+        wszechstronnego rozwoju społecznego i gospodarczego. Jest to formuła
+        dłuższa, lecz bardziej właŚciwa.
       </p>
     </div>
     <div class="speaker">
@@ -1549,17 +1582,20 @@
         width="110"
         height="110" />
       <p>
-        <strong>Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław Sadowski:</strong>
-        Muszę zaprotestować przeciwko posądzeniu mnie o
-        dążenie do posługiwania się archaicznymi zwrotami. Jeżeli kogoś razi
-        użycie zwrotu „wszechstronny rozwój” na takiej zasadzie, że w
-        przeszłości był on używany nieprawidłowo, to ja mogę to zrozumieć. Nie
-        będę się upierał przy tym pojęciu. Chcę natomiast zwrócić uwagę, że
-        pojęcie zrównoważonego rozwoju było również używane w przeszłości. Można
-        je również uznać za skompromitowane, lecz nie o to przecież chodzi.
-        Problem polega na tym, jak przetłumaczyć na język polski pojęcia:
-        sustained czy sustainable >gdyż nie ma idealnego przekładu. Możliwe jest
-        użycie pojęcia: trwały rozwój lub ekorozwój, które jest jednak terminem
+        <strong>
+          Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław
+          Sadowski:
+        </strong>
+        Muszę zaprotestować przeciwko posądzeniu mnie o dążenie do posługiwania
+        się archaicznymi zwrotami. Jeżeli kogoś razi użycie zwrotu
+        „wszechstronny rozwój” na takiej zasadzie, że w przeszłości był on
+        używany nieprawidłowo, to ja mogę to zrozumieć. Nie będę się upierał
+        przy tym pojęciu. Chcę natomiast zwrócić uwagę, że pojęcie
+        zrównoważonego rozwoju było również używane w przeszłości. Można je
+        również uznać za skompromitowane, lecz nie o to przecież chodzi. Problem
+        polega na tym, jak przetłumaczyć na język polski pojęcia: sustained czy
+        sustainable >gdyż nie ma idealnego przekładu. Możliwe jest użycie
+        pojęcia: trwały rozwój lub ekorozwój, które jest jednak terminem
         żargonowym. Pojęcie: „zrównoważony rozwój” jest pojęciem nieostrym
         dlatego, że dzisiejszy rozwój opiera się na innowacyjności, która
         powoduje ciągłe wytrącanie z równowagi. Rozwój ma więc być
@@ -1707,17 +1743,16 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        Uważam, że poseł J. Ciemniewski ma rację. Formuła
-        „państwa prawnego” znajduje się w naszym prawie konstytucyjnym od
-        grudnia 1989 r. i weszła na trwałe do orzecznictwa Trybunału
-        Konstytucyjnego. Czy zatem warto zmieniać coś, co się sprawdziło, jest
-        przyjęte i funkcjonuje w obrocie prawnym? Nie mam obaw, że Trybunał
-        Konstytucyjny będzie się dopatrywał różnic merytorycznych na skutek
-        różnicy formuł. Jest bowiem tak, że sam Trybunał stawia znak równości
-        między tymi dwiema formułami. Znajduje to również wyraz w niektórych
-        orzeczeniach i uzasadnieniach. Uważam więc, że między tymi dwiema
-        formułami nie ma istotnych różnic. Może więc pozostać formuła mówiąca o
-        „państwie prawnym”.
+        Uważam, że poseł J. Ciemniewski ma rację. Formuła „państwa prawnego”
+        znajduje się w naszym prawie konstytucyjnym od grudnia 1989 r. i weszła
+        na trwałe do orzecznictwa Trybunału Konstytucyjnego. Czy zatem warto
+        zmieniać coś, co się sprawdziło, jest przyjęte i funkcjonuje w obrocie
+        prawnym? Nie mam obaw, że Trybunał Konstytucyjny będzie się dopatrywał
+        różnic merytorycznych na skutek różnicy formuł. Jest bowiem tak, że sam
+        Trybunał stawia znak równości między tymi dwiema formułami. Znajduje to
+        również wyraz w niektórych orzeczeniach i uzasadnieniach. Uważam więc,
+        że między tymi dwiema formułami nie ma istotnych różnic. Może więc
+        pozostać formuła mówiąca o „państwie prawnym”.
       </p>
     </div>
     <div class="speaker">
@@ -2467,15 +2502,15 @@
         height="110" />
       <p>
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
-        Z art. 10 regulaminu Komisji wnioskuję, że wszystkie zgłoszone
-        poprawki powinny być poddane głosowaniu. Nie można głosować swego
-        rodzaju Średniej z kilku poprawek. Przypomnę brzmienie art. 10
-        regulaminu Komisji: „Poprawki do projektu Konstytucji zgłasza się na
-        piśmie w odpowiedniej formie przewodniczącemu Komisji Konstytucyjnej.
-        Głosowanie nad poprawkami zgłoszonymi w toku posiedzenia odbywa się na
-        następnym posiedzeniu. W wyjątkowych wypadkach przewodniczący Komisji
-        może dopuścić głosowanie poprawek na tym samym posiedzeniu”. Uważam
-        więc, że trzeba głosować nad każdą poprawką.
+        Z art. 10 regulaminu Komisji wnioskuję, że wszystkie zgłoszone poprawki
+        powinny być poddane głosowaniu. Nie można głosować swego rodzaju
+        Średniej z kilku poprawek. Przypomnę brzmienie art. 10 regulaminu
+        Komisji: „Poprawki do projektu Konstytucji zgłasza się na piśmie w
+        odpowiedniej formie przewodniczącemu Komisji Konstytucyjnej. Głosowanie
+        nad poprawkami zgłoszonymi w toku posiedzenia odbywa się na następnym
+        posiedzeniu. W wyjątkowych wypadkach przewodniczący Komisji może
+        dopuścić głosowanie poprawek na tym samym posiedzeniu”. Uważam więc, że
+        trzeba głosować nad każdą poprawką.
       </p>
     </div>
     <div class="speaker">
@@ -2604,19 +2639,19 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/picture-not-set.png"
+        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
-        Uważam, że pojęcie „państwo socjalne” nie zastępuje
-        zwrotu: „państwo urzeczywistniające zasady sprawiedliwości społecznej”.
-        W kontekście tego, co powiedział prof. W. Osiatyński, w przypadku
-        państwa socjalnego chodzi o rozdział dóbr i wartości socjalne w ścisłym
-        znaczeniu tego słowa. Urzeczywistnianie zasad sprawiedliwości społecznej
-        dotyczy również innych kwestii, takich jak m.in. równomiermie obciążenie
+        Uważam, że pojęcie „państwo socjalne” nie zastępuje zwrotu: „państwo
+        urzeczywistniające zasady sprawiedliwości społecznej”. W kontekście
+        tego, co powiedział prof. W. Osiatyński, w przypadku państwa socjalnego
+        chodzi o rozdział dóbr i wartości socjalne w ścisłym znaczeniu tego
+        słowa. Urzeczywistnianie zasad sprawiedliwości społecznej dotyczy
+        również innych kwestii, takich jak m.in. równomiermie obciążenie
         obywateli obowiązkami, traktowanie osób niepełnosprawnych, kobiet w
         pewnych sytuacjach, praw wyborczych. Tak więc zakres pojęcia
         urzeczywistniania zasad sprawiedliwości społecznej jest znacznie szerszy
@@ -3013,28 +3048,28 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        Chcę najpierw usprawiedliwić zasadność sporu, który
-        się toczy. Wiem, że z punktu widzenia procedury, która poprzedzała
-        dzisiejszą debatę, może to być trochę irytujące. Jest jednak tak, że
-        prowadzony jest spór o kwestię podstawową. Jest to bowiem spór o
-        charakter państwa, a więc czy państwo będzie państwem liberalnym choć
-        prawnym, czy też będzie to państwo w jakiejś mierze socjalizujące, choć
-        również będzie to państwo prawne. Jeżeli w tej kwestii zostanie
-        osiągnięte rozstrzygnięcie, będzie to zasadniczy krok w pracach nad
-        konstytucją. Nie jest kwestią przypadku, że od początku była mowa o tym,
-        że zagadnieniem — dylematem prac nad konstytucją — jest pytanie o to, w
-        jakim zakresie państwo prawne ma być również państwem socjalnym. Spór
-        ten odżył teraz. Dyskusję usprawiedliwia nie rozwikłany spór dotyczący
-        relacji między prawem a sprawiedliwością. Jeżeli ktoś interesuje się tym
-        sporem, to dodam, że spór ten odżył pod wpływem artykułu w „Państwie i
-        Prawie” prof. L. Morawskiego. Jeżeli chodzi o materię proponowanych
-        formuł, to odnoszę wrażenie, że wielu członków Komisji niepokoi
-        uwikłanie się w praktyczne konsekwencje formuły, w myśl której państwo
-        prawne ma urzeczywistniać zasady sprawiedliwości społecznej. W związku z
-        tym chcę powiedzieć, że konstytucja nie daje zdecydowanej odpowiedzi, co
-        to oznacza. Z, dziewięcioletniej działalności Trybunału Konstytucyjnego
-        coś jednak wynika. Chciałbym więc rozwiać obawy tych, którzy uważają, że
-        chodzi o sprawiedliwość w tym rozumieniu, które kojarzy się z realnym
+        Chcę najpierw usprawiedliwić zasadność sporu, który się toczy. Wiem, że
+        z punktu widzenia procedury, która poprzedzała dzisiejszą debatę, może
+        to być trochę irytujące. Jest jednak tak, że prowadzony jest spór o
+        kwestię podstawową. Jest to bowiem spór o charakter państwa, a więc czy
+        państwo będzie państwem liberalnym choć prawnym, czy też będzie to
+        państwo w jakiejś mierze socjalizujące, choć również będzie to państwo
+        prawne. Jeżeli w tej kwestii zostanie osiągnięte rozstrzygnięcie, będzie
+        to zasadniczy krok w pracach nad konstytucją. Nie jest kwestią
+        przypadku, że od początku była mowa o tym, że zagadnieniem — dylematem
+        prac nad konstytucją — jest pytanie o to, w jakim zakresie państwo
+        prawne ma być również państwem socjalnym. Spór ten odżył teraz. Dyskusję
+        usprawiedliwia nie rozwikłany spór dotyczący relacji między prawem a
+        sprawiedliwością. Jeżeli ktoś interesuje się tym sporem, to dodam, że
+        spór ten odżył pod wpływem artykułu w „Państwie i Prawie” prof. L.
+        Morawskiego. Jeżeli chodzi o materię proponowanych formuł, to odnoszę
+        wrażenie, że wielu członków Komisji niepokoi uwikłanie się w praktyczne
+        konsekwencje formuły, w myśl której państwo prawne ma urzeczywistniać
+        zasady sprawiedliwości społecznej. W związku z tym chcę powiedzieć, że
+        konstytucja nie daje zdecydowanej odpowiedzi, co to oznacza. Z,
+        dziewięcioletniej działalności Trybunału Konstytucyjnego coś jednak
+        wynika. Chciałbym więc rozwiać obawy tych, którzy uważają, że chodzi o
+        sprawiedliwość w tym rozumieniu, które kojarzy się z realnym
         socjalizmem. Tymczasem jest tak, że sprawiedliwość społeczna wyraża się
         w różnych formułach. Nie jest więc przypadkowe to, że obecna formuła
         mówi o zasadach, a nie o zasadzie sprawiedliwości. Można bowiem mówić o
@@ -3309,17 +3344,16 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-        W żadnym swoim wystąpieniu nie powiedziałem, że zasada
-        sprawiedliwości, czy zwierzchnictwa narodu, może prowadzić do skargi
-        konstytucyjnej. Powiedziałem tylko, że w przypadku skargi konstytucyjnej
-        można się powoływać na zasady. Dodałem, że może to być trudne dla
-        obywatela, lecz może być stosowane przez Rzecznika Praw Obywatelskich.
-        Jeżeli chodzi o inny fragment wypowiedzi posła R. Bugaja, to chcę
-        zwrócić uwagę, że i zasada mówiąca o kierowaniu, i zasada mówiąca o
-        państwie socjalnym również zapewnią cele, o których mówił poseł R.
-        Bugaj. Nawet rząd UPR nie będzie mógł naruszyć tych zasad. Nie
-        rozpatrujemy bowiem kwestii całkowitego usunięcia zasady sprawiedliwości
-        społecznej.
+        W żadnym swoim wystąpieniu nie powiedziałem, że zasada sprawiedliwości,
+        czy zwierzchnictwa narodu, może prowadzić do skargi konstytucyjnej.
+        Powiedziałem tylko, że w przypadku skargi konstytucyjnej można się
+        powoływać na zasady. Dodałem, że może to być trudne dla obywatela, lecz
+        może być stosowane przez Rzecznika Praw Obywatelskich. Jeżeli chodzi o
+        inny fragment wypowiedzi posła R. Bugaja, to chcę zwrócić uwagę, że i
+        zasada mówiąca o kierowaniu, i zasada mówiąca o państwie socjalnym
+        również zapewnią cele, o których mówił poseł R. Bugaj. Nawet rząd UPR
+        nie będzie mógł naruszyć tych zasad. Nie rozpatrujemy bowiem kwestii
+        całkowitego usunięcia zasady sprawiedliwości społecznej.
       </p>
     </div>
     <div class="speaker">
@@ -3401,7 +3435,7 @@
         to bowiem hasło, lecz kierunek rozwoju Świata.
       </p>
     </div>
-        <div class="speaker">
+    <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
         alt=""
@@ -3409,7 +3443,9 @@
         width="110"
         height="110" />
       <p>
-        <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>Przyjmuję uwagę senatora J. Madeja, co powoduje, że zwiększa się liczba wariantów art. 2.
+        <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
+        Przyjmuję uwagę senatora J. Madeja, co powoduje, że zwiększa się liczba
+        wariantów art. 2.
       </p>
     </div>
 
@@ -3466,15 +3502,15 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        Chcę przypomnieć, że należy odnosić się do całości
-        projektu, a zwłaszcza do rozdziału o sądach i trybunałach. W sposobie
-        ujęcia kompetencji Trybunału Konstytucyjnego, a zwłaszcza w kwestii
-        ostatecznoŚci jego orzeczeń, jest zabezpieczenie, aby Trybunał nie mógł
-        w sposób ostateczny — kierując się m.in. zasadą sprawiedliwości
-        społecznej — przesądzać o wydatkach państwa. Jest to zabezpieczenie — w
-        moim przekonaniu dyskusyjne — polegające na tym, że orzeczenia
-        pociągające za sobą wydatki budżetowe nie będą miały charakteru
-        ostatecznego. W tej części byłyby rozpatrywane przez Sejm.
+        Chcę przypomnieć, że należy odnosić się do całości projektu, a zwłaszcza
+        do rozdziału o sądach i trybunałach. W sposobie ujęcia kompetencji
+        Trybunału Konstytucyjnego, a zwłaszcza w kwestii ostatecznoŚci jego
+        orzeczeń, jest zabezpieczenie, aby Trybunał nie mógł w sposób ostateczny
+        — kierując się m.in. zasadą sprawiedliwości społecznej — przesądzać o
+        wydatkach państwa. Jest to zabezpieczenie — w moim przekonaniu
+        dyskusyjne — polegające na tym, że orzeczenia pociągające za sobą
+        wydatki budżetowe nie będą miały charakteru ostatecznego. W tej części
+        byłyby rozpatrywane przez Sejm.
       </p>
     </div>
     <div class="speaker">
@@ -3519,12 +3555,13 @@
         przesądzeniu o tym, czy w konstytucji mają być jakiekolwiek elementy
         ukierunkowujące. Czy państwo zapewnia ochronę środowiska, czy strzeże
         kultury narodowej? Są to bowiem również formuły określające, jak państwo
-        ma działać.Poseł J. Rokita powiedział, że przyjmując określony zapis przesądzamy o reformach usług publicznych,
-        a więc na przykład służby zdrowia. Ja rozumiem tak, że możliwa jest
-        reforma służby zdrowia na tle proponowanej formuły, jeżeli reforma ta
-        nie zostanie przeprowadzona wcześniej. Wówczas jednak może być problem z
-        taką reformą, która chciałaby cofnąć wiele uprawnień z zakresu służby
-        zdrowia. Mnie chodzi o to, aby nie było to możliwe, i w tym się różnimy.
+        ma działać.Poseł J. Rokita powiedział, że przyjmując określony zapis
+        przesądzamy o reformach usług publicznych, a więc na przykład służby
+        zdrowia. Ja rozumiem tak, że możliwa jest reforma służby zdrowia na tle
+        proponowanej formuły, jeżeli reforma ta nie zostanie przeprowadzona
+        wcześniej. Wówczas jednak może być problem z taką reformą, która
+        chciałaby cofnąć wiele uprawnień z zakresu służby zdrowia. Mnie chodzi o
+        to, aby nie było to możliwe, i w tym się różnimy.
       </p>
     </div>
     <div class="speaker">
@@ -3581,12 +3618,12 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        Zaproponowana formuła kryje pewne niebezpieczeństwa
-        i grozi sporem z zakresu filozofii prawa. Nie można w ten sposób prawa
-        stawiać ponad sprawiedliwością. Sprawiedliwość ma być realizowana zawsze
-        poprzez ustawę. Prawo należy stosować do jego granic, ale w pewnych
-        sytuacjach, gdy dochodzi do ewidentnej sprzeczności, to górę powinna
-        wziąć sprawiedliwość. Chcę również dodać pewną kwestię wyjaśniającą w
+        Zaproponowana formuła kryje pewne niebezpieczeństwa i grozi sporem z
+        zakresu filozofii prawa. Nie można w ten sposób prawa stawiać ponad
+        sprawiedliwością. Sprawiedliwość ma być realizowana zawsze poprzez
+        ustawę. Prawo należy stosować do jego granic, ale w pewnych sytuacjach,
+        gdy dochodzi do ewidentnej sprzeczności, to górę powinna wziąć
+        sprawiedliwość. Chcę również dodać pewną kwestię wyjaśniającą w
         kontekście wypowiedzi posła J. Rokity. Mnie również nie podoba się
         zabezpieczenie dotyczące Trybunału, choć ja je wymyśliłem. Pragnę jednak
         zwrócić uwagę, że zasada państwa prawnego urzeczywistniającego zasady
@@ -3763,10 +3800,9 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
-        Art. 4 nie musi się znaleźć w konstytucji. Jest to
-        formuła typowa dla konstytucjonalizmu francuskiego. . Fakt, że Polska
-        jest państwem unitarnym, będzie wynikać z rozdziału o samorządzie
-        terytorialnym.
+        Art. 4 nie musi się znaleźć w konstytucji. Jest to formuła typowa dla
+        konstytucjonalizmu francuskiego. . Fakt, że Polska jest państwem
+        unitarnym, będzie wynikać z rozdziału o samorządzie terytorialnym.
       </p>
     </div>
     <div class="speaker">
@@ -3956,13 +3992,13 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/picture-not-set.png"
+        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
       <p>
-        <strong>Przedstawiciel Prezydenta, dr. RP Władysław Kulesza:</strong>
+        <strong>Przedstawiciel Prezydenta RP, dr. Władysław Kulesza:</strong>
         Chcę przypomnieć, że pojęcie: „dobra wspólnego” komentował już prof. P.
         Winczorek. Pojęcie to zawiera wielorakie konotacje filozoficzne,
         odnoszące się nie tylko do historii najnowszej II Rzeczypospolitej.
@@ -4026,9 +4062,9 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        W naszych uwagach pisemnych proponujemy, aby obecny
-        art. 2 był art. 1, gdyż jest ogólniejszy i pełniejszy w swoim wyrazie
-        niż artykuł o demokratycznym państwie prawnym.
+        W naszych uwagach pisemnych proponujemy, aby obecny art. 2 był art. 1,
+        gdyż jest ogólniejszy i pełniejszy w swoim wyrazie niż artykuł o
+        demokratycznym państwie prawnym.
       </p>
     </div>
     <div class="speaker">

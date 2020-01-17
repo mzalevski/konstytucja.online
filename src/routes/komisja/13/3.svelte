@@ -2,6 +2,9 @@
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import Footer from "../../../components/Footer.svelte";
+  import ToTheTopBtn from "../../../components/ToTheTopBtn.svelte";
+
+  let yAxisPosition;
 </script>
 
 <style>
@@ -9,9 +12,12 @@
     text-align: justify;
   }
   h3 {
-    padding-top: 16px;
+    margin: 0;
   }
   .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(160, 40, 40, 0.1);
     margin-bottom: 2rem;
@@ -50,6 +56,15 @@
     box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
     order: 0;
   }
+  .small-article-nav {
+    text-align: right;
+    width: 60px;
+  }
+
+  .small-article-nav a img {
+    width: 25px;
+    height: 25px;
+  }
   @media (max-width: 500px) {
     .speaker img {
       height: 60px;
@@ -75,11 +90,18 @@
 
 <Nav segment={'info'} />
 
+<svelte:window bind:scrollY={yAxisPosition} />
+
+{#if yAxisPosition > 300}
+  <ToTheTopBtn/>
+{/if}
+
 <div in:fly={{ y: 100, duration: 1000 }}>
   <!--<hr><p class="page-break">strona 3</p><hr>-->
 
 
   <div class="header">
+  <div>
     <h3>Obrady w dniu 9 lutego 1995 r.</h3>
       <h5>
     <a
@@ -89,6 +111,15 @@
       ORYGINAŁ BIULETYNU
     </a>
   </h5>
+  </div>
+      <div class="small-article-nav">
+    <a rel="prefetch" href="/komisja/13/2.2">
+      <img src="images/angle-left-solid.svg" alt="" />
+    </a>
+    <a rel="prefetch" href="/komisja/13/prasa">
+      <img src="images/angle-right-solid.svg" alt="" />
+    </a>
+</div>
   </div>
   <!--<hr><p class="page-break">strona 63</p><hr>-->
   <div class="protocol">
