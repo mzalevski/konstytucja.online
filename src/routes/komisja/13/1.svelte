@@ -79,6 +79,14 @@
   <!--<hr><p class="page-break">strona 3</p><hr>-->
   <div class="header">
     <h3>Obrady w dniu 7 lutego 1995 r.</h3>
+      <h5>
+    <a
+      href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
+      rel="nofollow"
+      target="_blank">
+      ORYGINAŁ BIULETYNU
+    </a>
+  </h5>
   </div>
   <div class="protocol">
 

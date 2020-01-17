@@ -11,16 +11,61 @@
   h3 {
     padding-top: 16px;
   }
-  .last {
-      padding-bottom: 2rem;
-      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-      margin-bottom: 2rem;
+  .header {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    margin-bottom: 2rem;
   }
-  .rep-statement {
-      margin: 1em 0em;
-      padding: 1em;
-      border: dotted 1px;
-      border-color: rgba(0, 0, 0, 0.3);
+
+  .speaker {
+    display: flex;
+  }
+  .speaker img {
+    min-width: 110px;
+  }
+
+  .speaker p {
+    padding: 2.5rem;
+    border: dotted 1px;
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+  .protocol .speaker:nth-child(odd) img {
+    margin: 0 1em 0 0;
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
+    order: 0;
+  }
+  .protocol .speaker:nth-child(even) {
+    justify-content: flex-end;
+  }
+  .protocol .speaker:nth-child(odd) p {
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
+    order: 1;
+  }
+  .protocol .speaker:nth-child(even) img {
+    margin: 0 0 0 1em;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
+    order: 1;
+  }
+  .protocol .speaker:nth-child(even) p {
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
+    order: 0;
+  }
+  @media (max-width: 500px) {
+    .speaker img {
+      height: 60px;
+      width: 60px;
+      min-width: 60px;
+    }
+    .protocol .speaker:nth-child(odd) img {
+      margin: 0 0.5rem 0 0;
+    }
+    .protocol .speaker:nth-child(even) img {
+      margin: 0 0 0 0.5rem;
+    }
+    .speaker p {
+      padding: 0.5rem;
+      font-size: 12px;
+    }
   }
 </style>
 
@@ -34,9 +79,27 @@
   <!--<hr><p class="page-break">strona 3</p><hr>-->
 
 
-<h3>Obrady w dniu 9 lutego 1995 r.</h3>
+  <div class="header">
+    <h3>Obrady w dniu 9 lutego 1995 r.</h3>
+      <h5>
+    <a
+      href="https://drive.google.com/file/d/1XvZx52VEVrbhFSi9n5VkbAg045EiGrck/view?usp=sharing"
+      rel="nofollow"
+      target="_blank">
+      ORYGINAŁ BIULETYNU
+    </a>
+  </h5>
+  </div>
   <!--<hr><p class="page-break">strona 63</p><hr>-->
-  <p class="rep-statement">
+  <div class="protocol">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wznawiam obrady Komisji Konstytucyjnej Zgromadzenia Narodowego. Witam
     wszystkich obecnych. Zgodnie z wczorajszymi ustaleniami powinniśmy w
@@ -52,11 +115,19 @@
     że za pozycją prezydenta jako gwaranta ciągłości władzy oddano 40 głosów. W
     związku z tym uwaga prof. P. Sarneckiego do art. 113 była trafna. Należy
     więc skreślić wyraz: „wykonawczej .
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 64</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PietrzakMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
     Dokonana już po posiedzeniu Komisji analiza treści przyjętych artykułów
     zrodziła pewne wątpliwości natury terminologicznej w odniesieniu do artykułu
@@ -77,8 +148,16 @@
     że konstytucja powinna być budowana ze zdań pojedynczych, jasnych i nie
     budzących wątpliwości. Nadmiar czy też wielość myśli ujmowanych w jednym
     zdaniu mogą budzić wątpliwości.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przypomnę jednak, że nad brzmieniem artykułu dotyczącego partii
     politycznych prowadziliśmy bardzo obszerną debatę. Dzisiaj okazuje się, że
@@ -97,38 +176,78 @@
     wymóg działania zgodnie z porządkiem konstytucyjnym. Nie chcę wszczynać
     dyskusji, ale już widzę kilka zgłoszeń członków Komisji, którzy chcą zabrać
     głos.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Rzeczywiście jesteśmy w kłopotliwej sytuacji, ponieważ dyskutowany przepis
     został przyjęty wyraźną większością głosów. Wydaje się jednak, że
     popełniliśmy błąd. Można go jednak uniknąć przez rekonstrukcję zdania
     tworzącego dyskutowany artykuł. Sądzę również, że należy to uczynić po
     zakończeniu prac nad rozdziałem pierwszym.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proponuję więc, aby członkowie Komisji, którzy mają propozycje
     rekonstrukcji omawianego artykułu, przedłożyli je na piśmie. Rozpatrzymy je
     po zakończeniu prac nad rozdziałem pierwszym.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Zgadzam się z koncepcją, aby do sformułowania przepisu o partiach
     politycznych powrócić po zakończeniu prac nad rozdziałem pierwszym.
     Zamierzam więc przedłożyć wniosek o reasumpcję głosowania nad dyskutowanym
     art. 5 dotyczącym partii politycznych.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Właściwie to Świadomie zawarłam pojęcie użyte w art. 5 i zapożyczone od
     prof. W. Osiatyńskiego. Uważam, że sprecyzowanie propozycji zgłoszonych
     przez prof. M. Pietrzaka może nastąpić w rozdziale dotyczącym wolności i
     praw obywatelskich. Będzie wówczas możliwe wyeliminowanie sytuacji, że
     realizacja woli obywateli następuje tylko poprzez partie polityczne.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ „:</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     ”): Uważam, że dyskutowany artykuł wyraźnie ogranicza prawa człowieka do
     występowania w życiu publicznym i do dążenia do realizacji władzy
     zwierzchniej narodu. Życia nie można postrzegać tylko poprzez partie
@@ -143,26 +262,50 @@
     oparciu o zasadę pluralizmu politycznego są formą dobrowolnego i równego
     uczestnictwa politycznego w kształtowaniu i wyrażaniu woli obywateli oraz
     wpływania na politykę państwa .
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Brzmienie przypomniane przez senator A. Grześkowiak było przedmiotem
     głosowania. Poparło je 4 członków Komisji. Przeciwnego zdania było 33
     członków Komisji, przy 3 wstrzymujących się. Głosowaliśmy również nad innymi
     wariantami, wśród których był również wariant przygotowany przez podkomisję
     podstaw ustroju politycznego i społeczno-gospodarczego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : W ramach troski o szacunek do samego siebie chcę przeprosić poseł K.
+    W ramach troski o szacunek do samego siebie chcę przeprosić poseł K.
     Łybacką i pozostałych członków Komisji, gdyż formułując dyskutowany artykuł
     popełniłem błąd. Artykuł ten jest sprzeczny z moją intencją i logiką,
     Chodziło mi bowiem o to, aby stworzyć jak najszersze warunki do tworzenia i
     funkcjonowania tzw. społeczeństwa obywatelskiego, a nie dla monopolu parti.
     Przychylam się również do koncepcji, aby do kwestii tej powrócić po
     zakończeniu prac nad rozdziałem pierwszym.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Ponieważ zgłoszony został formalny wniosek o reasumpcję głosowania,
     przedstawię wstępną wersję zmodyfikowanego art. 5 przedłożoną na piśmie
@@ -184,18 +327,42 @@
     trakcie której wybrany będzie wariant cieszący się największym poparciem
     członków Komisji. Czy wnioskodawcy przedłożonych propozycji chcieliby
     dokonać zmian lub uzupełnień w swoich wnioskach?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Chcę przedłożyć autopoprawkę do ust. 2 mojej propozycji. Nowe brzmienie
     jest następujące: „Wszystkie organy władzy publicznej działają na podstawie
     i w granicach przepisów prawa”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Proponuję: „,,...l w granicach prawa”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmuję zmianę redakcyjną posła J. Szymańskiego. Przechodzimy do
     głosowania. Jako pierwsza głosowaniu będzie poddana propozycja podkomisji,
@@ -216,19 +383,43 @@
     popierające, 23 głosy przeciwne, przy 6 wstrzymujących się. Przechodzimy do
     głosowania nad poprawką 4, której autorami są przedstawiciele Prezydenta RP:
     prof. M. Pietrzak, prof. A. Rzepliński i dr W. Kulesza.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Stefan Pastuszka (PSL):</strong>
     Przepraszam, panie przewodniczący, ale chciałbym zaproponować modyfikację
     brzmienia tej poprawki. Ust. 2 zostałby uzupełniony dodaniem zwrotu: ,,...1
     nie jest to sprzeczne z dobrem publicznym”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PietrzakMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
     Pojęcie „dobra publicznego” jako mało precyzyjne prawniczo powinno raczej
     pozostać poza przepisami prawa.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Poprawka nr 4 zostanie więc poddana głosowaniu w brzmieniu przedstawionym
     przez wnioskodawców. Poddaję pod głosowanie wniosek o przyjęcie art. J w
@@ -252,55 +443,118 @@
     pięciu przegłosowanych wniosków dwa uzyskały więcej głosów popierających niż
     przeciwnych. Są to wnioski: podkomisji oraz posła R. Grodzickiego. Za chwilę
     przeprowadzimy więc głosowanie, które rozstrzygnie o wyborze jednego z nich.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Proponuję skorygowanie poprawki posła R. Grodzickiego,
-    gdyż sugeruje ona przeciwstawienie państwa i samorządu terytorialnego.
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Proponuję skorygowanie poprawki posła R. Grodzickiego, gdyż sugeruje ona przeciwstawienie państwa i samorządu terytorialnego.
     Przeważa pogląd, że samorząd to także władza państwa, w tym sensie, że jest
     władzą państwa polskiego. Proponuję więc w ust. 1 zwrot: „każdego organu
     władzy publicznej .
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Przyjmuję poprawkę prof. P. Sarneckiego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/ZdradaJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Zdrada (UW):</strong>
     Proponuję skreślenie wyrazów: „każdego organu .
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Przyjmuję poprawkę posła J. Zdrady. Ponadto chcę wnieść autopoprawkę do
     ust. 3, co zasugerował mi prof. L. Wiśniewski. Zmodyfikowany fragment brzmi:
     „dotyczące wolności, praw”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Uważam, że przedłożony ust. 3 podważa zasadę konstytucjonalizmu, nad
+    Uważam, że przedłożony ust. 3 podważa zasadę konstytucjonalizmu, nad
     którą dyskutowaliśmy wczoraj. Zasada ta przewiduje, że akty władzy
     publicznej, które dotyczą wolności lub praw obywateli mogą wynikać wyłącznie
     z konstytucji, a nie z ustawy. Zgodnie z zasadą konstytucjonalizmu prawa i
     wolności obywatelskie stoją ponad ustawą. Ustawodawca nie może „mieszać” w prawach i wolnościach.</p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak (NSZZ „S:</strong>
-    : Uważam, że prof. W. Osiatyński ma rację. Prawa i wolności obywatelskie
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
+    Uważam, że prof. W. Osiatyński ma rację. Prawa i wolności obywatelskie
     mogą być określone w konstytucji lub ustawie. Dobrze byłoby, aby była to
     ustawa organiczna. Uważam ponadto, że ust. 3 działa przesądzająco dla
     rozdziału o źródłach prawa. Nie jest to właściwe rozwiązanie.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: W ust. 3 poprawki posła R. Grodzickiego chodzi o akty
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    W ust. 3 poprawki posła R. Grodzickiego chodzi o akty
     stosowania prawa. Można zgodzić się z tezą prof. W. Osiatyńskiego i senator
     A. Grześkowiak, iż rzeczywiście prawa, wolności i obowiązki są regulowane w
     konstytucji. Natomiast konkretne orzekanie wobec obywatela nie może być
     stosowane na podstawie tak ogólnych przepisów konstytucji. Można powoływać
     się łącznie na konstytucję i ustawy, ale formy prawne, do których odsyła
     ust. 3, muszą być ujęte w ustawie. Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
+      </p>
+    </div>
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Muszę jednak przypomnieć, że pracujemy nad przepisami rozdziału o zasadach
     ustroju. Uważam więc, że konieczna jest pewna generalizacja i ogólność
@@ -310,39 +564,95 @@
     stanowi, że wszystkie organy władzy publicznej działają na podstawie i w
     granicach prawa. Jest to właśnie sformułowanie o stopniu ogólności właściwym
     dla rozdziału pierwszego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jerzy Madej (KD):</strong>
     Zgadzam się z panem przewodniczącym, że dyskutujemy nad rozdziałem o
     zasadach, a więc o kwestiach ogólnych, gdy tymczasem w ust. 3 wniosku posła
     R. Grodzickiego podjęte zostały kwestie szczegółowe.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Proponuję skreślić ust. 3 w moim wniosku, co powinno wyeliminować
     kontrowersje.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     W tej sytuacji ust. 2 wniosku posła R. Grodzickiego jest zbieżny z
     wnioskiem podkomisji, a ust. 1 podejmuje kwestię zasady konstytucjonalizmu,
     czyli materię art. 8.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Wydaje mi się, że ust. 1 i ust. 2 z propozycji posła R. Grodzickiego mówią
     o tym samym.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Moja propozycja art. 7 zakłada, że art. 8 jest zbędny.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Uważam, że art. 7 nie jest konkurencyjny wobec art. 8, gdyż art. 7 dotyczy
     zasady praworządności, a art. 8 zasady konstytucjonalizmu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Więcej głosów popierających niż odrzucających otrzymały dwa wnioski:
     podkomisji oraz posła R. Grodzickiego zmodyfikowany poprawkami. Proponuję
@@ -351,16 +661,32 @@
     podkomisji, a uruchomienie przycisku „przeciw ” będzie oznaczało głosowanie
     za wnioskiem posła R. Grodzickiego. Uruchomienie przycisku „wstrzymania się”
     będzie oznaczało sprzeciw wobec obu propozycji lub brak stanowiska.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/RotHenryk.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Henryk Rot (SLD):</strong>
     Proponuję, aby konsekwentnie ust. 2 brzmiał: „Władze publiczne działają na
     podstawie i w granicach prawa”.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 67</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Ponieważ wnioskodawca nie przyjął poprawki, jego wniosek będzie poddany
     głosowaniu w brzmieniu wcześniej ustalonym. Poddaję pod głosowanie wniosek o
@@ -376,64 +702,133 @@
     prawa międzynarodowego, ratyfikowane umowy międzynarodowe, us(rozporządzenia
     z mocą ustawy) oraz akty normatywne wydane na podstawie I w celu wykonania
     ustawy”. Najdalej idący wniosek przedłożył poseł R. Grodzicki proponując
-    przeniesienie treści art. 8 do rozdziału o źródłach prawa.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator H. Rot proponuj:</strong>
+    przeniesienie treści art. 8 do rozdziału o źródłach prawa. Senator H. Rot proponuj:
      aby zawiesić decyzję o treści i usytuowaniu art. 8 do zakończenia pracy
     nad rozdziałem o źródłach prawa. Wnioski: senator A. Grześkowiak, senatora
     P. Andrzejewskiego i posła W. Majewskiego przewidują, aby art. 8 nie
     dotyczył źródeł prawa, lecz zasady konstytucjonalizmu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Proszę o poprawienie błędu, jaki powstał przy przepisywaniu mojego
     wniosku. W ust. 2 zamiast wyrazu: „odpowiednio” powinien być wyraz
     „bezpośrednio”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Uważam, że przed rozstrzygnięciem art. 8 powinna być rozstrzygnięta
     kwestia wniosku o brzmienie art. /, którą przedłożył prof. S. Gebethner.
     Treść wniosku jest następująca: „Rzeczpospolita Polska przestrzega wiążącego
     Ją prawa międzynarodowego ..
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmuję uwagę posła W. Majewskiego. W związku z tym chcę zapytać
     ekspertów o opinię o wniosku prof. S. Gebethnera jako przedstawiciela Rady
     Ministrów. Osobiście uważam, że jest to ważna zasada, która powinna być
     przyjęta.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Zgadzam Się, że jest to ważna zasada, lecz proponuję nie
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Zgadzam Się, że jest to ważna zasada, lecz proponuję nie
     rozstrzygać w tej chwili jej usytuowania. Najpierw należy rozstrzygnąć
     konstrukcję art. 8.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Powracamy zatem do art. 8.
-  </p>
+      </p>
+    </div>
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Wydaje mi się, że wnioski: posła R. Grodzickiego i senatora H. Rota są
     tożsame.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie są to wnioski tożsame. W przypadku wniosku posła R. Grodzickiego można
     mówić o „skazaniu” art. 8, a w przypadku wniosku senatora H. Rota o
     „zawieszeniu” art. 8.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Uważam, że głosowania należy rozpocząć od wniosku senatora H. Rota, z
     którego wynika, że najpierw należy zakończyć prace nad rozdziałem o źródłach
     prawa, a dopiero potem rozstrzygnąć kwestię art. 8.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmujęwniosek posła J. Szymańskiego. Poddaję pod głosowanie wniosek o
     przyjęcie propozycji senatora H. Rota, aby zawiesić decyzję o treŚci i
@@ -453,16 +848,32 @@
     GrzeŚkowiak, senator P. Andrzejewski oraz poseł W. Majewski. W pierwszej
     kolejności musimy rozstrzygnąć kwestię ujęć alternatywnych, zaznaczonych
     pogrubionym drukiem w propozycji poseł I. Lipowicz.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Mój wniosek nie obejmował sformułowań napisanych drukiem pogrubionym. Jest
     to konsekwencja przejęcia art. 69.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 68</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Tak więc, aby uporządkować wniosek poseł I. Lipowicz, musimy rozstrzygnąć
     zaproponowane w jego treści ujęcia alternatywne w formie pisma pogrubionego.
@@ -476,38 +887,86 @@
     uzupełniony dopisaniem wyrazów: „poza wyjątkami przez nią określonymi”.
     Stwierdzam, że Komisja w głosowaniu, większością 19 głosów popierających,
     przy 9 przeciwnych i 6 wstrzymujących się, przyjęła wniosek.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Przyjęcie uzupełnienia ust. 2 powoduje, że przestaje on być moim
     wnioskiem. Wycofuję więc ten wniosek. Ponadto chcę zapytać, kto zgłosił
     uzupełnienie do mojego wniosku?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wniosek poseł I. Lipowicz jest powtórzeniem art. 69.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Zaszło nieporozumienie, gdyż ja nawiązałam do art. 69, ale przyjęłam
     zasadę konstytucjonalizmu proponowaną przez prof. W. Osiatyńskiego. Mój
     wniosek nie obejmuje więc uzupełnień ujętych pogrubionym pismem.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Zgłaszam wniosek o dokonanie reasumpcji poprzedniego głosowania, gdyż nie
     można głosować nad automatycznie przeniesioną treścią art. 69. Popełniliśmy
     więc błąd i stąd konieczność dokonania reasumpcji. Pod głosowanie należy
     poddać treść wniosku, bez sformułowań napisanych pogrubionym drukiem i
     ujętych w nawiasie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przeprowadziłem nie umotywowane głosowanie, co jest moim błędem. Za chwilę
     poddam pod głosowanie brzmienie wniosku zgodne z propozycją poseł I.
     Lipowicz.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Wydaje się jednak, że nastąpiło pewne nieporozumienie. Głosując bowiem nad
     wnioskiem poseł I. Lipowicz wypowiadamy się pośrednio o treści art. 69.
@@ -515,37 +974,85 @@
     zgłaszam szerszy wniosek, zmierzający do tego, aby teraz Komisja mogła
     rozstrzygnąć dylemat, który w przeciwnym wypadku będzie odłożony do czasu
     rozpatrzenia art. 69.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Czy jednak podczas głosowania można składać wnioski? Jeśli nawet tak, to
     powinny one być przedłożone na piśmie i dostarczone członkom Komisji.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Senator A. Grześkowiak ma formalnie rację, ale tekst poprawki mamy przed
     sobą. Proponuję, aby ust. 1 nie zawierał wyrazu: „stanowionym”, a ust. 2
     zawierał uzupełnienie: „poza wyjątkami przez nią określonym”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Uważam, że konieczna jest reasumpcja. Nie udawajmy, że nie podjęliśmy
     żadnych decyzji, skoro je podjęliśmy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jerzy Madej (KD):</strong>
     Czy jeżeli przyjmiemy treść ust. 2 w brzmieniu proponowanym przez posła W.
     Cimoszewicza, to zapiszemy jednocześnie w konstytucji, które artykuły nie
     będą stosowane bezpośrednio?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     W moim przekonaniu z proponowanego sformułowania wynika, że to konstytucja
     określa, kiedy jej przepisy nie są stosowane bezpośrednio.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Rozumiem, że chodzi o bezpośrednie zastosowanie przepisów dotyczących
+    Rozumiem, że chodzi o bezpośrednie zastosowanie przepisów dotyczących
     wolności, praw i obowiązków obywatelskich, zwłaszcza kiedy nie można ich
     chronić na podstawie innych aktów prawnych, tak jak to było w projekcie
     Karty praw i wolności. Jeżeli bowiem na podstawie innych aktów prawnych
@@ -555,19 +1062,43 @@
     może bezpośrednio powołać się na konstytucję. Ponadto chcę dodać, że trzy
     wnioski są niemal identyczne lub zbieżne. Nieco odmienny jest tylko wniosek
     senator A. Grześkowiak i posła W. Majewskiego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jerzy Madej (KD):</strong>
     Mam pytanie do prof. W. Osiatyńskiego: który z przepisów projektu mówi o
     tym, że określone artykuły nie są stosowane bezpośrednio?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Chodzi o art. 64, dotyczący praw socjalnych i stwierdzający, że ochrona
+    Chodzi o art. 64, dotyczący praw socjalnych i stwierdzający, że ochrona
     praw ujętych w stosownych artykułach jest stosowana w granicach ustaw
     wydanych w celu realizacji tych praw.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Uważam, że podejmujemy kwestie bardzo ważne. Jest to bowiem zagadnienie
     bezpośredniego obowiązywania konstytucji. Chodzi o to, czy w przypadku braku
@@ -575,24 +1106,48 @@
     konstytucję, którą wówczas w całości traktujemy poważnie. Sytuacja przeciwna
     to optymistyczne przepisy i następujące po nich stwierdzenie, że są to tylko
     cele państwa, które realizowane są w określonych granicach.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Powinniśmy pamiętać o tym, że dyskutowany art. 8 odnosi się nie tylko do
     wolności i praw obywatelskich, lecz do wszystkich przepisów obywatelskich.
     Tymczasem w projekcie konstytucji Unii Wolności jest wiele przepisów, które
     odsyłają do ustaw zwykłych.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Uważam, że nie można sformułować bezwzględnej zasady
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GebethnerStanislaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Uważam, że nie można sformułować bezwzględnej zasady
     bezpośredniego obowiązywania konstytucji. Z, natury rzeczy są bowiem kwestie
     wymagające regulacji ustawowych. Zawarte w ust. 2 sformułowanie: „poza
     wyjątkami” nie jest jednak dobre. Proponuję formułę występującą we wniosku
     senator A. Grześkowiak i wniosku posła W. Majewskiego: „chyba że Konstytucja
     stanowi inaczej”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Dyskutowany projekt konstytucji zawiera wiele odesłań do ustaw. Dotyczy to
     w szczególności art. 64. Podobnie jest w art. 127 w odniesieniu do stanu
@@ -600,15 +1155,31 @@
     Radzie Ministrów. Ponadto należy mieć świadomość, że gdyby nawet nie było
     formuły, którą proponuje prof. 5. Gebethner, to i tak realizacja części
     przepisów konstytucji nie będzie możliwa bez wydania ustaw zwykłych.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Poseł W. Cimoszewicz powinien więc rozważyć przyjęcie formuły proponowanej
     przez prof. S$. Gebethnera. Kwestia takiej czy innej formuły nie ma jednak
     zasadniczego znaczenia, gdyż i tak część przepisów konstytucji będzie
     realizowana poprzez ustawy zwykłe.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Uważam, że konieczne jest wpisanie do konstytucji zasady bezpośredniego
     stosowania przepisów konstytucyjnych. Zwracam jednak uwagę, że w istocie
@@ -635,11 +1206,19 @@
     zakresie może być ograniczona zasada bezpośredniego stosowania konstytucji?
     Jakiś przepis w tej kwestii powinien być przyjęty jako wskazówka wykładni
     autentycznej. Opowiadam się za formułą z projektu senackiego.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 69</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Dziękuję prof. P. Winczorkowi za wskazanie na to, że również bez formuły
     ograniczającej bezpośrednie stosowanie konstytucji będą sytuacje, w których
@@ -656,8 +1235,16 @@
     konstytucja nabierze bardziej deklaratywnego charakteru. Proponuję więc
     zaakceptowanie ogólnej zasady bezpośredniego stosowania konstytucji bez
     „dodatków”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Zgadzam się na zastosowanie innej formuły. Ponadto stwierdzam — nawet z
     pewnym zaskoczeniem — że tak naprawdę proponuję przyjęcie przepisów w
@@ -666,10 +1253,18 @@
     Grześkowiak domagała się, abym przedłożył tekst wniosku, a tymczasem okazało
     się, że senator A. Grześkowiak zgłosiła tekst, który ja jestem gotów
     poprzeć, choć z wyjątkiem ust. 3.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Mam swego rodzaju satysfakcję, gdyż wszystkie dyskutowane w tej chwili
+    Mam swego rodzaju satysfakcję, gdyż wszystkie dyskutowane w tej chwili
     formuły są mojego autorstwa. Poseł I. Lipowicz przedstawiła formułę, którą
     przedstawiłem na początku wczorajszej dyskusji. Poseł W. Majewski przedłożył
     formułę, którą zaproponowałęm na zakończenie wczorajszej dyskusji. Wniosek
@@ -678,31 +1273,63 @@
     wartości i zasady”. Chcę dodać, że z tych wszystkich formuł dzisiaj
     najbardzej podoba mi się brzmienie zawarte we wniosku nr 14, który
     przedłożył poseł W. Majewski.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Gdyby prof. W. Osiatyński ograniczył swój wewnętrzny pluralizm, pomogłoby
     to nam w pracach konstytucyjnych. Rozumiem więc, że wniosek posła W.
     Cimoszewicza to ust. 1 i ust. 2 wniosku senator A. Grześkowiak. Moglibyśmy
     więc tego wniosku nie wpisywać odrębnie do zestawienia, oczywiście jeżeli
     senator A. Grześkowiak wyrazi zgodę.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Przywykłam już do tej sytuacji, w której w wielu późniejszych projektach
     konstytucji odnajduję przepisy z projektu senackiego. Ponadto jest to powód
     do satysfakcji, że Komisja Konstytucyjna Senatu potrafiła przygotować dobry
     projekt.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proponuję nie przeprowadzać reasumpcji wcześniejszego głosowania.
     Wyjaśnieniem jest oświadczenie przewodniczącego Komisji, że wniosek
     przedłożony pod głosowanie nie był właściwy.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Jeżeli ust. 3 we wniosku senator A. Grześkowiak
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Jeżeli ust. 3 we wniosku senator A. Grześkowiak
     zostanie w przedłożonym brzmieniu: „Wszystkie akty prawne Rzeczypospolitej
     Polskiej muszą być zgodne z Konstytucją. Przepisy naruszające Konstytucję
     lub wskazane w niej wartości i zasady, nie mogą być stosowane i powinny być
@@ -718,8 +1345,16 @@
     „wartościami i zasadami”. Chcę dodać, iż chodzi mi tylko o wskazanie
     konsekwencji przyjęcia art. 8 ust. 3 w brzmieniu wniosku senator A.
     Grześkowiak.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     Poseł W. Cimoszewicz przyjął jako swój — wniosek składający się z ust. 1 i
     ust. 2 mojego wniosku. Prof. K. Działocha był uprzejmy nie zauważyć tego,
@@ -733,18 +1368,42 @@
     dobrem. Jest to niewątpliwie wartość. Wszystkie akty będą musiały
     respektować tę wartość. O to właśnie chodzi. Ponadto przykre jest, że
     eksperci wszczynają tę dyskusję w trakcie głosowania.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przechodzimy zatem do głosowania.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Proponuję, aby poprzez użycie przycisku „za” móc się opowiedzieć za
     wnioskiem nr 10, a poprzez użycie przycisku „przeciw” móc się opowiedzieć za
     wnioskiem nr 12 ust. 1 i ust. 2.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie przyjmuję propozycji posła K. Kamińskiego. Uważam, że każdy ze
     zgłoszonych wniosków powinien być poddany pod głosowanie. Podobnie jak w
@@ -803,28 +1462,60 @@
     „Rzeczpospolita Polska przestrzega wiążącego Ją prawa międzynarodowego .
     Chcę zapytać ekspertów, jak widzą usytuowanie przepisu zaproponowanego przez
     prof. 5. Gebethnera.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 71</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Wydaje się, że przepis zawarty we wniosku prof. 5. Gebethnera powinien
     znaleźć się po artykule formułującym zasady konstytucjonalizmu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PastusiakLongin.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Longin Pastusiak (SLD):</strong>
     Uważam, że formuła zaproponowana przez prof. S$. Gebethnera nie jest
     zasadą ustrojową. Moim zdaniem zasadą ustrojową jest relacja prawa
     międzynarodowego do krajowego. Przestrzeganie prawa międzynarodowego jest
     tak oczywiste, że nie można mówić o zasadzie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Istotą zasad ustrojowych jest to, że są oczywiste -— zatrącają wręcz o
     banał. Oczywistość nie pozbawia jednak zasad ich znaczenia.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Chcę zapytać wnioskodawcę, czy zasada ta musi być ujęta aż tak szeroko.
     Przy tak szerokiej formule może pojawić się pytanie, czy Polskę wiąże dany
@@ -834,8 +1525,16 @@
     znaleźć się w rozdziale o źródłach prawa. Uważam również, że kwestią
     ważniejszą jest okreŚlenie hierarchii norm prawa międzynarodowego w polskim
     porządku prawnym, niż tego typu formuły.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Zwracam uwagę na niezręczność formuły z użyciem wyrazu „Ją”. Ponadto
     nasuwa się pytanie, czy prawem międzynarodowym są również powszechnie uznane
@@ -843,23 +1542,46 @@
     jest pozytywna, to proponowany przepis mógłby brzmieć: „Rzeczpospolita
     Polska przestrzega powszechnie uznanych zasad prawa międzynarodowego i
     ratyfikowanych umów międzynarodowych”.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Zaproponowaną formułę należy rozumieć przede
-    wszystkim jako normy i zasady wynikające z zobowiązań, jakie przyjęła
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GebethnerStanislaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Zaproponowaną formułę należy rozumieć przede wszystkim jako normy i zasady wynikające z zobowiązań, jakie przyjęła
     Rzeczpospolita Polska ratyfikując umowy lub zawierając umowy nie podlegające
     ratyfikacji. Chodzi więc o cały zespół zasad i norm. Proponowana zasada nie
     dotyczy tylko źródeł prawa. Chodzi bowiem o pewną zasadę polityczną
     wyrażającą stosunek Rzeczypospolitej jako państwa do społeczności
     międzynarodowej. Proponowana formuła powinna więc znaleźć się wśród zasad
     ustroju.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
      pełni popieram to co powiedział prof. 5. Gebethner.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Czuję się w obowiązku zabrać głos, gdyż podkomisja zagadnień systemu Źródeł prawa poświęciła tej kwestii kilka posiedzeń z
     udziałem ekspertów. Uzasadnione wydaje się pytanie posła J. Szymańskiego,
@@ -868,22 +1590,46 @@
     trakcie posiedzenia podkomisji poparł ją również prof. A. Wasilkowski.
     Istota problemu to zasada legalizmu. Jak ta zasada przełoży się na system
     Źródeł prawa, będzie uregulowane w rozdziale o systemie Źródeł prawa.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Także uważam, że jest to zasada legalizmu, choć rozumiana szerzej, gdyż
     dotyczy nie tylko prawa wewnętrznego, ale również stosunku prawa
     wewnętrznego do międzynarodowego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Ryszard Grodzicki (SLD):</strong>
     Chcę poprzeć propozycję prof. S$. Gebethnera i jednocześnie zwrócić uwagę,
     że chodzi nie tylko o systematykę źródeł prawa, ale chodzi również o swego
     rodzaju wytyczną dla polityki zagranicznej państwa. Jak uczy historia, w
     praktyce dyplomatycznej dochodzi do łamania norm prawa międzynarodowego.
     Przy tego typu zasadzie będzie to oznaczało złamanie konstytucji.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy ktoś chciałby jeszcze zabrać głos? Nie ma. Ponieważ przeprowadziliśmy
     dyskusję także z udziałem wnioskodawcy, sądzę, że możemy przystąpić do
@@ -909,20 +1655,44 @@
     współdziałające”. Stwierdzam, że Komisja w głosowaniu, większością 13 głosów
     popierających, przy 11 przeciwnych 15 wstrzymujących się, przyjęła wniosek.
     Przechodzimy do rozpatrzenia ust. 2.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Jestem skłonny zrezygnować z wariantu II ust. 2 tylko w przypadku
     przyjęcia mojego wniosku.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proszę jednak zwrócić uwagę, że ust. 2 w wariancie II jest niemal tożsamy
     z ust. 2 we wniosku senator A. GrzeŚkowiak. Powracamy do ust. 2 wniosku
     podkomisji. Wyjaśnienia wymaga kwestia współzależności pojęć: „niezależne” i
     „niezawisłe ”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     W rozdziale dotyczącym sądownictwa dla określenia pozycji ustrojowej sądów
     i sędziów używa się dwóch określeń: „niezależne sądy” 1 „niezawiśli
@@ -930,12 +1700,28 @@
     „niezawisłe sądy”. Problem polega na tym, czy zastosować ujęcie tradycyjne,
     czy też przyjąć ujęcie szersze — „podwójne' — stosowane w rozdziale o
     sądownictwie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem więc, że powinniśmy przyjąć pojęcie „niezależne sądy”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Jest to problem, gdyż rzeczywiście rozróżnia się niezawisłość sądów jako
     jednostek organizacyjnych wymiaru sprawiedliwości, od niezawisłości
@@ -944,30 +1730,62 @@
     niezależności sądów, to jednak pominiemy ważną zasadę niezawisłości, która
     musi być cechą charakterystyczną władzy sądowniczej. Nie mam idealnej
     propozycji, ale wydaje mi się, że lepsze byłoby użycie obu określeń.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Nie wnikając w spór, chcę poinformować, że w rozumieniu podkomisji
     chodziło o wymienne zastosowanie jednego z określeń, a więc bez spójnika „1.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ ,„S:</strong>
-    : Wydaje mi się — podobnie jak posłowi W. Cimoszewiczowi — że chodzi o
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
+    Wydaje mi się — podobnie jak posłowi W. Cimoszewiczowi — że chodzi o
     iunctim, gdyż są to dwie cechy przynależne władzy sądowniczej jako sądom i
     jako sędziom. Oba określenia wydają się więc ważne jako zasada
     konstytucyjna.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 73</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/BentkowskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Bentkowski (PSL):</strong>
     Chcę przypomnieć, że w ustawie — Prawo o ustroju sądów Powszechnych jest
     zapisane, że sądy są niezależne i niezawisłe. Pominięcie jednego z określeń
     byłoby więc swego rodzaju „„rewolucją”. Opowiadam się za użyciem obu
     określeń.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy są inne wnioski niż końcowa opinia posła A. Bentkowskiego? Nie ma.
     Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji,
@@ -976,20 +1794,44 @@
     przeciwnych i i wstrzymującym się, przyjęła wniosek. Druga kwestia
     wymagająca rozstrzygnięcia w ust. 2 to zagadnienie użycia formuły mówiącej o
     sądach, czy o sądach i trybunałach.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Janusz Szymański (UP):</strong>
     Opowiadam się za pominięciem formuły: „i trybunały”, zarówno bowiem.
     Trybunał Stanu, jak i Trybunał Konstytucyjny, to sądy — sądy szczególne i co
     do tego nie ma wątpliwości, jeżeli chodzi o stanowisko nauki prawa
     konstytucyjnego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PastusiakLongin.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Longin Pastusiak (SLD):</strong>
     Popieram tę argumentację. Pojęcie „sąd” to pojęcie szerokie. „Trybunał” to
     nazwa własna.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Trudno zgodzić się z poglądem, że w pojęciu „sąd” mieści się pojęcie
     „trybunał”. Reprezentuję pogląd — wyrażony w projekcie obywatelskim NSZZ
@@ -999,8 +1841,16 @@
     nie wpisywać trybunałów jako organów władzy państwowej, gdyż organ kontroli
     przestrzegania konstytucji nie jest uprawniony do tego, aby znaleźć się
     wymieniony jako podmiot równy z sądem jako organem władzy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     W porównaniu z poglądami senatora P. Andrzejewskiego mam zupełnie inne
     wnioski. Przyjmując kryterium czysto formalne należy pamiętać, że tytuł
@@ -1010,8 +1860,16 @@
     VII miał tytuł: „Władza sądownicza” i zawierał postanowienia dotyczące sądów
     i trybunałów >to zgodziłbym się z poglądem, że w dyskutowanym artykule
     dystynkcja nie jest konieczna.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Oddzielenie władzy ustawodawczej od sądowniczej, a szczególnie oddzielenie
     trybunałów, przesądza zmianę w kwestii zatwierdzania orzeczeń Trybunału
@@ -1019,12 +1877,28 @@
     sądowniczej przekreślamy tę zasadę, tworząc autonomię trybunałów. Ponieważ
     jest to istotna różnica merytoryczna, opowiadam się za pozostawieniem
     formuły „i trybunały”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Miałem zamiar mówić o tym, o czym powiedział poseł J. Ciemniewski.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przypominam, że główny spór, jaki wczoraj toczyliśmy, dotyczył
     niedookreślenia pozycji Prezydenta RP w formule zasady trójpodziału władz.
@@ -1057,13 +1931,29 @@
     współdziałanie władz”. Stwierdzam, że w głosowaniu wniosek uzyskał 8 głosów popierających, 15
     głosów przeciwnych, przy 8 wstrzymujących się. Przechodzimy do propozycji
     poseł K. Łybackiej.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł "Krystyna Łybacka (SLD):</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Proszę o uwzględnienie autopoprawki w ust. 2: „przez niezależne i
     niezawisłe sądy i trybunały”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Poddaję pod głosowanie wniosek o przyjęcie propozycji poseł K. Łybackiej o
     następującej treści: „Ust. 1. Władza państwowa jest sprawowana przez
@@ -1089,13 +1979,29 @@
     się. Ostatecznego wyboru dokonamy między dwiema propozycjami, które uzyskały
     więcej głosów popierających niż przeciwnych. Są to propozycje: podkomisji
     oraz posła J. Ciemniewskiego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Co zrobić, aby głosować za wnioskiem posła J. Ciemniewskiego, ale
     jednocześnie nie głosować za trzykrotnym użyciem wyrazu „władzy ”?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Nie przywiązuję dużej wagi do trzykrotnego użycia wyrazu „władza”, gdyż
     nie jestem aż tak dużym zwolennikiem władzy. Uważam, że jest to kwestia
@@ -1103,14 +2009,30 @@
     uzyskał wniosek podkomisji mówiący o współdziałaniu władz, nie miałbym nic
     przeciwko temu, aby w mojej propozycji również znalazła się formuła mówiąca
     o współdziałaniu. Decyzję w tej kwestii pozostawiam przewodniczącemu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Proponuję następujące brzmienie: „Ustrój Rzeczypospolitej Polskiej opiera
     się na podziale, współdziałaniu i równo„wadze władzy: ustawodawczej,
     wykonawczej i sądowniczej”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Uważam, że Są to kwestie redakcyjne, których nie musimy podejmować w tej
     chwili. Sądzę natomiast, że zwłaszcza w Świetle wyników głosowania nad
@@ -1132,20 +2054,44 @@
     przeciwnych i braku wstrzymujących się, przyjęła brzmienie zaproponowane
     przez podkomisję. W związku z tym chcę wyrazić pewną obawę, gdyż w ramach
     zasad ustroju „gubimy” tak ważny naczelny organ państwowy jak Prezydent RP.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Powstała sytuacja, w której należy powrócić do wariantu II ust. 2. Nie
     rozstrzygnęliśmy bowiem między wariantem I a wariantem II. Dla mnie możliwe
     było głosowanie, które uwzględniało wariant II, natomiast nie do przyjęcia
     jest sytuacja, w której przedmiotem głosowania był tylko wariant I.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie wydaje się możliwe pominięcie w zasadach ustroju instytucji prezydenta
     pochodzącego z wyborów powszechnych. Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Zgłaszam wniosek o reasumpcję głosowania z powodu pomyłki. Tworząc
     zmodyfikowaną wersję poprawki posła J. Ciemniewskiego zgodziliśmy się, że
@@ -1155,14 +2101,30 @@
     kwestii prezydenta. Przyjmijmy więc wersję posła J. Ciemniewskiego, a do
     kwestii prezydenta powrócimy przy rozpatrywaniu przepisów szczegółowych
     dotyczących prezydenta.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Jeżeli poseł J. Ciemniewski zgodziłby się, to przyjęłabym jego wniosek w
     brzmieniu pierwotnym, a więc bez uzupełnienia o formułę mówiącą o
     współdziałaniu władz.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Uważam, że głosowanie było poprawne. Do wyboru było wiele propozycji.
     Członkowie Komisji dokonali rozstrzygnięcia w sposób prawidłowy. Proszę
@@ -1175,8 +2137,16 @@
     uprawnienia ustawodawcze, wykonawcze i dotyczące wymiaru sprawiedliwości.
     Zadania, funkcje i pozycja prezydenta będą określone w rozdziale o
     prezydencie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Chcę raz jeszcze przypomnieć, że główny problem, który pojawił się
     wczoraj, wyrażał się w niemożliwości zdefiniowania w jednej zasadzie ogólnej
@@ -1189,9 +2159,17 @@
     czytania w Zgromadzeniu Narodowym, możemy Zawsze powrócić do kwestii, które
     już rozpatrywaliśmy. Przypominam, że było tak w przypadku art. 5. Proponuję
     więc chwilę rozwagi, jak wybrnąć z sytuacji, w której jesteśmy.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Alicja Grześkowiak NSZZ „S:</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
     : Wyniki naszych głosowań zrozumiałam w ten sposób, że przyjęty został
     przepis w brzmieniu: „Władza państwowa jest sprawowana przez rozdzielone i
     wzajemnie równoważące się oraz współdziałające organy ustawodawcze,
@@ -1204,15 +2182,31 @@
     przedłożonymi przez podkomisję. Uważam, że kwestia objęta ust. 2 w
     propozycji podkomisji — i w mojej propozycji — powinna być odrębnym
     artykułem.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Muszę zmartwić senator A. Grześkowiak, ale głosowania były świadome.
     Odnosiły się zarówno do ust. l, jak do ust. 2 przedłożonych wniosków. Mam
     wrażenie, że pewne nieporozumienie mogło wynikać z powodu przyjęcia formuły
     o współdziałaniu władz.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Występuję przeciwko kontynuowaniu tej dyskusji, która zmierza do
     podważenia ustaleń przyjętych w głosowaniu. W moim przekonaniu
@@ -1234,8 +2228,16 @@
     Proporcja głosów jest dość jednoznaczna. Uważam, że mniejszość, która nie
     jest usatysfakcjonowana wynikiem głosowania, nie powinna dążyć do jego
     obalenia.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Nie jestem pewien, czy wszyscy głosowaliśmy znając w pełni konsekwencje
     głosowania. Być może wprowadziłem pewne, zamieszanie wyrażając zgodę na
@@ -1243,21 +2245,37 @@
     nie było jednak jasności przy prowadzeniu poprzedniego głosowania, proszę
     pana przewodniczącego o ponowne przeprowadzenie odrębnego głosowania nad
     moim pierwotnym wnioskiem i wnioskiem podkomisji.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 76</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmuję, że głosujemy Świadomie. Został również zgłoszony wniosek o
     reasumpcję. Chcę również dodać uwagę do tego, o czym mówił poseł W.
     Cimoszewicz. Obecnie ustalamy brzmienie zasad ustroju. Możemy jednak
     utrudnić sobie prace nad dalszymi rozdziałami, przyjmując zbyt szczegółowe
     rozwiązania w rozdziale pierwszym.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Chcę przypomnieć głosowanie imienne przeprowadzone w dniu
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Chcę przypomnieć głosowanie imienne przeprowadzone w dniu
     26 stycznia br. Moim zdaniem Komisja rozstrzygnęła wówczas pomiędzy
     wariantem I a wariantem II art. 9 w wersji pierwotnej. Jeżeli na pytanie o
     to, czy jesteś za prezydentem jako gwarantem ciągłości władzy, oddano 40
@@ -1272,8 +2290,16 @@
     prezydenta. Ponieważ upadła poprawka posła W. Majewskiego i poseł K.
     Łybackiej, a Komisja uzna, że brakuje jakiegoś przepisu po artykule o
     podziale władz, to możliwe jest przyjęcie przepisu dotyczącego prezydenta.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Nie wprowadzajmy praktyki podważania głosowań prawidłowo przeprowadzonych.
     Należy również pamiętać, że prace nad konstytucją nie kończą się.
@@ -1282,26 +2308,58 @@
     kwestii sprawa jest jasna. Uważam również, że w zasadach ustroju można
     określić rolę prezydenta. Można jednak przyjąć, że koncepcja prezydentury
     będzie określona w rozdziale dotyczącym prezydenta,
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Nie ulega wątpliwości, że nie musimy dzisiaj popadać w stan zdenerwowania,
     gdyż prace nad konstytucją będą jeszcze trwały przez jakiś czas. Nie
     zakładajmy jednak, że nasze niedociągnięcie poprawi Zgromadzenie Narodowe.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KrollHenryk.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Henryk Kroll (MN):</strong>
     Uważam, że popełniliśmy podstawowy błąd głosując nad propozycją posła J.
     Ciemniewskiego w wersji pierwotnej. Modyfikacja tej propozycji została
     dokonana w drugim głosowaniu. Uważam, że powinno odbyć się głosowanie nad
     poprawką posła J. Ciemniewskiego, w jej brzmieniu pierwotnym.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Głosowanie zostało przeprowadzone w sposób mało czytelny. Uważam, że
     uzasadnia to wniosek o reasumpcję.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Uważam, że głosowania odbywały się zgodnie z przyjętą procedurą.
     Przegłosowany został wariant podkomisji. Ponadto na poprzednim posiedzeniu
@@ -1314,8 +2372,16 @@
     pod głosowanie jako poprawkę uzupełniającą przyjęty w głosowaniu wariant
     podkomisji, w formie ust. 3, następującej treści: „Prezydent jako najwyższy
     przedstawiciel Rzeczypospolitej Polskiej gwarantuje ciągłość władz .
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PietrzakMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
     Nad problemem, który jest przedmiotem debaty, dyskusja toczy się od dawna,
     gdyż jest to zagadnienie modelu państwa, który powstanie w wyniku uchwalenia
@@ -1336,11 +2402,19 @@
     szczegółowych rozwiązań konstytucyjnych, a zasady powinny być wytycznymi dla
     rozwiązań szczegółowych. Nowe zasady trzeba przyjmować z pełną świadomością
     konsekwencji, gdy chodzi o rozwiązania szczegółowe.
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 17</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Kwestia, wokół której toczy się spór, zostanie za chwilę rozstrzygnięta w
     głosowaniu. Proszę jednak, aby nie używać argumentów sprzecznych ze zdrowym
@@ -1355,8 +2429,16 @@
     chodzi o proponowaną reasumpcję głosowania. Chciałbym więc od autorów tej
     propozycji usłyszeć wiarygodne i rzetelne argumenty. Jeżeli ich nie
     usłyszymy, to miejmy Świadomość, w jakich warunkach głosujemy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Popełniłem błąd proceduralny polegający na dopuszczeniu do zmiany treści
     wniosku posła J. Ciemniewskiego, po wstępnym przegłosowaniu wniosku w
@@ -1367,12 +2449,28 @@
     była dyskusja o modyfikacji tej propozycji. Myślę, że winą za ten stan
     rzeczy możemy podzielić się z posłem J. Ciemniewskim, choć jako
     przewodniczący obrad ponoszę większą część winy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Przyjmuję całą winę na siebie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przechodzimy do głosowania. Poddaję pod głosowanie wniosek o reasumpcję
     głosowania nad propozycją nr 18 posła J. Ciemniewskiego, z powodu błędu
@@ -1406,10 +2504,18 @@
     Chcę zapytać ekspertów, czy w przedłożonych propozycjach brzmienia przepisów
     dotyczących problematyki samorządu dostrzegają być może propozycje
     dyskusyjne z punktu widzenia prawa konstytucyjnego.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Proponuję dodanie ust. 3 w wariantach podkomisji, o
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Proponuję dodanie ust. 3 w wariantach podkomisji, o
     następującej treści: „Ustawa może ustanowić obowiązkową przynależność osób
     do samorządów określonych w ust. 2, z jednoczesnym przekazaniem tym
     samorządom zadań z zakresu władzy publicznej, jeżeli jest to konieczne w
@@ -1429,8 +2535,16 @@
     prawie międzynarodowym jest wyraźna dystynkcja między dobrowolnymi
     zrzeszeniami i stowarzyszeniami, a samorządami, które są organami władzy
     publicznej.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Uważam, że kwestie samorządu zawodowego i innych form samorządu, to
     kwestie bardzo skomplikowane i wymagające odrębnej dyskusji. Są to bowiem
@@ -1444,8 +2558,16 @@
     Dyskusji wymaga natomiast na pewno kwestia katalogu przesłanek materialnych
     koniecznych do zaprezentowanych ograniczeń. Proponuję więc, aby ust. 2 był
     dyskutowany na następnym posiedzeniu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Należy jednak pamiętać, że nie dyskutujemy o przepisach dotyczących
     samorządu w ogóle, lecz o przepisach wyrażających ogólną zasadę dotyczącą
@@ -1455,14 +2577,30 @@
     dzisiejszym posiedzeniu. Jeżeli dobrze zrozumiałem posła J. Ciemniewskiego,
     to skłania się on do koncepcji, że kwestia innych —- poza terytorialnym —
     form samorządu nie powinna być zawarta w konstytucji w ramach zasad ustroju.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Kwestia ta powinna być podjęta w zasadach ustroju. Powinno mieć miejsce
     konstytucyjne ograniczenie materialnych warunków funkcjonowania innych form
     samorządu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmuję zgłoszoną uwagę i proponuję, abyśmy rozpoczęli od kwestii
     ujętych w ust. 1 propozycji podkomisji, a więc od kwestii samorządu
@@ -1472,14 +2610,30 @@
     „Samorząd terytorialny jest podstawową formą udziału obywateli w sprawowaniu
     władzy publicznej”. Alternatywnie proponowane jest dopisanie formuły: „na
     szczeblu lokal>nym”.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Paweł Sarnecki: Uważam, że propozycja prof. L. Wiśniewskiego powinna być
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
+    Uważam, że propozycja prof. L. Wiśniewskiego powinna być
     Posiedzenia Komisji Konstytucyjnej ZN dyskutowana przy okazji rozpatrywania
     rozdziału o wolnościach i prawach obywateli.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Nie mogę zgodzić się z poglądem zaprezentowanym przez prof. P.
     Sarneckiego. Istotą samorządu zawodowego nie jest zrzeszanie się, lecz
@@ -1487,13 +2641,29 @@
     przymusowego członkostwa. Jest to zaprzeczenie zasady wolności zrzeszania
     się. Jeżeli wśród zasad ustroju podejmujemy kwestię wykonywania władzy
     publicznej, to zagadnienie samorządu zawodowego powinno być również podjęte.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przechodzimy do dyskusji nad art. 1l, a więc do formuły generalnej
     dotyczącej samorządu terytorialnego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Formuła zawarta w każdym z trzech wariantów stwierdza, że samorząd
     terytorialny to coś więcej niż techniczna decentralizacja administracji, jej
@@ -1543,20 +2713,44 @@
     podstawa roszczenia, lecz w razie wątpliwości lub sporów dotyczących treści
     ustawodawstwa mogłaby mieć dla Trybunału Konstytucyjnego znaczenie dodatkowo
     wyjaśniające.
-  </p>
-  <p class="rep-statement">
-    <strong>Poseł Aleksander Kwaśniewski SLD):</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Chcę zapytać poseł I. Lipowicz, który z wariantów ust. 1 najbardziej
     odpowiada istocie wniosków, które sformułowała?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     W moim przekonaniu istocie wniosku najbardziej odpowiada ust. 1 w
     wariancie I. Został sformułowany w oparciu o postulaty środowisk
     samorządowych, choć w środowiskach samorządowych występują różnice
     stanowisk. Ze zrozumieniem odnoszę się do innych opinii.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Wiele tez, które chciałem przedstawić, wypowiedziała już poseł I.
     Lipowicz, za co jej dziękuję. Również popieram wariant I ust. 1, w
@@ -1570,15 +2764,31 @@
     udział samorządu w sprawowaniu władzy publicznej. Ponadto formuła z wariantu I jest również normą interpretacyjną dla
     orzecznictwa innych organów — co do sposobu funkcjonowania i konsekwencji
     powołania organów samorządowych.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rysuje się wyraźne poparcie dla ust. I w wariancie I. Czy są odmienne
     opinie?
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ:</strong>
-    „S”): Popieram rozwiązanie wyrażone w projekcie obywatelskim NSZZ
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
+    Popieram rozwiązanie wyrażone w projekcie obywatelskim NSZZ
     „Solidarność”. W swojej pierwszej wersji sprowadza się ono do poparcia ust.
     1. Uważamy jednak również, że nie można Ściśle oddzielać form samorządu
     terytorialnego od form samorządu w ogóle. Samorząd jako taki powinien być
@@ -1598,18 +2808,42 @@
     Stąd też formuła mówiąca o gwarancji jest zwrotem określającym status nie
     tylko positivus ze strony państwa, ale również status activus w zakresie
     realizacji tego prawa, które pośrednio jest również prawem obywatelskim.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Tak więc mamy warianty podkomisji, wniosek senatora P. Andrzejewskiego 1
     wcześniej złożony wniosek senator A. Grześkowiak.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Proszę senatora P. Andrzejewskiego, aby przypomniał pełne brzmienie
     swojego wniosku.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Jeżeli chodzi o motywację, to jestem całkowicie zgodny z poseł I.
     Lipowicz. Treść naszej propozycji jest następująca: „Ust. 1. Samorząd
@@ -1624,8 +2858,16 @@
     zasada legalizmu, lecz zasada, w myśl której: co nie jest zabronione, jest
     dozwolone. Dopiero gdy nastąpi transformacja w organ władzy samorządu, to
     wówczas w grę wchodzi zasada legalizmu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Chcę zapytać senatora P. Andrzejewskiego, czy nie obawia się, że
     eliminacja pojęcia „władza publiczna” na rzecz pojęcia: „władza” nasunie
@@ -1641,12 +2883,28 @@
     prawo do sprawowania każdej władzy, a więc również władzy niepublicznej,
     takiej jak na przykład władza zwi zkowa, stowarzyszeniowa, czy władze
     związków wyznaniowych.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Ten argument poseł I. Lipowicz jest przekonujący.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Chcę zapytać senatora P. Andrzejewskiego, czy sformułowanie o
     gwarantowaniu swobody działania innych form samorządności nie może być
@@ -1655,8 +2913,16 @@
     mogłaby być uznana za ograniczenie swobody działalności. Czy jest to
     intencją wnioskodawcy? Rozumiem, że intencją jest na pewno zagwarantowanie
     wolności powstawania i działania innych form samorządu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Problem, na który wskazał poseł W. Cimoszewicz, jest problemem
     rzeczywistym. Przykładem może być projekt ustawy o samorządzie gospodarczym,
@@ -1664,25 +2930,37 @@
     konsumentów i odbiorców usług. Uważam, że stosunkowo szeroka formuła
     konstytucyjna i ustawowe formy samorządności, które nie pochodzą wprost od
     obywateli, lecz są formą organizacji jakiejś dziedziny życia, powodują, że
-    nie Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
-  <p>
-    pan ma mam znana mam m będzie sprzeczności z zasadą szanowania wolności
-    obywatelskich. Jeżeli więc pominiemy formułę mówiącą o granicach ustawowych,
+    nie będzie sprzeczności z zasadą szanowania wolności obywatelskich. Jeżeli więc pominiemy formułę mówiącą o granicach ustawowych,
     to osiągniemy dwa cele. Tam, gdzie będzie obowiązywać ustawa, będzie to
     samorządność zorganizowana na zasadzie przedmiotowej. Tam, gdzie podmioty
     same będą chciały realizować samorządność, nie będą ograniczone ustawowo,
     poza klauzulami generalnymi wynikającymi z konstytucji i dotyczącymi
     ogólnych praw człowieka.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jeżeli chodzi o kwestię formuły generalnej dotyczącej samorządu
     terytorialnego, to oprócz wariantów podkomisji mamy wniosek senatora P.
     Andrzejewskiego i wniosek senator A. Grześkowiak. Wnioski te zostaną poddane
     pod głosowanie ok. godz. 15.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Ciemniewski (UW):</strong>
     Z mojej strony nie ma nawet cienia zgody na formułę zaproponowaną przez
     senatora P. Andrzejewskiego. Z pewnym zaskoczeniem muszę powiedzieć, że
@@ -1703,13 +2981,29 @@
     głosowaniu wyboru między przedłożonymi propozycjami, powinno to być
     poprzedzone dyskusją na temat modelu oraz miejsca i roli samorządu w
     systemie państwa.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Apeluję o powrót do dyskusji nad ust. 1, a więc do kwestii samorządu
     terytorialnego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Nie chcę być uszczypliwy wobec posła J. Ciemniewskiego, ale jest tak, że
     każdy ma swoją perspektywę i genezę interpretacji instytucji prawnych. Moja
@@ -1717,22 +3011,46 @@
     Jeżeli więc poseł J. Ciemniewski podsumowuje, skąd wzięła się moja
     koncepcja, to zgodnie z moją genezą i osobniczym rozwojem Świadomości, a nie
     własnymi doświadczeniami. Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
+      </p>
+    </div>
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Mówiąc nieco żartobliwie: można stwierdzić, że efektem wymiany poglądów
     między posłem J. Ciemniewskim i senatorem P. Andrzejewskim jest ustalenie,
     że inspiracją Chruszczowa były encykliki papieskie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Chcę również zaprezentować wniosek senator A. Grześkowiak, który jest
     powtórzeniem art. 5 projektu senackiego. Jego brzmienie jest następujące:
     „Rzeczpospolita Polska uznaje i gwarantuje samorządowi terytorialnemu oraz
     samorządom tworzonym przez obywateli, udział w sprawowaniu władzy”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     Chcę zwrócić uwagę na niebezpieczeństwo, jakie kryje się w związku z
     zaprezentowaną propozycją senator A. Grześkowiak. Chodzi o to, że propozycja
@@ -1747,8 +3065,16 @@
     władzy. Natomiast stworzenie takiego prawa podmiotowego, które każdej grupie
     obywateli, która się stowarzyszy, da cząstkę władzy, mogłoby spowodować
     skutki, których zapewne nie chciałaby senator A. Grześkowiak.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem, że kończymy dyskusję o samorządzie terytorialnym. Głosowaniu
     zostaną poddane warianty podkomisji, wniosek senatora P. Andrzejewskiego 1
@@ -1764,11 +3090,19 @@
     ochrony zdrowia lub moralności publicznej albo wolności lub praw innych
     osób”. Chodzi więc o kwestię obowiązkowej przynależności do samorządów,
     zwłaszcza o charakterze zawodowym. nim mar A. M0 M a A A m M A w A A A M m
-  </p>
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 81</p><hr>-->
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Nawiązując do kwestii innych form samorządu oraz do dyskusji sejmowej o
     samorządzie gospodarczym, gdzie pojawiły się tendencje korporacjonistyczne,
@@ -1789,12 +3123,20 @@
     podstawie ustawy o działalności gospodarczej — usług z zakresu ochrony
     zdrowia, kończyło się źle dla pacjentów. Chodzi również o ochronę praw
     mniejszości narodowych.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DrozdekMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: Chcę bronić zapisu w wersji projektu obywatelskiego,
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+    </strong>
+    Chcę bronić zapisu w wersji projektu obywatelskiego,
     zwłaszcza jeżeli chodzi o ust. 2 w brzmieniu: „Rzeczpospolita gwarantuje
     swobodę działalności innych form samorządności .. Chodzi przede wszystkim o
     uniknięcie reglamentacji przez państwo działalności samorządowej. Rzecz w
@@ -1810,10 +3152,18 @@
     swoich sprawach, to konieczne jest wpisanie gwarancji samorządowych, gdyż
     jest to zasada ustroju. Rozwiązania szczegółowe mogą się znaleźć w ustawach
     lub w dalszej części konstytucji.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: Bardzo gorąco protestuję przeciwko przyjęciu ust. 3, zaproponowanego przez prof. L. WiŚniewskiego i posła M.
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GebethnerStanislaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    Bardzo gorąco protestuję przeciwko przyjęciu ust. 3, zaproponowanego przez prof. L. WiŚniewskiego i posła M.
     Mazurkiewicza. Nie jest to bowiem materia rozdziału pierwszego. Żaden z
     dotychczas przyjętych artykułów nie odsyła tak szczegółowo do ustawy. Uważam
     więc, że należy przyjąć formułę, stwierdzającą, że Rzeczpospolita w
@@ -1822,8 +3172,16 @@
     udział we władzy publicznej. Szczegóły ureguluje ustawa o samorządzie
     terytorialnym. Jeżeli chodzi o inne samorządy, to należy napisać o
     możliwości ich utworzenia w granicach określonych w ustawach.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jerzy Madej (KD):</strong>
     Sprawa, nad którą dyskutujemy, chyba nie jest tak prosta, skoro dyskusja
     trwa i zgłaszane są dalsze propozycje. Chodzi zwłaszcza o określenie zakresu
@@ -1841,8 +3199,16 @@
     ekspertów, czy brzmienie ust. 2 gwarantuje to, że inne formy samorządu nie
     będą sobie uzurpować prawa do sprawowania władzy publicznej, zwłaszcza w
     zakresie tworzenia prawa.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jan Orzechowski (PSL):</strong>
     Podzielam pogląd prof. S. Gebethnera, że w ramach rozdziału o zasadach
     ustroju nie należy przyjmować rozwibardzo szczegółowych. Uważam, że kwestie
@@ -1857,8 +3223,16 @@
     tworzenia samorządu zaproponowane w ust. 3 Posiedzenia Komisji
     Konstytucyjnej ZNprzez posła M. Mazurkiewicza nie bardzo pasują do istoty
     samorządu. Jestem więc przeciwny ust. 3 o tej treści.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Stefan Pastuszka (PSL):</strong>
     Popieram pogląd przedstawiony przez senatora J. Orzechowskiego, a nawet
     poszedłbym jeszcze dalej. Jestem bowiem przeciwny wprowadzeniu dokonstytucji
@@ -1866,10 +3240,18 @@
     samorządu. Mogłoby to być nadużywane przez ustawodawcę. Ponadto nasuwa się
     pytanie, czy każdy lekarz musi należeć do samorządu lekarskiego, a każdy
     nauczyciel akademicki do samorządu akademickiego? Uważam, że nie musi.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Leszek Wiśniewski: Nawiązując do wypowiedzi senatora 5. Pastuszki chcę
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
+    Nawiązując do wypowiedzi senatora 5. Pastuszki chcę
     powiedzieć, że jego koncepcja jest możliwa do zrealizowania przy zmienionej
     koncepcji samorządu zawodowego — jako organizacji o dobrowolnej
     przynależności. Oznaczać to będzie wówczas korzystanie z wolności zrzeszania
@@ -1890,8 +3272,16 @@
     terytorialnym. Konieczne byłoby więc rozszerzenie treści tego rozdziału.
     Przy utrzymaniu rozpatrywanego projektu — o innych formach samorządu mowa
     jest tylko w art. 11 ust. 2.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
     Zgadzam się całkowicie z prof. L.Wiśniewskim. Chcę dodać, że należy w
     pełni odróżniać samorząd od stowarzyszenia. Są to dwie wyraźnie jednak różne
@@ -1899,18 +3289,20 @@
     senatorem J. Orzechowskim chcę powiedzieć, że nie należy w art. 11 ust. 2
     wykreślać odesłania do ustawy. Formuła ta stwarza ramy ograniczające
     ekspansję samorządu poza zakres przyznany mu prawem i przejmowania przez
-    samorząd uprawnień, które mu się nie należą. Chodzi również o za-
-    Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
-
-  <!--<hr><p class="page-break">strona 83</p><hr>-->
-  <p>
-    bezpieczenie samorządu przed inwazją innych instytucji. Tak więc ustawowa
+    samorząd uprawnień, które mu się nie należą. Chodzi również o zabezpieczenie samorządu przed inwazją innych instytucji. Tak więc ustawowa
     „rama” działa w obu kierunkach. Zabezpiecza samorząd przed działaniem
     uzurpatorów zewnętrznych oraz ogranicza uprawnienia samorządu wykraczające
     poza jego naturalne funkcje określone w ustawie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proszę ekspertów, aby zastanowili się nad rozwiązaniem, które zachowałoby
     normę generalną dotyczącą innych form samorządu w zasadach ustroju, a
@@ -1918,9 +3310,17 @@
     możliwości wprowadzenia obowiązkowej przynależności do określonych form
     samorządu. Zgadzam się bowiem z prof. S. Gebethnerem, że należy unikać norm
     bardzo szczegółowych w rozdziale pierwszym.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
     Tocząca się ciekawa debata wynika z dwóch przyczyn. Przyczyna pierwsza to
     spory o pojęcie i istotę samorządu. Mam nadzieję, że wyjaśnienia ekspertów
     pozwolą ominąć tę rafę. Druga przyczyna to novum w postaci uwagi prof. L.
@@ -1937,16 +3337,32 @@
     samorządu byłyby przesunięte do rozdziału poświęconego samorządom. Wśród
     przepisów tego rozdziału powinna znaleźć się również poprawka posła M.
     Mazurkiewicza.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jeżeli przedstawiciele Prezydenta RP uznają to za stosowne, mogę zgłosić
     propozycję ujętą w projekcie prezydenckim. Uważam, że jest to interesująca
     formuła.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Uważam, że przepis dotyczący innych form samorządu nie powinien znaleźć
+    Uważam, że przepis dotyczący innych form samorządu nie powinien znaleźć
     się w rozdziale o prawach i woInościach obywateli, lecz w rozdziale o
     samorządzie. Konieczna byłaby wówczas zmiana tytułu rozdziału na „Samorząd”.
     W rozdziale tym powinien znaleźć się również przepis, który przyznałby
@@ -1958,15 +3374,31 @@
     przepis mówiący o możliwości wprowadzenia obowiązku przynależności do
     samorządu. Spośród zaproponowanych formuł ogólnych szczególnie przydatna
     wydaje się formuła zaproponowana przez dr. W. Kuleszę.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wydaje się, że powinniśmy zmierzać w kierunku takiego rozwiązania, aby
     artykuł mówiący o obowiązkowej przynależności do samorządu i atrybucji jego
     uprawnień znalazł się w rozdziale o samorządzie, który w obecnym brzmieniu
     nie jest zbyt obszerny.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Zgadzam się z sugestią pana przewodniczącego, aby materię, o której
     dyskutujemy, umieścić w rozdziale o samorządzie. Chcę również odnieść się do
@@ -1985,8 +3417,16 @@
     możliwość orzekania o zakazie wykonywania zawodu przez członków niektórych
     samorządów, którzy narażą się osobom kierującym tym samorządem. Nie można do
     tego dopuścić.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jan Orzechowski (SLD):</strong>
     Mam uwagę do wypowiedzi prof. L. Wiśniewskiego. Nie uważam, aby za słuszny
     można było uznać pogląd, że samorząd zawodowy — nawet ten przymusowy — jest
@@ -1995,14 +3435,30 @@
     jednak utożsamiany z władzą publiczną. Uważam, że o organach samorządu w
     ogóle nie można mówić jako o organach władzy publicznej, gdyż część
     samorządów nie ma charakteru przymusowego.
-  </p>
+      </p>
+    </div>
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Odnosiłem wrażenie, że o tym cały czas dyskutujemy.
-  </p>
+      </p>
+    </div>
 
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Irena Lipowicz (UW):</strong>
     W zakresie funkcji zleconych organ samorządu jest organem władzy
     publicznej. Uzasadnia to, dlaczego w jednym zdaniu nie możemy mówić o
@@ -2014,8 +3470,16 @@
     pierwotny charakter zgodnie z zasadą subsydialności, a więc pierwszeństwo w
     realizacji zpaństwa. Należy więc pamiętać o jakościowej różnicy wyróż:
     iającej samorząd terytorialny. Powinien on być ujęty w odrębnym przepisie.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/RotHenryk.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Henryk Rot (SLD):</strong>
     Rozumiem, że chodzi o udział samorządu w sprawowaniu władzy publicznej.
     Wynika to z brzmienia ust. 1 w wariancie I. Ponadto przychylam się do uwagi
@@ -2024,8 +3488,16 @@
     brzmienie jest następujące: „Rzeczpospolita Polska, w granicach określonych
     ustawą, zapewnia innym formom samorządu możliwość udziału w sprawowaniu
     władzy publicznej”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     W dyskusji bywały niekiedy mieszane materie merytoryczne. Czymś innym jest
     bowiem wolność zrzeszania się, a czymś innym jest problem samorządu, który
@@ -2037,13 +3509,29 @@
     przynależności do samorządu zawodowego. Przepis tego typu powinien znaleźć
     się w rozdziale dotyczącym samorządów. Propozycję tego typu przepisu
     przedłożył poseł M. Mazurkiewicz.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Propozycja, którą zgłosiłem, nie byłaby więc art. 11 ust. 2, lecz art.
     203a z odesłaniem do art. 11 ust. 1.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Tak więc mamy warianty podkomisji, propozycję senatora H. Rota, wniosek
     senator A. Grześkowiak, wniosek senatora J. Orzechowskiego oraz wniosek
@@ -2055,34 +3543,66 @@
     więc brzmieć: „Rzeczpospolita Polska chroni własność i prawo dziedziczenia”.
     Ust. 2 stwierdza: ,„Wywłaszczenie jest dopuszczalne jedynie na cele
     publiczne i za słusznym odszkodowaniem”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Jeżeli chodzi o ust. 1, to opowiadam się za krótszym brzmieniem. W
     przypadku ust. 2 jestem za skreśleniem wyrazu „słusznym. W polskim prawie
     cywilnym nie ma niesłusznego odszkodowania.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DrozdekMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: W projekcie obywatelskim użyta jest formuła mówiąca o
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+    </strong>
+    W projekcie obywatelskim użyta jest formuła mówiąca o
     sprawiedliwym odszkodowaniu, choć przepis ten znajduje się w rozdziale o
     prawach człowieka. Odszkodowanie na zasadzie sprawiedliwości wymiennej jest
     to odszkodowanie ekwiwalentne i da się prawnie obronić. W przypadku
     odszkodowania słusznego jest to trudniejsze.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Leszek Moczulski (KPN):</strong>
     Chcę zwrócić uwagę na wniosek, który złożyłem. Składa się on z 4
     artykułów, które są dla mnie wyraźną całością. Chodzi o kwestię dziedzictwa,
     pracy, własności i rolnictwa. Jeżeli mówimy o własności jako o jednym z
     zagadnień, to chcę zwrócić uwagę, że własność trzeba rozpatrywać jako pewną
     kategorię społeczną. Dlatego właśnie przedłożyłem stosowną propozycję.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: W związku z wnioskiem posła K. Kamińskiego i
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    W związku z wnioskiem posła K. Kamińskiego i
     wypowiedzią pana M. Drozdka chcę zwrócić uwagę, że pojęcie słusznego
     odszkodowania znajduje się w obowiązujących przepisach konstytucyjnych w
     art. 7. Nabrało ono również znaczenia w Świetle orzecznictwa Trybunału
@@ -2091,10 +3611,18 @@
     równoważne. Jest to ważna kwestia przy konstruowaniu pojęcia wywłaszczenia.
     W przypadku wywłaszczenia należy stwierdzić, że chodzi o cele publiczne i za
     słusznym — sprawiedliwym, ekwiwalennym — odszkodowaniem.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Odnoszę wrażenie, że w rozdziale drugim, dotyczącym praw i wolności, nie
+    Odnoszę wrażenie, że w rozdziale drugim, dotyczącym praw i wolności, nie
     ma przepisu dotyczącego własności. Jeżeli tak jest, to powstaje kłopotliwa
     sytuacja, gdy przepis o własności umieścimy wśród zasad ustroju. W dniu
     wczorajszym prof. K. Działocha Posiedzenia Komisji Konstytucyjnej ZN
@@ -2102,33 +3630,65 @@
     bezpośrednio. Rozumiem więc, że Świadomie przyjmujemy, że przepis dotyczący
     własności znajdzie się tylko w zasadach ogólnych, a nie w rozdziale o
     prawach i wolnościach.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     W tej chwili nie przesądzamy zawartości rozdziału drugiego, lecz rozdziału
     pierwszego, zawierającego zasady ustroju, wśród których na pewno powinna
     znaleźć się zasada ochrony własności, podobnie jak zasada swobody
     działalności gospodarczej.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Z zasady legalizmu czy praworządności obywatele będą korzystali
+    Z zasady legalizmu czy praworządności obywatele będą korzystali
     stosunkowo rzadko w przypadku wysuwania roszczeń osobistych. W grę wchodzi
     pomocnicze korzystanie przy orzekaniu sądowym. Natomiast zasada ochrony
     własności jest nie tylko zasadą fundamentalną, ale również zasadą, z której
     wiele osób będzie korzystać bezpośrednio w ochronie swoich praw. Jest to
     bowiem zasada naczelna, ale również zasada bardzo praktyczna.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Uważam, że przedłożone przez podkomisję brzmienie art. 12 jest bardzo
     praktyczne. Zawiera bowiem trzy ważne kwestie: ochronę własności, prawo
     dziedziczenia oraz wywłaszczenie na określonych zasadach. Uważam więc, że
     zawartość art. 12 jest pełna i praktyczna.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ:</strong>
-    S”): Popieram propozycję, aby treść artykułów: 12, 13 i 14 została ujęta w
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
+    Popieram propozycję, aby treść artykułów: 12, 13 i 14 została ujęta w
     jednym artykule, który w projekcie obywatelskim NSZZ „Solidarność ”
     oznaczony jest jako art. 7 i ma następujące brzmienie: „Praca jest podstawą
     rozwoju państwa. Rzeczpospolita chroni prawo do pracy, własności 1
@@ -2149,8 +3709,16 @@
     orzecznictwa sądowego opartego na Kodeksie zobowiązań. Nie jest to więc
     potoczne sformułowanie równoważne zasadzie sprawiedliwości czy wymierności,
     jest to całkowicie odrębne i ugruntowane kryterium.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jeżeli chodzi o stan prac nad art. 12, to oprócz propozycji podkomisji
     zostały zgłoszone poprawki: posła K. Kamińskiego, senatora P.
@@ -2160,15 +3728,31 @@
     politycznego i społeczno-gospodarczego nie przygotowała nowych
     kompromisowych propozycji. Uważam ponadto, że moglibyśmy podjąć kwestię
     artykułów:16, 17, 18, które dotyczą godła, barw, hymnu i stolicy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Dotychczasowe tempo prac wskazuje, że dla rozpatrzenia pozostałych
     artykułów konieczne będzie odbycie ok. 15 posiedzeń. W związku z tym chcę
     zapytać pana przewodniczącego, czy przewiduje sytuację, w której część
     przepisów projektu powróci do podkomisji.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jako przewodniczący Komisji wyrażam zadowolenie, że prace posuwają się
     naprzód, choć tempo jest wolne. Wyrażam przy tej okazji szacunek dla
@@ -2181,16 +3765,32 @@
     wywołują bogatą dyskusję, dalsze artykuły będą wywoływać chyba mniejszą
     dyskusję. Nie jest to pewne, gdyż rozdział o prezydencie wywoła zapewne
     obszerną debatę.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jan Orzechowski (PSL):</strong>
     Jeżeli chodzi o art. 12, dotyczący prawa własności, to warto przypomnieć,
     że treść prawa własności, sposób jego wykonywania i ochronę prawa własności
     reguluje prawo cywilne. W związku z tym w przepisach regulujących zasady
     ustroju wystarczy norma ogólna, stwierdzająca, że Rzeczpospolita Polska
     chroni własność. Sądzę, że formuła przyjęta w art. 12 jest wystarczająca.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Leszek Moczulski (KPN):</strong>
     Chcę wskazać na niebezpieczną lukę znajdującą się w art. 12. Art. 12
     dopuszcza naruszenie prawa własności tylko poprzez wywłaszczenie. Nie można
@@ -2198,16 +3798,32 @@
     orzeczenia sądowe. Wydaje się, że przy takim brzmieniu art. 12 sąd nie
     mógłby orzec konfiskaty narzędzi przestępstwa. Nóż służący zabójstwu
     musiałby więc być zwrócony mordercy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PietrzakMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
     Uważam, że w przypadku wywłaszczenia należałoby podjąć kwestię, kiedy
     nastąpi odszkodowanie. Rozważenia wymaga formuła mówiąca o uprzednim
     odszkodowaniu, przy utrzymaniu zasady słusznego odszkodowania.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
-    : Powracam do swojej wątpliwości, iż w rozdziale o zasadach ustroju znajdą
+    Powracam do swojej wątpliwości, iż w rozdziale o zasadach ustroju znajdą
     się dwie normy ogólne, które będą mówić o szczegółach i odstępstwach od tych
     norm, a jest to materia praw i wolności obywatelskich, kiedy stwierdza się,
     że coś jest dopuszczalne ustawą, W rozdziale o zasadach ustroju powinna być
@@ -2217,10 +3833,18 @@
     powinna być podjęta w przepisach o prawach osobistych. Byłoby to właściwe
     miejsce dla przejęcia formuły o odszkodowaniu słusznym i niezwłocznym oraz o
     ewentualnych ograniczeniach swobody działalności gospodarczej.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Rady Ministrów, pro:</strong>
-     Stanisław Gebethner: W zasadzie popieram stanowisko przedmówcy, iż
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/GebethnerStanislaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
+    W zasadzie popieram stanowisko przedmówcy, iż
     rozdział pierwszy powinien zawierać normy generalne. Jedna z tych norm
     powinna dotyczyć prawa własności i swobody działalności gospodarczej.
     Zgadzam się również, iż nie jest dobrze, że w rozdziale o prawach 1
@@ -2228,19 +3852,35 @@
     który powinien podjąć m.in. kwestię wywłaszczenia, ale i kwestię konfiskaty,
     na co trafnie zwrócił uwagę poseł L. Moczulski. Przepadek mienia jako
     legalna kara musi mieć podstawę konstytucyjną.
-  </p>
-  <p class="rep-statement">
-    <strong>Przedstawiciel Prezydenta RP Władysław Kulesza, dr.:</strong>
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
     Uważam, że formuła mówiąca o słusznym odszkodowaniu powinna być utrzymana.
     Jak wskazał prof. K. Działocha, chodzi przede wszystkim o orzecznictwo
     Trybunału Konstytucyjnego, które pojęciu „Słuszne” nadało konkretną treść.
     Chodzi przede wszystkim o ekwiwalentność. Nie jest przypadkowe to, że w
     projekcie przepisów konstytucji przedłożonym przez środowisko biznesmenów
     mowa jest o odszkodowaniu słusznym i godziwym.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Chcę wyrazić swój niepokój w związku z nawoływaniem
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Chcę wyrazić swój niepokój w związku z nawoływaniem
     do — moim zdaniem — nadmiernej lakoniczności przepisów rozdziału pierwszego,
     zwłaszcza gdy chodzi o podstawy ustroju społeczno-gospodarczego. W związku z
     tym chcę przypomnieć, że podkomisja kierowana przez posła R. Bugaja miała za
@@ -2273,28 +3913,49 @@
     wymianę zdań między ekspertami, proszę pana przewodniczącego, aby swoją
     władzą, która dotyczy również ekspertów, przywrócił prof. W. Osiatyńskiego
     na łono tego zespołu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proszę prof. W. Osiatyńskiego, aby zajął miejsce bliżej pozostałych
     członków stałego zespołu ekspertów.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/ZdradaJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Jerzy Zdrada (UW):</strong>
     Mam uwagi do art. 12 i art. 13. Jeżeli chodzi o art. 12, to proponuję
     następujące brzmienie: „Rzeczpospolita Polska chroni własność. Wywłaszczenie
     jest dopuszczalne jedynie na cele publiczne i za słusznym odszkodowaniem”. W
     przypadku art. 13 moja propozycja jest następująca: „Rzeczpospolita Polska
-    zapewnia swobodę i wolność działalności gospodarczej”.
-  </p>
+    zapewnia swobodę i wolność działalności gospodarczej”. Kwestia równości podmiotów w. korzystaniu z uprawnień, czy też kwestia
+    ograniczeń, wynikają moim zdaniem z innych przepisów.
+      </p>
+    </div>
 
   <!--<hr><p class="page-break">strona 87</p><hr>-->
 
-  <p>
-    Kwestia równości podmiotów w. korzystaniu z uprawnień, czy też kwestia
-    ograniczeń, wynikają moim zdaniem z innych przepisów.
-  </p>
-  <p class="rep-statement">
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy ktoś chciałby jeszcze zabrać głos na temat art. 12? Nie ma.
     Przechodzimy zatem do art. 13. Jego ust. 1 w brzmieniu przedłożonym przez
@@ -2305,8 +3966,16 @@
     skreślenie ust. 2. Ust. 3 ma treść następującą: „Ograniczenie swobody
     działalności gospodarczej jest dopuszczalne tylko w ustawie i ze względu na
     ważny interes publiczny”. Otwieram dyskusję.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Stefan Pastuszka (PSL):</strong>
     W imieniu grupy członków Komisji Konstytucyjnej chcę przedstawić
     zmodyfikowane brzmienie art. 13: „Ust. 1. Rzeczpospolita Polska zapewnia
@@ -2327,44 +3996,92 @@
     pod uwagę strukturę gospodarstw rolnych na przykład w Danii, Holandii >czy
     nawet Niemczech lub Hiszpanii, widać, że tego typu gospodarstwa są
     najbardziej efektywne.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy ktoś pragnie jeszcze zabrać głos w kwestii art. 13? Nie ma.
     Przechodzimy zatem do art. 14, dotyczącego pracy. W brzmieniu podkomisji
     jego treść jest następująca: „Praca znajduje się pod ochroną
     Rzeczypospolitej Polskiej. Państwo sprawuje nadzór nad warunkami jej
     wykonywania”. Otwieram dyskusję. A — ma — —— pz
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Chcę poinformować Komisję, że komisja nadzwyczajna, rozpatrująca zmiany w
     Kodeksie pracy, rozważała propozycję przepisów konstytucyjnych dotyczących
     pracy. Jeżeli chodzi o art. 14, to komisja nadzwyczajna nie zgłosiła uwag i
     w peini popiera art. 14.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jan Orzechowski (PSL):</strong>
     Mam inną propozycję brzmienia art. 14. Jest ona następująca: „Praca
     stanowi podstawę rozwoju gospodarczego kraju. Państwo sprawuje nadzór nad
     warunkami jej wykonywania . Tak więc chodzi przede wszystkim o podkreślenie
     roli pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Przypominam o art. 7 z projektu obywatelskiego NSZZ, „Solidarność”, który
     w zdaniu pierwszym stwierdza, że praca jest podstawą rozwoju państwa.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Chcę zapytać, jakie uprawnienia po stronie obywatela niesie za sobą wyraz
     „ochrona”, jeżeli chodzi o pracę.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DrozdekMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>
-      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucj
-    :</strong>
-     Michał Drozdek: W projekcie obywatelskim kwestia pracy została ujęta
+      Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał Drozdek:
+    </strong>
+    W projekcie obywatelskim kwestia pracy została ujęta
     nieco inaczej. Przy okazji ujęcia pracy został określony ustrój gospodarczy,
     czego nie ma w propozycji podkomisji i to nie tylko przy okazji ujmowania
     zagadnienia pracy, ale w całym projekcie konstytucji. Chcę dodać, że art. 7
@@ -2374,8 +4091,16 @@
     Związku. Uważamy, że praca jest elementem tworzenia dóbr gospodarczych. W
     związku z tym uznaliśmy, że cały ustrój gospodarczy powinien być ujęty w
     przepisie dotyczącym pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Odnosząc się do wypowiedzi niektórych poprzedników chcę powiedzieć, że nie
     mam nic przeciwko temu, aby określić funkcje I znaczenie pracy w ustroju
@@ -2383,23 +4108,47 @@
     spowodowali zniesienia tych przepisów, które proponuje podkomisja. Chodzi
     przede wszystkim o utrzymanie kwestii ochrony pracy i nadzoru nad jej
     wykonywaniem.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Jerzy Madej (KD):</strong>
     Moje wątpliwości budzi propozycja senatora J. Orzechowskiego
     stwierdzająca, że praca jest podstawą rozwoju gospodarczego kraju. Nie jest
     to chyba dobra propozycja przepisu konstytucyjnego. Pomija bowiem kwestię
     kapitału i zdolności umysłowych człowieka. Gwarancje powinny obejmować tylko
     prawo dostępu do pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     W moim przekonaniu brzmienie art. 14 w wersji podkomisji jest zawężeniem
     problemu. Wobec tego proponuję następujące brzmienie art. 14: „Władze publiczne zapewniają socjalną,
     ekonomiczną i prawną ochronę pracy. Ochrona socjalna to tworzenie warunków
     do powstawania miejsc pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/JankiewiczPawel.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Paweł Jankiewicz (SLD):</strong>
     Chcę zwrócić uwagę poseł K. Łybackiej, że właśnie jej sformułowanie
     przyniesie zawężenie zakresu ochrony pracy. Jeżeli bowiem jest mowa o
@@ -2413,8 +4162,16 @@
     Chodzi więc o stworzenie systemu ochrony pracy. Tak więc uważam, że
     propozycja podkomisji to pełne ukształtowanie ochrony pracy i gwarancji w
     postaci nadzoru nad warunkami pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (S5LD):</strong>
     Poseł K. Łybacką zachęcam do ponownego przemyślenia swojej propozycji,
     gdyż trzy czynniki w niej zawarte na pewno nie wyczerpują wszystkich
@@ -2426,20 +4183,44 @@
     wskazanie konkretnego organu zajmującego się nadzorem nad warunkami pracy.
     Tego typu kwestie mogą być podjęte, lecz nie w ramach rozdziału pierwszego,
     gdzie należy poprzestać na ogólnej zasadzie ochrony pracy.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Opowiadam się za skreśleniem zdania drugiego w propozycji podkomisji.
     Warunki wykonywania pracy określa wolna i swobodna umowa między pracodawcą 1
     pracownikiem. Państwo nie powinno nadzorować tej kwestii i wkraczać w nią.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: Chcę zwrócić uwagę, aby art. 14 był rozważany w
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    Chcę zwrócić uwagę, aby art. 14 był rozważany w
     połączeniu z art. 48 i 49. Występuje bowiem iunctim merytoryczne między tymi
     przepisami. Podejmują one m.in. kwestie, o których mówiła poseł K. Łybacka.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Czy ktoś chce jeszcze zabrać głos w ramach debaty nad art. 14? Nie ma.
     Efektem debaty są — i będą — zgłoszone wnioski i propozycje poprawek, które
@@ -2453,78 +4234,151 @@
     właściwe byłoby ujęcie tych kwestii w ramach przepisów końcowych lub w
     ramach innego odrębnego rozdziału. Nie chodzi oczywiście o deprecjonowanie
     kwestii symboliki narodowej.
-  </p>
-  <p class="rep-statement">
-    <strong>Ekspert Komisji, prof:</strong>
-    Kazimierz Działocha: W konstytucjach tego typu problematyka jest ujmowana
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
+    W konstytucjach tego typu problematyka jest ujmowana
     różnie. Kwestie symboliki bywają podejmowane wśród początkowych artykułów
     konstytucji. Przykładem może być konstytucja Francji, która w części
     początkowej stwierdza, że hymnem jest „„Marsylianka”. Symbolika jest również
     ujmowana na końcu konstytucji — w ramach rozdziału poświęconego tylko tej
     kwestii. O takiej ewentualności piszemy w naszych uwagach.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Rozumiem więc, że do artykułów: 16, 17 i 18 nie ma uwag merytorycznych.
     Skoro tak, to moglibyśmy zdecydować o ostatecznym usytuowaniu tych
     przepisów, a więc rozdział pierwszy, czy odrębny rozdział w końcowej części
     projektu.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MajewskiWit.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Wit Majewski (SLD):</strong>
     Zwracam uwagę, że przyjęliśmy tytuł rozdziału pierwszego: „Zasady
     ustroju”. Trudno przyjąć, że symbole są zasadami ustroju. Opowiadam się więc
     za odrębnym rozdziałem w końcowej części projektu konstytucji.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KozlowskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Krzysztof Kozłowski (KD):</strong>
     Chcę dodać, że kwestia ta była dyskutowana w trakcie prac podkomisji
     podstaw ustroju politycznego i społeczno-gospodarczego. Upadł pomysł
     stworzenia odrębnego rozdziału. Przeważał pogląd, że kwestie symboli nie
     bardzo mieszczą się w zasadach, ale mogą być ujęte w końcowej części
     rozdziału. pierwszego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Kwestię tę rozstrzygniemy w głosowaniu na następnym posiedzeniu Komisji.
     Ponadto głosowania obejmą artykuły: 11, 12, 13 i 14. Jeżeli podkomisja
     podstaw ustroju politycznego i społeczno-gospodarczego przygotuje
     kompromisową propozycję, to przedmiotem głosowań będzie również art. 15,
     Przechodzimy do rozstrzygnięcia kwestii art. D. Sprawa pierwsza to
-    konieczność dokonania reasumpcji poprzedniego głosowania dotyczącego art. 5.
-    Posiedzenia Komisji Konstytucyjnej ZN
-  </p>
-
-  <!--<hr><p class="page-break">strona 89</p><hr>-->
-
-  <p>
-    z Poddaję pod głosowanie wniosek o reasumpcję głosowania nad art. 5 projektu
+    konieczność dokonania reasumpcji poprzedniego głosowania dotyczącego art. 5. Poddaję pod głosowanie wniosek o reasumpcję głosowania nad art. 5 projektu
     konstytucji. Stwierdzam, że Komisja w głosowaniu, większością 2/7 głosów
     popierających, przy 3 głosach przeciwnych i braku wstrzymujących się,
     przyjęła wniosek. Tak więc powracamy do brzmienia art. 5. Uczestnicy
     posiedzenia otrzymali zestawienie poprawek zgłoszonych do art. 5.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/MazurkiewiczMarek.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
     Chcę zapytać przedstawicieli Prezydenta RP, czy byliby skłonni wycofać
     ust. 3 swojej poprawki, który jest tożsamy z odpowiednimi przepisami
     odnoszącymi się do Trybunału Konstytucyjnego?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/PietrzakMichal.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
     Tak, wycofujemy ust. 3.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Wycofuję swój wniosek oznaczony jako nr 1, gdyż jest on zbieżny z
     wnioskiem nr 3.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/CimoszewiczWlodzimierz.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
     Chcę wycofać moją propozycję oznaczoną nr 6. Miałaby ona sens tylko
     wówczas, gdyby została przyjęta pierwsza poprawka.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
     Mam pewną niejasność wyrażającą się w pytaniu, czy dyskutowany art. 5
     będzie jedynym przepisem dotyczącym partii politycznych. Chodzi zwłaszcza o
@@ -2535,8 +4389,16 @@
     zakresie prawa do zrzeszania się. Gdyby natomiast miała zostać przyjęta jako
     zasada ustroju zasada partyjniactwa, to wówczas zgłosimy brzmienie art. 32
     projektu obywatelskiego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Chcę jednak przypomnieć, że jest jeszcze jeden wniosek, który zostanie
     poddany głosowaniu jeszcze raz. Jest to wniosek senatorów: A. Grześkowiak 1
@@ -2545,10 +4407,18 @@
     pluralizmu politycznego są formą dobrowolnego i równego uczestnictwa
     politycznego w kształtowaniu i wyrażaniu woli obywateli oraz wpływania na
     politykę państwa”.
-  </p>
-  <p class="rep-statement">
-    <strong>Senator Piotr Andrzejewski (NSZZ ,:</strong>
-    S”): Kwestia jest uzupełniona art. 32 ust. 3 projektu obywatelskiego,
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+    <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
+    Kwestia jest uzupełniona art. 32 ust. 3 projektu obywatelskiego,
     który ujęty jest w rozdziale o prawach i wolnościach obywatelskich i ma
     treść następującą: „„Zakazane jest istnienie partii politycznych i
     stowarzyszeń o programie totalitarnym, w tym nazistowskim I komunistycznym,
@@ -2560,8 +4430,16 @@
     który brzmi: „Obywatele mogą zrzeszać się w partie polityczne w celu
     wpływania metodami demokratycznymi na politykę państwa. Ustawa określa
     zasady zgłaszania i trybu rejestracji partii politycznych”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Zwracam również uwagę, że oznaczony jako nr 2 wniosek poseł K. Łybackiej
     nie jest aktualny. Poseł K. Łybacka zgłosiła nowy wniosek, który za chwilę
@@ -2570,22 +4448,46 @@
     porządku konstytucyjnego Rzeczypospolitej Polskiej zrzeszają na zasadach
     dobrowolności i równości obywateli w celu wpływania metodami demokratycznymi
     na kształtowanie polityki państwa”.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KaminskiKrzysztof.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Czy w związku z tym, że propozycja poseł K. Łybackiej nie przewiduje
     formuły, że Rzeczpospolita Polska gwarantuje wolność tworzenia partii
     politycznych, jest to przeoczenie, czy też świadomy zamysł pozbycia się
     gwarancji dla powstawania i istnienia partii politycznych?
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Krystyna Łybacka (SLD):</strong>
     Z brzmienia mojej poprawki wynika dobrowolność zrzeszania się obywateli
     oraz gwarancje ze strony państwa. Konstytucyjnie dopuszczona jest więc
     możliwość tworzenia partii politycznych działających w ramach obowiązującego
     porządku konstytucyjnego.
-  </p>
-  <p class="rep-statement">
+      </p>
+    </div>
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Jeżeli chodzi o głosowanie, to w pierwszej kolejności głosowaniu będzie
     poddany wariant I podkomisji, a następnie wariant II podkomisji, który
@@ -2674,474 +4576,10 @@
     pierwszego i rozstrzygniemy losy artykułów: 16, 17 i 18. Planowane jest
     również rozpoczęcie debaty nad rozdzia-łem drugim. Czy ktoś chciałby zabrać
     głos w sprawach różnych przed zamknięciem posiedzenia? Nie ma. Zamykam
-    posiedzenie. Prasa o pracach konstytucyjnych
-  </p>
-
-  <!--<hr><p class="page-break">strona 91</p><hr>-->
-
-  <p>PRASA O PRACACH KONSTYTUCYJNYCH</p>
-
-  <p>
-    e W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
-    oczywiste błędy rzeczowe są poprawiane w przypisach. e Z publikacji
-    prasowych o szerszym zakresie tematycznym w biuletynie zamieszczane są tylko
-    fragmenty dotyczące problematyki konstytucyjnej. Z zasady nie są
-    przedrukowywane zdjęcia, rysunki, tabele, reprodukcje. e Przedruki ułożone
-    są w zasadzie chronologicznie. Pomocniczo stosowane jest jednak również
-    grupowanie tematyczne. e W związku z wejściem prac konstytucyjnych w fazę
-    ustalania brzmienia przepisów nowej konstytucji, preferencyjnie traktowane
-    są publikacje o charakterze problemowym. „Rzeczpospolita” 14.02.95
-  </p>
-  <p>
-    Komisja Konstytucyjna uchwaliła 10 artykułów przyszłej konstytucji Powolna
-    ucieczka do przodu Jerzy Pilczyński Dziesięć pierwszych artykułów ustawy
-    zasadniczej zdołała w ubiegłym tygodniu uchwalić Komisja Konstytucyjna
-    Zgromadzenia Narodowego podczas swego trzydniowego posiedzenia. Zostały one
-    umieszczone w rozdziale otwierającym projekt, który postanowiono zatytułować
-    „Zasady ustroju”. Można by więc powiedzieć, że prace konstytucyjne ruszyły
-    wreszcie z miejsca i zaczynają przynosić pierwsze efekty. Idzie to jednak
-    opomie. Wcześniejsze deklaracje Aleksandra Kwaśniewskiego, że już w marcu
-    Komisja przedstawi pod obrady Z.gromadzenia Narodowego gotowy projekt,
-    grzeszyły niczym nie uzasadnionym optymizmem. Zanim to nastąpi, przed
-    Komisją jest jeszcze wiele kilkudniowych posiedzeń, co musi potrwać
-    tygodnie, jeśli nie miesiące. Trzeba sobie też zdawać sprawę,że dalsza
-    procedura nie jest wcale prosta i na jej przeprowadzenie potrzeba kilku
-    miesięcy. Jesteśmy więc ciągle jeszcze na początku drogi do nowej ustawy
-    zasadniczej. Tymczasem zaczyna się„psuć pogoda polityczna”. Niektórzy z
-    uczestników prac konstytucyjnych nie kryją obaw, że mogą one znowu pójść na
-    marne, jak to już było w dwóch poprzednich kadencjach. Dla innych jest to
-    doping, aby zwiększyć tempo tych prac. Aleksander Kwaśniewski, który
-    przewodniczy Komisji Konstytucyjnej, zdaje się być nie zrażony tym
-    pogorszeniem politycznego klimatu. Obawia się jedynie, aby konstytucja już
-    po jej uchwaleniu przez Zgromadzenie nie stała się przedmiotem bezwzględnej
-    gry politycznej przed referendum. Gry, w której nie liczyłyby się argumenty
-    merytoryczne, a jedynie argumenty polityczne za bądź przeciw jej twórcom.
-    Przewodniczący Komisji, mimo że sam jest mocno zaabsorbowany obecnym
-    kryzysem politycznym, nie zgodził się odroczyć ubiegłotygodniowego jej
-    posiedzenia, nie oddał też nikomu prowadzenia obrad, aby mieć czas na
-    zastanawianie się nad bieżącą taktyką swego ugrupowania. Wezwał natomiast
-    członków Komisji, aby „nie bacząc na okoliczności tworzyli nadal ustawę
-    zasadniczą”. Czy ta „ucieczka do przodu” ma szanse się powieść, za wcześnie
-    jeszcze, aby wyrokować. Spór o zasady Pierwszy rozdział tworzonego projektu
-    zawiera zasady ogólne. Już na wstępie powstał w Komisji spór, czy takie
-    postanowienia są w konstytucji potrzebne. Profesor Jerzy Ciemniewski, poseł
-    UW, postulował, aby ograniczyć w projekcie do minimum te sformu-łowania,
-    które — jak się wyraził — „mają charakter nie tyle normatywny, ile
-    ideologiczny”. Nowa konstytucja powinna bowiem odróżniać się od poprzedniej,
-    z czasów PRL, która była fasadowa, zawierała wiele deklaracji bez pokrycia,
-    a jej postanowienia na ogół nie nadawały się do bezpośredniego zastosowania
-    ani do egzekwowania przed sądami. W Komisji przeważył jednak pogląd, że nie
-    należy pod tym względem przesadzać, a zasady ogólne zawarte w pierwszym
-    rozdziale są potrzebne i nie można ich pominąć. Bronił tych postanowień
-    reprezentujący projekt „Solidarności” Michał Drozdek. Podkreślał przy tym,
-    że konstytucja to nie tylko regulacjaŚciśle prawna. Jej postanowienia mają
-    istotne znaczenie dla zachowania tożsamości narodowej oraz ciągłości
-    ustrojowoprawnej. Zasadnicze deklaracje w tym zakresie są więc niezbędne.
-    Wspierał go ekspert Komisji, profesor Piotr Winczorek, mówiąc, że
-    konstytucja musi się jednak różnić czymś od regulaminu. Zawarte w pierwszej
-    czę-Ści zasady ogólne mają zresztą normatywny charakter i bogatą treść, choć
-    na pierwszy rzut oka może się wydawać, że są to sformułowania banalne. Ich
-    ujęcie, a nawet kolejność zamieszczenia ma kapitalne
-  </p>
-
-  <!--<hr><p class="page-break">strona 92</p><hr>-->
-
-  <p>| A mama ann mł</p>
-  <p>
-    znaczenie dla właściwego odczytania norm konstytucyjnych zawartych w
-    dalszych rozdziałach. Przy interpretacji przepisów konstytucyjnych odwołuje
-    się do tych zasad Trybunał Konstytucyjny. Ich sformu-łowanie jest więc
-    sprawą szczególnie trudną i odpowiedzialną, Państwo prawne i socjalne Nic
-    dziwnego, że do sporów o ich treść doszło już przy pierwszych artykułach.
-    Kontrowersje wywołał art. 1, mówiący o tym, że „Rzeczpospolita Polska jest
-    demokratycznym państwem prawnym, urzeczywistniającym zasady sprawiedliwości
-    społecznej . Niektóre środki masowego przekazu przyjęły to w sposób opaczny,
-    próbując sugerować, że to jakieś naleciałości z odrzuconej przeszłości.
-    Zasada państwa prawnego znalazła się w naszej konstytucji stosunkowo
-    niedawno, choć jest już obowiązującym standardem europejskim. Zdążyła jednak
-    odegrać niemałą rolę w orzecznictwie Trybunału Konstytucyjnego. Mówiąc
-    najogólniej i w największym uproszczeniu — sprowadza się ona do tego, że
-    państwo kieruje się zawsze w swych działaniach prawem. Również z przepisów
-    konstytucyjnych z 1989 roku, a więc sformułowanych po „okrągłym stole”,
-    pochodzi zasada sprawiedliwości społecznej. Kojarzenie jej tylko z tzw.
-    minioną epoką byłoby niezwykle powierzchowne. Można ją bowiem również
-    wywodzić ze społecznej nauki Kościoła, a zwłaszcza z encykliki papieskiej
-    „Laborem exercens”. Sformułowanie to jest także odpowiednikiem zawartego w
-    art. 20 Konstytucji RFN z 1949 roku pojęcia „Sozialer Rechtsstaat”,
-    oznaczającego socjalne państwo prawne. Norma ta stała się zresztą wzorcem
-    dla powojennej Europy Zachodniej i była stosowana w regulacjach najpierw
-    EWG, a obecnie UE. Jest też zalecana w podpisanych przez Polskę paktach praw
-    socjalnych. W Komisji w istocie nie toczył się spór ani o zasadę państwa
-    prawnego, ani o zasadę państwa socjalnego, bo jet ona na gruncie
-    parlamentarnym przez większość akceptowana, lecz o sposób jej ujęcia. Zasada
-    ta przesądza bowiem o socjalnym, a nie liberalnym charakterze państwa i
-    można ją kojarzyć z solidaryzmem społecznym. Spierano się zaś o to, czy
-    państwo polskie ma się tą zasadą „kierować”, czy ją„urzeczywistniać .
-    Parlamentarzyści z Unii Wolno obawiali się, że to ostatnie sformułowanie
-    jestzbyt kategoryczne, może się więc okazać w naszej sytuacji gospodarczej
-    niewygodne dla władzy i szkodliwe dla gospodarki. Poseł Jan Maria Rokita
-    zgłaszał obawy, czy na tej podstawie obywatele nie będą mogli kiedyś wnosić
-    do sądów skarg o to, że państwo czegoś nie spełnia, a Trybunał Konstytucyjny
-    nie będzie mógł kwestionować kwot zawartych w ustawie budżetowej. Obawy te
-    starał się rozwiewać ekspert Komisji, profesor Kazimierz Działocha,
-    wskazując jednak, że przyjęcie takiej fundamentalnej Prasa o pracach
-    konstytucyjnych normy nie powinno pozostać bez wpływu na katalog praw
-    obywatelskich, a w tym praw socjalnych, oraz na ustawodawstwo. Niektórzy
-    inni eksperci, na przykład profesor Wiktor Osiatyński, podtrzymywali w
-    pewnej mierze obawy, że takie sformułowanie mo-że okazać się niebezpieczne.
-  </p>
-  <p>
-    Dobro wspólne Zasada solidaryzmu społecznego i sprawiedliwości społecznej
-    wiąże się też z art. 2 projektu: „Rzeczpospolita Polska jest dobrem wspólnym
-    wszystkich obywateli”. Na bogatą treść tego artykułu i konsekwencje, jakie
-    można stąd wyciągać, wskazywał ekspert prezydenta doktor Władysław Kulesza.
-    Większość członków Komisji opowiedziała się za art. 3, stanowiącym, że
-    „Rzeczpospolita Polska jest państwem jednolitym i niepodzielnym”.
-    Przeciwnicy tego artykułu twierdzili, że może on wskazywać na nasze narodowe
-    kompleksy, które obecnie nie mają uzasadnienia (Irena Lipowicz — UW).
-    Argumentowano także, że mogłyby stąd wynikać utrudnienia dla uczestnictwa w
-    euroregionach. Zwolennicy tego artykułu, do których zaliczał się m.in.
-    Ryszard Bugaj (UP), uważali jednak, że konstytucję pisze się na długie lata
-    i choć Polsce nie grozi obecnie podział terytorialny, taki artykuł w
-    konstytucji „będzie dodatkową barierą przed zbytłatwym przekraczaniem
-    pewnych granic”.
-  </p>
-  <p>
-    Zwierzchnictwo narodu Po tych trzech artykułach charakteryzujących państwo w
-    art. 4 Komisja postanowiła zawrzeć zasadę zwierzchnictwa narodu: „Władza
-    zwierzchnia w Rzeczypospolitej Polskiej należy do ogółu obywateli —
-    tworzących Naród, który sprawuje ją przez swoich demokratycznie wybranych
-    przedstawicieli lub bezpośrednio”. Spór toczył się o to, czy skoro mowa o
-    „demokratycznie wybranych przedstawicielach”, należy wymienić wyraźnie, że
-    chodzi o Sejm i Senat. Ostatecznie zrezygnowano z tego, aby nie powodować
-    komplikacji. Mogą tu wchodzić w grę również samorządy, a przede wszystkim
-    prezydent. Przyjęto też art. 5, który mówił, że swą zwierzchnią władzę naród
-    sprawuje „za pośrednictwem jawnie finansowanych partii politycznych,
-    działających w ramach porządku konstytucyjnego Rzeczypospolitej Polskiej .
-    Choć partie — jak podkreślali eksperci— są niezbędnym elementem systemu
-    demokratycznego, artykuł ten już po uchwaleniu okazał się zbyt kategorycznie
-    sformułowany. Zachodziła obawa, że narusza on prawo do wolności zrzeszania
-    się I prawa osób bezpartyjnych. Przeprowadzono więc reasumpcję głosowania,
-    eliminując te błędy. Michał Drozdek z Solidarności” proponował, aby zawrzeć
-    w konstytucji wyraźny zakaz działania partii nazistowskich 1
-    komunistycznych. „Czy chodzi o na- Prasa o pracach konstytucyjnych
-  </p>
-
-  <p>
-    zwę, czy o treść?”, „Czy oznaczałoby to delegalizację SdRP?” — pytał Jerzy
-    Wiatr (SLD). „Nie ma obawy, dopóki SdRP nie stosowałaby metod
-    charakterystycznych dla partii rządzących w dawnych czasach” — odpowiadał
-    Drozdek. Jego propozycja nie została jednak przyjęta. Cele państwa Artykuł 6
-    określa cele państwa. Udało się uzgodnić, że „Rzeczpospolita Polska strzeże
-    niepodległości i nienaruszalności swojego terytorium, gwarantuje wolności i
-    prawa człowieka, zapewnia bezpieczeństwo obywateli, strzeże dziedzictwa
-    narodowego oraz zapewnia ochronę Środowiska, kierując się zasadą
-    zrównoważonego rozwoju”. Zasady legalizmu i konstytucjonalizmu zostały
-    zapisane w dwóch kolejnych artykułach. Pierwsza z nich mówi, że: „Wszystkie
-    organy władzy publicznej działają na podstawie i w granicach prawa”. O ile
-    bowiem obywatele mogą czynić wszystko to, czego prawo nie zabrania, o tyle
-    organ państwowy musi mieć zawsze podstawę prawną dla swych poczynań.
-    Najwyższym prawem w Rzeczypospolitej Polskiej jest konstytucja. Jej przepisy
-    stosuje się bezpośrednio, chyba że konstytucja stanowi inaczej. Problem
-    bezpośredniego obowiązywania norm konstytucyjnych wywołał żywą dyskusję.
-    Zgłaszano obawy przed konsekwencjami takiego rozumienia praw Socjalnych,
-    zapisanych w dalszej części projektu. Stąd w artykule tym znalazł się
-    dopisek uwzględniający to, że projekt konstytucji realizację wielu praw
-    odsyła do ustaw zwykłych. Kłopoty z trójpodziałem Po burzliwej dyskusji
-    Komisja Konstytucyjna przyjęła klasyczną formułę trójpodziału władz.
-    Sformułowanie zaproponowane przez posła Jerzego Ciemniewskiego (UW)
-    umieszczono w art. 10. Brzmi ono następująco: „Ustrój Rzeczypospolitej
-    Polskiej opiera się na podziale i równowadze władzy ustawodawczej, władzy
-    wykonawczej i władzy sądowniczej . Do takiego rozwiązania Komisja doszła po
-    reasumpcji poprzedniego głosowania w tej sprawie. Wątpliwości nie budziła
-    sama zasada trójpodziału, lecz sposób jej wyrażenia. Początkowo przyjęto, że
-    trójpodział realizuje się w ten sposób, iż „organami Rzeczypospolitej
-    Polskiej w zakresie władzy ustawodawczej są Sejm 1 Senat, w zakresie władzy
-    wykonawczej — Rada Ministrów, w zakresie władzy sądowniczej — niezależne i
-    niezawisłe sądy i trybunały”. Przyjęcie takiego rozwiązania pozostawiałoby
-    poza nawiasem urząd prezydenta. Błąd ten próbowano naprawić przez dodanie
-    następnego artykułu, który brzmiałby: „Prezydent jest gwarantem ciągłości
-    władzy”. Za przyjęciem takiego kierunkowego rozstrzygnięcia na poprzednim
-    posiedzeniu Komisji opowie93 działo się 40 jej członków. Za tym, aby uznać,
-    że„prezydent stoi na czele władzy wykonawczej , jedynie trzech. Od zamiaru
-    takiego odwiódł Komisję profesor Michał Pietrzak, argumentując, że
-    oznaczałoby to stworzenie nowej zasady, którą trzeba by nazwać
-    czwórpodziałem władz, a która nie jest jeszcze bliżej znana
-    konstytucjonalistom. W rozdziale dotyczącym zasad ogólnych zostało jeszcze
-    do uchwalenia kilka artykułów. Najtrudniej będzie uzgodnić formułę relacji
-    między państwem a Kościołem. „Słowo. Dziennik Katolicki” 15.02.95
-  </p>
-  <p>
-    Konstytucja — spór o kulturę Rozmawiamy z mec. Walerianem Piotrowskim, byłym
-    senatorem RP, przewodniczącym Komisji Konstytucyjnej I kadencji Sejmu RP* e
-    Panie mecenasie, czy w momencie, kiedy Polska przeżywa głęboki kryzys
-    rządowy, kiedy bez przerwy jesteśmy bombardowani informacjami o różnej rangi
-    wydarzeniach i skandalach politycznych warto mówić o podstawach ładu
-    państwowego III Rzeczypospolitej. Oczywiście, tym bardziej że od kilku lat
-    toczy się w Polsce spór o podstawy, na jakich ma być budowane państwo. Czy
-    ma ono być oparte o prawo stanowione przez demokratyczną większość, czy też
-    ma to być państwo demokratyczne, respektujące prawo naturalne, które ma być
-    przed czy ponad państwem. e Prace nad nową Konstytucją RP trwają, nic
-    jeszcze nie jest przesądzone, ale stała się już rzecz jedna — Komisja
-    Konstytucyjna parlamentu postanowiła, że ustawa zasadnicza nie będzie
-    zawierała ani inwokacji, ani preambuły. Jak pan senator ocenia tę decyzję?
-    Myślę, że jest w niej zawarta myśl, iż III Rzeczpospolitą trzeba urządzić
-    inaczej, niż to wynika z polskiej tradycji. Tak jak do niedawna chciano
-    ukształtować nowego, socjalistycznego człowieka, tak teraz wielu obecnych
-    parlamentarzystów uważa,że trzeba zbudować nowe państwo, rządzone wyłącznie
-    zasadą demokratycznej większości, odwołujące się do humanizmu laickiego.
-    Państwo nie odwołujące się ani do tradycji narodowej, ani religijnej.
-    Postanowienie Komisji Konstytucyjnej, iż przyszła Konstytucja RP nie będzie
-    zawierała wezwania Imienia Bożego ani preambuły
-    historyczno-religijno-patriotycznej oznacza budowanie ładu państwa przeciwko
-    narodowi.
-  </p>
-
-  <p>
-    Walerian Piotrowski był przewodniczącym Komisji Konsty-tucyjnej Zgromadzenia
-    Narodowego, składającej się z posłów I kadencji i senatorów II kadencji, w
-    latach 1991-1993 [przyp. wydawcy]. Nie wiadomo jeszcze jaką decyzję podejmie Zgromadzenie Narodowe, jeżeli
-    ono będzie w tym składzie uchwalać Konstytucję, ale można przypuszczać, że
-    zdanie większości posłów i senatorów będzie analogiczne jak Komisji
-    Konstytucyjnej... Boję się, że projekt zawierający preambułę może liczyć na
-    kilkanaście głosów. Znakomita większość parlamentarzystów z SLD, PSL, Unii
-    Wolności czy Unii Pracy, głosować będzie za pominięciem w Konstytucji
-    wezwania Imienia Bożego i preambuły, dlatego, że w projektach, które je
-    zawierają, mówi się o chrześcijańskim charakterze polskiej kultury, o
-    chrześcijańskiej tożsamości polskiego narodu. Sądzę, że tak należy
-    prognozować wynik głosowania. Pamiętajmy, że inwokacji nie zawierają —
-    projekty Unii Wolności, Pana Prezydenta, PSL, Unii Pracy i SLD, a projekt
-    PSL oparty jest na liberalno-laickiej koncepcji państw. I preambułę, i
-    inwokację — wezwanie Imienia Bo-żego — zawierały projekt senacki z 1991
-    roku, później projekt PC, obywatelski projekt „Solidarności , w innej formie
-    niż dwa poprzednie i dwa projekty pozaparlamentame — „Przymierza dla Poli
-    Stronnictwa Narodowo-Demokratycznego. Mamy w historycznej pamięci, że tego
-    rodzaju preambułę — zawierającą wezwanie Imienia Bożego i określenie zespołu
-    wartości, które państwo chce respektować — zawierała Konstytucja 3 Maja 1
-    pierwsza po odzyskaniu niepodległości — Konstytucja Marcowa. e Dostrzegając
-    już pierwsze symptomy poważnego sporu wiele osób, nawet o katolickiej
-    proweniencji, uważało, że może trzeba z tych dwóch elementów Konstytucji
-    zrezygnować, w zamian, by nie wzbudzać nowego konfliktu, próbować mocno
-    osadzić zasady konstytucyjne w prawie naturalnym...— Rzeczywiście —
-    twierdzono, że jeśli polska Konstytucja wyraźnie odwoła się do ONZ-owskiej
-    Deklaracji Praw Człowieka z 1948 roku, która jednoznacznie uznaje, iż
-    wszystkie narody Świata zobowiązane są respektować rozpoznane w tej
-    deklaracji prawa człowieka wywodzące się z jego godności, z prawa natury,
-    nie pochodzące od ustawodawcy państwowego, nie będące wynikiem negocjacji
-    międzynarodowych, to uda się uniknąć sporów. Szybko jednak okazało się, że
-    inkorporowanie ONZ-owskiej deklaracji do polskiej Konstytucji nie zamyka
-    różnej interpretacji. Szczególne wyraźnie można było to dostrzec w debacie o
-    zakres ochronyżycia ludzkiego.
-  </p>
-  <p>
-    e Społeczność katolicka powinna więc pańskim zdaniem bronić prawa do
-    umieszczenia w nowej Konstytucji i inwokacji, i preambuły? Jeżeli chcemy, by
-    ład konstytucyjny, ład prawny naszej ojczyzny oparty był na niezmiennych
-    zasadach konstytucyjnych, to trzeba te zasady dokładPrasa o pracach
-    konstytucyjnych nie określić, według kultury narodu. Jeżeli polska kultura
-    narodowa jest kulturą chrześcijańską, to nie można budować państwa polskiego
-    odrywając go od korzeni. Tym bardziej po tym, co się stało w 1939 roku i w
-    latach następnych, po latach dominacji komunistycznej, wrogiej kulturze
-    narodu. Rzeczpospolita jest państwem narodu polskiego — nie mówię tego w
-    sensie nacjonalistycznym. Państwo jest emanacją narodu polskiego. Jeśli ten
-    naród jest w swojej kulturze chrześcijańskiej to nie można budować państwa,
-    które by ten fakt ignorowało. Oznaczałoby to bowiem budowanie ładu państwa
-    przeciwko narodowi. To jest także uzasadnienie, że nie można aprobować w
-    nowej Konstytucji zasady oddzielenia Kościoła od państwa. Wówczas myśli się
-    o państwie tylko jako o strukturze władzy. Tymczasem państwo, to przede
-    wszystkim naród i terytorium, dopiero później struktura władzy służąca
-    narodowi zorganizowanemu w państwo. Jeżeli tak jest, to nie można stawiać
-    cezury między strukturami władzy a narodem, ponieważ byłoby to sztuczne
-    cięcie, które tworzy warunki do takiej emancypacji, takiego odejścia władzy
-    od narodu, które może zagrażać autokratyzmem, nowym totalitaryzmem. Nie
-    będzie się on już powoływał na marksizm, ale będzie czerpał swoją żywotną
-    siłę z laickiej koncepcji człowieka. Jeżeli więc nie chcemy tego odcięcia
-    władzy od narodu, musimy się opowiedzieć za wezwaniem w Konstytucji Imienia
-    Bożego i za preambułą historyczną. e Ani preambuła, ani inwokacja nie mają
-    jednak charakteru normatywnego... Konstytucja powinna być aktem politycznym,
-    ale nie ma takiej konstytucji, która poprzestałaby na zapisach jurydycznych.
-    Konstytucja jest przecież tak-że pewną wartością, do ktorej powinny odnosić
-    się myśli i czyny obywateli. Czy konstytucja, która nie będzie zawierała
-    odniesienia do dziejów, nie będzie odwoływała się do Boga jako Najwyższego
-    Prawotwórcy (co dla wielu Polaków jest prawdą, którą wyznają), zdolna będzie
-    poruszyć serca, będzie zdolna sprawić, że Polacy staną się współuczestnikami
-    tego, co się w państwie dzieje? Dzisiaj, kiedy doznajemy powszechnego zaniku
-    postaw patriotycznych, jest to przeniesienie historycznego stosunku, jaki
-    Polacy mają do Konstytucji 3 Maja na to, co ma się dziać w przyszłości. Nie
-    wolno nam pozbawiać się w przyszłej Konstytucji RP tego, co stanowi
-    zabezpieczenie przed nadużyciem władzy. e Obawiam się, że nawet
-    pozostawienie inwokacji w nowej Konstytucji niewiele zmieni, jeśli nie
-    zmieni się obyczaj polityczny, a to jest, jak widzimy, proces długotrwały...
-    Wezwanie Imienia Bożego nie ma być dekoracją historyczną, wyniesioną z
-    lamusa, ale ma być zobowiązaniem. Myślę, że ludzie dobrej woli, nawet jeśli
-    nie podzielają wiary w Boga, dostrzegą, iż wezwanie Imienia Bożego jest
-    gwarantem tego, że ich najbardziej podstawowe prawa będą szanowane 1 że dla
-    tych, którzy nie wierzą w Boga to odniesienie do zasady istniejącej ponad
-    państwem uniemożliwi ograniczenie ich praw — wolności, wyznania i sumienia.
-    Dziękuję za rozmowę. Romana Brzezińska „Czas Krakowski” 15.02.95
-  </p>
-  <p>
-    Konstytucja to 1000 lat historii państwa Rozmowa z dr. Andrzejem Smirnowem,
-    współautorem Obywatelskiego Projektu Konstytucji Prawicowi krytycy
-    solidarnościowego projektu konstytucji zarzucają mu syndykalizm i
-    socjalistyczne ciągoty. Co Pan na to? Owszem, w projekcie konstytucji
-    „Solidarnoznalazły się pewne elementy, które są ważne dla związku
-    zawodowego, ale co w tym dziwnego? W końcu projekt był przedłożony przez
-    Komisję Krajową „S”. Jednak te elementy absolutnie nie nadają naszej
-    konstytucji syndykalistycznego charakteru. Pewne szczególne uprawnienia dla
-    reprezentacji pracowniczych tam się znalazły, ale to nie są kwestieŚciśle
-    ustrojowe. To są takie sprawy, jak przede wszystkim zasięganie opinii
-    związanej z budżetem państwa, co oznacza zasięganie opinii nt. wtómego
-    podziału dochodu państwa. To jest w pełni uprawnione. My nie uzurpujemy
-    sobie prawa rozstrzygania o tym. Od tego jest parlament; proponujemy w
-    naszej konstytucji normalną procedurę demokratyczną. W projektach wysuwanych
-    przez inne ugrupowania prawicowe znalazły się elementy, które my mogliby-śmy
-    atakować z innych pozycji. Nie ulega wątpliwości, że mówiąc o prawicy trzeba
-    doprecyzować, o co chodzi. Zatem o co chodzi? My rozumiemy to w taki sposób:
-    to, co nas wszystkich łączy na prawicy, to są pewne wartości, nawiązanie do
-    tradycji, to jest pewne wyobrażenie państwa niepodległego. Natomiast różnimy
-    się w jakimś stopniu co do rozstrzygnięć w kwestiach gospodarczych i
-    społecznych. Dlatego często mówimy o tzw. centroprawicy. Nasz projekt
-    konstytucji został oparty na katolickiej nauce społecznej. Oznacza to, że z
-    jednej strony odrzucamy wszechpotężne państwo socjalne, opiekuńcze, ale z
-    drugiej — wyznaczamy mu rolę pomocniczą. Chcemy, aby pewne rozwiązania
-    systemów społecznych były przez państwo gwarantowane,żeby niektóre kwestie
-    społeczne państwo miało obowiązek rozwiązywać, ale nie w taki sposób, jak to
-    się działo w minionym półwieczu. Dlatego w przepisach wprowadzających
-    piszemy np. o reformie systemu ubezpieczeń społecznych, o uzupełniającym, zdecentralizowanym systemie ubezpieczeń zdrowotnych etc. To jest
-    całkowicie zgodne z tym, co głoszą encykliki papieskie. Kaczyński, Hall i
-    inni ze wstrętem mówią o zbytnio rozbudowanym — ich zdaniem — katalogu praw
-    socjalnych i ekonomicznych w solidarnościowym projekcie konstytucji. To też
-    chybiony zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast
-    zdecydowanie chcemy, aby polityka państwa zmierzała do możliwie pełnego,
-    produktywnego zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru, co
-    też wynika ze spo-łecznej nauki Kościoła. W tym sensie oczywiście ta
-    konstytucja odbiega od pewnych liberalnych rozwiązań gospodarczych, lecz my
-    tam równocześnie bardzo ściśle staramy się określić obszar, w jakim państwo
-    się porusza. Np. w „Zasadach Naczelnpodkreślamy, że źródłem bogactwa państwa
-    jest praca, ale tam również bronimy własności prywatnej, prawa dziedziczenia
-    i mówimy, że ustrój gospodarczy państwa oparty jest na gospodarce rynkowej i
-    solidarności społecznej. Te dwa elementy powinny być nierozdzielnie związane
-    w państwie, którego wizję tworzymy. Parlamentarna Komisja Konstytucyjna
-    zrezygnowała z preambuły, obecnej m.in. w obywatelskim projekcie ustawy
-    zasadniczej. Dlaczego preambuła jest tak ważna? Przede wszystkim dlatego, że
-    mamy bardzo skomplikowaną historię, zwłaszcza w ostatnich dziesięcioleciach.
-    Państwo polskie po II wojnie światowej istniało, chociaż nie było suwerenne.
-    Teraz ważne jest to, do czego my nawiązujemy. Tutaj występuje wyraźny
-    podział 1 to nas różni od postpeerelowskich elit tworzących obecną
-    konstytucję. My uważamy, że Polska nie zaczęła się w tej chwili ani w 1989
-    r., ani w 1945 r., tylko sięga swoimi korzeniami 1000 lat wstecz i to
-    wszystko w preambule piszemy. Nawiązujemy w niej do I Rzeczypospolitej, do
-    Konstytucji 3 Maja, do walki o wolność, wreszcie do okresu międzywojennego —
-    II Rzeczypospolitej. Jednym słowem, stawiamy fundament III Rzeczypospolitej
-    na naszych bogatych tradycjach i doświadczeniach. Mało tego — uważamy, że
-    nasza cała kultura oparta jest na wierze i na tradycji chrześcijańskiej i w
-    takich warunkach się rozwijała. Niestety, są Środowiska, zwłaszcza w
-    parlamencie, które chciałyby to wszystko odrzucić i to jest bardzo
-    niebezpieczne. Wprawdzie preambuła nie ma znaczenia prawnego, ale w końcu
-    wszechstronny rozwój państwa również bazuje na fundamencie przeszłości. Nie
-    ma tu miejsca na szczegółowe roztrząsanie solidarnościowego projektu
-    konstytucji, ale dlaczego ostatni jego rozdział zatytułowany „Przepisy
-    wprowadzające” jest tak długi? Uważamy, że aby Polska mogła się stać
-    państwem prawa, trzeba wpierw wiele spraw uregulować. A więc jest tam mowa o
-    odbudowie niektórych instytucji, np. instytucji sędziego Śledczego, kasacji
-    czy też wspomnianej gruntownej reformie systemu ubezpieczeń społecznych, który się w tej chwili zupełnie zawalił. W tym
-    rozdziale proponujemy ponadto przepisy dotyczące restytucji obywatelstwa
-    polskiego. Proponujemy jeszcze, żeby archiwa UB i SB z lat 1945-89 zostały
-    przekazane do Instytutu Pamięci Narodowej, podobnego do niemieckiego
-    Instytutu Gaucka i aby każdy obywatel miał dostęp do tych dokumentów. Chcemy
-    także powołać komisję badania zbrodni stalinowskich i poddać weryfikacji
-    sędziów pod względem przestrzegania przez nich zasady niezawisłości. Nie
-    zapomnieliśmy o przepisach stwierdzających, że powszechne uwłaszczenie w
-    ramach prywatyzacji mienia państwowego zostaje poprzedzone ustawą
-    reprywatyzacyjną. Trzeba po prostu wiele spraw postawić z głowy na nogi.
-    Zanim to się stanie, nie ma co tumanić narodu sloganami o państwie prawa.
-    Czy autorzy solidarnościowej konstytucji dopuszczają, w toku prac nad
-    ostateczną wersją ustawy, kompromis z innymi projektami? Konstytucja w swoim
-    ostatecznym kształcie będzie się rodziła w parlamencie. W związku z tym,
-    będzie ona tam poddana dalszej obróbce legislacyjnej, będą się toczyły spory
-    nt. określonych zapisów itd. Naturalnie, chcielibyśmy, aby ostateczny
-    projekt >który powstanie w parlamencie, przyjmował naszą wizję państwa. Nie
-    jest najważniejsze, czy poszczególne zapisy naszego projektu przetrwają w
-    obecnej postaci, czy też zostaną trochę zmienione. Nam chodzi o ogólny
-    kształt państwa, o pewną filozofię państwa. Trzeba tu dodać, że pod
-    Obywatelskim Projektem Konstytucji podpisało się półtora miliona osób.
-    Dlatego nie jesteśmy uprawnieni do daleko idących kompromisów. Społeczeństwo
-    polskie wypowie się w referendum konstytucyjnym, które w tej chwili jest
-    ważniejsze od jakichkolwiek wyborów, bo to rozstrzygnie o przyszłości Polski
-    na długie dziesięciolecia. Rozmawiał Henryk Szewczyk „Rzeczpospolita”
-    17.02.95
-  </p>
-  <p>
-    Rada Strategii Społeczno-Gospodarczej Za mało gospodarki w konstytucji
-    Przyszła konstytucja powinna mieć charakter umowy społecznej. Należy w niej
-    zagwarantować prawo do pracy, a rząd powinien zdawać sprawozdanie z tego, co
-    zrobił dla złagodzenia bezrobocia. Niezbywalna jest też w przyszłej ustawie
-    zasadniczej deklaracja sprawiedliwości społecznej. W przedstawionych
-    projektach za mało jest podmiotowości pracowników. Takie głosy w dyskusji
-    nad kształtem gospodarczej części przyszłej konstytucji przeważały wśród
-    uczestników wczorajszego posiedzenia Rady Strategii Społeczno-Gospodarczej.
-    Prasa o pracach konstytucyjnych W opinii profesora Wacława Wilczyńskiego, we
-    wszystkich siedmiu projektach konstytucji, przedłożonych Komisji
-    Konstytucyjnej Zgromadzenia Narodowego, jest akcentowana wolność
-    działalności gospodarczej, jednak z ograniczeniami motywowanyrmi „,interesem
-    publicznym” lub „dobrem ogólnym”. Praca i własność są wymieniane obok
-    wolności jako cechy określające ustrój. Własność występuje jednak
-    najczę-Ściej bez przymiotników „prywatna” lub „publiczna ”. Akcentowana bywa
-    natomiast własność komunalna. Większość projektów podkreśla konieczność
-    praworządnego wywłaszczenia w sytuacjach, które tego wymagają. Jednak tylko
-    projekt Senatu I kadencji podkreśla konieczność „niezwłocznego”
-    odszkodowania. Troska o spadkobierców jest najsilniej akcentowana w
-    projekcie SLD, gdzie postuluje się niski podatek spadkowy. We wszystkich
-    projektach przewiduje się prawo do strajku i do zabezpieczeń społecznych.
-    Najdalej w uprzywilejowaniu pracowników idzie projekt SLD, który nie
-    przewiduje zrzeszeń pracodawców. Większość projektów ustawy zasadniczej
-    postuluje przestrzeganie zasady równowagi budżetowej i obowiązek wskazywania
-    pokrycia zwiększonych wydatków i zmniejszonych dochodów. W przypadku
-    nieuchwalenia budżetu w ustawowym terminie większość projektów przewiduje
-    finansowanie na podstawie projektu budżetu. Tylko dwa projekty opowiadają
-    się za ograniczeniem wydatków do przewidzianych w zeszłorocznym budżecie.
-    Wszystkie projekty wyłączają sprawy podatków i budżetu z ewentualnego
-    referendum, a także akcentują konieczność ustawowego przyzwolenia na
-    zaciąganie przez państwo kredytów i zgody na decyzje zwiększające dług
-    publiczny. Niektóre projekty nawiązują do tradycji z okresu II
-    Rzeczypospolitej i eksponują potrzebę powołania prokuratorii generalnej do
-    ochrony interesów Skarbu Państwa. Projekt senacki proponuje regulację takich
-    dziedzin, jak system kredytowo-pieniężny, finanse publiczne i budżet, zasady
-    systemu bankowego, zarządzanie mieniem Skarbu Państwa itd. przez uchwalenie
-    odrębnych ustaw. Według projektu KPN, Skarb Państwa powinien integrować
-    całość gospodarki i finansów państwa. Wszystkie projekty skupiają się na
-    sprawach procedur powoływania prezesa NBP, mniej zaś na obowiązkach NBP
-    dotyczących np. kształtowania stabilności stosunków pieniężnych. Jedynie
-    projekt SLD uważa bank centralny za wykonawcę polityki monetarnej. Niestety,
-    projektodawcy nie wymieniają, czyjej. W kilku projektach usiłuje się włączyć
-    do ustawy zasadniczej postulaty reform ubezpieczeń społecznych,
-    reprywatyzację i powszechne uwłaszczenie włącznie z terminami ich
-    załatwienia. W niektórych projektach proponuje się nie tylko udział
-    pracowników w zarządzaniu przedsiębiorstwem, lecz także obowiązek
-    informowania pracowników o sytuacji ekonomicznej i finansowej
-    przedsiębiorstwa. Przewodniczący rady, prof. Jan Mujżel, powiedział, że w
-    opracowywanej konstytucji państwa należy precyzyjnie określić nie tylko
-    docelowy ustrój
-  </p>
-
-  <!--<hr><p class="page-break">strona 97</p><hr>-->
-  <p>
-    społeczno-gospodarczy Polski, lecz także relacje między rządem a gospodarką.
-    Według niego, w obecnym projekcie konstytucji „sprawy gospodarki kraju są
-    potraktowane bardzo marginalnie”. Przedstawiciel BCC Jeremi Mordasewicz
-    przypomniał, że ponad 2 mln ludzi w Polsce pracuje na własny rachunek,
-    tymczasem proponowane projekty ustawy zasadniczej w większości nadal
-    przypominają „konstytucję ludu pracującego”. J. Mordasewicz
-  </p>
-  <p>
-    Prasa o pracach Konstytucyjnych wskazał, że w proponowanych zapisach
-    konstytucyjnych dotyczących gospodarki brakuje równowagi w traktowaniu klasy
-    przedsiębiorców i klasy pracobiorców. Powiedział, że aczkolwiek wątpliwe
-    jest wypracowanie jednorodnego stanowiska obecnej rady w sprawie
-    konstytucji, to jednak rada ta może jeszcze odegrać pozytywną rolę przy
-    konstruowaniu ustawy zasadniczej. Krzysztof Grzegrzótka
-  </p>
+    posiedzenie.
+      </p>
+    </div>
+  </div>
 </div>
 
 <Footer />

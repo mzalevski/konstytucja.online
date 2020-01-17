@@ -65,14 +65,14 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)</h3>
-  <h5>
+  <!-- <h5>
     <a
       href="https://drive.google.com/file/d/1awtjblaTcKfacOyLZwlw_y9ki_226um_/view?usp=sharing"
       rel="nofollow"
       target="_blank">
       ORYGINAŁ BIULETYNU
     </a>
-  </h5>
+  </h5> -->
   <p>
     W dniach 7, 8 i 9 lutego 1995 r., Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
@@ -84,11 +84,17 @@
     <a rel="prefetch" href="komisja/13/1">
       <li>Dzień 1 (7 lutego)</li>
     </a>
-    <a rel="prefetch" href="komisja/13/2">
-      <li>Dzień 2 (8 lutego)</li>
+    <a rel="prefetch" href="komisja/13/2.1">
+      <li>Dzień 2 - cz. I (8 lutego)</li>
+    </a>
+        <a rel="prefetch" href="komisja/13/2.1">
+      <li>Dzień 2 - cz. II (8 lutego)</li>
     </a>
     <a rel="prefetch" href="komisja/13/3">
       <li>Dzień 3 (9 lutego)</li>
+    </a>
+        <a rel="prefetch" href="komisja/13/prasa">
+      <li>Prasa</li>
     </a>
   </ul>
 
