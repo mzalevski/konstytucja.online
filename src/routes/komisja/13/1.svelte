@@ -504,7 +504,7 @@
         <strong>Senator Jan Orzechowski (PSL):</strong>
         Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że
         zawierają określenie Rzeczypospolitej Polskiej. Proponuję więc
-        zastąpienie tych trzech artykułów artykułem 1 o treści: „Rzeczpospolita
+        zastąpienie tych trzech artykułów artykułem i o treści: „Rzeczpospolita
         Polska jest demokratycznym państwem prawa, wspólnym dobrem jej
         obywateli, urzeczywistniającym zasady sprawiedliwości społecznej”.
       </p>
@@ -1203,7 +1203,7 @@
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nad przedyskutowanymi kwestiami głosowania odbędą się o godz. 15. Czy są
-        jeszcze wnioski lub poprawki dotyczące art.1?
+        jeszcze wnioski lub poprawki dotyczące art. 1?
       </p>
     </div>
     <div class="speaker">
@@ -1516,7 +1516,7 @@
         Zamierzałam mówić O czymś innym, lecz mój przedmówca sprowokował mnie
         mówiąc o wszechstronnym rozwoju. Wiem bowiem, co ten „rozwój” oznaczał
         dla województwa katowickiego, w którym mieszkam. Oznaczał klęskę
-        ekologiczną 1 zdrowotną. Uważam więc, że „wszechstronny rozwój” powinien
+        ekologiczną i zdrowotną. Uważam więc, że „wszechstronny rozwój” powinien
         być zakazany ustawowo. Nie możemy bowiem rozwijać się wszechstronnie
         >zwłaszcza gospodarczo. Brakuje bowiem wody, powietrza i ziemi. Uważam,
         że pojęcie „Zrównoważony rozwój” m ustalone znaczenie w literaturze
@@ -1919,13 +1919,13 @@
         jest m.in. we Włoszech, lecz formuła ta nie ma charakteru jurydystycznie
         obowiązującego. Natomiast w konstytucji niemieckiej, na podstawie której
         zbudowano ogromne państwo socjalne, znajduje się sformułowanie, zgodnie
-        z którym RFN jest państwem prawnym 1 socjalnym. Sformułowanie o państwie
+        z którym RFN jest państwem prawnym i socjalnym. Sformułowanie o państwie
         socjalnym oznacza, że państwo ma podejmować działania socjalne. Nie
         oznacza natomiast prawa do roszczeń. W związku z omawianym zagadnieniem
         chcę przedstawić kilka argumentów. Kwestia sprawiedliwości społecznej
         została wprowadzona do konstytucji w okresie rządów E. Gierka, a ściślej
         mówiąc w 1976 r. Pojmowanie sprawiedliwości społecznej, zwłaszcza w
-        orzecznictwie Trybunału Konstytucyjnego 1 działalności Rzecznika Praw
+        orzecznictwie Trybunału Konstytucyjnego i działalności Rzecznika Praw
         Obywatelskich, wiąże się przede wszystkim z roszczeniem do pewnych
         działań redystrybucyjnych. Pierwsze pytanie dotyczy więc tego, czy
         konstytucja ma zakładać — zwłaszcza w okresie reform rynkowych — jako
@@ -2576,7 +2576,7 @@
       <p>
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Przypominam, że zgłosiliśmy propozycję: „Rzeczpospolita Polska jest
-        demokratycznym państwem prawnym 1 socjalnym.
+        demokratycznym państwem prawnym i socjalnym.
       </p>
     </div>
     <div class="speaker">
@@ -2920,7 +2920,7 @@
         kwestii, lecz działałem w zaufaniu do pewnych wcześniejszych faktów.
         Proszę również zwrócić uwagę, że kiedy kwestię tę podniósł globalnie
         prof. W. Osiatyński, to zaproponowaliśmy powrót do dyskusji. Wówczas pan
-        przewodniczący powiedział, że nie ma potrzeby 1 wówczas nikt nie
+        przewodniczący powiedział, że nie ma potrzeby i wówczas nikt nie
         protestował. Jeżeli trzeba powr cić do dyskusji, to uczyńmy to, ale
         proszę nie stawiać zarzutu, że chcemy zamknąć dyskusję.
       </p>
@@ -3026,7 +3026,7 @@
         głębokiej dyskusji, lecz jedynie poprosiłem pana przewodniczącego o to,
         aby w sposób rozstrzygający została udzielona odpowiedź na pytanie,
         które mnie nurtuje przed głosowaniem. Wydaje mi się, że pytanie o to,
-        czy Trybunał Konstytucyjny przy sformułowaniu pierwszym 1 przy
+        czy Trybunał Konstytucyjny przy sformułowaniu pierwszym i przy
         sformułowaniu drugim będzie mógł zmieniać podział Śśrodków budżetowych
         na mocy orzeczeń w trybie skargi konstytucyjnej obywateli, czy też nie,
         jest pytaniem dość kluczowym, na które odpowiedź członkowie Komisji
@@ -3078,7 +3078,7 @@
         sprawiedliwości rozdzielczej, o której słusznie mówi się na ogół
         krytycznie. Jest również sprawiedliwość komutatywna, czyli wyrównawcza,
         a więc ta, która zyskuje na znaczeniu w nowych czasach, czyli w
-        warunkach gospodarki wolnorynkowej 1 pełnej ochrony własności. Jest
+        warunkach gospodarki wolnorynkowej i pełnej ochrony własności. Jest
         również sprawiedliwość według nowszej doktryny, czyli tzw.
         sprawiedliwość proceduralna. Ma ona również ślady, choć najmniejsze, w
         orzecznictwie polskiego Trybunału Konstytucyjnego. Należy zwrócić uwagę
@@ -3216,7 +3216,7 @@
         Urząd Rzecznika został więc połączony z zasadą sprawiedliwości
         społecznej. Rzecznik często powoływał się na tę zasadę, nie mogąc
         powołać się ra inne zasady. Przykładem może być kwestia rewaloryzacji
-        książeczek mieszkaniowych. W demokratycznym 1 konstytucyjnym państwie
+        książeczek mieszkaniowych. W demokratycznym i konstytucyjnym państwie
         prawnym obrona tych książeczek opierałaby się na zasadzie prawa
         własności. Podobnie było po 1989 r., kiedy to na skutek niedoskonałości
         konstytucji postępował tak również Trybunał Konstytucyjny. Jako
@@ -3244,7 +3244,7 @@
         normę prawną — w tym również ustawę budżetową — z punktu widzenia jego
         interpretacji tej zasady. Chodzi mi więc o pewną ostrożność. Za lepszą
         uważam formułę stosowaną w Niemczech, która mówi o demokratycznym
-        państwie prawnym 1 socjalnym >daje to wspaniałe rezultaty. Nie mogę
+        państwie prawnym i socjalnym >daje to wspaniałe rezultaty. Nie mogę
         natomiast zgodzić się z prof. L. Wiśniewskim, gdyż uważam, że
         niepełnosprawni i inne osoby skrzywdzone przez los są chronione na
         zasadzie zakazu dyskryminacji. Jeżeli więc — jak rozumiem ze względów
@@ -3759,7 +3759,7 @@
         urzeczywistniającym Zasady sprawiedliwości społecznej”. Stwierdzam, że w
         głosowaniu wniosek uzyskał poparcie 23 członków Komisji. Poddaję pod
         głosowanie wniosek, aby art. 1 miał brzmienie: „Rzeczpospolita Polska
-        jest demokratycznym państwem prawnym 1 socjalnym”. Stwierdzam, że w
+        jest demokratycznym państwem prawnym i socjalnym”. Stwierdzam, że w
         głosowaniu wniosek uzyskał poparcie 8 członków Komisji. Nikt się nie
         wstrzymał. Tak więc art. 1 uzyskał brzmienie: „Rzeczpospolita Polska
         jest demokratycznym państwem prawnym, urzeczywistniającym zasady
@@ -3767,7 +3767,7 @@
         2. W oparciu o zgłoszone wnioski merytoryczne treść art. 2 może
         dotyczyć: po pierwsze — wspólnego dobra wszystkich obywateli, po drugie
         — jednolitości I niepodzielności, po trzecie — praw człowieka
-        >strzeżenia niepodległości 1 terytorium, dziedzictwa kultury, ochrony
+        >strzeżenia niepodległości i terytorium, dziedzictwa kultury, ochrony
         środowiska oraz zrównoważonego rozwoju, po czwarte — sprawowania władzy
         zwierzchniej przez naród. Ponadto zgłoszone zostały dwa dalsze wnioski,
         które proponuję przegłosować odrębnie. Jest to wniosek senator A.
@@ -3930,7 +3930,7 @@
         Nie jestem szczególnie przywiązany do myśli ustrojowej konstytucji
         kwietniowej i choć poseł L. Moczulski podpowiada mi, że była to
         najlepsza konstytucja, to ja jednak nie popieram tego poglądu. Jestem
-        uparty 1 podtrzymuję swój wniosek.
+        uparty i podtrzymuję swój wniosek.
       </p>
     </div>
     <div class="speaker">
@@ -4033,7 +4033,7 @@
         otrzymaliśmy, była wspólna propozycja posła J. Zdrady oraz moja, która
         sprowadzała się do wykreślenia obecnego art. 2. Zawierała natomiast
         propozycje brzmienia czterech pierwszych artykułów, Uważam, że jest to
-        propozycja nadal ważna 1 podtrzymuję ją. Oznacza to również podtrzymanie
+        propozycja nadal ważna i podtrzymuję ją. Oznacza to również podtrzymanie
         wniosku o skreślenie w całości art. 2.
       </p>
     </div>
@@ -4050,7 +4050,7 @@
         o skreślenie art. 2 projektu, który brzmi: „Rzeczpospolita Polska jest
         wspólnym dobrem wszystkich obywateli”. Stwierdzam, że Komisja w
         głosowaniu, większoŚcią 17 głosów przeciwnych, przy 9 głosach
-        popierających i 1 wstrzymującym się, odrzuciła wniosek. Dodam, iż jedna
+        popierających i i wstrzymującym się, odrzuciła wniosek. Dodam, iż jedna
         osoba nie brała udziału w głosowaniu. Zamierzam poddać pod głosowanie
         wniosek o utrzymanie art. 2 projektu jako art. 2 konstytucji.
       </p>
@@ -4112,7 +4112,7 @@
         Przyjmuję wniosek posła R. Bugaja, lecz równocześnie proszę o uwagi na
         temat treści art. 3. Jeżeli chodzi o złożone wnioski, to rysują się
         następujące opcje art. 3: zasada zwierzchnictwa, cele państwa oraz
-        jednolitość 1 niepodzielność. Jeżeli chodzi o tę ostatnią opcję, to
+        jednolitość i niepodzielność. Jeżeli chodzi o tę ostatnią opcję, to
         prof. P. Sarnecki stwierdził, że kwestia ta może być ujęta w rozdziale o
         samorządzie terytorialnym. Zagadnienia te podejmiemy w jutrzejszej
         debacie. Czy przed zamknięciem debaty w dniu dzisiejszym ktoś chciałby

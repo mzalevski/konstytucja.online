@@ -95,31 +95,31 @@
 <svelte:window bind:scrollY={yAxisPosition} />
 
 {#if yAxisPosition > 300}
-  <ToTheTopBtn/>
+  <ToTheTopBtn />
 {/if}
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <div class="header">
-  <div>
-    <h3>Obrady w dniu 8 lutego 1995 r. - część II</h3>
+    <div>
+      <h3>Obrady w dniu 8 lutego 1995 r. - część II</h3>
       <h5>
-    <a
-      href="https://drive.google.com/file/d/1BmvEmQ5t3U6jcKyxuGLt-2q6WydDMNKK/view?usp=sharing"
-      rel="nofollow"
-      target="_blank">
-      ORYGINAŁ BIULETYNU
-    </a>
-  </h5>
-  </div>
-      <div class="small-article-nav">
-    <a rel="prefetch" href="/komisja/13/2.1">
-      <img src="images/angle-left-solid.svg" alt="" />
-    </a>
-    <a rel="prefetch" href="/komisja/13/3">
-      <img src="images/angle-right-solid.svg" alt="" />
-    </a>
-</div>
+        <a
+          href="https://drive.google.com/file/d/1BmvEmQ5t3U6jcKyxuGLt-2q6WydDMNKK/view?usp=sharing"
+          rel="nofollow"
+          target="_blank">
+          ORYGINAŁ BIULETYNU
+        </a>
+      </h5>
+    </div>
+    <div class="small-article-nav">
+      <a rel="prefetch" href="/komisja/13/2.1">
+        <img src="images/angle-left-solid.svg" alt="" />
+      </a>
+      <a rel="prefetch" href="/komisja/13/3">
+        <img src="images/angle-right-solid.svg" alt="" />
+      </a>
+    </div>
   </div>
 
   <div class="protocol">
@@ -138,32 +138,44 @@
         naszej pracy. Słowa podziękowania kieruję na ręce ministra W.
         Sawickiego. Proponuję najpierw wysłuchać pana ministra, który zapozna
         nas ze sposobem korzystania z kart do głosowania, bo zasada jest nieco
-        inna niż na sali obrad plenarnych Sejmu. Szef Kancelarii Senatu,
-        minister Wojciech Sawicki: System ten różni się tylko tym, że przed
-        rozpoczęciem każdego głosowania będziecie musieli państwo nacisnąć
-        dodatkowy przycisk, który nie występuje w aparaturze sejmowej. Jest to
-        przycisk obecności. Czy wszyscy członkowie Komisji Konstytucyjnej dysponują kartami do
-        głosowania? Sprawdzimy teraz obecność. Jest nas 31 osób, a więc jest
-        qworum. Informuję, że teraz będziemy głosować nad wnioskami, które
-        zgłoszono przed południem. Dylemat pierwszy dotyczy art. 4 projektu
-        podkomisji, którzy brzmi: „Rzeczpospolita Polska jest Państwem
-        jednolitym i niepodzielnym”. W dyskusji zarysowały się dwa stanowiska.
-        Pierwsze, żeby ten przepis utrzymać a by był to art. 3 w naszym
-        projekcie. Druga propozycja dotyczy usunięcia tego artykułu ze względu
-        na to, iż w przepisach poświęconych samorządowi terytorialnemu
-        wyczerpana jest merytoryczna zawartość tego artykułu. Głosować będziemy
-        nad jego utrzymaniem. Przypominam, że zgodnie z opiniami ekspertów,
-        jeżeli przepis ten miałby znaleźć się w konstytucji, to powinien być to
-        art. 3. Kto jest za tym, aby osobny artykuł o przytoczonym brzmieniu
-        znalazł się w konstytucji? Za wnioskiem głosowało 27 osób, przeciw — 511
-        osoba wstrzymała się od głosu. Przyjęliśmy, że ten artykuł powinien
-        znaleźć się w konstytucji. Przechodzimy do kolejnego głosowania. Kto z
-        członków Komisji Konstytucyjnej jest za ujęciem tego przepisu w art. 3
-        projektu konstytucji? Za umieszczeniem przepisu w art. 3 głosowało 21
-        osób, przeciw — 14 i nikt nie wstrzymał się od głosu. Przyjęliśmy
-        następujące brzmienie art. 3: „„Rzeczpospolita Polska jest Państwem
-        jednolitym 1 niepodzielnym”. Przechodzimy do kolejnego głosowania.
-        Eksperci proponują, aby w art. 4 znalazły się kwestie dotyczące władzy
+        inna niż na sali obrad plenarnych Sejmu.
+      </p>
+    </div>
+
+    <div class="speaker">
+      <img
+        src="/images/kk-speakers/szaro/SawickiWojciech.png"
+        alt=""
+        loading="lazy"
+        width="110"
+        height="110" />
+      <p>
+        <strong>Szef Kancelarii Senatu, minister Wojciech Sawicki:</strong>
+        System ten różni się tylko tym, że przed rozpoczęciem każdego głosowania
+        będziecie musieli państwo nacisnąć dodatkowy przycisk, który nie
+        występuje w aparaturze sejmowej. Jest to przycisk obecności. Czy wszyscy
+        członkowie Komisji Konstytucyjnej dysponują kartami do głosowania?
+        Sprawdzimy teraz obecność. Jest nas 31 osób, a więc jest qworum.
+        Informuję, że teraz będziemy głosować nad wnioskami, które zgłoszono
+        przed południem. Dylemat pierwszy dotyczy art. 4 projektu podkomisji,
+        którzy brzmi: „Rzeczpospolita Polska jest Państwem jednolitym i
+        niepodzielnym”. W dyskusji zarysowały się dwa stanowiska. Pierwsze, żeby
+        ten przepis utrzymać a by był to art. 3 w naszym projekcie. Druga
+        propozycja dotyczy usunięcia tego artykułu ze względu na to, iż w
+        przepisach poświęconych samorządowi terytorialnemu wyczerpana jest
+        merytoryczna zawartość tego artykułu. Głosować będziemy nad jego
+        utrzymaniem. Przypominam, że zgodnie z opiniami ekspertów, jeżeli
+        przepis ten miałby znaleźć się w konstytucji, to powinien być to art. 3.
+        Kto jest za tym, aby osobny artykuł o przytoczonym brzmieniu znalazł się
+        w konstytucji? Za wnioskiem głosowało 27 osób, przeciw — 511 osoba
+        wstrzymała się od głosu. Przyjęliśmy, że ten artykuł powinien znaleźć
+        się w konstytucji. Przechodzimy do kolejnego głosowania. Kto z członków
+        Komisji Konstytucyjnej jest za ujęciem tego przepisu w art. 3 projektu
+        konstytucji? Za umieszczeniem przepisu w art. 3 głosowało 21 osób,
+        przeciw — 14 i nikt nie wstrzymał się od głosu. Przyjęliśmy następujące
+        brzmienie art. 3: „Rzeczpospolita Polska jest Państwem jednolitym 1
+        niepodzielnym”. Przechodzimy do kolejnego głosowania. Eksperci
+        proponują, aby w art. 4 znalazły się kwestie dotyczące władzy
         zwierzchniej, czyli to, co jest treścią art. 6. Cele państwa, czyli to,
         co jest treścią art. 3 projektu podkomisji, byłyby umieszczone po art.
         10. Taka jest propozycja naszych ekspertów. Mamy następujący wybór: czy
@@ -298,8 +310,9 @@
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Jest to tożsame. Gdyby istniała konieczność uzupełnienia artykułu o taką
         definicję, to jestem skłonny ją zaakceptować, ponieważ odnośnie takiej
-        definicji narodu panuje konsens.</p>
-        </div>
+        definicji narodu panuje konsens.
+      </p>
+    </div>
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/LipowiczIrena.png"
@@ -309,8 +322,9 @@
         height="110" />
       <p>
         <strong>Poseł Irena Lipowicz (UW):</strong>
-        Spędziliśmy 5 godzin na dyskusji nad tym zagadnieniem. Poseł W. Cimoszewicz nie był obecny, co rozumiem, ale w
-        tej chwili nie możemy powtarzać dyskusji.
+        Spędziliśmy 5 godzin na dyskusji nad tym zagadnieniem. Poseł W.
+        Cimoszewicz nie był obecny, co rozumiem, ale w tej chwili nie możemy
+        powtarzać dyskusji.
       </p>
     </div>
     <div class="speaker">
@@ -534,9 +548,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 48      </p>
-    </div><hr>-->
-    <div class="speaker">
+        <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
         alt=""
@@ -630,7 +642,7 @@
         głosu. Przechodzimy do przegłosowania wniosku senatora P.
         Andrzejewskiego z pkt. 7: „Art. 6. Ust. 1. Władza zwierzchnia w
         Rzeczypospolitej należy do Narodu. Ust. 2. Naród sprawuje ją przez swych
-        przedstawicieli wybieranych do Sejmu 1 Senatu, powołanego w powszechnym
+        przedstawicieli wybieranych do Sejmu i Senatu, powołanego w powszechnym
         głosowaniu Prezydenta Rzeczypospolitej, odpowiedzialny przed Sejmem Rząd
         oraz niezawisłe sądy. Ust. 3. Sprawowanie władzy następuje także poprzez
         wyrażenie woli w referendum oraz obywatelską inicjatywę ustawodawczą”.
@@ -1110,9 +1122,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 51      </p>
-    </div><hr>-->
-
+    
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/MadejJerzy.png"
@@ -1917,9 +1927,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 55      </p>
-    </div><hr>-->
-    <div class="speaker">
+        <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
         alt=""
@@ -1977,9 +1985,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 56      </p>
-    </div><hr>-->
-
+    
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/LipowiczIrena.png"
@@ -2073,7 +2079,7 @@
         </strong>
         Jako członek Rady Legislacyjnej chciałbym stwierdzić, że na posiedzeniu
         Rady przedstawiciele nauki prawa międzynarodowego wypowiadali się
-        przeciwko wprowadzaniu nieokreślonych 1 niejednoznacznie
+        przeciwko wprowadzaniu nieokreślonych i niejednoznacznie
         interpretowanych, niepisanych zasad prawa międzynarodowego. Byłoby to
         wprowadzenie do źródeł prawa polskiego nieokreślonych zasad prawa
         niestanowionego, prawa zwyczajowego. Faktem jest, że Polska jest
@@ -2125,9 +2131,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 57      </p>
-    </div><hr>-->
-
+    
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
@@ -2159,8 +2163,8 @@
         międzynarodowych, o powszechnie uznane zasady prawa międzynarodowego.
         Przykłady podstawowych zasad: pacta sunt servanta, rebus Sic stantibus,
         lex retro non agit. Trudno nie zapisać tych zasad jako klauzul
-        generalnych dla interpretacji 1 stosowania prawa w Polsce. Zgodnie z
-        projektem prof. W. Osiatyńskiego 1 posła R. Grodzickiego proponuję
+        generalnych dla interpretacji i stosowania prawa w Polsce. Zgodnie z
+        projektem prof. W. Osiatyńskiego i posła R. Grodzickiego proponuję
         przenieść tę dziedzinę do rozdziału III, w którym będziemy wymieniać
         Źródła prawa. Jeżeli przesądzimy, że Źródła prawa, mają być wymienione w
         zasadach naczelnych, to dyskusja nasza ma prawo obywatelstwa. Jeżeli
@@ -2270,9 +2274,7 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 58      </p>
-    </div><hr>-->
-    <div class="speaker">
+        <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/RotHenryk.png"
         alt=""
@@ -2701,10 +2703,10 @@
         sprawowana przez rozdzielone i wzajemnie równoważące się (oraz
         współdziałające) organy ustawodawcze, wykonawcze i sądownicze. Wariant
         I. Ust. 2. Organami Rzeczypospolitej Polskiej w zakresie władzy
-        ustawodawczej jest Sejm 1 Senat, w zakresie władzy wykonawczej — Rada
+        ustawodawczej jest Sejm i Senat, w zakresie władzy wykonawczej — Rada
         Ministrów, w zakresie władzy sądowniczej — niezależne (niezawisłe) sądy
         (1 trybunały). Wariant II. Ust. 2. Władza ustawodawcza wykonywana jest
-        przez Sejm 1 Senat, władza wykonawcza przez Prezydenta i Radę Ministrów,
+        przez Sejm i Senat, władza wykonawcza przez Prezydenta i Radę Ministrów,
         władza sądownicza — przez niezależne (i niezawisłe) sądy (i trybunały)”.
       </p>
     </div>
@@ -2864,7 +2866,7 @@
         realizuje inną politykę. Powstaje problem — co zrobić z prezydentem.
         Jeżeli ma być wybierany przez naród i posiadać funkcje nie mieszczące
         się w klasycznym trójpodziale władzy, to w wariancie I trzeba dodać ust.
-        3 1 określić rolę prezydenta jako gwaranta jednolitości i ciągłości
+        3 i określić rolę prezydenta jako gwaranta jednolitości i ciągłości
         władzy. Nie może tak być, żeby w artykule o podstawowych organach władzy
         zabrakło prezydenta wybieranego przez naród. Prosiłbym ekspertów o
         doszlifowanie ust. 3, określającego prezydenta jako gwaranta ciągłości
@@ -3151,7 +3153,7 @@
         okres kilku miesięcy do najbliższych wyborów, że konstytucję pisze się
         przeciw określonej osobie. Historia się powtarza, bo tak było zarówno z
         konstytucją marcową, jak i z konstytucją kwietniową. Nic nowego pod
-        słońcem także 1 dzisiaj. Konstytucję tworzy się chyba na okres co
+        słońcem także i dzisiaj. Konstytucję tworzy się chyba na okres co
         najmniej jednego pokolenia. Takie powinny być ambitne zamiary twórców
         ustawy zasadniczej. Pewne względy współczesne nie powinny prowadzić do
         zmiany całej koncepcji ustroju państwowego. Jeżeli odejdziemy od

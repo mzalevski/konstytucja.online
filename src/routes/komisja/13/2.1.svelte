@@ -95,30 +95,30 @@
 <svelte:window bind:scrollY={yAxisPosition} />
 
 {#if yAxisPosition > 300}
-  <ToTheTopBtn/>
+  <ToTheTopBtn />
 {/if}
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div class="header">
-  <div>
-    <h3>Obrady w dniu 8 lutego 1995 r. - część I</h3>
+    <div>
+      <h3>Obrady w dniu 8 lutego 1995 r. - część I</h3>
       <h5>
-    <a
-      href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
-      rel="nofollow"
-      target="_blank">
-      ORYGINAŁ BIULETYNU
-    </a>
-  </h5>
-  </div>
-      <div class="small-article-nav">
-    <a rel="prefetch" href="/komisja/13/1">
-      <img src="images/angle-left-solid.svg" alt="" />
-    </a>
-    <a rel="prefetch" href="/komisja/13/2.2">
-      <img src="images/angle-right-solid.svg" alt="" />
-    </a>
-</div>
+        <a
+          href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
+          rel="nofollow"
+          target="_blank">
+          ORYGINAŁ BIULETYNU
+        </a>
+      </h5>
+    </div>
+    <div class="small-article-nav">
+      <a rel="prefetch" href="/komisja/13/1">
+        <img src="images/angle-left-solid.svg" alt="" />
+      </a>
+      <a rel="prefetch" href="/komisja/13/2.2">
+        <img src="images/angle-right-solid.svg" alt="" />
+      </a>
+    </div>
   </div>
 
   <div class="protocol">
@@ -390,7 +390,7 @@
         istnieć również w ramach poszczególnych struktur federacyjnych.
         Przykładem mogą być chociażby Stany Zjednoczone. Uważam, że w
         konstytucji powinien być zamieszczony artykuł stwierdzający, że państwo
-        jest jednolite 1 niepodzielne. W art. 11 oraz w art. 197 i następnych
+        jest jednolite i niepodzielne. W art. 11 oraz w art. 197 i następnych
         nie stwierdzono, że państwo polskie ma charakter jednolity i
         niepodzielny. Jest to tylko interpretacja.
       </p>
@@ -412,7 +412,7 @@
         terytorialnego, autonomii i regionalizacji. Uporządkowanie trochę
         rozchwianej debaty jest obowiązkiem konstytucji. Formuła ta nawiązuje
         wyraźnie do francuskich tradycji republikańskich, jest elementem
-        myślenia o państwie demokratycznym 1 nie zawiera żadnych pierwiastków
+        myślenia o państwie demokratycznym i nie zawiera żadnych pierwiastków
         szowinistycznych. Jest to próba uporządkowania myślenia o państwie,
         które zbliżając się do Europy musi zachować własną tożsamość. Jeżeli
         przypomnimy sobie fakty, nie tylko prasowe, ale potwierdzone przez
@@ -520,7 +520,7 @@
         height="110" />
       <p>
         <strong>Poseł Longin Pastusiak (SLD):</strong>
-        Logicznie rzecz biorąc przepis o jednolitym 1 niepodzielnym charakterze
+        Logicznie rzecz biorąc przepis o jednolitym i niepodzielnym charakterze
         państwa pasowałby raczej do rozdziału dotyczącego samorządów, ale
         abstrahując od historycznych kompleksów chciałbym zwrócić uwagę, że
         wczoraj rząd Słowacji sprzeciwił się przystąpieniu siedmiu powiatów do
@@ -569,9 +569,6 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 29      </p>
-    </div><hr>-->
-
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/WinczorekPiotr.png"
@@ -617,7 +614,7 @@
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Głosujemy nad następującą kwestią merytoryczną. Czy w artykułach
         wstępnych konstytucji ma znaleźć się przepis mówiący o tym, że
-        Rzeczpospolita Polska jest państwem jednolitym 1 niepodzielnym? Kto jest
+        Rzeczpospolita Polska jest państwem jednolitym i niepodzielnym? Kto jest
         za uwzględnieniem tego przepisu w art. 3? Za wnioskiem głosowało 14
         członków Komisji, przeciw — 11 i 2 wstrzymało się od głosu. Nie mamy
         quorum, więc nie możemy podejmować rozstrzygających decyzji. W tej
@@ -875,7 +872,7 @@
         aksjologiczne byłyby szerzej uwzględnione w preambule konstytucji.
         Przyjęliśmy, że preambuły nie będzie, więc minimum zawarte w art. 3
         powinno znaleźć się w początkowych fragmentach konstytucji, przed
-        charakterystyką państwa 1 strukturą władzy.
+        charakterystyką państwa i strukturą władzy.
       </p>
     </div>
     <div class="speaker">
@@ -1072,14 +1069,14 @@
         height="110" />
       <p>
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
-        Dostrzegam pewne różnice, ale chętnie przedyskutuję projekt z prof.
-        W. Osiatyńskim. Propozycja pojawiła się nagle i wymaga przemyślenia.
-        Jest problem gwarancji i obowiązków państwa, które zapewnia
-        niepodległość w formie obrony. Określamy cele państwa, a nie Środki
-        działania. „Broni” jest to funkcja czasownikowa, a „gwarantuje” oznacza
-        obowiązek wpisany do konstytucji. Nie można jednego wyrazu zestawiać w
-        oderwaniu od innych, proszę więc o czas na przedyskutowanie tego
-        sformułowania z prof. w. Osiatyńskim.
+        Dostrzegam pewne różnice, ale chętnie przedyskutuję projekt z prof. W.
+        Osiatyńskim. Propozycja pojawiła się nagle i wymaga przemyślenia. Jest
+        problem gwarancji i obowiązków państwa, które zapewnia niepodległość w
+        formie obrony. Określamy cele państwa, a nie Środki działania. „Broni”
+        jest to funkcja czasownikowa, a „gwarantuje” oznacza obowiązek wpisany
+        do konstytucji. Nie można jednego wyrazu zestawiać w oderwaniu od
+        innych, proszę więc o czas na przedyskutowanie tego sformułowania z
+        prof. w. Osiatyńskim.
       </p>
     </div>
     <div class="speaker">
@@ -1257,9 +1254,6 @@
         obowiązkach obywatelskich.
       </p>
     </div>
-
-    <!--<hr><p class="page-break">strona 33      </p>
-    </div><hr>-->
 
     <div class="speaker">
       <img
@@ -1645,9 +1639,6 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 35      </p>
-    </div><hr>-->
-
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
@@ -1884,7 +1875,9 @@
         width="110"
         height="110" />
       <p>
-        <strong>Ekspert Komisji, prof. Kazimierz Działocha:<strong>
+        <strong>
+          Ekspert Komisji, prof. Kazimierz Działocha:
+          <strong>
             Dyskusja dotyczy zasadniczego problemu. Chciałbym uświadomić Komisji
             możliwe rozstrzygnięcia w tej kwestii. Czy chodzi o pojęcie
             przedstawicielstwa polityczno-prawnego, czy pojęcie
@@ -1938,9 +1931,6 @@
         poseł zgłosi propozycję przepisu, o którym mówiła?
       </p>
     </div>
-
-    <!--<hr><p class="page-break">strona 37      </p>
-    </div><hr>-->
 
     <div class="speaker">
       <img
@@ -2015,9 +2005,6 @@
         podniesiona, to istnieje możliwość jej przegłosowania.
       </p>
     </div>
-
-    <!--<hr><p class="page-break">strona 38      </p>
-    </div><hr>-->
 
     <div class="speaker">
       <img
@@ -2146,11 +2133,11 @@
         poseł K. Łybackiej jest o tyle zasadna, że jeśli spojrzymy na dalsze
         artykuły, a w szczególności na art. 9, którym próbujemy osłabić pozycję
         prezydenta, powiadając, że nie jest organem władzy wykonawczej, tylko
-        gwarantem 1 arbitrem stojącym poza strukturą władzy, i jeśli sięgniemy
+        gwarantem i arbitrem stojącym poza strukturą władzy, i jeśli sięgniemy
         do art. 171, w którym mowa jest o orzeczeniach Trybunału Konstytucyjnego
         i tylko jedna wersja zakłada, że są one bezwzględnie ostateczne, a trzy
         pozostałe przewidują, że parlament ma coś jeszcze do powiedzenia, to
-        wówczas stwierdzenie, że tylko Sejm 1 Senat są emanacją narodu, jest
+        wówczas stwierdzenie, że tylko Sejm i Senat są emanacją narodu, jest
         uzasadnione. W tym znaczeniu warto by poprzeć propozycję poseł K.
         Łybackiej.
       </p>
@@ -2764,9 +2751,6 @@
       </p>
     </div>
 
-    <!--<hr><p class="page-break">strona 43      </p>
-    </div><hr>-->
-
     <div class="speaker">
       <img
         src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
@@ -2840,9 +2824,6 @@
         art. 10 projektu podkomisji. Do rozstrzygnięcia mamy kilka kwestii.
       </p>
     </div>
-
-    <!--<hr><p class="page-break">strona 44      </p>
-    </div><hr>-->
 
     <div class="speaker">
       <img
@@ -2933,7 +2914,7 @@
         dyskusji, kiedy będziemy mówili o Trybunale Konstytucyjnym i Sądzie
         Najwyższym. W jaki sposób można wykorzystać uwagę prof. A.
         Rzeplińskiego, aby w przepisie dotyczącym partii politycznych znalazła
-        się zasada działania zgodnego z prawem 1 niestosowania przez nie
+        się zasada działania zgodnego z prawem i niestosowania przez nie
         przemocy? Można to dopisać do przedstawionych już propozycji. O godz. 15
         powinniśmy przegłosować następujące propozycje: usunięcie przepisu —
         były takie wnioski — 1 przegłosowanie wariantów art. 10. Następnie
@@ -2995,9 +2976,6 @@
         tej sprawie.
       </p>
     </div>
-
-    <!--<hr><p class="page-break">strona 45      </p>
-    </div><hr>-->
 
     <div class="speaker">
       <img

@@ -113,7 +113,7 @@
       <a rel="prefetch" href="komisja/13">Biuletyn nr 13</a>
     </li>
     <li>
-      <a rel="prefetch" href="komisja">Biuletyn nr 14</a> Prace w toku... 🧰🔨
+      <a rel="prefetch" href="komisja/14">Biuletyn nr 14</a>
     </li>
     <li>
       <a rel="prefetch" href="komisja">Biuletyn nr 15</a> Prace w toku... 🧰🔨

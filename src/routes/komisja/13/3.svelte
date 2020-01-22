@@ -1943,7 +1943,7 @@
     podkomisji, gdyż pomija instytucję prezydenta. Przechodzimy do głosowań.
     Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji wraz
     z wyrazami: „i trybunały”. Stwierdzam, że Komisja w głosowaniu, większością
-    18 głosów popierających, przy 12 głosach przeciwnych i 1 wstrzymującym się,
+    18 głosów popierających, przy 12 głosach przeciwnych i i wstrzymującym się,
     przyjęła wniosek. Tak więc propozycja podkomisji uzyskała treść: „Ust. 1.
     Władza państwowa jest sprawowana przez rozdzielone i wzajemnie równoważące
     się oraz współdziałające organy ustawodawcze, wykonawcze i sądownicze. Ust.
@@ -2005,7 +2005,7 @@
     wniosek o przyjęcie propozycji senator A. Grześkowiak, o następującej
     treŚci: „Ust. 1. Władza państwowa jest sprawowana przez rozdzielone 1
     wzajemnie równoważące się organy ustawodawcze, wykonawcze i sądownicze. Ust.
-    2. Władza ustawodawcza wykonywana jest przez Sejm 1 Senat, władza wykonawcza
+    2. Władza ustawodawcza wykonywana jest przez Sejm i Senat, władza wykonawcza
     przez Prezydenta i Rząd, na którego czele stoi Premier, władza sądownicza —
     przez niezależne i niezawisłe sądy”. Stwierdzam, że w głosowaniu wniosek
     uzyskał 3 głosy popierające, 26 głosów przeciwnych, przy 4 wstrzymujących
@@ -2828,7 +2828,7 @@
     trwałym elementem ustroju państwa. Projekt obywatelski idzie daleko w tym
     kierunku, nie przewidując ograniani preferencji na rzecz partii
     politycznych. Każda inna forma samorządu jest nieodłącznie związana z
-    trendem ustrojowym 1 z zasadami, które widzimy jako podstawę funkcjonowania
+    trendem ustrojowym i z zasadami, które widzimy jako podstawę funkcjonowania
     III Rzeczypospolitej. Wydaje się więc, że oddzielenie samorządu
     terytorialnego od zapewnienia możliwości działania innych form samorządu
     jest — na zasadzie wniosków a contrario — upośledzeniem życia samorządowego

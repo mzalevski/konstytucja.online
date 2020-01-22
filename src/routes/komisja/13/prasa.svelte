@@ -161,7 +161,7 @@
       wcześnie jeszcze, aby wyrokować.
     </p>
 
-    <p class="subtitle">Spór o zasady</p>
+    <p class="bold">Spór o zasady</p>
 
     <p>
       Pierwszy rozdział tworzonego projektu zawiera zasady ogólne. Już na
@@ -190,7 +190,7 @@
       więc sprawą szczególnie trudną i odpowiedzialną.
     </p>
 
-    <p class="subtitle">Państwo prawne i socjalne</p>
+    <p class="bold">Państwo prawne i socjalne</p>
 
     <p>
       Nic dziwnego, że do sporów o ich treść doszło już przy pierwszych
@@ -230,51 +230,60 @@
       na katalog praw obywatelskich, a w tym praw socjalnych, oraz na
       ustawodawstwo. Niektórzy inni eksperci, na przykład profesor Wiktor
       Osiatyński, podtrzymywali w pewnej mierze obawy, że takie sformułowanie
-      mo-że okazać się niebezpieczne. Dobro wspólne Zasada solidaryzmu
-      społecznego i sprawiedliwości społecznej wiąże się też z art. 2 projektu:
-      „Rzeczpospolita Polska jest dobrem wspólnym wszystkich obywateli”. Na
-      bogatą treść tego artykułu i konsekwencje, jakie można stąd wyciągać,
-      wskazywał ekspert prezydenta doktor Władysław Kulesza. Większość członków
-      Komisji opowiedziała się za art. 3, stanowiącym, że „Rzeczpospolita Polska
-      jest państwem jednolitym i niepodzielnym”. Przeciwnicy tego artykułu
-      twierdzili, że może on wskazywać na nasze narodowe kompleksy, które
-      obecnie nie mają uzasadnienia (Irena Lipowicz — UW). Argumentowano także,
-      że mogłyby stąd wynikać utrudnienia dla uczestnictwa w euroregionach.
-      Zwolennicy tego artykułu, do których zaliczał się m.in. Ryszard Bugaj
-      (UP), uważali jednak, że konstytucję pisze się na długie lata i choć
-      Polsce nie grozi obecnie podział terytorialny, taki artykuł w konstytucji
-      „będzie dodatkową barierą przed zbytłatwym przekraczaniem pewnych granic”.
+      mo-że okazać się niebezpieczne.
+    </p>
+    <p class="bold">Dobro wspólne</p>
+    <p>
+      Zasada solidaryzmu społecznego i sprawiedliwości społecznej wiąże się też
+      z art. 2 projektu: „Rzeczpospolita Polska jest dobrem wspólnym wszystkich
+      obywateli”. Na bogatą treść tego artykułu i konsekwencje, jakie można stąd
+      wyciągać, wskazywał ekspert prezydenta doktor Władysław Kulesza. Większość
+      członków Komisji opowiedziała się za art. 3, stanowiącym, że
+      „Rzeczpospolita Polska jest państwem jednolitym i niepodzielnym”.
+      Przeciwnicy tego artykułu twierdzili, że może on wskazywać na nasze
+      narodowe kompleksy, które obecnie nie mają uzasadnienia (Irena Lipowicz —
+      UW). Argumentowano także, że mogłyby stąd wynikać utrudnienia dla
+      uczestnictwa w euroregionach. Zwolennicy tego artykułu, do których
+      zaliczał się m.in. Ryszard Bugaj (UP), uważali jednak, że konstytucję
+      pisze się na długie lata i choć Polsce nie grozi obecnie podział
+      terytorialny, taki artykuł w konstytucji „będzie dodatkową barierą przed
+      zbytłatwym przekraczaniem pewnych granic”.
     </p>
 
+    <p class="bold">Zwierzchnictwo narodu</p>
+
     <p>
-      Zwierzchnictwo narodu Po tych trzech artykułach charakteryzujących państwo
-      w art. 4 Komisja postanowiła zawrzeć zasadę zwierzchnictwa narodu: „Władza
-      zwierzchnia w Rzeczypospolitej Polskiej należy do ogółu obywateli —
-      tworzących Naród, który sprawuje ją przez swoich demokratycznie wybranych
-      przedstawicieli lub bezpośrednio”. Spór toczył się o to, czy skoro mowa o
-      „demokratycznie wybranych przedstawicielach”, należy wymienić wyraźnie, że
-      chodzi o Sejm i Senat. Ostatecznie zrezygnowano z tego, aby nie powodować
-      komplikacji. Mogą tu wchodzić w grę również samorządy, a przede wszystkim
-      prezydent. Przyjęto też art. 5, który mówił, że swą zwierzchnią władzę
-      naród sprawuje „za pośrednictwem jawnie finansowanych partii politycznych,
-      działających w ramach porządku konstytucyjnego Rzeczypospolitej Polskiej .
-      Choć partie — jak podkreślali eksperci— są niezbędnym elementem systemu
-      demokratycznego, artykuł ten już po uchwaleniu okazał się zbyt
-      kategorycznie sformułowany. Zachodziła obawa, że narusza on prawo do
-      wolności zrzeszania się I prawa osób bezpartyjnych. Przeprowadzono więc
-      reasumpcję głosowania, eliminując te błędy. Michał Drozdek z Solidarności”
-      proponował, aby zawrzeć w konstytucji wyraźny zakaz działania partii
-      nazistowskich 1 komunistycznych. „Czy chodzi o nazwę, czy o treść?”, „Czy
-      oznaczałoby to delegalizację SdRP?” — pytał Jerzy Wiatr (SLD). „Nie ma
-      obawy, dopóki SdRP nie stosowałaby metod charakterystycznych dla partii
-      rządzących w dawnych czasach” — odpowiadał Drozdek. Jego propozycja nie
-      została jednak przyjęta. Cele państwa Artykuł 6 określa cele państwa.
-      Udało się uzgodnić, że „Rzeczpospolita Polska strzeże niepodległości i
-      nienaruszalności swojego terytorium, gwarantuje wolności i prawa
-      człowieka, zapewnia bezpieczeństwo obywateli, strzeże dziedzictwa
-      narodowego oraz zapewnia ochronę Środowiska, kierując się zasadą
-      zrównoważonego rozwoju”. Zasady legalizmu i konstytucjonalizmu zostały
-      zapisane w dwóch kolejnych artykułach. Pierwsza z nich mówi, że:
+      Po tych trzech artykułach charakteryzujących państwo w art. 4 Komisja
+      postanowiła zawrzeć zasadę zwierzchnictwa narodu: „Władza zwierzchnia w
+      Rzeczypospolitej Polskiej należy do ogółu obywateli — tworzących Naród,
+      który sprawuje ją przez swoich demokratycznie wybranych przedstawicieli
+      lub bezpośrednio”. Spór toczył się o to, czy skoro mowa o „demokratycznie
+      wybranych przedstawicielach”, należy wymienić wyraźnie, że chodzi o Sejm i
+      Senat. Ostatecznie zrezygnowano z tego, aby nie powodować komplikacji.
+      Mogą tu wchodzić w grę również samorządy, a przede wszystkim prezydent.
+      Przyjęto też art. 5, który mówił, że swą zwierzchnią władzę naród sprawuje
+      „za pośrednictwem jawnie finansowanych partii politycznych, działających w
+      ramach porządku konstytucyjnego Rzeczypospolitej Polskiej . Choć partie —
+      jak podkreślali eksperci— są niezbędnym elementem systemu demokratycznego,
+      artykuł ten już po uchwaleniu okazał się zbyt kategorycznie sformułowany.
+      Zachodziła obawa, że narusza on prawo do wolności zrzeszania się I prawa
+      osób bezpartyjnych. Przeprowadzono więc reasumpcję głosowania, eliminując
+      te błędy. Michał Drozdek z Solidarności” proponował, aby zawrzeć w
+      konstytucji wyraźny zakaz działania partii nazistowskich 1
+      komunistycznych. „Czy chodzi o nazwę, czy o treść?”, „Czy oznaczałoby to
+      delegalizację SdRP?” — pytał Jerzy Wiatr (SLD). „Nie ma obawy, dopóki SdRP
+      nie stosowałaby metod charakterystycznych dla partii rządzących w dawnych
+      czasach” — odpowiadał Drozdek. Jego propozycja nie została jednak
+      przyjęta.
+    </p>
+    <p class="bold">Cele państwa</p>
+    <p>
+      Artykuł 6 określa cele państwa. Udało się uzgodnić, że „Rzeczpospolita
+      Polska strzeże niepodległości i nienaruszalności swojego terytorium,
+      gwarantuje wolności i prawa człowieka, zapewnia bezpieczeństwo obywateli,
+      strzeże dziedzictwa narodowego oraz zapewnia ochronę Środowiska, kierując
+      się zasadą zrównoważonego rozwoju”. Zasady legalizmu i konstytucjonalizmu
+      zostały zapisane w dwóch kolejnych artykułach. Pierwsza z nich mówi, że:
       „Wszystkie organy władzy publicznej działają na podstawie i w granicach
       prawa”. O ile bowiem obywatele mogą czynić wszystko to, czego prawo nie
       zabrania, o tyle organ państwowy musi mieć zawsze podstawę prawną dla
@@ -284,8 +293,11 @@
       wywołał żywą dyskusję. Zgłaszano obawy przed konsekwencjami takiego
       rozumienia praw Socjalnych, zapisanych w dalszej części projektu. Stąd w
       artykule tym znalazł się dopisek uwzględniający to, że projekt konstytucji
-      realizację wielu praw odsyła do ustaw zwykłych. Kłopoty z trójpodziałem Po
-      burzliwej dyskusji Komisja Konstytucyjna przyjęła klasyczną formułę
+      realizację wielu praw odsyła do ustaw zwykłych.
+    </p>
+    <p class="bold">Kłopoty z trójpodziałem</p>
+    <p>
+      Po burzliwej dyskusji Komisja Konstytucyjna przyjęła klasyczną formułę
       trójpodziału władz. Sformułowanie zaproponowane przez posła Jerzego
       Ciemniewskiego (UW) umieszczono w art. 10. Brzmi ono następująco: „Ustrój
       Rzeczypospolitej Polskiej opiera się na podziale i równowadze władzy
@@ -294,7 +306,7 @@
       sprawie. Wątpliwości nie budziła sama zasada trójpodziału, lecz sposób jej
       wyrażenia. Początkowo przyjęto, że trójpodział realizuje się w ten sposób,
       iż „organami Rzeczypospolitej Polskiej w zakresie władzy ustawodawczej są
-      Sejm 1 Senat, w zakresie władzy wykonawczej — Rada Ministrów, w zakresie
+      Sejm i Senat, w zakresie władzy wykonawczej — Rada Ministrów, w zakresie
       władzy sądowniczej — niezależne i niezawisłe sądy i trybunały”. Przyjęcie
       takiego rozwiązania pozostawiałoby poza nawiasem urząd prezydenta. Błąd
       ten próbowano naprawić przez dodanie następnego artykułu, który brzmiałby:
@@ -380,7 +392,7 @@
       dla Poli Stronnictwa Narodowo-Demokratycznego. Mamy w historycznej
       pamięci, że tego rodzaju preambułę — zawierającą wezwanie Imienia Bożego i
       określenie zespołu wartości, które państwo chce respektować — zawierała
-      Konstytucja 3 Maja 1 pierwsza po odzyskaniu niepodległości — Konstytucja
+      Konstytucja 3 Maja i pierwsza po odzyskaniu niepodległości — Konstytucja
       Marcowa.
     </p>
     <p class="bold">
@@ -524,7 +536,7 @@
       ważna? Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię,
       zwłaszcza w ostatnich dziesięcioleciach. Państwo polskie po II wojnie
       światowej istniało, chociaż nie było suwerenne. Teraz ważne jest to, do
-      czego my nawiązujemy. Tutaj występuje wyraźny podział 1 to nas różni od
+      czego my nawiązujemy. Tutaj występuje wyraźny podział i to nas różni od
       postpeerelowskich elit tworzących obecną konstytucję. My uważamy, że
       Polska nie zaczęła się w tej chwili ani w 1989 r., ani w 1945 r., tylko
       sięga swoimi korzeniami 1000 lat wstecz i to wszystko w preambule piszemy.
@@ -575,7 +587,9 @@
       <p class="newspaper">„Rzeczpospolita”</p>
       <p class="date">17 lutego 1995 r.</p>
       <p class="title">
-        Rada Strategii Społeczno-Gospodarczej:<br/>Za mało gospodarki w konstytucji
+        Rada Strategii Społeczno-Gospodarczej:
+        <br />
+        Za mało gospodarki w konstytucji
       </p>
       <p class="author">Krzysztof Grzegrzółka</p>
     </div>
