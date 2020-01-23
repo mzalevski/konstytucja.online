@@ -32,7 +32,7 @@
   }
   .article-metadata,
   .press-article {
-    border: 1px dotted rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 3px;
   }

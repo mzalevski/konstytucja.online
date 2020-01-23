@@ -33,8 +33,8 @@
 
   .speaker p {
     padding: 2.5rem;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
     border-radius: 3px;
   }
   .protocol .speaker:nth-child(odd) img {

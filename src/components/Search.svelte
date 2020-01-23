@@ -8,12 +8,13 @@
   .search input {
     box-sizing: content-box;
     margin: 12px 0px 16px 8px;
-    border: dotted 1px;
+    border: solid 1px;
+    border-radius: 5px;
     min-width: 12em;
     min-height: 2em;
     outline: none;
     padding: 0 0px 0 30px;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.1);
     background-position-x: 0.2em;
     background-position-y: 0.2em;
     background-size: 20px;
@@ -95,7 +96,6 @@
       margin: 0.2em 0;
       width: 100%;
       max-width: none;
-      border-radius: 3px;
     }
     .chapter-pick:after,
     .chapter-pick:before {

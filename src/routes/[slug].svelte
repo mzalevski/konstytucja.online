@@ -48,7 +48,7 @@
 
 <style>
   .low-opacity {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.35);
   }
   .no-dots :global(li) {
       list-style-type: none;

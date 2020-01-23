@@ -9,9 +9,9 @@
   .article {
     margin: 1em 0em;
     padding: 1em;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     text-align: justify;
   }
 

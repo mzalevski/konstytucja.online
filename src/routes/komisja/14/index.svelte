@@ -29,7 +29,8 @@
     list-style-type: none;
     padding: 1rem;
     margin-right: 2rem;
-    border: 1px dotted black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     height: 3rem;
   }
   .days a {

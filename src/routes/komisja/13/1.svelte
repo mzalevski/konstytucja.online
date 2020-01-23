@@ -28,14 +28,14 @@
   }
   .speaker img {
     min-width: 110px;
-    border-radius: 3px;
+    border-radius: 5px;
   }
 
   .speaker p {
     padding: 2.5rem;
-    border: dotted 1px;
-    border-color: rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
   .protocol .speaker:nth-child(odd) img {
     margin: 0 1em 0 0;
