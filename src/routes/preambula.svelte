@@ -2,7 +2,6 @@
   import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
-  import Typewriter from "svelte-typewriter";
 </script>
 
 <style>
@@ -28,8 +27,15 @@
   .bc4 {
     border-color: rgba(160, 40, 40, 0.65);
   }
-
   @media (max-width: 1100px) {
+    p {
+      font-size: 1.25rem;
+    }
+    .decor-border {
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 600px) {
     p {
       font-size: 1rem;
     }
@@ -73,75 +79,70 @@
   <div class="decor-border bc2" in:fly={{ y: 100, duration: 1000 }}>
     <div class="decor-border bc3" in:fly={{ y: 140, duration: 1400 }}>
       <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000 }}>
-        <Typewriter cascade={true} interval={[15, 30, 45]}>
-          <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
-          <p>
-            odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
-            stanowienia o Jej losie,
-          </p>
-          <p>my, Naród Polski - wszyscy obywatele Rzeczypospolitej,</p>
-          <p>
-            zarówno wierzący w Boga będącego źródłem prawdy, sprawiedliwości,
-            dobra i piękna,
-          </p>
-          <p>jak i nie podzielający tej wiary,</p>
-          <p>a te uniwersalne wartości wywodzący z innych źródeł,</p>
-          <p>
-            równi w prawach i w powinnościach wobec dobra wspólnego - Polski,
-          </p>
-          <p>
-            wdzięczni naszym przodkom za ich pracę, za walkę o niepodległość
-            okupioną ogromnymi ofiarami, za kulturę zakorzenioną w
-            chrześcijańskim dziedzictwie Narodu i ogólnoludzkich wartościach,
-          </p>
-          <p>
-            nawiązując do najlepszych tradycji Pierwszej i Drugiej
-            Rzeczypospolitej,
-          </p>
-          <p>
-            zobowiązani, by przekazać przyszłym pokoleniom wszystko, co cenne z
-            ponad tysiącletniego dorobku,
-          </p>
-          <p>
-            złączeni więzami wspólnoty z naszymi rodakami rozsianymi po świecie,
-          </p>
-          <p>
-            świadomi potrzeby współpracy ze wszystkimi krajami dla dobra Rodziny
-            Ludzkiej,
-          </p>
-          <p>
-            pomni gorzkich doświadczeń z czasów, gdy podstawowe wolności i prawa
-            człowieka były w naszej Ojczyźnie łamane,
-          </p>
-          <p>
-            pragnąc na zawsze zagwarantować prawa obywatelskie, a działaniu
-            instytucji publicznych zapewnić rzetelność i sprawność,
-          </p>
-          <p>
-            w poczuciu odpowiedzialności przed Bogiem lub przed własnym
-            sumieniem,
-          </p>
-          <p>ustanawiamy Konstytucję Rzeczypospolitej Polskiej</p>
-          <p>jako prawa podstawowe dla państwa</p>
-          <p>
-            oparte na poszanowaniu wolności i sprawiedliwości, współdziałaniu
-            władz, dialogu społecznym oraz na zasadzie pomocniczości
-          </p>
-          <p>umacniającej uprawnienia obywateli i ich wspólnot.</p>
-          <p>
-            Wszystkich, którzy dla dobra Trzeciej Rzeczypospolitej tę
-            Konstytucję będą stosowali,
-          </p>
-          <p>
-            wzywamy, aby czynili to, dbając o zachowanie przyrodzonej godności
-            człowieka,
-          </p>
-          <p>jego prawa do wolności i obowiązku solidarności z innymi,</p>
-          <p>
-            a poszanowanie tych zasad mieli za niewzruszoną podstawę
-            Rzeczypospolitej Polskiej.
-          </p>
-        </Typewriter>
+        <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
+        <p>
+          odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
+          stanowienia o Jej losie,
+        </p>
+        <p>my, Naród Polski - wszyscy obywatele Rzeczypospolitej,</p>
+        <p>
+          zarówno wierzący w Boga będącego źródłem prawdy, sprawiedliwości,
+          dobra i piękna,
+        </p>
+        <p>jak i nie podzielający tej wiary,</p>
+        <p>a te uniwersalne wartości wywodzący z innych źródeł,</p>
+        <p>równi w prawach i w powinnościach wobec dobra wspólnego - Polski,</p>
+        <p>
+          wdzięczni naszym przodkom za ich pracę, za walkę o niepodległość
+          okupioną ogromnymi ofiarami, za kulturę zakorzenioną w chrześcijańskim
+          dziedzictwie Narodu i ogólnoludzkich wartościach,
+        </p>
+        <p>
+          nawiązując do najlepszych tradycji Pierwszej i Drugiej
+          Rzeczypospolitej,
+        </p>
+        <p>
+          zobowiązani, by przekazać przyszłym pokoleniom wszystko, co cenne z
+          ponad tysiącletniego dorobku,
+        </p>
+        <p>
+          złączeni więzami wspólnoty z naszymi rodakami rozsianymi po świecie,
+        </p>
+        <p>
+          świadomi potrzeby współpracy ze wszystkimi krajami dla dobra Rodziny
+          Ludzkiej,
+        </p>
+        <p>
+          pomni gorzkich doświadczeń z czasów, gdy podstawowe wolności i prawa
+          człowieka były w naszej Ojczyźnie łamane,
+        </p>
+        <p>
+          pragnąc na zawsze zagwarantować prawa obywatelskie, a działaniu
+          instytucji publicznych zapewnić rzetelność i sprawność,
+        </p>
+        <p>
+          w poczuciu odpowiedzialności przed Bogiem lub przed własnym sumieniem,
+        </p>
+        <p>ustanawiamy Konstytucję Rzeczypospolitej Polskiej</p>
+        <p>jako prawa podstawowe dla państwa</p>
+        <p>
+          oparte na poszanowaniu wolności i sprawiedliwości, współdziałaniu
+          władz, dialogu społecznym oraz na zasadzie pomocniczości
+        </p>
+        <p>umacniającej uprawnienia obywateli i ich wspólnot.</p>
+        <p>
+          Wszystkich, którzy dla dobra Trzeciej Rzeczypospolitej tę Konstytucję
+          będą stosowali,
+        </p>
+        <p>
+          wzywamy, aby czynili to, dbając o zachowanie przyrodzonej godności
+          człowieka,
+        </p>
+        <p>jego prawa do wolności i obowiązku solidarności z innymi,</p>
+        <p>
+          a poszanowanie tych zasad mieli za niewzruszoną podstawę
+          Rzeczypospolitej Polskiej.
+        </p>
       </div>
     </div>
   </div>
