@@ -19,7 +19,7 @@
   .bc3 { border-color: rgba(160, 40, 40, 0.5) }
   .bc4 { border-color: rgba(160, 40, 40, 0.65) }
 
-  @media (max-width: 500px) {
+  @media (max-width: 1100px) {
     p {
       font-size: 1rem;
     }
