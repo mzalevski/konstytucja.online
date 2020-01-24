@@ -73,7 +73,7 @@
   <div class="decor-border bc2" in:fly={{ y: 100, duration: 1000 }}>
     <div class="decor-border bc3" in:fly={{ y: 140, duration: 1400 }}>
       <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000 }}>
-        <Typewriter cascade={true} interval={[30, 50, 80]}>
+        <Typewriter cascade={true} interval={[15, 30, 45]}>
           <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
           <p>
             odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
