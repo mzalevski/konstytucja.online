@@ -73,11 +73,14 @@
 
   .small-article-nav {
     text-align: right;
-    width: 60px;
+    width: 40px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .small-article-nav a img {
-    width: 25px;
+    width: 12.5px;
     height: 25px;
   }
 
