@@ -1609,6 +1609,11 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svelte-typewriter@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/svelte-typewriter/-/svelte-typewriter-2.1.3.tgz#3299a7585bade57dffac1de27dece741645ec0f6"
+  integrity sha512-MMw0pDf+iQq2C1JHEXwrlJULD7Op31Q5oEUJ5IubvTaTfX5ZL0/SY+ZpA6Id9xZxr/4QfNXCUguN83g8AgtMZw==
+
 svelte@^3.0.0:
   version "3.16.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.16.2.tgz#6ecfc78c24c23a2dc1a80f1fadadcc074b6d586f"
