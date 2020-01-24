@@ -19,11 +19,17 @@
   .bc3 { border-color: rgba(160, 40, 40, 0.5) }
   .bc4 { border-color: rgba(160, 40, 40, 0.65) }
 
-  @media (max-width: 1100px) {
-    .bc1, .bc2, .bc3, .bc4 {
-      padding: 0;
-      border-color: transparent;
+  @media (max-width: 500px) {
+    p {
+      font-size: 1rem;
     }
+    .decor-border {
+      padding: 1rem;
+    }
+    .bc1 { border-color: rgba(160, 40, 40, 0.025) }
+    .bc2 { border-color: rgba(160, 40, 40, 0.05) }
+    .bc3 { border-color: rgba(160, 40, 40, 0.1) }
+    .bc4 { border-color: rgba(160, 40, 40, 0.2) }
   }
 </style>
 
