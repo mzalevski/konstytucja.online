@@ -3,10 +3,8 @@
     display: flex;
     border-top: 1px solid rgba(160, 40, 40, 0.1);
     font-weight: 300;
-    padding: 0 0em;
-    margin: 0 auto;
-    margin-top: 1em;
-    max-width: 65em;
+    padding: 0;
+    margin: 1rem 0 0 0;
     justify-content: center;
     text-align: center;
   }
