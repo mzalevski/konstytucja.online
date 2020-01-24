@@ -23,8 +23,8 @@
 </style>
 
   <button id="back-to-the-top-btn"
-  in:fly={{ y: 200, duration: 2000 }}
-  on:click={() => window.scroll(0, 0)}>
+    in:fly={{ y: 200, duration: 2000 }}
+    on:click={() => window.scroll(0, 0)}>
 
     <img src="images/angle-double-up-solid.svg" alt="" />
 

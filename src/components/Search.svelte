@@ -1,9 +1,30 @@
 <script>
   import { fly, fade } from "svelte/transition";
-  import { searchedText, selectedChapter } from "../stores";
+  import { createEventDispatcher } from "svelte";
+
+  export let count;
+
+  const dispatch = createEventDispatcher();
+
+  let selectedChapter;
+  let searchedText = "";
+
+  function sendChoice() {
+    dispatch("searchMessage", {
+      text: searchedText,
+      chapter: selectedChapter
+    });
+  }
 </script>
 
 <style>
+  .counter {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 14px;
+    right: 5px;
+  }
   .chapter-pick select,
   .search input {
     box-sizing: content-box;
@@ -28,6 +49,9 @@
   .search input {
     background-image: url("/images/search.png");
   }
+  .search {
+    position: relative;
+  }
   .search input:focus,
   .chapter-pick select:focus {
     border: 1px solid black;
@@ -47,10 +71,10 @@
     right: 20px;
     top: 11px;
     height: 48px;
-    border-right: 1px dotted;
-    border-bottom: 1px dotted;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
     border-top: 2px double;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.1);
     background-position-x: 100px;
     background-position-y: 10px;
     background-size: 20px;
@@ -63,10 +87,10 @@
     right: 27px;
     top: 11px;
     height: 48px;
-    border-left: 1px dotted;
-    border-bottom: 1px dotted;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
     border-top: 2px double;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.1);
     background-position-x: 10px;
     background-position-y: 10px;
     background-size: 20px;
@@ -83,6 +107,10 @@
   }
 
   @media (max-width: 1100px) {
+    .counter {
+      top: 4px;
+      right: 10px;
+    }
     .search-bar {
       display: block;
     }
@@ -106,6 +134,9 @@
     }
   }
   @media (max-width: 500px) {
+    .counter {
+      top: 8px;
+    }
     .chapter-pick:after,
     .chapter-pick:before {
       top: 1px;
@@ -118,11 +149,12 @@
 
 <div class="search-bar" in:fly={{ y: -100, duration: 1000 }}>
   <div class="search">
-    <input bind:value={$searchedText} />
+    <input bind:value={searchedText} on:input={sendChoice} />
+    <div class="counter">{count}</div>
   </div>
   <div class="arrow-helper-div">
     <div class="chapter-pick">
-      <select bind:value={$selectedChapter}>
+      <select bind:value={selectedChapter} on:change={sendChoice}>
         <option value="_">
           Wszystkie rozdziały
           <img src="images/search.png" alt="" />
@@ -153,4 +185,5 @@
       </select>
     </div>
   </div>
+
 </div>

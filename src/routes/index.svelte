@@ -10,14 +10,30 @@
 
 <script>
   import { fly, fade } from "svelte/transition";
-  import { searchedText, selectedChapter } from "../stores";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
-  let yAxisPosition;
+
   export let articles;
+  let yAxisPosition;
+  let selectedArticles = articles;
+  let searchedText;
+  let selectedChapter;
+
+  function handleSearch(e) {
+    selectedChapter = e.detail.chapter;
+    searchedText = e.detail.text;
+    selectedArticles = articles.filter(article => {
+      return (
+        (article.chapter["id"] === selectedChapter || selectedChapter === "_") &&
+        (new RegExp(`[ >]${searchedText.replace(/[\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi')
+        .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), '')) ||
+        article.title.toLowerCase().includes(searchedText.replace(/\\/g, '').toLowerCase()))
+      );
+    });
+  }
 </script>
 
 <svelte:head>
@@ -38,34 +54,31 @@
 <svelte:window bind:scrollY={yAxisPosition} />
 
 <Nav>
-  <Search />
+  <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
 </Nav>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-
-  {#each articles as article}
-
-    {#if $selectedChapter === '_' && $searchedText === ''}
-
+  {#if selectedArticles.length === articles.length}
+    {#each selectedArticles as article}
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
         title={article.title}
         chapter={article.chapter} />
+    {/each}
+  {:else}
+    {#each selectedArticles as article}
 
-    {:else if article.chapter['id'] === $selectedChapter || $selectedChapter === '_'}
-
-      {#if $searchedText === ''}
+      {#if searchedText === ''}
 
         <Article {...article} />
 
-      {:else if new RegExp(`[ >]${$searchedText.replace(/[\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi')
-        .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), ''))}
+      {:else}
 
           <Article
             html={article.html.replace(
-              new RegExp(`[ >]${$searchedText.replace(/[\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi'), (match, offset, string) => {
-                  if ($searchedText !== '' && !['href', 'clas', 'rel='].includes(string.slice(offset + 1, offset + 5))) {
+              new RegExp(`[ >]${searchedText.replace(/[\<\>\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi'), (match, offset, string) => {
+                  if (!['href', 'clas', 'rel='].includes(string.slice(offset + 1, offset + 5))) {
                     return `${match.slice(0, 1)}<span style="background-color: rgb(255, 200, 200)">${match.slice(1)}</span>`;
                   }
                 }
@@ -74,16 +87,9 @@
             title={article.title}
             chapter={article.chapter} />
 
-      {:else if article.title.toLowerCase().includes($searchedText.replace(/\\/g, '').toLowerCase())}
-
-        <Article {...article} />
-
       {/if}
-
-    {/if}
-
-  {/each}
-
+    {/each}
+  {/if}
 </div>
 
 {#if yAxisPosition > 300}
