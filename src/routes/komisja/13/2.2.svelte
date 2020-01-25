@@ -800,7 +800,7 @@
         height="110" />
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-        Panie poŚle J. Szymański, czy dla dobra sprawy nie moglibyśmy się
+        Panie pośle J. Szymański, czy dla dobra sprawy nie moglibyśmy się
         porozumieć? Tak. Dziękuję. Przechodzimy do artykułu, który we wnioskach
         z dnia 8 lutego zawarty jest w punktach 8-12. Czy wnioskodawcy mają
         dodatkowe propozycje? Głosowanie zaczniemy od wniosku najdalej idącego,
@@ -1643,7 +1643,7 @@
       <p>
         <strong>Poseł Janusz Szymański (UP):</strong>
         Jest to kwestia przyjęcia pewnej koncepcji. Obok zasady legalizmu była
-        dotychczas formułowana zasada praworządnoŚci, która nakładała obowiązek
+        dotychczas formułowana zasada praworządności, która nakładała obowiązek
         przestrzegania prawa przez organy państwowe. Po tej dyskusji mógłbym
         zrezygnować z zasady praworządności sformułowanej w ust. 1, ponieważ
         zasada legalizmu uzyskuje pełny wymiar przy rozpoczęciu przepisów
@@ -1737,7 +1737,7 @@
         państwa prawnego jest tak pojemna, że mieści w sobie wiele kwestii.
         Według dzisiejszych poglądów i judykatury Trybunału Konstytucyjnego
         mieści ona prawo do sądu, zasadę nieretroakcji w prawie, kontrolę
-        konstytucyjnoŚci prawa, czyli badanie zgodności prawa z konstytucją.
+        konstytucyjności prawa, czyli badanie zgodności prawa z konstytucją.
         Zasada ta mieści bardzo wiele. Można powiePosiedzenia Komisji
         Konstytucyjnej ZN dzieć, że również zasadę legalności, która jest
         kwalifikowanym elementem państwa prawnego. We wszystkich konstytucjach,
@@ -1956,7 +1956,7 @@
         zaciąganymi przez państwo polskie zobowiązaniami międzynarodowymi. Mówię
         o zobowiązaniach traktatowych. Można o tym — jak sądzę — przesądzić w
         rozdziale dotyczącym źródeł prawa. Mój wniosek zmierza do wykreślenia w
-        rozdziale „Zasady ustroju” art. 8 w całoŚCi.
+        rozdziale „Zasady ustroju” art. 8 w całośCi.
       </p>
     </div>
     <div class="speaker">
@@ -2393,7 +2393,7 @@
         muszą być zgodne z Konstytucją. Przepisy naruszające przepisy
         konstytucji lub wskazane w niej wartości i zasady nie mogą być
         stosowane, powinny być uchylone w trybie przewidzianym dla kontroli
-        konstytucyjnoŚci aktów prawnych”.
+        konstytucyjności aktów prawnych”.
       </p>
     </div>
     <div class="speaker">

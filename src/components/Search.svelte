@@ -19,10 +19,11 @@
 
 <style>
   .counter {
+    color: rgba(0, 0, 0, 0.2);
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 14px;
+    top: 13px;
     right: 5px;
   }
   .chapter-pick select,

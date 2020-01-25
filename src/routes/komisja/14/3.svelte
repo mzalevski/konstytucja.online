@@ -637,7 +637,7 @@
         z 1952 r. jest co najmniej wątpliwy. Jeżeli chodzi o zadania kościołów i
         związków wyznaniowych, o których mowa w ust. 3 — o czym mówi poseł J.
         Jaskiernia — to my wiemy, jakie one są. Będą one — czy są — szczegółowo
-        opisane w ustawach określających stosunek państwa do KoŚcioła
+        opisane w ustawach określających stosunek państwa do Kościoła
         katolickiego i do innych kościołów i związków wyznaniowych. Zbędne jest
         więc precyzowanie zadań Kościoła katolickiego i innych kościołów.
         Przepis ten jest bardzo przejrzysty i powinien być przy jety.
@@ -733,7 +733,7 @@
         pań- stwa, o Skarbie Państwa jako instytucji określonej w art. 45.
         Również w innych przepisach jest mowa o państwie. Tak więc — moim
         zdaniem — nie ma potrzeby w omawianym przypadku zastępować pojęcia pań-
-        stwa innym terminem, lecz należy przypisać mu właŚciwe znaczenie. Jakie
+        stwa innym terminem, lecz należy przypisać mu właściwe znaczenie. Jakie
         ma to być znaczenie, wyjaśni dokładnie doktryna prawa i judykatura na
         przykład Trybunału Konstytucyjnego. Ponadto omawiana formuła jest
         zgrabna w tym sensie, że zawsze mówi się o rozdziale państwa od
@@ -1023,7 +1023,7 @@
         na życie społeczne oraz z możliwości pełnienia swojej funkcji proroczej,
         a więc nauczania w sprawach moralnych i społecznych, proponowany zapis
         jest bardzo trudny do przyjęcia. Poseł J. Jaskiernia mówiąc o
-        przykładzie działalnoŚci kościoła, która miałaby wykraczać poza
+        przykładzie działalności kościoła, która miałaby wykraczać poza
         działalność religijną i organizacyjną, wskazał na działalność
         gospodarczą obawiając się, że formuła o autonomii i niezależności w
         realizacji wszystkich celów kościoła spowoduje możliwość interpretacji,
@@ -1088,7 +1088,7 @@
         suwerennym. Chcę również zwrócić uwagę na aspekt porównawczy,
         podniesiony już przez posła L. Pastusiaka i prof. W. Osiatyńskiego.
         Niewątpliwie istnieje amerykańska formuła oddzielenia kościoła od
-        państwa. Należy być jednak dokładnym i powiedzieć, że w tekŚcie
+        państwa. Należy być jednak dokładnym i powiedzieć, że w tekście
         konstytucji amerykańskiej nie ma formuły o oddzieleniu kościoła od
         państwa, Formuły tej nie ma w tekście pierwotnym ani w I poprawce. Jest
         natomiast interpretacja sądowa I poprawki do konstytucji, która jest
@@ -1500,7 +1500,7 @@
         Myślę, że rysują się bardzo wyraźne możliwości kompromisu. Chcę
         podzielić się uwagami na temat rysującego się kompromisu. Wydaje się, że
         z jednej strony widać obawę przedstawiciela Kościoła katolickiego i nie
-        tylko tego koŚcioła, przed oddzieleniem. Z, drugiej strony jest to obawa
+        tylko tego kościoła, przed oddzieleniem. Z, drugiej strony jest to obawa
         wyrażona przez część członków Komisji i dotycząca drugiej strony
         oddzielenia, ponieważ w ramach reszty tych zapisów kościół uzyskuje
         gwarancję autonomii. Z drugiej strony jest obawa, czy ko Ściół nie
@@ -1522,7 +1522,7 @@
         związkami wyznaniowymi. Zdanie to oznaczałoby, że kościoły mają prawo
         podejmować inne działania niż działania Ściśle religijne i
         organizacyjne. Chodzi o zadania dotyczące potrzeb człowieka. W
-        działaniach tego rodzaju koŚcioły nie mają jednak takiej autonomii jak w
+        działaniach tego rodzaju kościoły nie mają jednak takiej autonomii jak w
         zakresie zadań religijnych. Państwo współpracuje z koś- ciołami w tym
         zakresie, a więc upada bariera oddzielenia. Kościoły miałyby więc
         pozycję równą innym organizacjom o charakterze charytatywnym. Myślę
@@ -1584,12 +1584,12 @@
         kościelnych zmierzają w rozbieżnych kierunkach. Mamy do czynienia z
         nieporozumieniem polegającym na niezrozumieniu tego, w którym punkcie
         leży główna draż- liwość sprawy. Drażliwość sprawy leży właśnie w tym,
-        aby nie próbować określać zakresu działalnoŚci kościoła, ponieważ całe
+        aby nie próbować określać zakresu działalności kościoła, ponieważ całe
         doświadczenie wskazuje na to, że tutaj dokonywane były nadużycia, co
         rodzi obawy. W związku z tym moje pytanie jest następujące: czy prof. K.
         Działocha nie uważa, że lepiej jest zrezygnować z tego, gdyż w dalszym
         ustępie jest mowa, że to ustawy oraz konkordat regulują tę sprawę bez
-        potrzeby definiowania, co stanowi zakres działalnoŚci kościoła.
+        potrzeby definiowania, co stanowi zakres działalności kościoła.
       </p>
     </div>
     <div class="speaker">
@@ -1751,7 +1751,7 @@
         wobec wszystkich. Czy wobec tego już w tym przypadku nie została
         skonsumowana idea rozdziału kościołów od państwa, a właściwie od władz
         publicznych? Wydaje się, że jest to implicite zawarte w formule o
-        neutralności. Jeżeli chodzi o formułę o autonomii i niezależnoŚci, to
+        neutralności. Jeżeli chodzi o formułę o autonomii i niezależności, to
         jest ona nowoczesna. Chyba nie wymaga dalszego sprecyzowania formuła
         mówiąca o wykonywaniu swoich zadań. Szczegółowy zakres zadań okreś- lają
         natomiast ustawy oraz konkordat. Nie kruszył- bym więc kopii. Nałeży
@@ -2119,7 +2119,7 @@
         wykonywania funkcji religijnych, jest kwestią oczywistą. Jak natomiast
         konstytucyjnie zinterpretować sytuację, kiedy kościół będzie się
         angażował w działalność polityczną, gdyż jesteśmy w państwie wolnym? To
-        samo pytanie dotyczy sytuacji zaangażowania się koŚcioła w działalność
+        samo pytanie dotyczy sytuacji zaangażowania się kościoła w działalność
         gospodarczą. Czy wobec tego działalność gospodarcza kościoła ma być
         również wyjęta spod obowiązujących reguł i stać się obszarem autonomii i
         niezależności? Co z kwestią oświaty, zwłaszcza w perspektywie
@@ -2307,7 +2307,7 @@
         podważać wartość zasady ogólnej. Uwaga trzecia dotyczy propozycji posła
         J. Szymańskiego. Odmiennie jak poseł J. Szymański uważam, że usytuowanie
         zasady dotyczącej stosunków państwo-kościół w rozdziale pierwszym, jest
-        właŚciwe. Chcę jeszcze dodać, że w dalszych poszukiwaniach kompromisowej
+        właściwe. Chcę jeszcze dodać, że w dalszych poszukiwaniach kompromisowej
         formuły należy zwrócić uwagę na pozytywną formułę zaproponowaną przez
         prof. W. Osiatyńskiego. Chodzi o formułę pozytywną stwierdzającą, że
         kościoły I związki wyznaniowe nie uczestniczą w sprawowaniu —

@@ -287,7 +287,7 @@
         Mam prośbę, aby przerwa została zarządzona nie później niż o godz. 13.
         Przewodniczący podkomisji zwołał jej posiedzenie właśnie na godz. 13.
         Uprzedzałem, że jest to dla mnie pora zbyt późna. Przewodniczący A.
-        KwaŚniewski w tej chwili zapowiada, iż przerwa zacznie się o godz.
+        Kwaśniewski w tej chwili zapowiada, iż przerwa zacznie się o godz.
         13.30. O tej godzinie w żaden sposób nie mogę wziąć udziału w pracach
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego.
       </p>
@@ -320,7 +320,7 @@
         Konstytucyjnej mają poprawki do artykułów 12-14? Proponuję, aby w tej
         chwili przypomnieć dyskusję, która toczyła się dwa tygodnie temu.
         Dotyczyła ona dwóch kwestii, poza merytorycznymi sformułowaniami zapisów
-        powyższych artykułów. DyskutowaliŚmy nad kwestiami samorządu
+        powyższych artykułów. Dyskutowaliśmy nad kwestiami samorządu
         terytorialnego. Podjęliśmy też osobną dyskusję nad innymi formami
         samorządu, a także możliwymi ograniczeniami w tej mierze, czyli nakazami
         np. obligatoryjnej przynależ- ności do samorządów. Znalazło to
@@ -1046,7 +1046,7 @@
         height="110" />
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-        Po pierwsze, jest możliwość zgłoszenia wniosku mniejszoŚci. Po drugie,
+        Po pierwsze, jest możliwość zgłoszenia wniosku mniejszości. Po drugie,
         mam prośbę do ekspertów, gdyż zostało zadane pytanie niezwykle istotne.
         Czy przyjmując zdecydowaną większością głosów takie, a nie inne
         brzmienie art. Il — wariant I podkomisji — nie popełniliśmy błędu w
@@ -1409,7 +1409,7 @@
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Głosowaliśmy nad wyborem któregoś z wariantów podkomisji. Przeszliśmy do
         głosowań kolejnych wniosków, a poseł J. Szymański wyraża teraz swoje
-        wątpliwoŚci. Z tego wynika, że chce on doprowadzić do reasumpcji nie
+        wątpliwości. Z tego wynika, że chce on doprowadzić do reasumpcji nie
         jednego głosowania, ale pięciu, które odbyły się w międzyczasie.
       </p>
     </div>
@@ -1544,7 +1544,7 @@
         z art. 13 w wersji podkomisji 19 osób było za nieskreśleniem, 3 osoby
         były za skreśleniem, 4 wstrzymały się od głosu. Wynik ten został
         przecież zanotowany. | Mam jeszcze pytanie do prof. P. Winczorka, a
-        właŚciwie proszę go o wyrażenie opinii. Jeżeli popeł- niono błąd w
+        właściwie proszę go o wyrażenie opinii. Jeżeli popeł- niono błąd w
         sztuce konstytucyjnej, to można oczywiście zaproponować reasumpcję
         głosowania.
       </p>
@@ -1562,7 +1562,7 @@
         oto przeświadczeniu, że te problemy, o których mówił prof. K. Działocha,
         są rozwiązywalne przez ust. 3, tzn. że przy pomocy ustawy można
         wprowadzić pewną dywersyfikację. Wydawało mi się, że tak rozumując, z
-        jednej strony mocno akcentuję zasadę równoŚci, z drugiej nie zamykam
+        jednej strony mocno akcentuję zasadę równości, z drugiej nie zamykam
         drogi, w pewnych nadzwyczajnych sytuacjach, dla zróżnicowania podmiotów.
         Jeżeli był to błąd, wnoszę o reasumpcję głosowania.
       </p>
@@ -1631,7 +1631,7 @@
       <p>
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Pragnę potwierdzić wypowiedź poseł 1. Lipowicz. Rzeczywiście, intencją
-        podkomisji było zachowanie równoŚci sektorów, a nie równości podmiotów.
+        podkomisji było zachowanie równości sektorów, a nie równości podmiotów.
         Ust. 2 art. 13 z propozycji podkomisji jest nieżręcznym sformułowaniem,
         które już nie pamiętam, w jaki sposób zostało zaaprobowane. W moim
         przekonaniu, byłoby dobrze pójść w kierunku, który proponuje poseł I.
@@ -1906,7 +1906,7 @@
         podkomisji, a nie w obrębie wniosku senatora S$. Pastuszki. W moim
         przeświadczeniu art 13 ust. 2 (jakby go nie zapisać, czy dotyczyłby
         równości sektorowej, czy nie) jest zbędny, dlatego że z zasady
-        demokratycznego państwa prawnego wynika zasada równoŚci. Jest to
+        demokratycznego państwa prawnego wynika zasada równości. Jest to
         bezsporne. Wnoszę o dokonanie reasumpcji głosowania i ponowne
         rozstrzygnięcie kwestii struktury przepisu art. 13 w brzmieniu
         przedłożonym przez podkomisję. M ma www. e — a Uważam, że żadne prace
@@ -2090,7 +2090,7 @@
         budził wątpliwości. Być może, uda się znaleźć taką jego redakcję, która
         będzie wszystkim odpowiadała. Głosowanie w tej sprawie możemy
         przeprowadzić jutro rano. Nie widzę tu żadnego problemu. Czy
-        wnioskodawcy zgadzają się na takie rozwiązanie? JeŚli mielibyśmy
+        wnioskodawcy zgadzają się na takie rozwiązanie? Jeśli mielibyśmy
         głosować w tej chwili, to.trzeba by zacząć od reasumpcji poprzedniego
         głosowania.
       </p>
@@ -2512,7 +2512,7 @@
         społeczne i reprezentujące interesy oraz opinie obywateli i ich grup,
         pozostają pod szczególną ochroną państwa”, wiąże się z ideą
         społeczeństwa obywatelskiego i podmiotowości tego społeczeństwa. Zwracam
-        uwagę, że mamy już rozstrzygnięcie, jeŚli chodzi o partie polityczne —
+        uwagę, że mamy już rozstrzygnięcie, jeśli chodzi o partie polityczne —
         art. 5 projektu jednolitego Konstytucji RP — które eksponuje ich rolę.
         Zostaną też podjęte rozstrzygnięcia dotyczące Koś- cioła katolickiego 1
         innych kościołów oraz związków wyznaniowych, a także form demokracji
@@ -3569,7 +3569,7 @@
         Coś mnie tknęło, gdy ktoś powiedział „panowie-eksperci”. Nie o tym
         jednak chciałam mówić, był to tylko żart. Nie rozumiem prof. W.
         Osiatyńskiego. Zastanówmy się, co robimy? Albo patrzymy od strony
-        wolnoŚci działania podmiotów, albo od strony szczególnych obowiązków
+        wolności działania podmiotów, albo od strony szczególnych obowiązków
         państwa, albo od strony zasady pomocniczości. Prof. W. Osiatyński
         zaproponował uwzględnienie zasady pomocniczości — którą do jutra
         podejmujemy się opracować, również w oparciu o materiały prof. W.
@@ -3713,9 +3713,9 @@
         nadal obce prawu polskiemu? Czy w ramach prac nad rozdziałem I
         Konstytucji RP nie należałoby przywrócić tego pojęcia i wprowadzić
         zapisu mówiącego, że samorząd terytorialny, związki zawodowe oraz inne
-        organizacje mające charakter organizacji użytecznoŚci publicznej cieszą
+        organizacje mające charakter organizacji użyteczności publicznej cieszą
         się osobowością prawa publicznego — zasady uznawania tej osobowości
-        okreŚlają ustawy? Moja wypowiedź to głos osoby zainteresowanej
+        określają ustawy? Moja wypowiedź to głos osoby zainteresowanej
         uporządkowaniem polskiego prawa.
       </p>
     </div>
@@ -3956,7 +3956,7 @@
         deklaruje się je jako rzeczy o fundamentalnym znaczeniu oraz ochrania
         się je poprzez pewne ograniczenia tak, aby wszyscy mogli z nich
         korzystać w równym stopniu. W związku z tym uważam, że wysunięcie
-        wolnoŚci na czoło tytułu rozdziału lI Konstytucji RP jest bardziej
+        wolności na czoło tytułu rozdziału lI Konstytucji RP jest bardziej
         trafne od wysunięcia na czoło praw.
       </p>
     </div>
@@ -4057,7 +4057,7 @@
         organizować Świadomość publiczną także wokół tego, że konstytucja nie
         jest tylko zbiorem przepisów interesujących ludzi zajmujących się
         zawodowo polityką, ale także zbiorem przepisów ważnym dla każdego z nas.
-        Sądzę, że ta krótsza nazwa „Karta praw i wolnoŚci” bardziej będzie
+        Sądzę, że ta krótsza nazwa „Karta praw i wolności” bardziej będzie
         przemawiała do Świadomości poszczególnych obywateli. „Obowiązki
         obywatela” znalazłyby się w Karcie jako jej ostatni podrozdział.
         Przedstawiciel Kościoła Zborów Chrystusowych, ks. Henryk Sacewicz:
@@ -4247,7 +4247,7 @@
       <p>
         <strong>Poseł Janusz Szymański (UP):</strong>
         Pragnę zdecydowanie wypowiedzieć się przeciwko propozycjom nowego
-        brzmienia rozdziału II „Karta praw i wolnoŚci', dlatego że termin
+        brzmienia rozdziału II „Karta praw i wolności', dlatego że termin
         „karta” sugeruje coś odrębnego. Myślę, że jest to argument za tym, aby
         nie używać go w tytule rozdziału Konstytucji RP. Gdybyśmy mieli do
         czynienia z sytuacją, że „„Karta praw i wolności” została uchwalona
@@ -4544,7 +4544,7 @@
         się, że słuszna idea prof. A. Rzeplińskiego, aby podkreślić wagę
         rozdziału Il poprzez nazwanie go „Kartą praw I wolności”, może być
         odebrana wręcz przeciwnie. Myślę, że rozdział II zatytułowany „Prawa i
-        wolnoŚci” będzie bardziej zrozumiały.
+        wolności” będzie bardziej zrozumiały.
       </p>
     </div>
     <div class="speaker">
@@ -5481,7 +5481,7 @@
         Wydaje mi się, że rozpoczynanie w tej chwili debaty nad rozdziałem o
         dość zasadniczym znaczeniu pod nieobecność przewodniczącego podkomisji i
         znacznej liczby jej członków, wreszcie pod nieobecność znakomitej
-        większoŚci członków Komisji Konstytucyjnej, jest nieuzasadnione. Wnoszę
+        większości członków Komisji Konstytucyjnej, jest nieuzasadnione. Wnoszę
         o przyjęcie propozycji poseł I. Lipowicz. Chcę, abyśmy przerwali
         dzisiejsze posiedzenie.
       </p>

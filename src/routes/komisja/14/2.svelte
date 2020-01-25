@@ -946,7 +946,7 @@
         Rzeczypospolitej Polskiej zachowują neutralność w sprawach przekonań
         religijnych, światopoglądowych i ideologicznych. 2. Kościoły i związki
         wyznaniowe są równouprawnione. 3. Kościoły i związki wyznaniowe są
-        oddzielone od Państwa oraz korzystają z autonomii i niezależnoŚci w
+        oddzielone od Państwa oraz korzystają z autonomii i niezależności w
         wykonywaniu swoich zadań. 4. Sytuację prawną kościołów i związków
         wyznaniowych określają ustawy uchwalone po porozumieniu się z ich
         właściwymi przedstawicielami, a w odniesieniu do Kościoła katolickiego
@@ -988,7 +988,7 @@
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chcę zgłosić drobną uwagę do wypowiedzi posła R. Bugaja. Rzeczywiście
         nie osiągnięto porozumienia co do formuły określającej zakres autonomii
-        i niezależnoŚci kościołów i związków wyznaniowych, w zakresie swoich
+        i niezależności kościołów i związków wyznaniowych, w zakresie swoich
         zadań, czy też zadań bardziej doprecyzowa m 0 o a TE —— a — o a: nych.
         Proponowano np. określenie „zadań religijnych i organizacyjnych. W
         drugiej kwestii, mam wrażenie, spór miał nieco inny wymiar. Nie chodziło
@@ -1707,7 +1707,7 @@
         dwa nakładające się rodzaje działalności kościołów i związków
         wyznaniowych. Jeden rodzaj to te działania, w których kościoły miałyby
         autonomię i niezależność, tzn. takie, w które państwo nie może ingerować
-        w żaden sposób. W gruncie rzeczy chodzi tu o zakres wolnoŚci kościoła.
+        w żaden sposób. W gruncie rzeczy chodzi tu o zakres wolności kościoła.
         Drugi rodzaj działalności kościołów i związków wyznaniowych dotyczyłby
         sfery, o której mówi się w ust. 5, tzn. realizacji praw człowieka i
         potrzeb obywateli. W tym wypadku kościoły nie musiałyby zachowywać

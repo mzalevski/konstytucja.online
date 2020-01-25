@@ -864,7 +864,7 @@
       <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Przyjmujęwniosek posła J. Szymańskiego. Poddaję pod głosowanie wniosek o
-    przyjęcie propozycji senatora H. Rota, aby zawiesić decyzję o treŚci i
+    przyjęcie propozycji senatora H. Rota, aby zawiesić decyzję o treści i
     usytuowaniu art. 8 do zakończenia prac nad rozdziałem o źródłach prawa.
     Stwierdzam, że Komisja w głosowaniu, większością 18 głosów przeciwnych, przy
     14 popierających i 3 wstrzymujących się, odrzuciła wniosek. Poddaję pod
@@ -878,7 +878,7 @@
     zawartości merytorycznej dotyczącej zasady konstytucjonalizmu. Stosowne
     wnioski przedłożyli: poseł I. Lipowicz, przedstawiciele Prezydenta RP —
     prof. M. Pietrzak, prof. A. Rzepliński i dr W. Kulesza, senator A.
-    GrzeŚkowiak, senator P. Andrzejewski oraz poseł W. Majewski. W pierwszej
+    Grześkowiak, senator P. Andrzejewski oraz poseł W. Majewski. W pierwszej
     kolejności musimy rozstrzygnąć kwestię ujęć alternatywnych, zaznaczonych
     pogrubionym drukiem w propozycji poseł I. Lipowicz.
       </p>
@@ -1556,7 +1556,7 @@
     zasada powinna znaleźć się w rozdziale pierwszym, czy może w rozdziale
     trzecim o źródłach prawa. Osobiście uważam, że proponowana zasada powinna
     znaleźć się w rozdziale o źródłach prawa. Uważam również, że kwestią
-    ważniejszą jest okreŚlenie hierarchii norm prawa międzynarodowego w polskim
+    ważniejszą jest określenie hierarchii norm prawa międzynarodowego w polskim
     porządku prawnym, niż tego typu formuły.
       </p>
     </div>
@@ -1713,7 +1713,7 @@
       <p>
     <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
     Proszę jednak zwrócić uwagę, że ust. 2 w wariancie II jest niemal tożsamy
-    z ust. 2 we wniosku senator A. GrzeŚkowiak. Powracamy do ust. 2 wniosku
+    z ust. 2 we wniosku senator A. Grześkowiak. Powracamy do ust. 2 wniosku
     podkomisji. Wyjaśnienia wymaga kwestia współzależności pojęć: „niezależne” i
     „niezawisłe ”.
       </p>
@@ -1823,7 +1823,7 @@
     Czy są inne wnioski niż końcowa opinia posła A. Bentkowskiego? Nie ma.
     Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji,
     zawierającego formułę „„niezależne i niezawisłe”. Stwierdzam, że Komisja w
-    głosowaniu, większoŚcią 29 głosów popierających, przy braku głosów
+    głosowaniu, większością 29 głosów popierających, przy braku głosów
     przeciwnych i i wstrzymującym się, przyjęła wniosek. Druga kwestia
     wymagająca rozstrzygnięcia w ust. 2 to zagadnienie użycia formuły mówiącej o
     sądach, czy o sądach i trybunałach.
@@ -1998,12 +1998,12 @@
     Stwierdzam, że wniosek w głosowaniu uzyskał 13 głosów popierających, 18
     głosów przeciwnych, przy 2 wstrzymujących się. Poddaję pod głosowanie
     wniosek o przyjęcie propozycji posła J. Ciemniewskiego, o następującej
-    treŚci: „Ustrój Rzeczypospolitej Polskiej opiera się na podziale i
+    treści: „Ustrój Rzeczypospolitej Polskiej opiera się na podziale i
     równowadze władzy ustawodawczej, władzy wykonawczej i władzy sądowniczej”.
     Stwierdzam, że w głosowaniu wniosek uzyskał 21 głosów popierających, 7
     głosów przeciwnych, przy 5 wstrzymujących się. Poddaję pod głosowanie
     wniosek o przyjęcie propozycji senator A. Grześkowiak, o następującej
-    treŚci: „Ust. 1. Władza państwowa jest sprawowana przez rozdzielone 1
+    treści: „Ust. 1. Władza państwowa jest sprawowana przez rozdzielone 1
     wzajemnie równoważące się organy ustawodawcze, wykonawcze i sądownicze. Ust.
     2. Władza ustawodawcza wykonywana jest przez Sejm i Senat, władza wykonawcza
     przez Prezydenta i Rząd, na którego czele stoi Premier, władza sądownicza —
@@ -2054,7 +2054,7 @@
       <p>
     <strong>Poseł Krzysztof Kamiński (KPN):</strong>
     Proponuję następujące brzmienie: „Ustrój Rzeczypospolitej Polskiej opiera
-    się na podziale, współdziałaniu i równo„wadze władzy: ustawodawczej,
+    się na podziale, współdziałaniu i równo "wadze władzy: ustawodawczej,
     wykonawczej i sądowniczej”.
       </p>
     </div>
@@ -3196,7 +3196,7 @@
         height="110" />
       <p>
     <strong>Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:</strong>
-    Bardzo gorąco protestuję przeciwko przyjęciu ust. 3, zaproponowanego przez prof. L. WiŚniewskiego i posła M.
+    Bardzo gorąco protestuję przeciwko przyjęciu ust. 3, zaproponowanego przez prof. L. Wiśniewskiego i posła M.
     Mazurkiewicza. Nie jest to bowiem materia rozdziału pierwszego. Żaden z
     dotychczas przyjętych artykułów nie odsyła tak szczegółowo do ustawy. Uważam
     więc, że należy przyjąć formułę, stwierdzającą, że Rzeczpospolita w
@@ -3921,7 +3921,7 @@
     politycznego, ale również podstaw ustroju ' społeczno-gospodarczego. _
     Konstytucje państw współczesnych również ujmują podstawy ustroju
     społeczno-gospodarczego. Zrozumiały apel o lakoniczność nie może jednak
-    powodować, że lakoniczność zaczyna przekraczać granicę lakonicznoŚci, którą
+    powodować, że lakoniczność zaczyna przekraczać granicę lakoniczności, którą
     cechuje się obowiązujące prawo konstytucyjne. Art. 6 i art. 7 utrzymanych w
     mocy przepisów konstytucji z 1952 r. zawierają więcej treści niż niektóre
     spośród zgłaszanych propozycji. Chcę dodać, że lakoniczność obowiązujących
@@ -4607,7 +4607,7 @@
     15. Zakończyliśmy debatę nad rozdziałem pierwszym, z wyjątkiem art. 15. Na
     następnym posiedzeniu przyjmiemy w głosowaniach pozostałe artykuły rozdziału
     pierwszego i rozstrzygniemy losy artykułów: 16, 17 i 18. Planowane jest
-    również rozpoczęcie debaty nad rozdzia-łem drugim. Czy ktoś chciałby zabrać
+    również rozpoczęcie debaty nad rozdziałem drugim. Czy ktoś chciałby zabrać
     głos w sprawach różnych przed zamknięciem posiedzenia? Nie ma. Zamykam
     posiedzenie.
       </p>

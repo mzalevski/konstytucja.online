@@ -882,7 +882,7 @@ nych.
 
 Prof. J. Kaleta uważa ponadto, że budżet państwa
 powinien — jako plan — dotyczyć zawsze przy-
-szłoŚści, a nigdy — przeszłości. Dotychczasowa pra-
+szłośści, a nigdy — przeszłości. Dotychczasowa pra-
 ktyka uchwalania i zatwierdzenia w Polsce ustawy
 budżetowej przez prezydenta dopiero w lutym, a na-
 wet w marcu roku budżetowego, oddala ustalenie

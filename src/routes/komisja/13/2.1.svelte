@@ -792,7 +792,7 @@
         obywateli, a nie odwrotnie. Dlatego najpierw trzeba uwzględnić wszystko
         to, co dotyczy państwa, jego charakteru i zadań. Dopiero później trzeba
         napisać o władzy. Chętnie zgodziłbym się z tym, co przed chwilą
-        powiedział prof. W. Osiatyński, że w momencie dojŚcia do władzy należy
+        powiedział prof. W. Osiatyński, że w momencie dojścia do władzy należy
         umieścić partie polityczne jako organ pośredniczący. Nawiązuję do
         przepisu, który jest w naszym projekcie konstytucji, chociaż jest on
         znacznie dalej uwzględniony.
@@ -827,7 +827,7 @@
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         W dyskusji padają stwierdzenia, że jeśli jest coś bliżej początku, to
         jest ważniejsze, a jeśli dalej jest umieszczone, to mniej ważne. Nawet
-        jeżeli nie jest to wypowiadane wprost, to w podtekŚcie wyraźnie taka
+        jeżeli nie jest to wypowiadane wprost, to w podtekście wyraźnie taka
         teza jest formułowana. W związku z tym proszę ekspertów, żeby
         wypowiedzieli się na temat tego, czy kolejność umieszczenia w rozdziale
         I poszczególnych zasad będzie rzutowała przy interpretacji konstytucji
@@ -984,7 +984,7 @@
         height="110" />
       <p>
         <strong>Poseł Leszek Moczulski (KPN):</strong>
-        Proszę wziąć pod uwagę złożoną przeze mnie propozycję art. 14. OkreŚliem
+        Proszę wziąć pod uwagę złożoną przeze mnie propozycję art. 14. Określiem
         go jako art. 14 nie dlatego, że uważałem, iż powinien on być w takiej
         kolejności umieszczony, tylko dopasowałem do zaproponowanego schematu.
       </p>
@@ -1348,7 +1348,7 @@
         sformułowania dają najmocniejszą ochronę przedmiotu ochrony. Obstaję
         przy zapisie: „Rzeczpospolita zapewnia i gwarantuje prawa człowieka,
         bezpieczeństwo obywateli oraz ich nienaruszalność, strzeże
-        niepodległoŚci i całości terytorium, dziedzictwa kultury, języka oraz
+        niepodległości i całości terytorium, dziedzictwa kultury, języka oraz
         zapewnia ochronę i rozwój Środowiska”. Taka jest chyba intencja
         wszystkich zabierających głos. Chodzi o to, żeby zapisać jak najdalej
         idące gwarancje ze strony państwa na rzecz praw człowieka i
@@ -1676,7 +1676,7 @@
         Karty Europejskiej, kiedy mówimy, iż gwarantuje udział samorządu
         terytorialnego w sprawowaniu władzy publicznej. Nam zależy na tym, żeby
         radny nie był tylko sługą swojego wyborcy, ale działał dla dobra całej
-        społeczności. To zawsze grozi na niższym poziomie. Uważam, że właŚciwe
+        społeczności. To zawsze grozi na niższym poziomie. Uważam, że właściwe
         jest podkreślenie, iż służy się narodowi, nawet jeśli jest się wybranym
         w małej gminie. Intencja posła L. Moczulskiego jest szlachetna, ale
         jeśli mamy obywateli, którzy uważają, że władza nie pochodzi od narodu,
@@ -1862,7 +1862,7 @@
         organów, jak to jest w małej konstytucji, czy też opowiada się za
         bardziej pojemną formułą? Dopiero przy odczytaniu systemowym dałoby się
         ustalić, jaki jest to katalog organów. Czy w projektowanym artykule
-        należałoby wyliczyć organy, żeby nie było wątpliwoŚci, o jaką chodzi
+        należałoby wyliczyć organy, żeby nie było wątpliwości, o jaką chodzi
         reprezentację, czy też ta sprawa wynikałaby z interpretacji systemowej,
         bez wyliczania organów?
       </p>
@@ -2073,7 +2073,7 @@
         za wartość wielkiego formatu uważa się to, aby istniała wewnętrzna
         kontrola w obrębie aparatu władzy i wewnętrzne hamowanie, by sfera
         aktywności państwa była ograniczona i była zapewniona szeroka swoboda
-        działalnoŚci obywateli, to wówczas uważa się, że powinno być wielu
+        działalności obywateli, to wówczas uważa się, że powinno być wielu
         nośników suwerenności. W tym przypadku opowiadamy się za zasadą podziału
         władzy.
       </p>
@@ -2650,7 +2650,7 @@
         height="110" />
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-        Tworzymy konstytucję mając na uwadze praktyczne doŚwiadczenia z 1989 r.
+        Tworzymy konstytucję mając na uwadze praktyczne doświadczenia z 1989 r.
         Zastanawiam się, czy nie można przenieść dotychczasowych przepisów do
         opracowywanego projektu. Nie uważam, żebyśmy popełnili gafę, jeśli
         odwołamy się do przepisów, które sprawdziły się w ciągu ostatnich pięciu
@@ -2659,7 +2659,7 @@
         ten artykuł z przepisów konstytucyjnych utrzymanych w mocy nie byłby do
         uwzględnienia? Moglibyśmy wyeliminować rozczłonkowanie przepisów
         dotyczących partii politycznych. Podoba mi się również propozycja
-        zgłoszona przez prof. W. Osiatyńskiego, w której mówi się o jawnoŚci
+        zgłoszona przez prof. W. Osiatyńskiego, w której mówi się o jawności
         działania i finansowania partii politycznych. Spełnione muszą być dwa
         istotne warunki: partie polityczne muszą być rejestrowane i muszą
         określać swoje cele. Do tego dochodzi zasada jawności ich finansowania i

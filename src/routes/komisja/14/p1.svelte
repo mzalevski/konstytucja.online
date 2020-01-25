@@ -658,7 +658,7 @@
         zawsze mogą pojawić się problemy interpretacyjne, co to oznacza i kto
         jest upoważniony do interpretowania treści pojęcia: „w swoim zakresie”.
         Przyjmując tak niedookreślone pojęcie od razu wprowadzamy do konstytucji
-        przepis mogący sprzyjać nieporozumieniom, jeŚli pojawiłyby się problemy
+        przepis mogący sprzyjać nieporozumieniom, jeśli pojawiłyby się problemy
         w stosunkach między państwem a jakimkolwiek z kościołów. Posiedzenia
         podkomisji stałych Komisji Konstytucyjnej ZN Zdaję sobie sprawę, że jest
         to najdelikatniejsza kwestia, ale to co proponuję gwarantuje z jednej
@@ -860,7 +860,7 @@
         a innymi wspólnotami religijnymi, kościołami i związkami wyznaniowymi.
         Tego nie można utożsamiać z metodą regulacji wzajemnych stosunków.
         Metoda ta wynika ze zdolności prawnej każdego podmiotu. Istnieją różnice
-        co do tej zdolnoŚci, ponieważ Kościół katolicki w ciągu wieków uzyskał
+        co do tej zdolności, ponieważ Kościół katolicki w ciągu wieków uzyskał
         osobowość publicznoprawną i może regulować stosunki z państwem w drodze
         umowy międzynarodowej. Inne kościoły i związki wyznaniowe takiej
         możliwości nie posiadają. Nie jest to wina Kościoła katolickiego ant
@@ -1139,7 +1139,7 @@
         suwerenności państwa. Umowa zawierana jest z rządem. Jeśli zawarł on
         umowę niezgodną z wolą suwerena reprezentowanego w parlamencie, to
         parlament nie jest związany obowiązkiem wydania takiej ustawy. Nie
-        mógłby wydać ustawy o innej treŚci niż ta, która wynika z zawartego
+        mógłby wydać ustawy o innej treści niż ta, która wynika z zawartego
         porozumienia czy umowy.
       </p>
     </div>
@@ -1343,7 +1343,7 @@
         Zostało postawione pytanie: czy Polska mogłaby wypowiedzieć konkordat?
         Jak każda umowa międzynarodowa konkordat podlega ogólnym zasadom prawa
         międzynarodowego, skodyfikowanym zasadom prawa traktatowego.
-        Wypowiedzenie konkordatu jest do pomyŚlenia i możliwe.
+        Wypowiedzenie konkordatu jest do pomyślenia i możliwe.
       </p>
     </div>
     <div class="speaker">
@@ -1447,7 +1447,7 @@
         ale nie jest ono konieczne. Ważniejsza jest autonomia ustanowiona jako
         autonomia jednostronna kościoła, ograniczona do funkcji religijnych i
         organizacyjnych. Do tego dochodzi współdziałanie dla dobra wspólnego.
-        Ostatnia sprawa dotyczy ustawy, umowy i równoŚci kościołów. Potrzeba czy
+        Ostatnia sprawa dotyczy ustawy, umowy i równości kościołów. Potrzeba czy
         duża chęć zawarcia konkordatu stawia rzeczywiście Kościół katolicki w
         sytuacji uprzywilejowanej. Konkordat w gruncie rzeczy dotyczy stosunków
         między Polską a Stolicą Apostolską. Ustawa, która regulowałaby stosunki
@@ -2003,7 +2003,7 @@
         Mam jedno zastrzeżenie dotyczące rozszerzenia przekonań również o
         przekonania ideologiczne. Gdyby w ust. 1 postawić kropkę po wyrazie
         „Światopoglądowych”, to wówczas zwrot dotyczący władz i instytucji
-        publicznych mógłby pozostać. Rzeczywiście rodzą się wątpliwoŚci co do
+        publicznych mógłby pozostać. Rzeczywiście rodzą się wątpliwości co do
         sfery przekonań ideologicznych. Podzielam zastrzeżenia prof. P.
         Winczorka. Przepis w brzmieniu: „Władze i instytucje publiczne
         Rzeczypospolitej Polskiej zachowują neutralność w sprawie przekonań
@@ -2238,7 +2238,7 @@
         wolnościach obywatelskich, np. w art. 38 Ii niekoniecznie musi być ona
         uregulowana w art. 15 odnoszącym się do stosunków państwo-kościół. Ust.
         4 dotyczy sytuacji prawnej kościołów i związków wyznaniowych.
-        Sformułowanie w ostatnim tekŚcie obliguje do zawarcia umowy
+        Sformułowanie w ostatnim tekście obliguje do zawarcia umowy
         konkordatowej. Propozycja posła W. Cimoszewicza dopuszcza taką
         możliwość, tzn. nie wyklucza zawarcia konkordatu, natomiast tego nie
         nakazuje. JĄ W celu argumentacji chcę się posłużyć przykładem
@@ -2431,7 +2431,7 @@
         konstytucji, to pojawi się hipoteza, że wszystkie kościoły i związki
         wyznaniowe muszą mieć uregulowane stosunki za pomocą ustawy. Jeśli będą
         nieuznawane przez prawo, to wówczas takie uprawnienie im by nie
-        przysługiwało. W sprawie konkordatu nie ma chyba niepokoju, a jeŚli
+        przysługiwało. W sprawie konkordatu nie ma chyba niepokoju, a jeśli
         jest, to nie wiem, skąd się on bierze, skoro nigdy w historii nie
         zdarzyło się tak, żeby Stolica Apostolska nie chciała zawrzeć
         konkordatu. Może nie znam dobrze historii prawa i ks. J. Krukowski
@@ -2465,7 +2465,7 @@
         dyskusji. Wyrażano obawy w sprawie ujęcia w przepisach instytucji. Padła
         sugestia, żeby wprowadzić pojęcie służby. Mój przedmówca wspomniał o
         rozumieniu wojska jako władzy państwowej. Mam prośbę do osób
-        decydujących o tekŚcie, by szpitale, szkoły i wojsko znalazły właściwe
+        decydujących o tekście, by szpitale, szkoły i wojsko znalazły właściwe
         określenie, które zapewniałoby neutralność tych instytucji. W moim
         rozumieniu neutralność nie oznacza, że w tych instytucjach nie mogą być
         prezentowane różne postawy. Chodzi o to, żeby nie były one narzucane.
@@ -2803,7 +2803,7 @@
         nieprecyzyjne określenie. Nie jestem skłonny przyjąć w ust. 3 zamiany
         „swoich zadań” na „zadania religijne". Kto określa zadania religijne?
         Przez czterdzieści parę lat pod hasłem, że kościół ma być ograniczony
-        wyłącznie do zadań religijnych spychano wszelkie wystąpienia koŚcielne w
+        wyłącznie do zadań religijnych spychano wszelkie wystąpienia kościelne w
         sprawach publicznych. Nie zamierzam prowadzić polemiki historycznej, ale
         uważam, że w takiej sytuacji trzeba bardzo precyzyjnie określić, co
         oznaczają zadania religijne. Czy katolicka nauka społeczna jest
@@ -2824,7 +2824,7 @@
         Chcę wyjaśnić, że było to nie w kontekście umniejszania zadań kościoła i
         zamykania go w funkcjach religijnych, tylko w kontekście autonomicznego
         i niezależnego wykonywania swoich zadań religijnych. Właśnie w takim
-        kontekŚcie pada określenie „religijnych, a nie w znaczeniu tego, co
+        kontekście pada określenie „religijnych, a nie w znaczeniu tego, co
         kościoły w ogóle mogą robić. Rozumiem, że możemy skłaniać się w kierunku
         formuły przedstawionej przez posła W. Cimoszewicza. Uważam, że jesteśmy
         już bardzo blisko przyjęcia całego artykułu. Formuła oddzielenia od
@@ -2976,7 +2976,7 @@
         instytucje wykonujące zadania państwa”. Przedstawiciel Sekretariatu
         Konferencji Episkopatu Polski, ks. prof. Józef Krukowski: Co do metod
         regulacji stosunków w ujęciu posła R. Bugaja nie widzę zastrzeżeń, skoro
-        wpisano na zasadzie równoŚci form ustawy i umowę międzynarodową. W
+        wpisano na zasadzie równości form ustawy i umowę międzynarodową. W
         poprzednim ujęciu umowa była jak gdyby czymś dodatkowym, a ona
         oczywiście nie jest dodatkowym elementem, chociażby z punktu widzenia
         historii źródeł prawa. Byłbym za tym, żeby ust. 5 przesunąć na czwarte
@@ -3110,7 +3110,7 @@
         mówił o tym poseł J. Jaskiernia. Nie mając do tego stosunku
         merytorycznego, przyjąłem to zadanie, które próbuję realizować, ponieważ
         wydawało mi się, że Komisja Konstytucyjna tego od nas oczekuje.
-        Poszukuję możliwoŚci przedstawienia formuły, która nie byłaby projektem
+        Poszukuję możliwości przedstawienia formuły, która nie byłaby projektem
         przyjętym w drodze głosowania. Może okazać się to niemożliwe. Na razie
         nie chciałbym z tego rezygnować. Jeżeli pani
         <strong>poseł przedłoży wniosek formalny,</strong>

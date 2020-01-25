@@ -135,15 +135,15 @@
     </p>
     <p>
       Można by więc powiedzieć, że prace konstytucyjne ruszyły wreszcie z
-      miejsca i zaczynają przynosić pierwsze efekty. Idzie to jednak opomie.
+      miejsca i zaczynają przynosić pierwsze efekty. Idzie to jednak opornie.
       Wcześniejsze deklaracje Aleksandra Kwaśniewskiego, że już w marcu Komisja
       przedstawi pod obrady Z.gromadzenia Narodowego gotowy projekt, grzeszyły
       niczym nie uzasadnionym optymizmem. Zanim to nastąpi, przed Komisją jest
       jeszcze wiele kilkudniowych posiedzeń, co musi potrwać tygodnie, jeśli nie
-      miesiące. Trzeba sobie też zdawać sprawę,że dalsza procedura nie jest
+      miesiące. Trzeba sobie też zdawać sprawę, że dalsza procedura nie jest
       wcale prosta i na jej przeprowadzenie potrzeba kilku miesięcy. Jesteśmy
       więc ciągle jeszcze na początku drogi do nowej ustawy zasadniczej.
-      Tymczasem zaczyna się„psuć pogoda polityczna”. Niektórzy z uczestników
+      Tymczasem zaczyna się "psuć pogoda polityczna”. Niektórzy z uczestników
       prac konstytucyjnych nie kryją obaw, że mogą one znowu pójść na marne, jak
       to już było w dwóch poprzednich kadencjach. Dla innych jest to doping, aby
       zwiększyć tempo tych prac. Aleksander Kwaśniewski, który przewodniczy
@@ -167,7 +167,7 @@
       Pierwszy rozdział tworzonego projektu zawiera zasady ogólne. Już na
       wstępie powstał w Komisji spór, czy takie postanowienia są w konstytucji
       potrzebne. Profesor Jerzy Ciemniewski, poseł UW, postulował, aby
-      ograniczyć w projekcie do minimum te sformu-łowania, które — jak się
+      ograniczyć w projekcie do minimum te sformułowania, które — jak się
       wyraził — „mają charakter nie tyle normatywny, ile ideologiczny”. Nowa
       konstytucja powinna bowiem odróżniać się od poprzedniej, z czasów PRL,
       która była fasadowa, zawierała wiele deklaracji bez pokrycia, a jej
@@ -176,17 +176,17 @@
       należy pod tym względem przesadzać, a zasady ogólne zawarte w pierwszym
       rozdziale są potrzebne i nie można ich pominąć. Bronił tych postanowień
       reprezentujący projekt „Solidarności” Michał Drozdek. Podkreślał przy tym,
-      że konstytucja to nie tylko regulacjaŚciśle prawna. Jej postanowienia mają
+      że konstytucja to nie tylko regulacja ściśle prawna. Jej postanowienia mają
       istotne znaczenie dla zachowania tożsamości narodowej oraz ciągłości
       ustrojowoprawnej. Zasadnicze deklaracje w tym zakresie są więc niezbędne.
       Wspierał go ekspert Komisji, profesor Piotr Winczorek, mówiąc, że
       konstytucja musi się jednak różnić czymś od regulaminu. Zawarte w
-      pierwszej czę-Ści zasady ogólne mają zresztą normatywny charakter i bogatą
+      pierwszej części zasady ogólne mają zresztą normatywny charakter i bogatą
       treść, choć na pierwszy rzut oka może się wydawać, że są to sformułowania
       banalne. Ich ujęcie, a nawet kolejność zamieszczenia ma kapitalne
       znaczenie dla właściwego odczytania norm konstytucyjnych zawartych w
       dalszych rozdziałach. Przy interpretacji przepisów konstytucyjnych
-      odwołuje się do tych zasad Trybunał Konstytucyjny. Ich sformu-łowanie jest
+      odwołuje się do tych zasad Trybunał Konstytucyjny. Ich sformułowanie jest
       więc sprawą szczególnie trudną i odpowiedzialną.
     </p>
 
@@ -218,7 +218,7 @@
       akceptowana, lecz o sposób jej ujęcia. Zasada ta przesądza bowiem o
       socjalnym, a nie liberalnym charakterze państwa i można ją kojarzyć z
       solidaryzmem społecznym. Spierano się zaś o to, czy państwo polskie ma się
-      tą zasadą „kierować”, czy ją„urzeczywistniać . Parlamentarzyści z Unii
+      tą zasadą „kierować”, czy ją „urzeczywistniać”. Parlamentarzyści z Unii
       Wolno obawiali się, że to ostatnie sformułowanie jestzbyt kategoryczne,
       może się więc okazać w naszej sytuacji gospodarczej niewygodne dla władzy
       i szkodliwe dla gospodarki. Poseł Jan Maria Rokita zgłaszał obawy, czy na
@@ -230,7 +230,7 @@
       na katalog praw obywatelskich, a w tym praw socjalnych, oraz na
       ustawodawstwo. Niektórzy inni eksperci, na przykład profesor Wiktor
       Osiatyński, podtrzymywali w pewnej mierze obawy, że takie sformułowanie
-      mo-że okazać się niebezpieczne.
+      może okazać się niebezpieczne.
     </p>
     <p class="bold">Dobro wspólne</p>
     <p>
@@ -312,7 +312,7 @@
       ten próbowano naprawić przez dodanie następnego artykułu, który brzmiałby:
       „Prezydent jest gwarantem ciągłości władzy”. Za przyjęciem takiego
       kierunkowego rozstrzygnięcia na poprzednim posiedzeniu Komisji opowie93
-      działo się 40 jej członków. Za tym, aby uznać, że„prezydent stoi na czele
+      działo się 40 jej członków. Za tym, aby uznać, że "prezydent stoi na czele
       władzy wykonawczej , jedynie trzech. Od zamiaru takiego odwiódł Komisję
       profesor Michał Pietrzak, argumentując, że oznaczałoby to stworzenie nowej
       zasady, którą trzeba by nazwać czwórpodziałem władz, a która nie jest
@@ -361,7 +361,7 @@
       Myślę, że jest w niej zawarta myśl, iż III Rzeczpospolitą trzeba urządzić
       inaczej, niż to wynika z polskiej tradycji. Tak jak do niedawna chciano
       ukształtować nowego, socjalistycznego człowieka, tak teraz wielu obecnych
-      parlamentarzystów uważa,że trzeba zbudować nowe państwo, rządzone
+      parlamentarzystów uważa, że trzeba zbudować nowe państwo, rządzone
       wyłącznie zasadą demokratycznej większości, odwołujące się do humanizmu
       laickiego. Państwo nie odwołujące się ani do tradycji narodowej, ani
       religijnej. Postanowienie Komisji Konstytucyjnej, iż przyszła Konstytucja
@@ -386,7 +386,7 @@
       prognozować wynik głosowania. Pamiętajmy, że inwokacji nie zawierają —
       projekty Unii Wolności, Pana Prezydenta, PSL, Unii Pracy i SLD, a projekt
       PSL oparty jest na liberalno-laickiej koncepcji państw. I preambułę, i
-      inwokację — wezwanie Imienia Bo-żego — zawierały projekt senacki z 1991
+      inwokację — wezwanie Imienia Bożego — zawierały projekt senacki z 1991
       roku, później projekt PC, obywatelski projekt „Solidarności , w innej
       formie niż dwa poprzednie i dwa projekty pozaparlamentame — „Przymierza
       dla Poli Stronnictwa Narodowo-Demokratycznego. Mamy w historycznej
@@ -449,7 +449,7 @@
     <p>
       Konstytucja powinna być aktem politycznym, ale nie ma takiej konstytucji,
       która poprzestałaby na zapisach jurydycznych. Konstytucja jest przecież
-      tak-że pewną wartością, do ktorej powinny odnosić się myśli i czyny
+      także pewną wartością, do ktorej powinny odnosić się myśli i czyny
       obywateli. Czy konstytucja, która nie będzie zawierała odniesienia do
       dziejów, nie będzie odwoływała się do Boga jako Najwyższego Prawotwórcy
       (co dla wielu Polaków jest prawdą, którą wyznają), zdolna będzie poruszyć
@@ -496,7 +496,7 @@
       przez Komisję Krajową „S”. Jednak te elementy absolutnie nie nadają naszej
       konstytucji syndykalistycznego charakteru. Pewne szczególne uprawnienia
       dla reprezentacji pracowniczych tam się znalazły, ale to nie są
-      kwestieŚciśle ustrojowe. To są takie sprawy, jak przede wszystkim
+      kwestieściśle ustrojowe. To są takie sprawy, jak przede wszystkim
       zasięganie opinii związanej z budżetem państwa, co oznacza zasięganie
       opinii nt. wtómego podziału dochodu państwa. To jest w pełni uprawnione.
       My nie uzurpujemy sobie prawa rozstrzygania o tym. Od tego jest parlament;
@@ -512,7 +512,7 @@
       na katolickiej nauce społecznej. Oznacza to, że z jednej strony odrzucamy
       wszechpotężne państwo socjalne, opiekuńcze, ale z drugiej — wyznaczamy mu
       rolę pomocniczą. Chcemy, aby pewne rozwiązania systemów społecznych były
-      przez państwo gwarantowane,żeby niektóre kwestie społeczne państwo miało
+      przez państwo gwarantowane, żeby niektóre kwestie społeczne państwo miało
       obowiązek rozwiązywać, ale nie w taki sposób, jak to się działo w minionym
       półwieczu. Dlatego w przepisach wprowadzających piszemy np. o reformie
       systemu ubezpieczeń społecznych, o uzupełniającym, zdecentralizowanym
@@ -523,7 +523,7 @@
       zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast zdecydowanie
       chcemy, aby polityka państwa zmierzała do możliwie pełnego, produktywnego
       zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru, co też wynika
-      ze spo-łecznej nauki Kościoła. W tym sensie oczywiście ta konstytucja
+      ze społecznej nauki Kościoła. W tym sensie oczywiście ta konstytucja
       odbiega od pewnych liberalnych rozwiązań gospodarczych, lecz my tam
       równocześnie bardzo ściśle staramy się określić obszar, w jakim państwo
       się porusza. Np. w „Zasadach Naczelnpodkreślamy, że źródłem bogactwa
@@ -607,7 +607,7 @@
       działalności gospodarczej, jednak z ograniczeniami motywowanyrmi
       „,interesem publicznym” lub „dobrem ogólnym”. Praca i własność są
       wymieniane obok wolności jako cechy określające ustrój. Własność występuje
-      jednak najczę-Ściej bez przymiotników „prywatna” lub „publiczna ”.
+      jednak najczęściej bez przymiotników „prywatna” lub „publiczna ”.
       Akcentowana bywa natomiast własność komunalna. Większość projektów
       podkreśla konieczność praworządnego wywłaszczenia w sytuacjach, które tego
       wymagają. Jednak tylko projekt Senatu I kadencji podkreśla konieczność

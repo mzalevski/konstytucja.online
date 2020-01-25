@@ -385,8 +385,8 @@
     <div class="speaker">
       <p>
         <strong>Poseł Janusz Szymański (UP):</strong>
-        Nie ma wątpliwoŚci co do tego, że wnioski mniejszości można składać do
-        zakończenia prac. Chcę również przypomnieć, że wnioski mniejszoŚci można
+        Nie ma wątpliwości co do tego, że wnioski mniejszości można składać do
+        zakończenia prac. Chcę również przypomnieć, że wnioski mniejszości można
         składać tylko w sprawach, które były rozstrzygane na posiedzeniu
         Komisji. Nie można składać wniosków przed rozstrzygnięciem danej sprawy,
         a tak się dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości
@@ -1102,7 +1102,7 @@
         da się utrzymać. Nie znaczy to, że należy koniecznie zrezygnować z całej
         formuły, która jest jednak trudna do interpretacji w kategoriach
         prawnych. Znacznie łatwiej jest interpretować pojęcie państwa
-        socjalnego. Najnowsze konstytucje definiując państwo najczęŚciej
+        socjalnego. Najnowsze konstytucje definiując państwo najczęściej
         ograniczają się do formuły państwa prawnego i ewentualnie społecznego,
         czyli socjalnego. Chcę również dodać, iż uważam, że ze względów
         redakcyjnych bardziej poprawna jest formuła: państwo prawne, a nie
@@ -1501,7 +1501,7 @@
         wprowadzeniem pojęcia zrównoważonego rozwoju, gdyż jest ono nieostre i
         wieloznaczne. Myślę, że należałoby posłużyć się pojęciem trwałego i
         wszechstronnego rozwoju społecznego i gospodarczego. Jest to formuła
-        dłuższa, lecz bardziej właŚciwa.
+        dłuższa, lecz bardziej właściwa.
       </p>
     </div>
     <div class="speaker">
@@ -1524,7 +1524,7 @@
         które uwzględniają potrzeby środowiska naturalnego. Chodzi więc o
         zupełnie inne pojęcie o stosunku do pojęć z poprzedniej epoki. Kwestia
         druga to apel o przeniesienie dyskusji na wyższy poziom. Jeżeli bowiem
-        pada postulat skreŚlenia jakiegoś pojęcia czy ograniczenia wyliczenia
+        pada postulat skreślenia jakiegoś pojęcia czy ograniczenia wyliczenia
         celów państwa, nie oznacza to sprzeciwiania się celom i wartościom, lecz
         chodzi o jurydyczność przepisów konstytucji. Do dyskusji pzostaje więc
         problem, czy konieczne jest odrębne wymienienie strz żenia języka, gdyż
@@ -1905,7 +1905,7 @@
         to problem o ogromnej doniosłości. Należy więc uświadomić sobie
         wszystkie jego konsekwencje, zwłaszcza w demokratycznym państwie prawnym
         i państwie konstytucyjnym. Formuła o urzeczywistnianiu zasad
-        sprawiedliwoŚci społecznej znalazła się tylko w jednym z siedmiu
+        sprawiedliwości społecznej znalazła się tylko w jednym z siedmiu
         projektów konstytucji. Inny projekt mówił o kierowaniu się zasadą
         sprawiedliwości społecznej. Różnica między tymi sformułowaniami jest
         ogromna. Kwestia zasadnicza dotyczy tego, czy sformułowanie
@@ -1943,7 +1943,7 @@
         zasad sprawiedliwości społecznej — w odróżnieniu od państwa socjalnego i
         nawet formuły mówiącej o kierowaniu się zasadami sprawiedliwości
         społecznej — może rodzić postawy roszczeniowe bardziej niż postawy
-        odpowiedzialnoŚci za samego siebie i własne życie, przy jedynie
+        odpowiedzialności za samego siebie i własne życie, przy jedynie
         pomocniczej roli państwa. Ważne jest również to, aby członkowie Komisji
         byli świadomi, że sformułowanie w konstytucji zwrotu o urzeczywistnianiu
         zasad sprawiedliwości społecznej — w państwie konstytucyjnym, a nie w
@@ -2420,7 +2420,7 @@
         żadnego członka Komisji. Tak więc Komisja zdecydowała, że art. 1
         Konstytucji będzie miał brzmienie stwierdzające, że Rzeczpospolita
         Polska jest demokratycznym państwem prawnym urzeczywistniającym zasady
-        sprawiedliwoŚci społecznej. Przechodzimy do art. 2.
+        sprawiedliwości społecznej. Przechodzimy do art. 2.
       </p>
     </div>
     <div class="speaker">
@@ -2614,7 +2614,7 @@
       <p>
         <strong>Poseł Jan Rokita (UW):</strong>
         Uważam, że sytuacja, w której mamy głosować nad wyborem między wyrazem:
-        „urzeczywistniać ”” 1 „kierować w odniesieniu do sprawiedliwości
+        „urzeczywistniać” 1 „kierować w odniesieniu do sprawiedliwości
         społecznej, stawia nas w trochę dziwacznej sytuacji. Możemy głosować
         według wyboru językowego, a więc, który z tych dwóch wyrazów bardziej
         się podoba. Druga możliwość to kryterium głosowania, według którego ci,
@@ -2799,7 +2799,7 @@
         Ubolewam, że ta dyskusja toczy się, zwłaszcza że wywołał ją poseł J.
         Rokita, który nie uczestniczył w żadnym z 12 dotychczasowych posiedzeń
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego. Na
-        częŚci posiedzeń kwestia ta była dyskutowana. Ponadto proszę pamiętać,
+        części posiedzeń kwestia ta była dyskutowana. Ponadto proszę pamiętać,
         że mówimy o formule, która jest formułą nie rewolucji konstytucyjnej,
         lecz kontynuacji konstytucyjnej. W związku z tym zakładanie, że
         spowoduje ona coroczną ocenę budżetu państwa przez Trybunał
@@ -2837,7 +2837,7 @@
         zasad sprawiedliwości społecznej. Dyskutantów, którzy obawiają się
         skutków, odsyłam do orzecznictwa Trybunału Konstytucyjnego, w którym
         znajduje się dorobek precyzujący pojęcie urzeczywistniania
-        sprawiedliwoŚci społecznej. Uważam również, że nie można nam jako
+        sprawiedliwości społecznej. Uważam również, że nie można nam jako
         prawodawcy konstytucyjnemu odbierać prawa wytyczania kierunków ochrony
         praw obywatelskich w tzw. normach programowych, a z taką normą mamy do
         czynienia w tym przypadku. Warto również pamiętać, że normy tego rodzaju
@@ -2888,7 +2888,7 @@
         zakres praw w kierunku, który zmierza do jakiegoś ostatecznego celu,
         jakim jest sprawiedliwość społeczna. Chcę dodać, iż nie wiem zbyt
         dobrze, co to jest sprawiedliwość społeczna i gdzie jest kres tego
-        procesu urzeczywistniania owej zasady sprawiedliwoŚci społecznej.
+        procesu urzeczywistniania owej zasady sprawiedliwości społecznej.
         Natomiast w przypadku przyięcia formuły o kierowaniu się zasadą
         sprawiedliwości społecznej, to jeszcze jestem w stanie zrozumieć, że
         chodzi o uwzględnienie pewnych rodzajów wartości zmierzających do
@@ -2990,7 +2990,7 @@
         Chcę wyrazić zdziwienie, że tak doskonały prawnik jak poseł J.
         Ciemniewski nie wie, że dyskutowany przepis jest stosowany od kilku lat.
         Są orzeczenia Trybunału Konstytucyjnego i wiadomo, że w formule o
-        sprawiedliwoŚci społecznej chodzi o to, aby nie tworzyć nie
+        sprawiedliwości społecznej chodzi o to, aby nie tworzyć nie
         uzasadnionych przywilejów. Jest to interpretacja, którą Trybunał
         Konstytucyjny stosował wielokrotnie. Formuła o państwie
         urzeczywistniającym zasady sprawiedliwości społecznej znajduje się w
@@ -3506,7 +3506,7 @@
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Chcę przypomnieć, że należy odnosić się do całości projektu, a zwłaszcza
         do rozdziału o sądach i trybunałach. W sposobie ujęcia kompetencji
-        Trybunału Konstytucyjnego, a zwłaszcza w kwestii ostatecznoŚci jego
+        Trybunału Konstytucyjnego, a zwłaszcza w kwestii ostateczności jego
         orzeczeń, jest zabezpieczenie, aby Trybunał nie mógł w sposób ostateczny
         — kierując się m.in. zasadą sprawiedliwości społecznej — przesądzać o
         wydatkach państwa. Jest to zabezpieczenie — w moim przekonaniu
@@ -4049,7 +4049,7 @@
         Uważam, że sprawa dojrzała do głosowania. Poddaję pod głosowanie wniosek
         o skreślenie art. 2 projektu, który brzmi: „Rzeczpospolita Polska jest
         wspólnym dobrem wszystkich obywateli”. Stwierdzam, że Komisja w
-        głosowaniu, większoŚcią 17 głosów przeciwnych, przy 9 głosach
+        głosowaniu, większością 17 głosów przeciwnych, przy 9 głosach
         popierających i i wstrzymującym się, odrzuciła wniosek. Dodam, iż jedna
         osoba nie brała udziału w głosowaniu. Zamierzam poddać pod głosowanie
         wniosek o utrzymanie art. 2 projektu jako art. 2 konstytucji.
