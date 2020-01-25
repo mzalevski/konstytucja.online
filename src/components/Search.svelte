@@ -64,6 +64,7 @@
     cursor: pointer;
     max-width: 24em;
     -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.2);
   }
   .chapter-pick:after {
     content: "-";

@@ -10,7 +10,7 @@
     margin: 1em 0em;
     padding: 1em;
     border: solid 1px;
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     text-align: justify;
   }
