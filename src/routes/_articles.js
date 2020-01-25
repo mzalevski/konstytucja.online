@@ -1567,7 +1567,7 @@ const articles = [
 
 			<p>Rzecznik może podjąć przewidziane prawem czynności na wniosek obywateli i ich organizacji, organów samorządowych, a także z własnej inicjatywy na podstawie wyników analizy obowiązujących przepisów prawnych, przeprowadzonej kontroli, informacji uzyskanej za pośrednictwem środków masowego przekazu itp.</p>
 
-			<p>Bliżej zadania Rzecznika określają art. 208-212 Konstytucji oraz ustawa.</p>
+			<p>Bliżej zadania Rzecznika określają <a class="art-scroll" rel="prefetch" href='/208'>art. 208-212</a> Konstytucji oraz ustawa.</p>
 
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a></p>
 		`
