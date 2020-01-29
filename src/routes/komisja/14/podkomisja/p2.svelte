@@ -116,9 +116,9 @@
       <a rel="prefetch" href="/komisja/14/podkomisja/p2">
         <img src="images/angle-left-solid.svg" alt="" />
       </a>
-      <a rel="prefetch" href="/komisja/14/prasa">
+      <!-- <a rel="prefetch" href="/komisja/14/prasa">
         <img src="images/angle-right-solid.svg" alt="" />
-      </a>
+      </a> -->
     </div>
   </div>
   <div class="protocol">

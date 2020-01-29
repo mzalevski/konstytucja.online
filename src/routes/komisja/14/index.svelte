@@ -111,9 +111,9 @@
         <p>(22 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/14/prasa">
+    <!-- <a rel="prefetch" href="komisja/14/prasa">
       <li>Prasa</li>
-    </a>
+    </a> -->
   </ul>
 
   <div>

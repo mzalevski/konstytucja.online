@@ -88,14 +88,14 @@
     <div style="display: flex; justify-content: space-between;">
       <div>
         <h3>Prasa o pracach konstytucyjnych</h3>
-        <h5>
+        <!-- <h5>
           <a
             href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
             rel="nofollow"
             target="_blank">
             ORYGINAŁ BIULETYNU
           </a>
-        </h5>
+        </h5> -->
       </div>
       <div class="small-article-nav">
         <a rel="prefetch" href="/komisja/14/p2">
