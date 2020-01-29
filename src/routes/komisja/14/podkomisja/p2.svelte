@@ -103,14 +103,14 @@
   <div class="header">
     <div>
       <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja</h3>
-      <h5>
+      <!-- <h5>
         <a
           href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
           rel="nofollow"
           target="_blank">
           ORYGINAŁ BIULETYNU x
         </a>
-      </h5>
+      </h5> -->
     </div>
     <div class="small-article-nav">
       <a rel="prefetch" href="/komisja/14/podkomisja/p2">
