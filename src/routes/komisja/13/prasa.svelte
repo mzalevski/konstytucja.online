@@ -488,10 +488,9 @@
       </p>
       <p class="author">Rozmawiał Henryk Szewczyk</p>
     </div>
-    <p>
-      Prawicowi krytycy solidarnościowego projektu konstytucji zarzucają mu
-      syndykalizm i socjalistyczne ciągoty. Co Pan na to? Owszem, w projekcie
-      konstytucji „Solidarnoznalazły się pewne elementy, które są ważne dla
+      <p class="bold">Prawicowi krytycy solidarnościowego projektu konstytucji zarzucają mu
+      syndykalizm i socjalistyczne ciągoty. Co Pan na to?</p>
+      <p>Owszem, w projekcie konstytucji „Solidarnoznalazły się pewne elementy, które są ważne dla
       związku zawodowego, ale co w tym dziwnego? W końcu projekt był przedłożony
       przez Komisję Krajową „S”. Jednak te elementy absolutnie nie nadają naszej
       konstytucji syndykalistycznego charakteru. Pewne szczególne uprawnienia
@@ -503,8 +502,10 @@
       proponujemy w naszej konstytucji normalną procedurę demokratyczną. W
       projektach wysuwanych przez inne ugrupowania prawicowe znalazły się
       elementy, które my mogliby-śmy atakować z innych pozycji. Nie ulega
-      wątpliwości, że mówiąc o prawicy trzeba doprecyzować, o co chodzi. Zatem o
-      co chodzi? My rozumiemy to w taki sposób: to, co nas wszystkich łączy na
+      wątpliwości, że mówiąc o prawicy trzeba doprecyzować, o co chodzi.
+      </p>
+      <p class="bold">Zatem o co chodzi?</p>
+      <p>My rozumiemy to w taki sposób: to, co nas wszystkich łączy na
       prawicy, to są pewne wartości, nawiązanie do tradycji, to jest pewne
       wyobrażenie państwa niepodległego. Natomiast różnimy się w jakimś stopniu
       co do rozstrzygnięć w kwestiach gospodarczych i społecznych. Dlatego
@@ -517,10 +518,11 @@
       półwieczu. Dlatego w przepisach wprowadzających piszemy np. o reformie
       systemu ubezpieczeń społecznych, o uzupełniającym, zdecentralizowanym
       systemie ubezpieczeń zdrowotnych etc. To jest całkowicie zgodne z tym, co
-      głoszą encykliki papieskie. Kaczyński, Hall i inni ze wstrętem mówią o
+      głoszą encykliki papieskie.</p>
+      <p class="bold">Kaczyński, Hall i inni ze wstrętem mówią o
       zbytnio rozbudowanym — ich zdaniem — katalogu praw socjalnych i
-      ekonomicznych w solidarnościowym projekcie konstytucji. To też chybiony
-      zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast zdecydowanie
+      ekonomicznych w solidarnościowym projekcie konstytucji.</p>
+      <p>To też chybiony zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast zdecydowanie
       chcemy, aby polityka państwa zmierzała do możliwie pełnego, produktywnego
       zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru, co też wynika
       ze społecznej nauki Kościoła. W tym sensie oczywiście ta konstytucja
@@ -530,10 +532,11 @@
       państwa jest praca, ale tam również bronimy własności prywatnej, prawa
       dziedziczenia i mówimy, że ustrój gospodarczy państwa oparty jest na
       gospodarce rynkowej i solidarności społecznej. Te dwa elementy powinny być
-      nierozdzielnie związane w państwie, którego wizję tworzymy. Parlamentarna
-      Komisja Konstytucyjna zrezygnowała z preambuły, obecnej m.in. w
+      nierozdzielnie związane w państwie, którego wizję tworzymy.</p>
+      <p class="bold">Parlamentarna Komisja Konstytucyjna zrezygnowała z preambuły, obecnej m.in. w
       obywatelskim projekcie ustawy zasadniczej. Dlaczego preambuła jest tak
-      ważna? Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię,
+      ważna?</p>
+      <p class="bold">Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię,
       zwłaszcza w ostatnich dziesięcioleciach. Państwo polskie po II wojnie
       światowej istniało, chociaż nie było suwerenne. Teraz ważne jest to, do
       czego my nawiązujemy. Tutaj występuje wyraźny podział i to nas różni od
@@ -548,10 +551,11 @@
       się rozwijała. Niestety, są Środowiska, zwłaszcza w parlamencie, które
       chciałyby to wszystko odrzucić i to jest bardzo niebezpieczne. Wprawdzie
       preambuła nie ma znaczenia prawnego, ale w końcu wszechstronny rozwój
-      państwa również bazuje na fundamencie przeszłości. Nie ma tu miejsca na
-      szczegółowe roztrząsanie solidarnościowego projektu konstytucji, ale
+      państwa również bazuje na fundamencie przeszłości.</p>
+      <p class="bold">Nie ma tu miejsca na szczegółowe roztrząsanie solidarnościowego projektu konstytucji, ale
       dlaczego ostatni jego rozdział zatytułowany „Przepisy wprowadzające” jest
-      tak długi? Uważamy, że aby Polska mogła się stać państwem prawa, trzeba
+      tak długi?</p>
+      <p>Uważamy, że aby Polska mogła się stać państwem prawa, trzeba
       wpierw wiele spraw uregulować. A więc jest tam mowa o odbudowie niektórych
       instytucji, np. instytucji sędziego Śledczego, kasacji czy też wspomnianej
       gruntownej reformie systemu ubezpieczeń społecznych, który się w tej
@@ -565,10 +569,11 @@
       przepisach stwierdzających, że powszechne uwłaszczenie w ramach
       prywatyzacji mienia państwowego zostaje poprzedzone ustawą
       reprywatyzacyjną. Trzeba po prostu wiele spraw postawić z głowy na nogi.
-      Zanim to się stanie, nie ma co tumanić narodu sloganami o państwie prawa.
+      Zanim to się stanie, nie ma co tumanić narodu sloganami o państwie prawa.</p>
+      <p class="bold">
       Czy autorzy solidarnościowej konstytucji dopuszczają, w toku prac nad
-      ostateczną wersją ustawy, kompromis z innymi projektami? Konstytucja w
-      swoim ostatecznym kształcie będzie się rodziła w parlamencie. W związku z
+      ostateczną wersją ustawy, kompromis z innymi projektami?</p>
+      <p>Konstytucja w swoim ostatecznym kształcie będzie się rodziła w parlamencie. W związku z
       tym, będzie ona tam poddana dalszej obróbce legislacyjnej, będą się
       toczyły spory nt. określonych zapisów itd. Naturalnie, chcielibyśmy, aby
       ostateczny projekt >który powstanie w parlamencie, przyjmował naszą wizję
@@ -593,7 +598,7 @@
       </p>
       <p class="author">Krzysztof Grzegrzółka</p>
     </div>
-    <p>
+    <p class="bold">
       Przyszła konstytucja powinna mieć charakter umowy społecznej. Należy w
       niej zagwarantować prawo do pracy, a rząd powinien zdawać sprawozdanie z
       tego, co zrobił dla złagodzenia bezrobocia. Niezbywalna jest też w
@@ -601,7 +606,8 @@
       przedstawionych projektach za mało jest podmiotowości pracowników. Takie
       głosy w dyskusji nad kształtem gospodarczej części przyszłej konstytucji
       przeważały wśród uczestników wczorajszego posiedzenia Rady Strategii
-      Społeczno-Gospodarczej. W opinii profesora Wacława Wilczyńskiego, we
+      Społeczno-Gospodarczej.</p>
+      <p>W opinii profesora Wacława Wilczyńskiego, we
       wszystkich siedmiu projektach konstytucji, przedłożonych Komisji
       Konstytucyjnej Zgromadzenia Narodowego, jest akcentowana wolność
       działalności gospodarczej, jednak z ograniczeniami motywowanyrmi
