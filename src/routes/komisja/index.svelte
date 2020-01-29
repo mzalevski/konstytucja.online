@@ -90,7 +90,7 @@
   <h3>Skorowidz</h3>
   <h5>
     <a
-      href= "https://bs.sejm.gov.pl/exlibris/aleph/a22_1/apache_media/4FLECPPLHCENBQ5FISSAPRAQ6M4S2N.pdf"
+      href= "https://drive.google.com/file/d/1bLiAlY4ctp-G5qyHipcpZqah83XjQ7zn/view?usp=sharing"
       rel="nofollow"
       target="_blank">
       skorowidz
