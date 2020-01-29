@@ -1,8 +1,8 @@
 <script>
   import { fly } from "svelte/transition";
-  import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
-  import ToTheTopBtn from "../../../components/ToTheTopBtn.svelte";
+  import Nav from "../../../../components/Nav.svelte";
+  import Footer from "../../../../components/Footer.svelte";
+  import ToTheTopBtn from "../../../../components/ToTheTopBtn.svelte";
 
   let yAxisPosition;
 </script>
@@ -102,7 +102,7 @@
   <!--<hr><p class="page-break">strona 3</p><hr>-->
   <div class="header">
     <div>
-      <h3>Obrady w dniu 23 lutego 1995 r.</h3>
+      <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja</h3>
       <h5>
         <a
           href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
@@ -113,7 +113,7 @@
       </h5>
     </div>
     <div class="small-article-nav">
-      <a rel="prefetch" href="/komisja/14/p1">
+      <a rel="prefetch" href="/komisja/14/podkomisja/p2">
         <img src="images/angle-left-solid.svg" alt="" />
       </a>
       <a rel="prefetch" href="/komisja/14/prasa">
@@ -121,12 +121,6 @@
       </a>
     </div>
   </div>
-  <p>
-    Dnia 22 lutego 1995 r. podkomisja podstaw ustroju politycznego i
-    społeczno-gospodarczego, obradująca pod przewodnictwem posła Ryszarda Bugaja
-    (UP), rozpatrzyła: — propozycje przepisów konstytucyjnych dotyczących
-    stosunków państwo-kościół.
-  </p>
   <div class="protocol">
 
     <div class="speaker">

@@ -84,13 +84,14 @@
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
       rel="nofollow"
       target="_blank">
-      Dz.U. z 1994 r. nr 61, poz. 251).
+      Dz.U. z 1994 r. nr 61, poz. 251
     </a>
+    ).
   </p>
   <h3>Skorowidz</h3>
   <h5>
     <a
-      href= "https://drive.google.com/file/d/1bLiAlY4ctp-G5qyHipcpZqah83XjQ7zn/view?usp=sharing"
+      href="https://drive.google.com/open?id=1HZL7xpnoqeRuZOSmU1LsJo_8Xaqwhaqr"
       rel="nofollow"
       target="_blank">
       skorowidz
@@ -116,7 +117,8 @@
       <a rel="prefetch" href="komisja/14">Biuletyn nr 14</a>
     </li>
     <li>
-      <a rel="prefetch" href="komisja">Biuletyn nr 15</a> Prace w toku... 🧰🔨
+      <a rel="prefetch" href="komisja">Biuletyn nr 15</a>
+      Prace w toku... 🧰🔨
     </li>
   </ul>
 

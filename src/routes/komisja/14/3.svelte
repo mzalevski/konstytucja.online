@@ -116,7 +116,7 @@
       <a rel="prefetch" href="/komisja/14/2">
         <img src="images/angle-left-solid.svg" alt="" />
       </a>
-      <a rel="prefetch" href="/komisja/14/p1">
+      <a rel="prefetch" href="/komisja/14/podkomisja/p1">
         <img src="images/angle-right-solid.svg" alt="" />
       </a>
     </div>

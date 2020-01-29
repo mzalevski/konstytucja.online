@@ -43,6 +43,9 @@
     margin: 0 0 1em 0;
     line-height: 1.5;
   }
+  .days li p {
+    margin: 0;
+  }
 
   @media (max-width: 600px) {
     .rep-list {
@@ -84,19 +87,33 @@
 
   <ul class="days">
     <a rel="prefetch" href="komisja/13/1">
-      <li>Dzień 1 (7 lutego)</li>
+      <li>
+        <p>Dzień 1</p>
+        <p>(7 lutego)</p>
+      </li>
     </a>
     <a rel="prefetch" href="komisja/13/2.1">
-      <li>Dzień 2 - cz. I (8 lutego)</li>
+      <li>
+        <p>Dzień 2 - cz. I</p>
+        <p>(8 lutego)</p>
+      </li>
     </a>
     <a rel="prefetch" href="komisja/13/2.2">
-      <li>Dzień 2 - cz. II (8 lutego)</li>
+      <li>
+        <p>Dzień 2 - cz. II</p>
+        <p>(8 lutego)</p>
+      </li>
     </a>
     <a rel="prefetch" href="komisja/13/3">
-      <li>Dzień 3 (9 lutego)</li>
+      <li>
+        <p>Dzień 3</p>
+        <p>(9 lutego)</p>
+      </li>
     </a>
     <a rel="prefetch" href="komisja/13/prasa">
-      <li>Prasa</li>
+      <li>
+        <p>Prasa</p>
+      </li>
     </a>
   </ul>
 
