@@ -166,10 +166,10 @@
         Jaki był mandat dzisiejszego, czy też planowanego na wczoraj,
         posiedzenia podkomisji podstaw ustroju politycznego i
         społeczno-gospodarczego? O ile pamiętam mandat ten był następujący: na
-        poprzednim posiedzeniu Komisji Konstytucyjnej zaistniała moż- liwość
+        poprzednim posiedzeniu Komisji Konstytucyjnej zaistniała możliwość
         stworzenia kompromisowego zapisu art. 15. Nie po to podkomisja posła R.
         Bugaja miała się zebrać, aby mnożyć warianty, tylko po to, aby je
-        redukować. Miała to być próba dogadania się w węż- szym gronie co do
+        redukować. Miała to być próba dogadania się w węższym gronie co do
         treści art. 15. Skoro przewodniczący S. Pastuszka poinformował nas, że
         podkomisja nie doszła do porozumienia, to w moim przekonaniu, jej mandat
         wygasł. My, jako Komisja Konstytucyjna in corpore, musimy się zająć na
@@ -199,15 +199,15 @@
       <p>
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Zajmowaliśmy się dzisiaj dwoma kwestiami: jedną — incydentalną i drugą —
-        dość obszerną. Obie wynikają z wcześ- niejszych prac Komisji
+        dość obszerną. Obie wynikają z wcześniejszych prac Komisji
         Konstytucyjnej. Sprawa incydentalna to sprawa zapisu dotyczącego kwestii
         równouprawnienia sektorów. Na ten temat zostały tylko wstępnie
         wymienione poglądy. Jednak propozycja ekspertów w tym zakresie powinna
         być przedmiotem naszej dzisiejszej dyskusji. Jeśli chodzi o główną
         sprawę, tzn. kwestię art. 15, pragnę powiedzieć, że dyskusja na ten
-        temat była długa i interesująca. Niestety, nie została ona zakoń- czona.
+        temat była długa i interesująca. Niestety, nie została ona zakończona.
         W związku z tym nadal nie dysponujemy konkluzją. Wszystkie warianty
-        treści art. 15 zostały omó- wione. Myślę, że istnieje perspektywa ich
+        treści art. 15 zostały omówione. Myślę, że istnieje perspektywa ich
         dalszej modyfikacji. Wszyscy członkowie podkomisji zgodzili się z tym,
         że nad treścią art. 15 należy się jeszcze zatrzymać. Wolą całej Komisji
         Konstytucyjnej należy albo zaakceptować taki stan rzeczy, albo
@@ -268,7 +268,7 @@
         tak będzie rozstrzygnięte przez Komisję Konstytucyjną. Moim zdaniem, na
         poparcie zasługuje propozycja, aby w tej chwili dać szanse podkomisji
         dojścia do konkluzji decyzyjnej w obszarze regulacji statusu kościoła
-        oraz związków wyznaniowych w pań- stwie. Opowiadam się za zarządzeniem
+        oraz związków wyznaniowych w państwie. Opowiadam się za zarządzeniem
         przerwy do godz. 14. Horyzont czasowy mamy dzisiaj ograniczony. Nadal
         nie przystąpiliśmy do pracy nad rozdziałem II Konstytucji RP. Wczoraj
         toczyła się bardzo poważna dyskusja nad tytułem tego rozdziału. Stąd
@@ -315,13 +315,13 @@
         Jak słyszymy, podkomisji brakuje quorum. Sprawa jest na tyle poważna, że
         pozwolę sobie zgłosić pewną propozycję. Po pierwsze, proponuję, abyśmy
         dzisiaj przeszli do rozpatrywania rozdziału II Konstytucji RP, który
-        zaczęliś- my wczoraj omawiać. Po drugie, proponuję nie zwoływać na
+        zaczęliśmy wczoraj omawiać. Po drugie, proponuję nie zwoływać na
         początku marca posiedzenia Komisji Kon stytucyjnej, tylko posiedzenie
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego. Chcę,
         aby wszyscy członkowie tej podkomisji byli powiadomieni, że na początku
         marca tylko ona się zbierze. W jej pracach mogliby brać udział
-        zainteresowani członkowie Komisji Konstytucyjnej, nie bę- dący członkami
-        podkomisji, gdyż sprawa, która bę- dzie rozpatrywana wydaje się ważna z
+        zainteresowani członkowie Komisji Konstytucyjnej, nie będący członkami
+        podkomisji, gdyż sprawa, która będzie rozpatrywana wydaje się ważna z
         punktu widzenia przyszłego ustroju naszego państwa. Marcowe posiedzenie
         podkomisji byłoby posiedzeniem 3-dniowym. Jak dzisiaj zdążyłam się
         zorientować, jesteśmy dopiero na początku drogi do wypracowania konsensu
@@ -351,7 +351,7 @@
         kompromisu, który został przyjęty po bardzo burzliwych, żmudnych pracach
         w Sejmie Ustawodawczym w 1921 r. Wyraz tego kompromisu znajduje się w
         stosownej poprawce do art. 15, którą miałem zaszczyt złożyć osobiście.
-        Chcę przypomnieć, że kompromis, o którym mó- wię, był niewątpliwie
+        Chcę przypomnieć, że kompromis, o którym mówię, był niewątpliwie
         kompromisem także w pierwszych latach PRL, ponieważ został on, jako
         przepis konstytucyjny, uznany za obowiązujący zarówno w okresie KRN, jak
         i pod rządami małej konstytucji z 1947 r. Jeśli jakiś przepis
@@ -390,7 +390,7 @@
         postęp, gdyż udało się uzgodnić stanowisko między wszystkimi kościołami.
         Art. 15 ust. ] proponowany przez posła L. Moczuiskiego, jak rozumiem,
         brzmi następująco: „Wyznanie rzymskokatolickie będące religią
-        przeważającej wię- kszości narodu zajmuje w Rzeczypospolitej naczelne
+        przeważającej większości narodu zajmuje w Rzeczypospolitej naczelne
         stanowisko wśród równoprawnych wyznań”. Nie chciałbym zabierać głosu w
         kwestii terminu: obowiązywania tego zapisu. Nie jest to chyba żadna
         rekomendacja, że w komunistycznej Polsce coś obowiązywało, gdyż było to
@@ -472,7 +472,7 @@
         przyjęło bardzo wy | raźny zapis w Swoim programie — wiążący nas
         wszystkich jako członków PSL — który jest iden tyczny z treścią
         konkordatu. Określa on stosunek kościoła do państwa. Chcę, aby wszyscy
-        zdali sobie sprawę, jakie bę- dzie stanowisko PSL w tej materii. Od tego
+        zdali sobie sprawę, jakie będzie stanowisko PSL w tej materii. Od tego
         stanowiska nie możemy odejść.
       </p>
     </div>
@@ -681,7 +681,7 @@
         dyskusja, zakończona jutro rano głosowaniem. Tymczasem okazuje się, że
         mamy tylko wysłuchać jakiegoś omówienia przebiegu prac podkomisji.
         Podkomisja nie jest miejscem, gdzie podejmuje się decyzje. Do tego jest
-        uprawniona wyłą- cznie Komisja Konstytucyjna. Jeśli dalej będzie tak
+        uprawniona wyłącznie Komisja Konstytucyjna. Jeśli dalej będzie tak
         przebiegała praca, to rzeczywiście głos posła S. Szatkowskiego jest
         słuszny; powinniśmy wrócić do pracy poselskiej i senatorskiej w tzw.
         terenie, skoro nie potrafimy zorganizować pracy nad konstytucją.
@@ -727,14 +727,14 @@
         zakładaliśmy — przypominam, że praca Komisji Konstytucyjnej ma się
         dzisiaj zakończyć ok. godz. 16 — to przyłączyłbym się do wyjściowej
         propozycji senatora S. Pastuszki, że albo on jako zastępca
-        przewodniczącego Komisji Konstytucyjnej, albo inny upoważ- niony
+        przewodniczącego Komisji Konstytucyjnej, albo inny upoważniony
         przedstawiciel podkomisji poinfornowałby nas o rozwoju wydarzeń.
         Jesteśmy tutaj indagowani przez dziennikarzy i jest duże zainteresowanie
         opinii publicznej. Z tego względu chcielibyśmy wiedzieć, do jakich
         ustaleń doszła podkomisja i z jakich przyczyn nie mamy rzeczywistego
         efektu jej pracy w postaci pisemnych przedłożeń do art. 15, które
         mieliśmy przedyskutować po to, aby nad nimi jutro głosować. Jeśli
-        przewodniczącego R. Bugaja w dalszym cią- gu nie będzie, to prosiłbym,
+        przewodniczącego R. Bugaja w dalszym ciągu nie będzie, to prosiłbym,
         żeby przewodniczący S. Pastuszka albo inny członek podkomisji,
         ewentualnie któryś z ekspertów, poinformował nas o rozwoju wydarzeń 1 o
         przyczynach zaistniałych trudności.
@@ -774,7 +774,7 @@
         zrekapitulować stan prac podkomisji i ewentualnie podjąć
         rozstrzygnięcia, ocz wiście po krótkim referacie przewodniczącego R.
         Bugaja i po wymianie poglądów. Gdy minie godz. 15.15 bardzo proszę o to,
-        żebyś- my rozpoczęli prace nad przepisami rozdziału II Konstytucji RP.
+        żebyśmy rozpoczęli prace nad przepisami rozdziału II Konstytucji RP.
         Prośbę tę wystosuję do przewodniczącego S. Pastuszki.
       </p>
     </div>
@@ -822,7 +822,7 @@
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego. Wiem,
         że nie ma formalnie funkcji zastępcy przewodniczącego podkomisji; są za
         to jej członkowie. Chodzi tylko o zreferowanie rozwoju wydarzeń.
-        Dlaczego uważam, że powinniśmy dzisiaj dokoń- czyć dyskusję w tej
+        Dlaczego uważam, że powinniśmy dzisiaj dokończyć dyskusję w tej
         sprawie? Nie wiemy np., z jakich przyczyn podkomisja nie dokończyła
         swych prac. Gdyby jedyną przyczyną okazał się brak czasu spowodowany
         trwającymi dyskusjami, to wnosiłbym, aby po zakończeniu obrad Komisji
@@ -941,7 +941,7 @@
         konsensu, osiągnęliśmy spory postęp. Została przedstawiona, uzgodniona
         przez przedstawicieli kościołów, nowa wersja art. 15. Poprzednia, którą
         przedstawił poseł T. Mazowiecki, miała również akceptację reprezentantów
-        kościołów. Nowa wersja art. 15 wypłynęła jako wersja wyraźnie bliż- sza
+        kościołów. Nowa wersja art. 15 wypłynęła jako wersja wyraźnie bliższa
         konsensowi. Miała ona treść następującą: Władze i instytucje publiczne w
         Rzeczypospolitej Polskiej zachowują neutralność w sprawach przekonań
         religijnych, światopoglądowych i ideologicznych. 2. Kościoły i związki
@@ -992,7 +992,7 @@
         zadań, czy też zadań bardziej doprecyzowa m 0 o a TE —— a — o a: nych.
         Proponowano np. określenie „zadań religijnych i organizacyjnych. W
         drugiej kwestii, mam wrażenie, spór miał nieco inny wymiar. Nie chodziło
-        o to, czy umowa mię- dzynarodowa, która określa sytuację prawną Kościoła
+        o to, czy umowa międzynarodowa, która określa sytuację prawną Kościoła
         katolickiego, ma zostać w art. 15 wymieniona, czy nie wymieniona, tylko
         czy ma być ona wymieniona przy użyciu formuły sugerującej, że zawarcie
         tej umowy jest niezbędne, obowiązkowe, czy też przy użyciu formuły
@@ -1188,12 +1188,12 @@
         height="110" />
       <p>
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
-        Jeżeli zgadzamy się na sformułowanie: „oddzielone od pań- stwa, ale w
+        Jeżeli zgadzamy się na sformułowanie: „oddzielone od państwa, ale w
         autonomii wykonujące swoje zadania”, to w takim razie przyjęcie naszej
         zgody na wyraz „oddzielone” i jednoczesne zakwestionowanie wyrazu
         „zadań” jest niczym innym jak pogrzebaniem konsensu. Konsens wówczas
         przestaje po prostu istnieć. Godzę się na pierwszy fragment zapisu;
-        jednocześ- nie większość członków podkomisji kwestionuje drugi fragment
+        jednocześnie większość członków podkomisji kwestionuje drugi fragment
         tego samego zapisu. W takim wypadku raczej nie ma mowy o konsensie.
       </p>
     </div>
@@ -1253,7 +1253,7 @@
         <strong>Senator Stefan Pastuszka (PSL):</strong>
         Wydaje mi się, że w dyskusji powinniśmy się raczej skoncentrować nad
         różnicami. Czy powinno być sformułowanie „określa konkordat , czy też
-        wyrażenie „może okreś- lać umowa międzynarodowa ze Stolicą Apostolską”?
+        wyrażenie „może określać umowa międzynarodowa ze Stolicą Apostolską”?
         Podałem to jako przykład. Najpierw musimy rozstrzygnąć tego typu
         pytania, sformułowane m.in. przez posła W. Cimoszewicza.
       </p>
@@ -1301,7 +1301,7 @@
         państwa w Rzeczyposplitej Polskiej zachowują neutralność w sprawach
         przekonań religijnych, Światopoglądowych i ideologicznych. 2. Kościoły i
         związki wyznaniowe są równouprawnione. 3. Kościoły i związki wyznaniowe
-        są oddzielone od państwa oraz korzystają z autonomii i niezależ- ności w
+        są oddzielone od państwa oraz korzystają z autonomii i niezależności w
         wykonywaniu swoich zadań”. Nie rozstrzygnęliśmy, czy nie należy
         uzupełnić tego ustępu o wyrazy „religijnych i organizacyjnych . Padały
         głosy popierające taką propozycję oraz głosy przeciwne. EN NEN Nie było
@@ -1324,12 +1324,12 @@
         jest ogólną zasadą regulowania sytuacji prawnej kościołów i związków
         wyznaniowych. W pierwszej wersji zapis ten brzmiałby w ten sposób, jak
         to zaprezentował poseł R. Bugaj. W drugiej wersji przepis byłby
-        następują- cy: „Sytuację prawną kościołów i związków wyznaniowych
+        następujący: „Sytuację prawną kościołów i związków wyznaniowych
         określają ustawy uchwalone po porozumieniu się z ich właściwymi
         przedstawicielami”. Jest to treść zgodna z pierwszą częścią zdania
         przedstawionego podkomisji. W drugiej części tego przepisu, w zależności
         od kolejności, byłaby albo reguła dotycząca wszystkich kościołów, albo
-        formuła dotyczą- ca Kościoła katolickiego. Mogłaby ona brzmieć
+        formuła dotycząca Kościoła katolickiego. Mogłaby ona brzmieć
         następująco: „Sytuację prawną Kościoła Katolickiego może również
         określać umowa międzynarodowa ze Stolicą Apostolską ratyfikowana na
         podstawie upoważnienia wyrażonego w ustawie”. Nie chodzi tylko o to, czy
@@ -1361,8 +1361,8 @@
         religijne, czy jakiekolwiek inne oraz co oznaczają „swoje zadania” w
         odniesieniu do kościołów. Wydaje mi się, że rolą państwa nie powinno być
         wyznaczanie zadań kościołom. Jest to relikt dawnego myślenia. Mam
-        nadzieję, że propozycja taka wystę- powała w charakterze pytania, a nie
-        postulatu. Koś- cioły powinny same wyznaczać sobie zadania. Jeżeli nie
+        nadzieję, że propozycja taka występowała w charakterze pytania, a nie
+        postulatu. Kościoły powinny same wyznaczać sobie zadania. Jeżeli nie
         są one sprzeczne z prawami człowieka ani z ogólnymi zasadami współżycia
         społecznego, to państwo nie może w nie ingerować. Kościoły są
         instytucjami obywatelskimi i jako takie mogą realizować potrzeby
@@ -1375,7 +1375,7 @@
         nie tworzą partii, starają się zachować w tym zakresie pewną wstrzemięź-
         liwość, ewentualnie — nauczać o zasadach. Jest to jednakże sprawa
         kościoła, a nie państwa. Państwo nie powinno w nią ingerować, bowiem
-        mówimy o pań- stwie demokratycznym, przestrzegającym praw człowieka, a
+        mówimy o państwie demokratycznym, przestrzegającym praw człowieka, a
         nie o totalitarnym, próbującym narzucić swoje reguły obywatelom 1
         wyznaczać im zakres działania. Chodzi nam o konstrukcję państwa
         „oddalonego”".
@@ -1392,7 +1392,7 @@
         <strong>Poseł Zbigniew Siemiątkowski (SLD):</strong>
         Pragnę zabrać głos ad vocem do ostatniej wypowiedzi. Szanując
         obywatelski projekt Konstytucji RP oraz nie kwestionując znaczących sił
-        społecznych stoją- cych za tym projektem, proszę o umożliwienie
+        społecznych stojących za tym projektem, proszę o umożliwienie
         wypowiedzenia się na temat zadań kościoła i związków wyznaniowych
         obecnym na sali przedstawicielom kościoła i związków wyznaniowych.
         Sądzę, że mogą oni powiedzieć nam w sposób bardziej kompetentny i
@@ -1425,7 +1425,7 @@
         Mój wniosek jest prosty i oczywisty. W żadnym wypadku nie możemy
         kontynuować dyskusji w tak chaotyczny sposób. Myślę, że skończyliśmy
         fazę wstępnych uwag na temat propozycji brzmienia art. 15. Proszę o
-        rozpoczęcie omawiania jego kolejnych ustępów. Zaczę- liśmy od dyskusji
+        rozpoczęcie omawiania jego kolejnych ustępów. Zaczęliśmy od dyskusji
         nad ust. 4, teraz rozważamy ust. 3. Wymieniamy luźne poglądy bez
         określonego porządku. Mój wniosek jest następujący: proszę rozważać art.
         15 ustęp po ustępie. Jeśli ma to być ostatnia próba zawarcia kompromisu
@@ -1508,7 +1508,7 @@
         powiedzieć, że po dodatkowych wyjaśnieniach ze strony posła R. Bugaja
         mamy w tej chwili bardziej Obrady w dniu 22.02.1995 r. (20 klarowny
         obraz. Wszystko to, o czym mówiłem, oraz to co błędnie zrozumiał senator
-        K. Kozłowski, zwią- zane było z wyjaśnieniem, na czym polega spór.
+        K. Kozłowski, związane było z wyjaśnieniem, na czym polega spór.
         Okazuje się, że otrzymaliśmy tekst art. 15, który był tekstem
         wyjściowym, a nie tym, który w efekcie podkomisja wypracowała. W sumie
         nie było wiadomo, o co toczy się cały spór. Pytanie o ustalenia wcale
@@ -1529,7 +1529,7 @@
         zrobić, gdyż natrafiła na nieprzezwyciężalne przeszkody. Dlatego też
         zapytuję posła R. Bugaja, czy istnieje możliwość, aby podkomisja
         spotkała się dziś po raz kolejny wraz z przedstawicielami kościołów i
-        ekspertów po to, by jutro przedstawić rozwią- zanie stanowiące element
+        ekspertów po to, by jutro przedstawić rozwiązanie stanowiące element
         konsensu? W omawianej sprawie taki konsens miałby wymiar wręcz
         historyczny. Mocno zachęcam do jego wypracowania ze względu na los całej
         Konstytucji RP i jej społecznej percepcji.
@@ -1549,8 +1549,8 @@
         którzy będą obecni na posiedzeniu podkomisji. Rezultat dyskusji może być
         wtedy wątpliwy. Myślę, iż zrobiliśmy już pewien postęp. Proponuję inną
         procedurę naszych prac. Chciałbym wnieść indywidualnie tekst art. 15 w
-        zaprezentowanym kształ- cie na posiedzenie Komisji Konstytucyjnej.
-        Wszyscy wiedzą, o co chodzi i mogą to przez chwilę przemyś- leć. Wydaje
+        zaprezentowanym kształcie na posiedzenie Komisji Konstytucyjnej.
+        Wszyscy wiedzą, o co chodzi i mogą to przez chwilę przemyśleć. Wydaje
         mi się, iż jest nadzieja, że kształt art. 15, jaki podkomisja
         wypracowała w pewnym momencie, zostanie zaakceptowany. Zwołanie
         posiedzenia podkomisji w tej sprawie nie uważam w obecnej chwili za
@@ -1568,7 +1568,7 @@
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Proponuję zebranie się klubu SLD w celu dojścia do konsensu we własnym
         gronie. Słyszymy bardzo daleko idące i otwarte wypowiedzi oraz sprzeciw,
-        z jakim zetknę- liśmy się już w podkomisji. Może klub SLD uzgodni
+        z jakim zetknęliśmy się już w podkomisji. Może klub SLD uzgodni
         wspólne stanowisko, a dopiero potem zwołamy posiedzenie podkomisji.
       </p>
     </div>
@@ -1598,7 +1598,7 @@
         porozumienia. Wydaje mi się, że cenna była propozycja posła W.
         Cimoszewicza, dotycząca wyspecyfikowania na trzech poziomach
         rozbieżności, jeśli chodzi o ust. 4. Mam prośbę do sekretariatu Komisji
-        Konstytucyjnej, aby przygotował specyfikacje zgodnie z powyż- szą
+        Konstytucyjnej, aby przygotował specyfikacje zgodnie z powyższą
         propozycją, abyśmy jutro w głosowaniu mogli przystąpić do rozstrzygnięć.
       </p>
     </div>
@@ -1617,31 +1617,31 @@
         tymi terminami, a w jakiej — o pewną manipulację słowną. Jeżeli pewne
         terminy sprowadzimy do ich istotnej treści, wyniki mogą być zaskakujące.
         W art. 15 ust. 3 czytamy: „Kościoły i związki wyznaniowe są oddzielone
-        od Państwa... — „„Pań- stwo” jest napisane z dużej litery. W innych
+        od Państwa... — „„Państwo” jest napisane z dużej litery. W innych
         artykułach rozdziału I czytamy: „Rzeczpospolita Polska jest państwem...
-        ' Jest położony bardzo wyraźny znak ró- wności pomiędzy Rzecząpospolitą
+        ' Jest położony bardzo wyraźny znak równości pomiędzy Rzecząpospolitą
         Polską a Państwem. Jeżeli posługujemy się wyrazem „Państwo” pisanym z
         dużej litery, to najwyraźniej nie chodzi tu o względy stylistyczne, ale
         o względy merytoryczne. Treść art. 15 ust. 3, zgodnie z zamysłem
-        wnioskodawców, powinna być następująca: „Kościoły i zwią- zki wyznaniowe
+        wnioskodawców, powinna być następująca: „Kościoły i związki wyznaniowe
         są oddzielone od Rzeczypospolitej Polskiej ...', ale przecież nikt nie
         odważy się postawić tego rodzaju tezy. Jeżeli przyjmiemy, że
         Rzeczpospolita Polska jest wspólnotą — wspólnym dobrem obywateli — to ów
         wspólnotowy charakter państwa nie pozwala na stwierdzenie, że coś, co
         jest częścią wspólnoty państwowej, jest od tego państwa oddzielone.
-        Możemy najwyżej mówić o oddzieleniu koś- ciołów i związków wyznaniowych
+        Możemy najwyżej mówić o oddzieleniu kościołów i związków wyznaniowych
         od władz państwowych bądź władz publicznych. Wówczas należałoby użyć
         jednego z tych określeń, bowiem w przeciwnym razie w kontekście art. 8,
         przyjętego już przez Komisję Konstytucyjną i stwierdzającego, że
         przepisy Konstytucji RP stosuje się bezpośrednio, przepis art. 15 ust.
-        3, gdzie używa się pojęcia „Pań- stwo” pisanego z dużej litery —
+        3, gdzie używa się pojęcia „Państwo” pisanego z dużej litery —
         stosowany bezpośrednio — wyłączałby ze wspólnoty, jaką jest
         Rzeczpospolita Polska, kościoły i związki wyznaniowe. Mam nadzieję, że
         nie jest to niczyją intencją, chociaż nie jestem tego w zupełności
         pewien. Rozważmy art. 15 ust, 5: „W celu realizacji praw człowieka i
         potrzeb obywatełi Państwo współdziała z kościołami i związkami
-        wyznaniowymi”. Jeśli Pań- stwo jest Rzecząpospolitą Polską, to nie może
-        współ- działać. Mogą to robić władze państwowe. Jest to to samo
+        wyznaniowymi”. Jeśli Państwo jest Rzecząpospolitą Polską, to nie może
+        współdziałać. Mogą to robić władze państwowe. Jest to to samo
         zagadnienie, o którym przed chwilą mówiłem. Jeżeli zgodzimy się, że to
         organa państwowe współdziałają z kościołami i związkami wyznaniowymi, to
         i tak powstaje zastrzeżenie, które — moim zdaniem — jest niedopuszczalne
@@ -1712,7 +1712,7 @@
         sfery, o której mówi się w ust. 5, tzn. realizacji praw człowieka i
         potrzeb obywateli. W tym wypadku kościoły nie musiałyby zachowywać
         pełnej autonomii. W ramach zapisu ust. 5 mogłyby one wykraczać poza
-        działania zawarowane do sfery autonomicznej, poprzez współ- działanie z
+        działania zawarowane do sfery autonomicznej, poprzez współdziałanie z
         władzami publicznymi. Myślę, że w zapisie powyższego ustępu doskonale
         mieszczą się działania charytatywne i inne, które nie wymagają
         autonomii, a o których mówił przedstawiciel solidarnościowego projektu
@@ -1741,7 +1741,7 @@
         stać podstawą konsensu, to jest rzeczą oczywistą, że Konstytucja RP nie
         nakłada na inne pod Obrady w dniu 22.02.1995 r. (20) mioty
         międzynarodowe prawa zawierania umów z naszym krajem. Z, drugiej strony
-        interpretacja, któ- rą przedstawił poseł J. Szymański — rozumiem, że
+        interpretacja, którą przedstawił poseł J. Szymański — rozumiem, że
         również przejawiając dążenie do wypracowania konsensu — że zdanie drugie
         w art. 15 ust. 4 nie będzie miało żadnego znaczenia prawnego i nie
         będzie nakładało w tym zakresie żadnych obowiązków, wydaje mi się
@@ -1757,7 +1757,7 @@
         ust. 3, który, jak wiemy, był fragmentem konsensu dzięki dodaniu — na
         życzenie posłów klubu SLD — wyrazów „oddzielone od Państwa”, niweczy
         dobrą wolę dojścia do porozumienia. Podzielam pogląd senatora K.
-        Kozłowskiego, że jest to raczej kwestia zrezygnowania z pewnych lę- ków
+        Kozłowskiego, że jest to raczej kwestia zrezygnowania z pewnych lęków
         lub nadwrażliwości i rozstrzygnięcia powstałego problemu wewnątrz klubu
         SLD. Poseł Włodzimierz Cimoszewicz (SLD): Pozwalam sobie zabrać głos
         tylko dlatego, że widzę, iż został rozdany tekst mojej propozycji
@@ -1789,7 +1789,7 @@
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Rozumiem, że kluczowym elementem, który na obecnym etapie dyskusji
         stanowi barierę w dojściu do konsensu, są razy „zadań religijnych i
-        organizacyjnych” w odróż- nieniu od określenia „swoich zadań”, które
+        organizacyjnych” w odróżnieniu od określenia „swoich zadań”, które
         mogłoby się stać podstawą porozumienia. Dlatego też, w nawiązaniu do
         tego, co mówiła poseł 1. Lipowicz, opowiadam się za określeniem
         czytelnej różnicy, gdyż w dalszym ciągu nie wiem, na ile nasz spór jest
@@ -1809,7 +1809,7 @@
         użyje określenia, trudno sobie wyobrazić, aby ktoś mógł ingerować w
         zadania religijne kościołów i związków wyznaniowych. Jeżeli chodzi o
         innego typu zadania, bezpośrednio związane z istnieniem państwa, to
-        powstaje pytanie, co tego typu autonomia i niezależ- ność może realnie
+        powstaje pytanie, co tego typu autonomia i niezależność może realnie
         oznaczać? Nie wiem, czy chodzi o politykę finansową, fiskalną, czy
         jeszcze jakąś inną. Podobne, różne podejrzenia zaciemniają nam obraz.
         Jeżeli przewodniczący senator S. Pastuszka zezwoli na odpowiedź na
@@ -1861,7 +1861,7 @@
         bardzo konkretne pytania. Chcielibyśmy podjąć decyzję w sposób uczciwy.
         Jeżeli „swoje zadania” kościoła różnią się od „zadań religijnych i
         organizacyjnych”, to wydaje mi się, że pytanie członka Komisji
-        Konstytucyjnej o wyjaś- nienie, czym te zadania się różnią oraz prośba o
+        Konstytucyjnej o wyjaśnienie, czym te zadania się różnią oraz prośba o
         egzemplifikację innych zadań kościoła, jest rzeczą uprawnioną. Moim
         zdaniem, odpowiedź na te pytania bardzo ułatwi nam to, do czego zachęca
         poseł T. Mazowiecki, czyli podejmowanie decyzji — ko legialnych,

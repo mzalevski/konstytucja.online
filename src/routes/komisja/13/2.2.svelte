@@ -1704,7 +1704,7 @@
         dotyczącego systemu Źródeł prawa. Tam będziemy mieli ostatecznie
         ustaloną hierarchię źródeł prawa. W przeciwnym razie dyskusję na ten
         temat musielibyśmy rozpocząć w tej chwili. Uważam, że wymienienie w
-        części ogólnej konsty-- tucji hierarchii źródeł prawa mija się z celem i
+        części ogólnej konstytucji hierarchii źródeł prawa mija się z celem i
         proponuję skreślenie art. 8.
       </p>
     </div>

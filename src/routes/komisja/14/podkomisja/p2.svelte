@@ -140,7 +140,7 @@
         jednoznaczną wykładnię semantyczną. Z drugiej strony — powstały pewne
         problemy w związku z omówionym projektem posła T. Mazowieckiego.
         Związane są one Z kwestią rozgraniczenia pojęcia „autonomia” i ze
-        zwrotem „na podstawie umowy zawartej...'. Okreś- lenie to może być
+        zwrotem „na podstawie umowy zawartej...'. Określenie to może być
         formułą bardzo wymagającą i przy splocie niekorzystnych okoliczności
         mogłoby prowadzić do impasu w uregulowaniach. Większe niebezpieczeństwo
         jest związane nie tyle z kościołami, co ze związkami wyznaniowymi.
@@ -231,7 +231,7 @@
         height="110" />
       <p>
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
-        O ile pamię- tam, to w projekcie posła W. Cimoszewicza sprawy te są
+        O ile pamiętam, to w projekcie posła W. Cimoszewicza sprawy te są
         umieszczone w jednym ustępie, są one ukryte.
       </p>
     </div>
@@ -325,14 +325,14 @@
         przedstawionym przez prof. Z. Łykę. Widziałbym możliwość dokonania
         bardzo prostej operacji redakcyjnej polegającej na tym, że zdanie, z
         którego złożony jest ten przepis, rozbiłoby się na dwa zdania w
-        brzmieniu: „Sytuację prawną koś- ciołów i związków wyznaniowych
+        brzmieniu: „Sytuację prawną kościołów i związków wyznaniowych
         określają ustawy uchwalone po porozumieniu z ich właściwymi
         przedstawicielami. Sytuację prawną Kościoła katolickiego może również
         określać umowa międzynarodowa ze Stolicą Apostolską ratyfikowana na
         podstawie upoważnienia wyrażonego w ustawie”. W ten sposób stwarzamy w
         konstytucji możliwość i podstawę do zawarcia takiej umowy
-        międzynarodowej. Jednocześnie nie wpisujemy powinności, któ- rej
-        zrealizowanie nie zależy wyłącznie od władz pań- stwa polskiego. W
+        międzynarodowej. Jednocześnie nie wpisujemy powinności, której
+        zrealizowanie nie zależy wyłącznie od władz państwa polskiego. W
         poprzedniej fazie naszej dyskusji słusznie pytano, czy tego typu
         sformułowanie mogłoby być interpretowane jako powinność Stolicy
         Apostolskiej. Oczywiście że nie, ale wykonanie takiego zobowiązania nie
@@ -364,7 +364,7 @@
         ks. prof. J. Krukowski jako przedstawiciel Episkopatu Polski, ks. bp
         Jeremiasz jako przedstawiciel Kościoła prawosławnego, moja skromna
         osoba, jak również moi przyjaciele z Kościoła Zielonoświątkowego i z
-        Koś- cioła Zborów Chrystusowych. Chcielibyśmy naszą propozycję poddać
+        Kościoła Zborów Chrystusowych. Chcielibyśmy naszą propozycję poddać
         pod ocenę podkomisji.
       </p>
     </div>
@@ -379,7 +379,7 @@
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Czy mam rozumieć, że ust. 3 w brzmieniu: „Kościoły i związki wyznaniowe
         są oddzielone od państwa” jest także przedmiotem konsensu?
-        Przedstawiciel Kościoła Adwentystów Dnia Sió- dmego, ks. prof.
+        Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
         Zachariasz Łyko: Tak jest. Nie jest to mój dokument, bo jest to efekt
         konsensu wypracowanego między przedstawicielami kościołów w czasie
         prywatnego spotkania po ogłoszeniu przerwy.
@@ -445,7 +445,7 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
-        Chciał- bym poprzeć propozycję, żeby wykreślić z tego przepisu
+        Chciałbym poprzeć propozycję, żeby wykreślić z tego przepisu
         instytucje, ale nie ze względu na religijne prze konania. Jeżeli
         przyjąć, że instytucja jest instytutem naukowym, albo uniwersytetem,
         albo katedrą na uni wersytecie, gdzie jest szerzony pogląd filozoficzny,
@@ -558,7 +558,7 @@
         Kościoła katolickiego nie chcą państwa wyznaniowego, dlatego jest tutaj
         poparta ta radykalna zasada. „Kościoły i związki wyznaniowe są
         oddzielone od państwa oraz autonomiczne i niezależne w wykonywaniu
-        swoich zadań”. Sądzę, że byłoby to małżeń- stwo dwóch propozycji:
+        swoich zadań”. Sądzę, że byłoby to małżeństwo dwóch propozycji:
         oddzielenia oraz poszanowa Posiedzenia podkomisji stałych Komisji
         Konstytucyjnej ZN nia autonomii i niezależności. Obawy ze strony Koś-
         cioła katolickiego płyną stąd, że oddzielenie w minionym okresie było
@@ -566,9 +566,9 @@
         religijnych. Dlatego potrzebne jest nam oddzielenie pozytywne czy
         przyjazne, polegające na poszanowaniu autonomii i niezależności. Dlatego
         trzeba dodać: „„..autonomii i niezależności w wykonywaniu swoich zadań”.
-        Każda instytucja, w tym wypadku kościół i pań- stwo, ma swoje zadania.
+        Każda instytucja, w tym wypadku kościół i państwo, ma swoje zadania.
         Niech ona te zadania realizuje. Trudno definiować, co należy do zadań
-        pań- stwa, a co do zadań kościoła, bo to wynika z natury każdej
+        państwa, a co do zadań kościoła, bo to wynika z natury każdej
         społeczności. „Sytuację prawną kościołów i związków wyznaniowych
         określają ustawy uchwalone po porozumieniu się z ich właściwymi
         przedstawicielami . Ta propozycja bez zastrzeżeń zasługuje na przyjęcie.
@@ -582,7 +582,7 @@
         Nie sądzę, żeby stawiało to inne kościoły w gorszej sytuacji, bo chodzi
         tutaj o poszanowanie każdego zgodnie z tym, kim jest. Tylko Kościół
         katolicki cieszy się podmiotowością publicznoprawną. Wpisywanie umowy
-        mię- dzynarodowej tylko jako hipotezy do konstytucji trochę dyskryminuje
+        międzynarodowej tylko jako hipotezy do konstytucji trochę dyskryminuje
         instytucję, która jest w Polsce od ponad tysiąca lat. Dlatego jestem za
         propozycją posła T. Mazowieckiego, który uważa, że należy przyjąć
         formułę, iż stosunek państwa do Kościoła katolickiego określa umowa
@@ -622,7 +622,7 @@
         Światopoglądowych i religijnych. W państwie demokratycznym respektującym
         równość praw obywatelskich powinny zachowywać neutralnośćw tych
         sprawach. Dlatego trudno mi się zgodzić na usunięcie sformułowania,
-        które znalazło się w uzgodnionej propozycji przedstawicieli koś- ciołów.
+        które znalazło się w uzgodnionej propozycji przedstawicieli kościołów.
         Być może, pojęcie „instytucje publiczne” wymaga doprecyzowania. Nie
         chodzi o upieranie się przy konkretnym określeniu, ale na pewno
         ograniczenie się do władz publicznych nie wyczerpuje problemu, jeśli
@@ -665,7 +665,7 @@
         opiekuńczą, jak i sportową, kulturalną i jakąkolwiek jeszcze inną.
         Podtrzymuję swoje wątpliwości co do ścisłości pojęcia „swoich zadań .
         Nie wprowadzajmy do konstytucji pojęć niejasnych, nieostrych, które mogą
-        stać się w przyszłości polem rozbieżnych interpretacji. Pró- bujmy
+        stać się w przyszłości polem rozbieżnych interpretacji. Próbujmy
         zachować precyzję.
       </p>
     </div>
@@ -793,18 +793,18 @@
         pod rozwagę następującą propozycję. Prof. P. Winczorek wymyślił
         określenie, które wcześniej było przedmiotem ostrego sporu, to znaczy
         „oddzielone”. Możemy tutaj użyć sformułowania, że kościoły i związki
-        wyznaniowe są odrębne od państwa. Jednocześnie moż- na zaakceptować
+        wyznaniowe są odrębne od państwa. Jednocześnie można zaakceptować
         sugestię posła W. Cimoszewicza, że są autonomiczne i niezależne w
         wykonywaniu swych zadań religijnych. Może taką propozycję moglibyśmy
         wspólnie zaakceptować. W ust. 4 szukałbym kompromisu polegającego na
         tym, żeby przyjąć wniosek posła T. Mazowieckiego w sprawie wyodrębnienia
-        ustępu dotyczącego Koś- cioła katolickiego, mówiącego zarówno o
+        ustępu dotyczącego Kościoła katolickiego, mówiącego zarówno o
         ustawach, jak i o konkordacie, o umowie międzynarodowej. Osobny ustęp
         dotyczyłby tworzenia prawa dla innych kościołów i związków wyznaniowych.
         Nie sądzę, żeby kościoły niekatolickie wyodrębnienie tego zagadnienia w
         dwa ustępy traktowały jako dyskryminację. Oddalibyśmy ukłon w kierunku
         realnej sytuacji i bardzo silnej pozycji Kościoła katolickiego.
-        Zrobilibyś- my również skromny ukłon historyczny. Pozostaje poważny
+        Zrobilibyśmy również skromny ukłon historyczny. Pozostaje poważny
         problem, którym nadal jestem zatroskany. Nie boję się formuły „po
         porozumieniu”, jeśli chodzi o główne kościoły i związki wyznaniowe.
         Nasze uregulowania są i powinny pozostać liberalne. Oznacza to, że na
@@ -814,21 +814,21 @@
         zawierającego wyjątek. Propozycja przedłożona przez przedstawicieli
         prezydenta jest przykładem tego typu poszukiwań, chociaż nie jest
         fortunna pod względem językowym. Przedstawiciel Polskiego
-        Autokefalicznego Koś- cioła Prawosławnego, ks. bp Jeremiasz: Wiele z
+        Autokefalicznego Kościoła Prawosławnego, ks. bp Jeremiasz: Wiele z
         moich obaw przedstawił pan przewodniczący. Jest pułapka w przypadku
         instytucji publicznych, o której nie myślałem. Chrześcijańska Akademia
         Teologiczna i Akademia Teologii Katolickiej są instytucjami pań-
         stwowymi, a więc jest problem. Czy ust. 4 oznacza, że państwo musi uznać
         każdy związek wyznaniowy? W interesie państwa może leżeć nieuznanie
         jakiegoś związku wyznaniowego. lakie problemy występują w wielu krajach,
-        ponieważ pojawiają się organizacje i związki parareligijne, któ- re są
+        ponieważ pojawiają się organizacje i związki parareligijne, które są
         zagrożeniem dla porządku publicznego. Taki problem jest w Niemczech,
         gdzie obowiązuje cała procedura uznania danego związku wyznaniowego.
         Jeżeli przepisy prawne są bardzo liberalne i musi automatycznie być
         uznany każdy związek wyznaniowy, to mogą powstać duże zagrożenia dla
         państwa. Można wprowadzić jakąś kategorię ograniczającą, np. zwrot:
         „sytuację prawną kościołów i związków wyznaniowych uznanych przez
-        państwo”. Element porozumienia musi pozostać, bo nie moż- na decydować o
+        państwo”. Element porozumienia musi pozostać, bo nie można decydować o
         kimś bez zainteresowanego. Nie Podkomisja podstaw ustroju
         politycznego... (22.02.1995 r. — 14) 95 wiem, czy konstytucja musi
         określać tok uznaniowy. Może jest to pytanie pod adresem ekspertów.
@@ -853,7 +853,7 @@
         człowieka, a w szczególności art. 3/ projektu podkomisji, mówiący o
         wolności sumienia. Nie upieram się przy tym, żeby nie było ust. 1.
         Zdecydowanie trzeba wyeliminować instytucje publiczne, ponieważ nie ma
-        żadnego powodu, dla któ- rego nie miałyby powstawać instytucje publiczne
+        żadnego powodu, dla którego nie miałyby powstawać instytucje publiczne
         wspierające różne dobre inicjatywy o Światopoglądowym charakterze,
         chociażby takie, jak Akademia Teologii Katolickiej czy Chrześcijańska
         Akademia Teologiczna. Mnóstwo innych inicjatyw może być wspieranych
@@ -861,7 +861,7 @@
         niczyim prawom. Państwo ma wspierać rzeczy dobre, a nie można zakładać,
         że religia jest zła, Światopogląd obywateli jest zły i państwo nie może
         tego wspierać. Religia i humanizm, niekoniecznie religijny, bo nawet
-        ateistyczny niosą wartości dla obywateli i pań- stwo może wspierać tego
+        ateistyczny niosą wartości dla obywateli i państwo może wspierać tego
         typu motywacje. Nie zamykajmy tego przepisem o neutralności instytucji
         państwowych. Co innego jest z władzami, które mają stać na straży
         neutralności, a więc rozwoju wszystkich w równej mierze. Władze nie
@@ -870,10 +870,10 @@
         obywateli, bo do tego one służą przy zachowaniu praw człowieka, Co
         prawda wojsko nie jest wyliczane w klasycznych definicjach ani jako
         władza ustawodawcza, ani wykonawcza, ani sądownicza. Jednak przymus
-        stosowany przez wojsko jest przymusem władzy pań- Stwowej, a nie
+        stosowany przez wojsko jest przymusem władzy pańStwowej, a nie
         stosowanym przez instytucję państwową. Zagrożenie dla wolności sumienia
         jest tam, gdzie pojawia się przymus. Jest on stosowany przez pań- | me M
-        M — „ aan stwo w swoich instytucjach na zasadzie władzy pań- stwowej.
+        M — „ aan stwo w swoich instytucjach na zasadzie władzy państwowej.
         Pozostawienie w przepisie władz publicznych bez instytucji załatwia
         sprawę obrony wolności sumienia, Jeżeli w wojsku pojawia się zagrożenie
         dla wolności sumienia, to na zasadzie nadużywanego przymusu władzy
@@ -882,14 +882,14 @@
         mieliby ograniczone prawa obywatelskie dotyczące wolności sumienia i nie
         mieliby możliwości korzystania z posługi duszpasterskiej. Myślę, że co
         do tego jest absolutna zgoda. Wyrażam duże zastrzeżenia do sformułowania
-        dotyczącego problemu oddzielenia kościoła od pań- stwa. Ono może być
+        dotyczącego problemu oddzielenia kościoła od państwa. Ono może być
         niejasne, różnie interpretowane i wywoływać kontrowersje, jak powiedział
         poseł W. Cimoszewicz. To sformułowanie może być nadużywane w celu
         wyeliminowania z życia publicznego, z życia państwowego wpływów religii,
         jak mamy to w projekcie Parlamentarnej Grupy Kobiet, zgodnie z którym z
-        motywacji religijnych nie moż- na tworzyć prawa. Tego rodzaju
+        motywacji religijnych nie można tworzyć prawa. Tego rodzaju
         interpretacja w sposób drastyczny naraża na niebezpieczeństwo olność
-        sumienia i samą ideę demokratycznego pań- stwa, w którym każdy
+        sumienia i samą ideę demokratycznego państwa, w którym każdy
         współkształtuje to państwo z motywacjł takich, jakie posiada, ale pod
         warunkiem, że są to motywacje nie zagrażające prawom innych obywateli.
         Nie da się oddzielić kościołów od państwa, dlatego że kościoły
@@ -902,7 +902,7 @@
         niezależności. Biskup Jeremiasz wyraził niepokój w sprawie
         niebezpieczeństwa dla porządku publicznego wypływającego z niektórych
         związków wyznaniowych czy parakościołów. W naszym projekcie jest to
-        rozwią- zane w następujący sposób: „Państwo gwarantuje autonomię i
+        rozwiązane w następujący sposób: „Państwo gwarantuje autonomię i
         niezależność kościołów oraz związków wyznaniowych uznanych przez prawo”.
         Przy takim przepisie problem jest rozwiązany. Jeżeli nie będzie go w
         konstytucji, to pojawi się hipoteza, że wszystkie kościoły i związki
@@ -934,7 +934,7 @@
         konkordatu, czy nie, choć są i takie poglądy. Konkordat ma określony
         kształt, więc nie możemy powiedzieć, że każda tego typu umowa
         międzynarodowa będzie entuzjastycznie ratyfikowana przez wszystkich.
-        Przed tym problemem właśnie stoimy. Nakłaniałbym pań- stwa do tego, żeby
+        Przed tym problemem właśnie stoimy. Nakłaniałbym państwa do tego, żeby
         wypowiedzi nie były ogólne, ponieważ powinniśmy zbliżać się do
         określonej formuły, wokół której mielibyśmy szansę osiągnąć konsens, bo
         po to się zebraliśmy. Przedstawiciel Kościoła Zborów Chrystusowych, ks.
@@ -953,8 +953,8 @@
         Nie miał on zastrzeżeń do użycia w ust. 3 określenia „oddzielone od
         państwa”, oczywiście złagodzonego dodatkowymi elementami znajdującymi
         się w zwrocie: „oraz korzystają z autonomii i niezależności . Jestem
-        zaskoczony, że niektórzy z pań- stwa mają w tej sprawie zastrzeżenia.
-        Czyżby pań- stwo byli bardziej papiescy niż sam papież? Słuszna była
+        zaskoczony, że niektórzy z państwa mają w tej sprawie zastrzeżenia.
+        Czyżby państwo byli bardziej papiescy niż sam papież? Słuszna była
         propozycja przesunięcia ust. 5 z powodu potrzeby zapewnienia ciągłości
         myśli zawartych w tym artykule. W sprawie dotychczasowego ust. 4
         zarysowały się dwa stanowiska. Pojawiły się głosy optujące za
@@ -962,10 +962,10 @@
         Kościoła katolickiego, a w drugim innych kościołów i związków
         wyznaniowych. Nie upierałbym się za określeniem tego problemu w jednym
         ustępie, chociaż jestem za sformułowaniem zawartym w jednym punkcie.
-        Jeżeli miałby być wprowadzony podział na dwa ustępy, io ustęp mó- wiący
+        Jeżeli miałby być wprowadzony podział na dwa ustępy, io ustęp mówiący
         ogólnie o wszystkich kościołach powinien być na pierwszym miejscu,
         natomiast w następnym mogłaby być uregulowana kwestia statusu prawnego
-        Koś- cioła katolickiego. Nie chodzi tutaj o szykanowanie Kościoła
+        Kościoła katolickiego. Nie chodzi tutaj o szykanowanie Kościoła
         katolickiego, tylko o to, że od elementów ogólniejszych przechodzi się
         do bardziej szczegóło wych. Ujęcie w jednym ustępie wszystkich tych
         problemów wynika z brzmienia ust. 2. Jeżeli mówi się o równouprawnieniu
@@ -976,7 +976,7 @@
         ogóle nie zapisywać, a i tak z charakteru Kościoła katolickiego i zasad
         ogólnie przyjętych wynika, że kościół ten ma prawo zawrzeć umowę
         konkordatową. Nie widzimy przeszkód, żeby to zaakcentować, ale w taki
-        sposób, by rozumieć to jako moż- liwość, a nie nakaz dla każdej ze
+        sposób, by rozumieć to jako możliwość, a nie nakaz dla każdej ze
         stron. Rozumiem, że pojęcie „po porozumieniu” zawiera w sobie
         niebezpieczeństwa, na które wskazano w dyskusji. Może być jakiś związek
         religijny, który stwarzałby niebezpieczeństwa dla innych ludzi. Z takim
@@ -1000,10 +1000,10 @@
         Chciałbym bronić ust. 3 w obecnym kształcie, bo jest on wynikiem
         uzgodnień w gronie przedstawicieli kościołów oraz — jak mi się wydawało
         — również w podkomisji i Komisji Konstytucyjnej. Istnieje
-        komplementarność mię- dzy pojęciami oddzielenie oraz autonomia i
-        niezależ- ność. Chyba na ten temat nie ma sensu więcej mówić. Jeśli
+        komplementarność między pojęciami oddzielenie oraz autonomia i
+        niezależność. Chyba na ten temat nie ma sensu więcej mówić. Jeśli
         niektórzy z państwa uważają, że trzeba podzielić ust. 4, to nie widzę
-        przeszkód, nawet przy podkreś- leniu szczególnej roli Kościoła
+        przeszkód, nawet przy podkreśleniu szczególnej roli Kościoła
         katolickiego.
       </p>
     </div>
@@ -1032,7 +1032,7 @@
         dyskwalifikuje się sformułowania za Podkomisja podstaw ustroju
         politycznego... (22.02.1995 r. — 14) 97 warte m.in. w ust. 1 mówiące o
         neutralności, to nie na tym etapie dyskusji. Chciałbym do ust. 1
-        zaproponować poprawkę, któ- ra być może wyjdzie naprzeciw oczekiwaniom
+        zaproponować poprawkę, która być może wyjdzie naprzeciw oczekiwaniom
         czy obawom różnych osób. Zwracam uwagę, że dotychczasowa wersja o
         instytucjach publicznych została przedstawiona w projekcie uzgodnionym
         przez przedstawicieli kościołów. Proponowałbym zapis z projektu prof. M.
@@ -1042,7 +1042,7 @@
         chciałby zakazu głoszenia przez profesora uniwersytetu swoich poglądów
         filozoficznych. Byłoby to zobowiązanie dotyczące instytucji publicznej,
         a więc uniwersytetu, którego powinnością powinno być zachowanie
-        neutralności, a więc stworzenie równych warunków do wykładania róż- nych
+        neutralności, a więc stworzenie równych warunków do wykładania różnych
         filozofii i różnych przekonań Światopoglądowych, a nie konkretnego
         profesora, bo nie jest on instytucją publiczną. Chyba zasadnie można
         uważać, że ten przepis dotyczyłby działalności fundacji i instytucji
@@ -1053,12 +1053,12 @@
         polega na tym, że dopuszcza się prezentację różnych stanowisk i różnych
         koncepcji filozoficznych. Z tej propozycji wynika, że instytucja nawet
         publiczna, ale nie wykonująca zadań państwa nie miałaby takiej
-        powinności. Proszę zauważyć, że ust. 3 posługujący się okreś- leniem
+        powinności. Proszę zauważyć, że ust. 3 posługujący się określeniem
         „wykonywania swoich zadań” albo pojęciem „wykonywania funkcji
         religijnych i organizacyjnych” był w drugiej wersji przedłożonej przez
         przedstawicieli prezydenta. Według mnie nie jest to zawę- żenie zakresu
         autonomii i niezależności kościołów i związków wyznaniowych, jeżeli po
-        tym ustępie bę- dzie przepis dotyczący współdziałania państwa z koś-
+        tym ustępie będzie przepis dotyczący współdziałania państwa z koś-
         ciołami w realizacji praw i potrzeb obywateli. Jeżeli mamy dobrą wolę
         rozwiązania tej kwestii, to nie proponujmy niejasnych i nieostrych
         określeń. Jeżeli już je proponujemy, to stwórzmy definicję, która
@@ -1083,7 +1083,7 @@
         przymusu, jeśli takie występują i do niego nie dopuszczać. Poseł W.
         Cimoszewicz nawoływał przed chwilą do precyzji. Nie bardzo rozumiem, co
         można uznać za instytucję wykonującą zadania państwa poza władzami
-        publicznymi. Nie jest to ostre okreś- lenie, lecz umowne. Wydaje mi się,
+        publicznymi. Nie jest to ostre określenie, lecz umowne. Wydaje mi się,
         że w ust. I „władze publiczne” załatwiają problem. Szukanie dodatkowych
         elementów jest przejawem pewnego przeczulenia.
       </p>
@@ -1112,11 +1112,11 @@
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Propozycja posła W. Cimoszewicza, żeby posłużyć się określeniem
-        „instytucje wykonujące zadania pań- stwa” wzbudziła zastrzeżenia posła
+        „instytucje wykonujące zadania państwa” wzbudziła zastrzeżenia posła
         T. Mazowieckiego. Jako prawnik, nie tylko teoretyk, ale jako ten, który
         przez wiele lat parał się praktyką prawniczą chciałbym powiedzieć, że
         pojęcie „instytucji wykonujących zadania państwa” lub dodatkowe
-        określenie „zadania zlecone przez państwo” czy „funkcje pań- stwa
+        określenie „zadania zlecone przez państwo” czy „funkcje państwa
         zlecone” jest pojęciem ustawowym, doktrynalnym, znanym w naszym
         orzecznictwie sądowym, w tym w orzecznictwie Trybunału Konstytucyjnego.
         Oznacza to takie twory, które nie są częścią aparatu państwowego, np.
@@ -1238,7 +1238,7 @@
         o tekst, który został przedstawiony jako uzgodniony między
         przedstawicielami kościołów. Jesteśmy bliscy konsensu co do podziału
         ust. 4 na dwa ustępy. Brzmiałyby one w sposób następujący: „Sytuację
-        prawną Koś- cioła katolickiego określa ustawa oraz umowa mię-
+        prawną Kościoła katolickiego określa ustawa oraz umowa mię-
         dzynarodowa ze Stolicą Apostolską ratyfikowana na podstawie upoważnienia
         wyrażonego w ustawie”. Ustęp drugi: „Sytuację prawną innych kościołów i
         związków wyznaniowych określają ustawy uchwalone po porozumieniu z ich
@@ -1250,7 +1250,7 @@
         przyjęciu formuły sugerowanej przez posła W. Cimoszewicza. Wtedy ust. 3
         brzmiałby w sposób następujący: ,„Władze publiczne i instytucje
         wykonujące zadania państwa w Rzeczypospolitej Polskiej zachowują
-        neutralność w sprawach przekonań religijnych, Światopoglą- dowych i
+        neutralność w sprawach przekonań religijnych, Światopoglądowych i
         ideologicznych”. Dotychczasowy ust. 3 pozostałby bez zmian. Jeżeli
         zgodzimy się, że istnieje iunctim między ust. 1 i ust. 3, to
         proponowałbym następującą formułę: „Władze publiczne w Rzeczypospolitej
@@ -1358,7 +1358,7 @@
         światopoglądowych i ideologicznych. Ust. 2. Kościoły I związki
         wyznaniowe są równouprawnione. Ust. 3. Sytuację prawną Kościoła
         katolickiego określa ustawa oraz umowa międzynarodowa ze Stolicą
-        Apostolską ratyfikowana na podstawie upoważ- nienia wyrażonego w
+        Apostolską ratyfikowana na podstawie upoważnienia wyrażonego w
         ustawie. Ust. 4. Sytuację prawną innych kościołów i związków
         wyznaniowych określają ustawy uchwalone po porozumieniu się z ich
         właściwymi przedstawicielami. Ust. 5. Kościoły i związki wyznaniowe są
@@ -1366,7 +1366,7 @@
         swoich zadań. Ust. 6. W celu realizacji praw człowieka i potrzeb
         obywateli państwo współdziała z kościołami i związKami wyznaniowymi”.
         Wydaje mi się, że jesteśmy bliscy konsensu. Przedstawiciel Sekreatariatu
-        Konferencji Episkopatu Polski, ks. prof. Józef Krukowski: Oponował- bym
+        Konferencji Episkopatu Polski, ks. prof. Józef Krukowski: Oponowałbym
         przeciwko wpisywaniu instytucji wykonujących zadania państwa. Wystarczy,
         że władze publiczne w Rzeczypospolitej...
       </p>
@@ -1381,7 +1381,7 @@
       <p>
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Przepraszam bardzo, ale w poprzednim tekście, który został nam
-        rekomendowany jako uzgodniony przez przedstawicieli koś- ciołów,
+        rekomendowany jako uzgodniony przez przedstawicieli kościołów,
         napisano: „władze i instytucje publiczne”. Przedstawiciel Sekretariatu
         Konferencji Episkopa tu Polski, ks. prof. Józef Krukowski: Mam prawo do
         autopoprawki.
@@ -1398,8 +1398,8 @@
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że jest to zgłoszone w trybie autopoprawki. (22.02.1995 r. —
         14) 99 Przedstawiciel Sekretariatu Konferencji Episkopatu Polski, ks.
-        prof. Józef Krukowski: „Koś- cioły i związki wyznaniowe oddzielone są od
-        pań- stwa oraz autonomiczne i niezależne w wykonywaniu swoich zadań”. Z
+        prof. Józef Krukowski: „Kościoły i związki wyznaniowe oddzielone są od
+        państwa oraz autonomiczne i niezależne w wykonywaniu swoich zadań”. Z
         natury rzeczy kościoły I związki wyznaniowe mają zadania religijne, więc
         byłaby to tautologia. Wykonują swoje zadania, prowadząc działalność
         charytatywną, naukową itp. Wiadomo, że zadania te były historycznie
@@ -1555,7 +1555,7 @@
       <p>
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Prosiłbym o opinię panów profesorów. Jaka jest różnica między
-        oddzieleniem od państwa, a oddzieleniem od organów pań- stwa?
+        oddzieleniem od państwa, a oddzieleniem od organów państwa?
       </p>
     </div>
     <div class="speaker">
@@ -1568,7 +1568,7 @@
       <p>
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         W kwestii formalnej. Prosiłabym o sprecyzowanie, czy jesteśmy w fazie
-        ustalania końcowej wersji artykułu, która bę- dzie poddana pod
+        ustalania końcowej wersji artykułu, która będzie poddana pod
         głosowanie, czy w fazie dyskusji, czy w fazie wyboru jednego z
         wariantów? Prosiłabym o sprecyzowanie tego z powodów czasowych.
       </p>
@@ -1605,7 +1605,7 @@
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Składam wniosek formalny, aby przejść do fazy głosowania w momencie
         pojawienia się wypracowanego przez podkomisję projektu artykułu. Ze słów
-        pana przewodniczą- cego zrozumiałam, że byliśmy bliscy konsensu. Kiedy
+        pana przewodniczącego zrozumiałam, że byliśmy bliscy konsensu. Kiedy
         pan przewodniczący udzielił głusu, to okazało się, że porozumienie się
         oddala. Każdy mówca wprowadza nowe elementy, co powoduje, że jesteśmy
         dalej, a nie bliżej wspólnego projektu. Wobec tego proszę o tekst, nad
@@ -1631,7 +1631,7 @@
         zobaczymy, czy w gronie człon Posiedzenia podkomisji stałych Komisji
         Konstytucyjnej ZN ków podkomisji ten sprzeciw się potwierdzi. Jeśli tak,
         to pozostanie nam tylko rozstrzygnięcie w trybie głosowania, co zresztą
-        będzie mało realne, bo bę- dziemy musieli wówczas wrócić do wszystkich
+        będzie mało realne, bo będziemy musieli wówczas wrócić do wszystkich
         innych wariantów tutaj przedstawionych. Prawdopodobnie Komisji
         Konstytucyjnej będziemy musieli wówczas przedstawić konkluzję, że nie
         osiągnęliśmy postawionego przed nami celu.
@@ -1654,11 +1654,11 @@
         chodzi o rozumowanie w kategoriach przetargu, ale wówczas trzeba by
         powiedzieć, że jest to propozycja wynikająca z taktyki negocjacyjnej, a
         nie z argumentów merytorycznych. Nie są najszczęśliwsze propozycje
-        dotyczące przesunięć redakcyjnych. Kolejność dyskutowanych ustę- pów ma
+        dotyczące przesunięć redakcyjnych. Kolejność dyskutowanych ustępów ma
         swoją logikę. W ust. 3 proponuje się ogólną formułę relacji między
         państwem a kościołem oraz autonomii i niezależności kościołów w
         wykonywaniu tak czy inaczej określonych zadań, które muszą znajdować
-        odzwierciedlenie m.in. w ustawach ustalają- cych sytuację prawną.
+        odzwierciedlenie m.in. w ustawach ustalających sytuację prawną.
         Dlatego ta formuła powinna poprzedzać przepis mówiący o sytuacji prawnej
         I nie należy tego zmieniać. Już wcześniej powiedzieliśmy sobie, że z
         istotnych względów warto ust. 5 przesunąć na czwartą pozycję, bo on
@@ -1788,7 +1788,7 @@
         powiedzieć, iż konsensu nie osiągnęliśmy i trzeba wrócić do normalnej
         procedury. Przestrzeń poszukiwań została już wyczerpana. My nie możemy
         dzisiaj rozstrzygać w drodze głosowania, bo nie możemy powiedzieć, że
-        nie ma wniosków senatorów A. Grześ- kowiak i P. Andrzejewskiego, że nie
+        nie ma wniosków senatorów A. Grześkowiak i P. Andrzejewskiego, że nie
         ma wniosków posłów L. Moczulskiego i K. Kamińskiego. Będziemy musieli
         wrócić do rozpatrywania tego zagadnienia od początku.
       </p>
@@ -1938,7 +1938,7 @@
       <p>
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Mam również pytanie do wnioskodawców tekstu, który rzekomo jest tekstem
-        uzgodnionym z przedstawicielami koś- ciołów. Jeżeli tak bardzo
+        uzgodnionym z przedstawicielami kościołów. Jeżeli tak bardzo
         wnioskodawcy obstają przy przepisie, aby autonomia i niezależność
         dotyczyły wykonywania zadań, a nie wykonywania funkcji religijnych i
         organizacyjnych, to czy należy domniemywać, że zadania wykraczają poza
@@ -1957,7 +1957,7 @@
         Oczywiście, że są pewne zadania społeczne. W tej sprawie mamy pewność,
         bo zadań społecznych nigdy nie kwestionowaliśmy, jak myślę. Osobiście
         miałem nadzieję, że niektóre zadania społeczne, charytatywne itp. będą
-        peł- nione szerzej. Przedstawiciel Sekretariatu Konferencji Episkopatu
+        pełnione szerzej. Przedstawiciel Sekretariatu Konferencji Episkopatu
         Polski, ks. prof. Józef Krukowski: Niewątpliwie zadania wynikają z
         natury tych społeczności. Uważam, że całkowicie prawdziwa jest opinia
         posła R. Bugaja, iż zadania te będą dokładnie sprecyzowane w ustawach i
@@ -2010,7 +2010,7 @@
         height="110" />
       <p>
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
-        Chciał- bym zaproponować rozwiązanie, które może być przyjęte przez
+        Chciałbym zaproponować rozwiązanie, które może być przyjęte przez
         Komisję Konstytucyjną. Wydaje mi się, że możemy stwierdzić, iż w tym
         gronie istnieje zgoda niemal do całości przepisów. Komisja powinna
         rozstrzygnąć dwa problemy merytoryczne, a nie sformułowania. Czy zasada
@@ -2080,7 +2080,7 @@
         Państwo chcecie ten problem przenieść na ogólne zebranie Komisji, gdzie
         macie większość. Proszę bardzo. My to będziemy przenosić na referendum.
         Przed chwilą poseł K. Łybacka — która zabierała głos co chwila, ja
-        czekałem cierpliwie — mó- wiła, że nie można tego uzgodnić. Proszę więc,
+        czekałem cierpliwie — mówiła, że nie można tego uzgodnić. Proszę więc,
         przegłosujcie to państwo. Wykazaliśmy maksimum dobrej woli, przyjęliśmy
         zasadę neutralności władzy publicznej, przyjęliśmy zasadę oddzielenia ód
         organów państwa. Chcecie nie w ustawie, tylko w konstytucji precyzować,

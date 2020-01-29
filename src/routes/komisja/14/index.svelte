@@ -80,7 +80,7 @@
   </h5> -->
   <p>
     W dniach 21, 22 i 23 lutego 1995 r. Komisja Konstytucyjna Zgromadzenia
-    Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniew- skiego
+    Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
     (SLD), rozpatrywała: projekt jednolity Konstytucji Rzeczypospolitej Polskiej
     (w ujęciu wariantowym), przyjęcie harmonogramu posiedzeń Komisji
     Konstytucyjnej w II kwartale 1995 r., sprawy różne.

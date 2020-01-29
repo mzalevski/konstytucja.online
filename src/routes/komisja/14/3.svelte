@@ -165,7 +165,7 @@
         rozdziału drugiego. Chcę jeszcze raz podkreślić, że moja propozycja
         przebiegu posiedzenia w dniu dzisiejszym nie jest próbą ucieczki od
         kwestii objętych art. 15. Chodzi o to, aby decyzje Komisji były w pełni
-        Świadome, przy uwzględnieniu i poszanowaniu istniejących róż- nic
+        Świadome, przy uwzględnieniu i poszanowaniu istniejących różnic
         poglądów. Decyzje Komisji powinny uwzględniać poglądy nie tylko nas jako
         członków Komisji, ale również poglądy naszych klubów parlamentarnych.
       </p>
@@ -210,8 +210,8 @@
         przyjęta. Przedstawiciel Sekretariatu Konferencji Episkopatu Polski, ks.
         prof. Józef Krukowski: W związku z wczorajszą dyskusją i następnie
         nagłośnieniem tej sprawy w mass mediach, gdy chodzi o akceptację zasady
-        oddzielenia kościoła od państwa bez uzupeł- nienia nadającego tej
-        formule sens pozytywny i mó- wiącego o autonomii i niezależności, muszę
+        oddzielenia kościoła od państwa bez uzupełnienia nadającego tej
+        formule sens pozytywny i mówiącego o autonomii i niezależności, muszę
         dokonać autopoprawki i zgłosić sprzeciw wobec zasady oddzielenia
         kościoła od państwa. Jest to bowiem nieklarowne i obciążone tragicznymi
         doświadczeniami przeszłości. Jeżeli przechodzimy do demokracji, to
@@ -232,7 +232,7 @@
         którym byliśmy informowani, obejmował trzy elementy: oddzielenie od
         państwa, autonomiczność i niezależność w wykonywaniu swoich zadań. Czy
         wypowiedź ks. prof. J. Krukowskiego ma oznaczać, że następuje zerwanie
-        tego, co było okreś- lone jako konsens i co oznaczałoby również
+        tego, co było określone jako konsens i co oznaczałoby również
         rezygnację ze stwierdzenia o autonomii i niezależności? Pojęcia te były
         interpretowane jako wyraz równowagi w ramach kompromisowej formuły. Chcę
         się więc upewnić, jaka jest intencja w tym zakresie. Przedstawiciel
@@ -254,7 +254,7 @@
       <p>
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Jeżeli jest to tautologia — pojęcia równoznaczne — to czy pozostawienie
-        formuły: „oddzielone od państwa”, z wykreś- leniem autonomii i
+        formuły: „oddzielone od państwa”, z wykreśleniem autonomii i
         niezależności, nie byłoby odzwierciedleniem sytuacji, w której unika się
         powtórzenia pojęć tożsamych? Przedstawiciel Sekretariatu Konferencji
         Episkopatu Polski, ks. prof. Józef Krukowski: Na ujęcie poJęcia:
@@ -303,7 +303,7 @@
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przed udzieleniem głosu kolejnym mówcom chcę prosić ekspertów, aby
-        spróbowali określić znaczenie poję- cia: „autonomiczny . W projektach
+        spróbowali określić znaczenie pojęcia: „autonomiczny . W projektach
         konstytucji kwestia ta pojawia się w dwóch kontekstach. Kontekst
         pierwszy to stosunki państwo-kościół, a kontekst drugi to autonomia
         szkół wyższych. W polskim prawie konstytucyjnym autonomia nie jest
@@ -319,14 +319,14 @@
         height="110" />
       <p>
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
-        Posłowi J. Jaskierni chcę przypomnieć, że to nie strona koś- cielna
+        Posłowi J. Jaskierni chcę przypomnieć, że to nie strona kościelna
         zerwała rysujący się konsens, lecz upór niektórych przedstawicieli SLD,
         którzy zdecydowali się wpisać formułę o zadaniach religijnych i
         organizacyjnych jako zakres działania kościoła. Konstytucja, która
         dyktuje jakie zadania ma kościół, jest nieporozumieniem. W tej kwestii
         nastąpił zgrzyt, który uniemożliwił wczoraj ustalenie formuły
         kompromisowej. Tak więc wnioskuję o inną redakcję dyskutowanej formuły.
-        Minimum byłoby wpisanie formuły mówią- cej o oddzieleniu od organów
+        Minimum byłoby wpisanie formuły mówiącej o oddzieleniu od organów
         państwa bądź władz państwowych, a nie od państwa.
       </p>
     </div>
@@ -405,7 +405,7 @@
         height="110" />
       <p>
         <strong>Senator Alicja Grześkowiak NSZZ „S”):</strong>
-        Członkom Komisji chciałabym przypomnieć, że nie jesteś- my Stanami
+        Członkom Komisji chciałabym przypomnieć, że nie jesteśmy Stanami
         Zjednoczonymi. Faktem niezaprzeczalnym jest natomiast to, że w
         konstytucji z 1952 r. znajduje się formuła o oddzieleniu państwa od koś-
         cioła i kościoła od państwa. Nie wiem, na czym polega kompromis, jeżeli
@@ -474,12 +474,12 @@
         height="110" />
       <p>
         <strong>Poseł Leszek Moczulski (KPN):</strong>
-        Formuła mówią- ca, że „Kościół i związki wyznaniowe są oddzielone od
+        Formuła mówiąca, że „Kościół i związki wyznaniowe są oddzielone od
         Państwa”, mogłaby brzmieć: „Kościoły i związki wyznaniowe są oddzielone
         od organów Rzeczypospolitej' lub „Kościoły i związki wyznaniowe są
         oddzielone od Rzeczypospolitej”. Druga formuła jest horrendalna. Trzeba
         jednak dokonać wyboru, gdyż formuła mówiąca o oddzieleniu od państwa dla
-        niektórych z nas oznacza oddzielenie od władz pań- stwowych. Dla innych
+        niektórych z nas oznacza oddzielenie od władz państwowych. Dla innych
         oznaczać może jednak oddzielenie od Rzeczypospolitej, a jest to coś
         zupełnie innego.
       </p>
@@ -498,8 +498,8 @@
         oficjalnego potwierdzenia. Słyszalne są jednak rozbieżne sygnały.
         Senator K. Kozłowski sugerował, że skoro są trudności, to należy
         poszukiwać innej formuły. W związku z tym przypomnę stosowną formułę
-        zawartą w ust. 3: „„Koś- cioły i związki wyznaniowe są oddzielone od
-        Pań- stwa i są autonomiczne i niezależne w wykonywaniu swoich zadań”.
+        zawartą w ust. 3: „„Kościoły i związki wyznaniowe są oddzielone od
+        Państwa i są autonomiczne i niezależne w wykonywaniu swoich zadań”.
         Pierwsze pytanie, jakie się nasuwa, to pytanie: czy jest wola przyjęcia
         tej formuły? Słychać głosy, aby SLD zajął stanowisko, lecz nie wiadomo
         czego miałoby ono dotyczyć. Po drugie chcę jeszcze raz podkreślić, że
@@ -513,7 +513,7 @@
         Oznacza to przyjęcie jednej z opcji, która cofa nas do sytuacji, kiedy
         podkomisja przygotowała cztery warianty. Kwestia trzecia. Nie wiem, z
         czego wynika przywiązanie senator A. Grześkowiak do Stalina i ducha
-        stalinizmu, lecz pojęcie rozdziału kościoła od pań- stwa jest jedną z
+        stalinizmu, lecz pojęcie rozdziału kościoła od państwa jest jedną z
         przedstawionych kategorii prawno-konstytucyjnych znanych w nauce prawa
         konstytucyjnego. Pojęcie to genetycznie w najmniejszym stopniu nie wiąże
         się z konstytucją 1952 r. Pojęcie to znalazło się w tej konstytucji
@@ -531,15 +531,15 @@
         rozumiem intencje autora, chodziło o sprecyzowanie, co to znaczy:
         zadania kościoła. Jeżeli występują inne funkcje — jak na przykład
         charytatywna — to może je również wskazać. Jeżeli będzie taka potrzeba,
-        to można wymienić funkcje kościoła. Nie jest to jednak okreś- lenie
+        to można wymienić funkcje kościoła. Nie jest to jednak określenie
         zadań kościoła, lecz określenie w jakim zakresie występuje niezależność.
-        Jeżeli bowiem koś- ciół angażuje się w funkcje jednoznacznie Świeckie —
+        Jeżeli bowiem kościół angażuje się w funkcje jednoznacznie Świeckie —
         jak na przykład działalność gospodarcza — to rodzi się pytanie, czy tego
         typu kwestii ma również dotyczyć niezależność i autonomia. Czy jednak w
         tym okresie nie powinny być stosowane reguły dotyczące innych podmiotów
         prowadzących ten sam typ działalności? Nie ma to jednak nic wspólnego z
         próbą ograniczenia kościoła w zakresie wykonywania jego funkcji
-        wynikających z istoty koś- cioła. Uważam więc, że postawione pytanie
+        wynikających z istoty kościoła. Uważam więc, że postawione pytanie
         jest uprawnione i powinna na nie być udzielona odpowiedź. W związku z
         tym chcę przypomnieć o złych doświadczeniach z małą konstytucją, kiedy
         to kilka kwestii nie zostało dookreślonych w myśl założenia, że
@@ -629,7 +629,7 @@
         między państwem a kościołem. Należy również pamiętać, że naszym zadaniem
         nie jest ocenianie historii i nie jest przewidywanie zdarzeń mzyszłych.
         Naszym zadaniem jest przygotowanie p: ojektu konstytucji, która ma
-        gwarantować okreś- lone kwestie. Konstytucja z 1952 r. również
+        gwarantować określone kwestie. Konstytucja z 1952 r. również
         gwarantowała wiele kwestii formalnie, a nie miało to nic wspólnego z
         rzeczywistością. Czy na tej podstawie mamy przygotowywać nową
         konstytucję? Gwarancją przestrzegania nowej konstytucji jesteśmy my
@@ -665,7 +665,7 @@
         jest chyba dobry i właściwy. W związku z tym należałoby chyba dać sobie
         trochę czasu, aby dowiedzieć się, czy ten kierunek utrzyma się, również
         po stronie SLD, gdyż wczoraj i dzisiaj widać różne stanowiska. Nie
-        wiadomo, jakie ono bę- dzie za dwa tygodnie. Poseł J. Jaskiernia ciągle
+        wiadomo, jakie ono będzie za dwa tygodnie. Poseł J. Jaskiernia ciągle
         domaga się wyjaśnienia, jak określić zakres działalności kościoła. W
         związku z tym chcę podkreślić, że możemy oczywiście wysłuchać prawników,
         ale wówczas musielibyśmy również wysłuchać kanonistów, którzy kwestię tę
@@ -715,7 +715,7 @@
         rachubę. Kwestia ta była podnoszona podczas wczorajszego posiedzenia
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego, gdzie
         miała miejsce bardzo ciekawa dyskusja o charakterze merytorycznym, choć
-        zakoń- czyła się niedobrze. W formule, o której mówimy, państwo nie jest
+        zakończyła się niedobrze. W formule, o której mówimy, państwo nie jest
         na pewno równoznaczne z tym, co nazywamy Rzecząpospolitą Polską. Wydaje
         się więc, że pierwsza propozycja posła L. Moczulskiego jest
         nieuzasadniona. Chodzi o to pojęcie Rzeczypospolitej, które obejmuje
@@ -725,12 +725,12 @@
         Rzeczypospolitej jako państwa obywatelskiego. Obrady w dniu 23.02.1995
         r. (21) Uważam, że państwo w tym znaczeniu oznacza to, co jest bliskie
         drugiej propozycji, a więc oznacza władzę publiczną, czy też organy
-        państwowe. Okreś- leniami tymi nie zastępowałbym pojęcia państwa. Proszę
+        państwowe. Określeniami tymi nie zastępowałbym pojęcia państwa. Proszę
         zwrócić uwagę, że na gruncie tego projektu pojęciem państwa posługujemy
         się w różnym znaczeniu. Ostatecznie wykładni tych pojęć należy
         pozostawić ich własne rozumienie. Proszę zwrócić uwagę, że na przykład w
         art. 24 jest mowa o: „jurysdykcji Państwa”. Mowa jest także o budżecie
-        pań- stwa, o Skarbie Państwa jako instytucji określonej w art. 45.
+        państwa, o Skarbie Państwa jako instytucji określonej w art. 45.
         Również w innych przepisach jest mowa o państwie. Tak więc — moim
         zdaniem — nie ma potrzeby w omawianym przypadku zastępować pojęcia pań-
         stwa innym terminem, lecz należy przypisać mu właściwe znaczenie. Jakie
@@ -753,12 +753,12 @@
         height="110" />
       <p>
         <strong>Poseł Leszek Moczulski (KPN):</strong>
-        Bardzo chętnie zgodziłbym się z dystynkcją prof. K. Działochy, któ- ry
+        Bardzo chętnie zgodziłbym się z dystynkcją prof. K. Działochy, który
         rozróżnił Rzeczpospolitą i państwo, lecz pod jednym warunkiem.
         Dystynkcja ta powinna znaleźć wyraz w konstytucji. Może ona oczywiście
         być sprzeczna z definicjami encyklopedycznymi. Państwo jest bowiem w
         encyklopediach z reguły osobnym podmiotem, a nie władzą państwową. Chcę
-        jednak zwró- cić uwagę, że w art. 1 i art. 3 stawia się znak równania
+        jednak zwrócić uwagę, że w art. 1 i art. 3 stawia się znak równania
         między państwem a Rzecząpospolitą. Art. 3 stanowi, że: „Rzeczpospolita
         Polska jest Państwem jednolitym i niepodzielnym”. Z tego przepisu nie
         można wyprowadzić wniosku, że państwo to organa władzy państwowej.
@@ -811,7 +811,7 @@
         niezrozumiałe. Wnioskodawców tej formuły prosiłbym więc o jej
         wyjaśnienie. Przepis o autonomii nie może mieć odniesienia ustawowego ze
         względu na to, że przepis konstytucyjny jest właśnie po to, aby chronić
-        przed większoś- cią parlamentarną i ustawową. Jest to zasadniczej wagi
+        przed większością parlamentarną i ustawową. Jest to zasadniczej wagi
         określenie konstytucyjne wolności pewnej sfery życia — czy pewnej
         organizacji — która nie może być poddana czasowej, zmiennej większości
         parlamentarnej, gdyż inaczej przepis konstytucyjny nie ma sensu. Jeżeli
@@ -819,8 +819,8 @@
         pojęcie historyczne. Ma więc różne znaczenie historyczne i różne
         znaczenie we współczesnym Świecie. Najogólniej rzecz ujmując można
         wyróżnić trzy rodzaje rozdziałów kościoła od państwa. Rozdział neutralny
-        i stanowczy to typ amerykań- ski, w którym można wyróżnić osobne sfery
-        Życia, nie mające w gruncie rzeczy nawet prawa do współ- działania.
+        i stanowczy to typ amerykański, w którym można wyróżnić osobne sfery
+        Życia, nie mające w gruncie rzeczy nawet prawa do współdziałania.
         Równocześnie nie należy jednak zapominać o tym, że jest to państwo
         federalne. W różnych stanach konstytucje stanowe nie zawsze przyjmują tę
         zasadę. Ponadto bardzo ważne jest orzecznictwo stanowego Sądu
@@ -848,12 +848,12 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
-        Chcę się odnieść do propozycji, aby pojęcie „państwa” zastą- pić
+        Chcę się odnieść do propozycji, aby pojęcie „państwa” zastąpić
         pojęciem „organy państwowe” lub pojęciem „władza publiczna”. Jeżeli
         przyjąć koncepcję oddzielenia od organów państwowych, to powstaje pewna
         niesymetria. Z jednej strony mamy bowiem kościoły i związki wyznaniowe
         traktowane jako pewne zbiorowości — wspólnoty, a z drugiej strony w grę
-        wchodzą organy pań- stwowe. Oznaczałoby to na przykład, że Kościół
+        wchodzą organy państwowe. Oznaczałoby to na przykład, że Kościół
         katolicki jest oddzielony od prezydenta, a Kościół luterański jest
         oddzielony od Sejmu. Byłoby to dość dziwaczne. Może więc należy pójść w
         kierunku stwierdzenia, że organy lub władze kościelne są oddzielone od
@@ -881,7 +881,7 @@
         Nawet oddzielenie w wersji łagodnej było związane bardziej z
         XIX-wiecznym postrzeganiem kościoła jako instytucji. W sytuacji, w
         której kościoły są w coraz większym stopniu postrzegane jako wspólnoty —
-        co jest zgodne z ewolucją zachodzącą w koś- ciołach — upieranie się przy
+        co jest zgodne z ewolucją zachodzącą w kościołach — upieranie się przy
         obciążonym historycznie pojęciu oddzielenia wydaje się zbędne. Trudno mi
         wyobrazić sobie coś, co byłoby autonomiczne, a równocześnie nie byłoby
         oddzielone od władz publicznych. Powoli dochodzimy bowiem do wniosku, że
@@ -892,7 +892,7 @@
         Jest to formuła soborowa, która nie pociąga za sobą wszystkich ran i
         ciężkich doświadczeń, które były naszym udziałem przez tyle lat. W
         pewnym sensie oddzielenie zawiera się w autonomii. Może więc należy
-        zaakceptować formułę ogólniejszą, ponieważ autonomia i niezależ- ność
+        zaakceptować formułę ogólniejszą, ponieważ autonomia i niezależność
         nie zawierają się w oddzieleniu, a pewna forma oddzielenia zawiera się w
         autonomii i niezależności. W ten sposób skonstruujemy pojęcie
         trójczłonowe, które nie będzie w pełni logiczne. Jeżeli na kwestię tę
@@ -926,7 +926,7 @@
         Oczywiście, że są oddzielone, gdyż są częścią systemu
         zdecentralizowanego, a ingerencja następuje w formach ustawowych.
         Ponadto istnieje nadzór nad uczelniami, który będzie również w
-        przypadku, o którym mó- wimy. W tym sensie mówi się o wolności
+        przypadku, o którym mówimy. W tym sensie mówi się o wolności
         akademickiej i autonomii uczelni. Gdybyśmy w tym sensie używali pojęć:
         „autonomiczny i niezależny”, to w pewnym sensie mogłoby to istnieć.
         Myślę, że odpowiedziałam na pytanie poseł K. Łybackiej. Ponadto pytałam
@@ -994,7 +994,7 @@
         tamtym ustroju jest w dalszym ciągu obecny i przed nim jest niepokój,
         Wyrazem tego sposobu myślenia jest na przykład wariant IV projektu
         podkomisji zgłoszony przez Parlamentarną Grupę Kobiet, a więc bardzo
-        reprezentatywną i związaną z rzą- dzącą koalicją grupą nacisku w
+        reprezentatywną i związaną z rządzącą koalicją grupą nacisku w
         parlamencie. Wariant ten przewiduje bardzo radykalne rozwiązania
         konstytucyjne. Są one dalej idące niż rozwiązania stalinowskie. Należy
         powiedzieć szczerze, że jest taki odłam opinii publicznej, który chętnie
@@ -1010,7 +1010,7 @@
         sugerować to, że religie nie mają mieć prawa wpływu na kształt państwa
         nawet w tym sensie, że mają swoją naukę społeczną, którą chcą
         realizować. Jest to bardzo niebezpieczne i myślę, że upieranie się przy
-        zapisie o oddzieleniu kościoła od pań- stwa ma prowadzić do takich
+        zapisie o oddzieleniu kościoła od państwa ma prowadzić do takich
         skutków, jakie są proponowane w wariancie IV. Wariant ten przewiduje
         m.in., że w instytucjach państwowych i innych niedozwolone jest
         powoływanie instytucji i stanowisk mających na celu religijne lub
@@ -1104,9 +1104,9 @@
         powstała w Europie — najpierw we Francji, a później w Związku
         Radzieckim. Próby były podejmowane w Polsce w minionym okresie. Stąd też
         mamy awersję do pojęcia „oddzielenie”, tym bardziej że w konstytucjach
-        państw europejskich nie ma mowy o oddzieleniu koś- cioła od państwa, czy
+        państw europejskich nie ma mowy o oddzieleniu kościoła od państwa, czy
         o separacji, poza konstytucjami b. ZSRR ib. państw socjalistycznych,
-        zwanych w ję- zyku politycznym państwami totalitaryzmu komunistycznego.
+        zwanych w języku politycznym państwami totalitaryzmu komunistycznego.
         Stąd też kurczowe trzymanie się tego pojęcia jest obciążone politycznie.
         Tym, którzy trzymają się tego pojęcia proponowałbym, aby zrezygnowali z
         tego po to, aby nie stwarzać powodu do stawiania im tego zarzutu, a przy
@@ -1127,7 +1127,7 @@
         to jednak, że to ustawodawstwo dyktuje zadania, jakie ma realizować
         kościół. Zadania kościoła są natury religijnej i obejmują nauczanie,
         sprawowanie kultu, działalność: charytatywną, wychowawczą i kulturalną.
-        Katalog ten moż- na jeszcze uszczególnić. Nie wydaje się jednak
+        Katalog ten można jeszcze uszczególnić. Nie wydaje się jednak
         sensowne, aby do konstytucji wpisywać zadania kościoła. Równocześnie
         jednak ujęcie formuły o zadaniach religijnych i organizacyjnych wydaje
         się zbyt ubogie, aby mogło oznaczać wyczerpanie zadań kościoła, jak to
@@ -1136,7 +1136,7 @@
         rozstrzygnięcia na dzisiaj. Warto również przypomnieć, że nad I poprawką
         do konstytucji USA, dyskusja trwała kilkanaście miesięcy. U nas chyba
         również w ciągu kilku dni nie rozstrzygniemy tej sprawy. Przedstawiciel
-        Polskiego Autokefalicznego Koś- cioła Prawosławnego, ks. biskup
+        Polskiego Autokefalicznego Kościoła Prawosławnego, ks. biskup
         Jeremiasz: Chcę jeszcze raz zabrać głos na temat zadań kościoła,
         ponieważ kwestia była wczoraj i dzisiaj wielokrotnie podejmowana. Moją
         wypowiedź proszę potraktować jako komplementarną do tego, co powiedział
@@ -1147,7 +1147,7 @@
         Ewangelii, o odprawianiu nabożeństw, o działaniach uświęcających, o
         budownictwie sakralnym, o działalności charytatywnej itd. Chciałbym
         zwrócić uwagę na pewien istniejący problem, który musi być uświadomiony
-        przez nas wszystkich. Chodzi o to, że zadań kościołów nie moż- na
+        przez nas wszystkich. Chodzi o to, że zadań kościołów nie można
         sprecyzować do końca. Każde wyliczenie w konstytucji będzie
         ograniczeniem i może doprowadzić do negatywnych skutków. Posłużę się
         kilkoma przykładami. W okresie Polskiej Rzeczypospolitej Ludowej nie
@@ -1170,14 +1170,14 @@
         polityczna była bardzo widoczna. Tak było zwłaszcza w XIX wieku w
         okresie zaborów. Jeżeli więc w konstytucji miałaby pojawić się formuła o
         działalności religijnej i organizacyjnej, to prowadziłoby to do wielu
-        kłopotów, zwłaszcza że oddzielenie pań- stwa od kościoła miało charakter
+        kłopotów, zwłaszcza że oddzielenie państwa od kościoła miało charakter
         negatywny i restrykcyjny. Myślę więc, że pewna otwartość jest wskazana i
         będzie dobrze odzwierciedlała aktualny stan świadomości. Wydaje się
         więc, że pewna otwartość Obrady w dniu 23.02.1995 r. (21 sformułowana w
         propozycji, która wczoraj zdawała się być bliska przyjęcia, byłaby
         wskazana. Chodzi mi o formułę: „Kościoły i związki wyznaniowe są
         oddzielone od Państwa oraz korzystają z autonomii i niezależności w
-        wykonywaniu swoich zadań”. Myś- lę, że zadania w sposób naturalny —
+        wykonywaniu swoich zadań”. Myślę, że zadania w sposób naturalny —
         uwzględniając przypadki historycznie wyjątkowe — będą zgodne z wolą
         kościołów, a nie będą polegać na przykład na tworzeniu armii po to, aby
         dokonać przewrotu. Wprowadzenie do konstytucji, czy ustaw tego typu
@@ -1227,7 +1227,7 @@
         zaproponowana wersja proponuje ograniczenie do kościołów, związków
         wyznaniowych i organów państwowych. Kojarzy się to jednak z inną od
         demokratycznej koncepcją państwa. Nie aprobowałbym zapisu, aby relacje
-        między państwem a koś- ciołami ograniczyć do organów państwowych.
+        między państwem a kościołami ograniczyć do organów państwowych.
       </p>
     </div>
     <div class="speaker">
@@ -1277,12 +1277,12 @@
         wydaje byłby najlepszy jako przepis polskiej konstytucji, jest model
         konstytucji włoskiej. Konstytucja jest pisana dla narodu i musi
         odzwierciedlać tożsamość narodu. Tak uczynili Włosi i dlatego w swojej
-        konstytucji w regulacji stosunków pań- stwo-kościół przyjęli za
+        konstytucji w regulacji stosunków państwo-kościół przyjęli za
         prawdziwą tę rzeczywistość, że większość narodu włoskiego to
         chrześcijanie, czyli ludzie wierzący, a więc osoby należące do kościoła
         — kościołów, a zwłaszcza do jednego z kościołów. Przy tworzeniu polskiej
         konstytucji również trzeba uwzględnić tożsamość narodu polskiego, w
-        zdecydowanej większości wierzącego i należącego do koś- ciołów, a
+        zdecydowanej większości wierzącego i należącego do kościołów, a
         zwłaszcza do kościołów chrześcijańskich. Dlatego też wydaje mi się, że
         kiedy rozważamy model konstytucyjnych rozwiązań stosunków pań-
         stwo-kościół, nie powinniśmy abstrahować od innego modelu, modelu który
@@ -1294,15 +1294,15 @@
         Ponieważ znaczenia tych pojęć budzą pewne wątpliwości, chcę przedstawić
         interpretację wziętą i z konstytucjonalizmu włoskiego, a także z
         dokumentów Kościoła katolickiego. Autonomia to samodzielność at intra.
-        Niezależ- ność to samodzielność at extra. Porównując z sądami można
-        powiedzieć, że sądy są niezawisłe i niezależ- ne. Niezawisłość to co
+        Niezależność to samodzielność at extra. Porównując z sądami można
+        powiedzieć, że sądy są niezawisłe i niezależne. Niezawisłość to co
         prawda wolność pojedynczego sędziego, a mówimy o autonomii jako
         samodzielności wewnętrznej kościoła, czy kościołów. W ramach tej
         samodzielności wewnętrznej kościołów, czyli autonomii kościoła nie
         byłoby możliwe, aby państwo w konstytucji ustalało zadania kościołów, co
         też niektórzy z obecnych chcieliby uczynić. We dług niektórych to
         konstytucja miałaby wyliczać zadania kościołów, a jest to autonomiczna
-        sprawa koś- ciołów. Niezależność to, jak mówiłam, niezależność at extra,
+        sprawa kościołów. Niezależność to, jak mówiłam, niezależność at extra,
         czyli od organów państwowych. Niezależność oznacza, iż nie jest możliwe,
         aby państwo odwoływało proboszczów, tak jak czyniło to do niedawna. Tak
         więc wyjaśnienie pojęć: autonomia, samodzielność i niezależność nie jest
@@ -1314,7 +1314,7 @@
         samego człowieka od dwóch wspólnot, w których jest równocześnie. Kwestia
         druga to tendencja, a może niezrozumienie, czy chęć oddzielenia
         człowieka od prawa do religii. W Stanach Zjednoczonych, gdzie jest
-        wzorcowy dla niektórych członków Komisji rozdział pań- stwa od kościoła,
+        wzorcowy dla niektórych członków Komisji rozdział państwa od kościoła,
         nie ma rozdziału państwa od religii. Warto o tym pamiętać choćby
         obserwując przebieg posiedzeń Kongresu albo inne przejawy funkcjonowania
         władz publicznych. Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:
@@ -1352,18 +1352,18 @@
         charakter państwowy. Wprowadzenie rozdziału miało zapobiec temu stanowi
         rzeczy. Mówiąc o rozdziale kościoła i państwa mamy na myśli tylko i
         wyłącznie państwo jako zespół instytucji, ludzi, którzy występują w
-        imieniu tego pań- stwa. O kościele również mówimy w znaczeniu
+        imieniu tego państwa. O kościele również mówimy w znaczeniu
         instytucjonalnym, a nie w znaczeniu wspólnoty wiernych. Nie należy
         bowiem mylić państwa w znaczeniu socjologicznym, a więc jako wspólnoty
         wszystkich obywateli i państwa w znaczeniu instytucjonalnym, a więc
         zespołu organów i instytucji tworzących państwo oraz zespołu osób, które
         występują w imieniu tego państwa. Uchwalając konstytucję chcemy
-        nakreślić zadania ludziom wystę- pującym w imieniu państwa i stanowiącym
+        nakreślić zadania ludziom występującym w imieniu państwa i stanowiącym
         organy kolegialne lub jednoosobowe. Chodzi o określenie sposobu
         postępowania tych osób. Zasadę oddzielenia kościoła od państwa — która
         razi tak wiele osób — można w konstytucji zapisać w różny sposób. Dla
         państwa podstawową konsekwencją zasady rozdziału jest Świecki charakter
-        pań- stwa. Nie boję się używać tej nazwy. Zawsze używałem jej w
+        państwa. Nie boję się używać tej nazwy. Zawsze używałem jej w
         znaczeniu neutralności państwa, jego organów i instytucji, gdy chodzi o
         sprawę przekonań religijnych, światopoglądowych czy filozoficznych. Stąd
         też w wielu projektach panuje zgoda co do tego, aby zapisać ten fakt, że
@@ -1373,7 +1373,7 @@
         zapisać, że państwo jest Świeckie i neutralne. Moim zdaniem współczesne
         państwo świeckie to państwo neutralne. Tak to rozumie również doktryna
         Kościoła katolickiego. Papież Paweł VI stwierdził wyraźnie, że istnieje
-        koncepcja państwa Świeckiego całkowicie moż- liwa do pogodzenia z
+        koncepcja państwa Świeckiego całkowicie możliwa do pogodzenia z
         zasadami doktryny katolickiej. Koncepcja ta jest akceptowana przez
         władze kościelne. Jest ona utożsamiana z neutralnością państwa i jego
         wszystkich organów i instytucji, jeżeli chodzi Obrady w dniu 23.02.1995
@@ -1435,7 +1435,7 @@
         kościoły i związki wyznaniowe w swoich ustawach mają nadal tę formułę.
         Pojawiają się więc pewne zastrzeżenia. Uważam jednak, że można zmierzać
         do tego, aby zastanowić się w jaki sposób zastąpić formułę: „oddzielenie
-        kościoła od państwa”. Chodzi o ujęcie, któ- re zadowoli zdecydowaną
+        kościoła od państwa”. Chodzi o ujęcie, które zadowoli zdecydowaną
         większość. Sądzę, że chyba można znaleźć takie rozwiązanie.
       </p>
     </div>
@@ -1513,17 +1513,17 @@
         prof. M. Pietrzak, a więc że kościoły i związki wyznaniowe korzystają z
         autonomii przy wykonywaniu swych funkcji religijnych i organizacyjnych.
         Wiem, że jeszcze inną propozycję przygotował prof. K. Działocha, który
-        za chwilę ją przedstawi. Nastę- pnie w tym samym artykule należałoby
+        za chwilę ją przedstawi. Następnie w tym samym artykule należałoby
         dodać zdanie, które będzie istotą gwarancji, że kościół nie będzie
         próbował wpłynąć na działalność państwa. Zdanie to mogłoby brzmieć:
         „Kościoły i związki wyznaniowe nie biorą udziału w sprawowaniu władzy
         publicznej”. Kolejne zdanie stwierdzałoby, że w celu realizacji praw
-        człowieka i potrzeb obywateli pań- stwo współdziała z kościołami i
+        człowieka i potrzeb obywateli państwo współdziała z kościołami i
         związkami wyznaniowymi. Zdanie to oznaczałoby, że kościoły mają prawo
         podejmować inne działania niż działania Ściśle religijne i
         organizacyjne. Chodzi o zadania dotyczące potrzeb człowieka. W
         działaniach tego rodzaju kościoły nie mają jednak takiej autonomii jak w
-        zakresie zadań religijnych. Państwo współpracuje z koś- ciołami w tym
+        zakresie zadań religijnych. Państwo współpracuje z kościołami w tym
         zakresie, a więc upada bariera oddzielenia. Kościoły miałyby więc
         pozycję równą innym organizacjom o charakterze charytatywnym. Myślę
         więc, że rysuje się kompromis, który zaspokaja potrzeby obu stron,
@@ -1540,12 +1540,12 @@
         height="110" />
       <p>
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
-        Poszukując określenia dla właściwej działalności koś- ciołów i związków
+        Poszukując określenia dla właściwej działalności kościołów i związków
         wyznaniowych, w zakresie której to działalności kościoły i związki
         wyznaniowe miałyby być autonomiczne i niezależne, mam propozycję
         odwołującą się do dalszych przepisów konstytucji wyrażających zasadę
         wolności sumienia i wyznania, czy wolności religii. Moja propozycja
-        brzmi nastę- pująco: „Działalność kościołów i związków wyznaniowych
+        brzmi następująco: „Działalność kościołów i związków wyznaniowych
         związana z realizacją wolności sumienia i wyznania jest autonomiczna i
         niezależna od działa|- ności państwa”. Poza próbą określenia, co należy
         do kościołów i związków wyznaniowych, jest to również próba złagodzenia
@@ -1554,7 +1554,7 @@
         oddzielenia funkcjonalnego, a nie instytucjonalnego. Tę formułę, która
         odnosi się tylko do autonomii i niezależności i jest próbą określenia,
         do czego sprowadza się autonomia i niezależność, można połączyć — jeżeli
-        byłoby takie oczekiwanie — z formułą mó- wiącą o oddzieleniu
+        byłoby takie oczekiwanie — z formułą mówiącą o oddzieleniu
         działalności kościołów i związków wyznaniowych od działalności państwa.
         Oddzielenie to nastąpiłoby przy pomocy kryterium polegającego na
         urzeczywistnianiu przez kościół zadań związanych z wolnością sumienia i
@@ -1563,7 +1563,7 @@
         ról wyznaczonych dla kościołów i związków wyznaniowych w zakresie
         wolności religii, praw rodziców do wychowywania dzieci itd. Jeżeli więc
         art. 15 odsyłałby do art. 37, to wówczas formuła użyta w art. 15 nie
-        byłaby formułą pustą. Byłaby definiowana przez przepisy, któ- re
+        byłaby formułą pustą. Byłaby definiowana przez przepisy, które
         kościołom i związkom wyznaniowym wyznaczają w sposób bardzo szeroki
         określone zadania związane z urzeczywistnianiem wolności religijnych
         jednostki.
@@ -1583,7 +1583,7 @@
         ekspertów — jeżeli można tak powiedzieć — świeckich i ekspertów
         kościelnych zmierzają w rozbieżnych kierunkach. Mamy do czynienia z
         nieporozumieniem polegającym na niezrozumieniu tego, w którym punkcie
-        leży główna draż- liwość sprawy. Drażliwość sprawy leży właśnie w tym,
+        leży główna drażliwość sprawy. Drażliwość sprawy leży właśnie w tym,
         aby nie próbować określać zakresu działalności kościoła, ponieważ całe
         doświadczenie wskazuje na to, że tutaj dokonywane były nadużycia, co
         rodzi obawy. W związku z tym moje pytanie jest następujące: czy prof. K.
@@ -1639,7 +1639,7 @@
         przełomu XIX i XX w., kiedy to w Polsce kształtował się kapitalizm
         oparty na doktrynie liberalnej. W tej kwestii znam stosunek kościoła do
         niektórych ruchów społecznych. Warto również pamiętać, że konflikty
-        między koś- ciołem a władzą polityczną był ciągłe, i to nie tylko w
+        między kościołem a władzą polityczną był ciągłe, i to nie tylko w
         Polsce. Z, historii Polski można przypomnieć choć- by spory Bolesława
         Śmiałego czy Kazimierza Jagiellończyka z przedstawicielami kościoła. W
         moim przekonaniu my nie wypracujemy doskonałej formuły, która
@@ -1656,7 +1656,7 @@
         Stosunki między Państwem a Kościołem Katolickim oraz innymi kościołami 1
         związkami wyznaniowymi są oparte na zasadzie autonomii, tolerancji,
         wzajemnego poszanowania i współpracy. Ust. 2. Sytuację prawną kościołów
-        1 związków wyznaniowych okreś- lają ustawy, uchwalone po porozumieniu z
+        1 związków wyznaniowych określają ustawy, uchwalone po porozumieniu z
         właściwymi przedstawicielami kościołów i związków wyznaniowych. Sytuację
         tę mogą również określać umowy międzynarodowe, ratyfikowane na podstawie
         upoważnienia wyrażonego w ustawie”. Można ponadto rozważyć wyodrębnienie
@@ -1698,9 +1698,9 @@
         to rozdział kościołów od państwa, ale niekoniecznie państwa od
         kościołów. Równocześnie należy jednak powiedzieć, że nowoczesnym
         rozwiązaniem zagadnienia stosunków państwa i kościoła jest rozdział.
-        Jest to nie tylko nowoczesne ujęcie, ale ró- wnież ujęcie
+        Jest to nie tylko nowoczesne ujęcie, ale również ujęcie
         chrześcijańskie. Cały antyk stał na stanowisku monizmu religii i
-        polityki, monizmu koś- cioła i państwa. Właśnie Chrystus dokonał
+        polityki, monizmu kościoła i państwa. Właśnie Chrystus dokonał
         radykalnej zmiany. Nastąpiło bowiem rozdzielenie tych dwóch
         rzeczywistości — społeczności i powstała zasada dualizmu religii i
         polityki, dualizmu kościoła i państwa. Kwestie te znakomicie przedstawia
@@ -1753,8 +1753,8 @@
         publicznych? Wydaje się, że jest to implicite zawarte w formule o
         neutralności. Jeżeli chodzi o formułę o autonomii i niezależności, to
         jest ona nowoczesna. Chyba nie wymaga dalszego sprecyzowania formuła
-        mówiąca o wykonywaniu swoich zadań. Szczegółowy zakres zadań okreś- lają
-        natomiast ustawy oraz konkordat. Nie kruszył- bym więc kopii. Nałeży
+        mówiąca o wykonywaniu swoich zadań. Szczegółowy zakres zadań określają
+        natomiast ustawy oraz konkordat. Nie kruszyłbym więc kopii. Nałeży
         natomiast spojrzeć na całokształt przepisów. Powinna być również
         stosowana wykładnia systematyczna obejmująca całokształt zagadnienia, a
         nie wyrywkowe kwestie.
@@ -1796,12 +1796,12 @@
         formułuje zasadę autonomii i niezależności kościołów i związków
         wyznaniowych. Chodzi jedynie o to, aby zasada ta była sformułowana
         precyzyjnie. W moim przekonaniu sformułowanie jej przez użycie formuły:
-        „swoich zadań” bez jakichkolwiek dalszych dookreś- leń, nie spełnienia
+        „swoich zadań” bez jakichkolwiek dalszych dookreśleń, nie spełnienia
         wymogu sprecyzowania zasady konstytucyjnej. Problem polega więc na
         sprecyzowaniu konstytucyjnej zasady, a nie na definiowaniu zadań
         kościołów. Chodzi o sprecyzowanie zakresu rzeczowego obowiązywania
         zasady, autonomii i niezależności kościołów. W moim przekonaniu tak
-        właś- nie należy formułować przepisy ustawy zasadniczej. Podczas
+        właśnie należy formułować przepisy ustawy zasadniczej. Podczas
         dzisiejszej debaty padały stwierdzenia — m.in. z ust ks. prof. J.
         Krukowskiego — przeciwko użyciu sformułowania mówiącego o oddzieleniu
         kościoła od państwa. Wskazywano na brak jasności i precyzji tego
@@ -1883,7 +1883,7 @@
         jednej bowiem strony uniknięto pojęcia „wolne”, a z drugiej strony
         uzyskano porozumienie, co było w tamtej sytuacji ważniejsze. Teraz może
         się to po prostu powtórzyć. Myślę więc, że trzeba się opowiadać nie za
-        okreś- leniem „rozdział” czy „oddzielenie, lecz za okreś- leniem
+        określeniem „rozdział” czy „oddzielenie, lecz za określeniem
         „współdziałanie. Ponadto należy dodać, że pojęcia wzajemnej autonomii 1
         niezależności są pojęciami pochodzącymi z dokumentów soborowych, ale
         również z dokumentów z okresu Sierpnia 1980 r. Powiedziałem o tym
@@ -1895,7 +1895,7 @@
         aspiracji, zdecydowanie wycofując się z udziału we władzy. Nie ma
         instytucji interrexa prymasowskiego, nie ma automatyzmu otrzymywania
         tytułu senatora przez biskupów. Nie ma połączalności instytucji
-        państwowych i koś- cielnych tak jak było to w cesarstwie austriackim.
+        państwowych i kościelnych tak jak było to w cesarstwie austriackim.
         Takie niebezpieczeństwo nie występuje więc. Myślę, że zabezpieczają
         przed nim bardzo dobrze już uzgodnione artykuły. Zaniepokoiła mnie
         natomiast pewna tendencja, która wystąpiła w poprzedniej części
@@ -1958,7 +1958,7 @@
         się kilka dróg rozwiązania dyskutowanej kwestii. Uważam, że podkomisja
         podstaw ustroju politycznego i społeczno-gospodarczego zrobiła to, co
         mogła. Nie wydaje się, aby mogła poczynić dalszy krok. Możliwe byłoby
-        natomiast poszukiwanie rozwią- zań w oparciu o podkomisję czy grupę
+        natomiast poszukiwanie rozwiązań w oparciu o podkomisję czy grupę
         powołaną ad hoc. Dwa tygodnie, jakie dzielą nas do następnego
         posiedzenia Komisji, mogłyby być wykorzystane dla podjęcia próby
         znalezienia rozwiązania kompromisowego. Wydaje się, że taką propozycję
@@ -2019,17 +2019,17 @@
         kościołem. Problem polega na tym, że punktem wyjścia dla takiej formuły
         jest jednak pozostawanie przy naczelnej myśli art. 9, którego idea
         opiera się na separacji przyjaznej i kooperatywnej. W związku z tym
-        chciał- bym powołać się na konstytucję, o której nie było jeszcze mowy.
+        chciałbym powołać się na konstytucję, o której nie było jeszcze mowy.
         Jest to konstytucja Republiki Weimarskiej, w której z jednej strony mamy
         oddalone faktyczne rozgraniczenie sfery tego, co państwowe i tego, co
         kościelne, przy założeniu jednak, że owo roz graniczanie — wyodrębnianie
         — nie jest kwestią wrogości, czy aktywnej kontestacji, lecz kwestią
         szukania granic współpracy i porozumienia. Upieranie się przy formule
-        porozumienia w obliczu wzbierają- cej kontrowersji i poszukiwania
+        porozumienia w obliczu wzbierającej kontrowersji i poszukiwania
         kompromisu, jest moim zdaniem sprawą zasadniczą. Ponownie zachęcam do
         zwrócenia uwagi na brzmienie art. 15 zawarte w propozycji nr 11. W
         ustępach: 1, 215, zawarta jest wyraźna propozycja poszukania odrębności
-        bez używania tego poję- cia, przy przyjęciu w punkcie wyjścia założenia,
+        bez używania tego pojęcia, przy przyjęciu w punkcie wyjścia założenia,
         że naczelną racją tej odrębności instytucjonalnej będzie jednak
         współpraca tych dwóch struktur, tych dwóch społeczności. Choć jest to
         moja uwaga osobista, a nie wniosek urzędowy, to proponuję rozważenie
@@ -2037,7 +2037,7 @@
         ust. 5 zostałby przeniesiony wyżej w okolice ust. 1 lub ust. 2.
         Pokazałoby to z jednej strony, że są to jednak różne struktury
         instytucjonalne, ale istnieje wola współpracy i kooperatywności mająca
-        na uwadze potrzeby jednostki, rodziny i społeczeń- stwa. Uważam również,
+        na uwadze potrzeby jednostki, rodziny i społeczeństwa. Uważam również,
         że treścią sporu są dwa wyrazy: „rozdział”, czy „oddzielenie. Powstaje
         kwestia woli politycznej, czy wyrazy te ostaną się, czy też nie. Od
         strony intelektualnej, prawniczej i historycznej jest możliwość
@@ -2110,7 +2110,7 @@
         oddzielania. Nie może być prób wzajemnego przechwytywania funkcji.
         Jeżeli ktoś kwestionuje takie rozumienie i z tego czyni zasadniczy
         problem, to powstaje pytanie o motywację. Ponadto jest tak, że podczas
-        dyskusji nikt nie pró- bował określać, co kościół ma robić. Co kościół —
+        dyskusji nikt nie próbował określać, co kościół ma robić. Co kościół —
         kościoły — mają robić jest to ich wewnętrzna sprawa. Byłoby błędem
         przyjęcie założenia, że konstytucja ma określać, co mają robić kościoły.
         Problem, który jest stawiany, dotyczy innego zagadnienia: co z
@@ -2125,7 +2125,7 @@
         niezależności? Co z kwestią oświaty, zwłaszcza w perspektywie
         prywatyzacji szkolnictwa? Czy sfera ta ma być również wyjęta spod wglądu
         państwa? Wydaje się więc, że kwestia została ukształtowana niezbyt
-        właściwie i podejmowane są próby zepchnię- cia jej w niewłaściwym
+        właściwie i podejmowane są próby zepchnięcia jej w niewłaściwym
         kierunku. Chcę również podkreślić, że zwłaszcza w środkach masowego
         przekazu była mocno eksponowana teza, że formuła o funkcjach religijnych
         i organizacyjnych jest wymysłem posłów SLD — W. Cimoszewicza i K.
@@ -2135,8 +2135,8 @@
         powinna dotyczyć funkcji religijnych i organizacyjnych. Wydaje się więc,
         że członkowie Komisji Konstytucyjnej powinni mieć możliwość złożenia w
         dniu dzisiejszym swoich propozycji rozwiązań kompromisowych dotyczących
-        art. 15. Uważam, że formuła mówiąca o oddzieleniu koś- cioła od państwa
-        jest najbardziej delikatną z moż- liwych. Jest to zarazem fundamentalna
+        art. 15. Uważam, że formuła mówiąca o oddzieleniu kościoła od państwa
+        jest najbardziej delikatną z możliwych. Jest to zarazem fundamentalna
         konstrukcja konstytucyjna. Próba uniknięcia tej formuły może wręcz
         rodzić pytanie, co się kryje za tak wielkim przywiązaniem wagi do
         unikania tego stwierdzenia. Chcę również odnieść się do kwestii, o
@@ -2147,7 +2147,7 @@
         chcemy precyzować zadań, to dodajmy formułę: „w ramach ustaw”, czy „w
         ramach porządku prawnego '. Blankietowe wyłączenie całej działalności
         kościołów, bez wskazania bliżej o jaką działalność chodzi, i objęcie jej
-        obszarem autonomii i niezależnoś- ci, jest oczywiście konstrukcją
+        obszarem autonomii i niezależności, jest oczywiście konstrukcją
         dopuszczalną, ale wydaje mi się, że nie bardzo korespondowałaby z
         tendencją, która ukształtowała się na przestrzeni kilku ostatnich
         dziesięcioleci w wielu innych krajach. Nie sądzę więc, aby mogła uzyskać
@@ -2295,7 +2295,7 @@
         sformułowania o zadaniach religijnych i organizacyjnych, a chce dodać
         formułę stwierdzającą, że kwestię tę definiują ustawy, to powtarzam raz
         jeszcze, iż kwestia ta jest podjęta w następnych ustępach, kiedy jest
-        mowa o tym, że ustawy lub umowa mię- dzynarodowa zdefiniują tę kwestię.
+        mowa o tym, że ustawy lub umowa międzynarodowa zdefiniują tę kwestię.
         Cały problem polega właśnie na tym, że zdefiniowanie dokonuje się w
         porozumieniu z kościołami i związkami wyznaniowymi. Natomiast
         wprowadzenie tego przepisu do tego sformułowania zakładałoby
@@ -2324,14 +2324,14 @@
       <p>
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Rzeczywiście jest tak, że są konstytucje, które w rozdziale pierwszym
-        nie określają stosunków między pań- stwem a kościołem. Są to jednak na
+        nie określają stosunków między państwem a kościołem. Są to jednak na
         ogół kraje, gdzie stosunki te nie są tak istotne jak w Polsce. Czynnik
         ten oraz doświadczenia z przeszłości wskazują na to, że stosunki
         państwo-kościół powinny być ujęte w zasadach ogólnych. Ponadto należy
         mieć świadomość, że problem ten i tak musi być rozstrzygnięty, na co
         zwrócił uwagę pan przewodniczący. Jeżeli kwestia, nad którą dyskutujemy,
         miałaby być uregulowana w rozdziale o prawach i wolnościach
-        obywatelskich, to tylko w zakresie dotyczą- cym praw i wolności, a nie
+        obywatelskich, to tylko w zakresie dotyczącym praw i wolności, a nie
         od strony stosunków między instytucjami. Dyskutowaną kwestię należy
         uregulować w rozdziale pierwszym. Ponadto chcę dodać, że popieram to, co
         mówił poseł T. Mazowiecki.
@@ -2351,7 +2351,7 @@
         prawach i wolnościach obywatelskich. Decyzja w tej kwestii nie jest
         jednak kluczowa. Kwestia druga. W państwach, w których rola stosunków
         między państwem a kościołami jest szczególnie ważna, na ogół nie ma
-        odniesienia do oddzielnej umowy międzynarodowej między danym pań- stwem
+        odniesienia do oddzielnej umowy międzynarodowej między danym państwem
         a Watykanem. Propozycja mówiąca o konkordacie jest więc — moim zdaniem —
         daleko idącą formą kompromisu. Należy to docenić. Uwaga trzecia to uwaga
         z pozycji osoby, która przez wiele lat zajmowała się naukowo Hiszpanią i
@@ -2387,7 +2387,7 @@
         Nie odnoszę się do poziomu kompromisu, który próbuje się osiągnąć. Chcę
         prosić, aby nie dążyć do rozstrzygnięcia przed podjęciem decyzji w
         sprawie, która w mojej propozycji art. 15 określona jest w ust. 2:
-        „Wszystkie koś- cioły, związki wyznaniowe oraz organizacje i instytucje
+        „Wszystkie kościoły, związki wyznaniowe oraz organizacje i instytucje
         o charakterze światopoglądowym podlegają na równych zasadach powszechnie
         obowiązującemu prawu. Ustawa określa jedynie zasady ich powoływania i
         funkcjonowania”. O tej kwestii mówię dlatego, że w dotychczasowej
@@ -2415,7 +2415,7 @@
         Komisji jest generalna zgoda co do pewnych kwestii zasadniczych, które
         są ujęte, choć w propozycji podkomisji. Kwestie te pojawiają się
         właściwie we wszystkich wnioskach. Jest to zasada neutralności
-        światopoglą- dowej władz publicznych i instytucji publicznych, jest to
+        światopoglądowej władz publicznych i instytucji publicznych, jest to
         również zasada równoprawności kościołów i związków wyznaniowych, a także
         autonomia i niezależność kościołów i związków wyznaniowych w działaniach
         związanych z ich naturalną misją, a więc przede wszystkim misją
@@ -2433,7 +2433,7 @@
         wolności zostały zagwarantowane kościołom i obywatelom, i aby społeczna
         misja kościołów mogła być zagwarantowana. Z drugiej natomiast strony
         chodzi o to, aby państwo i jego instytucje nie były ideologizowane i
-        wikłane w kwestie światopoglądowe. Wydaje się, że trzon wizji pań- stwa,
+        wikłane w kwestie światopoglądowe. Wydaje się, że trzon wizji państwa,
         nad którą pracujemy i która powinna znaleźć się w konstytucji HI
         Rzeczypospolitej, jest niemal identyczny w wypowiedziach wszystkich
         stron, które brały udział w dyskusji. Jest również druga strona, która
@@ -2452,7 +2452,7 @@
         więc do wszystkich, abyśmy potrafili uciec od skojarzeń, które
         oczywiście są naszym dziedzictwem, ale nie powinny stać się zmorą tej
         dyskusji, która dotyczy art. 15. Kwestia ostatnia. Chciałbym, abyśmy
-        jako Komisja Konstytucyjna mieli pełną świadomość, że okreś- lone
+        jako Komisja Konstytucyjna mieli pełną świadomość, że określone
         rozwiązania proponujemy Zgromadzeniu Narodcwemu, a następnie będziemy je
         proponować społeczeństwu. Są przepisy, które nie są dyskusyjne i są
         przepisy, które grożą istotnymi podziałami społecznymi. Nie można być
@@ -2467,7 +2467,7 @@
         czyli konstytucji, ale również z punktu widzenia całej tkanki społecznej
         w Polsce. Dlatego też wydaje mi się, że tak długo jak możerny tutaj
         szukać rozwiązań łączących, a nie dzielących, to nie wolno rezygnować z
-        tej szansy. Na zakończenie debaty merytorycznej mam więc nastę- pującą
+        tej szansy. Na zakończenie debaty merytorycznej mam więc następującą
         propozycję. Zwracam się szczególnie do członków Komisji wysoko
         umocowanych w swoich klubach, aby wszystkie wątpliwości i propozycje
         przepisów art. 15 przedstawili właściwym gremiom po to, aby mieć
@@ -2486,7 +2486,7 @@
         tego pojęcia — określił ten stan, o który nam chodzi. Należy więc
         poszukiwać tego typu jaśniejszych określeń jak na przykład niebrani
         przez kościoły udziału we władzy publicznej przy jednoczesnym
-        współdziałaniu w tych kwestiach, któ- re służą realizacji praw człowieka
+        współdziałaniu w tych kwestiach, które służą realizacji praw człowieka
         i potrzeb obywateli. Tak więc stan obecny to już kilkanaście propozycji
         brzmienia art. 15. Gdyby ktoś jeszcze chciał zgłosić propozycję, to
         przyjmujemy, że będzie to możliwe jeszcze dzisiaj. Chodzi bowiem o to,
@@ -2544,7 +2544,7 @@
         pierwszy to zasady ustroju, a więc szczególne normy, które określają
         charakter państwa i są — niejako — wyjęte przed nawias rozwiązań
         szczegółowych. Proszę zwrócić uwagę, że w art. 5 uregulowaliśmy zasadę
-        pluralizmu politycznego wyrażają- cą się przede wszystkim w wolności
+        pluralizmu politycznego wyrażającą się przede wszystkim w wolności
         działania partii politycznych. Jest to zasada będąca elementem wolności
         obywatelskich, a przede wszystkim jest to zasada szczególnie
         kwalifikująca wymiar państwa. Taka intencja jest również wyrażona w
@@ -2573,7 +2573,7 @@
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Do wypowiedzi posła J. Jaskierni chcę dodać jeszcze jedną uwagę. Rysuje
         się wizja, że w zasadach ustroju widoczne są cztery — spośród pięciu —
-        elementy społeczeń- stwa obywatelskiego. Są to: partie polityczne, koś-
+        elementy społeczeństwa obywatelskiego. Są to: partie polityczne, koś-
         cioły i związki wyznaniowe, własność prywatna oraz wolność działalności
         gospodarczej. Bardzo ważnym elermentem są fundacje i dobrowolne
         zrzeszenia stosunkowo najsłabiej osadzone w prawie polskim.
@@ -2643,7 +2643,7 @@
       <p>
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Uważam, że w propozycji brzmienia art. 10a są jednak zawarte dwie dość
-        różne materie. Jest to zasada społeczeń- stwa obywatelskiego oraz zasada
+        różne materie. Jest to zasada społeczeństwa obywatelskiego oraz zasada
         subsydiamości. Zasady te łączą się ze sobą, lecz jednocześnie
         sugerowałbym, aby wnioskodawca rozważył, czy nie powinny to być dwa
         odrębne artykuły.
@@ -2666,7 +2666,7 @@
         kształtuje się zasada oddzielności państwa od kościoła, raptem pojawiają
         się propozycje ograniczenia roli państwa. Apeluję więc do posła J.
         Ciemniewskiego o wycofanie tej poprawki, ponieważ zawiera ona bardzo
-        określoną i zdefiniowaną politycznie zasadę traktowania pań- stwa jako
+        określoną i zdefiniowaną politycznie zasadę traktowania państwa jako
         państwa „nocnego stróża . Jest to znana doktryna, która jest
         przypisywana ugrupowaniom neoliberalnym i prawicowym. Moim zdaniem tego
         typu przepis byłby trudny do utrzymania w momencie kiedy rządzi lewica.
@@ -2703,7 +2703,7 @@
         zrzeszenia, Byłaby to formuła ujmująca tę kwestię od strony pozytywnej.
         Zaproponowana formuła to swego rodzaju gilotyna obcinająca wszystko to,
         co jest pozytywne w zasadzie pomocniczości. Eksponowane jest to, co jest
-        negatywne, a więc powstrzymanie się pań- stwa od działań, które
+        negatywne, a więc powstrzymanie się państwa od działań, które
         przekraczają władztwo publiczne.
       </p>
     </div>
@@ -2722,7 +2722,7 @@
         Przechodzimy do kwesti projektu harmonogramu posiedzeń Komisji w LI
         kwartale. W związku z tym projektem otrzymałem wniosek poseł L. Błądek 1
         senatora J. Orzechowskiego, w którym proponuje się, aby posiedzenia
-        Komisji odbywały się raz w miesią- cu. Apeluję jednak do członków
+        Komisji odbywały się raz w miesiącu. Apeluję jednak do członków
         Komisji, aby utrzymać rytm prac polegający na odbywaniu dwóch posiedzeń
         w miesiącu. Zmniejszenie liczby posiedzeń mogłoby stymulować do
         ograniczenia dyskusji, a do tego nie chciałbym dopuścić. Ponadto, jeżeli
@@ -2748,7 +2748,7 @@
         Sytuacja polityczna jest skomplikowana, ale konstytucja jest tym
         argumentem, który jest przytaczany przy każdej okazji jako przykład
         słabości pracy parlamentu, który nie jest w stanie przygotować i
-        uchwalić projektu. W moim przekonaniu są problemy ważne i waż- niejsze.
+        uchwalić projektu. W moim przekonaniu są problemy ważne i ważniejsze.
         Konstytucja jest kwestią bardzo ważną, choć może nie najważniejszą. Mam
         również wniosek organizacyjny, aby członkowie Komisji Konstytucyjnej
         zawiesili działalność w więcej niż jednej komisji sejmowej lub
