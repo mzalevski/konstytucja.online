@@ -989,8 +989,7 @@
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Jest to artykuł wykazany w zestawieniu poprawek z dnia wczorajszego,
         oznaczony nr. 1. „Ust. 1. Rzeczpospolita Polska jako wspólne dobro
-        obywateli jest suwe- Posiedzenia Komisji Konstytucyjnej ZN rennym
-        państwem demokratycznym, uznającym i gwarantującym nienaruszalność praw
+        obywateli jest suwerennym państwem demokratycznym, uznającym i gwarantującym nienaruszalność praw
         człowieka, wynikających z jego przyrodzonej godności i wartości. Ust. 2.
         Rzeczpospolita Polska chroni niepodległość i niezbywalne prawo do
         całości terytorialnej Państwa Polskiego”.
@@ -1422,8 +1421,7 @@
         Czy artykuły 7 i 8 nie powinny poprzedzać artykułów mówiących o tym, że
         władza państwowa jest sprawowana przez rozdzielone władze oraz
         określających sposób ich rozdzielenia? Chodzi o to, żeby wcześniej
-        ograniczyć władzę, co jest konsekwencją suwerenno- Posiedzenia Komisji
-        Konstytucyjnej ZN Ści, władczości i celów państwa, a następnie ją
+        ograniczyć władzę, co jest konsekwencją suwerenności, władczości i celów państwa, a następnie ją
         podzielić.
       </p>
     </div>
@@ -2428,8 +2426,7 @@
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Proponuję następujące brzmienie tego przepisu: „Konstytucja jest
         najwyższym prawem Rzeczypospolitej i wiąże wszystkie organy państwa”.
-        Cho- Posiedzenia Komisji Konstytucyjnej ZN a dzi o to, żeby wyjść od
-        konstytucji. Druga część przepisu mówi, że organy państwa są
+        Chodzi o to, żeby wyjść od konstytucji. Druga część przepisu mówi, że organy państwa są
         podporządkowane konstytucji i mogą działać tylko na jej podstawie.
       </p>
     </div>

@@ -157,7 +157,7 @@
 <div class="search-bar" in:fly={{ y: -100, duration: 1000 }}>
   <div class="search">
     <input bind:value={searchedText} on:input={sendChoice} />
-    <div class="counter">{count}</div>
+    <div class="counter" title="liczba wyświetlonych artykułów">{count}</div>
   </div>
   <div class="arrow-helper-div">
     <div class="chapter-pick">
