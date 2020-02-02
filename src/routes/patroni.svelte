@@ -34,7 +34,7 @@
 <Nav segment={'info'} />
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-  <h3>Lista wspierających projekt przez portal <a href="https://patronite.pl/maciejzalewski" rel="nofollow" target="_blank">Patronite</a>:</h3>
+  <h3>Lista wspierających projekt przez portal <a href="https://patronite.pl/maciejzalewski" rel="nofollow" target="_blank">Patronite</a> <img class="ext-link" src="images/external-link.svg" alt=""></h3>
   <h3>Mecenasi 💎</h3>
   <p class="low-opacity">brak</p>
   <h3>Patroni 3.0 🥇</h3>

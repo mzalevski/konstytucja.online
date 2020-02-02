@@ -110,6 +110,7 @@
         target="_blank">
         ORYGINAŁ BIULETYNU
       </a>
+      <img class="ext-link" src="images/external-link.svg" alt="">
     </h5>
     </div>
     <div class="small-article-nav">

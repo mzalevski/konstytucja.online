@@ -102,7 +102,7 @@
   <!--<hr><p class="page-break">strona 3</p><hr>-->
   <div class="header">
     <div>
-      <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja</h3>
+      <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja cz. II</h3>
       <!-- <h5>
         <a
           href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"

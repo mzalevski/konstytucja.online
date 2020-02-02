@@ -19,6 +19,9 @@
     text-decoration: none;
     cursor: pointer;
   }
+  :global(.ext-link) {
+    width: 0.6rem;
+  }
   .article :global(li) {
       list-style-type: none;
   }
