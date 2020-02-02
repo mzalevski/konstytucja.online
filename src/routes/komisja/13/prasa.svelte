@@ -82,42 +82,43 @@
   <ToTheTopBtn />
 {/if}
 
-<div in:fly={{ y: 100, duration: 1000 }}>
 
-  <div class="header">
-    <div style="display: flex; justify-content: space-between;">
-      <div>
-        <h3>Prasa o pracach konstytucyjnych</h3>
-        <h5>
-          <a
-            href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
-            rel="nofollow"
-            target="_blank">
-            ORYGINAŁ BIULETYNU
-          </a>
-          <img class="ext-link" src="images/external-link.svg" alt="">
-        </h5>
-      </div>
-      <div class="small-article-nav">
-        <a rel="prefetch" href="/komisja/13/3">
-          <img src="images/angle-left-solid.svg" alt="" />
+
+<div class="header">
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+      <h3>Prasa o pracach konstytucyjnych</h3>
+      <h5>
+        <a
+          href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
+          rel="nofollow"
+          target="_blank">
+          ORYGINAŁ BIULETYNU
         </a>
-
-      </div>
+        <img class="ext-link" src="images/external-link.svg" alt="">
+      </h5>
     </div>
+    <div class="small-article-nav">
+      <a rel="prefetch" href="/komisja/13/3">
+        <img src="images/angle-left-solid.svg" alt="" />
+      </a>
 
-    <p>
-      W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
-      oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji
-      prasowych o szerszym zakresie tematycznym w biuletynie zamieszczane są
-      tylko fragmenty dotyczące problematyki konstytucyjnej. Z zasady nie są
-      przedrukowywane zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone
-      są w zasadzie chronologicznie. Pomocniczo stosowane jest jednak również
-      grupowanie tematyczne. W związku z wejściem prac konstytucyjnych w fazę
-      ustalania brzmienia przepisów nowej konstytucji, preferencyjnie traktowane
-      są publikacje o charakterze problemowym.
-    </p>
+    </div>
   </div>
+
+  <p>
+    W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
+    oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji
+    prasowych o szerszym zakresie tematycznym w biuletynie zamieszczane są
+    tylko fragmenty dotyczące problematyki konstytucyjnej. Z zasady nie są
+    przedrukowywane zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone
+    są w zasadzie chronologicznie. Pomocniczo stosowane jest jednak również
+    grupowanie tematyczne. W związku z wejściem prac konstytucyjnych w fazę
+    ustalania brzmienia przepisów nowej konstytucji, preferencyjnie traktowane
+    są publikacje o charakterze problemowym.
+  </p>
+</div>
+<div in:fly={{ y: 100, duration: 1000 }}>
   <div class="press-article">
     <div class="article-metadata">
       <p class="newspaper">„Rzeczpospolita”</p>

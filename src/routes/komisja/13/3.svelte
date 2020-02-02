@@ -98,11 +98,11 @@
   <ToTheTopBtn/>
 {/if}
 
-<div in:fly={{ y: 100, duration: 1000 }}>
+
   <!--<hr><p class="page-break">strona 3</p><hr>-->
 
 
-  <div class="header">
+<div class="header">
   <div>
     <h3>Obrady w dniu 9 lutego 1995 r.</h3>
       <h5>
@@ -122,9 +122,10 @@
     <a rel="prefetch" href="/komisja/13/prasa">
       <img src="images/angle-right-solid.svg" alt="" />
     </a>
-</div>
   </div>
-  <!--<hr><p class="page-break">strona 63</p><hr>-->
+</div>
+<!--<hr><p class="page-break">strona 63</p><hr>-->
+<div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
     <div class="speaker">
       <img

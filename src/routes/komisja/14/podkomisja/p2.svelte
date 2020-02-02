@@ -98,29 +98,30 @@
   <ToTheTopBtn />
 {/if}
 
-<div in:fly={{ y: 100, duration: 1000 }}>
-  <!--<hr><p class="page-break">strona 3</p><hr>-->
-  <div class="header">
-    <div>
-      <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja cz. II</h3>
-      <!-- <h5>
-        <a
-          href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
-          rel="nofollow"
-          target="_blank">
-          ORYGINAŁ BIULETYNU x
-        </a>
-      </h5> -->
-    </div>
-    <div class="small-article-nav">
-      <a rel="prefetch" href="/komisja/14/podkomisja/p1">
-        <img src="images/angle-left-solid.svg" alt="" />
+
+<!--<hr><p class="page-break">strona 3</p><hr>-->
+<div class="header">
+  <div>
+    <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja cz. II</h3>
+    <!-- <h5>
+      <a
+        href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
+        rel="nofollow"
+        target="_blank">
+        ORYGINAŁ BIULETYNU x
       </a>
-      <!-- <a rel="prefetch" href="/komisja/14/prasa">
-        <img src="images/angle-right-solid.svg" alt="" />
-      </a> -->
-    </div>
+    </h5> -->
   </div>
+  <div class="small-article-nav">
+    <a rel="prefetch" href="/komisja/14/podkomisja/p1">
+      <img src="images/angle-left-solid.svg" alt="" />
+    </a>
+    <!-- <a rel="prefetch" href="/komisja/14/prasa">
+      <img src="images/angle-right-solid.svg" alt="" />
+    </a> -->
+  </div>
+</div>
+<div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
 
     <div class="speaker">

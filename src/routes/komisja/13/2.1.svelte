@@ -98,30 +98,30 @@
   <ToTheTopBtn />
 {/if}
 
-<div in:fly={{ y: 100, duration: 1000 }}>
-  <div class="header">
-    <div>
-      <h3>Obrady w dniu 8 lutego 1995 r. - część I</h3>
-      <h5>
-        <a
-          href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
-          rel="nofollow"
-          target="_blank">
-          ORYGINAŁ BIULETYNU
-        </a>
-        <img class="ext-link" src="images/external-link.svg" alt="">
-      </h5>
-    </div>
-    <div class="small-article-nav">
-      <a rel="prefetch" href="/komisja/13/1">
-        <img src="images/angle-left-solid.svg" alt="" />
-      </a>
-      <a rel="prefetch" href="/komisja/13/2.2">
-        <img src="images/angle-right-solid.svg" alt="" />
-      </a>
-    </div>
-  </div>
 
+<div class="header">
+  <div>
+    <h3>Obrady w dniu 8 lutego 1995 r. - część I</h3>
+    <h5>
+      <a
+        href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
+        rel="nofollow"
+        target="_blank">
+        ORYGINAŁ BIULETYNU
+      </a>
+      <img class="ext-link" src="images/external-link.svg" alt="">
+    </h5>
+  </div>
+  <div class="small-article-nav">
+    <a rel="prefetch" href="/komisja/13/1">
+      <img src="images/angle-left-solid.svg" alt="" />
+    </a>
+    <a rel="prefetch" href="/komisja/13/2.2">
+      <img src="images/angle-right-solid.svg" alt="" />
+    </a>
+  </div>
+</div>
+<div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
     <div class="speaker">
       <img
