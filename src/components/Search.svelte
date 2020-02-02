@@ -33,7 +33,7 @@
     border: solid 1px;
     border-radius: 5px;
     min-width: 12em;
-    min-height: 2em;
+    height: 2em;
     outline: none;
     padding: 0 0px 0 30px;
     border-color: rgba(0, 0, 0, 0.1);
@@ -71,6 +71,7 @@
     -webkit-appearance: none;
     color: rgba(0, 0, 0, 0.2);
   }
+
   .chapter-pick:after {
     content: "-";
     color: transparent;
@@ -164,7 +165,6 @@
       <select bind:value={selectedChapter} on:change={sendChoice}>
         <option value="_">
           Wszystkie rozdziały
-          <img src="images/search.png" alt="" />
         </option>
         <option value="I">Rozdział I Rzeczpospolita</option>
         <option value="II">
