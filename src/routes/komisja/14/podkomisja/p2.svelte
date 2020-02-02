@@ -113,7 +113,7 @@
       </h5> -->
     </div>
     <div class="small-article-nav">
-      <a rel="prefetch" href="/komisja/14/podkomisja/p2">
+      <a rel="prefetch" href="/komisja/14/podkomisja/p1">
         <img src="images/angle-left-solid.svg" alt="" />
       </a>
       <!-- <a rel="prefetch" href="/komisja/14/prasa">

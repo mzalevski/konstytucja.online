@@ -47,6 +47,9 @@ a {
 .art-scroll:focus {
   color: rgb(220, 40, 40);
 }
+.ext-link {
+  width: 0.6rem;
+}
 
 @media (max-width: 500px) {
   body {

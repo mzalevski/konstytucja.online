@@ -20,15 +20,17 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
-
 </style>
 
 <nav>
   <p>
-  <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
+    <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
     z miłości ❤️ do Polski ~
-    <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">Maciej Zalewski</a>
-
+    <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">
+      Maciej Zalewski
+    </a>
   </p>
-  <a href="mailto:konstytucja.online@gmail.com"><img src="/images/envelope-regular.svg" alt=""></a>
+  <a href="mailto:konstytucja.online@gmail.com">
+    <img src="/images/envelope-regular.svg" alt="" />
+  </a>
 </nav>

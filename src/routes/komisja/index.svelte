@@ -53,15 +53,15 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
 
   <h3>Komisja Konstytucyjna</h3>
-  <!-- <h5>
+  <h5>
     <a
-      href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
+      href="https://www.wikiwand.com/pl/Komisja_Konstytucyjna_Zgromadzenia_Narodowego"
       rel="nofollow"
       target="_blank">
-      Dz.U. 1997 nr 78 poz. 483
+      Komisja Konstytucyjna ZN
     </a>
-    nie wiem co tu
-  </h5> -->
+    <img class="ext-link" src="images/external-link.svg" alt="">
+  </h5>
 
   <p>
     Komisja Konstytucyjna
@@ -71,6 +71,7 @@
       target="_blank">
       Zgromadzenia Narodowego
     </a>
+    <img class="ext-link" src="images/external-link.svg" alt="">
     została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
     trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
     <a
@@ -79,13 +80,15 @@
       target="_blank">
       Dz.U. z 1992 r. nr 67, poz. 336
     </a>
-    ; zm.:
+    <img class="ext-link" src="images/external-link.svg" alt="">
+    zm.:
     <a
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
       rel="nofollow"
       target="_blank">
       Dz.U. z 1994 r. nr 61, poz. 251
     </a>
+    <img class="ext-link" src="images/external-link.svg" alt="">
     ).
   </p>
   <h3>Skorowidz</h3>
@@ -96,6 +99,7 @@
       target="_blank">
       skorowidz
     </a>
+    <img class="ext-link" src="images/external-link.svg" alt="">
   </h5>
 
   <h3>Biuletyny</h3>
@@ -106,6 +110,7 @@
       target="_blank">
       lista biuletynów
     </a>
+    <img class="ext-link" src="images/external-link.svg" alt="">
   </h5>
 
   <ul>

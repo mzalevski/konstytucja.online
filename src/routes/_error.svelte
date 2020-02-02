@@ -43,7 +43,7 @@
 
 <h1>{status} 💔</h1>
 <p>Och nie! Nie ma takiej podstrony! 😔</p>
-<a href="/"><p>wróć na stronę główną</p></a>
+<a rel="prefetch" href="/"><p>wróć na stronę główną</p></a>
 
 {#if dev && error.stack}
 	<p>{error.message}</p>

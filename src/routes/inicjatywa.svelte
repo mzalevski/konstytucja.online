@@ -42,7 +42,7 @@
 
   <p>Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu prawa oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać Konstytucję, która stanowi podstawę ich republiki - państwa prawa, które staje w ich obronie przed arbitralną i nieograniczoną władzą.</p>
 
-  <p>Chciałbym, żeby ta strona była otwartym i przystępnym źródłem wiedzy o Konstytucji. Dotychczas dostępne strony internetowe, na których można było przeczytać Konstytucję, np. <a href="https://www.prezydent.pl/prawo/konstytucja-rp/">strona Prezydenta</a>, <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">strona Sejmu</a>, nie są wystarczająco czytelne i nie umożliwiają swobodnego przeglądania artykułów.</p>
+  <p>Chciałbym, żeby ta strona była otwartym i przystępnym źródłem wiedzy o Konstytucji. Dotychczas dostępne strony internetowe, na których można było przeczytać Konstytucję, np. <a href="https://www.prezydent.pl/prawo/konstytucja-rp/">strona Prezydenta</a> <img class="ext-link" src="images/external-link.svg" alt="">, <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">strona Sejmu</a> <img class="ext-link" src="images/external-link.svg" alt="">, nie są wystarczająco czytelne i nie umożliwiają swobodnego przeglądania artykułów.</p>
 
   <p>W trakcie tworzenia czytnika, starałem się, aby był on przejrzysty, łatwy w obsłudze, wydajny, responsywny (przystosowany do korzystania na smartfonie), pozbawiony reklam, natomiast zawierający tryb offline, aplikację mobilną, a także możliwość sprawnej nawigacji,  filtrowania i wyszukiwania treści oraz prowadzenia dyskusji dotyczącej poszczególnych artykułów.</p>
 
@@ -50,7 +50,7 @@
 
   <p>Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania tego już istniejącego. Chciałbym wykorzystać swoje umiejętności techniczne, aby krok po kroku tworzyć takie rozwiązania. Konstytucja.online to mój pierwszy krok.</p>
 
-  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>. Po trzecie, jeżeli chciałbyś wesprzeć finansowo ten i kolejne moje projekty to serdecznie zapraszam do wsparcia przez <a href="https://patronite.pl/maciejzalewski">Patronite</a>.</p>
+  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>. Po trzecie, jeżeli chciałbyś wesprzeć finansowo ten i kolejne moje projekty to serdecznie zapraszam do wsparcia przez <a href="https://patronite.pl/maciejzalewski">Patronite</a>. <img class="ext-link" src="images/external-link.svg" alt=""></p>
 
   <p>Chciałbym podziękować prof. Marcinowi Matczakowi i prof. Ryszardowi Piotrowskiemu za wsparcie merytoryczne projektu.</p>
 
@@ -62,6 +62,7 @@
       class="signature">
       Maciej Zalewski
     </a>
+    <img class="ext-link" src="images/external-link.svg" alt="">
   </p>
 </div>
 
