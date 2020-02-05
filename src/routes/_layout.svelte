@@ -8,32 +8,32 @@
   }
   @media (max-width: 1800px) {
     main {
-      width: 60vw;
+      width: 70vw;
     }
   }
   @media (max-width: 1700px) {
     main {
-      width: 65vw;
+      width: 75vw;
     }
   }
   @media (max-width: 1600px) {
     main {
-      width: 70vw;
+      width: 80vw;
     }
   }
   @media (max-width: 1500px) {
     main {
-      width: 75vw;
+      width: 85vw;
     }
   }
   @media (max-width: 1400px) {
     main {
-      width: 80vw;
+      width: 90vw;
     }
   }
   @media (max-width: 1240px) {
     main {
-      width: 90vw;
+      width: 100vw;
     }
   }
 </style>
