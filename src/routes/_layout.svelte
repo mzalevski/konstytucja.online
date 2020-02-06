@@ -1,6 +1,6 @@
 <style>
   main {
-    width: 55vw;
+    width: 65vw;
     background-color: white;
     padding: 0;
     margin: 1rem;
