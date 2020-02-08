@@ -1,6 +1,6 @@
 <style>
   main {
-    width: 65vw;
+    width: 60vw;
     background-color: white;
     padding: 0;
     margin: 1rem;
@@ -33,9 +33,15 @@
   }
   @media (max-width: 1240px) {
     main {
-      width: 100vw;
+      width: 98vw;
     }
   }
+  @media (max-width: 600px) {
+    main {
+      width: 91vw;
+    }
+  }
+
 </style>
 
 <svelte:head>
