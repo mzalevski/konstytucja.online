@@ -46,7 +46,7 @@
 
   <p>W trakcie tworzenia czytnika, starałem się, aby był on przejrzysty, łatwy w obsłudze, wydajny, responsywny (przystosowany do korzystania na smartfonie), pozbawiony reklam, natomiast zawierający tryb offline, aplikację mobilną, a także możliwość sprawnej nawigacji,  filtrowania i wyszukiwania treści oraz prowadzenia dyskusji dotyczącej poszczególnych artykułów.</p>
 
-  <p>Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć. Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.</p>yarn dev
+  <p>Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć. Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.</p>
 
   <p>Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania tego już istniejącego. Chciałbym wykorzystać swoje umiejętności techniczne, aby krok po kroku tworzyć takie rozwiązania. Konstytucja.online to mój pierwszy krok.</p>
 
