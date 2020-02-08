@@ -46,11 +46,11 @@
 
   <p>W trakcie tworzenia czytnika, starałem się, aby był on przejrzysty, łatwy w obsłudze, wydajny, responsywny (przystosowany do korzystania na smartfonie), pozbawiony reklam, natomiast zawierający tryb offline, aplikację mobilną, a także możliwość sprawnej nawigacji,  filtrowania i wyszukiwania treści oraz prowadzenia dyskusji dotyczącej poszczególnych artykułów.</p>
 
-  <p>Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć. Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.</p>
+  <p>Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć. Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.</p>yarn dev
 
   <p>Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania tego już istniejącego. Chciałbym wykorzystać swoje umiejętności techniczne, aby krok po kroku tworzyć takie rozwiązania. Konstytucja.online to mój pierwszy krok.</p>
 
-  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>. Po trzecie, jeżeli chciałbyś wesprzeć finansowo ten i kolejne moje projekty to serdecznie zapraszam do wsparcia przez <a href="https://patronite.pl/maciejzalewski">Patronite</a>. <img class="ext-link" src="images/external-link.svg" alt=""></p>
+  <p>Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji, którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to napisz do mnie na <a href="mailto:konstytucja.online@gmail.com">ten adres</a>.</p>
 
   <p>Chciałbym podziękować prof. Marcinowi Matczakowi i prof. Ryszardowi Piotrowskiemu za wsparcie merytoryczne projektu.</p>
 

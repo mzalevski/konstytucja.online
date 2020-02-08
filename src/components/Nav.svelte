@@ -176,7 +176,7 @@
           <a rel="prefetch" href="/app-mobile">Aplikacja - mobile</a>
           <a rel="prefetch" href="/app-desktop">Aplikacja - desktop</a>
           <a rel="prefetch" href="/inicjatywa">Inicjatywa</a>
-          <a rel="prefetch" href="/patroni">Patroni</a>
+          <!-- <a rel="prefetch" href="/patroni">Patroni</a> -->
         </div>
       </div>
 
