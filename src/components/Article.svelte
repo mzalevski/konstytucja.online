@@ -25,10 +25,11 @@
   .article :global(li) {
       list-style-type: none;
   }
-  .article:focus,
+  a:focus,
   .article:hover {
     color: rgb(160, 40, 40);
   }
+
   @media (max-width: 1100px) {
     .article {
       margin: 0.5em 0em;
@@ -37,7 +38,7 @@
 </style>
 
 <a rel="prefetch" href="/{slug}">
-  <div id={slug} class="article">
+  <div id={slug} class="article"> 
     <strong>{title}</strong>
     <span>({chapter['id']} {chapter['title']})</span>
     {@html html}
