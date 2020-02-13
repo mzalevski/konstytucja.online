@@ -49,6 +49,7 @@
     konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
     rada ministrów, sejm, senat" />
   <meta name="konstytucja" content="website" />
+
 </svelte:head>
 
 <svelte:window bind:scrollY={yAxisPosition} />

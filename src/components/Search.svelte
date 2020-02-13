@@ -71,7 +71,6 @@
     -webkit-appearance: none;
     color: rgba(0, 0, 0, 0.2);
   }
-
   .chapter-pick:after {
     content: "-";
     color: transparent;
@@ -113,7 +112,17 @@
   .arrow-helper-div {
     position: relative;
   }
-
+  :global(body.dark-mode) .search input,
+  :global(body.dark-mode) .chapter-pick select,
+  :global(body.dark-mode) .counter {
+    background-color: #1d3040;
+    color: #355672;
+  }
+  :global(body.dark-mode) .chapter-pick select:focus,
+  :global(body.dark-mode) .search input:focus,
+  :global(body.dark-mode) .search input:focus + .counter {
+    color: white;
+  }
   @media (max-width: 1100px) {
     .counter {
       top: 4px;

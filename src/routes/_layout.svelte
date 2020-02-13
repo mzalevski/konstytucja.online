@@ -1,7 +1,18 @@
+<script>
+	import DarkMode from "../components/DarkMode.svelte";
+</script>
+
 <style>
+	:global(body) {
+		background-color: #ffffff;
+		transition: background-color 0.3s
+	}
+	:global(body.dark-mode) {
+		background-color: #1d3040;
+		color: #bfc2c7;
+	}
   main {
     width: 60vw;
-    background-color: white;
     padding: 0;
     margin: 1rem;
     box-sizing: border-box;
@@ -51,5 +62,6 @@
 </svelte:head>
 
 <main>
+  <DarkMode>🌓</DarkMode>
   <slot />
 </main>
