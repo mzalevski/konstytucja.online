@@ -29,13 +29,15 @@
   }
   .article-metadata,
   .press-article {
-    border: 1px solid rgba(160, 40, 40, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 1rem;
     border-radius: 3px;
   }
-
-  .article-metadata {
+  :global(body.dark-mode) .article-metadata,
+  :global(body.dark-mode) .press-article {
+    border-color: rgba(255, 255, 255, 0.05);
   }
+
   .author {
     text-align: right;
   }

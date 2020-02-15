@@ -727,7 +727,7 @@ const articles = [
 
 			<p>Z takiego ukształtowania artykułu 45 wynika także zasada dostępności do sądów. Powinno być to względnie łatwe (także w sprawach rozpoznawanych przez wyższe instancje), a wszelkie ograniczenia w tym zakresie muszą być zgodne z <a class="art-scroll" rel="prefetch" href='/31'>art. 31</a> ust. 3 Konstytucji.</p>
 
-			<p>Prawo do niezawisłego i niezależnego sądu wynika także z dalszych szczegółowych rozwiązań konstytucyjnych (art. 173, 178 oraz 186 Konstytucji). Sąd nie może sprzyjać żadnej ze stron procesowych, musi być bezstronny, także – a może szczególnie – w sprawach, w których jednostka procesuje się z państwem. Tak rozumiana bezstronność sędziów jest elementem ich niezależności i niezawisłości. Artykuł 45 charakteryzuje również sposób działania sądów – sprawy powinny być rozpatrywane sprawiedliwie, jawnie i bez nieuzasadnionej zwłoki.</p>
+			<p>Prawo do niezawisłego i niezależnego sądu wynika także z dalszych szczegółowych rozwiązań konstytucyjnych (<a class="art-scroll" rel="prefetch" href='/173'>art. 173</a>, <a class="art-scroll" rel="prefetch" href='/178'>178</a> oraz <a class="art-scroll" rel="prefetch" href='/186'>186</a> Konstytucji). Sąd nie może sprzyjać żadnej ze stron procesowych, musi być bezstronny, także – a może szczególnie – w sprawach, w których jednostka procesuje się z państwem. Tak rozumiana bezstronność sędziów jest elementem ich niezależności i niezawisłości. Artykuł 45 charakteryzuje również sposób działania sądów – sprawy powinny być rozpatrywane sprawiedliwie, jawnie i bez nieuzasadnionej zwłoki.</p>
 
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="ext-link" src="images/external-link.svg" alt=""></p>
 		`
@@ -935,7 +935,7 @@ const articles = [
 
 			<p>Wolność pozyskiwania informacji dotyczyć może zbierania danych z dowolnych sfer życia publicznego (<a class="art-scroll" rel="prefetch" href='/61'>art. 61</a> Konstytucji nakłada na władze obowiązek udzielania odpowiednich informacji) lub prywatnego.</p>
 
-			<p>Poprzez rozpowszechnianie informacji należy rozumieć udostępnianie zebranych danych osobom trzecim (indywidualnie wybranym) lub upowszechnianie ich (czyli podawanie do wiadomości publicznej, np. poprzez środki społecznego przekazu). Potwierdza to konstytucyjną zasadę wolności prasy zawartą w art. 14.</p>
+			<p>Poprzez rozpowszechnianie informacji należy rozumieć udostępnianie zebranych danych osobom trzecim (indywidualnie wybranym) lub upowszechnianie ich (czyli podawanie do wiadomości publicznej, np. poprzez środki społecznego przekazu). Potwierdza to konstytucyjną zasadę wolności prasy zawartą w <a class="art-scroll" rel="prefetch" href='/14'>art. 14</a>.</p>
 
 			<p class="desc-author">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="ext-link" src="images/external-link.svg" alt=""></p>
 		`

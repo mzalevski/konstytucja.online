@@ -116,7 +116,7 @@
   <div class="protocol">
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -144,7 +144,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -160,7 +160,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -180,7 +180,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -199,7 +199,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
@@ -214,7 +214,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -230,7 +230,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -244,7 +244,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -261,7 +261,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -279,7 +279,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -296,7 +296,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -312,7 +312,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -329,7 +329,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -341,7 +341,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
@@ -359,7 +359,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -371,7 +371,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -389,7 +389,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
@@ -417,7 +417,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -432,7 +432,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -445,7 +445,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -469,7 +469,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
@@ -492,7 +492,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -505,7 +505,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastusiakLongin.png"
+        src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
@@ -524,7 +524,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -537,7 +537,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/BugajRyszard.png"
+        src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -563,7 +563,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -578,7 +578,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -597,7 +597,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -620,7 +620,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -646,7 +646,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -660,7 +660,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -672,7 +672,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -690,7 +690,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -705,7 +705,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -717,7 +717,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -730,7 +730,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -743,7 +743,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -765,7 +765,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -792,7 +792,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -810,7 +810,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -830,7 +830,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -848,7 +848,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RotHenryk.png"
+        src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
@@ -869,7 +869,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -882,7 +882,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -896,7 +896,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
@@ -909,7 +909,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -921,7 +921,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -942,7 +942,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -969,7 +969,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -983,7 +983,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -999,7 +999,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1027,7 +1027,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/BugajRyszard.png"
+        src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1041,7 +1041,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1054,7 +1054,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1073,7 +1073,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1093,7 +1093,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/BugajRyszard.png"
+        src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1110,7 +1110,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1126,7 +1126,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1139,7 +1139,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1152,7 +1152,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/ZdradaJerzy.png"
+        src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1171,7 +1171,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1190,7 +1190,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MazowieckiTadeusz.png"
+        src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1206,7 +1206,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1249,7 +1249,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1271,7 +1271,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MazowieckiTadeusz.png"
+        src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1284,7 +1284,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1303,7 +1303,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1319,7 +1319,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1351,7 +1351,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1370,7 +1370,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1383,7 +1383,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1403,7 +1403,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1428,7 +1428,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1450,7 +1450,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1476,7 +1476,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1491,7 +1491,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1509,7 +1509,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1527,7 +1527,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1558,7 +1558,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1573,7 +1573,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1591,7 +1591,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1604,7 +1604,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1633,7 +1633,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1654,7 +1654,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1678,7 +1678,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MoczulskiLeszek.png"
+        src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1693,7 +1693,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LipowiczIrena.png"
+        src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1706,7 +1706,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1741,7 +1741,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1764,7 +1764,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/GrzeskowiakAlicja.png"
+        src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1805,7 +1805,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1819,7 +1819,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OrzechowskiJan.png"
+        src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1841,7 +1841,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1861,7 +1861,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1910,7 +1910,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1926,7 +1926,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1946,7 +1946,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MazowieckiTadeusz.png"
+        src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -1967,7 +1967,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/ZdradaJerzy.png"
+        src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2000,7 +2000,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastuszkaStefan.png"
+        src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2016,7 +2016,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RotHenryk.png"
+        src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2048,7 +2048,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SarneckiPawel.png"
+        src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2072,7 +2072,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/SzymanskiJanusz.png"
+        src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2106,7 +2106,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2136,7 +2136,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/BugajRyszard.png"
+        src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2168,7 +2168,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2193,7 +2193,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2227,7 +2227,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2254,7 +2254,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2291,7 +2291,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2314,7 +2314,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2332,7 +2332,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2354,7 +2354,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RotHenryk.png"
+        src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2373,7 +2373,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2405,7 +2405,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2442,7 +2442,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2458,7 +2458,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/PastusiakLongin.png"
+        src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2478,7 +2478,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2494,7 +2494,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/OsiatynskiWiktor.png"
+        src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2522,7 +2522,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/GrodzickiRyszard.png"
+        src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2554,7 +2554,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WisniewskiLeszek.png"
+        src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2590,7 +2590,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2606,7 +2606,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DzialochaKazimierz.png"
+        src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2635,7 +2635,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2661,7 +2661,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/MadejJerzy.png"
+        src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2687,7 +2687,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/AndrzejewskiPiotr.png"
+        src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2721,7 +2721,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KuleszaWladyslaw.png"
+        src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2745,7 +2745,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2759,7 +2759,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2774,7 +2774,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/CiemniewskiJerzy.png"
+        src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2805,7 +2805,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2819,7 +2819,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RzeplinskiAndrzej.png"
+        src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2856,7 +2856,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DrozdekMichal.png"
+        src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2895,7 +2895,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2917,7 +2917,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WinczorekPiotr.png"
+        src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2932,7 +2932,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2947,7 +2947,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RzeplinskiAndrzej.png"
+        src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2971,7 +2971,7 @@
 
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/WiatrJerzy.png"
+        src="/images/kk-speakers/WiatrJerzy.png"
         alt=""
         loading="lazy"
         width="110"
@@ -2993,7 +2993,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/DrozdekMichal.png"
+        src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy"
         width="110"
@@ -3018,7 +3018,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
@@ -3037,7 +3037,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/LybackaKrystyna.png"
+        src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
@@ -3054,7 +3054,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/RzeplinskiAndrzej.png"
+        src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
@@ -3072,7 +3072,7 @@
     </div>
     <div class="speaker">
       <img
-        src="/images/kk-speakers/szaro/KwasniewskiAleksander.png"
+        src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
