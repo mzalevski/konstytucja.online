@@ -14,10 +14,8 @@
   import Footer from "../components/Footer.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
-  import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
 
   export let articles;
-  let yAxisPosition;
   let selectedArticles = articles;
   let searchedText;
   let selectedChapter;
@@ -51,8 +49,6 @@
   <meta name="konstytucja" content="website" />
 
 </svelte:head>
-
-<svelte:window bind:scrollY={yAxisPosition} />
 
 <Nav>
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
@@ -92,9 +88,5 @@
     {/each}
   {/if}
 </div>
-
-{#if yAxisPosition > 300}
-  <ToTheTopBtn/>
-{/if}
 
 <Footer />

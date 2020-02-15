@@ -1,3 +1,7 @@
+<script>
+  import { fly } from 'svelte/transition';
+</script>
+
 <style>
   nav {
     display: flex;
@@ -7,9 +11,6 @@
     margin: 1rem 0 0 0;
     justify-content: center;
     text-align: center;
-  }
-  img {
-    height: 1em;
   }
   a {
     padding: 1.15em 0.5em 1em 0em;
@@ -22,15 +23,11 @@
   }
 </style>
 
-<nav>
+<nav in:fly={{ y: 100, duration: 1000 }}>
   <p>
-    <!-- used white & red circles coz Windows does not render 🇵🇱 emoji as flag -->
     z miłości ❤️ do Polski ~
     <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">
       Maciej Zalewski
     </a>
   </p>
-  <a href="mailto:konstytucja.online@gmail.com">
-    <img src="/images/envelope-regular.svg" alt="" />
-  </a>
 </nav>

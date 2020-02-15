@@ -9,10 +9,12 @@
   .article {
     margin: 1em 0em;
     padding: 1em;
-    border: solid 1px;
-    border-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     text-align: justify;
+  }
+  :global(body.dark-mode) .article {
+    border-color: rgba(255, 255, 255, 0.05);
   }
 
   a {
@@ -25,9 +27,12 @@
   .article :global(li) {
       list-style-type: none;
   }
-  a:focus,
+
   .article:hover {
     color: rgb(160, 40, 40);
+  }
+  a:focus .article {
+    border-color: rgb(160, 40, 40);
   }
 
   @media (max-width: 1100px) {
@@ -38,7 +43,7 @@
 </style>
 
 <a rel="prefetch" href="/{slug}">
-  <div id={slug} class="article"> 
+  <div id={slug} class="article">
     <strong>{title}</strong>
     <span>({chapter['id']} {chapter['title']})</span>
     {@html html}

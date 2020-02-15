@@ -192,6 +192,6 @@
     </p>
   </div>
 
-</div>
+  <Footer />
 
-<Footer />
+</div>

@@ -18,6 +18,19 @@
 </script>
 
 <style>
+
+  .search {
+    position: relative;
+  }
+  .search input:focus,
+  .chapter-pick select:focus {
+    border: 1px solid black;
+  }
+  .search input:focus,
+  .search input:focus + .counter,
+  .chapter-pick select:focus {
+    color: black
+  }
   .counter {
     color: rgba(0, 0, 0, 0.2);
     padding: 0;
@@ -36,7 +49,7 @@
     height: 2em;
     outline: none;
     padding: 0 0px 0 30px;
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.05);
     background-position-x: 0.2em;
     background-position-y: 0.2em;
     background-size: 20px;
@@ -46,24 +59,20 @@
     background-clip: initial;
     background-color: rgb(255, 255, 255);
   }
+  :global(body.dark-mode) .search input {
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  :global(body.dark-mode) .chapter-pick select {
+    border-color: rgba(255, 255, 255, 0.05);
+  }
 
   .search input {
     background-image: url("/images/search.png");
     color: rgba(0, 0, 0, 0.2)
   }
-  .search {
-    position: relative;
+  :global(body.dark-mode) .search input {
+    background-image: url("/images/search-dark.png");
   }
-  .search input:focus,
-  .chapter-pick select:focus {
-    border: 1px solid black;
-  }
-  .search input:focus,
-  .search input:focus + .counter,
-  .chapter-pick select:focus {
-    color: black
-  }
-
   .chapter-pick select {
     background-image: url("/images/chapter.png");
     cursor: pointer;
@@ -71,6 +80,10 @@
     -webkit-appearance: none;
     color: rgba(0, 0, 0, 0.2);
   }
+  :global(body.dark-mode) .chapter-pick select {
+    background-image: url("/images/chapter-dark.png");
+  }
+
   .chapter-pick:after {
     content: "-";
     color: transparent;
@@ -116,7 +129,7 @@
   :global(body.dark-mode) .chapter-pick select,
   :global(body.dark-mode) .counter {
     background-color: #1d3040;
-    color: #355672;
+    color: #48749b;
   }
   :global(body.dark-mode) .chapter-pick select:focus,
   :global(body.dark-mode) .search input:focus,

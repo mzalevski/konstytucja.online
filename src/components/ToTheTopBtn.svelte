@@ -4,28 +4,24 @@
 
 <style>
   #back-to-the-top-btn {
-    display: block;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 2.5em;
-    height: 2.5em;
-    margin: 2em 1em;
     opacity: 0.5;
   }
-  #back-to-the-top-btn img {
-    size: 50%;
-  }
+
   #back-to-the-top-btn {
-    height: 25px;
     width: 25px;
+  }
+  :global(body.dark-mode) #back-to-the-top-btn svg {
+    fill: white;
   }
 </style>
 
   <button id="back-to-the-top-btn"
-    in:fly={{ y: 200, duration: 2000 }}
+    transition:fly={{ y: 200, duration: 2000 }}
     on:click={() => window.scroll(0, 0)}>
 
-    <img src="images/angle-double-up-solid.svg" alt="" />
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-up" class="svg-inline--fa fa-angle-double-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z"></path></svg>
 
   </button>

@@ -11,10 +11,13 @@
   nav {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
     padding: 0 0em;
     margin-bottom: 1em;
+  }
+  :global(body.dark-mode) nav {
+    border-bottom-color: rgba(255, 255, 255, 0.05);
   }
   ul {
     flex-shrink: 0;
@@ -122,6 +125,7 @@
       border-bottom: 1px solid rgba(160, 40, 40, 0.1);
       margin-bottom: 0.5em;
     }
+
     li a {
       text-align: center;
     }
@@ -176,7 +180,6 @@
           <a rel="prefetch" href="/app-mobile">Aplikacja - mobile</a>
           <a rel="prefetch" href="/app-desktop">Aplikacja - desktop</a>
           <a rel="prefetch" href="/inicjatywa">Inicjatywa</a>
-          <!-- <a rel="prefetch" href="/patroni">Patroni</a> -->
         </div>
       </div>
 

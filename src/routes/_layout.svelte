@@ -1,5 +1,7 @@
 <script>
 	import DarkMode from "../components/DarkMode.svelte";
+  import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
+  let yAxisPosition;
 </script>
 
 <style>
@@ -54,6 +56,7 @@
   }
 
 </style>
+<svelte:window bind:scrollY={yAxisPosition} />
 
 <svelte:head>
   <link
@@ -62,6 +65,7 @@
 </svelte:head>
 
 <main>
-  <DarkMode>🌓</DarkMode>
+  <DarkMode />
+  {#if yAxisPosition > 300}<ToTheTopBtn/>{/if}
   <slot />
 </main>

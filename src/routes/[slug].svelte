@@ -50,6 +50,9 @@
   .low-opacity {
     color: rgba(0, 0, 0, 0.35);
   }
+  :global(body.dark-mode) .low-opacity {
+    color: rgba(255, 255, 255, 0.35);
+  }
   .no-dots :global(li) {
       list-style-type: none;
   }
@@ -79,7 +82,7 @@
     justify-content: space-between;
   }
 
-  .small-article-nav a img {
+  .small-article-nav a svg {
     width: 12.5px;
     height: 25px;
   }
@@ -126,6 +129,10 @@
     font-style: italic;
   }
 
+  :global(body.dark-mode) svg {
+    fill: white;
+  }
+
   @media (max-width: 1100px) {
     .chapter-name {
       word-wrap: break-word;
@@ -167,7 +174,7 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <img src="images/angle-left-solid.svg" alt="" />
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left" class="svg-inline--fa fa-angle-left fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
       </a>
     {/if}
     {#if $page.params.slug < 243}
@@ -179,7 +186,7 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <img src="images/angle-right-solid.svg" alt="" />
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
       </a>
     {/if}
   </div>
