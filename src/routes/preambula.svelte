@@ -75,10 +75,10 @@
 
 <Nav segment={'preambula'} />
 
-<div class="decor-border bc1" in:fly={{ y: 40, duration: 400, delay: 100 }}>
-  <div class="decor-border bc2" in:fly={{ y: 100, duration: 1000, delay: 200 }}>
-    <div class="decor-border bc3" in:fly={{ y: 140, duration: 1400, delay: 300 }}>
-      <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000, delay: 400 }}>
+<div class="decor-border bc1" in:fly={{ y: 40, duration: 400 }}>
+  <div class="decor-border bc2" in:fly={{ y: 100, duration: 1000, delay: 100 }}>
+    <div class="decor-border bc3" in:fly={{ y: 140, duration: 1400, delay: 100 }}>
+      <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000, delay: 100 }}>
         <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
         <p>
           odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
