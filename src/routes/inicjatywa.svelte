@@ -64,6 +64,7 @@
     </a>
     <img class="ext-link" src="images/external-link.svg" alt="">
   </p>
+
+  <Footer />
 </div>
 
-<Footer />

@@ -23,7 +23,7 @@
   }
 </style>
 
-<nav in:fly={{ y: 100, duration: 1000 }}>
+<nav in:fly={{ y: 100, duration: 2000 }}>
   <p>
     z miłości ❤️ do Polski ~
     <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">

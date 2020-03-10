@@ -68,7 +68,7 @@
 
   .search input {
     background-image: url("/images/search.png");
-    color: rgba(0, 0, 0, 0.2)
+    color: #333333;
   }
   :global(body.dark-mode) .search input {
     background-image: url("/images/search-dark.png");
@@ -78,48 +78,35 @@
     cursor: pointer;
     max-width: 24em;
     -webkit-appearance: none;
-    color: rgba(0, 0, 0, 0.2);
+    color: #333333;
   }
   :global(body.dark-mode) .chapter-pick select {
     background-image: url("/images/chapter-dark.png");
   }
-
-  .chapter-pick:after {
-    content: "-";
-    color: transparent;
+  .down {
+    pointer-events: none;
     position: absolute;
-    right: 20px;
-    top: 11px;
-    height: 48px;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-top: 2px double;
-    border-color: rgba(0, 0, 0, 0.1);
-    background-position-x: 100px;
-    background-position-y: 10px;
-    background-size: 20px;
-    background-color: rgb(160, 40, 40);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  .chapter-pick:before {
-    content: "-";
-    color: transparent;
-    position: absolute;
-    right: 27px;
-    top: 11px;
-    height: 48px;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
-    border-top: 2px double;
-    border-color: rgba(0, 0, 0, 0.1);
-    background-position-x: 10px;
-    background-position-y: 10px;
-    background-size: 20px;
-    background-color: rgb(255, 255, 255);
+
+  :global(body.dark-mode) .down-svg {
+    fill: #FFFFFF
+  }
+
+  .down-svg {
+    fill: #333333;
+    width: 1rem;
+    height: 1rem;
   }
 
   .search-bar {
     display: flex;
-
     justify-content: flex-end;
   }
   .arrow-helper-div {
@@ -129,6 +116,9 @@
   :global(body.dark-mode) .chapter-pick select,
   :global(body.dark-mode) .counter {
     background-color: #1d3040;
+    color: #FFFFFF;
+  }
+  :global(body.dark-mode) .counter {
     color: #48749b;
   }
   :global(body.dark-mode) .chapter-pick select:focus,
@@ -212,6 +202,9 @@
           Rozdział XIII Przepisy przejściowe i końcowe
         </option>
       </select>
+      <div class="down">
+        <svg class="down-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+      </div>
     </div>
   </div>
 
