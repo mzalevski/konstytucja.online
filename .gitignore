@@ -2,6 +2,5 @@
 /node_modules/
 /src/node_modules/@sapper/
 yarn-error.log
-settings.json
 /__sapper__/
 .vscode/settings.json
