@@ -45,7 +45,7 @@
 <a rel="prefetch" href="/{slug}">
   <div id={slug} class="article">
     <strong>{title}</strong>
-    <span>({chapter['id']} {chapter['title']})</span>
+    <span>(Rozdział {chapter['id']} - {chapter['title']})</span>
     {@html html}
   </div>
 </a>

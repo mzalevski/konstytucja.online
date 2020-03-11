@@ -178,28 +178,28 @@
         <option value="_">
           Wszystkie rozdziały
         </option>
-        <option value="I">Rozdział I Rzeczpospolita</option>
+        <option value="I">Rozdział I - Rzeczpospolita</option>
         <option value="II">
-          Rozdział II Wolności, prawa i obowiązki człowieka i obywatela
+          Rozdział II - Wolności, prawa i obowiązki człowieka i obywatela
         </option>
-        <option value="III">Rozdział III Źródła prawa</option>
-        <option value="IV">Rozdział IV Sejm i Senat</option>
+        <option value="III">Rozdział III - Źródła prawa</option>
+        <option value="IV">Rozdział IV - Sejm i Senat</option>
         <option value="V">
-          Rozdział V Prezydent Rzeczypospolitej Polskiej
+          Rozdział V - Prezydent Rzeczypospolitej Polskiej
         </option>
         <option value="VI">
-          Rozdział VI Rada Ministrów i administracja rządowa
+          Rozdział VI - Rada Ministrów i administracja rządowa
         </option>
-        <option value="VII">Rozdział VII Samorząd terytorialny</option>
-        <option value="VIII">Rozdział VIII Sądy i Trybunały</option>
+        <option value="VII">Rozdział VII - Samorząd terytorialny</option>
+        <option value="VIII">Rozdział VIII - Sądy i Trybunały</option>
         <option value="IX">
-          Rozdział IX Organy kontroli państwowej i ochrony prawa
+          Rozdział IX - Organy kontroli państwowej i ochrony prawa
         </option>
-        <option value="X">Rozdział X Finanse publiczne</option>
-        <option value="XI">Rozdział XI Stany nadzwyczajne</option>
-        <option value="XII">Rozdział XII Zmiana Konstytucji</option>
+        <option value="X">Rozdział X - Finanse publiczne</option>
+        <option value="XI">Rozdział XI - Stany nadzwyczajne</option>
+        <option value="XII">Rozdział XII - Zmiana Konstytucji</option>
         <option value="XIII">
-          Rozdział XIII Przepisy przejściowe i końcowe
+          Rozdział XIII - Przepisy przejściowe i końcowe
         </option>
       </select>
       <div class="down">
