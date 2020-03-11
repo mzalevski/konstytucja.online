@@ -48,10 +48,10 @@
 
 <style>
   .low-opacity {
-    color: rgba(0, 0, 0, 0.35);
+    color: rgba(0, 0, 0, 0.5);
   }
   :global(body.dark-mode) .low-opacity {
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.5);
   }
   .no-dots :global(li) {
       list-style-type: none;
