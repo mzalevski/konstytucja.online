@@ -75,16 +75,20 @@
   }
 
   .small-article-nav {
-    text-align: right;
     width: 40px;
-    padding-left: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .small-article-nav a svg {
     width: 12.5px;
     height: 25px;
+  }
+  .left {
+    padding-right: 10px;
+  }
+  .right {
+    padding-left: 10px;
   }
 
   .content {
@@ -166,7 +170,7 @@
   </h3>
   <div class="small-article-nav">
     {#if $page.params.slug > 1}
-      <a
+      <a class="left"
         rel="prefetch"
         href="/{parseInt($page.params.slug) - 1}"
         transition:fade={{ duration: 1000 }}
@@ -178,7 +182,7 @@
       </a>
     {/if}
     {#if $page.params.slug < 243}
-      <a
+      <a class="right"
         rel="prefetch"
         href="/{parseInt($page.params.slug) + 1}"
         transition:fade={{ duration: 1000 }}
