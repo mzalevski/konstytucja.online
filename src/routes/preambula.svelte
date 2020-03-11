@@ -14,6 +14,7 @@
     min-height: 100vh;
     padding: 3em;
     border: double 2px rgb(160, 40, 40);
+    border-radius: 5px;
   }
   .bc1 {
     border-color: rgba(160, 40, 40, 0.2);
@@ -75,7 +76,7 @@
 
 <Nav segment={'preambula'} />
 
-<div class="decor-border bc1" in:fade={{ duration: 400 }}>
+<div class="decor-border bc1">
   <div class="decor-border bc2" in:fade={{ duration: 1000 }}>
     <div class="decor-border bc3" in:fly={{ y: 140, duration: 1400 }}>
       <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000 }}>
