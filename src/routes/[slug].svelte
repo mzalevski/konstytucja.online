@@ -76,6 +76,7 @@
 
   .small-article-nav {
     width: 40px;
+    padding-left: 20px;
     display: flex;
     justify-content: flex-end;
   }
