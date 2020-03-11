@@ -83,6 +83,7 @@
 
   .dropdown {
     position: relative;
+    cursor: default;
     display: inline-block;
   }
 
