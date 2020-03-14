@@ -24,6 +24,11 @@
   img {
     height: 0.8rem;
   }
+  @media (max-width: 500px) {
+    img {
+      height: 0.6rem;
+    }
+  }
 </style>
 
 <footer in:fly={{ y: 100, duration: 2000 }}>
