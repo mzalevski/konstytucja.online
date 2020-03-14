@@ -41,7 +41,7 @@
       font-size: 1rem;
     }
     .decor-border {
-      padding: 1rem;
+      padding: 0.4rem;
     }
     .bc1 {
       border-color: rgba(160, 40, 40, 0.025);
@@ -54,6 +54,7 @@
     }
     .bc4 {
       border-color: rgba(160, 40, 40, 0.2);
+      padding: 1rem;
     }
   }
 </style>
@@ -79,7 +80,7 @@
 <div class="decor-border bc1">
   <div class="decor-border bc2" in:fade={{ duration: 1000 }}>
     <div class="decor-border bc3" in:fade={{ duration: 1400 }}>
-      <div class="decor-border bc4" in:fly={{ y: 200, duration: 2000 }}>
+      <div class="decor-border bc4" in:fly={{ y: 200, duration: 1600 }}>
         <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
         <p>
           odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
