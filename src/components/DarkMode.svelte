@@ -21,6 +21,6 @@
   }
 </style>
 
-<button on:click={toggle}>
+<button on:click={toggle} title="tryb ciemny / tryb jasny">
   <img src="images/dark-light.png" alt="switch light mode" />
 </button>

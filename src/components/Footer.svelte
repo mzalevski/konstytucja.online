@@ -1,9 +1,9 @@
 <script>
-  import { fly } from 'svelte/transition';
+  import { fly } from "svelte/transition";
 </script>
 
 <style>
-  nav {
+  footer {
     display: flex;
     border-top: 1px solid rgba(160, 40, 40, 0.1);
     font-weight: 300;
@@ -21,13 +21,18 @@
   a:hover {
     color: rgb(160, 40, 40);
   }
+  img {
+    height: 0.8rem;
+  }
 </style>
 
-<nav in:fly={{ y: 100, duration: 2000 }}>
+<footer in:fly={{ y: 100, duration: 2000 }}>
   <p>
-    z miłości ❤️ do Polski ~
+    z miłości
+    <img src="images/heart.png" alt="" />
+    do Polski ~
     <a href="https://maciej-zalewski.pl" rel="nofollow" target="_blank">
       Maciej Zalewski
     </a>
   </p>
-</nav>
+</footer>
