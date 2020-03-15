@@ -25,10 +25,26 @@
     searchedText = e.detail.text;
     selectedArticles = articles.filter(article => {
       return (
-        (article.chapter["id"] === selectedChapter || selectedChapter === "_") &&
-        (new RegExp(`[ >]${searchedText.replace(/[\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi')
-        .test(article.html.replace(new RegExp(`<a class="art-scroll" rel="prefetch" href='/\\d+'>`, 'g'), '')) ||
-        article.title.toLowerCase().includes(searchedText.replace(/\\/g, '').toLowerCase()))
+        (article.chapter["id"] === selectedChapter ||
+          selectedChapter === "_") &&
+        (new RegExp(
+          `[ >]${searchedText.replace(
+            /[\?\)\(\.\\\*\+]/g,
+            match => `\\${match}`
+          )}`,
+          "gi"
+        ).test(
+          article.html.replace(
+            new RegExp(
+              `<a class="art-scroll" rel="prefetch" href='/\\d+'>`,
+              "g"
+            ),
+            ""
+          )
+        ) ||
+          article.title
+            .toLowerCase()
+            .includes(searchedText.replace(/\\/g, "").toLowerCase()))
       );
     });
   }
@@ -61,29 +77,42 @@
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
         title={article.title}
-        chapter={article.chapter} />
+        chapter={article.chapter}
+        desc={article.desc} />
     {/each}
   {:else}
     {#each selectedArticles as article}
-
       {#if searchedText === ''}
-
         <Article {...article} />
-
       {:else}
-
-          <Article
-            html={article.html.replace(
-              new RegExp(`[ >]${searchedText.replace(/[\<\>\?\)\(\.\\\*\+]/g, match => `\\${match}`)}`, 'gi'), (match, offset, string) => {
-                  if (!['href', 'clas', 'rel='].includes(string.slice(offset + 1, offset + 5))) {
-                    return `${match.slice(0, 1)}<span style="background-color: rgb(255, 155, 155); border-radius: 3px;">${match.slice(1)}</span>`;
-                  }
-                }
-              )}
-            slug={article.slug}
-            title={article.title}
-            chapter={article.chapter} />
-
+        <Article
+          html={article.html.replace(
+            new RegExp(
+              `[ >]${searchedText.replace(
+                /[\<\>\?\)\(\.\\\*\+]/g,
+                match => `\\${match}`
+              )}`,
+              'gi'
+            ),
+            (match, offset, string) => {
+              if (
+                !['href', 'clas', 'rel='].includes(
+                  string.slice(offset + 1, offset + 5)
+                )
+              ) {
+                return `${match.slice(
+                  0,
+                  1
+                )}<span style="background-color: rgb(255, 155, 155); border-radius: 3px;">${match.slice(
+                  1
+                )}</span>`;
+              }
+            }
+          )}
+          slug={article.slug}
+          title={article.title}
+          chapter={article.chapter}
+          desc={article.desc} />
       {/if}
     {/each}
   {/if}

@@ -5,7 +5,8 @@ const contents = JSON.stringify(articles.map(article => {
 		title: article.title,
 		slug: article.slug,
 		chapter: article.chapter,
-		html: article.html
+		html: article.html,
+		desc: article.desc
 	};
 }));
 
