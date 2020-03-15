@@ -33,7 +33,7 @@
   .counter {
     position: absolute;
     top: 0;
-    bottom: 0.2rem;
+    bottom: 0.3rem;
     right: 0;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
     pointer-events: none;
     position: absolute;
     top: 0;
-    bottom: 0.1rem;
+    bottom: 0.2rem;
     right: 0;
     display: flex;
     align-items: center;
