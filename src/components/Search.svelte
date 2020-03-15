@@ -30,7 +30,7 @@
     position: absolute;
     cursor: help;
     top: 0;
-    bottom: 0.3rem;
+    bottom: 0;
     right: 0;
     display: flex;
     align-items: center;
@@ -117,12 +117,11 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  .book-icon {
-    bottom: 0.3rem;
-  }
+  .book-icon,
   .search-icon {
-    bottom: 0.2rem;
+    bottom: 0;
   }
+
   .search-svg,
   .book-svg {
     fill: currentColor;
