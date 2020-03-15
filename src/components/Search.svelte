@@ -43,11 +43,11 @@
     margin: 12px 0px 10px 8px;
     border: solid 1px;
     border-radius: 5px;
-    min-width: 12em;
+    min-width: 11em;
     height: 2rem;
     font-size: 1rem;
     outline: none;
-    padding: 0 0px 0 30px;
+    padding: 0 0 0 30px;
     border-color: rgba(0, 0, 0, 0.05);
     background-position-x: 0.2em;
     background-position-y: 0.2em;
@@ -158,8 +158,8 @@
     }
     .chapter-pick select,
     .search input {
-      margin: 0.2rem;
-      padding-left: 2.3rem;
+      margin: 0.2rem 0;
+      padding-left: 2.8rem;
       width: 100%;
       max-width: none;
     }
@@ -168,7 +168,7 @@
     .chapter-pick select,
     .search input {
       font-size: 12px;
-      padding-left: 1.6rem;
+      padding-left: 2rem;
     }
     .search-icon,
     .book-icon {
