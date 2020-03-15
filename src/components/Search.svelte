@@ -33,7 +33,7 @@
   .counter {
     position: absolute;
     top: 0;
-    bottom: 0.1rem;
+    bottom: 0.2rem;
     right: 0;
     display: flex;
     align-items: center;
@@ -70,13 +70,16 @@
 
   .search input {
     color: #333333;
+    padding-right: 35px;
+    max-width: 20rem;
   }
 
   .chapter-pick select {
     cursor: pointer;
-    max-width: 24em;
+    max-width: 20rem;
     -webkit-appearance: none;
     color: #333333;
+    padding-right: 30px;
   }
 
   .down {
@@ -105,17 +108,23 @@
     pointer-events: none;
     position: absolute;
     top: 0;
-    bottom: 0.3rem;
     right: 0;
     left: 0.5rem;
     display: flex;
     align-items: center;
     padding-left: 0.5rem;
     padding-right: 1rem;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .book-icon {
+    bottom: 0.3rem;
+  }
+  .search-icon {
+    bottom: 0.2rem;
   }
   .search-svg,
   .book-svg {
-    fill: #333333;
+    fill: currentColor;
     width: 1rem;
     height: 1rem;
   }
