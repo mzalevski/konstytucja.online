@@ -158,7 +158,8 @@
     }
     .chapter-pick select,
     .search input {
-      margin: 0.2em 0;
+      margin: 0.2rem;
+      padding-left: 2.3rem;
       width: 100%;
       max-width: none;
     }
@@ -167,6 +168,7 @@
     .chapter-pick select,
     .search input {
       font-size: 12px;
+      padding-left: 1.6rem;
     }
     .search-icon,
     .book-icon {
