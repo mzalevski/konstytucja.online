@@ -25,11 +25,7 @@
   .chapter-pick select:focus {
     border: 1px solid black;
   }
-  .search input:focus,
-  .search input:focus + .counter,
-  .chapter-pick select:focus {
-    color: black;
-  }
+
   .counter {
     position: absolute;
     top: 0;
@@ -61,10 +57,9 @@
     background-clip: initial;
     background-color: rgb(255, 255, 255);
   }
+
+  :global(body.dark-mode) .chapter-pick select,
   :global(body.dark-mode) .search input {
-    border-color: rgba(255, 255, 255, 0.05);
-  }
-  :global(body.dark-mode) .chapter-pick select {
     border-color: rgba(255, 255, 255, 0.05);
   }
 
@@ -95,7 +90,7 @@
   }
 
   :global(body.dark-mode) .down-svg {
-    fill: #ffffff;
+    color: #ffffff;
   }
 
   .down-svg {
@@ -116,6 +111,11 @@
     padding-right: 1rem;
     color: rgba(0, 0, 0, 0.3);
   }
+  :global(body.dark-mode) .search-icon,
+  :global(body.dark-mode) .book-icon {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
   .book-icon {
     bottom: 0.3rem;
   }
@@ -139,13 +139,13 @@
   :global(body.dark-mode) .search input,
   :global(body.dark-mode) .chapter-pick select {
     background-color: #1d3040;
-    color: #ffffff;
+    color: white;
   }
 
   :global(body.dark-mode) .chapter-pick select:focus,
   :global(body.dark-mode) .search input:focus,
   :global(body.dark-mode) .search input:focus + .counter {
-    color: white;
+    border-color: white;
   }
   @media (max-width: 1100px) {
     .search-bar {
