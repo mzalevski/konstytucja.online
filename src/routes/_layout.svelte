@@ -1,18 +1,18 @@
 <script>
-	import DarkMode from "../components/DarkMode.svelte";
+  import DarkMode from "../components/DarkMode.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   let yAxisPosition;
 </script>
 
 <style>
-	:global(body) {
-		background-color: #ffffff;
-		transition: background-color 0.3s
-	}
-	:global(body.dark-mode) {
-		background-color: #1d3040;
-		color: #ffffff;
-	}
+  :global(body) {
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+  }
+  :global(body.dark-mode) {
+    background-color: #1d3040;
+    color: #ffffff;
+  }
   main {
     width: 60vw;
     padding: 0;
@@ -54,8 +54,8 @@
       width: 91vw;
     }
   }
-
 </style>
+
 <svelte:window bind:scrollY={yAxisPosition} />
 
 <svelte:head>
@@ -66,6 +66,8 @@
 
 <main>
   <DarkMode />
-  {#if yAxisPosition > 300}<ToTheTopBtn/>{/if}
+  {#if yAxisPosition > 300}
+    <ToTheTopBtn />
+  {/if}
   <slot />
 </main>

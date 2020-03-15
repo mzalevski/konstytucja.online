@@ -67,12 +67,12 @@
   .search input {
     color: #333333;
     padding-right: 35px;
-    max-width: 20rem;
+    max-width: 14rem;
   }
 
   .chapter-pick select {
     cursor: pointer;
-    max-width: 20rem;
+    max-width: 16rem;
     -webkit-appearance: none;
     color: #333333;
     padding-right: 30px;
