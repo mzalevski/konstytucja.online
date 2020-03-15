@@ -40,7 +40,7 @@
   .chapter-pick select,
   .search input {
     box-sizing: content-box;
-    margin: 12px 0px 16px 8px;
+    margin: 12px 0px 10px 8px;
     border: solid 1px;
     border-radius: 5px;
     min-width: 12em;
