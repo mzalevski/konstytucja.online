@@ -89,12 +89,12 @@
     padding-right: 0.5rem;
   }
 
-  :global(body.dark-mode) .down-svg {
+  :global(body.dark-mode) .down {
     color: #ffffff;
   }
 
   .down-svg {
-    fill: #333333;
+    fill: currentColor;
     width: 1rem;
     height: 1rem;
   }
