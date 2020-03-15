@@ -28,6 +28,7 @@
 
   .counter {
     position: absolute;
+    cursor: help;
     top: 0;
     bottom: 0.3rem;
     right: 0;
