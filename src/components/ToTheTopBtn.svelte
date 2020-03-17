@@ -7,21 +7,34 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0.5;
   }
 
-  #back-to-the-top-btn {
-    width: 25px;
+  svg {
+    fill: currentColor;
+    height: 20px;
+  }
+  button:hover {
+    opacity: 0.8;
   }
   :global(body.dark-mode) #back-to-the-top-btn svg {
     fill: white;
   }
 </style>
 
-  <button id="back-to-the-top-btn"
-    transition:fly={{ y: 200, duration: 2000 }}
-    on:click={() => window.scroll(0, 0)}>
+<button
+  id="back-to-the-top-btn"
+  transition:fly={{ y: 200, duration: 2000 }}
+  on:click={() => window.scroll(0, 0)}>
 
-    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-up" class="svg-inline--fa fa-angle-double-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z"></path></svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    enable-background="0 0 20 20">
+    <path
+      fill="currentColor"
+      d="M2.582,13.891c-0.272,0.268-0.709,0.268-0.979,0s-0.271-0.701,0-0.969l7.908-7.83
+      c0.27-0.268,0.707-0.268,0.979,0l7.908,7.83c0.27,0.268,0.27,0.701,0,0.969c-0.271,0.268-0.709,0.268-0.978,0L10,6.75L2.582,13.891z
+      " />
+  </svg>
 
-  </button>
+</button>
