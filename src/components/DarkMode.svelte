@@ -7,18 +7,19 @@
 <style>
   button {
     position: fixed;
-    left: 20px;
-    bottom: 20px;
+    left: 18px;
+    bottom: 12px;
+    color: #333333;
   }
   svg {
     fill: currentColor;
     height: 20px;
   }
   button:hover {
-    opacity: 0.8;
+    opacity: 0.5;
   }
-  :global(body.dark-mode) button:hover {
-    color: black;
+  :global(body.dark-mode) button {
+    color: #cccccc;
   }
 </style>
 
