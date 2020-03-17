@@ -20,7 +20,8 @@ body {
   line-height: 1.5;
   color: #333;
   overflow-y: scroll;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
   border-color: transparent;
   border-width: 0px;
   padding: 0;
+  text-align: unset;
 }
 h1,
 h2,

@@ -23,12 +23,12 @@
 
   const showDisqus = () => {
     let d = document,
-      s = d.createElement('script');
-    s.src = 'https://konstytucja.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+      s = d.createElement("script");
+    s.src = "https://konstytucja.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
     isDisqusVisible = true;
-  }
+  };
 
   onMount(() => {
     document.onkeydown = e => {
@@ -42,7 +42,6 @@
         goto(`/${parseInt($page.params.slug) + 1}`);
       }
     };
-
   });
 </script>
 
@@ -54,7 +53,7 @@
     color: rgba(255, 255, 255, 0.5);
   }
   .no-dots :global(li) {
-      list-style-type: none;
+    list-style-type: none;
   }
   h1 {
     font-size: 2em;
@@ -93,7 +92,7 @@
   }
 
   .content {
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-bottom: 1em;
     margin-bottom: 1em;
   }
@@ -104,6 +103,9 @@
 
   .content :global(p, li) {
     text-align: justify;
+  }
+  .art-body {
+    margin-bottom: 5vh;
   }
 
   .content :global(pre) {
@@ -171,7 +173,8 @@
   </h3>
   <div class="small-article-nav">
     {#if $page.params.slug > 1}
-      <a class="left"
+      <a
+        class="left"
         rel="prefetch"
         href="/{parseInt($page.params.slug) - 1}"
         transition:fade={{ duration: 1000 }}
@@ -179,11 +182,26 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left" class="svg-inline--fa fa-angle-left fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="angle-left"
+          class="svg-inline--fa fa-angle-left fa-w-8"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 256 512">
+          <path
+            fill="currentColor"
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
+            24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7
+            409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+        </svg>
       </a>
     {/if}
     {#if $page.params.slug < 243}
-      <a class="right"
+      <a
+        class="right"
         rel="prefetch"
         href="/{parseInt($page.params.slug) + 1}"
         transition:fade={{ duration: 1000 }}
@@ -191,43 +209,68 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="angle-right"
+          class="svg-inline--fa fa-angle-right fa-w-8"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 256 512">
+          <path
+            fill="currentColor"
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
+            0l-22.6-22.6c-9.4-9.4-9.4-24.6
+            0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4
+            24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+        </svg>
       </a>
     {/if}
   </div>
 </div>
 
 <h1>{article.title}</h1>
-
-<div in:fade={{ duration: 1000 }} class="content no-dots">
-  {@html article.html}
-</div>
-
-
-{#if article.desc != ``}
-  <div class="content">
-    <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
-      {#if !isDescriptionVisible}
-        <span class="low-opacity">wyjaśnienie treści artykułu | pokaż</span>
-      {:else}
-        <span class="low-opacity">wyjaśnienie treści artykułu | schowaj</span>
-      {/if}
-    </button>
-    {#if isDescriptionVisible}
-      <div style="art-desc" in:fade={{ duration: 1000 }} out:fade={{ duration: 500 }}>
-        <h3>Wyjaśnienie treści artykułu</h3>
-        {@html article.desc}
-      </div>
-    {/if}
+<div class="art-body">
+  <div in:fade={{ duration: 1000 }} class="content no-dots">
+    {@html article.html}
   </div>
-{/if}
 
-{#if !isDisqusVisible}
-  <button class="low-opacity" on:click={() => showDisqus()}>dyskusja nad artykułem | pokaż</button>
-{:else}
-  <button class="low-opacity" on:click={() => isDisqusVisible = false}>dyskusja nad artykułem | schowaj</button>
-{/if}
+  {#if article.desc != ``}
+    <div class="content">
+      <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
+        {#if !isDescriptionVisible}
+          <span class="low-opacity">wyjaśnienie treści artykułu | pokaż</span>
+        {:else}
+          <span class="low-opacity">wyjaśnienie treści artykułu | schowaj</span>
+        {/if}
+      </button>
+      {#if isDescriptionVisible}
+        <div
+          style="art-desc"
+          in:fade={{ duration: 1000 }}
+          out:fade={{ duration: 500 }}>
+          <h3>Wyjaśnienie treści artykułu</h3>
+          {@html article.desc}
+        </div>
+      {/if}
+    </div>
+  {/if}
 
-{#if isDisqusVisible}
-  <div id="disqus_thread" in:fly={{ y: 200, duration: 1000 }} out:fly={{ y: 100, duration: 500 }} />
-{/if}
+  {#if !isDisqusVisible}
+    <button class="low-opacity" on:click={() => showDisqus()}>
+      dyskusja nad artykułem | pokaż
+    </button>
+  {:else}
+    <button class="low-opacity" on:click={() => (isDisqusVisible = false)}>
+      dyskusja nad artykułem | schowaj
+    </button>
+  {/if}
+
+  {#if isDisqusVisible}
+    <div
+      id="disqus_thread"
+      in:fly={{ y: 200, duration: 1000 }}
+      out:fly={{ y: 100, duration: 500 }} />
+  {/if}
+</div>
