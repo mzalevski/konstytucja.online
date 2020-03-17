@@ -8,8 +8,8 @@
 
 <style>
   .article {
-    margin: 1em 0em;
-    padding: 1em;
+    margin: 0 0 1rem 0em;
+    padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     text-align: justify;
@@ -54,7 +54,7 @@
 
   @media (max-width: 1100px) {
     .article {
-      margin: 0.5em 0em;
+      margin: 0 0 0.5rem 0em;
     }
   }
 </style>

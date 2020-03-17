@@ -1,7 +1,6 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
-  import Footer from "../components/Footer.svelte";
 </script>
 
 <style>
@@ -11,13 +10,14 @@
     margin-top: 0;
   }
   .decor-border {
-    min-height: 100vh;
+    min-height: auto;
     padding: 3em;
     border: double 2px rgb(160, 40, 40);
     border-radius: 5px;
   }
   .bc1 {
     border-color: rgba(160, 40, 40, 0.2);
+    margin: 1rem 0;
   }
   .bc2 {
     border-color: rgba(160, 40, 40, 0.35);
@@ -149,5 +149,3 @@
     </div>
   </div>
 </div>
-
-<Footer />

@@ -2,7 +2,6 @@
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import Footer from "../../../components/Footer.svelte";
-
 </script>
 
 <style>
@@ -61,7 +60,7 @@
     width: 60px;
   }
 
- .small-article-nav a svg {
+  .small-article-nav a svg {
     width: 25px;
     height: 25px;
   }
@@ -104,10 +103,39 @@
   </div>
   <div class="small-article-nav">
     <a rel="prefetch" href="/komisja/14/1">
-      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left" class="svg-inline--fa fa-angle-left fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="angle-left"
+        class="svg-inline--fa fa-angle-left fa-w-8"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 256 512">
+        <path
+          fill="currentColor"
+          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
+          24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4
+          9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+      </svg>
     </a>
     <a rel="prefetch" href="/komisja/14/3">
-      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="angle-right"
+        class="svg-inline--fa fa-angle-right fa-w-8"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 256 512">
+        <path
+          fill="currentColor"
+          d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
+          0l-22.6-22.6c-9.4-9.4-9.4-24.6
+          0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4
+          24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+      </svg>
     </a>
   </div>
 </div>
@@ -196,11 +224,11 @@
         wymienione poglądy. Jednak propozycja ekspertów w tym zakresie powinna
         być przedmiotem naszej dzisiejszej dyskusji. Jeśli chodzi o główną
         sprawę, tzn. kwestię art. 15, pragnę powiedzieć, że dyskusja na ten
-        temat była długa i interesująca. Niestety, nie została ona zakończona.
-        W związku z tym nadal nie dysponujemy konkluzją. Wszystkie warianty
-        treści art. 15 zostały omówione. Myślę, że istnieje perspektywa ich
-        dalszej modyfikacji. Wszyscy członkowie podkomisji zgodzili się z tym,
-        że nad treścią art. 15 należy się jeszcze zatrzymać. Wolą całej Komisji
+        temat była długa i interesująca. Niestety, nie została ona zakończona. W
+        związku z tym nadal nie dysponujemy konkluzją. Wszystkie warianty treści
+        art. 15 zostały omówione. Myślę, że istnieje perspektywa ich dalszej
+        modyfikacji. Wszyscy członkowie podkomisji zgodzili się z tym, że nad
+        treścią art. 15 należy się jeszcze zatrzymać. Wolą całej Komisji
         Konstytucyjnej należy albo zaakceptować taki stan rzeczy, albo
         przystąpić do pracy nad art. 15 na posiedzeniu plenarnym.
       </p>
@@ -813,10 +841,10 @@
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego. Wiem,
         że nie ma formalnie funkcji zastępcy przewodniczącego podkomisji; są za
         to jej członkowie. Chodzi tylko o zreferowanie rozwoju wydarzeń.
-        Dlaczego uważam, że powinniśmy dzisiaj dokończyć dyskusję w tej
-        sprawie? Nie wiemy np., z jakich przyczyn podkomisja nie dokończyła
-        swych prac. Gdyby jedyną przyczyną okazał się brak czasu spowodowany
-        trwającymi dyskusjami, to wnosiłbym, aby po zakończeniu obrad Komisji
+        Dlaczego uważam, że powinniśmy dzisiaj dokończyć dyskusję w tej sprawie?
+        Nie wiemy np., z jakich przyczyn podkomisja nie dokończyła swych prac.
+        Gdyby jedyną przyczyną okazał się brak czasu spowodowany trwającymi
+        dyskusjami, to wnosiłbym, aby po zakończeniu obrad Komisji
         Konstytucyjnej w dniu dzisiejszym, tzn. o godz. 16, zaprosić podkomisję
         podstaw ustroju politycznego i społeczno-gospodarczego, aby kontynuowała
         swoje prace — jest dzisiaj jeszcze kilka godzin do wykorzystania — po
@@ -1353,8 +1381,8 @@
         odniesieniu do kościołów. Wydaje mi się, że rolą państwa nie powinno być
         wyznaczanie zadań kościołom. Jest to relikt dawnego myślenia. Mam
         nadzieję, że propozycja taka występowała w charakterze pytania, a nie
-        postulatu. Kościoły powinny same wyznaczać sobie zadania. Jeżeli nie
-        są one sprzeczne z prawami człowieka ani z ogólnymi zasadami współżycia
+        postulatu. Kościoły powinny same wyznaczać sobie zadania. Jeżeli nie są
+        one sprzeczne z prawami człowieka ani z ogólnymi zasadami współżycia
         społecznego, to państwo nie może w nie ingerować. Kościoły są
         instytucjami obywatelskimi i jako takie mogą realizować potrzeby
         obywateli. Państwo nie powinno reglamentować zakresu działalności
@@ -1366,10 +1394,9 @@
         nie tworzą partii, starają się zachować w tym zakresie pewną wstrzemięź-
         liwość, ewentualnie — nauczać o zasadach. Jest to jednakże sprawa
         kościoła, a nie państwa. Państwo nie powinno w nią ingerować, bowiem
-        mówimy o państwie demokratycznym, przestrzegającym praw człowieka, a
-        nie o totalitarnym, próbującym narzucić swoje reguły obywatelom 1
-        wyznaczać im zakres działania. Chodzi nam o konstrukcję państwa
-        „oddalonego”".
+        mówimy o państwie demokratycznym, przestrzegającym praw człowieka, a nie
+        o totalitarnym, próbującym narzucić swoje reguły obywatelom 1 wyznaczać
+        im zakres działania. Chodzi nam o konstrukcję państwa „oddalonego”".
       </p>
     </div>
     <div class="speaker">
@@ -1416,11 +1443,11 @@
         Mój wniosek jest prosty i oczywisty. W żadnym wypadku nie możemy
         kontynuować dyskusji w tak chaotyczny sposób. Myślę, że skończyliśmy
         fazę wstępnych uwag na temat propozycji brzmienia art. 15. Proszę o
-        rozpoczęcie omawiania jego kolejnych ustępów. Zaczęliśmy od dyskusji
-        nad ust. 4, teraz rozważamy ust. 3. Wymieniamy luźne poglądy bez
-        określonego porządku. Mój wniosek jest następujący: proszę rozważać art.
-        15 ustęp po ustępie. Jeśli ma to być ostatnia próba zawarcia kompromisu
-        bądź osiągnięcia konsensu, to podejmijmy ją. Jeżeli okaże się, że takiej
+        rozpoczęcie omawiania jego kolejnych ustępów. Zaczęliśmy od dyskusji nad
+        ust. 4, teraz rozważamy ust. 3. Wymieniamy luźne poglądy bez określonego
+        porządku. Mój wniosek jest następujący: proszę rozważać art. 15 ustęp po
+        ustępie. Jeśli ma to być ostatnia próba zawarcia kompromisu bądź
+        osiągnięcia konsensu, to podejmijmy ją. Jeżeli okaże się, że takiej
         możliwości nie ma, proszę stwierdzić, iż metoda kompromisowa zawiodła i
         w związku z tym powracamy do omawiania przedłożenia podkomisji — trzy
         warianty — i przedłożeń poselskich, których zdaje się, że jest osiem.
@@ -1499,23 +1526,23 @@
         powiedzieć, że po dodatkowych wyjaśnieniach ze strony posła R. Bugaja
         mamy w tej chwili bardziej Obrady w dniu 22.02.1995 r. (20 klarowny
         obraz. Wszystko to, o czym mówiłem, oraz to co błędnie zrozumiał senator
-        K. Kozłowski, związane było z wyjaśnieniem, na czym polega spór.
-        Okazuje się, że otrzymaliśmy tekst art. 15, który był tekstem
-        wyjściowym, a nie tym, który w efekcie podkomisja wypracowała. W sumie
-        nie było wiadomo, o co toczy się cały spór. Pytanie o ustalenia wcale
-        nie jest jednoznaczne z sugerowaniem kompromisu lub konsensu pozornego,
-        koślawego bądź jakiegokolwiek innego. Chodzi o to, aby członkowie
-        Komisji Konstytucyjnej znali efekt prac podkomisji. Po drugie, mam
-        pytanie do posła R. Bugaja. Czy jest możliwe, aby podkomisja podjęła
-        jeszcze jedną próbę, kolejny krok, gdyż, być może, z powodu braku czasu
-        przerwała rozmyślania w pewnym punkcie? Czy jest możliwe, aby po
-        zakończeniu prac Komisji Konstytucyjnej jeszcze raz zwołać posiedzenie
-        podkomisji, ponieważ nawet ta dyskusja, która miała miejsce w tej chwili
-        wskazuje, że pewne rzeczy są, być może, pozorne, a inne wynikają z
-        niezrozumienia? Być może istnieje szansa osiągnięcia konsensu. Mamy
-        określoną metodę procedowania. Mamy cztery wersje zaproponowane przez
-        podkomisję oraz wiele wniosków poselskich. Uważam, że w tak delikatnej
-        sprawie powinniśmy podjąć dalsze próby wypracowania kompromisu. Chyba że
+        K. Kozłowski, związane było z wyjaśnieniem, na czym polega spór. Okazuje
+        się, że otrzymaliśmy tekst art. 15, który był tekstem wyjściowym, a nie
+        tym, który w efekcie podkomisja wypracowała. W sumie nie było wiadomo, o
+        co toczy się cały spór. Pytanie o ustalenia wcale nie jest jednoznaczne
+        z sugerowaniem kompromisu lub konsensu pozornego, koślawego bądź
+        jakiegokolwiek innego. Chodzi o to, aby członkowie Komisji
+        Konstytucyjnej znali efekt prac podkomisji. Po drugie, mam pytanie do
+        posła R. Bugaja. Czy jest możliwe, aby podkomisja podjęła jeszcze jedną
+        próbę, kolejny krok, gdyż, być może, z powodu braku czasu przerwała
+        rozmyślania w pewnym punkcie? Czy jest możliwe, aby po zakończeniu prac
+        Komisji Konstytucyjnej jeszcze raz zwołać posiedzenie podkomisji,
+        ponieważ nawet ta dyskusja, która miała miejsce w tej chwili wskazuje,
+        że pewne rzeczy są, być może, pozorne, a inne wynikają z niezrozumienia?
+        Być może istnieje szansa osiągnięcia konsensu. Mamy określoną metodę
+        procedowania. Mamy cztery wersje zaproponowane przez podkomisję oraz
+        wiele wniosków poselskich. Uważam, że w tak delikatnej sprawie
+        powinniśmy podjąć dalsze próby wypracowania kompromisu. Chyba że
         podkomisja w pewnym momencie stwierdzi, iż więcej już nic nie może
         zrobić, gdyż natrafiła na nieprzezwyciężalne przeszkody. Dlatego też
         zapytuję posła R. Bugaja, czy istnieje możliwość, aby podkomisja
@@ -1540,12 +1567,12 @@
         którzy będą obecni na posiedzeniu podkomisji. Rezultat dyskusji może być
         wtedy wątpliwy. Myślę, iż zrobiliśmy już pewien postęp. Proponuję inną
         procedurę naszych prac. Chciałbym wnieść indywidualnie tekst art. 15 w
-        zaprezentowanym kształcie na posiedzenie Komisji Konstytucyjnej.
-        Wszyscy wiedzą, o co chodzi i mogą to przez chwilę przemyśleć. Wydaje
-        mi się, iż jest nadzieja, że kształt art. 15, jaki podkomisja
-        wypracowała w pewnym momencie, zostanie zaakceptowany. Zwołanie
-        posiedzenia podkomisji w tej sprawie nie uważam w obecnej chwili za
-        celowe i stwarzające szanse na jakiś postęp.
+        zaprezentowanym kształcie na posiedzenie Komisji Konstytucyjnej. Wszyscy
+        wiedzą, o co chodzi i mogą to przez chwilę przemyśleć. Wydaje mi się, iż
+        jest nadzieja, że kształt art. 15, jaki podkomisja wypracowała w pewnym
+        momencie, zostanie zaakceptowany. Zwołanie posiedzenia podkomisji w tej
+        sprawie nie uważam w obecnej chwili za celowe i stwarzające szanse na
+        jakiś postęp.
       </p>
     </div>
     <div class="speaker">
@@ -1559,8 +1586,8 @@
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Proponuję zebranie się klubu SLD w celu dojścia do konsensu we własnym
         gronie. Słyszymy bardzo daleko idące i otwarte wypowiedzi oraz sprzeciw,
-        z jakim zetknęliśmy się już w podkomisji. Może klub SLD uzgodni
-        wspólne stanowisko, a dopiero potem zwołamy posiedzenie podkomisji.
+        z jakim zetknęliśmy się już w podkomisji. Może klub SLD uzgodni wspólne
+        stanowisko, a dopiero potem zwołamy posiedzenie podkomisji.
       </p>
     </div>
     <div class="speaker">
@@ -1620,42 +1647,41 @@
         Rzeczpospolita Polska jest wspólnotą — wspólnym dobrem obywateli — to ów
         wspólnotowy charakter państwa nie pozwala na stwierdzenie, że coś, co
         jest częścią wspólnoty państwowej, jest od tego państwa oddzielone.
-        Możemy najwyżej mówić o oddzieleniu kościołów i związków wyznaniowych
-        od władz państwowych bądź władz publicznych. Wówczas należałoby użyć
+        Możemy najwyżej mówić o oddzieleniu kościołów i związków wyznaniowych od
+        władz państwowych bądź władz publicznych. Wówczas należałoby użyć
         jednego z tych określeń, bowiem w przeciwnym razie w kontekście art. 8,
         przyjętego już przez Komisję Konstytucyjną i stwierdzającego, że
         przepisy Konstytucji RP stosuje się bezpośrednio, przepis art. 15 ust.
-        3, gdzie używa się pojęcia „Państwo” pisanego z dużej litery —
-        stosowany bezpośrednio — wyłączałby ze wspólnoty, jaką jest
-        Rzeczpospolita Polska, kościoły i związki wyznaniowe. Mam nadzieję, że
-        nie jest to niczyją intencją, chociaż nie jestem tego w zupełności
-        pewien. Rozważmy art. 15 ust, 5: „W celu realizacji praw człowieka i
-        potrzeb obywatełi Państwo współdziała z kościołami i związkami
-        wyznaniowymi”. Jeśli Państwo jest Rzecząpospolitą Polską, to nie może
-        współdziałać. Mogą to robić władze państwowe. Jest to to samo
-        zagadnienie, o którym przed chwilą mówiłem. Jeżeli zgodzimy się, że to
-        organa państwowe współdziałają z kościołami i związkami wyznaniowymi, to
-        i tak powstaje zastrzeżenie, które — moim zdaniem — jest niedopuszczalne
-        bez akapitu: „W celu realizacji praw człowieka i potrzeb obywateli...
-        ”". Konstytucja RP dopuszcza współdziałanie, co oznaczałoby, że w innych
-        zakresach nie dopuszcza takiego współdziałania. Nie dopuszcza
-        współdziałania np. w dziedzinie obrony narodowej. Obrona narodowa jest
-        czymś innym niż prawa człowieka lub potrzeby obywateli. Obrona narodowa
-        to nie tylko potrzeby obywateli. Jak pamiętamy z historii, np. z czasów
-        konfederacji targowickiej, i nie tylko, potrzeby niektórych obywateli
-        mogą być sprzeczne z potrzebami Rzeczypospolitej Polskiej. Ostatnia
-        kwestia, na którą chcę zwrócić uwagę, nie wynika z manipulacji słownej,
-        lecz z akademickiego charakteru użytych terminów. Nikt nie ma
-        wątpliwości co do zasady zapisanej w art. 15 ust. 2: „Kościoły i związki
-        wyznaniowe są równouprawnione . Jest to prawda. Konstytucja RP, która
-        działa bezpośrednio — nie ma tu żadnego odwołania do ustawy — będzie
-        tworzyła pewne realne sytuacje. Wiemy, że z powodu możliwości
-        wykorzystywania okazji, jakie stwarza Prawo celne bądź inne akty prawne,
-        powstają związki wyznaniowe, które nadużywają tej nazwy. Niedawno w
-        Krakowie powstał związek wyznaniowy, który posiadał pełną doktrynę
-        religijną, a ponieważ jakiś urzędnik zakwestionował jej fragment, to na
-        drugi dzień zmienił on kanony swojej wiary po to tylko, aby być
-        zarejestrowanym jako związek wyznaniowy. Zdaje się, że pierwszą
+        3, gdzie używa się pojęcia „Państwo” pisanego z dużej litery — stosowany
+        bezpośrednio — wyłączałby ze wspólnoty, jaką jest Rzeczpospolita Polska,
+        kościoły i związki wyznaniowe. Mam nadzieję, że nie jest to niczyją
+        intencją, chociaż nie jestem tego w zupełności pewien. Rozważmy art. 15
+        ust, 5: „W celu realizacji praw człowieka i potrzeb obywatełi Państwo
+        współdziała z kościołami i związkami wyznaniowymi”. Jeśli Państwo jest
+        Rzecząpospolitą Polską, to nie może współdziałać. Mogą to robić władze
+        państwowe. Jest to to samo zagadnienie, o którym przed chwilą mówiłem.
+        Jeżeli zgodzimy się, że to organa państwowe współdziałają z kościołami i
+        związkami wyznaniowymi, to i tak powstaje zastrzeżenie, które — moim
+        zdaniem — jest niedopuszczalne bez akapitu: „W celu realizacji praw
+        człowieka i potrzeb obywateli... ”". Konstytucja RP dopuszcza
+        współdziałanie, co oznaczałoby, że w innych zakresach nie dopuszcza
+        takiego współdziałania. Nie dopuszcza współdziałania np. w dziedzinie
+        obrony narodowej. Obrona narodowa jest czymś innym niż prawa człowieka
+        lub potrzeby obywateli. Obrona narodowa to nie tylko potrzeby obywateli.
+        Jak pamiętamy z historii, np. z czasów konfederacji targowickiej, i nie
+        tylko, potrzeby niektórych obywateli mogą być sprzeczne z potrzebami
+        Rzeczypospolitej Polskiej. Ostatnia kwestia, na którą chcę zwrócić
+        uwagę, nie wynika z manipulacji słownej, lecz z akademickiego charakteru
+        użytych terminów. Nikt nie ma wątpliwości co do zasady zapisanej w art.
+        15 ust. 2: „Kościoły i związki wyznaniowe są równouprawnione . Jest to
+        prawda. Konstytucja RP, która działa bezpośrednio — nie ma tu żadnego
+        odwołania do ustawy — będzie tworzyła pewne realne sytuacje. Wiemy, że z
+        powodu możliwości wykorzystywania okazji, jakie stwarza Prawo celne bądź
+        inne akty prawne, powstają związki wyznaniowe, które nadużywają tej
+        nazwy. Niedawno w Krakowie powstał związek wyznaniowy, który posiadał
+        pełną doktrynę religijną, a ponieważ jakiś urzędnik zakwestionował jej
+        fragment, to na drugi dzień zmienił on kanony swojej wiary po to tylko,
+        aby być zarejestrowanym jako związek wyznaniowy. Zdaje się, że pierwszą
         czynnością, jaką wykonał, było wystąpienie o sprowadzenie z zagranicy
         samochodu bez cła dla głowy kościoła. Jeżeli mówimy, że kościoły i
         związki wyznaniowe są równouprawnione, to generalnie jest to prawdą.
@@ -1897,5 +1923,3 @@
     </div>
   </div>
 </div>
-
-<Footer />

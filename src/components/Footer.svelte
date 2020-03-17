@@ -5,10 +5,10 @@
 <style>
   footer {
     display: flex;
-    border-top: 1px solid rgba(160, 40, 40, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
-    padding: 0;
-    margin: 1rem 0 0 0;
+    margin-top: 1rem;
+    margin: auto 0 0 0;
     justify-content: center;
     text-align: center;
   }
@@ -31,7 +31,7 @@
   }
 </style>
 
-<footer in:fly={{ y: 100, duration: 2000 }}>
+<footer>
   <p>
     z miłości
     <img src="images/heart.png" alt="" />

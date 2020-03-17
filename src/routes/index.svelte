@@ -117,5 +117,3 @@
     {/each}
   {/if}
 </div>
-
-<Footer />

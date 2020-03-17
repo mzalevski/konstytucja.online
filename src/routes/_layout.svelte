@@ -1,6 +1,7 @@
 <script>
   import DarkMode from "../components/DarkMode.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
+  import Footer from "../components/Footer.svelte";
   let yAxisPosition;
 </script>
 
@@ -15,10 +16,14 @@
   }
   main {
     width: 60vw;
-    padding: 0;
-    margin: 1rem;
+    padding: 0.5rem 0;
+    margin: 0 1rem;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }
+
   @media (max-width: 1800px) {
     main {
       width: 70vw;
@@ -70,4 +75,6 @@
     <ToTheTopBtn />
   {/if}
   <slot />
+  <Footer />
+
 </main>

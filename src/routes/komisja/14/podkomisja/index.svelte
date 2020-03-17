@@ -88,7 +88,6 @@
     związków wyznaniowych oraz eksperci konstytucjonaliści.
   </p>
 
-
   <ul class="days">
 
     <a rel="prefetch" href="komisja/14/podkomisja/p1">
@@ -106,5 +105,3 @@
   </ul>
 
 </div>
-
-<Footer />

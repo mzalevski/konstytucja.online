@@ -184,14 +184,11 @@
       <br />
       Prezydenta RP — prof. Michał Pietrzak i prof. Andrzej Rzepliński,
       <br />
-      Rady Ministrów — prof. Stanisław Gebethner i prof. Andrzej Gwiżdż, a
-      także
+      Rady Ministrów — prof. Stanisław Gebethner i prof. Andrzej Gwiżdż, a także
       <br />
       przedstawiciele kościołów i związków zawodowych oraz organizacji
       politycznych i społecznych.
     </p>
   </div>
-
-  <Footer />
 
 </div>

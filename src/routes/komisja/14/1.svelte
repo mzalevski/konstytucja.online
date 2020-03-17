@@ -2,8 +2,7 @@
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import Footer from "../../../components/Footer.svelte";
-
-  </script>
+</script>
 
 <style>
   p {
@@ -61,7 +60,7 @@
     width: 60px;
   }
 
- .small-article-nav a svg {
+  .small-article-nav a svg {
     width: 25px;
     height: 25px;
   }
@@ -106,7 +105,22 @@
   <div class="small-article-nav">
 
     <a rel="prefetch" href="/komisja/14/2">
-      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="angle-right"
+        class="svg-inline--fa fa-angle-right fa-w-8"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 256 512">
+        <path
+          fill="currentColor"
+          d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
+          0l-22.6-22.6c-9.4-9.4-9.4-24.6
+          0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4
+          24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+      </svg>
     </a>
   </div>
 </div>
@@ -447,8 +461,8 @@
         height="110" />
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
-        Kto jeszcze pragnie wystąpić w roli językoznawcy i wyjaśnić, która
-        forma jest poprawna?
+        Kto jeszcze pragnie wystąpić w roli językoznawcy i wyjaśnić, która forma
+        jest poprawna?
       </p>
     </div>
     <div class="speaker">
@@ -756,8 +770,8 @@
         <strong>Poseł Janusz Szymański (UP):</strong>
         Rysuje się pewna wątpliwość, dlaczego faworyzuje się warianty podkomisji
         i dodatkowo dokonuje się wyboru jednego z nich. Wydaje mi się, że
-        przewodniczący A. Kwaśniewski powinien zastosować metodę — uznaną
-        przez członków Komisji na poprzednim posiedzeniu -—— polegającą na
+        przewodniczący A. Kwaśniewski powinien zastosować metodę — uznaną przez
+        członków Komisji na poprzednim posiedzeniu -—— polegającą na
         przegłosowaniu wszystkich poprawek jako równorzędnych. Uważam, że po
         kolei powinniśmy głosować warianty I, II i III podkomisji, poprawkę
         senator A. Grześkowiak itd. Zobaczymy, które z wniosków uzyskają
@@ -1495,8 +1509,8 @@
         Mam jedno pytanie do eksperta K. Działochy. Z tego, co nam mówi prof. K.
         Działocha wynika, że skoro wszystkie podmioty korzystają z tych samych
         uprawnień, to jeżeli mamy dwa podmioty gospodarcze: osobę fizyczną 1
-        osobę prawną, prowadzące działalność gospodarczą, to czy oznacza to,
-        że nie będzie np. rozróżnienia w podatku dochodowym na osoby fizyczne i
+        osobę prawną, prowadzące działalność gospodarczą, to czy oznacza to, że
+        nie będzie np. rozróżnienia w podatku dochodowym na osoby fizyczne i
         osoby prawne i nie będzie dwóch ustaw: o podatku dochodowym od osób
         fizycznych i o podatku dochodowym od osób prawnych, dwóch systemów
         ubezpieczeń, itd., tylko wszystko zostanie podciągnięte pod jeden
@@ -1536,9 +1550,8 @@
         z art. 13 w wersji podkomisji 19 osób było za nieskreśleniem, 3 osoby
         były za skreśleniem, 4 wstrzymały się od głosu. Wynik ten został
         przecież zanotowany. | Mam jeszcze pytanie do prof. P. Winczorka, a
-        właściwie proszę go o wyrażenie opinii. Jeżeli popełniono błąd w
-        sztuce konstytucyjnej, to można oczywiście zaproponować reasumpcję
-        głosowania.
+        właściwie proszę go o wyrażenie opinii. Jeżeli popełniono błąd w sztuce
+        konstytucyjnej, to można oczywiście zaproponować reasumpcję głosowania.
       </p>
     </div>
     <div class="speaker">
@@ -1838,22 +1851,22 @@
         height="110" />
       <p>
         <strong>Poseł Irena Lipowicz (UW):</strong>
-        Z pokorą chcę ponownie przedłożyć Komisji swoją propozycję, żebyśmy
-        ust. 2 art. 13 w wersji podkomisji wyłączyli do lepszej redakcji,
-        ponieważ jest to zdanie rzeczywiście niezręczne. Pogrążeni w pracy
-        głosowaliśmy nad głęboką treścią tego ustępu, za równością sektorów.
-        Przy czym nie chodzi tu o użycie wyrazu „sektory ”. Proszę popatrzeć na
-        to spokojnie. To nie jest prawda, że wszystkie podmioty gospodarcze
-        korzystają z tych samych uprawnień i posiadają te same obowiązki. Po
-        prostu tak nie jest. Ponieważ głębiej nad tym pracowaliśmy, wiemy, o co
-        nam w istocie chodziło. Ust. 2 art. 13 propozycji podkomisji powinniśmy
-        staranniej nadać treść. Możemy zapytać członków Komisji Konstytucyjnej,
-        czy uznają zasadę równości sektorów za przegłosowaną. Proponuję teraz
-        przegłosować art. 13 w wersji podkomisji, złożony z ust. 1 i 2, gdyż
-        ust. 2 jest obecnie ust. 3. Jeżeli w przyszłości komisja redakcyjna
-        włączy ponownie — mam nadzieję, już dobrze zredagowaną — zasadę równości
-        sektorów do art. 13, to nie będzie się to sprzeciwiać woli podkomisji
-        podstaw ustroju politycznego i społeczno-gospodarczego.
+        Z pokorą chcę ponownie przedłożyć Komisji swoją propozycję, żebyśmy ust.
+        2 art. 13 w wersji podkomisji wyłączyli do lepszej redakcji, ponieważ
+        jest to zdanie rzeczywiście niezręczne. Pogrążeni w pracy głosowaliśmy
+        nad głęboką treścią tego ustępu, za równością sektorów. Przy czym nie
+        chodzi tu o użycie wyrazu „sektory ”. Proszę popatrzeć na to spokojnie.
+        To nie jest prawda, że wszystkie podmioty gospodarcze korzystają z tych
+        samych uprawnień i posiadają te same obowiązki. Po prostu tak nie jest.
+        Ponieważ głębiej nad tym pracowaliśmy, wiemy, o co nam w istocie
+        chodziło. Ust. 2 art. 13 propozycji podkomisji powinniśmy staranniej
+        nadać treść. Możemy zapytać członków Komisji Konstytucyjnej, czy uznają
+        zasadę równości sektorów za przegłosowaną. Proponuję teraz przegłosować
+        art. 13 w wersji podkomisji, złożony z ust. 1 i 2, gdyż ust. 2 jest
+        obecnie ust. 3. Jeżeli w przyszłości komisja redakcyjna włączy ponownie
+        — mam nadzieję, już dobrze zredagowaną — zasadę równości sektorów do
+        art. 13, to nie będzie się to sprzeciwiać woli podkomisji podstaw
+        ustroju politycznego i społeczno-gospodarczego.
       </p>
     </div>
     <div class="speaker">
@@ -2042,12 +2055,12 @@
       <p>
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Korzystając z uprawnień przewodniczącego Komisji Konstytucyjnej
-        Zgromadzenia Narodowego, proponuję następujące rozstrzygnięcie —
-        jeżeli wnioskodawcy i ci, którzy proponują reasumpcję wyraziliby zgodę,
-        byłoby to najbardziej praktyczne rozwiązanie — abyśmy poprosili
-        podkomisję, która i tak zamierza się zebrać, żeby spróbowała sformułować
-        art. 13 ust. 2 w sposób precyzyjnie oddający jej intencje, Gdyby okazało
-        się, że próby zredagowania tego przepisu nie dają efektu, wtedy
+        Zgromadzenia Narodowego, proponuję następujące rozstrzygnięcie — jeżeli
+        wnioskodawcy i ci, którzy proponują reasumpcję wyraziliby zgodę, byłoby
+        to najbardziej praktyczne rozwiązanie — abyśmy poprosili podkomisję,
+        która i tak zamierza się zebrać, żeby spróbowała sformułować art. 13
+        ust. 2 w sposób precyzyjnie oddający jej intencje, Gdyby okazało się, że
+        próby zredagowania tego przepisu nie dają efektu, wtedy
         rozstrzygnęlibyśmy wniosek o reasumpcję po to, aby wrócić do sprawy i
         ewentualnie usunąć art. 13 ust. 2 z wniosku podkomisji. Jeżeli chodzi o
         wniosek senatora S. Pastuszki, to pozostaje on bez zmian. Jutro rano
@@ -2226,15 +2239,15 @@
         alternatyw ne. Poddaję pod głosowanie wniosek o dokonanie wyboru
         pomiędzy propozycją podkomisji (naciśnięcie przycisku ,„za”) a
         propozycją senatora S. Pastuszki (naciśnięcie przycisku „przeciw ”),
-        wraz z możliwością wstrzymania się. Stwierdzam, że Komisja w
-        głosowaniu, większością 17 głosów popierających, przy 12 głosach
-        przeciwnych i i wstrzymującym się, przyjęła brzmienie przedłożone przez
-        podkomisję. Tak więc w projekcie jednolitym Konstytucji Rzeczypospolitej
-        Polskiej, przygotowanym przez Komisję Konstytucyjną, art. 13 będzie
-        brzmiał następująCo: „l. Rzeczpospolita Polska zapewnia swobodę
-        działalności gospodarczej. 2. Ograniczenie swobody działalności gospodar
-        czej jest dopuszczalne tylko w ustawie i ze względu na ważny interes
-        publiczny”. ————— mra ——
+        wraz z możliwością wstrzymania się. Stwierdzam, że Komisja w głosowaniu,
+        większością 17 głosów popierających, przy 12 głosach przeciwnych i i
+        wstrzymującym się, przyjęła brzmienie przedłożone przez podkomisję. Tak
+        więc w projekcie jednolitym Konstytucji Rzeczypospolitej Polskiej,
+        przygotowanym przez Komisję Konstytucyjną, art. 13 będzie brzmiał
+        następująCo: „l. Rzeczpospolita Polska zapewnia swobodę działalności
+        gospodarczej. 2. Ograniczenie swobody działalności gospodar czej jest
+        dopuszczalne tylko w ustawie i ze względu na ważny interes publiczny”.
+        ————— mra ——
       </p>
     </div>
     <div class="speaker">
@@ -2665,8 +2678,8 @@
         regulację prawną — na przyszłość. Zabiorę trochę czasu na wyjaśnienie
         tej sprawy. Jak wszyscy wiedzą, w Polsce jest bardzo dużo prob lemów
         związanych z działaniem fundacji. Niektóre fundacje bywają miejscem
-        „prania brudnych pieniędzy” lub zajmują się działalnością gospodarczą
-        w sposób budzący wątpliwości. Cały ten zamęt powstał z tego, że przy
+        „prania brudnych pieniędzy” lub zajmują się działalnością gospodarczą w
+        sposób budzący wątpliwości. Cały ten zamęt powstał z tego, że przy
         wprowadzaniu ustawy o fundacjach i potem, przy powstawaniu fundacji
         polskie prawo nie znało czegoś takiego, jak instytucja niedochodowa
         użyteczności publicznej. W związku z tym, jeśli np. Komitet Helsiński
@@ -2720,8 +2733,8 @@
         Natomiast inne pojęcia są bliżej nieokreślone. Jeżeli w ogóle mielibyśmy
         przystąpić do debaty na temat celowości wprowadzenia do Konstytucji RP
         przepisu zaproponowanego przez posła J. Jaskiernię — czy przepisu o
-        podobnym sensie — to powinniśmy jednak zacząć od pewnego
-        sprecyzowania, o czym w gruncie rzeczy chcemy mówić.
+        podobnym sensie — to powinniśmy jednak zacząć od pewnego sprecyzowania,
+        o czym w gruncie rzeczy chcemy mówić.
       </p>
     </div>
     <div class="speaker">
@@ -2816,36 +2829,35 @@
         zawodowe”. Potem można by dopisać: „...stowarzyszenia, fundacje i inne
         organizacje społeczne reprezentujące interesy oraz opinie [...]
         pozostają pod ochroną prawa”. Chodzi tu o ochronę prawa, a nie o jakąś
-        szczególną ochronę państwa. Określenie to sugerowałoby, że inne
-        podmioty pozbawione tej szczególnej ochrony rzeczywiście byłyby jej
-        pozbawione. Wyróżnienie pod nazwą „szczególna ochrona państwa” jest,
-        moim zdaniem, nieuzasadnione. We wniosku posła J. Jaskierni wskazane
-        jest natomiast umieszczenie określenia „ochrona prawa”. Przedstawiciel
-        pełnomocnika obywatelskiego projektu konstytucji, Michał Drozdek:
-        Intencja zapisu zaproponowanego przez posła J. Jaskiernię idzie Obrady w
-        dniu 21.02.1995 r. (19 w bardzo dobrym kierunku. Całym sercem jesteśmy
-        za państwem obywatelskim. Natomiast, tak jak już to wiele osób
-        podnosiło, katalog wymienionych w tym zapisie podmiotów rodzi jednak
-        wiele pytań, które chciałbym teraz zadać. Po pierwsze, czy można w tym
-        przepisie wymienić któreś z podmiotów społecznych, które wcześniej się w
-        nim nie znalazły? Mówiono już dzisiaj o związkach zawodowych. Może warto
-        we wniosku posła J. Jaskierni umieścić także jakiś rodzaj fundacji,
-        jeżeli fundacja jest pojęciem określonym prawnie. Czy istnieją
-        organizacje społeczne, stowarzyszenia lub fundacje, które nie
-        reprezentują interesów i opinii obywateli? Stawiam to pytanie, gdyż
-        takie jest sformułowanie zapisu posła J. Jaskierni. Czy wnioskodawca —
-        poseł J. Jaskiernia miał na myśli również stowarzyszenia, które nie
-        reprezentują interesów obywateli? Chcę zauważyć, że zapis posła J.
-        Jaskierni jest dużo mocniejszy od zapisu traktującego o partiach
-        politycznych. W art. 5 projektu jednolitego Konstytucji RP jedynie
-        gwarantuje się wolność tworzenia i działania partii politycznych,
-        natomiast w zapisie posła J. Jaskierni mówi się o szczególnej ochronie
-        państwa przysługującej wszystkim stowarzyszeniom, jakby chciało się je
-        wynieść ponad partie polityczne. Czy takie było zamierzenie posła J.
-        Jaskierni? Kolejne moje pytanie odnosi się do pewnych konsekwencji
-        prawnych. Jaka wizja dalszych uregulowań prawnych idzie za
-        sformułowaniem zawartym we wniosku posła J. Jaskierni? Na pewno wynikają
-        z tego jakieś konsekwencje prawne. Zadałem tylko kilka pytań
+        szczególną ochronę państwa. Określenie to sugerowałoby, że inne podmioty
+        pozbawione tej szczególnej ochrony rzeczywiście byłyby jej pozbawione.
+        Wyróżnienie pod nazwą „szczególna ochrona państwa” jest, moim zdaniem,
+        nieuzasadnione. We wniosku posła J. Jaskierni wskazane jest natomiast
+        umieszczenie określenia „ochrona prawa”. Przedstawiciel pełnomocnika
+        obywatelskiego projektu konstytucji, Michał Drozdek: Intencja zapisu
+        zaproponowanego przez posła J. Jaskiernię idzie Obrady w dniu 21.02.1995
+        r. (19 w bardzo dobrym kierunku. Całym sercem jesteśmy za państwem
+        obywatelskim. Natomiast, tak jak już to wiele osób podnosiło, katalog
+        wymienionych w tym zapisie podmiotów rodzi jednak wiele pytań, które
+        chciałbym teraz zadać. Po pierwsze, czy można w tym przepisie wymienić
+        któreś z podmiotów społecznych, które wcześniej się w nim nie znalazły?
+        Mówiono już dzisiaj o związkach zawodowych. Może warto we wniosku posła
+        J. Jaskierni umieścić także jakiś rodzaj fundacji, jeżeli fundacja jest
+        pojęciem określonym prawnie. Czy istnieją organizacje społeczne,
+        stowarzyszenia lub fundacje, które nie reprezentują interesów i opinii
+        obywateli? Stawiam to pytanie, gdyż takie jest sformułowanie zapisu
+        posła J. Jaskierni. Czy wnioskodawca — poseł J. Jaskiernia miał na myśli
+        również stowarzyszenia, które nie reprezentują interesów obywateli? Chcę
+        zauważyć, że zapis posła J. Jaskierni jest dużo mocniejszy od zapisu
+        traktującego o partiach politycznych. W art. 5 projektu jednolitego
+        Konstytucji RP jedynie gwarantuje się wolność tworzenia i działania
+        partii politycznych, natomiast w zapisie posła J. Jaskierni mówi się o
+        szczególnej ochronie państwa przysługującej wszystkim stowarzyszeniom,
+        jakby chciało się je wynieść ponad partie polityczne. Czy takie było
+        zamierzenie posła J. Jaskierni? Kolejne moje pytanie odnosi się do
+        pewnych konsekwencji prawnych. Jaka wizja dalszych uregulowań prawnych
+        idzie za sformułowaniem zawartym we wniosku posła J. Jaskierni? Na pewno
+        wynikają z tego jakieś konsekwencje prawne. Zadałem tylko kilka pytań
         uściślających.
       </p>
     </div>
@@ -2892,18 +2904,18 @@
       <p>
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Nie ingerując w treść wniosku posła J. Jaskierni, chciałabym jedynie
-        zwrócić uwagę, że jeżeli używa się określenia „użyteczności
-        publicznej”, to właściwie powinno się używać „wyższej użyteczności
-        publicznej , ponieważ tak to jest napisane w Prawie o stowarzyszeniach.
-        Co prawda, jest to już tytuł honorowy i nie pociągający za sobą skutków
-        prawnych, lecz funkcjonuje nadal jako pojęcie prawne. Natomiast w
-        obecnym stanie prawnym każde stowarzyszenie i każda fundacja powinny
-        mieć charakter użyteczności publicznej. Wyższa użyteczność publiczna
-        jest wyłącznie tytułem honorowym, dawniej pociągało to za sobą skutki
-        prawne. Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:
-        Proponuję zmianę formy wniosku posła J. Jaskierni. Proponuję użyć pewien
-        termin agregujący wszystkie możliwe tutaj instytucje, znany nie tyle
-        prawu wewnętrznemu polskiemu, co prawu międzynarodowemu: „organizacje
+        zwrócić uwagę, że jeżeli używa się określenia „użyteczności publicznej”,
+        to właściwie powinno się używać „wyższej użyteczności publicznej ,
+        ponieważ tak to jest napisane w Prawie o stowarzyszeniach. Co prawda,
+        jest to już tytuł honorowy i nie pociągający za sobą skutków prawnych,
+        lecz funkcjonuje nadal jako pojęcie prawne. Natomiast w obecnym stanie
+        prawnym każde stowarzyszenie i każda fundacja powinny mieć charakter
+        użyteczności publicznej. Wyższa użyteczność publiczna jest wyłącznie
+        tytułem honorowym, dawniej pociągało to za sobą skutki prawne.
+        Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński: Proponuję zmianę
+        formy wniosku posła J. Jaskierni. Proponuję użyć pewien termin
+        agregujący wszystkie możliwe tutaj instytucje, znany nie tyle prawu
+        wewnętrznemu polskiemu, co prawu międzynarodowemu: „organizacje
         pozarządowe”. Ter _ min ten obejmuje te typy organizacji, o których
         teraz mówimy. Wolałbym także nie używać terminu „ruch” dlatego, że pod
         ochroną prawa może się znajdować tylko coś, co jest gdzieś formalnie
@@ -3017,29 +3029,29 @@
         zasad ustrojowych. Kwestię związków zawodowych należałoby uzupełnić.
         Można nawet stworzyć odrębny przepis, jeżeli uznalibyśmy, iż
         konstytucjonalizacja związków zawodowych powinna występować pośród zasad
-        ustroju. Rodzi się teza, że jest to potrzebne, oczywiście
-        uwzględniając konieczność sprecyzowania tego przepisu. Z dotychczasowych
-        uwag wynika, że możliwa do skonsumowania jest propozycja dodania do
-        mojego wniosku „związków zawodowych”, nawet umieszczając je na pierwszym
-        miejscu. Wydaje się, że można przyjąć propozycję posła K. Kamińskiego,
-        aby wyraźnie oznaczyć, iż chodzi o stowarzyszenia, fundacje i
-        organizacje działające w ramach porządku konstytucyjnego i prawnego lub
-        porządku prawnego Rzeczypospolitej Polskiej. Sformułowanie to należy
-        jednak doprecyzować. Uwzględniając krytykę prof. P. Sarneckiego, można
+        ustroju. Rodzi się teza, że jest to potrzebne, oczywiście uwzględniając
+        konieczność sprecyzowania tego przepisu. Z dotychczasowych uwag wynika,
+        że możliwa do skonsumowania jest propozycja dodania do mojego wniosku
+        „związków zawodowych”, nawet umieszczając je na pierwszym miejscu.
+        Wydaje się, że można przyjąć propozycję posła K. Kamińskiego, aby
+        wyraźnie oznaczyć, iż chodzi o stowarzyszenia, fundacje i organizacje
+        działające w ramach porządku konstytucyjnego i prawnego lub porządku
+        prawnego Rzeczypospolitej Polskiej. Sformułowanie to należy jednak
+        doprecyzować. Uwzględniając krytykę prof. P. Sarneckiego, można
         zrezygnować z określenia „pod szczególną ochroną państwa '.
         Zaproponowano zastąpić je wyrazami „pod ochroną prawa” bądź „pod ochroną
         władz publicznych , gdybyśmy chcieli odnieść to szerzej, nie tylko do
         organów państwowych, ale i do samorządowych. Są to szczegółowe
         propozycje, które możemy podjąć. Prof. A. Rzepliński zasugerował, aby
-        użyć określenia „organizacje pozarządowe”. Wiem, że w polskim języku i
-        w polskim słownictwie konstytucyjnym pojęcie to jeszcze się nie
-        utrwaliło, ale w tej chwili jest to jedno z najbardziej modnych pojęć na
-        Świecie. Non-governmental organisation to jeden z fundamentów
-        dzisiejszego funkcjonowania życia publicznego na Świecie; jest to bardzo
-        czytelne pojęcie. | Rodzi się pytanie, czy nie jesteśmy zbyt
-        schematyczni w dotychczasowej konstrukcji konstytucyjnej lczy nie mamy
-        pewnej alergii do niektórych innowacyjnych rozwiązań, które mogłyby być
-        wprowadzone do Konstytucji RP? a an NĄ
+        użyć określenia „organizacje pozarządowe”. Wiem, że w polskim języku i w
+        polskim słownictwie konstytucyjnym pojęcie to jeszcze się nie utrwaliło,
+        ale w tej chwili jest to jedno z najbardziej modnych pojęć na Świecie.
+        Non-governmental organisation to jeden z fundamentów dzisiejszego
+        funkcjonowania życia publicznego na Świecie; jest to bardzo czytelne
+        pojęcie. | Rodzi się pytanie, czy nie jesteśmy zbyt schematyczni w
+        dotychczasowej konstrukcji konstytucyjnej lczy nie mamy pewnej alergii
+        do niektórych innowacyjnych rozwiązań, które mogłyby być wprowadzone do
+        Konstytucji RP? a an NĄ
       </p>
     </div>
     <div class="speaker">
@@ -3263,10 +3275,9 @@
         pomocniczości doszłoby do stworzenia generalnej klauzuli, w ramach
         której państwo zostałoby ograniczone do sfery, gdzie jest potrzebne
         działanie władzy publicznej, a nie ingerowałoby w sferę, która powinna
-        być realizowana przez różnego rodzaju podmioty tworzone przez
-        obywateli. Proponuję, aby zamiast tworzenia katalogu różnych
-        stowarzyszeń 1 fundacji, pójść drogą określenia granic działania
-        państwa.
+        być realizowana przez różnego rodzaju podmioty tworzone przez obywateli.
+        Proponuję, aby zamiast tworzenia katalogu różnych stowarzyszeń 1
+        fundacji, pójść drogą określenia granic działania państwa.
       </p>
     </div>
     <div class="speaker">
@@ -3495,18 +3506,18 @@
         będących częścią władzy publicznej, ani państwowej, ani samorządu
         terytorialnego. Wydaje mi się, że skoro Konstytucja RP wymienia cztery
         pierwsze elementy w zasadach naczelnych, to mogłaby, 1 chyba powinna,
-        wymienić również piąty element całej przestrzeni społecznej, która
-        jest pomiędzy państwem a jednostką jako taką i która fo mułuje tkankę
+        wymienić również piąty element całej przestrzeni społecznej, która jest
+        pomiędzy państwem a jednostką jako taką i która fo mułuje tkankę
         niezależnego od państwa życia publicznego. Bardzo podoba mi się
         kierunek, którym podążają posłowie 1. Lipowicz i J. Ciemniewski, tzn.
         aby w zasadach naczelnych sformułować coś w rodzaju pomocniczości
         państwa. Nawet przy formułowaniu takiej zasady obstawałbym przy tym, aby
         jedną jej część — być może ustęp — stanowiła propozycja zgłoszona przez
-        posła J. Jaskiernię. Wtedy mielibyśmy zasadę pomocniczości, która
-        mówi, czego państwo nie może lub co może zrobić oraz zasady ochrony
-        takich sfer społeczeństwa obywatelskiego, w które państwo nie może
-        ingerować. Byłoby to wyznaczeniem dodatkowej granicy zasady
-        pomocniczości. Wtedy byłaby ona w pełni doprecyzowana.
+        posła J. Jaskiernię. Wtedy mielibyśmy zasadę pomocniczości, która mówi,
+        czego państwo nie może lub co może zrobić oraz zasady ochrony takich
+        sfer społeczeństwa obywatelskiego, w które państwo nie może ingerować.
+        Byłoby to wyznaczeniem dodatkowej granicy zasady pomocniczości. Wtedy
+        byłaby ona w pełni doprecyzowana.
       </p>
     </div>
     <div class="speaker">
@@ -4068,8 +4079,8 @@
         przedmówca, jest słuszne. Społeczeństwo oczekuje, żeby prawa, które am
         mr — mz m i nm _ mn „a mm m człowiekowi jako obywatelowi przysługują,
         mogły | być w jakiś szczególny sposób wyakcentowane. Ujęcie ich w
-        odrębnym akcie dawałoby większe możliwości. Nie jestem prawnikiem,
-        więc mam prawo się mylić. Przedstawiam wyłącznie swoje odczucia. | |
+        odrębnym akcie dawałoby większe możliwości. Nie jestem prawnikiem, więc
+        mam prawo się mylić. Przedstawiam wyłącznie swoje odczucia. | |
       </p>
     </div>
     <div class="speaker">
@@ -4096,8 +4107,8 @@
       <p>
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Jeśli chodzi o wyodrębnienie rozdziału II Konstytucji RP jako odrębnej
-        karty, jako odrębnego dokumentu, który byłby dopięty do Konstytucji
-        RP, chciałbym przypomnłeć, że w kilku krajach tego rodzaju karty są
+        karty, jako odrębnego dokumentu, który byłby dopięty do Konstytucji RP,
+        chciałbym przypomnłeć, że w kilku krajach tego rodzaju karty są
         wyodrębnione. Tak jest w konstytucji Republiki Czeskiej i w konstytucji
         Republiki Francuskiej. Starsza z wyodrębnionych kart, karta francuska —
         „„Deklaracja praw człowieka i obywatela” z 1789 r. — z reguły była
@@ -4184,11 +4195,11 @@
         zapomnieli, co znaczy „Deklaracja praw człowieka i obywatela”, Jest ona
         nadal częścią porządku konstytucyjnego. Pisze się o tym w przepisach
         przejściowych konstytucji francuskiej. Czesi również nie zapomną, co
-        oznacza „Karta podstawowych praw i wolności”, gdyż jest ona częścią
-        ich porządku konstytucyjnego. Konstytucja Republiki Czeskiej o tym
-        wyraźnie mówi. Jest to oczywiście kwestia decyzji. Proponuję tylko, aby
-        rozdział II Konstytucji RP nazywał się „„Karta praw i wolności”, a nie
-        żeby go wyłączać, załączać itd.
+        oznacza „Karta podstawowych praw i wolności”, gdyż jest ona częścią ich
+        porządku konstytucyjnego. Konstytucja Republiki Czeskiej o tym wyraźnie
+        mówi. Jest to oczywiście kwestia decyzji. Proponuję tylko, aby rozdział
+        II Konstytucji RP nazywał się „„Karta praw i wolności”, a nie żeby go
+        wyłączać, załączać itd.
       </p>
     </div>
     <div class="speaker">
@@ -4403,10 +4414,10 @@
         Osobiście opowiadam się za jednolitą ustawą konstytucyjną; uważam, że
         materia, o której dyskutujemy powinna stanowić rozdział Konstytucji RP.
         W polskiej tradycji mamy Konstytucję 3 Maja; Prawo o miastach, które
-        było uchwalone nieco wcześniej, zostało z nią związane aneksem. Można
-        to porównać do tego, co się działo w okresie rewolucji francuskiej.
-        Myślę, że na obecnym etapie, skoro nie ma osobnego projektu „Karty praw
-        i wolności”, nie ma potrzeby wyodrębniać jej z Konstytucji RP; powinniś-
+        było uchwalone nieco wcześniej, zostało z nią związane aneksem. Można to
+        porównać do tego, co się działo w okresie rewolucji francuskiej. Myślę,
+        że na obecnym etapie, skoro nie ma osobnego projektu „Karty praw i
+        wolności”, nie ma potrzeby wyodrębniać jej z Konstytucji RP; powinniś-
         my pracować nad jednolitym tekstem ustawy zasadniczej. Istnieje problem
         obowiązków, o których mówił poseł J. Ciemniewski; nie uzyskaliśmy
         jeszcze na ten temat wyjaśnienia. Wydaje mi się, że tytuł rozdziału II
@@ -4414,42 +4425,42 @@
         wyrazów: „wolności i prawa”, gdyż „wolności” są pojęciem szerszym niż
         „prawa”. Takie jest moje odczucie, ale proszę ekspertów o opinię w tej
         sprawie. Opowiadam się też za ujednoliceniem tekstu Konstytucji RP. W
-        tytule rozdziału II nie wpisywałbym „obowiązków człowieka i
-        obywatela”, Przeglądając omawiany projekt do końca, daje się zauważyć,
-        że jest w nim tylko cztery lub pięć artykułów bardzo ogólnych — które
-        zapewne udałoby się jeszcze skomprymować — mówiących bezpośrednio o
-        obowiązkach. Podrozdział dotyczący obowiązków jest bardzo niewielki i
-        znajduje się na samym końcu. Natomiast cały czas mówi się o prawach i
-        wolnościach politycznych, osobistych i innych. Osobiście zachowałbym
-        następujący tytuł rozdziału II: „Wołności i prawa człowieka i
-        obywatela. Pewna tradycja, przynajmniej kontynentalna, rozróżnia to, co
-        jest związane z prawami i wolnościami człowieka od tego, co jest
-        związane z prawami i wolnościami obywatela, Nie widzę powodu, abyśmy
-        musieli od niej odchodzić. Nie jest to tradycja typowo rewolucyjna.
-        Weszła ona na trwałe do myśli politycznej europejskiej bez względu na
-        to, że po raz pierwszy została sformułowana w czasie rewolucji
-        francuskiej, a potem była przyjmowana przez innych. Ekspert, prof.
-        Henryk Groszyk: Opowiadam się za jednolitym dziełem, jakim jest
-        Konstytucja RP. Nie ma podstaw, ażeby komplikować sytuację redakcyjną 1
-        stwarzać odrębną „„Kartę'. Opowiadam się również za nazwą, która uczyni
-        z rozdziału II normalny rozdział Konstytucji RP. Fakt, iż jest to
-        rozdział ll, dostatecznie podkreśla powagę zagadnienia i stwarza pewien
-        przywilej, że już w drugim rozdziale, przed omawianiem organów
-        państwowych i administracyjnych, omawia się pozycję człowieka i
-        obywatela. Tytuł zaproponowany przez mojego przedmówcę: „Wolności i
-        prawa człowieka i obywatela” wydaje się najlepszy, biorąc pod uwagę
-        fakt, że obowiązki są tu omówione w sposób minimalny. Przykłady, które
-        padały podczas dyskusji odnośnie do sytuacji we Francji są tu zupełnie
-        nieadekwatne, dlatego że konstytucja francuska nie zawiera żadnego
-        rozdziału o wolnościach, prawach i obowiązkach obywateli. Wobec tego w
-        jej wstępie — co bardzo komplikuje sytuację — powołano się na
-        „Deklarację praw człowieka i obywatela” z końca XVIII wieku. Jak
-        wiadomo, wszelkie ustępy rodzą problemy, gdy stanowią tekst konstytucji,
-        komplikują jej interpretację. Z tego względu wstęp konstytucji
-        francuskiej zawiera uzupełniony katalog bardziej nowoczesnych praw 1
-        wolności po to, aby zaktualizować starą „Deklarację”. Wydaje mi się, że
-        nie powinniśmy zbytnio komplikować sytuacji i raczej opowiedzieć się za
-        normalnym rozdziałem konstytucyjnym.
+        tytule rozdziału II nie wpisywałbym „obowiązków człowieka i obywatela”,
+        Przeglądając omawiany projekt do końca, daje się zauważyć, że jest w nim
+        tylko cztery lub pięć artykułów bardzo ogólnych — które zapewne udałoby
+        się jeszcze skomprymować — mówiących bezpośrednio o obowiązkach.
+        Podrozdział dotyczący obowiązków jest bardzo niewielki i znajduje się na
+        samym końcu. Natomiast cały czas mówi się o prawach i wolnościach
+        politycznych, osobistych i innych. Osobiście zachowałbym następujący
+        tytuł rozdziału II: „Wołności i prawa człowieka i obywatela. Pewna
+        tradycja, przynajmniej kontynentalna, rozróżnia to, co jest związane z
+        prawami i wolnościami człowieka od tego, co jest związane z prawami i
+        wolnościami obywatela, Nie widzę powodu, abyśmy musieli od niej
+        odchodzić. Nie jest to tradycja typowo rewolucyjna. Weszła ona na trwałe
+        do myśli politycznej europejskiej bez względu na to, że po raz pierwszy
+        została sformułowana w czasie rewolucji francuskiej, a potem była
+        przyjmowana przez innych. Ekspert, prof. Henryk Groszyk: Opowiadam się
+        za jednolitym dziełem, jakim jest Konstytucja RP. Nie ma podstaw, ażeby
+        komplikować sytuację redakcyjną 1 stwarzać odrębną „„Kartę'. Opowiadam
+        się również za nazwą, która uczyni z rozdziału II normalny rozdział
+        Konstytucji RP. Fakt, iż jest to rozdział ll, dostatecznie podkreśla
+        powagę zagadnienia i stwarza pewien przywilej, że już w drugim
+        rozdziale, przed omawianiem organów państwowych i administracyjnych,
+        omawia się pozycję człowieka i obywatela. Tytuł zaproponowany przez
+        mojego przedmówcę: „Wolności i prawa człowieka i obywatela” wydaje się
+        najlepszy, biorąc pod uwagę fakt, że obowiązki są tu omówione w sposób
+        minimalny. Przykłady, które padały podczas dyskusji odnośnie do sytuacji
+        we Francji są tu zupełnie nieadekwatne, dlatego że konstytucja francuska
+        nie zawiera żadnego rozdziału o wolnościach, prawach i obowiązkach
+        obywateli. Wobec tego w jej wstępie — co bardzo komplikuje sytuację —
+        powołano się na „Deklarację praw człowieka i obywatela” z końca XVIII
+        wieku. Jak wiadomo, wszelkie ustępy rodzą problemy, gdy stanowią tekst
+        konstytucji, komplikują jej interpretację. Z tego względu wstęp
+        konstytucji francuskiej zawiera uzupełniony katalog bardziej
+        nowoczesnych praw 1 wolności po to, aby zaktualizować starą
+        „Deklarację”. Wydaje mi się, że nie powinniśmy zbytnio komplikować
+        sytuacji i raczej opowiedzieć się za normalnym rozdziałem
+        konstytucyjnym.
       </p>
     </div>
     <div class="speaker">
@@ -4896,9 +4907,9 @@
         senatorów. Dla porządku jednak powiem, że na którymś posiedzeniu
         plenarnym Senatu marszałek prowadzący wówczas obrady zapowiedział, żeby
         nie odbywać posiedzeń Komisji Konstytucyjnej tuż przed mającymi się
-        rozpocząć obradami Senatu. Na pewno będą takie tygodnie, w których
-        część dni będzie przeznaczona na posiedzenie Komisji Konstytucyjnej I
-        część — na posiedzenie Senatu. Komisje senackie powinno się zwoływać w
+        rozpocząć obradami Senatu. Na pewno będą takie tygodnie, w których część
+        dni będzie przeznaczona na posiedzenie Komisji Konstytucyjnej I część —
+        na posiedzenie Senatu. Komisje senackie powinno się zwoływać w
         tygodniach, kiedy nie odbywa Się ani posiedzenie Senatu, ani posiedzenie
         Kormnisji Konstytucyjnej. Niektórzy przewodniczący komisji — nieskromnie
         powiem, że jestem jednym z nich — tak właśnie robią. Inni natomiast
@@ -5275,8 +5286,8 @@
         wysłucham. Wydaje mi się jednak, że tutaj takie niebezpieczeństwa nie
         występują. Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński: Na
         pytanie, które postawił przewodniczący S$. Pastuszka, kto jest
-        ważniejszy: jednostka, czy państwo, można odpowiedzieć następująco, że
-        w państwach demokracji zachodniej w zależności od czasu, w jakim owe
+        ważniejszy: jednostka, czy państwo, można odpowiedzieć następująco, że w
+        państwach demokracji zachodniej w zależności od czasu, w jakim owe
         demokracje się pojawiały — w niektórych krajach — przed dwustu laty —
         dylemat ten jest oczywiście rozstrzygnięty; jednostka jest ważniejsza,
         państwo jej jedynie służy. Taki stan rzeczy, jak się okazuje z
@@ -5286,9 +5297,9 @@
         chodzi nam przecież o to, aby ukrywać obowiązki. Propozycja prof. W.
         Osiatyńskiego wydaje się tu rozsądna. Obowiązki obywateli są bardzo
         istotne. Gdybyśmy jednak chcieli wszystko, co znajduje się w treści
-        rozdziału II Konstytucji RP zamieścić w jego tytule, to trzeba by
-        także w nim zawrzeć - ograniczenia wolności i praw. Jeżeli policzymy
-        wyrazy, to na temat tych ograniczeń pisze się więcej niż na temat praw,
+        rozdziału II Konstytucji RP zamieścić w jego tytule, to trzeba by także
+        w nim zawrzeć - ograniczenia wolności i praw. Jeżeli policzymy wyrazy,
+        to na temat tych ograniczeń pisze się więcej niż na temat praw,
         wolności, obowiązków. W tytule rozdziału nie da się wszystkiego opisać.
         Dobrze byłoby, aby taki tytuł dokładnie trafiał w to, o co w tym wypadku
         ustawodawcy konstytucyjnemu chodzi.
@@ -5530,5 +5541,3 @@
     </div>
   </div>
 </div>
-
-<Footer />

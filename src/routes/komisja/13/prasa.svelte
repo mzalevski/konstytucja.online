@@ -23,7 +23,7 @@
     width: 60px;
   }
 
- .small-article-nav a svg {
+  .small-article-nav a svg {
     width: 25px;
     height: 25px;
   }
@@ -86,12 +86,26 @@
           target="_blank">
           ORYGINAŁ BIULETYNU
         </a>
-        <img class="ext-link" src="images/external-link.svg" alt="">
+        <img class="ext-link" src="images/external-link.svg" alt="" />
       </h5>
     </div>
     <div class="small-article-nav">
       <a rel="prefetch" href="/komisja/13/3">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left" class="svg-inline--fa fa-angle-left fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="angle-left"
+          class="svg-inline--fa fa-angle-left fa-w-8"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 256 512">
+          <path
+            fill="currentColor"
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
+            24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7
+            409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+        </svg>
       </a>
 
     </div>
@@ -99,14 +113,14 @@
 
   <p>
     W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
-    oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji
-    prasowych o szerszym zakresie tematycznym w biuletynie zamieszczane są
-    tylko fragmenty dotyczące problematyki konstytucyjnej. Z zasady nie są
-    przedrukowywane zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone
-    są w zasadzie chronologicznie. Pomocniczo stosowane jest jednak również
-    grupowanie tematyczne. W związku z wejściem prac konstytucyjnych w fazę
-    ustalania brzmienia przepisów nowej konstytucji, preferencyjnie traktowane
-    są publikacje o charakterze problemowym.
+    oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji prasowych
+    o szerszym zakresie tematycznym w biuletynie zamieszczane są tylko fragmenty
+    dotyczące problematyki konstytucyjnej. Z zasady nie są przedrukowywane
+    zdjęcia, rysunki, tabele, reprodukcje. Przedruki ułożone są w zasadzie
+    chronologicznie. Pomocniczo stosowane jest jednak również grupowanie
+    tematyczne. W związku z wejściem prac konstytucyjnych w fazę ustalania
+    brzmienia przepisów nowej konstytucji, preferencyjnie traktowane są
+    publikacje o charakterze problemowym.
   </p>
 </div>
 <div in:fly={{ y: 100, duration: 1000 }}>
@@ -169,8 +183,8 @@
       należy pod tym względem przesadzać, a zasady ogólne zawarte w pierwszym
       rozdziale są potrzebne i nie można ich pominąć. Bronił tych postanowień
       reprezentujący projekt „Solidarności” Michał Drozdek. Podkreślał przy tym,
-      że konstytucja to nie tylko regulacja ściśle prawna. Jej postanowienia mają
-      istotne znaczenie dla zachowania tożsamości narodowej oraz ciągłości
+      że konstytucja to nie tylko regulacja ściśle prawna. Jej postanowienia
+      mają istotne znaczenie dla zachowania tożsamości narodowej oraz ciągłości
       ustrojowoprawnej. Zasadnicze deklaracje w tym zakresie są więc niezbędne.
       Wspierał go ekspert Komisji, profesor Piotr Winczorek, mówiąc, że
       konstytucja musi się jednak różnić czymś od regulaminu. Zawarte w
@@ -481,29 +495,33 @@
       </p>
       <p class="author">Rozmawiał Henryk Szewczyk</p>
     </div>
-      <p class="bold">Prawicowi krytycy solidarnościowego projektu konstytucji zarzucają mu
-      syndykalizm i socjalistyczne ciągoty. Co Pan na to?</p>
-      <p>Owszem, w projekcie konstytucji „Solidarnoznalazły się pewne elementy, które są ważne dla
-      związku zawodowego, ale co w tym dziwnego? W końcu projekt był przedłożony
-      przez Komisję Krajową „S”. Jednak te elementy absolutnie nie nadają naszej
-      konstytucji syndykalistycznego charakteru. Pewne szczególne uprawnienia
-      dla reprezentacji pracowniczych tam się znalazły, ale to nie są
-      kwestieściśle ustrojowe. To są takie sprawy, jak przede wszystkim
-      zasięganie opinii związanej z budżetem państwa, co oznacza zasięganie
-      opinii nt. wtómego podziału dochodu państwa. To jest w pełni uprawnione.
-      My nie uzurpujemy sobie prawa rozstrzygania o tym. Od tego jest parlament;
-      proponujemy w naszej konstytucji normalną procedurę demokratyczną. W
-      projektach wysuwanych przez inne ugrupowania prawicowe znalazły się
-      elementy, które my mogliby-śmy atakować z innych pozycji. Nie ulega
-      wątpliwości, że mówiąc o prawicy trzeba doprecyzować, o co chodzi.
-      </p>
-      <p class="bold">Zatem o co chodzi?</p>
-      <p>My rozumiemy to w taki sposób: to, co nas wszystkich łączy na
-      prawicy, to są pewne wartości, nawiązanie do tradycji, to jest pewne
-      wyobrażenie państwa niepodległego. Natomiast różnimy się w jakimś stopniu
-      co do rozstrzygnięć w kwestiach gospodarczych i społecznych. Dlatego
-      często mówimy o tzw. centroprawicy. Nasz projekt konstytucji został oparty
-      na katolickiej nauce społecznej. Oznacza to, że z jednej strony odrzucamy
+    <p class="bold">
+      Prawicowi krytycy solidarnościowego projektu konstytucji zarzucają mu
+      syndykalizm i socjalistyczne ciągoty. Co Pan na to?
+    </p>
+    <p>
+      Owszem, w projekcie konstytucji „Solidarnoznalazły się pewne elementy,
+      które są ważne dla związku zawodowego, ale co w tym dziwnego? W końcu
+      projekt był przedłożony przez Komisję Krajową „S”. Jednak te elementy
+      absolutnie nie nadają naszej konstytucji syndykalistycznego charakteru.
+      Pewne szczególne uprawnienia dla reprezentacji pracowniczych tam się
+      znalazły, ale to nie są kwestieściśle ustrojowe. To są takie sprawy, jak
+      przede wszystkim zasięganie opinii związanej z budżetem państwa, co
+      oznacza zasięganie opinii nt. wtómego podziału dochodu państwa. To jest w
+      pełni uprawnione. My nie uzurpujemy sobie prawa rozstrzygania o tym. Od
+      tego jest parlament; proponujemy w naszej konstytucji normalną procedurę
+      demokratyczną. W projektach wysuwanych przez inne ugrupowania prawicowe
+      znalazły się elementy, które my mogliby-śmy atakować z innych pozycji. Nie
+      ulega wątpliwości, że mówiąc o prawicy trzeba doprecyzować, o co chodzi.
+    </p>
+    <p class="bold">Zatem o co chodzi?</p>
+    <p>
+      My rozumiemy to w taki sposób: to, co nas wszystkich łączy na prawicy, to
+      są pewne wartości, nawiązanie do tradycji, to jest pewne wyobrażenie
+      państwa niepodległego. Natomiast różnimy się w jakimś stopniu co do
+      rozstrzygnięć w kwestiach gospodarczych i społecznych. Dlatego często
+      mówimy o tzw. centroprawicy. Nasz projekt konstytucji został oparty na
+      katolickiej nauce społecznej. Oznacza to, że z jednej strony odrzucamy
       wszechpotężne państwo socjalne, opiekuńcze, ale z drugiej — wyznaczamy mu
       rolę pomocniczą. Chcemy, aby pewne rozwiązania systemów społecznych były
       przez państwo gwarantowane, żeby niektóre kwestie społeczne państwo miało
@@ -511,28 +529,36 @@
       półwieczu. Dlatego w przepisach wprowadzających piszemy np. o reformie
       systemu ubezpieczeń społecznych, o uzupełniającym, zdecentralizowanym
       systemie ubezpieczeń zdrowotnych etc. To jest całkowicie zgodne z tym, co
-      głoszą encykliki papieskie.</p>
-      <p class="bold">Kaczyński, Hall i inni ze wstrętem mówią o
-      zbytnio rozbudowanym — ich zdaniem — katalogu praw socjalnych i
-      ekonomicznych w solidarnościowym projekcie konstytucji.</p>
-      <p>To też chybiony zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast zdecydowanie
-      chcemy, aby polityka państwa zmierzała do możliwie pełnego, produktywnego
-      zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru, co też wynika
-      ze społecznej nauki Kościoła. W tym sensie oczywiście ta konstytucja
-      odbiega od pewnych liberalnych rozwiązań gospodarczych, lecz my tam
-      równocześnie bardzo ściśle staramy się określić obszar, w jakim państwo
-      się porusza. Np. w „Zasadach Naczelnpodkreślamy, że źródłem bogactwa
-      państwa jest praca, ale tam również bronimy własności prywatnej, prawa
-      dziedziczenia i mówimy, że ustrój gospodarczy państwa oparty jest na
+      głoszą encykliki papieskie.
+    </p>
+    <p class="bold">
+      Kaczyński, Hall i inni ze wstrętem mówią o zbytnio rozbudowanym — ich
+      zdaniem — katalogu praw socjalnych i ekonomicznych w solidarnościowym
+      projekcie konstytucji.
+    </p>
+    <p>
+      To też chybiony zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast
+      zdecydowanie chcemy, aby polityka państwa zmierzała do możliwie pełnego,
+      produktywnego zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru,
+      co też wynika ze społecznej nauki Kościoła. W tym sensie oczywiście ta
+      konstytucja odbiega od pewnych liberalnych rozwiązań gospodarczych, lecz
+      my tam równocześnie bardzo ściśle staramy się określić obszar, w jakim
+      państwo się porusza. Np. w „Zasadach Naczelnpodkreślamy, że źródłem
+      bogactwa państwa jest praca, ale tam również bronimy własności prywatnej,
+      prawa dziedziczenia i mówimy, że ustrój gospodarczy państwa oparty jest na
       gospodarce rynkowej i solidarności społecznej. Te dwa elementy powinny być
-      nierozdzielnie związane w państwie, którego wizję tworzymy.</p>
-      <p class="bold">Parlamentarna Komisja Konstytucyjna zrezygnowała z preambuły, obecnej m.in. w
-      obywatelskim projekcie ustawy zasadniczej. Dlaczego preambuła jest tak
-      ważna?</p>
-      <p class="bold">Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię,
-      zwłaszcza w ostatnich dziesięcioleciach. Państwo polskie po II wojnie
-      światowej istniało, chociaż nie było suwerenne. Teraz ważne jest to, do
-      czego my nawiązujemy. Tutaj występuje wyraźny podział i to nas różni od
+      nierozdzielnie związane w państwie, którego wizję tworzymy.
+    </p>
+    <p class="bold">
+      Parlamentarna Komisja Konstytucyjna zrezygnowała z preambuły, obecnej
+      m.in. w obywatelskim projekcie ustawy zasadniczej. Dlaczego preambuła jest
+      tak ważna?
+    </p>
+    <p class="bold">
+      Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię, zwłaszcza
+      w ostatnich dziesięcioleciach. Państwo polskie po II wojnie światowej
+      istniało, chociaż nie było suwerenne. Teraz ważne jest to, do czego my
+      nawiązujemy. Tutaj występuje wyraźny podział i to nas różni od
       postpeerelowskich elit tworzących obecną konstytucję. My uważamy, że
       Polska nie zaczęła się w tej chwili ani w 1989 r., ani w 1945 r., tylko
       sięga swoimi korzeniami 1000 lat wstecz i to wszystko w preambule piszemy.
@@ -544,40 +570,48 @@
       się rozwijała. Niestety, są Środowiska, zwłaszcza w parlamencie, które
       chciałyby to wszystko odrzucić i to jest bardzo niebezpieczne. Wprawdzie
       preambuła nie ma znaczenia prawnego, ale w końcu wszechstronny rozwój
-      państwa również bazuje na fundamencie przeszłości.</p>
-      <p class="bold">Nie ma tu miejsca na szczegółowe roztrząsanie solidarnościowego projektu konstytucji, ale
-      dlaczego ostatni jego rozdział zatytułowany „Przepisy wprowadzające” jest
-      tak długi?</p>
-      <p>Uważamy, że aby Polska mogła się stać państwem prawa, trzeba
-      wpierw wiele spraw uregulować. A więc jest tam mowa o odbudowie niektórych
-      instytucji, np. instytucji sędziego Śledczego, kasacji czy też wspomnianej
-      gruntownej reformie systemu ubezpieczeń społecznych, który się w tej
-      chwili zupełnie zawalił. W tym rozdziale proponujemy ponadto przepisy
-      dotyczące restytucji obywatelstwa polskiego. Proponujemy jeszcze, żeby
-      archiwa UB i SB z lat 1945-89 zostały przekazane do Instytutu Pamięci
-      Narodowej, podobnego do niemieckiego Instytutu Gaucka i aby każdy obywatel
-      miał dostęp do tych dokumentów. Chcemy także powołać komisję badania
-      zbrodni stalinowskich i poddać weryfikacji sędziów pod względem
-      przestrzegania przez nich zasady niezawisłości. Nie zapomnieliśmy o
-      przepisach stwierdzających, że powszechne uwłaszczenie w ramach
-      prywatyzacji mienia państwowego zostaje poprzedzone ustawą
-      reprywatyzacyjną. Trzeba po prostu wiele spraw postawić z głowy na nogi.
-      Zanim to się stanie, nie ma co tumanić narodu sloganami o państwie prawa.</p>
-      <p class="bold">
+      państwa również bazuje na fundamencie przeszłości.
+    </p>
+    <p class="bold">
+      Nie ma tu miejsca na szczegółowe roztrząsanie solidarnościowego projektu
+      konstytucji, ale dlaczego ostatni jego rozdział zatytułowany „Przepisy
+      wprowadzające” jest tak długi?
+    </p>
+    <p>
+      Uważamy, że aby Polska mogła się stać państwem prawa, trzeba wpierw wiele
+      spraw uregulować. A więc jest tam mowa o odbudowie niektórych instytucji,
+      np. instytucji sędziego Śledczego, kasacji czy też wspomnianej gruntownej
+      reformie systemu ubezpieczeń społecznych, który się w tej chwili zupełnie
+      zawalił. W tym rozdziale proponujemy ponadto przepisy dotyczące restytucji
+      obywatelstwa polskiego. Proponujemy jeszcze, żeby archiwa UB i SB z lat
+      1945-89 zostały przekazane do Instytutu Pamięci Narodowej, podobnego do
+      niemieckiego Instytutu Gaucka i aby każdy obywatel miał dostęp do tych
+      dokumentów. Chcemy także powołać komisję badania zbrodni stalinowskich i
+      poddać weryfikacji sędziów pod względem przestrzegania przez nich zasady
+      niezawisłości. Nie zapomnieliśmy o przepisach stwierdzających, że
+      powszechne uwłaszczenie w ramach prywatyzacji mienia państwowego zostaje
+      poprzedzone ustawą reprywatyzacyjną. Trzeba po prostu wiele spraw postawić
+      z głowy na nogi. Zanim to się stanie, nie ma co tumanić narodu sloganami o
+      państwie prawa.
+    </p>
+    <p class="bold">
       Czy autorzy solidarnościowej konstytucji dopuszczają, w toku prac nad
-      ostateczną wersją ustawy, kompromis z innymi projektami?</p>
-      <p>Konstytucja w swoim ostatecznym kształcie będzie się rodziła w parlamencie. W związku z
-      tym, będzie ona tam poddana dalszej obróbce legislacyjnej, będą się
-      toczyły spory nt. określonych zapisów itd. Naturalnie, chcielibyśmy, aby
-      ostateczny projekt >który powstanie w parlamencie, przyjmował naszą wizję
-      państwa. Nie jest najważniejsze, czy poszczególne zapisy naszego projektu
-      przetrwają w obecnej postaci, czy też zostaną trochę zmienione. Nam chodzi
-      o ogólny kształt państwa, o pewną filozofię państwa. Trzeba tu dodać, że
-      pod Obywatelskim Projektem Konstytucji podpisało się półtora miliona osób.
-      Dlatego nie jesteśmy uprawnieni do daleko idących kompromisów.
-      Społeczeństwo polskie wypowie się w referendum konstytucyjnym, które w tej
-      chwili jest ważniejsze od jakichkolwiek wyborów, bo to rozstrzygnie o
-      przyszłości Polski na długie dziesięciolecia.
+      ostateczną wersją ustawy, kompromis z innymi projektami?
+    </p>
+    <p>
+      Konstytucja w swoim ostatecznym kształcie będzie się rodziła w
+      parlamencie. W związku z tym, będzie ona tam poddana dalszej obróbce
+      legislacyjnej, będą się toczyły spory nt. określonych zapisów itd.
+      Naturalnie, chcielibyśmy, aby ostateczny projekt >który powstanie w
+      parlamencie, przyjmował naszą wizję państwa. Nie jest najważniejsze, czy
+      poszczególne zapisy naszego projektu przetrwają w obecnej postaci, czy też
+      zostaną trochę zmienione. Nam chodzi o ogólny kształt państwa, o pewną
+      filozofię państwa. Trzeba tu dodać, że pod Obywatelskim Projektem
+      Konstytucji podpisało się półtora miliona osób. Dlatego nie jesteśmy
+      uprawnieni do daleko idących kompromisów. Społeczeństwo polskie wypowie
+      się w referendum konstytucyjnym, które w tej chwili jest ważniejsze od
+      jakichkolwiek wyborów, bo to rozstrzygnie o przyszłości Polski na długie
+      dziesięciolecia.
     </p>
   </div>
   <div class="press-article">
@@ -599,32 +633,33 @@
       przedstawionych projektach za mało jest podmiotowości pracowników. Takie
       głosy w dyskusji nad kształtem gospodarczej części przyszłej konstytucji
       przeważały wśród uczestników wczorajszego posiedzenia Rady Strategii
-      Społeczno-Gospodarczej.</p>
-      <p>W opinii profesora Wacława Wilczyńskiego, we
-      wszystkich siedmiu projektach konstytucji, przedłożonych Komisji
-      Konstytucyjnej Zgromadzenia Narodowego, jest akcentowana wolność
-      działalności gospodarczej, jednak z ograniczeniami motywowanyrmi
-      „,interesem publicznym” lub „dobrem ogólnym”. Praca i własność są
-      wymieniane obok wolności jako cechy określające ustrój. Własność występuje
-      jednak najczęściej bez przymiotników „prywatna” lub „publiczna ”.
-      Akcentowana bywa natomiast własność komunalna. Większość projektów
-      podkreśla konieczność praworządnego wywłaszczenia w sytuacjach, które tego
-      wymagają. Jednak tylko projekt Senatu I kadencji podkreśla konieczność
-      „niezwłocznego” odszkodowania. Troska o spadkobierców jest najsilniej
-      akcentowana w projekcie SLD, gdzie postuluje się niski podatek spadkowy.
-      We wszystkich projektach przewiduje się prawo do strajku i do zabezpieczeń
-      społecznych. Najdalej w uprzywilejowaniu pracowników idzie projekt SLD,
-      który nie przewiduje zrzeszeń pracodawców. Większość projektów ustawy
-      zasadniczej postuluje przestrzeganie zasady równowagi budżetowej i
-      obowiązek wskazywania pokrycia zwiększonych wydatków i zmniejszonych
-      dochodów. W przypadku nieuchwalenia budżetu w ustawowym terminie większość
-      projektów przewiduje finansowanie na podstawie projektu budżetu. Tylko dwa
-      projekty opowiadają się za ograniczeniem wydatków do przewidzianych w
-      zeszłorocznym budżecie. Wszystkie projekty wyłączają sprawy podatków i
-      budżetu z ewentualnego referendum, a także akcentują konieczność
-      ustawowego przyzwolenia na zaciąganie przez państwo kredytów i zgody na
-      decyzje zwiększające dług publiczny. Niektóre projekty nawiązują do
-      tradycji z okresu II Rzeczypospolitej i eksponują potrzebę powołania
+      Społeczno-Gospodarczej.
+    </p>
+    <p>
+      W opinii profesora Wacława Wilczyńskiego, we wszystkich siedmiu projektach
+      konstytucji, przedłożonych Komisji Konstytucyjnej Zgromadzenia Narodowego,
+      jest akcentowana wolność działalności gospodarczej, jednak z
+      ograniczeniami motywowanyrmi „,interesem publicznym” lub „dobrem ogólnym”.
+      Praca i własność są wymieniane obok wolności jako cechy określające
+      ustrój. Własność występuje jednak najczęściej bez przymiotników „prywatna”
+      lub „publiczna ”. Akcentowana bywa natomiast własność komunalna. Większość
+      projektów podkreśla konieczność praworządnego wywłaszczenia w sytuacjach,
+      które tego wymagają. Jednak tylko projekt Senatu I kadencji podkreśla
+      konieczność „niezwłocznego” odszkodowania. Troska o spadkobierców jest
+      najsilniej akcentowana w projekcie SLD, gdzie postuluje się niski podatek
+      spadkowy. We wszystkich projektach przewiduje się prawo do strajku i do
+      zabezpieczeń społecznych. Najdalej w uprzywilejowaniu pracowników idzie
+      projekt SLD, który nie przewiduje zrzeszeń pracodawców. Większość
+      projektów ustawy zasadniczej postuluje przestrzeganie zasady równowagi
+      budżetowej i obowiązek wskazywania pokrycia zwiększonych wydatków i
+      zmniejszonych dochodów. W przypadku nieuchwalenia budżetu w ustawowym
+      terminie większość projektów przewiduje finansowanie na podstawie projektu
+      budżetu. Tylko dwa projekty opowiadają się za ograniczeniem wydatków do
+      przewidzianych w zeszłorocznym budżecie. Wszystkie projekty wyłączają
+      sprawy podatków i budżetu z ewentualnego referendum, a także akcentują
+      konieczność ustawowego przyzwolenia na zaciąganie przez państwo kredytów i
+      zgody na decyzje zwiększające dług publiczny. Niektóre projekty nawiązują
+      do tradycji z okresu II Rzeczypospolitej i eksponują potrzebę powołania
       prokuratorii generalnej do ochrony interesów Skarbu Państwa. Projekt
       senacki proponuje regulację takich dziedzin, jak system
       kredytowo-pieniężny, finanse publiczne i budżet, zasady systemu bankowego,
@@ -657,5 +692,3 @@
     </p>
   </div>
 </div>
-
-<Footer />

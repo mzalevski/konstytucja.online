@@ -60,7 +60,7 @@
       target="_blank">
       Komisja Konstytucyjna ZN
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
   </h5>
 
   <p>
@@ -71,7 +71,7 @@
       target="_blank">
       Zgromadzenia Narodowego
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
     została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
     trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
     <a
@@ -80,7 +80,7 @@
       target="_blank">
       Dz.U. z 1992 r. nr 67, poz. 336
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
     zm.:
     <a
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
@@ -88,7 +88,7 @@
       target="_blank">
       Dz.U. z 1994 r. nr 61, poz. 251
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
     ).
   </p>
   <h3>Skorowidz</h3>
@@ -99,7 +99,7 @@
       target="_blank">
       skorowidz
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
   </h5>
 
   <h3>Biuletyny</h3>
@@ -110,7 +110,7 @@
       target="_blank">
       lista biuletynów
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="">
+    <img class="ext-link" src="images/external-link.svg" alt="" />
   </h5>
 
   <ul>
@@ -126,7 +126,4 @@
       Prace w toku... 🧰🔨
     </li>
   </ul>
-
-  <Footer />
-
 </div>
