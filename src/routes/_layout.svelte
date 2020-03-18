@@ -16,8 +16,7 @@
   }
   main {
     width: 60vw;
-    padding: 0.5rem 0;
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
