@@ -7,14 +7,11 @@
     display: flex;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
-    margin-top: 1rem;
-    margin: auto 0 0 0;
+    margin-top: auto;
     justify-content: center;
     text-align: center;
-    font-size: 0.8rem;
   }
   a {
-    padding: 1.15em 0.5em 1em 0em;
     color: inherit;
     font-style: italic;
   }
@@ -23,7 +20,7 @@
     color: rgb(160, 40, 40);
   }
   img {
-    height: 0.6rem;
+    height: 0.8rem;
   }
   @media (max-width: 500px) {
     img {

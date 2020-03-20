@@ -7,13 +7,16 @@
 <style>
   button {
     position: fixed;
-    left: 18px;
-    bottom: 12px;
+    left: 17.5px;
+    bottom: 17.5px;
     color: #333333;
+    height: 30px;
+    width: 30px;
   }
   svg {
     fill: currentColor;
-    height: 20px;
+    height: 30px;
+    width: 30px;
   }
   button:hover {
     opacity: 0.5;
