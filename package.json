@@ -4,12 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "export": "sapper export --legacy"
   },
   "dependencies": {
     "compression": "^1.7.1",
@@ -29,7 +24,7 @@
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.0.1",
-    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-terser": "^5.3.0",
     "sapper": "^0.27.0",
     "svelte": "^3.0.0"
   }
