@@ -5,21 +5,6 @@
   import Footer from "../components/Footer.svelte";
 </script>
 
-<style>
-  .signature {
-    text-align: right;
-    font-style: italic;
-  }
-  p {
-    text-align: justify;
-  }
-
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
-</style>
-
 <svelte:head>
   <title>Inicjatywa</title>
   <meta
@@ -38,33 +23,55 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h3>Inicjatywa</h3>
+  <h1 class="text-2xl font-semibold">Inicjatywa</h1>
 
-  <p>
+  <p class="pt-2 text-justify">
     Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu
     prawa oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać
     Konstytucję, która stanowi podstawę ich republiki - państwa prawa, które
     staje w ich obronie przed arbitralną i nieograniczoną władzą.
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     Chciałbym, żeby ta strona była otwartym i przystępnym źródłem wiedzy o
     Konstytucji. Dotychczas dostępne strony internetowe, na których można było
     przeczytać Konstytucję, np.
-    <a href="https://www.prezydent.pl/prawo/konstytucja-rp/">
+    <a
+      class="underline hover:text-red focus:text-red"
+      href="https://www.prezydent.pl/prawo/konstytucja-rp/"
+      target="_blank">
       strona Prezydenta
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline ml-px w-4 h-4 fill-current"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
+        2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+    </svg>
     ,
-    <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">
+    <a
+      class="underline hover:text-red focus:text-red"
+      href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm"
+      target="_blank">
       strona Sejmu
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline ml-px w-4 h-4 fill-current"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
+        2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+    </svg>
     , nie są wystarczająco czytelne i nie umożliwiają swobodnego przeglądania
     artykułów.
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     W trakcie tworzenia czytnika, starałem się, aby był on przejrzysty, łatwy w
     obsłudze, wydajny, responsywny (przystosowany do korzystania na smartfonie),
     pozbawiony reklam, natomiast zawierający tryb offline, aplikację mobilną, a
@@ -72,13 +79,13 @@
     prowadzenia dyskusji dotyczącej poszczególnych artykułów.
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     Obecnie pracuję nad dodaniem wyjaśnień treści przepisów i słownikiem pojęć.
     Myślę, że warto byłoby stworzyć przystępny i ogólnodostępny komentarz do
     całej Konstytucji, ale oczywiście jest to duże przedsięwzięcie.
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     Marzy mi się otwarty, wygodny i darmowy dostęp do całego prawa, a także do
     informacji o prawie i jego zmianach. Marzy mi się transparentny dla opinii
     publicznej model tworzenia i konsultowania nowego prawa oraz poprawiania
@@ -87,30 +94,42 @@
     pierwszy krok.
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     Jeżeli uważasz, że ten projekt jest ważny i potrzebny to istnieje kilka
     sposobów wsparcia. Po pierwsze, zachęcam do korzystania z czytnika i
     udostępniania go znajomym. Po drugie, jeżeli masz wiedzę o Konstytucji,
     którą możesz się podzielić, np. pisząc wyjaśnienia do artykułów albo
     definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to
     napisz do mnie na
-    <a href="mailto:konstytucja.online@gmail.com">ten adres</a>
+    <a
+      class="underline hover:text-red focus:text-red"
+      href="mailto:konstytucja.online@gmail.com"
+      target="_blank">
+      ten adres
+    </a>
     .
   </p>
 
-  <p>
+  <p class="pt-2 text-justify">
     Chciałbym podziękować prof. Marcinowi Matczakowi i prof. Ryszardowi
     Piotrowskiemu za wsparcie merytoryczne projektu.
   </p>
 
-  <p class="signature">
+  <p class="flex justify-end items-center pt-4">
     <a
-      href="http://maciej-zalewski.pl/"
-      rel="nofollow"
-      target="_blank"
-      class="signature">
+      class=" underline hover:text-red focus:text-red"
+      href="https://maciej-zalewski.pl/"
+      target="_blank">
       Maciej Zalewski
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline ml-px w-4 h-4 fill-current"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
+        2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+    </svg>
   </p>
 </div>

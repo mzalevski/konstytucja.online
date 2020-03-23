@@ -3,12 +3,6 @@
   import Nav from "../components/Nav.svelte";
 </script>
 
-<style>
-  h3 {
-    padding-top: 16px;
-  }
-</style>
-
 <svelte:head>
   <title>Słownik pojęć</title>
   <meta

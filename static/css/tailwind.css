@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+
+.active {
+  @apply text-red cursor-default;
+}
+
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.logo {
+    font-family: "Alex Brush", cursive;
+}
+
+.art-scroll:hover,
+.art-scroll:focus {
+  color: rgb(220, 40, 40);
+}
+
+:global(body.dark-mode) .search input,
+:global(body.dark-mode) .chapter-pick select {
+  background-color: #1d3040;
+  color: white;
+}
+
+:global(body.dark-mode) .chapter-pick select:focus,
+:global(body.dark-mode) .search input:focus,
+:global(body.dark-mode) .search input:focus + .counter {
+  border-color: white;
+}
+:global(body) {
+  background-color: white;
+  transition: background-color 0.3s;
+}
+:global(body.dark-mode) {
+  background-color: #1d3040;
+  color: white;
+}
+:global(body.dark-mode) .chapter-pick select,
+:global(body.dark-mode) .search input {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+:global(body.dark-mode) .search-icon,
+:global(body.dark-mode) .book-icon {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+:global(body.dark-mode) .down {
+  color: #ffffff;
+}

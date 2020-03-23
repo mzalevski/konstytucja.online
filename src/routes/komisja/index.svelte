@@ -5,35 +5,6 @@
   import Footer from "../../components/Footer.svelte";
 </script>
 
-<style>
-  p {
-    text-align: justify;
-  }
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
-
-  ol li a {
-    padding: 0;
-  }
-  h3 {
-    padding-top: 16px;
-  }
-  ul {
-    margin: 0 0 1em 0;
-    line-height: 1.5;
-  }
-
-  @media (max-width: 1100px) {
-    li a {
-      margin: 0em 0;
-      padding: 0.2em 0.5em;
-      text-align: center;
-    }
-  }
-</style>
-
 <svelte:head>
   <title>Komisja Konstytucyjna</title>
   <meta
@@ -60,7 +31,7 @@
       target="_blank">
       Komisja Konstytucyjna ZN
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
   </h5>
 
   <p>
@@ -71,7 +42,7 @@
       target="_blank">
       Zgromadzenia Narodowego
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
     została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
     trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
     <a
@@ -80,7 +51,7 @@
       target="_blank">
       Dz.U. z 1992 r. nr 67, poz. 336
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
     zm.:
     <a
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
@@ -88,7 +59,7 @@
       target="_blank">
       Dz.U. z 1994 r. nr 61, poz. 251
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
     ).
   </p>
   <h3>Skorowidz</h3>
@@ -99,7 +70,7 @@
       target="_blank">
       skorowidz
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
   </h5>
 
   <h3>Biuletyny</h3>
@@ -110,7 +81,7 @@
       target="_blank">
       lista biuletynów
     </a>
-    <img class="ext-link" src="images/external-link.svg" alt="" />
+    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
   </h5>
 
   <ul>

@@ -5,19 +5,6 @@
   import Footer from "../components/Footer.svelte";
 </script>
 
-<style>
-  p {
-    text-align: justify;
-  }
-
-  img {
-    width: 100%;
-  }
-  h3 {
-    padding-top: 16px;
-  }
-</style>
-
 <svelte:head>
   <title>Aplikacja desktopowa</title>
   <meta
@@ -35,9 +22,9 @@
 <Nav segment={'info'} />
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-  <h3>Aplikacja desktopowa</h3>
+  <h1 class="text-xl font-bold">Aplikacja desktopowa</h1>
 
-  <p>
+  <p class="pt-2 text-justify">
     <strong>Chrome</strong>
     (i inne przeglądarki oparte na Chromium, np. Opera, Brave). Po wejściu na
     stronę konstytucja.online na komputerze w prawym górnym rogu ekranu, w pasku
@@ -48,5 +35,5 @@
     należy włączyć internet i przeładować stronę; przy następnym podejściu te
     treści będą widoczne także w trybie offline.
   </p>
-  <img src="images/chrome-desktop-guide.png" alt="" srcset="" />
+  <img class="pt-2 w-full" src="images/chrome-desktop-guide.png" alt="" />
 </div>

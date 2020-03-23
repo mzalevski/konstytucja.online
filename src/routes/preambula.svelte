@@ -3,62 +3,6 @@
   import Nav from "../components/Nav.svelte";
 </script>
 
-<style>
-  p {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 0;
-  }
-  .decor-border {
-    min-height: auto;
-    padding: 3em;
-    border: double 2px rgb(160, 40, 40);
-    border-radius: 5px;
-  }
-  .bc1 {
-    border-color: rgba(160, 40, 40, 0.2);
-    margin: 1rem 0;
-  }
-  .bc2 {
-    border-color: rgba(160, 40, 40, 0.35);
-  }
-  .bc3 {
-    border-color: rgba(160, 40, 40, 0.5);
-  }
-  .bc4 {
-    border-color: rgba(160, 40, 40, 0.65);
-  }
-  @media (max-width: 1100px) {
-    p {
-      font-size: 1.25rem;
-    }
-    .decor-border {
-      padding: 2rem;
-    }
-  }
-  @media (max-width: 600px) {
-    p {
-      font-size: 1rem;
-    }
-    .decor-border {
-      padding: 0.4rem;
-    }
-    .bc1 {
-      border-color: rgba(160, 40, 40, 0.025);
-    }
-    .bc2 {
-      border-color: rgba(160, 40, 40, 0.05);
-    }
-    .bc3 {
-      border-color: rgba(160, 40, 40, 0.1);
-    }
-    .bc4 {
-      border-color: rgba(160, 40, 40, 0.2);
-      padding: 1rem;
-    }
-  }
-</style>
-
 <svelte:head>
   <title>Preambuła</title>
   <link rel="canonical" href="https://konstytucja.online/preambula" />
@@ -77,71 +21,141 @@
 
 <Nav segment={'preambula'} />
 
-<div class="decor-border bc1">
-  <div class="decor-border bc2" in:fade={{ duration: 800 }}>
-    <div class="decor-border bc3" in:fade={{ duration: 1200 }}>
-      <div class="decor-border bc4" in:fly={{ y: 200, duration: 800 }}>
-        <p>W trosce o byt i przyszłość naszej Ojczyzny,</p>
-        <p>
+<div
+  class="p-2 md:p-8 lg:p-12 border-2 border-double rounded-md border-gray-100">
+  <div
+    class="p-2 md:p-8 lg:p-12 border-2 border-double rounded-md border-gray-200 "
+    in:fade={{ duration: 800 }}>
+    <div
+      class="p-2 md:p-8 lg:p-12 border-2 border-double rounded-md
+      border-gray-300"
+      in:fade={{ duration: 1200 }}>
+      <div class="p-1" in:fly={{ y: 200, duration: 800 }}>
+        <p
+          class="text-center text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          W trosce o byt i przyszłość naszej Ojczyzny,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           odzyskawszy w 1989 roku możliwość suwerennego i demokratycznego
           stanowienia o Jej losie,
         </p>
-        <p>my, Naród Polski - wszyscy obywatele Rzeczypospolitej,</p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          my, Naród Polski - wszyscy obywatele Rzeczypospolitej,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           zarówno wierzący w Boga będącego źródłem prawdy, sprawiedliwości,
           dobra i piękna,
         </p>
-        <p>jak i nie podzielający tej wiary,</p>
-        <p>a te uniwersalne wartości wywodzący z innych źródeł,</p>
-        <p>równi w prawach i w powinnościach wobec dobra wspólnego - Polski,</p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          jak i nie podzielający tej wiary,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          a te uniwersalne wartości wywodzący z innych źródeł,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          równi w prawach i w powinnościach wobec dobra wspólnego - Polski,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           wdzięczni naszym przodkom za ich pracę, za walkę o niepodległość
           okupioną ogromnymi ofiarami, za kulturę zakorzenioną w chrześcijańskim
           dziedzictwie Narodu i ogólnoludzkich wartościach,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           nawiązując do najlepszych tradycji Pierwszej i Drugiej
           Rzeczypospolitej,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           zobowiązani, by przekazać przyszłym pokoleniom wszystko, co cenne z
           ponad tysiącletniego dorobku,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           złączeni więzami wspólnoty z naszymi rodakami rozsianymi po świecie,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           świadomi potrzeby współpracy ze wszystkimi krajami dla dobra Rodziny
           Ludzkiej,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           pomni gorzkich doświadczeń z czasów, gdy podstawowe wolności i prawa
           człowieka były w naszej Ojczyźnie łamane,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           pragnąc na zawsze zagwarantować prawa obywatelskie, a działaniu
           instytucji publicznych zapewnić rzetelność i sprawność,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           w poczuciu odpowiedzialności przed Bogiem lub przed własnym sumieniem,
         </p>
-        <p>ustanawiamy Konstytucję Rzeczypospolitej Polskiej</p>
-        <p>jako prawa podstawowe dla państwa</p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          ustanawiamy Konstytucję Rzeczypospolitej Polskiej
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          jako prawa podstawowe dla państwa
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           oparte na poszanowaniu wolności i sprawiedliwości, współdziałaniu
           władz, dialogu społecznym oraz na zasadzie pomocniczości
         </p>
-        <p>umacniającej uprawnienia obywateli i ich wspólnot.</p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          umacniającej uprawnienia obywateli i ich wspólnot.
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           Wszystkich, którzy dla dobra Trzeciej Rzeczypospolitej tę Konstytucję
           będą stosowali,
         </p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           wzywamy, aby czynili to, dbając o zachowanie przyrodzonej godności
           człowieka,
         </p>
-        <p>jego prawa do wolności i obowiązku solidarności z innymi,</p>
-        <p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
+          jego prawa do wolności i obowiązku solidarności z innymi,
+        </p>
+        <p
+          class="text-center pt-4 text-md sm:text-xl md:text-1xl lg:text-2xl
+          xl:text-4xl">
           a poszanowanie tych zasad mieli za niewzruszoną podstawę
           Rzeczypospolitej Polskiej.
         </p>

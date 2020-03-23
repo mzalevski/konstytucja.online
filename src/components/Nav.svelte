@@ -1,190 +1,88 @@
 <script>
   export let segment;
+  let showDropdown = false;
 </script>
 
-<style>
-  a {
-    /* otherwise the color is blue */
-    text-decoration: none;
-    color: inherit;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    font-weight: 300;
-    padding: 0 0em;
-    margin-bottom: 1em;
-  }
-  :global(body.dark-mode) nav {
-    border-bottom-color: rgba(255, 255, 255, 0.05);
-  }
-  ul {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-  }
+<nav class="sm:flex items-baseline border-b border-gray-200 mb-2 sm:mb-4">
+  <div
+    class="w-full flex justify-center sm:justify-start items-baseline sm:w-2/3
+    lg:w-1/2 xl:w-2/5">
+    <a
+      class:active={segment === undefined}
+      class="logo sm:pl-1 font-bold text-3xl sm:text-4xl text-red"
+      rel="prefetch"
+      href="/">
+      Konstytucja
+    </a>
+    <a
+      class:active={segment === 'preambula'}
+      class="pl-3 sm:pl-4 md:pl-6 hover:text-red"
+      rel="prefetch"
+      href="preambula">
+      Preambuła
+    </a>
+    <a
+      class:active={segment === undefined}
+      class="pl-2 md:pl-4 hover:text-red"
+      rel="prefetch"
+      href="/">
+      Artykuły
+    </a>
 
-  ul li:last-child a {
-    padding-right: 0;
-  }
-
-  ul::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-
-  li {
-    display: block;
-    float: left;
-  }
-  .selected {
-    position: relative;
-    display: inline-block;
-  }
-
-  .selected::after {
-    position: absolute;
-
-    content: "";
-    width: calc(100% - 0.96rem);
-    height: 2px;
-    background-color: rgb(160, 40, 40);
-    display: block;
-    bottom: -1px;
-  }
-  ul li:last-child .selected::after {
-
-    width: calc(100% - 0.05rem);
-
-  }
-
-  a {
-    text-decoration: none;
-    padding: 1em 1em 1em 0em;
-    display: block;
-  }
-  a:focus,
-  a:hover {
-    color: rgb(160, 40, 40);
-  }
-  .logo-letter {
-    font-family: "Alex Brush", cursive;
-    font-size: 2.3em;
-    font-weight: 700;
-    padding: 0px 0.85em 0px 0.1em;
-    color: rgb(160, 40, 40);
-  }
-  li {
-    display: block;
-    transition-duration: 0.5s;
-  }
-
-  .dropdown {
-    position: relative;
-    cursor: default;
-    display: inline-block;
-  }
-
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    left: -2.8rem;
-    top: 3.3rem;
-    background-color: rgba(255, 255, 255, 0.9);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-bottom: solid 1.5px;
-    border-color: rgb(160, 40, 40);
-    z-index: 1;
-  }
-
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-  }
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover,
-  .dropdown-content a:focus {
-    color: rgb(160, 40, 40);
-  }
-
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  @media (max-width: 1100px) {
-    ul {
-      display: flex;
-      justify-content: center;
-      border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-      margin-bottom: 0.5em;
-    }
-
-    li a {
-      text-align: center;
-    }
-    nav {
-      display: block;
-      border-bottom: none;
-      margin-bottom: 0.5em;
-    }
-    .dropdown-content {
-      left: -3.2rem;
-    }
-  }
-  @media (max-width: 420px) {
-    .dropdown-content {
-      left: -3.9rem;
-      top: 2.55rem;
-    }
-    .selected::after {
-      width: calc(100% - 0.6rem);
-    }
-  }
-
-</style>
-
-<nav>
-  <ul>
-    <li>
-      <a class="logo-letter" rel="prefetch" href="/">Konstytucja</a>
-    </li>
-    <li>
+    <div class="relative" on:mouseleave={() => (showDropdown = false)}>
       <a
-        class:selected={segment === 'preambula'}
-        rel="prefetch"
-        href="preambula">
-        Preambuła
+        href="/"
+        class:active={segment === 'info'}
+        on:mouseenter={() => (showDropdown = true)}
+        class="pl-2 cursor-default md:pl-4 hover:text-red">
+        Informacje
       </a>
-    </li>
-    <li>
-      <a class:selected={segment === undefined} rel="prefetch" href=".">
-        Artykuły
-      </a>
-    </li>
-    <li>
-      <div class="dropdown">
-        <a class:selected={segment === 'info'}>
-          Informacje
-        </a>
-        <div class="dropdown-content">
-          <a rel="prefetch" href="/komisja">Komisja Konstytucyjna</a>
-          <a rel="prefetch" href="/legislacja">Proces legislacyjny</a>
-          <a rel="prefetch" href="/slownik">Słownik pojęć</a>
-          <a rel="prefetch" href="/app-mobile">Aplikacja - mobile</a>
-          <a rel="prefetch" href="/app-desktop">Aplikacja - desktop</a>
-          <a rel="prefetch" href="/inicjatywa">Inicjatywa</a>
+      {#if showDropdown}
+        <div
+          class="absolute w-screen sm:w-48 p-2 cursor-default shadow-lg rounded
+          border-gray-200 bg-white z-10">
+          <a
+            class="block sm:pl-2 hover:text-red"
+            rel="prefetch"
+            href="/komisja">
+            Komisja Konstytucyjna
+          </a>
+          <a
+            class="block sm:pl-2 pt-1 hover:text-red"
+            rel="prefetch"
+            href="/legislacja">
+            Proces legislacyjny
+          </a>
+          <a
+            class="block sm:pl-2 pt-1 hover:text-red"
+            rel="prefetch"
+            href="/slownik">
+            Słownik pojęć
+          </a>
+          <a
+            class="block sm:pl-2 pt-1 hover:text-red"
+            rel="prefetch"
+            href="/app-mobile">
+            Aplikacja - mobile
+          </a>
+          <a
+            class="block sm:pl-2 pt-1 hover:text-red"
+            rel="prefetch"
+            href="/app-desktop">
+            Aplikacja - desktop
+          </a>
+          <a
+            class="block sm:pl-2 pt-1 hover:text-red"
+            rel="prefetch"
+            href="/inicjatywa">
+            Inicjatywa
+          </a>
         </div>
-      </div>
+      {/if}
+    </div>
+  </div>
 
-    </li>
-  </ul>
-  <slot />
+  <div class="w-full sm:w-1/3 lg:w-1/2 xl:w-3/5 z-0">
+    <slot />
+  </div>
 </nav>

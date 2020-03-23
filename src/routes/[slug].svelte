@@ -45,112 +45,6 @@
   });
 </script>
 
-<style>
-  .low-opacity {
-    color: rgba(0, 0, 0, 0.5);
-  }
-  :global(body.dark-mode) .low-opacity {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .no-dots :global(li) {
-    list-style-type: none;
-  }
-  h1 {
-    font-size: 2em;
-    text-align: center;
-    margin: 1em;
-  }
-  .back {
-    width: 60px;
-  }
-  h3 {
-    margin-top: 0.2em;
-  }
-
-  .big-article-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3em;
-  }
-
-  .small-article-nav {
-    width: 40px;
-    padding-left: 20px;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .small-article-nav a svg {
-    width: 12.5px;
-    height: 25px;
-  }
-  .left {
-    padding-right: 10px;
-  }
-  .right {
-    padding-left: 10px;
-  }
-
-  .content {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-  }
-
-  .content :global(div) {
-    margin: 2em 0 2em 0;
-  }
-
-  .content :global(p, li) {
-    text-align: justify;
-  }
-  .art-body {
-    margin-bottom: 5vh;
-  }
-
-  .content :global(pre) {
-    background-color: #f9f9f9;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
-    padding: 0.5em;
-    border-radius: 2px;
-    overflow-x: auto;
-  }
-
-  .content :global(pre) :global(code) {
-    background-color: transparent;
-    padding: 0;
-  }
-
-  .content :global(ul) {
-    line-height: 1.5;
-  }
-
-  .content :global(li) {
-    margin: 0 0 0.5em 0;
-  }
-  .content :global(a) {
-    text-decoration: underline;
-  }
-  .content :global(.desc-author) {
-    text-align: right;
-    font-style: italic;
-  }
-
-  :global(body.dark-mode) svg {
-    fill: white;
-  }
-
-  @media (max-width: 1100px) {
-    .chapter-name {
-      word-wrap: break-word;
-      width: 200px;
-      text-align: center;
-    }
-  }
-</style>
-
-<noscript>Włącz działanie skryptów, aby skorzystać ze strony.</noscript>
-
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
   <link rel="canonical" href="https://konstytucja.online/{article.slug}" />
@@ -182,15 +76,7 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="angle-left"
-          class="svg-inline--fa fa-angle-left fa-w-8"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 256 512">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
           <path
             fill="currentColor"
             d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
@@ -209,15 +95,7 @@
           isDescriptionVisible = false;
           isDisqusVisible = false;
         }}>
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="angle-right"
-          class="svg-inline--fa fa-angle-right fa-w-8"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 256 512">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
           <path
             fill="currentColor"
             d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9

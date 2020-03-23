@@ -5,62 +5,6 @@
   let yAxisPosition;
 </script>
 
-<style>
-  :global(body) {
-    background-color: #ffffff;
-    transition: background-color 0.3s;
-  }
-  :global(body.dark-mode) {
-    background-color: #1d3040;
-    color: #ffffff;
-  }
-  main {
-    width: 60vw;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-
-  @media (max-width: 1800px) {
-    main {
-      width: 70vw;
-    }
-  }
-  @media (max-width: 1700px) {
-    main {
-      width: 75vw;
-    }
-  }
-  @media (max-width: 1600px) {
-    main {
-      width: 80vw;
-    }
-  }
-  @media (max-width: 1500px) {
-    main {
-      width: 85vw;
-    }
-  }
-  @media (max-width: 1400px) {
-    main {
-      width: 90vw;
-    }
-  }
-  @media (max-width: 1240px) {
-    main {
-      width: 98vw;
-    }
-  }
-  @media (max-width: 600px) {
-    main {
-      width: 91vw;
-    }
-  }
-</style>
-
 <svelte:window bind:scrollY={yAxisPosition} />
 
 <svelte:head>
@@ -69,12 +13,17 @@
     rel="stylesheet" />
 </svelte:head>
 
-<main>
+<main
+  class="container min-h-screen flex flex-col mx-auto px-1 sm:px-2 md:px-3
+  xl:px-16 py-2 antialiased text-gray-900 text-xs font-light sm:text-base
+  overflow-hidden">
   <DarkMode />
   {#if yAxisPosition > 300}
     <ToTheTopBtn />
   {/if}
-  <slot />
+  <div class="flex-1">
+    <slot />
+  </div>
   <Footer />
 
 </main>
