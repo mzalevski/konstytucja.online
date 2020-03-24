@@ -58,14 +58,14 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav />
+<Nav segment={'articles'} />
 
-<div class="big-article-nav">
+<div class="flex justify-between">
   <a class="back" rel="prefetch" href="#{$page.params.slug}">powrót</a>
   <h3 class="chapter-name">
     {article.chapter['id']} {article.chapter['title']}
   </h3>
-  <div class="small-article-nav">
+  <div class="flex justify-between">
     {#if $page.params.slug > 1}
       <a
         class="left"
