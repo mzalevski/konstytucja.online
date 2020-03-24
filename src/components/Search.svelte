@@ -23,20 +23,22 @@
   <div class="relative">
 
     <input
-      class="w-full font-light sm:w-40 md:w-56 lg:w-64 px-8 md:pl-8 md:pr-10
-      border rounded"
+      class="w-full font-light sm:w-40 md:w-56 lg:w-64 py-1 px-8 lg:pl-10
+      md:pr-10 border border-gray-100 shadow-sm rounded-md focus:outline-none
+      focus:bg-gray-100"
       bind:value={searchedText}
       on:input={sendChoice} />
     <div
-      class="absolute inset-y-0 right-0 px-2 cursor-help flex"
+      class="absolute inset-y-0 right-0 px-2 cursor-help flex flex-col
+      justify-center"
       title="liczba wyświetlonych artykułów">
-      {count}
+      <div class="">{count}</div>
     </div>
     <div
       class="pointer-events-none absolute inset-y-0 left-0 flex items-center
       px-2 text-gray-500">
       <svg
-        class="fill-current w-3 h-3 sm:w-4 sm:h-4"
+        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg">
         <g fill-rule="evenodd">
@@ -60,9 +62,9 @@
     relative">
     <div
       class="pointer-events-none absolute inset-y-0 left-0 flex items-center
-      px-2 text-gray-500">
+      sm:justify-center sm:w-full lg:w-auto px-2 sm:px-0 lg:px-2 text-gray-500">
       <svg
-        class="fill-current w-3 h-3 sm:w-4 sm:h-4"
+        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg">
         <g fill-rule="evenodd">
@@ -81,9 +83,10 @@
       </svg>
     </div>
     <select
-      class="w-full sm:w-8 lg:w-full cursor-pointer px-8 sm:px-0 lg:px-8 border
-      rounded bg-white appearance-none text-gray-900 font-light
-      sm:text-transparent lg:text-gray-900"
+      class="w-full sm:w-8 lg:w-full cursor-pointer py-1 px-8 sm:px-0 lg:px-10
+      rounded-md border border-gray-100 shadow-sm bg-white appearance-none
+      text-gray-900 font-light sm:text-transparent lg:text-gray-900
+      focus:outline-none focus:bg-gray-100"
       bind:value={selectedChapter}
       on:change={sendChoice}>
 
@@ -135,7 +138,7 @@
       right-0 items-center px-2 text-gray-900">
 
       <svg
-        class="fill-current w-3 h-3 sm:w-4 sm:h-4"
+        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20">
         <path

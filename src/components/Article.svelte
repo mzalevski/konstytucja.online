@@ -18,8 +18,8 @@
 <a class="cursor-pointer" rel="prefetch" href="/{slug}">
   <div
     id={slug}
-    class="mb-2 md:mb-3 lg:mb-4 px-4 py-6 border border-gray-200 rounded
-    text-justify hover:text-red">
+    class="mb-2 md:mb-3 lg:mb-4 px-4 py-6 border border-gray-100 shadow-sm
+    rounded-md text-justify hover:shadow-lg">
     <div class="flex justify-between">
       <div>
         <strong>{title}</strong>
