@@ -3,3 +3,4 @@
 /__sapper__/
 .vscode/settings.json
 .vscode
+static/css/global.css
