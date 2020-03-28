@@ -19,12 +19,14 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ x: -50, duration: 1000 }}>
-  <h1 class="text-2xl font-semibold">Słownik pojęć</h1>
-</div>
+<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+  Słownik pojęć
+</h1>
 
 <div in:fade={{ duration: 3000 }}>
-  <h2 class="text-2xl text-red font-bold">Prace w toku . . .</h2>
+  <h2 class="text-lg font-bold text-gray-500 uppercase tracking-wider">
+    Prace w toku
+  </h2>
 </div>
 
 <div in:fly={{ x: 20, duration: 1500, delay: 800 }} class="flex justify-end">
