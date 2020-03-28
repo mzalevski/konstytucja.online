@@ -39,40 +39,40 @@
       </a>
       {#if showDropdown}
         <div
-          class="absolute w-screen sm:w-48 p-2 cursor-default shadow-lg rounded
+          class="absolute w-24 sm:w-48 p-2 cursor-default shadow-lg rounded
           border-gray-200 bg-white z-10">
           <a
-            class="block sm:ml-2 hover:text-red"
+            class="block md:ml-2 hover:text-red"
             rel="prefetch"
             href="/komisja">
             Komisja Konstytucyjna
           </a>
           <a
-            class="block sm:ml-2 pt-1 hover:text-red"
+            class="block md:ml-2 pt-1 hover:text-red"
             rel="prefetch"
             href="/legislacja">
             Proces legislacyjny
           </a>
           <a
-            class="block sm:ml-2 pt-1 hover:text-red"
+            class="block md:ml-2 pt-1 hover:text-red"
             rel="prefetch"
             href="/slownik">
             Słownik pojęć
           </a>
           <a
-            class="block sm:ml-2 pt-1 hover:text-red"
+            class="block md:ml-2 pt-1 hover:text-red"
             rel="prefetch"
             href="/app-mobile">
-            Amlikacja - mobile
+            Aplikacja - mobile
           </a>
           <a
-            class="block sm:ml-2 pt-1 hover:text-red"
+            class="block md:ml-2 pt-1 hover:text-red"
             rel="prefetch"
             href="/app-desktop">
-            Amlikacja - desktop
+            Aplikacja - desktop
           </a>
           <a
-            class="block sm:ml-2 pt-1 hover:text-red"
+            class="block md:ml-2 pt-1 hover:text-red"
             rel="prefetch"
             href="/inicjatywa">
             Inicjatywa
