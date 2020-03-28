@@ -1,6 +1,6 @@
 <script>
   import { stores } from "@sapper/app";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -21,23 +21,32 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ y: 100, duration: 1000 }}>
+<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+  Komisja Konstytucyjna
+</h1>
 
-  <h1 class="text-2xl font-semibold">Legislacja</h1>
-
-  <h2 class="pt-3 text-lg font-semibold">Uchwalenie Konstytucji</h2>
-  <span>
+<div in:fade={{ duration: 3000 }}>
+  <h2 class="mt-4 text-xl font-thin">Uchwalenie Konstytucji</h2>
+  <p>
     <a
-      class="underline hover:text-red focus:text-red"
+      class="text-sm font-bold text-gray-500 uppercase tracking-wider"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
       target="_blank">
       Dz.U. 1997 nr 78 poz. 483
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
-  </span>
+    <svg
+      class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
+  </p>
 
-  <p class="pt-1 text-justify">
+  <p class="pt-2 text-justify">
     Konstytucja Rzeczypospolitej Polskiej została uchwalona przez Zgromadzenie
     Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum
     konstytucyjnym w dniu 25 maja 1997 r., a następnie podpisana przez
@@ -66,19 +75,27 @@
     nowej konstytucji).
   </p>
 
-  <h2 class="pt-3 text-lg font-semibold">Sprostowanie błędów</h2>
+  <h2 class="mt-4 text-xl font-thin">Sprostowanie błędów</h2>
   <span>
     <a
-      class="underline hover:text-red focus:text-red"
+      class="text-sm font-bold text-gray-500 uppercase tracking-wider"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319"
       rel="nofollow"
       target="_blank">
       Dz.U. z 2001 r. nr 28, poz. 319
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
   </span>
 
-  <p class="pt-1 text-justify">
+  <p class="pt-2 text-justify">
     W pierwotnym tekście Konstytucji, znalazły się dwa błędy, które zgodnie z
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
@@ -89,7 +106,15 @@
       target="_blank">
       Dz.U. 2000 nr 62 poz. 718
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
     ) zostały sprostowane w dniu 26 marca 2001 r. obwieszczeniem Prezesa Rady
     Ministrów:
   </p>
@@ -117,21 +142,29 @@
     </li>
   </ol>
 
-  <h2 class="pt-3 text-lg font-semibold">Nowelizacje Konstytucji</h2>
+  <h2 class="mt-4 text-xl font-thin">Nowelizacje Konstytucji</h2>
 
-  <h3 class="pt-2 text-md font-semibold">Nowelizacja z 2006</h3>
+  <h3 class="mt-3 text-lg font-thin">Nowelizacja z 2006</h3>
   <span>
     <a
-      class="underline hover:text-red focus:text-red"
+      class="text-xs font-bold text-gray-500 uppercase tracking-wide"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20062001471"
       rel="nofollow"
       target="_blank">
       Dz.U. 2006 nr 200 poz. 1471
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
   </span>
 
-  <p class="pt-1 text-justify">
+  <p class="pt-2 text-justify">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -159,7 +192,15 @@
       głosowaniu
     </a>
     ,
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
     wzięło udział 421 posłów, za głosowało 344, przeciw 48, wstrzymało się 29,
     nie głosowało 39 posłów. Tekst ustawy został przekazany następnie do Senatu,
     który 14 września 2006 – na podstawie art. 235 ust. 2 in fine konstytucji –
@@ -172,24 +213,40 @@
       target="_blank">
       podpisał nowelę
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
     którą opublikowano 7 listopada 2006; zgodnie z art. 2 ustawy o zmianie
     Konstytucji, nowelizacja weszła w życie z dniem ogłoszenia.
   </p>
 
-  <h3 class="pt-2 text-md font-semibold">Nowelizacja z 2009</h3>
+  <h3 class="mt-3 text-lg font-thin">Nowelizacja z 2009</h3>
   <span>
     <a
-      class="underline hover:text-red focus:text-red"
+      class="text-xs font-bold text-gray-500 uppercase tracking-wide"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20091140946"
       rel="nofollow"
       target="_blank">
       Dz.U. 2009 nr 114 poz. 946
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
   </span>
 
-  <p class="pt-1 text-justify">
+  <p class="pt-2 text-justify">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -213,7 +270,15 @@
       target="_blank">
       głosowaniu
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
     wzięło udział 413 posłów, za głosowało 404, przeciw 0, wstrzymało się 9, nie
     głosowało 47. Ustawa została 1 lipca 2009 uchwalona przez Senat, a następnie
     <a
@@ -223,7 +288,15 @@
       target="_blank">
       podpisana
     </a>
-    <img class="inline-block w-3 h-3" src="images/external-link.svg" alt="" />
+    <svg
+      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24">
+      <path
+        d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
+        0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+    </svg>
     9 lipca 2009 przez Prezydenta RP Lecha Kaczyńskiego i opublikowana 20 lipca
     2009. Zmiana weszła w życie 21 października 2009, mając jednak zastosowanie
     dopiero począwszy od kolejnych kadencji Sejmu i Senatu (tj. od VII kadencji

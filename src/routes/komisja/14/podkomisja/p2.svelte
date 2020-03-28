@@ -5,81 +5,26 @@
 </script>
 
 <style>
-  p {
-    text-align: justify;
-  }
-  h3 {
-    margin: 0;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-  }
-
-  .speaker {
-    display: flex;
-  }
-  .speaker img {
-    min-width: 110px;
-    border-radius: 3px;
-  }
-
-  .speaker p {
-    padding: 2.5rem;
-    border: solid 1px;
-    border-color: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-  }
-  .protocol .speaker:nth-child(odd) img {
-    margin: 0 1em 0 0;
-    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 0;
-  }
   .protocol .speaker:nth-child(even) {
     justify-content: flex-end;
   }
-  .protocol .speaker:nth-child(odd) p {
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) img {
-    margin: 0 0 0 1em;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) p {
-    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
+
+  .protocol .speaker:nth-child(odd) img {
+    margin: 0 1em 0 0;
     order: 0;
   }
-  .small-article-nav {
-    text-align: right;
-    width: 60px;
+
+  .protocol .speaker:nth-child(odd) p {
+    order: 1;
   }
 
-  .small-article-nav a svg {
-    width: 25px;
-    height: 25px;
+  .protocol .speaker:nth-child(even) img {
+    margin: 0 0 0 1em;
+    order: 1;
   }
-  @media (max-width: 500px) {
-    .speaker img {
-      height: 60px;
-      width: 60px;
-      min-width: 60px;
-    }
-    .protocol .speaker:nth-child(odd) img {
-      margin: 0 0.5rem 0 0;
-    }
-    .protocol .speaker:nth-child(even) img {
-      margin: 0 0 0 0.5rem;
-    }
-    .speaker p {
-      padding: 0.5rem;
-      font-size: 12px;
-    }
+
+  .protocol .speaker:nth-child(even) p {
+    order: 0;
   }
 </style>
 
@@ -89,9 +34,11 @@
 
 <Nav segment={'info'} />
 
-<div class="header">
+<div class="flex justify-between pt-4 pb-8 border-b mb-8">
   <div>
-    <h3>Obrady w dniu 22 lutego 1995 r. - podkomisja cz. II</h3>
+    <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+      Obrady w dniu 22 lutego 1995 r. - podkomisja cz. II
+    </h1>
     <!-- <h5>
       <a
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
@@ -127,14 +74,15 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
 
-    <div class="speaker">
+    <div class="flex speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Otwieram drugie w dniu dzisiejszym posiedzenie podkomisji. Rozumiem, że
         nasza poprzednia dyskusja ujawniła dwie kwestie, które powinny sprzyjać
@@ -161,14 +109,15 @@
         doprecyzowania w tej fazie wymaga propozycja posła T. Mazowieckiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Nie uważam, że ust. 3 zawierający zwrot: „określa umowa międzynarodowa”
         obliguje państwo do jej zawarcia. Może wyjaśnimy sobie ten problem. Mnie
@@ -178,27 +127,29 @@
         poszczególne ustępy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Do tej fazy proponowałbym przejść jeszcze nie teraz. Chciałbym
         zaproponować pewne sformułowanie, ale po dyskusji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Rozumiejąc różne urazy historyczne i inne starałem się wyjść im
         naprzeciw. Nie może być takie wychodzenie naprzeciw, które niweluje sens
@@ -210,14 +161,15 @@
         instytucja kościelna w naszym kraju.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Mnie się wydaje, że nie spotkało się to ze sprzeciwem. Nie pamiętam,
         żeby propozycja wyodrębnienia dwóch ustępów spotkała się z
@@ -226,40 +178,43 @@
         zdań.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         O ile pamiętam, to w projekcie posła W. Cimoszewicza sprawy te są
         umieszczone w jednym ustępie, są one ukryte.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Nie ma zasadniczego sprzeciwu wobec uwzględnienia w osobnym ustępie
         tylko Kościoła katolickiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Otrzymałem przed chwilą od prof. Z. Łyki projekt art. 15 w nowej wersji.
         Odpowiada on propozycji posła T. Mazowieckiego, z tym że dokonana
@@ -285,14 +240,15 @@
         zdaniem byłaby to propozycja, nad którą można głosować.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Powinniśmy zachowywać się pragmatycznie. Zakładam, że wszyscy mamy wolę
         osiągnięcia porozumienia. Dlatego bądźmy bardziej powściągłiwi w
@@ -346,14 +302,15 @@
         porozumienia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LykoZachariasz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
           Zachariasz Łyko:
@@ -372,14 +329,15 @@
         ocenę podkomisji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Czy mam rozumieć, że ust. 3 w brzmieniu: „Kościoły i związki wyznaniowe
         są oddzielone od państwa” jest także przedmiotem konsensu?
@@ -389,14 +347,15 @@
         spotkania po ogłoszeniu przerwy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Myślę, że znaleźliśmy się w nowej, korzystniejszej sytuacji, bo spór,
         który toczyliśmy wobec pojęć „autonomia i oddzielenie” został
@@ -405,14 +364,15 @@
         propozycję akceptuję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Optowałbym przeciwko uwzględnieniu w przepisie instytucji publicznych.
         Sądzę, że zamiast wyjaśniać sytuację, tylko ją komplikujemy. Możliwe są
@@ -425,14 +385,15 @@
         liczbę konfliktów przy zachowaniu takiego brzmienia przepisu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że wszyscy z państwa mają ten tekst. Czy zastrzeżenie
         dotyczące ust. 1 jest jedynym zastrzeżeniem, czy są inne uwagi?
@@ -440,14 +401,15 @@
         do ich wymyślania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Chciałbym poprzeć propozycję, żeby wykreślić z tego przepisu instytucje,
         ale nie ze względu na religijne prze konania. Jeżeli przyjąć, że
@@ -471,14 +433,15 @@
         Nie na rzucajmy przez nakaz poparty prawem takich czy innych przekonań.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Mam jedno zastrzeżenie dotyczące rozszerzenia przekonań również o
         przekonania ideologiczne. Gdyby w ust. 1 postawić kropkę po wyrazie
@@ -493,26 +456,28 @@
         wypływających z określonych filozofii ma być zachowana neutralność.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że wniosek polegałby na skreśleniu ostatniego wyrazu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Ta propozycja powstała jak gdyby na szkielecie mojego projektu. Uważam,
         że w ust. I powinny być wymienione władze publiczne, bez instytucji.
@@ -596,14 +561,15 @@
         stosunków.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Miałem w pewnym momencie nadzieję, że jesteśmy bliżsi porozumieniu, a w
         tej chwili znowu pojawiają się wątpliwości. Będę starał się nie
@@ -672,14 +638,15 @@
         zachować precyzję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Nawiązując do ostatnich słów posła W. Cimoszewicza, które trafiają mi do
         przekonania, stanowczo oponuję przeciw zamieszczeniu w tym przepisie
@@ -702,14 +669,15 @@
         takiego sformułowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Wracam do ust. 1. Uważam, że instytucje publiczne muszą mieć
         zagwarantowaną neutralność w sprawach religijnych i światopoglądowych.
@@ -739,14 +707,15 @@
         poważnie traktujemy zawarcie umowy między Watykanem a Rzecząpos politą.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Konstytucja ta była napisana wówczas, kiedy Hiszpania miała konkordat.
         Nie jestem pewien, czy nie ma tam innych artykułów regulujących sytuację
@@ -754,26 +723,28 @@
         przepisaniu tych artykułów z konstytucji hiszpańskiej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Nie chcę ich przepisywać.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Mamy szansę na dokonanie przełomu i osiągnięcie porozumienia.
         Nawoływałbym do poszukiwania pragmatycznego wyjścia z różnych sytuacji.
@@ -923,14 +894,15 @@
         zaproponowanej formie nie jest uzasadniony.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rzeczywiście spór nie toczy się o to, czy dopuszczamy zawarcie
         konkordatu, czy nie, choć są i takie poglądy. Konkordat ma określony
@@ -988,14 +960,15 @@
         uznanych związkach wyznaniowych. Porozumienie zawiera drogę legalizacji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Zachęcałbym dyskutantów do zwięzłych wypowiedzi. Przedstawiciel
         Polskiego Autokefalicznego Kościoła Prawosławnego, ks. bp Jeremiasz:
@@ -1009,14 +982,15 @@
         katolickiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Przed paroma godzinami zgłosiłem wersję tego przepisu, poszukując
         formuły, która godziłaby możliwie najwięcej propozycji zawartych w
@@ -1070,14 +1044,15 @@
         zadań” rozumieją pod tym pojęciem?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Odpowiadając na wątpliwości posła R. Bugaja w sprawie wojska Ii np.
         występowania elementów przymusu zwracam uwagę, że dotyczy to władz
@@ -1090,28 +1065,30 @@
         elementów jest przejawem pewnego przeczulenia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jeżeli są nowe argumenty, to proszę je zgłaszać, a jeżeli nie, to
         spróbowałbym przedstawić spisane przeze mnie warianty, które zgłoszono w
         dyskusji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Propozycja posła W. Cimoszewicza, żeby posłużyć się określeniem
         „instytucje wykonujące zadania państwa” wzbudziła zastrzeżenia posła T.
@@ -1149,14 +1126,15 @@
         jest to zorganizowane państwo obywatelskie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Mnie nie razi propozycja wykreślenia z przepisu instytucji publicznych,
         ale mam alternatywny projekt z użyciem tego określenia, chociaż —
@@ -1167,26 +1145,28 @@
         posługujące się środkami władztwa publicznego”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jest to język niekomunikatywny dla szerszej publiczności.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Przeciwko tej propozycji protestowałbym, dlatego że działanie w sposób
         władczy czy przy pomocy aktów władczych jest tylko jedną z cech
@@ -1195,26 +1175,28 @@
         zlecenie zadań przez ustawę. Jest to język zbyt doktrynalny.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Szczególnie jak na rozdział I konstytucji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Jeżeli mielibyśmy rozstrzygać, to chciałabym usłyszeć odpowiedź na
         pytanie: nad czym będziemy głosować, bo nie widzę tekstu jednolitego? Ta
@@ -1225,14 +1207,15 @@
         poddać ponownemu głosowaniu ten właśnie wariant.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         W głosowaniu możemy o wszystkim rozstrzygnąć, ale mieliśmy ambicję
         osiągnięcia konsensu, co jest trochę inną sprawą. Wydaje mi się, że
@@ -1268,14 +1251,15 @@
         możliwość dokonania rozstrzygnięć.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Nie jestem przekonany co do potrzeby dodania instytucji wykonujących
         zadania państwa. Gotów jestem to przyjąć, ale uważam, że wprowadzamy
@@ -1291,14 +1275,15 @@
         jest ona mało precyzyjna.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Chcę wyjaśnić, że było to nie w kontekście umniejszania zadań kościoła i
         zamykania go w funkcjach religijnych, tylko w kontekście autonomicznego
@@ -1310,14 +1295,15 @@
         państwa była uzgodniona z przedstawicielami kościołów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Zgłaszam wątpliwość. Konstytucja, którą uchwalamy określa w art. l co to
         jest państwo. Państwo jest Rzecząpospolitą Polską. Jeśli tak, to możliwe
@@ -1326,14 +1312,15 @@
         Rzeczypospolitej, bo wydaje mi się to absurdalne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         O ile wiem, to sprawa ta w rozdziale I została inaczej zapisana. Proszę
         o wnioski. Próbuję znaleźć konsens, a jeżeli go nie będzie, to trudno.
@@ -1344,14 +1331,15 @@
         wyznaniowego. W taki sam sposób odnosimy się do państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Na razie jesteśmy bliscy konsensu, jeżeli porozumienie nie zostanie
         zburzone w ostatnim momencie. Odczytam propozycję. „Ust. 1. Władze
@@ -1373,14 +1361,15 @@
         publiczne w Rzeczypospolitej...
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Przepraszam bardzo, ale w poprzednim tekście, który został nam
         rekomendowany jako uzgodniony przez przedstawicieli kościołów, napisano:
@@ -1389,14 +1378,15 @@
         autopoprawki.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że jest to zgłoszone w trybie autopoprawki. (22.02.1995 r. —
         14) 99 Przedstawiciel Sekretariatu Konferencji Episkopatu Polski, ks.
@@ -1410,28 +1400,30 @@
         epoki.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Nie użyłem określenia „zadań religijnych”. Przedstawiciel Sekretariatu
         Konferencji Episkopatu Polski, ks. prof. Józef Krukowski: Tak. Dziękuję
         bardzo. W takim razie pana popieram.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         W stosunku do pierwotnego zapisu zmieniłem tylko jeden element.
         Pierwotnie napisano: „Kościoły I związki wyznaniowe są oddzielone od
@@ -1442,14 +1434,15 @@
         Józef Krukowski: Stylistycznie jest to samo.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że zastrzeżenie księdza profesora dotyczy tylko formuły: „I
         instytucje wykonujące zadania państwa”. Przedstawiciel Sekretariatu
@@ -1462,112 +1455,121 @@
         miejsce ze względów merytorycznych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Co się uważa za wniosek czy projekt poprawki? Upierałbym się przy
         oddzieleniu od organów państwa, a nie od państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jest teraz ten wniosek zgłoszony.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Ja to wyraziłem kilkadziesiąt minut temu. 100 m
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Uwagę przyjmuję z pokorą.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Naprawdę o tym już mówiłem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jak brzmiałaby ta poprawka?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         ,,...oddzielone od organów państwa... .
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Prosiłbym o opinię panów profesorów. Jaka jest różnica między
         oddzieleniem od państwa, a oddzieleniem od organów państwa?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         W kwestii formalnej. Prosiłabym o sprecyzowanie, czy jesteśmy w fazie
         ustalania końcowej wersji artykułu, która będzie poddana pod głosowanie,
@@ -1575,14 +1577,15 @@
         o sprecyzowanie tego z powodów czasowych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jestem w trudnej sytuacji. O godz. 11 wiele osób mówiło, że niesłychanie
         pożądane byłoby osiągnięcie w tej sprawie konsensu w podkomisji. Głównie
@@ -1596,14 +1599,15 @@
         to poddam go pod ocenę podkomisji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Składam wniosek formalny, aby przejść do fazy głosowania w momencie
         pojawienia się wypracowanego przez podkomisję projektu artykułu. Ze słów
@@ -1614,14 +1618,15 @@
         którym moglibyśmy pracować.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Sądzę, że sprawa nie jest całkowicie przegrana, ale jeśli pani poseł
         pozwoli, to za chwileczkę się przekonamy, po wyjaśnieniu poprawki
@@ -1639,14 +1644,15 @@
         osiągnęliśmy postawionego przed nami celu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Apeluję do przewodniczącego, żeby się nie poddawał. Wariant
         przedstawiony przez pana ze względu na zawarte w nim nowe pomysły
@@ -1683,14 +1689,15 @@
         kwestii. Obawiam się, że różnice zdań nadal występują.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Nie poddawałem się w poszukiwaniu konsensu aż do momentu tej wypowiedzi.
         Jeśli sprawa kolejności zdań jest tak zasadnicza, że jej nie możemy
@@ -1709,38 +1716,41 @@
         stosunku do proponowanego przepisu?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Ciężki obowiązek zrzuca na mnie pan poseł.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Nie pierwszy raz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Muszę powiedzieć, że nie podoba mi się formuła „władze państwowe”, czy
         „organy państwowe”. Przepis w wynegocjowanym ujęciu rozumiem w ten
@@ -1759,14 +1769,15 @@
         jako wspólnotę obywatelską.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Potwierdzam, że chodzi tu o państwo w rozumieniu struktury politycznej,
         a nie socjologicznej. Jeśli to razi, to proponowałbym użycie tej samej
@@ -1774,14 +1785,15 @@
         oddzielone od władz publicznych”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Czy ta formuła jest zachęcająca dla senatora K. Kozłowskiego” Jest pan
         właścicielem wniosku, więc jaka jest pańska konkluzja? Jeśli
@@ -1795,39 +1807,42 @@
         wrócić do rozpatrywania tego zagadnienia od początku.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Wycofuję swoją propozycję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Mogę zrezygnować z jakiejkolwiek próby poszukiwania kompromisu, ale
         wówczas będę popierał wariant I zawarty w projekcie podkomisji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Panie pośle, pytam jeszcze raz: czy jest konsens w stosunku do tekstu
         sześcioustępowego? Możemy jeszcze zastanowić się nad kolejnością tych
@@ -1849,14 +1864,15 @@
         osiągniemy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Poza pewnymi sprawami, które zarysowały się jako spome, pojawiają się
         nowe sformułowania. Nie wiem, czy są one przypadkowe. Czy uwagi do
@@ -1866,28 +1882,30 @@
         mówiliśmy, że tę sytuację określają ustawy. 102
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Chodzi o ustawy. Przepraszam, to było moje przejęzyczenie. Moją intencją
         było tylko podzielenie ust. 4 na dwa, bez wprowadzania żadnych zmian w
         stosunku do wersji przedłożonej przez przedstawicieli kościołów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Na jedno pytanie nie uzyskałem jeszcze odpowiedzi. Czy proponujący
         użycie sformułowania „swoich zadań” w odniesieniu do kościołów 4
@@ -1895,14 +1913,15 @@
         finiować?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jest to pytanie skierowane do przedstawicieli kościołów. Obawiam się, że
         odpowiedź na to pytanie nie może paść tak szybko. Poseł Włodzimierz
@@ -1913,14 +1932,15 @@
         Nie rozumiem tego pojęcia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Moim niefachowym umysłem rozumiem, że trzeba to czytać w kontekście
         uregulowań dotyczących sytuacji prawnej kościołów. W tych uregulowaniach
@@ -1930,14 +1950,15 @@
         się pewna praktyka. Tak rozumiem to pojęcie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Mam również pytanie do wnioskodawców tekstu, który rzekomo jest tekstem
         uzgodnionym z przedstawicielami kościołów. Jeżeli tak bardzo
@@ -1947,14 +1968,15 @@
         funkcje religijne i organizacyjne?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Oczywiście, że są pewne zadania społeczne. W tej sprawie mamy pewność,
         bo zadań społecznych nigdy nie kwestionowaliśmy, jak myślę. Osobiście
@@ -1970,14 +1992,15 @@
         tej chwili powtarzać.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Jeżeli ktoś bardzo chciałby zabrać głos, to go udzielę, ale teraz po raz
         ostatni chciałbym zapytać, czy mam prawo na plenarnym posiedzeniu
@@ -1987,14 +2010,15 @@
         że podkomisja esiągnęła konsens.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Zastrzeżenia są do trzech kwestii. Zastrzeżenie pierwsze dotyczy zadań,
         Uważam, że jest to zbyt szerokie określenie. Sprawa druga — występują
@@ -2003,14 +2027,15 @@
         alternatywną.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chciałbym zaproponować rozwiązanie, które może być przyjęte przez
         Komisję Konstytucyjną. Wydaje mi się, że możemy stwierdzić, iż w tym
@@ -2024,14 +2049,15 @@
         zawarcia konkordatu?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Taki jest walor konsensu, że obejmuje on wszystkie elementy, nawet jeśli
         niektóre z nich nie są w sposób oczywisty doprecyzowane. Myślę, że z
@@ -2042,40 +2068,43 @@
         powiedzieć, że osiągnęliśmy konsens w sprawie art. 15.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Chcę wrócić do propozycji posła W. Cimoszewicza. O dwóch kwestiach niech
         rozstrzygnie Komisja Konstytucyjna, bo w pozostałych jest konsens.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Pewnie moim błędem było to, że uległem perswazji przewodniczącego
         Komisji Konstytucyjnej w sprawie poszukiwania formuły kompromisowej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Zgadzam się z panem przewodniczącym, że albo konsens jest, al Podkomisja
         podstaw ustroju politycznego... (22.02.1995 r. —- 14) 103 bo go nie ma.
@@ -2090,14 +2119,15 @@
         soborową.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Myślę, że spróbowaliśmy zrobić to, co mogliśmy. Wracamy na posiedzenie
         plenarme Komisji Konstytucyjnej, bo musimy mieć chociaż kilka minut

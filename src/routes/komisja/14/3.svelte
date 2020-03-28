@@ -5,81 +5,26 @@
 </script>
 
 <style>
-  p {
-    text-align: justify;
-  }
-  h3 {
-    margin: 0;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-  }
-
-  .speaker {
-    display: flex;
-  }
-  .speaker img {
-    min-width: 110px;
-    border-radius: 3px;
-  }
-
-  .speaker p {
-    padding: 2.5rem;
-    border: solid 1px;
-    border-color: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-  }
-  .protocol .speaker:nth-child(odd) img {
-    margin: 0 1em 0 0;
-    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 0;
-  }
   .protocol .speaker:nth-child(even) {
     justify-content: flex-end;
   }
-  .protocol .speaker:nth-child(odd) p {
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) img {
-    margin: 0 0 0 1em;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) p {
-    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
+
+  .protocol .speaker:nth-child(odd) img {
+    margin: 0 1em 0 0;
     order: 0;
   }
-  .small-article-nav {
-    text-align: right;
-    width: 60px;
+
+  .protocol .speaker:nth-child(odd) p {
+    order: 1;
   }
 
-  .small-article-nav a svg {
-    width: 25px;
-    height: 25px;
+  .protocol .speaker:nth-child(even) img {
+    margin: 0 0 0 1em;
+    order: 1;
   }
-  @media (max-width: 500px) {
-    .speaker img {
-      height: 60px;
-      width: 60px;
-      min-width: 60px;
-    }
-    .protocol .speaker:nth-child(odd) img {
-      margin: 0 0.5rem 0 0;
-    }
-    .protocol .speaker:nth-child(even) img {
-      margin: 0 0 0 0.5rem;
-    }
-    .speaker p {
-      padding: 0.5rem;
-      font-size: 12px;
-    }
+
+  .protocol .speaker:nth-child(even) p {
+    order: 0;
   }
 </style>
 
@@ -90,9 +35,11 @@
 <Nav segment={'info'} />
 
 <!--<hr><p class="page-break">strona 3</p><hr>-->
-<div class="header">
+<div class="flex justify-between pt-4 pb-8 border-b mb-8">
   <div>
-    <h3>Obrady w dniu 23 lutego 1995 r.</h3>
+    <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+      Obrady w dniu 23 lutego 1995 r.
+    </h1>
     <!-- <h5>
       <a
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
@@ -142,14 +89,15 @@
 </div>
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
-    <div class="speaker">
+    <div class="flex speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wznawiam posiedzenie Komisji Konstytucyjnej Zgromadzenia Narodowego.
         Chcę przedłożyć propozycję merytoryczną i organizacyjną. Jak wiadomo,
@@ -190,14 +138,15 @@
         członków Komisji, ale również poglądy naszych klubów parlamentarnych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Jestem również za spokojnym rozpatrywaniem wielu spraw, a zwłaszcza
         sprawy objętej art. 15. Jestem również za namysłem i rozumiem, że namysł
@@ -211,14 +160,15 @@
         dyskusji. Powracam więc do pierwotnego wniosku.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Myślę, że klubowi SLD czas jest również potrzebny. Chcę jednak także
         przypomnieć, że dotychczas zgłoszono 11 propozycji brzmienia art. 15.
@@ -238,14 +188,15 @@
         zerwijmy również z zasadą tak obciążoną, w przyszłości.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Chcę zapytać ks. prof. J. Krukowskiego jak należy interpretować, to co
         zostało przed chwilą powiedziane. Rozumiem bowiem, że kompromis, o
@@ -264,14 +215,15 @@
         niezależności zgadzamy się, natomiast na oddzielenie — nie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Jeżeli jest to tautologia — pojęcia równoznaczne — to czy pozostawienie
         formuły: „oddzielone od państwa”, z wykreśleniem autonomii i
@@ -281,14 +233,15 @@
         „oddzielone” nie mam akceptacji. Nie mogę więc wyrazić zgody.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Z powodu posiedzenia Komisji Rady Europy nie mogłam uczestniczyć w
         początkowej części posiedzenia Komisji Konstytucyjnej. Nie miałam więc
@@ -313,14 +266,15 @@
         wyznaniowe Są autonomiczne i niezależne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przed udzieleniem głosu kolejnym mówcom chcę prosić ekspertów, aby
         spróbowali określić znaczenie pojęcia: „autonomiczny . W projektach
@@ -330,14 +284,15 @@
         zdefiniowana.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Posłowi J. Jaskierni chcę przypomnieć, że to nie strona kościelna
         zerwała rysujący się konsens, lecz upór niektórych przedstawicieli SLD,
@@ -350,14 +305,15 @@
         państwa bądź władz państwowych, a nie od państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         W nawiązaniu do głosu senatora K. Kozłowskiego również proponuję zmianę
         redakcyjną ust. 3. Nowe brzmienie jest następujące: „Kościoły i związki
@@ -377,14 +333,15 @@
         oddzielenia kościoła od państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Chcę powiedzieć, że ja nie proponowałem wczoraj jakiejś zmiany, lecz
         została złożona — ale nie przeze mnie — nowa propozycja. Ponadto
@@ -396,14 +353,15 @@
         określa zakres działalności kościołów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Longin Pastusiak (SLD):</strong>
         W świetle wypowiedzi senator A. Grześkowiak, zachowując szacunek dla
         faktów i historii, chcę przypomnieć, że idea rozdziału państwa od
@@ -416,14 +374,15 @@
         historycznych i rodowodu tej koncepcji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak NSZZ „S”):</strong>
         Członkom Komisji chciałabym przypomnieć, że nie jesteśmy Stanami
         Zjednoczonymi. Faktem niezaprzeczalnym jest natomiast to, że w
@@ -432,14 +391,15 @@
         przyjmuje się tę samą formułę.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proponuję, aby nie prowadzić dalszej polemiki, gdyż przedstawione uwagi
         są prawdziwe. Uwaga posła L. Pastusiaka o formule zapisanej w
@@ -447,14 +407,15 @@
         jesteśmy Stanami Zjednoczonymi, jest prawdą.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Jeżeli nie chcemy utonąć w dywagacjach natury historycznej, filologi :
         cznej i ideologicznej, to musimy posługiwać się pojęciami ostrymi o tym
@@ -472,27 +433,29 @@
         coś innego. Apeluję więc o bardzo wyraźne posługiwanie się terminami.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Apel jest trafny, lecz co miałby on praktycznie oznaczać na przykład w
         odniesieniu do art. 15 podkomisji?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Formuła mówiąca, że „Kościół i związki wyznaniowe są oddzielone od
         Państwa”, mogłaby brzmieć: „Kościoły i związki wyznaniowe są oddzielone
@@ -504,14 +467,15 @@
         zupełnie innego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Po pierwsze, chciałbym się dowiedzieć, jaki jest status konsensu, który
         został wczoraj wypracowany bądź prawie wypracowany, gdyż nie uzyskał
@@ -587,14 +551,15 @@
         problemów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SiemiatkowskiZbigniew.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Zbigniew Siemiątkowski (SLD):</strong>
         Sądzę, że nasza wczorajsza dyskusja nie powinna być stracona. W moim
         przekonaniu zarysowały się pierwsze pola kompromisu. Ponadto — co bardzo
@@ -623,14 +588,15 @@
         na oddzielenie kościoła i władz publicznych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Wczoraj podkomisja podstaw ustroju politycznego i
         społeczno-gospodarczego była bliska osiągnięcia konsensu. Został nawet
@@ -663,14 +629,15 @@
         Przepis ten jest bardzo przejrzysty i powinien być przy jety.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         W związku z tym, o czym mówił poseł J. Jaskiernia — którego w tej chwili
         nie ma w sali — chcę powiedzieć, że wnioskiem, który zgłosiłem, jest
@@ -695,28 +662,30 @@
         będą mogli powiedzieć, co sądzą na temat zakresu działalności kościoła.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie są to luźne rozmowy, lecz pracujemy nad takim sformułowaniem
         przepisu, który byłby do zaakceptowania przez zdecydowaną większość.
         Wymaga to jednak wyjaśnień.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Chcę odnieść się do dwóch kwestii. Pierwsza z nich to celowość —
         trafność — użycia wyrazu „Państwo” w ust. 3, Kwestia druga to rozumienie
@@ -764,14 +733,15 @@
         konstytucyjnych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Bardzo chętnie zgodziłbym się z dystynkcją prof. K. Działochy, który
         rozróżnił Rzeczpospolitą i państwo, lecz pod jednym warunkiem.
@@ -798,14 +768,15 @@
         terminami wystarczająco ostrymi, co pozwoli uniknąć nieporozumień.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         To, co powiem, jest streszczeniem mojego wczorajszego wystąpienia
         podczas posiedzenia podkomisji podstaw ustroju politycznego i
@@ -859,14 +830,15 @@
         ma być realizowany.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Chcę się odnieść do propozycji, aby pojęcie „państwa” zastąpić pojęciem
         „organy państwowe” lub pojęciem „władza publiczna”. Jeżeli przyjąć
@@ -888,14 +860,15 @@
         publiczne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Ta bardzo interesująca dyskusja ukazuje ewolucję w traktowaniu problemu.
         Nawet oddzielenie w wersji łagodnej było związane bardziej z
@@ -920,28 +893,30 @@
         się, że taka formuła byłaby do zaakceptowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Wypowiedź poseł I. Lipowicz była niezmiernie interesująca. Proszę tylko
         o wyjaśnienie, w czym tkwi mój błąd, albowiem uczelnie są autonomiczne,
         a nie są oddzielone od państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Oczywiście, że są oddzielone, gdyż są częścią systemu
         zdecentralizowanego, a ingerencja następuje w formach ustawowych.
@@ -956,14 +931,15 @@
         pojęcia „oddzielone”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę zapytać poseł I. Lipowicz, czy dostrzega istotną różnicę
         merytoryczną między pojęciem „autonomiczne” a pojęciem „niezależne”.
@@ -972,39 +948,42 @@
         niezależności.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Niezależność jest w tej formule, która dotyczy wykonywania misji
         poszczególnych kościołów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem więc, że niezależność dotyczy wykonywania zadań kościołów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Niezależność oznacza przede wszystkim niezależność organizacyjną. Obrady
         w dniu 23.02.1995 r. (21 Przedstawiciel pełnomocnika obywatelskiego
@@ -1053,14 +1032,15 @@
         prawa. Tego rodzaju obawy polegają na nieporozumieniu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Na efekty naszych prac chciałbym spojrzeć pragmatycznie. Wczoraj, kiedy
         poseł R. Bugaj referował wyniki prac podkomisji podstaw ustroju
@@ -1076,14 +1056,15 @@
         jedną propozycję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Doceniam pragmatyzm propozycji posła W. Majewskiego. Uważam, że jednak
         nie powinniśmy cofać się, jeżeli chodzi o tryb prac. Ponadto podkomisja
@@ -1204,14 +1185,15 @@
         zakazów byłoby bezsensowne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Chcę zwrócić się do ks. prof. J. Krukowskiego, ponieważ nie ustosunkował
         się on do bardzo istotnej propozycji, która padła ze strony posła Z.
@@ -1250,14 +1232,15 @@
         między państwem a kościołami ograniczyć do organów państwowych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Poseł K. Łybacka twierdzi z jednej strony, że byliśmy blisko konsensu, a
         z drugiej strony twierdzi, że nie mogła zerwać czegoś, czego nie było.
@@ -1268,28 +1251,30 @@
         nie można więc tej sytuacji określić jako zerwanie konsensu?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Odpowiedź na to pytanie pozostawmy historykom prac nad konstytucją. Nie
         wracajmy więc do tej kwestii, lecz szukajmy rozwiązań, które mogą
         zbudować szeroki konsens wokół art. 15.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Wzorcem dla zapisania w konstytucji stosunków państwo— —kościół może być
         model amerykański, francuski czy komunistyczny. Nikt spośród obecnych
@@ -1438,14 +1423,15 @@
         ramach?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Prof. M. Pietrzak chyba się myli, gdyż formuła mówiła o ramach
         ustrojowych Polskiej Rzeczypospolitej Ludowej. Przedstawiciel Prezydenta
@@ -1459,14 +1445,15 @@
         większość. Sądzę, że chyba można znaleźć takie rozwiązanie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Chcę zapytać prof. M. Pietrzaka, czy jego wypowiedź jest oficjalnym
         stanowiskiem urzędu Prezydenta? Przedstawiciel Prezydenta RP, prof.
@@ -1482,14 +1469,15 @@
         koncepcji, wyrzucano z kraju tak jak arian.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Wypowiedź tę uważam za niedopuszczalną personalną napaść na mnie. Nie
         mówiłam nic o tym, o czym prof. M. Pietrzak mówił przed chwilą, a więc
@@ -1508,14 +1496,15 @@
         propozycji brzmienia art. 15.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Myślę, że rysują się bardzo wyraźne możliwości kompromisu. Chcę
         podzielić się uwagami na temat rysującego się kompromisu. Wydaje się, że
@@ -1551,14 +1540,15 @@
         przynajmniej w sensie teoretycznym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Poszukując określenia dla właściwej działalności kościołów i związków
         wyznaniowych, w zakresie której to działalności kościoły i związki
@@ -1588,14 +1578,15 @@
         zadania związane z urzeczywistnianiem wolności religijnych jednostki.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Mam pytanie do prof. K. Działochy, lecz chcę je krótko uzasadnić.
         Obawiam się bowiem, że brniemy w niewłaściwym kierunku, a wypowiedzi
@@ -1611,14 +1602,15 @@
         potrzeby definiowania, co stanowi zakres działalności kościoła.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Wydaje mi się jednak, że konstytucja, która nie może uniknąć
         zdefiniowania zasady wolności sumienia i wyznania — w rozdziale o
@@ -1638,14 +1630,15 @@
         charakterze negatywnym, a więc nieingerowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Stefan Pastuszka (PSL):</strong>
         Źle się dzieje, że na naszej głęboko merytorycznej dyskusji coraz
         bardziej ciąży przeszłość. Z, jednej strony przeszłość, zwłaszcza ta po
@@ -1689,14 +1682,15 @@
         formuły, tym bardziej że niekiedy zbyt mocno działają emocje.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LykoZachariasz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
           Zachariasz Łyko:
@@ -1778,14 +1772,15 @@
         nie wyrywkowe kwestie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chcę rozpocząć od uwagi porządkowej. W zestawieniu poprawek, które
         zostało nam dzisiaj doręczone, w pun kcie 4 jest zawarta wersja jaką
@@ -1867,14 +1862,15 @@
         oddzielenia, to nie ma tam również zasady współdziałania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/TaylorJacek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jacek Taylor (UW):</strong>
         Mam kilka uwag, jeżeli chodzi o formułę proponowaną przez posła T.
         Mazowieckiego. Prof. W. Osiatyński wyróżnił rozdział przyjazny,
@@ -1951,14 +1947,15 @@
         od decyzji Komisji Konstytucyjnej i parlamentu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Chcę podzielić się wątpliwością, jaka zrodziła się na tle przedłożonych
         propozycji. Zastanawiam się, czy aby nie popełniamy błędu starając się w
@@ -2000,14 +1997,15 @@
         przedstawili eksperci.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Odnosząc się do wypowiedzi posła J. Szymańskiego, chcę powiedzieć, że
         jest wiele powodów, dla których kwestię stosunków państwo-kościół
@@ -2099,14 +2097,15 @@
         krytyczne stanowisko, to ja zawsze o tym powiem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Chcę zabrać głos w trzech kwestiach. Kwestia pierwsza to pytanie, skąd
         bierze się tak duży opór wobec pojęcia „rozdział czy „oddzielenie”.
@@ -2178,14 +2177,15 @@
         zasadach ustroju.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/TaylorJacek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jacek Taylor (UW):</strong>
         Chcę odpowiedzieć na pytanie, co się za tym kryje, że my tak nie chcemy
         sformułowania mówiącego o rozdziale czy oddzieleniu. Kryje się za tym
@@ -2195,14 +2195,15 @@
         „współdziałanie ”, który lansujemy, na pewno nie może oznaczać wrogości.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Nie wiem, czy poseł J. Taylor był obecny w momencie kiedy udowodniono,
         że rozdział kościoła od państwa nie wywodzi się od J. Stalina i z
@@ -2214,28 +2215,30 @@
         przejmować swoich wzajemnych funkcji. Jest to istota oddzielenia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/TaylorJacek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jacek Taylor (UW):</strong>
         Byłem obecny wówczas kiedy posłowie: J. Jaskiernia i L. Pastusiak mó-
         wili o konstytucji amerykańskiej. Nie jest to jednak nasza tradycja.
         Nasza tradycja jest dużo gorsza.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Możemy oczywiście sięgnąć do rodzimej tradycji arian, o czym mówił prof.
         M. Pietrzak. Obrady w dniu 23.02.1995 r. (21) Chcę jednak posłowi J.
@@ -2261,14 +2264,15 @@
         zmodyfikował istniejącą sytuację. Przykład nie jest więc najlepszy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         W nawiązaniu do mojej wcześniejszej wypowiedzi i do apelu, aby mówić
         również o naszej historii dalszej i bliższej, chcę przypomnieć historię
@@ -2282,14 +2286,15 @@
         przepisu, który stwarza tak dobre warunki kościołowi w Polsce.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Bardzo lubię pytania w stylu: co się za tym kryje, które to pytanie
         postawił poseł J. Jaskiemia. Dyskutujemy już kolejny tydzień na ten
@@ -2332,14 +2337,15 @@
         wykonywaniu — władzy państwowej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Rzeczywiście jest tak, że są konstytucje, które w rozdziale pierwszym
         nie określają stosunków między państwem a kościołem. Są to jednak na
@@ -2355,14 +2361,15 @@
         mówił poseł T. Mazowiecki.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Iwiński (SLD):</strong>
         Mam trzy krótkie uwagi. Po pierwsze, uważam, iż jest możliwość ujęcia
         dyskutowanego problemu zarówno w rozdziale pier wszym, jak w rozdziale o
@@ -2393,14 +2400,15 @@
         tym nic nagannego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/IkonowiczPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Piotr Ikonowicz (PPS):</strong>
         Nie odnoszę się do poziomu kompromisu, który próbuje się osiągnąć. Chcę
         prosić, aby nie dążyć do rozstrzygnięcia przed podjęciem decyzji w
@@ -2418,14 +2426,15 @@
         instytucji nie rozstrzygać przed ich wysłuchaniem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę poinformować, że wszystkie podmioty wymienione w liście, którą
         ustaliliśmy na początku prac, są zapraszane, lecz oczywiście korzystają
@@ -2528,28 +2537,30 @@
         wnioskodawców nowych artykułów?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Chcę zapytać, czy wnioskodawcy nie uważają, że rozdział pierwszy nie
         jest najbardziej właściwy do zamieszczania tego rodzaju przepisów, które
         chyba powinny znaleźć się w rozdziale drugim dotyczącym praw człowieka?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Kwestia objęcia moją propozycją art. 5a była przedmiotem debaty.
         Przypomnę jednak jej brzmienie: „Rzeczpospolita Polska gwarantuje
@@ -2580,14 +2591,15 @@
         ustawodawcy konstytucyjnego. Z, tych motywacji zaproponowałem art. Sa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Do wypowiedzi posła J. Jaskierni chcę dodać jeszcze jedną uwagę. Rysuje
         się wizja, że w zasadach ustroju widoczne są cztery — spośród pięciu —
@@ -2602,14 +2614,15 @@
         ciwie wszystkich łączy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Bardzo mocno podpisuję się pod wypowiedziami posła J. Jaskierni i prof.
         W. Osiatyńskiego, gdyż nie ulega wątpliwości, że jest to jedna z
@@ -2624,14 +2637,15 @@
         propozycję — art. 10a — przedłożył poseł J. Ciemniewski.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Przypomnę, że moja propozycja ma następujące brzmienie: „RZzecz p - Z R
         W ET EZ EE AE ET EEEE RAA R APE O CM pospolita Polska chroni dobrowolną
@@ -2651,14 +2665,15 @@
         Pietrzaka.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Uważam, że w propozycji brzmienia art. 10a są jednak zawarte dwie dość
         różne materie. Jest to zasada społeczeństwa obywatelskiego oraz zasada
@@ -2667,14 +2682,15 @@
         odrębne artykuły.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/IkonowiczPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Piotr Ikonowicz (PPS):</strong>
         Jeżeli chodzi o propozycję art. 5a, to odpowiada mi wersja posła J.
         Jaskierni. Uważam, że konstytucyjne zagwarantowanie prawa do zrzeszania
@@ -2699,14 +2715,15 @@
         dniu 23.02.1995 r. (21
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Zgadzam się z tym, co mówił prof. P. Samecki, gdyż również uważam, że w
         art. 10a ujęte są dwie różne kwestie, wymagające rozdzielenia w dwóch
@@ -2725,14 +2742,15 @@
         przekraczają władztwo publiczne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś chciałby jeszcze zabrać głos w kwestiach związanych z
         rozdziałem pierwszym? Nie ma. Na tym wyczerpaliśmy więc punkt porządku
@@ -2754,14 +2772,15 @@
         uchwalenie konstytucji jest priorytetowym zadaniem tego parlamentu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Sytuacja polityczna jest skomplikowana, ale konstytucja jest tym
         argumentem, który jest przytaczany przy każdej okazji jako przykład
@@ -2773,14 +2792,15 @@
         senackiej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proponuję, aby każdy z członków Komisji rozpatrzył propozycję senatora
         J. Madeja. Ma ona swoją logikę. Przypominam również, że w przypadku
@@ -2793,14 +2813,15 @@
         Komisji, obsługi oraz ekspertów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BorowikWojciech.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wojciech Borowik (UP):</strong>
         Uważam, że należy utrzymać rytm prac polegający na odbywaniu dwóch
         posiedzeń w miesiącu, lecz aby były to posiedzenia dwudniowe, a nie
@@ -2810,40 +2831,43 @@
         przeprowadzania głosowań.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wraz z zastępcą przewodniczącego Komisji rozpatrzymy propozycję posła W.
         Borowika. Wydaje się, że zasługuje ona na przyjęcie. Rozumiem także, iż
         proponowane dni obrad to wtorek i Środa, ale już od godz. 9 do godz. 19.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Popieram propozycję posła W. Borowika.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś chciałby zabrać głos w sprawach różnych przed zamknięciem
         posiedzenia? Nie ma. Dziękuję wszystkim osobom uczestniczącym w

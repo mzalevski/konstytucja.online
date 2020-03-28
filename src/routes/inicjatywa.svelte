@@ -1,6 +1,6 @@
 <script>
   import { stores } from "@sapper/app";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -21,11 +21,13 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ y: 100, duration: 1000 }}>
+<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+  Inicjatywa
+</h1>
 
-  <h1 class="text-2xl font-semibold">Inicjatywa</h1>
+<div in:fade={{ duration: 3000 }}>
 
-  <p class="pt-2 text-justify">
+  <p class="mt-4 text-center text-justify">
     Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu
     prawa oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać
     Konstytucję, która stanowi podstawę ich republiki - państwa prawa, które
@@ -43,7 +45,7 @@
       strona Prezydenta
     </a>
     <svg
-      class="inline ml-px w-4 h-4 fill-current"
+      class="inline ml-px w-3 h-3 fill-current"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
@@ -59,7 +61,7 @@
       strona Sejmu
     </a>
     <svg
-      class="inline ml-px w-4 h-4 fill-current"
+      class="inline ml-px w-3 h-3 fill-current"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />

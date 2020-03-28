@@ -27,7 +27,8 @@
 <div in:fade={{ duration: 3000 }}>
   <p>
     <a
-      class="text-sm font-bold text-gray-500 uppercase tracking-wider"
+      class="text-sm font-bold text-gray-500 uppercase tracking-wider
+      hover:text-red"
       href="https://www.wikiwand.com/pl/Komisja_Konstytucyjna_Zgromadzenia_Narodowego"
       rel="nofollow"
       target="_blank">
@@ -47,6 +48,7 @@
     <p>
       Komisja Konstytucyjna
       <a
+        class="hover:text-red"
         href="https://www.wikiwand.com/pl/Zgromadzenie_Narodowe_w_Polsce"
         rel="nofollow"
         target="_blank">
@@ -64,6 +66,7 @@
       została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
       trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
       <a
+        class="hover:text-red"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19920670336"
         rel="nofollow"
         target="_blank">
@@ -80,6 +83,7 @@
       </svg>
       zm.:
       <a
+        class="hover:text-red"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
         rel="nofollow"
         target="_blank">
@@ -102,7 +106,8 @@
         <h2 class="mt-4 text-xl font-thin">Skorowidz</h2>
         <p>
           <a
-            class="text-xs font-bold text-gray-500 uppercase tracking-wider"
+            class="text-xs font-bold text-gray-500 uppercase tracking-wider
+            hover:text-red"
             href="https://drive.google.com/open?id=1HZL7xpnoqeRuZOSmU1LsJo_8Xaqwhaqr"
             rel="nofollow"
             target="_blank">
@@ -123,7 +128,8 @@
         <h2 class="mt-4 text-xl font-thin">Biuletyny</h2>
         <p>
           <a
-            class="text-xs font-bold text-gray-500 uppercase tracking-wider"
+            class="text-xs font-bold text-gray-500 uppercase tracking-wider
+            hover:text-red"
             href="https://bs.sejm.gov.pl/F?func=find-b&request=000007248&find_code=SYS&local_base=BIS01"
             rel="nofollow"
             target="_blank">
@@ -143,10 +149,14 @@
 
         <ul class="mt-2 list-disc pl-5">
           <li>
-            <a rel="prefetch" href="komisja/13">Biuletyn nr 13</a>
+            <a class="hover:text-red" rel="prefetch" href="komisja/13">
+              Biuletyn nr 13
+            </a>
           </li>
           <li>
-            <a rel="prefetch" href="komisja/14">Biuletyn nr 14</a>
+            <a class="hover:text-red" rel="prefetch" href="komisja/14">
+              Biuletyn nr 14
+            </a>
           </li>
         </ul>
         <h3
@@ -155,7 +165,9 @@
         </h3>
         <ul class="mt-2 list-disc pl-5">
           <li class="text-gray-500">
-            <a rel="prefetch" href="komisja">Biuletyn nr 15</a>
+            <a class="hover:text-red" rel="prefetch" href="komisja">
+              Biuletyn nr 15
+            </a>
           </li>
         </ul>
       </div>

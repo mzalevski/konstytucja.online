@@ -1,6 +1,6 @@
 <script>
   import { stores } from "@sapper/app";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -21,10 +21,13 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ y: 100, duration: 1000 }}>
-  <h1 class="text-xl font-bold">Aplikacja mobilna</h1>
+<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+  Aplikacja mobilna
+</h1>
 
-  <p class="text-center text-justify">
+<div in:fade={{ duration: 3000 }}>
+
+  <p class="mt-4 text-center text-justify">
     <strong>Chrome</strong>
     (i inne przeglądarki oparte na Chromium, np. Opera, Brave). Po wejściu na
     stronę konstytucja.online na smartfonie na dole ekranu pojawi się komenda
@@ -35,8 +38,8 @@
     przeładować stronę; przy następnym podejściu te treści będą widoczne także w
     trybie offline.
   </p>
-  <img class="pt-2 w-full" src="images/chrome-app-guide.png" alt="" srcset="" />
-  <p class="pt-2 text-center text-justify">
+  <img class="mt-6 w-full" src="images/chrome-app-guide.png" alt="" srcset="" />
+  <p class="mt-6 text-center text-justify">
     <strong>Firefox.</strong>
     Po wejściu na stronę konstytucja.online na smartfonie u góry ekranu pojawi
     się ikonka domu z plusem w środku. Po kliknięciu ikonki potwierdzamy
@@ -46,5 +49,5 @@
     internet i przeładować stronę; przy następnym podejściu te treści będą
     widoczne także w trybie offline.
   </p>
-  <img class="pt-2 w-full" src="images/ff-app-guide.png" alt="" srcset="" />
+  <img class="mt-6 w-full" src="images/ff-app-guide.png" alt="" srcset="" />
 </div>

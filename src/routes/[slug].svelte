@@ -61,11 +61,16 @@
 <Nav segment={'articles'} />
 
 <div class="flex justify-between">
-  <a class="w-16" rel="prefetch" href="#{$page.params.slug}">powrót</a>
-  <h3 class="chapter-name">
+  <a
+    class="w-24 text-lg sm:text-xl font-thin hover:text-red"
+    rel="prefetch"
+    href="#{$page.params.slug}">
+    powrót
+  </a>
+  <h3 class="text-lg sm:text-xl font-thin">
     {article.chapter['id']} {article.chapter['title']}
   </h3>
-  <div class="flex w-16 justify-end">
+  <div class="flex w-24 justify-end">
     {#if $page.params.slug > 1}
       <a
         class="flex flex-col justify-center"
@@ -77,7 +82,7 @@
           isDisqusVisible = false;
         }}>
         <svg
-          class="fill-current w-5 h-5 text-gray-900"
+          class="fill-current w-5 h-5 sm:w-6 h-6 text-gray-900"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 256 512">
           <path
@@ -98,7 +103,7 @@
           isDisqusVisible = false;
         }}>
         <svg
-          class="fill-current w-5 h-5 text-gray-900"
+          class="fill-current w-5 h-5 sm:w-6 h-6 text-gray-900"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 256 512">
           <path

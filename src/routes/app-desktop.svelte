@@ -1,6 +1,6 @@
 <script>
   import { stores } from "@sapper/app";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -21,10 +21,13 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ y: 100, duration: 1000 }}>
-  <h1 class="text-xl font-bold">Aplikacja desktopowa</h1>
+<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+  Aplikacja desktopowa
+</h1>
 
-  <p class="pt-2 text-justify">
+<div in:fade={{ duration: 3000 }}>
+
+  <p class="mt-4 text-justify">
     <strong>Chrome</strong>
     (i inne przeglądarki oparte na Chromium, np. Opera, Brave). Po wejściu na
     stronę konstytucja.online na komputerze w prawym górnym rogu ekranu, w pasku
@@ -35,5 +38,5 @@
     należy włączyć internet i przeładować stronę; przy następnym podejściu te
     treści będą widoczne także w trybie offline.
   </p>
-  <img class="pt-2 w-full" src="images/chrome-desktop-guide.png" alt="" />
+  <img class="mt-6 w-full" src="images/chrome-desktop-guide.png" alt="" />
 </div>

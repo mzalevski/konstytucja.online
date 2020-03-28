@@ -5,81 +5,26 @@
 </script>
 
 <style>
-  p {
-    text-align: justify;
-  }
-  h3 {
-    margin: 0;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-  }
-
-  .speaker {
-    display: flex;
-  }
-  .speaker img {
-    min-width: 110px;
-    border-radius: 3px;
-  }
-
-  .speaker p {
-    padding: 2.5rem;
-    border: solid 1px;
-    border-color: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-  }
-  .protocol .speaker:nth-child(odd) img {
-    margin: 0 1em 0 0;
-    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 0;
-  }
   .protocol .speaker:nth-child(even) {
     justify-content: flex-end;
   }
-  .protocol .speaker:nth-child(odd) p {
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) img {
-    margin: 0 0 0 1em;
-    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.15);
-    order: 1;
-  }
-  .protocol .speaker:nth-child(even) p {
-    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.15);
+
+  .protocol .speaker:nth-child(odd) img {
+    margin: 0 1em 0 0;
     order: 0;
   }
-  .small-article-nav {
-    text-align: right;
-    width: 60px;
+
+  .protocol .speaker:nth-child(odd) p {
+    order: 1;
   }
 
-  .small-article-nav a svg {
-    width: 25px;
-    height: 25px;
+  .protocol .speaker:nth-child(even) img {
+    margin: 0 0 0 1em;
+    order: 1;
   }
-  @media (max-width: 500px) {
-    .speaker img {
-      height: 60px;
-      width: 60px;
-      min-width: 60px;
-    }
-    .protocol .speaker:nth-child(odd) img {
-      margin: 0 0.5rem 0 0;
-    }
-    .protocol .speaker:nth-child(even) img {
-      margin: 0 0 0 0.5rem;
-    }
-    .speaker p {
-      padding: 0.5rem;
-      font-size: 12px;
-    }
+
+  .protocol .speaker:nth-child(even) p {
+    order: 0;
   }
 </style>
 
@@ -89,9 +34,11 @@
 
 <Nav segment={'info'} />
 
-<div class="header">
+<div class="flex justify-between pt-4 pb-8 border-b mb-8">
   <div>
-    <h3>Obrady w dniu 9 lutego 1995 r.</h3>
+    <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+      brady w dniu 9 lutego 1995 r.
+    </h1>
     <h5>
       <a
         href="https://drive.google.com/file/d/1XvZx52VEVrbhFSi9n5VkbAg045EiGrck/view?usp=sharing"
@@ -99,7 +46,15 @@
         target="_blank">
         ORYGINAŁ BIULETYNU
       </a>
-      <img class="ext-link" src="images/external-link.svg" alt="" />
+      <svg
+        class="inline ml-px w-4 h-4 fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path
+          d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
+          2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+      </svg>
     </h5>
   </div>
   <div class="small-article-nav">
@@ -143,14 +98,15 @@
 <!--<hr><p class="page-break">strona 63</p><hr>-->
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div class="protocol">
-    <div class="speaker">
+    <div class="flex speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wznawiam obrady Komisji Konstytucyjnej Zgromadzenia Narodowego. Witam
         wszystkich obecnych. Zgodnie z wczorajszymi ustaleniami powinniśmy w
@@ -172,14 +128,15 @@
 
     <!--<hr><p class="page-break">strona 64</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Dokonana już po posiedzeniu Komisji analiza treści przyjętych artykułów
         zrodziła pewne wątpliwości natury terminologicznej w odniesieniu do
@@ -203,14 +160,15 @@
         ujmowanych w jednym zdaniu mogą budzić wątpliwości.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przypomnę jednak, że nad brzmieniem artykułu dotyczącego partii
         politycznych prowadziliśmy bardzo obszerną debatę. Dzisiaj okazuje się,
@@ -231,14 +189,15 @@
         już widzę kilka zgłoszeń członków Komisji, którzy chcą zabrać głos.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Rzeczywiście jesteśmy w kłopotliwej sytuacji, ponieważ dyskutowany
         przepis został przyjęty wyraźną większością głosów. Wydaje się jednak,
@@ -247,28 +206,30 @@
         zakończeniu prac nad rozdziałem pierwszym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proponuję więc, aby członkowie Komisji, którzy mają propozycje
         rekonstrukcji omawianego artykułu, przedłożyli je na piśmie. Rozpatrzymy
         je po zakończeniu prac nad rozdziałem pierwszym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Zgadzam się z koncepcją, aby do sformułowania przepisu o partiach
         politycznych powrócić po zakończeniu prac nad rozdziałem pierwszym.
@@ -276,14 +237,15 @@
         dyskutowanym art. 5 dotyczącym partii politycznych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Właściwie to Świadomie zawarłam pojęcie użyte w art. 5 i zapożyczone od
         prof. W. Osiatyńskiego. Uważam, że sprecyzowanie propozycji zgłoszonych
@@ -292,14 +254,15 @@
         realizacja woli obywateli następuje tylko poprzez partie polityczne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         ”): Uważam, że dyskutowany artykuł wyraźnie ogranicza prawa człowieka do
         występowania w życiu publicznym i do dążenia do realizacji władzy
@@ -317,14 +280,15 @@
         wyrażaniu woli obywateli oraz wpływania na politykę państwa .
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Brzmienie przypomniane przez senator A. Grześkowiak było przedmiotem
         głosowania. Poparło je 4 członków Komisji. Przeciwnego zdania było 33
@@ -333,14 +297,15 @@
         podkomisję podstaw ustroju politycznego i społeczno-gospodarczego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         W ramach troski o szacunek do samego siebie chcę przeprosić poseł K.
         Łybacką i pozostałych członków Komisji, gdyż formułując dyskutowany
@@ -351,14 +316,15 @@
         powrócić po zakończeniu prac nad rozdziałem pierwszym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Ponieważ zgłoszony został formalny wniosek o reasumpcję głosowania,
         przedstawię wstępną wersję zmodyfikowanego art. 5 przedłożoną na piśmie
@@ -383,40 +349,43 @@
         dokonać zmian lub uzupełnień w swoich wnioskach?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Chcę przedłożyć autopoprawkę do ust. 2 mojej propozycji. Nowe brzmienie
         jest następujące: „Wszystkie organy władzy publicznej działają na
         podstawie i w granicach przepisów prawa”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Proponuję: „,,...l w granicach prawa”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przyjmuję zmianę redakcyjną posła J. Szymańskiego. Przechodzimy do
         głosowania. Jako pierwsza głosowaniu będzie poddana propozycja
@@ -440,41 +409,44 @@
         Rzepliński i dr W. Kulesza.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Stefan Pastuszka (PSL):</strong>
         Przepraszam, panie przewodniczący, ale chciałbym zaproponować
         modyfikację brzmienia tej poprawki. Ust. 2 zostałby uzupełniony dodaniem
         zwrotu: ,,...1 nie jest to sprzeczne z dobrem publicznym”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Pojęcie „dobra publicznego” jako mało precyzyjne prawniczo powinno
         raczej pozostać poza przepisami prawa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Poprawka nr 4 zostanie więc poddana głosowaniu w brzmieniu
         przedstawionym przez wnioskodawców. Poddaję pod głosowanie wniosek o
@@ -503,14 +475,15 @@
         jednego z nich.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Proponuję skorygowanie poprawki posła R. Grodzickiego, gdyż sugeruje ona
         przeciwstawienie państwa i samorządu terytorialnego. Przeważa pogląd, że
@@ -519,52 +492,56 @@
         publicznej .
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Przyjmuję poprawkę prof. P. Sarneckiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Zdrada (UW):</strong>
         Proponuję skreślenie wyrazów: „każdego organu .
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Przyjmuję poprawkę posła J. Zdrady. Ponadto chcę wnieść autopoprawkę do
         ust. 3, co zasugerował mi prof. L. Wiśniewski. Zmodyfikowany fragment
         brzmi: „dotyczące wolności, praw”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Uważam, że przedłożony ust. 3 podważa zasadę konstytucjonalizmu, nad
         którą dyskutowaliśmy wczoraj. Zasada ta przewiduje, że akty władzy
@@ -574,14 +551,15 @@
         Ustawodawca nie może „mieszać” w prawach i wolnościach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Uważam, że prof. W. Osiatyński ma rację. Prawa i wolności obywatelskie
         mogą być określone w konstytucji lub ustawie. Dobrze byłoby, aby była to
@@ -589,14 +567,15 @@
         rozdziału o źródłach prawa. Nie jest to właściwe rozwiązanie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         W ust. 3 poprawki posła R. Grodzickiego chodzi o akty stosowania prawa.
         Można zgodzić się z tezą prof. W. Osiatyńskiego i senator A.
@@ -609,14 +588,15 @@
       </p>
     </div>
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Muszę jednak przypomnieć, że pracujemy nad przepisami rozdziału o
         zasadach ustroju. Uważam więc, że konieczna jest pewna generalizacja i
@@ -628,93 +608,100 @@
         o stopniu ogólności właściwym dla rozdziału pierwszego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Zgadzam się z panem przewodniczącym, że dyskutujemy nad rozdziałem o
         zasadach, a więc o kwestiach ogólnych, gdy tymczasem w ust. 3 wniosku
         posła R. Grodzickiego podjęte zostały kwestie szczegółowe.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Proponuję skreślić ust. 3 w moim wniosku, co powinno wyeliminować
         kontrowersje.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         W tej sytuacji ust. 2 wniosku posła R. Grodzickiego jest zbieżny z
         wnioskiem podkomisji, a ust. 1 podejmuje kwestię zasady
         konstytucjonalizmu, czyli materię art. 8.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Wydaje mi się, że ust. 1 i ust. 2 z propozycji posła R. Grodzickiego
         mówią o tym samym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Moja propozycja art. 7 zakłada, że art. 8 jest zbędny.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Uważam, że art. 7 nie jest konkurencyjny wobec art. 8, gdyż art. 7
         dotyczy zasady praworządności, a art. 8 zasady konstytucjonalizmu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Więcej głosów popierających niż odrzucających otrzymały dwa wnioski:
         podkomisji oraz posła R. Grodzickiego zmodyfikowany poprawkami.
@@ -726,14 +713,15 @@
         obu propozycji lub brak stanowiska.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Henryk Rot (SLD):</strong>
         Proponuję, aby konsekwentnie ust. 2 brzmiał: „Władze publiczne działają
         na podstawie i w granicach prawa”.
@@ -742,14 +730,15 @@
 
     <!--<hr><p class="page-break">strona 67</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Ponieważ wnioskodawca nie przyjął poprawki, jego wniosek będzie poddany
         głosowaniu w brzmieniu wcześniej ustalonym. Poddaję pod głosowanie
@@ -773,28 +762,30 @@
         zasady konstytucjonalizmu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Proszę o poprawienie błędu, jaki powstał przy przepisywaniu mojego
         wniosku. W ust. 2 zamiast wyrazu: „odpowiednio” powinien być wyraz
         „bezpośrednio”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Uważam, że przed rozstrzygnięciem art. 8 powinna być rozstrzygnięta
         kwestia wniosku o brzmienie art. /, którą przedłożył prof. S. Gebethner.
@@ -802,14 +793,15 @@
         wiążącego Ją prawa międzynarodowego ..
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przyjmuję uwagę posła W. Majewskiego. W związku z tym chcę zapytać
         ekspertów o opinię o wniosku prof. S. Gebethnera jako przedstawiciela
@@ -817,82 +809,88 @@
         być przyjęta.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Zgadzam Się, że jest to ważna zasada, lecz proponuję nie rozstrzygać w
         tej chwili jej usytuowania. Najpierw należy rozstrzygnąć konstrukcję
         art. 8.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Powracamy zatem do art. 8.
       </p>
     </div>
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Wydaje mi się, że wnioski: posła R. Grodzickiego i senatora H. Rota są
         tożsame.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie są to wnioski tożsame. W przypadku wniosku posła R. Grodzickiego
         można mówić o „skazaniu” art. 8, a w przypadku wniosku senatora H. Rota
         o „zawieszeniu” art. 8.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Uważam, że głosowania należy rozpocząć od wniosku senatora H. Rota, z
         którego wynika, że najpierw należy zakończyć prace nad rozdziałem o
         źródłach prawa, a dopiero potem rozstrzygnąć kwestię art. 8.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przyjmujęwniosek posła J. Szymańskiego. Poddaję pod głosowanie wniosek o
         przyjęcie propozycji senatora H. Rota, aby zawiesić decyzję o treści i
@@ -915,14 +913,15 @@
         drukiem w propozycji poseł I. Lipowicz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Mój wniosek nie obejmował sformułowań napisanych drukiem pogrubionym.
         Jest to konsekwencja przejęcia art. 69.
@@ -931,14 +930,15 @@
 
     <!--<hr><p class="page-break">strona 68</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak więc, aby uporządkować wniosek poseł I. Lipowicz, musimy
         rozstrzygnąć zaproponowane w jego treści ujęcia alternatywne w formie
@@ -955,54 +955,58 @@
         przeciwnych i 6 wstrzymujących się, przyjęła wniosek.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Przyjęcie uzupełnienia ust. 2 powoduje, że przestaje on być moim
         wnioskiem. Wycofuję więc ten wniosek. Ponadto chcę zapytać, kto zgłosił
         uzupełnienie do mojego wniosku?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wniosek poseł I. Lipowicz jest powtórzeniem art. 69.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Zaszło nieporozumienie, gdyż ja nawiązałam do art. 69, ale przyjęłam
         zasadę konstytucjonalizmu proponowaną przez prof. W. Osiatyńskiego. Mój
         wniosek nie obejmuje więc uzupełnień ujętych pogrubionym pismem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Zgłaszam wniosek o dokonanie reasumpcji poprzedniego głosowania, gdyż
         nie można głosować nad automatycznie przeniesioną treścią art. 69.
@@ -1011,28 +1015,30 @@
         pogrubionym drukiem i ujętych w nawiasie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przeprowadziłem nie umotywowane głosowanie, co jest moim błędem. Za
         chwilę poddam pod głosowanie brzmienie wniosku zgodne z propozycją poseł
         I. Lipowicz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Wydaje się jednak, że nastąpiło pewne nieporozumienie. Głosując bowiem
         nad wnioskiem poseł I. Lipowicz wypowiadamy się pośrednio o treści art.
@@ -1042,81 +1048,87 @@
         odłożony do czasu rozpatrzenia art. 69.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Czy jednak podczas głosowania można składać wnioski? Jeśli nawet tak, to
         powinny one być przedłożone na piśmie i dostarczone członkom Komisji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Senator A. Grześkowiak ma formalnie rację, ale tekst poprawki mamy przed
         sobą. Proponuję, aby ust. 1 nie zawierał wyrazu: „stanowionym”, a ust. 2
         zawierał uzupełnienie: „poza wyjątkami przez nią określonym”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Uważam, że konieczna jest reasumpcja. Nie udawajmy, że nie podjęliśmy
         żadnych decyzji, skoro je podjęliśmy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Czy jeżeli przyjmiemy treść ust. 2 w brzmieniu proponowanym przez posła
         W. Cimoszewicza, to zapiszemy jednocześnie w konstytucji, które artykuły
         nie będą stosowane bezpośrednio?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         W moim przekonaniu z proponowanego sformułowania wynika, że to
         konstytucja określa, kiedy jej przepisy nie są stosowane bezpośrednio.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Rozumiem, że chodzi o bezpośrednie zastosowanie przepisów dotyczących
         wolności, praw i obowiązków obywatelskich, zwłaszcza kiedy nie można ich
@@ -1130,41 +1142,44 @@
         jest tylko wniosek senator A. Grześkowiak i posła W. Majewskiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Mam pytanie do prof. W. Osiatyńskiego: który z przepisów projektu mówi o
         tym, że określone artykuły nie są stosowane bezpośrednio?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Chodzi o art. 64, dotyczący praw socjalnych i stwierdzający, że ochrona
         praw ujętych w stosownych artykułach jest stosowana w granicach ustaw
         wydanych w celu realizacji tych praw.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Uważam, że podejmujemy kwestie bardzo ważne. Jest to bowiem zagadnienie
         bezpośredniego obowiązywania konstytucji. Chodzi o to, czy w przypadku
@@ -1175,14 +1190,15 @@
         określonych granicach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Powinniśmy pamiętać o tym, że dyskutowany art. 8 odnosi się nie tylko do
         wolności i praw obywatelskich, lecz do wszystkich przepisów
@@ -1190,14 +1206,15 @@
         wiele przepisów, które odsyłają do ustaw zwykłych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -1209,14 +1226,15 @@
         stanowi inaczej”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Dyskutowany projekt konstytucji zawiera wiele odesłań do ustaw. Dotyczy
         to w szczególności art. 64. Podobnie jest w art. 127 w odniesieniu do
@@ -1227,14 +1245,15 @@
         ustaw zwykłych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Poseł W. Cimoszewicz powinien więc rozważyć przyjęcie formuły
         proponowanej przez prof. S$. Gebethnera. Kwestia takiej czy innej
@@ -1242,14 +1261,15 @@
         konstytucji będzie realizowana poprzez ustawy zwykłe.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Uważam, że konieczne jest wpisanie do konstytucji zasady bezpośredniego
         stosowania przepisów konstytucyjnych. Zwracam jednak uwagę, że w istocie
@@ -1283,14 +1303,15 @@
 
     <!--<hr><p class="page-break">strona 69</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Dziękuję prof. P. Winczorkowi za wskazanie na to, że również bez formuły
         ograniczającej bezpośrednie stosowanie konstytucji będą sytuacje, w
@@ -1309,14 +1330,15 @@
         bezpośredniego stosowania konstytucji bez „dodatków”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Zgadzam się na zastosowanie innej formuły. Ponadto stwierdzam — nawet z
         pewnym zaskoczeniem — że tak naprawdę proponuję przyjęcie przepisów w
@@ -1327,14 +1349,15 @@
         gotów poprzeć, choć z wyjątkiem ust. 3.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Mam swego rodzaju satysfakcję, gdyż wszystkie dyskutowane w tej chwili
         formuły są mojego autorstwa. Poseł I. Lipowicz przedstawiła formułę,
@@ -1347,14 +1370,15 @@
         zawarte we wniosku nr 14, który przedłożył poseł W. Majewski.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Gdyby prof. W. Osiatyński ograniczył swój wewnętrzny pluralizm,
         pomogłoby to nam w pracach konstytucyjnych. Rozumiem więc, że wniosek
@@ -1363,14 +1387,15 @@
         oczywiście jeżeli senator A. Grześkowiak wyrazi zgodę.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Przywykłam już do tej sytuacji, w której w wielu późniejszych projektach
         konstytucji odnajduję przepisy z projektu senackiego. Ponadto jest to
@@ -1378,28 +1403,30 @@
         przygotować dobry projekt.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proponuję nie przeprowadzać reasumpcji wcześniejszego głosowania.
         Wyjaśnieniem jest oświadczenie przewodniczącego Komisji, że wniosek
         przedłożony pod głosowanie nie był właściwy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Jeżeli ust. 3 we wniosku senator A. Grześkowiak zostanie w przedłożonym
         brzmieniu: „Wszystkie akty prawne Rzeczypospolitej Polskiej muszą być
@@ -1419,14 +1446,15 @@
         Grześkowiak.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Poseł W. Cimoszewicz przyjął jako swój — wniosek składający się z ust. 1
         i ust. 2 mojego wniosku. Prof. K. Działocha był uprzejmy nie zauważyć
@@ -1443,40 +1471,43 @@
         wszczynają tę dyskusję w trakcie głosowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przechodzimy zatem do głosowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Proponuję, aby poprzez użycie przycisku „za” móc się opowiedzieć za
         wnioskiem nr 10, a poprzez użycie przycisku „przeciw” móc się
         opowiedzieć za wnioskiem nr 12 ust. 1 i ust. 2.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie przyjmuję propozycji posła K. Kamińskiego. Uważam, że każdy ze
         zgłoszonych wniosków powinien być poddany pod głosowanie. Podobnie jak w
@@ -1543,27 +1574,29 @@
 
     <!--<hr><p class="page-break">strona 71</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Wydaje się, że przepis zawarty we wniosku prof. 5. Gebethnera powinien
         znaleźć się po artykule formułującym zasady konstytucjonalizmu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Longin Pastusiak (SLD):</strong>
         Uważam, że formuła zaproponowana przez prof. S$. Gebethnera nie jest
         zasadą ustrojową. Moim zdaniem zasadą ustrojową jest relacja prawa
@@ -1571,27 +1604,29 @@
         jest tak oczywiste, że nie można mówić o zasadzie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Istotą zasad ustrojowych jest to, że są oczywiste -— zatrącają wręcz o
         banał. Oczywistość nie pozbawia jednak zasad ich znaczenia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Chcę zapytać wnioskodawcę, czy zasada ta musi być ujęta aż tak szeroko.
         Przy tak szerokiej formule może pojawić się pytanie, czy Polskę wiąże
@@ -1603,14 +1638,15 @@
         międzynarodowego w polskim porządku prawnym, niż tego typu formuły.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Zwracam uwagę na niezręczność formuły z użyciem wyrazu „Ją”. Ponadto
         nasuwa się pytanie, czy prawem międzynarodowym są również powszechnie
@@ -1620,14 +1656,15 @@
         międzynarodowego i ratyfikowanych umów międzynarodowych”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -1640,26 +1677,28 @@
         Proponowana formuła powinna więc znaleźć się wśród zasad ustroju.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         pełni popieram to co powiedział prof. 5. Gebethner.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Czuję się w obowiązku zabrać głos, gdyż podkomisja zagadnień systemu
         Źródeł prawa poświęciła tej kwestii kilka posiedzeń z udziałem
@@ -1672,28 +1711,30 @@
         prawa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Także uważam, że jest to zasada legalizmu, choć rozumiana szerzej, gdyż
         dotyczy nie tylko prawa wewnętrznego, ale również stosunku prawa
         wewnętrznego do międzynarodowego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Chcę poprzeć propozycję prof. S$. Gebethnera i jednocześnie zwrócić
         uwagę, że chodzi nie tylko o systematykę źródeł prawa, ale chodzi
@@ -1703,14 +1744,15 @@
         konstytucji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś chciałby jeszcze zabrać głos? Nie ma. Ponieważ
         przeprowadziliśmy dyskusję także z udziałem wnioskodawcy, sądzę, że
@@ -1740,27 +1782,29 @@
         2.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Jestem skłonny zrezygnować z wariantu II ust. 2 tylko w przypadku
         przyjęcia mojego wniosku.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proszę jednak zwrócić uwagę, że ust. 2 w wariancie II jest niemal
         tożsamy z ust. 2 we wniosku senator A. Grześkowiak. Powracamy do ust. 2
@@ -1768,14 +1812,15 @@
         „niezależne” i „niezawisłe ”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         W rozdziale dotyczącym sądownictwa dla określenia pozycji ustrojowej
         sądów i sędziów używa się dwóch określeń: „niezależne sądy” 1
@@ -1785,26 +1830,28 @@
         rozdziale o sądownictwie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem więc, że powinniśmy przyjąć pojęcie „niezależne sądy”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Jest to problem, gdyż rzeczywiście rozróżnia się niezawisłość sądów jako
         jednostek organizacyjnych wymiaru sprawiedliwości, od niezawisłości
@@ -1816,28 +1863,30 @@
         określeń.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Nie wnikając w spór, chcę poinformować, że w rozumieniu podkomisji
         chodziło o wymienne zastosowanie jednego z określeń, a więc bez spójnika
         „1.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Wydaje mi się — podobnie jak posłowi W. Cimoszewiczowi — że chodzi o
         iunctim, gdyż są to dwie cechy przynależne władzy sądowniczej jako sądom
@@ -1848,14 +1897,15 @@
 
     <!--<hr><p class="page-break">strona 73</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/BentkowskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Bentkowski (PSL):</strong>
         Chcę przypomnieć, że w ustawie — Prawo o ustroju sądów Powszechnych jest
         zapisane, że sądy są niezależne i niezawisłe. Pominięcie jednego z
@@ -1863,14 +1913,15 @@
         użyciem obu określeń.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy są inne wnioski niż końcowa opinia posła A. Bentkowskiego? Nie ma.
         Poddaję pod głosowanie wniosek o przyjęcie ust. 2 propozycji podkomisji,
@@ -1881,14 +1932,15 @@
         mówiącej o sądach, czy o sądach i trybunałach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Opowiadam się za pominięciem formuły: „i trybunały”, zarówno bowiem.
         Trybunał Stanu, jak i Trybunał Konstytucyjny, to sądy — sądy szczególne
@@ -1896,27 +1948,29 @@
         konstytucyjnego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Longin Pastusiak (SLD):</strong>
         Popieram tę argumentację. Pojęcie „sąd” to pojęcie szerokie. „Trybunał”
         to nazwa własna.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Trudno zgodzić się z poglądem, że w pojęciu „sąd” mieści się pojęcie
         „trybunał”. Reprezentuję pogląd — wyrażony w projekcie obywatelskim NSZZ
@@ -1929,14 +1983,15 @@
         władzy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         W porównaniu z poglądami senatora P. Andrzejewskiego mam zupełnie inne
         wnioski. Przyjmując kryterium czysto formalne należy pamiętać, że tytuł
@@ -1948,14 +2003,15 @@
         dyskutowanym artykule dystynkcja nie jest konieczna.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Oddzielenie władzy ustawodawczej od sądowniczej, a szczególnie
         oddzielenie trybunałów, przesądza zmianę w kwestii zatwierdzania
@@ -1965,26 +2021,28 @@
         opowiadam się za pozostawieniem formuły „i trybunały”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Miałem zamiar mówić o tym, o czym powiedział poseł J. Ciemniewski.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przypominam, że główny spór, jaki wczoraj toczyliśmy, dotyczył
         niedookreślenia pozycji Prezydenta RP w formule zasady trójpodziału
@@ -2021,27 +2079,29 @@
         K. Łybackiej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Proszę o uwzględnienie autopoprawki w ust. 2: „przez niezależne i
         niezawisłe sądy i trybunały”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Poddaję pod głosowanie wniosek o przyjęcie propozycji poseł K. Łybackiej
         o następującej treści: „Ust. 1. Władza państwowa jest sprawowana przez
@@ -2070,27 +2130,29 @@
         J. Ciemniewskiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Co zrobić, aby głosować za wnioskiem posła J. Ciemniewskiego, ale
         jednocześnie nie głosować za trzykrotnym użyciem wyrazu „władzy ”?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Nie przywiązuję dużej wagi do trzykrotnego użycia wyrazu „władza”, gdyż
         nie jestem aż tak dużym zwolennikiem władzy. Uważam, że jest to kwestia
@@ -2101,28 +2163,30 @@
         przewodniczącemu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Proponuję następujące brzmienie: „Ustrój Rzeczypospolitej Polskiej
         opiera się na podziale, współdziałaniu i równo "wadze władzy:
         ustawodawczej, wykonawczej i sądowniczej”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Uważam, że Są to kwestie redakcyjne, których nie musimy podejmować w tej
         chwili. Sądzę natomiast, że zwłaszcza w Świetle wyników głosowania nad
@@ -2148,14 +2212,15 @@
         naczelny organ państwowy jak Prezydent RP.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Powstała sytuacja, w której należy powrócić do wariantu II ust. 2. Nie
         rozstrzygnęliśmy bowiem między wariantem I a wariantem II. Dla mnie
@@ -2164,28 +2229,30 @@
         wariant I.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie wydaje się możliwe pominięcie w zasadach ustroju instytucji
         prezydenta pochodzącego z wyborów powszechnych. Posiedzenia Komisji
         Konstytucyjnej ZN
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Zgłaszam wniosek o reasumpcję głosowania z powodu pomyłki. Tworząc
         zmodyfikowaną wersję poprawki posła J. Ciemniewskiego zgodziliśmy się,
@@ -2197,28 +2264,30 @@
         przepisów szczegółowych dotyczących prezydenta.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Jeżeli poseł J. Ciemniewski zgodziłby się, to przyjęłabym jego wniosek w
         brzmieniu pierwotnym, a więc bez uzupełnienia o formułę mówiącą o
         współdziałaniu władz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Uważam, że głosowanie było poprawne. Do wyboru było wiele propozycji.
         Członkowie Komisji dokonali rozstrzygnięcia w sposób prawidłowy. Proszę
@@ -2233,14 +2302,15 @@
         rozdziale o prezydencie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę raz jeszcze przypomnieć, że główny problem, który pojawił się
         wczoraj, wyrażał się w niemożliwości zdefiniowania w jednej zasadzie
@@ -2256,14 +2326,15 @@
         rozwagi, jak wybrnąć z sytuacji, w której jesteśmy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         : Wyniki naszych głosowań zrozumiałam w ten sposób, że przyjęty został
         przepis w brzmieniu: „Władza państwowa jest sprawowana przez rozdzielone
@@ -2279,14 +2350,15 @@
         podkomisji — i w mojej propozycji — powinna być odrębnym artykułem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Muszę zmartwić senator A. Grześkowiak, ale głosowania były świadome.
         Odnosiły się zarówno do ust. l, jak do ust. 2 przedłożonych wniosków.
@@ -2294,14 +2366,15 @@
         formuły o współdziałaniu władz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Występuję przeciwko kontynuowaniu tej dyskusji, która zmierza do
         podważenia ustaleń przyjętych w głosowaniu. W moim przekonaniu
@@ -2326,14 +2399,15 @@
         jego obalenia.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Nie jestem pewien, czy wszyscy głosowaliśmy znając w pełni konsekwencje
         głosowania. Być może wprowadziłem pewne, zamieszanie wyrażając zgodę na
@@ -2347,14 +2421,15 @@
 
     <!--<hr><p class="page-break">strona 76</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przyjmuję, że głosujemy Świadomie. Został również zgłoszony wniosek o
         reasumpcję. Chcę również dodać uwagę do tego, o czym mówił poseł W.
@@ -2363,14 +2438,15 @@
         szczegółowe rozwiązania w rozdziale pierwszym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Chcę przypomnieć głosowanie imienne przeprowadzone w dniu 26 stycznia
         br. Moim zdaniem Komisja rozstrzygnęła wówczas pomiędzy wariantem I a
@@ -2390,14 +2466,15 @@
         przepisu dotyczącego prezydenta.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Nie wprowadzajmy praktyki podważania głosowań prawidłowo
         przeprowadzonych. Należy również pamiętać, że prace nad konstytucją nie
@@ -2409,14 +2486,15 @@
         dotyczącym prezydenta,
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie ulega wątpliwości, że nie musimy dzisiaj popadać w stan
         zdenerwowania, gdyż prace nad konstytucją będą jeszcze trwały przez
@@ -2424,14 +2502,15 @@
         Zgromadzenie Narodowe.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KrollHenryk.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Henryk Kroll (MN):</strong>
         Uważam, że popełniliśmy podstawowy błąd głosując nad propozycją posła J.
         Ciemniewskiego w wersji pierwotnej. Modyfikacja tej propozycji została
@@ -2439,27 +2518,29 @@
         nad poprawką posła J. Ciemniewskiego, w jej brzmieniu pierwotnym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Głosowanie zostało przeprowadzone w sposób mało czytelny. Uważam, że
         uzasadnia to wniosek o reasumpcję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Uważam, że głosowania odbywały się zgodnie z przyjętą procedurą.
         Przegłosowany został wariant podkomisji. Ponadto na poprzednim
@@ -2475,14 +2556,15 @@
         przedstawiciel Rzeczypospolitej Polskiej gwarantuje ciągłość władz .
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Nad problemem, który jest przedmiotem debaty, dyskusja toczy się od
         dawna, gdyż jest to zagadnienie modelu państwa, który powstanie w wyniku
@@ -2510,14 +2592,15 @@
 
     <!--<hr><p class="page-break">strona 17</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Kwestia, wokół której toczy się spór, zostanie za chwilę rozstrzygnięta
         w głosowaniu. Proszę jednak, aby nie używać argumentów sprzecznych ze
@@ -2535,14 +2618,15 @@
         usłyszymy, to miejmy Świadomość, w jakich warunkach głosujemy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Popełniłem błąd proceduralny polegający na dopuszczeniu do zmiany treści
         wniosku posła J. Ciemniewskiego, po wstępnym przegłosowaniu wniosku w
@@ -2555,26 +2639,28 @@
         przewodniczący obrad ponoszę większą część winy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Przyjmuję całą winę na siebie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przechodzimy do głosowania. Poddaję pod głosowanie wniosek o reasumpcję
         głosowania nad propozycją nr 18 posła J. Ciemniewskiego, z powodu błędu
@@ -2611,14 +2697,15 @@
         może propozycje dyskusyjne z punktu widzenia prawa konstytucyjnego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Proponuję dodanie ust. 3 w wariantach podkomisji, o następującej treści:
         „Ustawa może ustanowić obowiązkową przynależność osób do samorządów
@@ -2642,14 +2729,15 @@
         samorządami, które są organami władzy publicznej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Uważam, że kwestie samorządu zawodowego i innych form samorządu, to
         kwestie bardzo skomplikowane i wymagające odrębnej dyskusji. Są to
@@ -2666,14 +2754,15 @@
         posiedzeniu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Należy jednak pamiętać, że nie dyskutujemy o przepisach dotyczących
         samorządu w ogóle, lecz o przepisach wyrażających ogólną zasadę
@@ -2686,28 +2775,30 @@
         konstytucji w ramach zasad ustroju.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Kwestia ta powinna być podjęta w zasadach ustroju. Powinno mieć miejsce
         konstytucyjne ograniczenie materialnych warunków funkcjonowania innych
         form samorządu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przyjmuję zgłoszoną uwagę i proponuję, abyśmy rozpoczęli od kwestii
         ujętych w ust. 1 propozycji podkomisji, a więc od kwestii samorządu
@@ -2719,28 +2810,30 @@
         formuły: „na szczeblu lokal>nym”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Uważam, że propozycja prof. L. Wiśniewskiego powinna być Posiedzenia
         Komisji Konstytucyjnej ZN dyskutowana przy okazji rozpatrywania
         rozdziału o wolnościach i prawach obywateli.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Nie mogę zgodzić się z poglądem zaprezentowanym przez prof. P.
         Sarneckiego. Istotą samorządu zawodowego nie jest zrzeszanie się, lecz
@@ -2751,27 +2844,29 @@
         powinno być również podjęte.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przechodzimy do dyskusji nad art. 1l, a więc do formuły generalnej
         dotyczącej samorządu terytorialnego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Formuła zawarta w każdym z trzech wariantów stwierdza, że samorząd
         terytorialny to coś więcej niż techniczna decentralizacja administracji,
@@ -2825,27 +2920,29 @@
         Trybunału Konstytucyjnego znaczenie dodatkowo wyjaśniające.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę zapytać poseł I. Lipowicz, który z wariantów ust. 1 najbardziej
         odpowiada istocie wniosków, które sformułowała?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         W moim przekonaniu istocie wniosku najbardziej odpowiada ust. 1 w
         wariancie I. Został sformułowany w oparciu o postulaty środowisk
@@ -2853,14 +2950,15 @@
         stanowisk. Ze zrozumieniem odnoszę się do innych opinii.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Wiele tez, które chciałem przedstawić, wypowiedziała już poseł I.
         Lipowicz, za co jej dziękuję. Również popieram wariant I ust. 1, w
@@ -2877,27 +2975,29 @@
         funkcjonowania i konsekwencji powołania organów samorządowych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rysuje się wyraźne poparcie dla ust. I w wariancie I. Czy są odmienne
         opinie?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Popieram rozwiązanie wyrażone w projekcie obywatelskim NSZZ
         „Solidarność”. W swojej pierwszej wersji sprowadza się ono do poparcia
@@ -2922,40 +3022,43 @@
         prawa, które pośrednio jest również prawem obywatelskim.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak więc mamy warianty podkomisji, wniosek senatora P. Andrzejewskiego 1
         wcześniej złożony wniosek senator A. Grześkowiak.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Proszę senatora P. Andrzejewskiego, aby przypomniał pełne brzmienie
         swojego wniosku.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Jeżeli chodzi o motywację, to jestem całkowicie zgodny z poseł I.
         Lipowicz. Treść naszej propozycji jest następująca: „Ust. 1. Samorząd
@@ -2972,14 +3075,15 @@
         to wówczas w grę wchodzi zasada legalizmu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Chcę zapytać senatora P. Andrzejewskiego, czy nie obawia się, że
         eliminacja pojęcia „władza publiczna” na rzecz pojęcia: „władza” nasunie
@@ -2998,26 +3102,28 @@
         wyznaniowych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Ten argument poseł I. Lipowicz jest przekonujący.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chcę zapytać senatora P. Andrzejewskiego, czy sformułowanie o
         gwarantowaniu swobody działania innych form samorządności nie może być
@@ -3028,14 +3134,15 @@
         zagwarantowanie wolności powstawania i działania innych form samorządu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Problem, na który wskazał poseł W. Cimoszewicz, jest problemem
         rzeczywistym. Przykładem może być projekt ustawy o samorządzie
@@ -3052,14 +3159,15 @@
         konstytucji i dotyczącymi ogólnych praw człowieka.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli chodzi o kwestię formuły generalnej dotyczącej samorządu
         terytorialnego, to oprócz wariantów podkomisji mamy wniosek senatora P.
@@ -3067,14 +3175,15 @@
         poddane pod głosowanie ok. godz. 15.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Z mojej strony nie ma nawet cienia zgody na formułę zaproponowaną przez
         senatora P. Andrzejewskiego. Z pewnym zaskoczeniem muszę powiedzieć, że
@@ -3097,27 +3206,29 @@
         miejsca i roli samorządu w systemie państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Apeluję o powrót do dyskusji nad ust. 1, a więc do kwestii samorządu
         terytorialnego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Nie chcę być uszczypliwy wobec posła J. Ciemniewskiego, ale jest tak, że
         każdy ma swoją perspektywę i genezę interpretacji instytucji prawnych.
@@ -3129,28 +3240,30 @@
       </p>
     </div>
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mówiąc nieco żartobliwie: można stwierdzić, że efektem wymiany poglądów
         między posłem J. Ciemniewskim i senatorem P. Andrzejewskim jest
         ustalenie, że inspiracją Chruszczowa były encykliki papieskie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Chcę również zaprezentować wniosek senator A. Grześkowiak, który jest
         powtórzeniem art. 5 projektu senackiego. Jego brzmienie jest
@@ -3159,14 +3272,15 @@
         sprawowaniu władzy”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Chcę zwrócić uwagę na niebezpieczeństwo, jakie kryje się w związku z
         zaprezentowaną propozycją senator A. Grześkowiak. Chodzi o to, że
@@ -3184,14 +3298,15 @@
         zapewne nie chciałaby senator A. Grześkowiak.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że kończymy dyskusję o samorządzie terytorialnym. Głosowaniu
         zostaną poddane warianty podkomisji, wniosek senatora P. Andrzejewskiego
@@ -3213,14 +3328,15 @@
 
     <!--<hr><p class="page-break">strona 81</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Nawiązując do kwestii innych form samorządu oraz do dyskusji sejmowej o
         samorządzie gospodarczym, gdzie pojawiły się tendencje
@@ -3244,14 +3360,15 @@
         o ochronę praw mniejszości narodowych.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał
           Drozdek:
@@ -3275,14 +3392,15 @@
         konstytucji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -3298,14 +3416,15 @@
         możliwości ich utworzenia w granicach określonych w ustawach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Sprawa, nad którą dyskutujemy, chyba nie jest tak prosta, skoro dyskusja
         trwa i zgłaszane są dalsze propozycje. Chodzi zwłaszcza o określenie
@@ -3325,14 +3444,15 @@
         sprawowania władzy publicznej, zwłaszcza w zakresie tworzenia prawa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jan Orzechowski (PSL):</strong>
         Podzielam pogląd prof. S. Gebethnera, że w ramach rozdziału o zasadach
         ustroju nie należy przyjmować rozwibardzo szczegółowych. Uważam, że
@@ -3350,14 +3470,15 @@
         Jestem więc przeciwny ust. 3 o tej treści.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Stefan Pastuszka (PSL):</strong>
         Popieram pogląd przedstawiony przez senatora J. Orzechowskiego, a nawet
         poszedłbym jeszcze dalej. Jestem bowiem przeciwny wprowadzeniu
@@ -3368,14 +3489,15 @@
         akademickiego? Uważam, że nie musi.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Nawiązując do wypowiedzi senatora 5. Pastuszki chcę powiedzieć, że jego
         koncepcja jest możliwa do zrealizowania przy zmienionej koncepcji
@@ -3400,14 +3522,15 @@
         projektu — o innych formach samorządu mowa jest tylko w art. 11 ust. 2.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Zgadzam się całkowicie z prof. L.Wiśniewskim. Chcę dodać, że należy w
         pełni odróżniać samorząd od stowarzyszenia. Są to dwie wyraźnie jednak
@@ -3422,14 +3545,15 @@
         wykraczające poza jego naturalne funkcje określone w ustawie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proszę ekspertów, aby zastanowili się nad rozwiązaniem, które
         zachowałoby normę generalną dotyczącą innych form samorządu w zasadach
@@ -3439,14 +3563,15 @@
         że należy unikać norm bardzo szczegółowych w rozdziale pierwszym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
         Tocząca się ciekawa debata wynika z dwóch przyczyn. Przyczyna pierwsza
         to spory o pojęcie i istotę samorządu. Mam nadzieję, że wyjaśnienia
@@ -3467,28 +3592,30 @@
         Mazurkiewicza.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli przedstawiciele Prezydenta RP uznają to za stosowne, mogę zgłosić
         propozycję ujętą w projekcie prezydenckim. Uważam, że jest to
         interesująca formuła.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Uważam, że przepis dotyczący innych form samorządu nie powinien znaleźć
         się w rozdziale o prawach i woInościach obywateli, lecz w rozdziale o
@@ -3505,14 +3632,15 @@
         dr. W. Kuleszę.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wydaje się, że powinniśmy zmierzać w kierunku takiego rozwiązania, aby
         artykuł mówiący o obowiązkowej przynależności do samorządu i atrybucji
@@ -3520,14 +3648,15 @@
         brzmieniu nie jest zbyt obszerny.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Zgadzam się z sugestią pana przewodniczącego, aby materię, o której
         dyskutujemy, umieścić w rozdziale o samorządzie. Chcę również odnieść
@@ -3549,14 +3678,15 @@
         można do tego dopuścić.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jan Orzechowski (SLD):</strong>
         Mam uwagę do wypowiedzi prof. L. Wiśniewskiego. Nie uważam, aby za
         słuszny można było uznać pogląd, że samorząd zawodowy — nawet ten
@@ -3568,27 +3698,29 @@
       </p>
     </div>
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Odnosiłem wrażenie, że o tym cały czas dyskutujemy.
       </p>
     </div>
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         W zakresie funkcji zleconych organ samorządu jest organem władzy
         publicznej. Uzasadnia to, dlaczego w jednym zdaniu nie możemy mówić o
@@ -3603,14 +3735,15 @@
         Powinien on być ujęty w odrębnym przepisie.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Henryk Rot (SLD):</strong>
         Rozumiem, że chodzi o udział samorządu w sprawowaniu władzy publicznej.
         Wynika to z brzmienia ust. 1 w wariancie I. Ponadto przychylam się do
@@ -3621,14 +3754,15 @@
         udziału w sprawowaniu władzy publicznej”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         W dyskusji bywały niekiedy mieszane materie merytoryczne. Czymś innym
         jest bowiem wolność zrzeszania się, a czymś innym jest problem
@@ -3642,27 +3776,29 @@
         tego typu przepisu przedłożył poseł M. Mazurkiewicz.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Propozycja, którą zgłosiłem, nie byłaby więc art. 11 ust. 2, lecz art.
         203a z odesłaniem do art. 11 ust. 1.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak więc mamy warianty podkomisji, propozycję senatora H. Rota, wniosek
         senator A. Grześkowiak, wniosek senatora J. Orzechowskiego oraz wniosek
@@ -3676,28 +3812,30 @@
         dopuszczalne jedynie na cele publiczne i za słusznym odszkodowaniem”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Jeżeli chodzi o ust. 1, to opowiadam się za krótszym brzmieniem. W
         przypadku ust. 2 jestem za skreśleniem wyrazu „słusznym. W polskim
         prawie cywilnym nie ma niesłusznego odszkodowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał
           Drozdek:
@@ -3709,14 +3847,15 @@
         odszkodowania słusznego jest to trudniejsze.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Chcę zwrócić uwagę na wniosek, który złożyłem. Składa się on z 4
         artykułów, które są dla mnie wyraźną całością. Chodzi o kwestię
@@ -3726,14 +3865,15 @@
         stosowną propozycję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         W związku z wnioskiem posła K. Kamińskiego i wypowiedzią pana M. Drozdka
         chcę zwrócić uwagę, że pojęcie słusznego odszkodowania znajduje się w
@@ -3746,14 +3886,15 @@
         słusznym — sprawiedliwym, ekwiwalennym — odszkodowaniem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Odnoszę wrażenie, że w rozdziale drugim, dotyczącym praw i wolności, nie
         ma przepisu dotyczącego własności. Jeżeli tak jest, to powstaje
@@ -3765,14 +3906,15 @@
         nie w rozdziale o prawach i wolnościach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         W tej chwili nie przesądzamy zawartości rozdziału drugiego, lecz
         rozdziału pierwszego, zawierającego zasady ustroju, wśród których na
@@ -3780,14 +3922,15 @@
         swobody działalności gospodarczej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Z zasady legalizmu czy praworządności obywatele będą korzystali
         stosunkowo rzadko w przypadku wysuwania roszczeń osobistych. W grę
@@ -3798,14 +3941,15 @@
         praktyczna.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Uważam, że przedłożone przez podkomisję brzmienie art. 12 jest bardzo
         praktyczne. Zawiera bowiem trzy ważne kwestie: ochronę własności, prawo
@@ -3813,14 +3957,15 @@
         że zawartość art. 12 jest pełna i praktyczna.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Popieram propozycję, aby treść artykułów: 12, 13 i 14 została ujęta w
         jednym artykule, który w projekcie obywatelskim NSZZ „Solidarność ”
@@ -3847,14 +3992,15 @@
         wymierności, jest to całkowicie odrębne i ugruntowane kryterium.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli chodzi o stan prac nad art. 12, to oprócz propozycji podkomisji
         zostały zgłoszone poprawki: posła K. Kamińskiego, senatora P.
@@ -3867,14 +4013,15 @@
         barw, hymnu i stolicy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Dotychczasowe tempo prac wskazuje, że dla rozpatrzenia pozostałych
         artykułów konieczne będzie odbycie ok. 15 posiedzeń. W związku z tym
@@ -3882,14 +4029,15 @@
         część przepisów projektu powróci do podkomisji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jako przewodniczący Komisji wyrażam zadowolenie, że prace posuwają się
         naprzód, choć tempo jest wolne. Wyrażam przy tej okazji szacunek dla
@@ -3904,14 +4052,15 @@
         prezydencie wywoła zapewne obszerną debatę.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jan Orzechowski (PSL):</strong>
         Jeżeli chodzi o art. 12, dotyczący prawa własności, to warto
         przypomnieć, że treść prawa własności, sposób jego wykonywania i ochronę
@@ -3921,14 +4070,15 @@
         12 jest wystarczająca.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Chcę wskazać na niebezpieczną lukę znajdującą się w art. 12. Art. 12
         dopuszcza naruszenie prawa własności tylko poprzez wywłaszczenie. Nie
@@ -3938,28 +4088,30 @@
         przestępstwa. Nóż służący zabójstwu musiałby więc być zwrócony mordercy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Uważam, że w przypadku wywłaszczenia należałoby podjąć kwestię, kiedy
         nastąpi odszkodowanie. Rozważenia wymaga formuła mówiąca o uprzednim
         odszkodowaniu, przy utrzymaniu zasady słusznego odszkodowania.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Powracam do swojej wątpliwości, iż w rozdziale o zasadach ustroju znajdą
         się dwie normy ogólne, które będą mówić o szczegółach i odstępstwach od
@@ -3974,14 +4126,15 @@
         swobody działalności gospodarczej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -3995,14 +4148,15 @@
         musi mieć podstawę konstytucyjną.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
         Uważam, że formuła mówiąca o słusznym odszkodowaniu powinna być
         utrzymana. Jak wskazał prof. K. Działocha, chodzi przede wszystkim o
@@ -4012,14 +4166,15 @@
         środowisko biznesmenów mowa jest o odszkodowaniu słusznym i godziwym.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Chcę wyrazić swój niepokój w związku z nawoływaniem do — moim zdaniem —
         nadmiernej lakoniczności przepisów rozdziału pierwszego, zwłaszcza gdy
@@ -4058,27 +4213,29 @@
         tego zespołu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proszę prof. W. Osiatyńskiego, aby zajął miejsce bliżej pozostałych
         członków stałego zespołu ekspertów.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Zdrada (UW):</strong>
         Mam uwagi do art. 12 i art. 13. Jeżeli chodzi o art. 12, to proponuję
         następujące brzmienie: „Rzeczpospolita Polska chroni własność.
@@ -4092,14 +4249,15 @@
 
     <!--<hr><p class="page-break">strona 87</p><hr>-->
 
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś chciałby jeszcze zabrać głos na temat art. 12? Nie ma.
         Przechodzimy zatem do art. 13. Jego ust. 1 w brzmieniu przedłożonym
@@ -4112,14 +4270,15 @@
         w ustawie i ze względu na ważny interes publiczny”. Otwieram dyskusję.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Stefan Pastuszka (PSL):</strong>
         W imieniu grupy członków Komisji Konstytucyjnej chcę przedstawić
         zmodyfikowane brzmienie art. 13: „Ust. 1. Rzeczpospolita Polska zapewnia
@@ -4143,14 +4302,15 @@
         typu gospodarstwa są najbardziej efektywne.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś pragnie jeszcze zabrać głos w kwestii art. 13? Nie ma.
         Przechodzimy zatem do art. 14, dotyczącego pracy. W brzmieniu podkomisji
@@ -4159,14 +4319,15 @@
         wykonywania”. Otwieram dyskusję. A — ma — —— pz
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Chcę poinformować Komisję, że komisja nadzwyczajna, rozpatrująca zmiany
         w Kodeksie pracy, rozważała propozycję przepisów konstytucyjnych
@@ -4174,14 +4335,15 @@
         zgłosiła uwag i w peini popiera art. 14.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jan Orzechowski (PSL):</strong>
         Mam inną propozycję brzmienia art. 14. Jest ona następująca: „Praca
         stanowi podstawę rozwoju gospodarczego kraju. Państwo sprawuje nadzór
@@ -4189,41 +4351,44 @@
         podkreślenie roli pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Przypominam o art. 7 z projektu obywatelskiego NSZZ, „Solidarność”,
         który w zdaniu pierwszym stwierdza, że praca jest podstawą rozwoju
         państwa.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Chcę zapytać, jakie uprawnienia po stronie obywatela niesie za sobą
         wyraz „ochrona”, jeżeli chodzi o pracę.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji Michał
           Drozdek:
@@ -4240,14 +4405,15 @@
         gospodarczy powinien być ujęty w przepisie dotyczącym pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Odnosząc się do wypowiedzi niektórych poprzedników chcę powiedzieć, że
         nie mam nic przeciwko temu, aby określić funkcje I znaczenie pracy w
@@ -4257,14 +4423,15 @@
         jej wykonywaniem.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Moje wątpliwości budzi propozycja senatora J. Orzechowskiego
         stwierdzająca, że praca jest podstawą rozwoju gospodarczego kraju. Nie
@@ -4273,14 +4440,15 @@
         obejmować tylko prawo dostępu do pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         W moim przekonaniu brzmienie art. 14 w wersji podkomisji jest zawężeniem
         problemu. Wobec tego proponuję następujące brzmienie art. 14: „Władze
@@ -4288,14 +4456,15 @@
         Ochrona socjalna to tworzenie warunków do powstawania miejsc pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/JankiewiczPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Paweł Jankiewicz (SLD):</strong>
         Chcę zwrócić uwagę poseł K. Łybackiej, że właśnie jej sformułowanie
         przyniesie zawężenie zakresu ochrony pracy. Jeżeli bowiem jest mowa o
@@ -4311,14 +4480,15 @@
         ochrony pracy i gwarancji w postaci nadzoru nad warunkami pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (S5LD):</strong>
         Poseł K. Łybacką zachęcam do ponownego przemyślenia swojej propozycji,
         gdyż trzy czynniki w niej zawarte na pewno nie wyczerpują wszystkich
@@ -4333,14 +4503,15 @@
         ochrony pracy.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Opowiadam się za skreśleniem zdania drugiego w propozycji podkomisji.
         Warunki wykonywania pracy określa wolna i swobodna umowa między
@@ -4348,28 +4519,30 @@
         wkraczać w nią.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Chcę zwrócić uwagę, aby art. 14 był rozważany w połączeniu z art. 48 i
         49. Występuje bowiem iunctim merytoryczne między tymi przepisami.
         Podejmują one m.in. kwestie, o których mówiła poseł K. Łybacka.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy ktoś chce jeszcze zabrać głos w ramach debaty nad art. 14? Nie ma.
         Efektem debaty są — i będą — zgłoszone wnioski i propozycje poprawek,
@@ -4386,14 +4559,15 @@
         narodowej.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         W konstytucjach tego typu problematyka jest ujmowana różnie. Kwestie
         symboliki bywają podejmowane wśród początkowych artykułów konstytucji.
@@ -4403,14 +4577,15 @@
         tej kwestii. O takiej ewentualności piszemy w naszych uwagach.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem więc, że do artykułów: 16, 17 i 18 nie ma uwag merytorycznych.
         Skoro tak, to moglibyśmy zdecydować o ostatecznym usytuowaniu tych
@@ -4418,28 +4593,30 @@
         części projektu.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Zwracam uwagę, że przyjęliśmy tytuł rozdziału pierwszego: „Zasady
         ustroju”. Trudno przyjąć, że symbole są zasadami ustroju. Opowiadam się
         więc za odrębnym rozdziałem w końcowej części projektu konstytucji.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KozlowskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Krzysztof Kozłowski (KD):</strong>
         Chcę dodać, że kwestia ta była dyskutowana w trakcie prac podkomisji
         podstaw ustroju politycznego i społeczno-gospodarczego. Upadł pomysł
@@ -4448,14 +4625,15 @@
         rozdziału. pierwszego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Kwestię tę rozstrzygniemy w głosowaniu na następnym posiedzeniu Komisji.
         Ponadto głosowania obejmą artykuły: 11, 12, 13 i 14. Jeżeli podkomisja
@@ -4471,66 +4649,71 @@
         zgłoszonych do art. 5.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/MazurkiewiczMarek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Marek Mazurkiewicz (SLD):</strong>
         Chcę zapytać przedstawicieli Prezydenta RP, czy byliby skłonni wycofać
         ust. 3 swojej poprawki, który jest tożsamy z odpowiednimi przepisami
         odnoszącymi się do Trybunału Konstytucyjnego?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Tak, wycofujemy ust. 3.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wycofuję swój wniosek oznaczony jako nr 1, gdyż jest on zbieżny z
         wnioskiem nr 3.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chcę wycofać moją propozycję oznaczoną nr 6. Miałaby ona sens tylko
         wówczas, gdyby została przyjęta pierwsza poprawka.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Mam pewną niejasność wyrażającą się w pytaniu, czy dyskutowany art. 5
         będzie jedynym przepisem dotyczącym partii politycznych. Chodzi
@@ -4543,14 +4726,15 @@
         zgłosimy brzmienie art. 32 projektu obywatelskiego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę jednak przypomnieć, że jest jeszcze jeden wniosek, który zostanie
         poddany głosowaniu jeszcze raz. Jest to wniosek senatorów: A.
@@ -4561,14 +4745,15 @@
         oraz wpływania na politykę państwa”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Kwestia jest uzupełniona art. 32 ust. 3 projektu obywatelskiego, który
         ujęty jest w rozdziale o prawach i wolnościach obywatelskich i ma treść
@@ -4585,14 +4770,15 @@
         zgłaszania i trybu rejestracji partii politycznych”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Zwracam również uwagę, że oznaczony jako nr 2 wniosek poseł K. Łybackiej
         nie jest aktualny. Poseł K. Łybacka zgłosiła nowy wniosek, który za
@@ -4603,14 +4789,15 @@
         demokratycznymi na kształtowanie polityki państwa”.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KaminskiKrzysztof.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krzysztof Kamiński (KPN):</strong>
         Czy w związku z tym, że propozycja poseł K. Łybackiej nie przewiduje
         formuły, że Rzeczpospolita Polska gwarantuje wolność tworzenia partii
@@ -4618,14 +4805,15 @@
         gwarancji dla powstawania i istnienia partii politycznych?
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Z brzmienia mojej poprawki wynika dobrowolność zrzeszania się obywateli
         oraz gwarancje ze strony państwa. Konstytucyjnie dopuszczona jest więc
@@ -4633,14 +4821,15 @@
         obowiązującego porządku konstytucyjnego.
       </p>
     </div>
-    <div class="speaker">
+    <div class="flex pt-4 speaker">
       <img
+        class="rounded-lg shadow-lg w-32 h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p>
+      <p class="mt-8 p-10 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli chodzi o głosowanie, to w pierwszej kolejności głosowaniu będzie
         poddany wariant I podkomisji, a następnie wariant II podkomisji, który
