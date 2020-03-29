@@ -18,29 +18,22 @@
 </script>
 
 <div
-  class="relative sm:flex sm:justify-end mb-2 sm:mb-0"
+  class="relative mb-2 sm:flex sm:justify-end sm:mb-0"
   in:fly={{ y: -100, duration: 1000 }}>
   <div class="relative">
 
     <input
-      class="w-full font-light sm:w-40 md:w-56 lg:w-64 py-1 px-8 lg:pl-10
-      md:pr-10 border border-gray-100 shadow-sm rounded-md focus:outline-none
-      focus:bg-gray-100"
+      class="w-full px-8 py-1 font-light border border-gray-100 rounded-md shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10 focus:outline-none focus:bg-gray-100"
       bind:value={searchedText}
       on:input={sendChoice} />
     <div
-      class="absolute inset-y-0 right-0 px-2 cursor-help flex flex-col
-      justify-center"
+      class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-help"
       title="liczba wyświetlonych artykułów">
       <div class="">{count}</div>
     </div>
     <div
-      class="pointer-events-none absolute inset-y-0 left-0 flex items-center
-      px-2 text-gray-500">
-      <svg
-        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg">
+      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none">
+      <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <g fill-rule="evenodd">
           <g>
             <path
@@ -58,15 +51,10 @@
   </div>
 
   <div
-    class="w-full mt-1 sm:mt-0 sm:w-8 lg:w-full sm:ml-1 md:ml-2 inline-block
-    relative">
+    class="relative inline-block w-full mt-1 sm:mt-0 sm:w-8 lg:w-full sm:ml-1 md:ml-2">
     <div
-      class="pointer-events-none absolute inset-y-0 left-0 flex items-center
-      sm:justify-center sm:w-full lg:w-auto px-2 sm:px-0 lg:px-2 text-gray-500">
-      <svg
-        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg">
+      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none sm:justify-center sm:w-full lg:w-auto sm:px-0 lg:px-2">
+      <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <g fill-rule="evenodd">
           <g>
             <path
@@ -83,64 +71,57 @@
       </svg>
     </div>
     <select
-      class="w-full sm:w-8 lg:w-full cursor-pointer py-1 px-8 sm:px-0 lg:px-10
-      rounded-md border border-gray-100 shadow-sm bg-white appearance-none
-      text-gray-900 font-light sm:text-transparent lg:text-gray-900
-      focus:outline-none focus:bg-gray-100"
+      class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8 lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900 focus:outline-none focus:bg-gray-100"
       bind:value={selectedChapter}
       on:change={sendChoice}>
 
-      <option class="text-gray-900 font-light" value="_">
+      <option class="font-light text-gray-900" value="_">
         Wszystkie rozdziały
       </option>
-      <option class="text-gray-900 font-light" value="I">
+      <option class="font-light text-gray-900" value="I">
         Rozdział I - Rzeczpospolita
       </option>
-      <option class="text-gray-900 font-light" value="II">
+      <option class="font-light text-gray-900" value="II">
         Rozdział II - Wolności, prawa i obowiązki człowieka i obywatela
       </option>
-      <option class="text-gray-900 font-light" value="III">
+      <option class="font-light text-gray-900" value="III">
         Rozdział III - Źródła prawa
       </option>
-      <option class="text-gray-900 font-light" value="IV">
+      <option class="font-light text-gray-900" value="IV">
         Rozdział IV - Sejm i Senat
       </option>
-      <option class="text-gray-900 font-light" value="V">
+      <option class="font-light text-gray-900" value="V">
         Rozdział V - Prezydent Rzeczypospolitej Polskiej
       </option>
-      <option class="text-gray-900 font-light" value="VI">
+      <option class="font-light text-gray-900" value="VI">
         Rozdział VI - Rada Ministrów i administracja rządowa
       </option>
-      <option class="text-gray-900 font-light" value="VII">
+      <option class="font-light text-gray-900" value="VII">
         Rozdział VII - Samorząd terytorialny
       </option>
-      <option class="text-gray-900 font-light" value="VIII">
+      <option class="font-light text-gray-900" value="VIII">
         Rozdział VIII - Sądy i Trybunały
       </option>
-      <option class="text-gray-900 font-light" value="IX">
+      <option class="font-light text-gray-900" value="IX">
         Rozdział IX - Organy kontroli państwowej i ochrony prawa
       </option>
-      <option class="text-gray-900 font-light" value="X">
+      <option class="font-light text-gray-900" value="X">
         Rozdział X - Finanse publiczne
       </option>
-      <option class="text-gray-900 font-light" value="XI">
+      <option class="font-light text-gray-900" value="XI">
         Rozdział XI - Stany nadzwyczajne
       </option>
-      <option class="text-gray-900 font-light" value="XII">
+      <option class="font-light text-gray-900" value="XII">
         Rozdział XII - Zmiana Konstytucji
       </option>
-      <option class="text-gray-900 font-light" value="XIII">
+      <option class="font-light text-gray-900" value="XIII">
         Rozdział XIII - Przepisy przejściowe i końcowe
       </option>
     </select>
     <div
-      class="flex sm:hidden lg:flex pointer-events-none absolute inset-y-0
-      right-0 items-center px-2 text-gray-900">
+      class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none sm:hidden lg:flex">
 
-      <svg
-        class="fill-current w-4 h-4 sm:w-5 sm:h-5"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20">
+      <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <path
           d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586
           4.343 8z" />

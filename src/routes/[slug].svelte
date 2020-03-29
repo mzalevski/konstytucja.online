@@ -62,15 +62,15 @@
 
 <div class="flex justify-between">
   <a
-    class="w-24 text-lg sm:text-xl font-thin hover:text-red"
+    class="w-24 text-lg font-thin sm:text-xl hover:text-red"
     rel="prefetch"
     href="#{$page.params.slug}">
     powrót
   </a>
-  <h3 class="text-lg sm:text-xl font-thin">
+  <h3 class="text-lg font-thin sm:text-xl">
     {article.chapter['id']} {article.chapter['title']}
   </h3>
-  <div class="flex w-24 justify-end">
+  <div class="flex justify-end w-24">
     {#if $page.params.slug > 1}
       <a
         class="flex flex-col justify-center"
@@ -82,8 +82,7 @@
           isDisqusVisible = false;
         }}>
         <svg
-          class="fill-current w-5 h-5 sm:w-6 h-6 text-gray-900"
-          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5 h-6 text-gray-900 fill-current sm:w-6"
           viewBox="0 0 256 512">
           <path
             d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
@@ -103,8 +102,7 @@
           isDisqusVisible = false;
         }}>
         <svg
-          class="fill-current w-5 h-5 sm:w-6 h-6 text-gray-900"
-          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5 h-6 text-gray-900 fill-current sm:w-6"
           viewBox="0 0 256 512">
           <path
             d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
@@ -118,12 +116,11 @@
 </div>
 
 <h1
-  class="pt-8 sm:pt-10 md:pt-12 lg:pt-16 text-xl sm:text-4xl font-thin
-  text-center">
+  class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16 sm:text-4xl">
   {article.title}
 </h1>
 <div class="py-4">
-  <div in:fade={{ duration: 1000 }} class="sm:text-lg text-justify">
+  <div in:fade={{ duration: 1000 }} class="text-justify sm:text-lg">
     {@html article.html}
   </div>
   <div class="mt-8 border-t border-gray-200">

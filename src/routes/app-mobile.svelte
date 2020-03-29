@@ -38,7 +38,7 @@
     przeładować stronę; przy następnym podejściu te treści będą widoczne także w
     trybie offline.
   </p>
-  <img class="mt-6 w-full" src="images/chrome-app-guide.png" alt="" srcset="" />
+  <img class="w-full mt-6" src="images/chrome-app-guide.png" alt="" srcset="" />
   <p class="mt-6 text-center text-justify">
     <strong>Firefox.</strong>
     Po wejściu na stronę konstytucja.online na smartfonie u góry ekranu pojawi
@@ -49,5 +49,5 @@
     internet i przeładować stronę; przy następnym podejściu te treści będą
     widoczne także w trybie offline.
   </p>
-  <img class="mt-6 w-full" src="images/ff-app-guide.png" alt="" srcset="" />
+  <img class="w-full mt-6" src="images/ff-app-guide.png" alt="" srcset="" />
 </div>

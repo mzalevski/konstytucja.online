@@ -46,10 +46,7 @@
         target="_blank">
         ORYGINAŁ BIULETYNU
       </a>
-      <svg
-        class="inline ml-px w-4 h-4 fill-current"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24">
+      <svg class="inline ml-px w-4 h-4 fill-current" viewBox="0 0 24 24">
         <path d="M0 0h24v24H0z" fill="none" />
         <path
           d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -66,7 +63,6 @@
         data-icon="angle-left"
         class="svg-inline--fa fa-angle-left fa-w-8"
         role="img"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 512">
         <path
           fill="currentColor"
@@ -83,7 +79,6 @@
         data-icon="angle-right"
         class="svg-inline--fa fa-angle-right fa-w-8"
         role="img"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 512">
         <path
           fill="currentColor"

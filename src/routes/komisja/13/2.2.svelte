@@ -34,23 +34,20 @@
 
 <Nav segment={'info'} />
 
-<div class="flex justify-between pt-4 pb-8 border-b mb-8">
+<div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
     <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
       Obrady w dniu 8 lutego 1995 r. - cz. II
     </h1>
     <h5>
       <a
-        class="text-sm font-bold text-gray-500 uppercase tracking-wider"
+        class="text-sm font-bold tracking-wider text-gray-500 uppercase"
         href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
         rel="nofollow"
         target="_blank">
         ORYGINAŁ BIULETYNU
       </a>
-      <svg
-        class="inline ml-px w-4 h-4 fill-current"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24">
+      <svg class="inline w-4 h-4 ml-px fill-current" viewBox="0 0 24 24">
         <path d="M0 0h24v24H0z" fill="none" />
         <path
           d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -60,7 +57,7 @@
   </div>
   <div class="small-article-nav">
     <a rel="prefetch" href="/komisja/13/2.1">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+      <svg viewBox="0 0 256 512">
         <path
           fill="currentColor"
           d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
@@ -69,7 +66,7 @@
       </svg>
     </a>
     <a rel="prefetch" href="/komisja/13/3">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+      <svg viewBox="0 0 256 512">
         <path
           fill="currentColor"
           d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
@@ -84,13 +81,13 @@
   <div class="protocol">
     <div class="flex speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wznawiamy obrady. Witam wszystkich państwa i raz jeszcze dziękuję
         marszałkowi Senatu oraz Kancelarii Senatu za udostępnienie nam tej sali,
@@ -104,13 +101,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SawickiWojciech.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Szef Kancelarii Senatu, minister Wojciech Sawicki:</strong>
         System ten różni się tylko tym, że przed rozpoczęciem każdego głosowania
         będziecie musieli państwo nacisnąć dodatkowy przycisk, który nie
@@ -160,13 +157,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Czy mogę zgłosić reklamację? Przypominam, że zgłosiłem propozycję
         poprawki i proponowałem, żeby zaraz po artykule formułującym zasadę
@@ -181,13 +178,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Pańska poprawka jest uwzględniona w dokumencie z 7 lutego pod nr. 10 i
         oczywiście będziemy o niej rozstrzygać. W tej chwili mówimy o art. 4
@@ -200,13 +197,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Tadeusz Mazowiecki (UW):</strong>
         Rozumiem, że wniosek podkomisji będzie głosowany osobno, ponieważ
         propozycja poseł K. Łybackiej połączona jest z pkt. 2.
@@ -214,13 +211,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mamy następujące warianty, które będziemy głosowali po kolei. Jest
         projekt art. 6 w wersji przygotowanej przez podkomisję: „Władza
@@ -249,13 +246,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Chciałbym przed głosowaniem zadać pytanie senatorowi P. Andrzejewskiemu,
         który jest autorem jednego z projektów. Byłbym skłonny poprzeć pańską
@@ -267,13 +264,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Jest to tożsame. Gdyby istniała konieczność uzupełnienia artykułu o taką
         definicję, to jestem skłonny ją zaakceptować, ponieważ odnośnie takiej
@@ -282,13 +279,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Spędziliśmy 5 godzin na dyskusji nad tym zagadnieniem. Poseł W.
         Cimoszewicz nie był obecny, co rozumiem, ale w tej chwili nie możemy
@@ -297,13 +294,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Doprecyzowanie wniosków mieści się w formule głosowania. Czy są
         niejasności w sprawie tych propozycji? Nie ma wątpliwości. Proponuję
@@ -315,13 +312,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Rozumiem, że jeżeli jeden z wniosków otrzyma bezwzględną większość
         głosów, to dalej nie ma co głosować.
@@ -329,13 +326,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak. Wniosek podkomisji: „Władza zwierzchnia w Rzeczypospolitej Polskiej
         należy do ogółu obywateli — tworzących Naród, który sprawuje ją przez
@@ -356,13 +353,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Proszę wyjaśnić mi kwestię proceduralną. Co decyduje o kolejności
         głosowań wniosków i poprawek? Zgłaszałam wczoraj poprawkę, która jest
@@ -376,13 +373,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Możemy przyjąć kolejność głosowania zgodnie z kolejnością zgłaszania
         poprawek lub w porządku alfabetycznym. Przedstawiłem poprawkę senatora
@@ -394,13 +391,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Jaka jest gwarancja, że np. poprawka piąta nie uzyska 30 głosów? Skąd o
         tym wie pan przewodniczący? Skończył pan przewodniczący procedurę
@@ -410,13 +407,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Powiedziałem tak dlatego że przed głosowaniem poseł R. Bugaj zadał
         pytanie, czy w momencie, kiedy jedna z poprawek uzyska bezwzględną
@@ -428,13 +425,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Nie można przyjąć takiej interpretacji. Byłaby ona ważna, gdyby każdy
         głosował za jedną opcją. Poseł R. Bugaj głosował „za” w pierwszym i w
@@ -444,13 +441,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Wyjaśniam, że uważałem, iż wszyscy postąpimy w następujący sposób:
         sporządzimy sobie hierarchię ważności poprawek. Tak postąpiłem 1 — jak
@@ -460,26 +457,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Nie można przyjąć takiej reguły.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Korzystam z uprawnień przewodniczącego Komisji. Przyjmujemy, że będą
         głosowania nad każdą ze zgłoszonych poprawek. Spośród dwóch poprawek,
@@ -490,13 +487,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Czy mogę z tych opcji wybrać cztery, które mi najbardziej odpowiadają?
         Określone reguły trzeba było ustalić od razu.
@@ -504,13 +501,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Albo głosujemy nad meritum, albo organizujemy konkurs poprawek. Każdy
         chyba wie, jaką poprawkę uważa za najlepszą.
@@ -518,13 +515,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KrolMarian.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Marian Król (PSL):</strong>
         Nastąpiło pewne zamieszanie, więc proponuję powtórzyć głosowanie.
       </p>
@@ -532,13 +529,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Powtarzamy głosowanie według następującej zasady. Najpierw przedstawię
         wniosek podkomisji, później poddam pod głosowanie wnioski zgłoszone w
@@ -549,13 +546,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Zgodnie z art. 11 regulaminu Komisji Konstytucyjnej uchwały podejmowane
         są większością głosów, w obecności co najmniej połowy członków Komisji.
@@ -565,13 +562,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Interpretacji posła J. Szymańskiego nie można przyjąć w tym głosowaniu,
         bo jest ono indykacyjne. Komisja nie podejmuje jeszcze uchwały.
@@ -579,13 +576,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Głosujemy indykacyjnie najpierw nad propozycją podkomisji, później nad
         wnioskami zgłoszonymi w dniu 7 lutego, następnie nad propozycjami
@@ -637,13 +634,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Poprawka w tej formie jest niezgodna z systemem konstytucyjnym, ponieważ
         inicjatywa ustawodawcza nie jest formą demokracji bezpośredniej, nie
@@ -653,13 +650,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Takie rozwiązanie było przyjęte w pierwszym czytaniu przez Zgromadzenie
         Narodowe, nie było ono kwestionowane. W tej chwili nie jest uzasadnione
@@ -668,13 +665,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Kto jest za przyjęciem poprawki senatora P. Andrzejewskiego? Za
         przyjęciem wniosku głosowały 4 osoby, przeciw — 30 i 6 osób wstrzymało
@@ -692,13 +689,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Głosując za wnioskiem senatora H. Rota jednocześnie opowiadamy się
         przeciw propozycji podkomisji, czy tak?
@@ -706,13 +703,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak. Kto jest za przyjęciem wniosku senatora H. Rota? Za wnioskiem
         senatora H. Rota głosowało 13 członków Komisji, za propozycją podkomisji
@@ -727,13 +724,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Podkreślam, że kiedy zgłaszałem w dniu 7 lutego poprawkę, to zmierzałem
         do tego, aby po zasadzie zwierzchnictwa narodu został umieszczony
@@ -744,13 +741,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Szkoda, że tej dyskusji nie przeprowadziliśmy wtedy, kiedy spieraliśmy
         się o kolejność artykułu. Jaka jest opinia ekspertów na ten temat? W tej
@@ -768,13 +765,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Uważamy, że kolejność przepisów w rozdziale I powinna być taka jak w
         naszym pisemnym projekcie. Przepis wyrażający zasadę legalności lub —
@@ -787,13 +784,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Panie pośle J. Szymański, czy dla dobra sprawy nie moglibyśmy się
         porozumieć? Tak. Dziękuję. Przechodzimy do artykułu, który we wnioskach
@@ -807,13 +804,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Nie rozumiem, dlaczego różne projekty nie zawierają zasady jawności
         finansowania partii politycznych. Daję pod rozwagę wnioskodawcom
@@ -822,13 +819,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli wnioskodawcy nie mają uwag, to proponuję głosowanie od najdalej
         idącego wniosku posła L. Pastusiaka, proponującego skreślenie art. 10,
@@ -879,13 +876,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         W zestawieniu jest widoczna poprawka, iż o sprzeczności z konstytucją
         celów i działalności partii politycznych orzeka Sąd Najwyższy. We
@@ -900,13 +897,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tryb zgłaszania wniosków mniejszości określony jest w regulaminie.
         Wniosek musi podpisać pięciu członków Komisji. Prawdopodobnie do kwestii
@@ -926,13 +923,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Wczoraj zgłosiłam całą listę poprawek i jedna z nich dotyczyła partii
         politycznych. Wariant II w jednolitym tekście jest poprawką, którą ktoś
@@ -943,13 +940,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chcę panią senator zapewnić, że podkomisja uwzględniła w wielu wypadkach
         zgłoszone wnioski. Nie są one oznaczone nazwiskiem, bo są to wnioski
@@ -981,13 +978,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Jest to artykuł wykazany w zestawieniu poprawek z dnia wczorajszego,
         oznaczony nr. 1. „Ust. 1. Rzeczpospolita Polska jako wspólne dobro
@@ -1000,13 +997,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy pani senator jest gotowa zgłosić autopoprawkę, wynikającą chociażby
         z faktu, że w innym artykule mamy już stwierdzenie o wspólnym dobru?
@@ -1014,26 +1011,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         W takim zestawieniu pojęcie „wspólnego dobra” jest lepsze.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że w przypadku przyjęcia wniosku pani senator automatycznie
         wykreślony zostanie artykuł wcześniej przyjęty.
@@ -1041,13 +1038,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         I tak podkomisja redakcyjna będzie miała co robić przy ustalaniu
         jednolitego tekstu.
@@ -1055,13 +1052,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chciałbym wstępnie rozstrzygnąć kwestię użycia sformułowania
         „dziedzictwo kultury i języka Narodu” czy „kultury narodowej i języka”.
@@ -1073,13 +1070,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Uważam, że wniosek posłów T. Mazowieckiego i J. Zdrady jest bardzo
         dobry, natomiast końcowy fragment przepisu jest niefortunny od strony
@@ -1089,13 +1086,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy senator J. Madej nie zauważa daleko idącej zbieżności swojego
         wniosku z propozycją posłów T. Mazowieckiego i J. Zdrady?
@@ -1103,26 +1100,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Propozycja jest prawie tożsama.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że posłowie T. Mazowiecki i J. Zdrada przyjmują jako
         autopoprawkę następujące brzmienie końcowego fragmentu tego artykułu:
@@ -1135,65 +1132,65 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Jeżeli posłowie się zgodzą, to ja dopisuję się do tego wniosku.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         W tej sytuacji mamy jeden wniosek mniej do przegłosowania.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Wycofuję swój wniosek.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Poseł J. Ciemniewski wycofał wniosek o skreślenie tego artykułu.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Leszek Moczulski (KPN):</strong>
         Mój wniosek jest tylko poprawką do propozycji podkomisji. Jego
         przegłosowanie ma sens tylko wtedy, kiedy przejdzie propozycja
@@ -1203,13 +1200,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że poseł L. Moczulski będzie proponował poprawkę do przyjętego
         ewentualnego wniosku podkomisji.
@@ -1217,13 +1214,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/PastusiakLongin.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Longin Pastusiak (SLD):</strong>
         Nie mam nic przeciwko zasadzie zrównoważonego rozwoju, ale na przyszłość
         proponuję unikać wpisywania do konstytucji terminów z dziedziny
@@ -1234,13 +1231,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Na ten temat toczyła się wczoraj dyskusja. Tłumaczono ten termin z
         języka angielskiego, wypowiadał się w tej sprawie prezes Polskiego
@@ -1260,13 +1257,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Proszę wyjaśnić, o jaki język chodzi? Przepraszam za takie rudymentarne
         pytanie.
@@ -1274,13 +1271,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Ono jest rzeczywiście rudymentarne. Problem ten był wyjaśniany w czasie
         dyskusji. Domyślam się, że chodzi o język narodowy, o język polski.
@@ -1312,13 +1309,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wniosek nr 12 został wycofany. Przechodzimy do druku z dnia 8 lutego.
         Pierwszy jest wniosek posłów T. Mazowieckiego i J. Zdrady oraz senatora
@@ -1327,13 +1324,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Zdrada (UW):</strong>
         „Rzeczpospolita Polska strzeże niepodległości, całości i
         nienaruszalności swojego terytorium...” lub „Rzeczpospolita Polska
@@ -1342,26 +1339,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Prosiłbym posła J. Zdradę o odczytanie całej propozycji.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Zdrada (UW):</strong>
         „Rzeczpospolita Polska strzeże niepodległości i nienaruszalności swojego
         terytorium, gwarantuje wolności i prawa człowieka, Posiedzenia Komisji
@@ -1372,13 +1369,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Kto jest za przyjęciem wniosku posłów T. Mazowieckiego 1J. Zdrady oraz
         senatora J. Madeja? Za wnioskiem głosowało 2/ osób, przeciw — 71 2 osoby
@@ -1397,13 +1394,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Dotychczas przeprowadziliśmy głosowanie indykacyjne. Uchwała Komisji
         musi być przegłosowana zgodnie z naszym regulaminem.
@@ -1411,13 +1408,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Była to jedyna poprawka, która uzyskała więcej głosów niż „przeciw”. Nad
         czym mamy jeszcze głosować? O czym jeszcze chcemy w tej sprawie
@@ -1439,13 +1436,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Czy artykuły 7 i 8 nie powinny poprzedzać artykułów mówiących o tym, że
         władza państwowa jest sprawowana przez rozdzielone władze oraz
@@ -1456,13 +1453,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Chciałbym przyłączyć się do tej propozycji, ponieważ chodzi tu o zasadę
         konstytucjonalizmu, która polega na działalności w ramach prawa.
@@ -1473,13 +1470,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy byłaby zgoda Komisji na przejście do rozpatrzenia zasady legalności
         zawartej w artykułach 7 i 8 projektu podkomisji?
@@ -1487,13 +1484,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Czy wystarczy tylko zasada legalizmu? W swojej poprawce formułuję także
         potrzebę umieszczenia w konstytucji zasady praworządności, czyli
@@ -1503,13 +1500,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mamy wniosek posła J. Szymańskiego z dnia 7 lutego. Art. 7 brzmiałby:
         „Ust. 1. Przestrzeganie praw Rzeczypospolitej Polskiej jest podstawowym
@@ -1519,13 +1516,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Działanie organów władzy polegające na przestrzeganiu prawa polega na
         działaniu na podstawie prawa. Nie można mylić przestrzegania prawa przez
@@ -1537,13 +1534,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mamy art. 7 w brzmieniu zaproponowanym przez podkomisję oraz wniosek
         posła J. Szymańskiego.
@@ -1551,13 +1548,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -1570,13 +1567,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Proponuję zapisanie tej zasady w wersji, która znajduje się w projekcie
         senackim. Jest to następująca propozycja: „Wszystkie organy państwa są
@@ -1588,26 +1585,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mamy już trzeci wniosek.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         W art. 1 zapisaliśmy, że Rzeczpospolita Polska jest demokratycznym
         państwem prawnym. Jest to nowe pojęcie, od niedawna obowiązujące w
@@ -1623,13 +1620,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Przyłączam się do głosu prof. M. Pietrzaka. Piszemy podstawowe zasady,
         więc nie może być tak, że znajdzie się tylko część takich zasad. Do
@@ -1643,26 +1640,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mam czwarty wniosek: o skreślenie art. 7 w całości.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Jerzy Madej (KD):</strong>
         Chciałbym zapytać posła J. Szymańskiego, jaka jest różnica między
         przestrzeganiem prawa przez organy władzy publicznej a działaniem w
@@ -1675,13 +1672,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Jest to kwestia przyjęcia pewnej koncepcji. Obok zasady legalizmu była
         dotychczas formułowana zasada praworządności, która nakładała obowiązek
@@ -1695,26 +1692,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wniosek posła J. Szymańskiego został wycofany.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Podtrzymuję wniosek zgłoszony dzisiaj rano na piśmie, zgodnie z art. 10
         regulaminu Komisji Konstytucyjnej Zgromadzenia Narodowego. Artykuły 7 i
@@ -1729,13 +1726,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Grodzicki (SLD):</strong>
         Wydaje mi się, że utrzymanie art. / jest zasadne ze względów
         edukacyjnych, a taką funkcję pełni także konstytucja. Rozumienie w
@@ -1756,13 +1753,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         O art. 8 będziemy mówili za chwilę. Był wniosek prof. S. Gebethnera,
         jest też wniosek posła R. Grodzickiego.
@@ -1770,13 +1767,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Parę słów powiem na temat relacji między zasadą państwa prawnego a
         zasadą legalności, którą wyraża art. 7 w projekcie podkomisji. Zasada
@@ -1804,13 +1801,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że wniosek pana profesora polega na pozostawieniu przepisu w
         dotychczasowym kształcie. Czy w tej chwili nie moglibyśmy uznać, że
@@ -1822,13 +1819,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Z wywodu prof. M. Pietrzaka wynikało, że zarówno zasada legalizmu, jak i
         zasada wolności jednostki mieszczą się w zasadzie państwa prawa i z tego
@@ -1839,13 +1836,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Nawiązując do wypowiedzi posła R. Grodzickiego uważam, że walor
         edukacyjny jest bardzo istotny. Z, edukacyjnego punktu widzenia artykuł
@@ -1862,13 +1859,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Prosiłbym uprzejmie o zgłoszenie tego wniosku na piśmie Posiedzenia
         Komisji Konstytucyjnej ZN jeszcze dzisiaj. Rozumiem, że panowie wycofują
@@ -1877,26 +1874,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Tak.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Mamy wniosek podkomisji, senator A. Grześkowiak, senatora P.
         Andrzejewskiego i będzie wniosek awizowany przez przedstawicieli
@@ -1909,13 +1906,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Ryszard Bugaj (UP):</strong>
         Podkomisja zastanawiała się nad tym, czy art. 8 powinien znaleźć się w
         zasadach ogólnych. Zwyciężył taki punkt widzenia, że próba określenia
@@ -1931,13 +1928,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -1949,26 +1946,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Prof. S. Gebethner zgłosił wniosek, a poseł R. Bugaj wniosek przeciwny.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Włodzimierz Cimoszewicz (SLD):</strong>
         Treść tego artykułu nasuwa wiele uwag. Można mieć wątpliwość, czy idea
         stworzenia zamkniętego I pełnego katalogu źródeł prawa została
@@ -1985,13 +1982,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Poparłbym wniosek prof. S. Gebethnera, żeby zrezygnować w tej części z
         art. 8. Proponowałbym zająć się sformułowaniem pełnego katalogu w
@@ -2018,13 +2015,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Rozdział III w całości będzie stanowił o systemie Źródeł prawa. Jestem
         więc za tym, żeby z obecnej treści art. 8 zrezygnować. Zastanawia mnie
@@ -2045,13 +2042,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Irena Lipowicz (UW):</strong>
         Chciałabym przejąć wniosek prof. W. Osiatyńskiego. Art. 8 powinien
         rzeczywiście być przeniesiony do rozdziału o źródłach prawa, a w tym
@@ -2069,13 +2066,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Odnośnie do celowości utrzymania artykułu zawierającego jak gdyby
         definicję prawa w rozumieniu prawa powszechnie obowiązującego, czy aktu
@@ -2105,13 +2102,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Nawiązując do wypowiedzi poseł I. Lipowicz chciałbym przedstawić krótką
         informację. Kilka dni temu odbyło się posiedzenie Rady Legislacyjnej,
@@ -2128,13 +2125,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -2166,13 +2163,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jako przedstawiciel rządu ma pan prawo do składania wniosków. Czy
         mógłbym prosić o złożenie tego wniosku na piśmie?
@@ -2180,13 +2177,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -2196,13 +2193,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Piotr Andrzejewski (NSZZ „S”):</strong>
         Dwie sprawy warte są naszej uwagi. Pierwszą jest kwestia systematyki, bo
         rozumiem, że pojawiły się dwa nurty. Jeden mówi o tym, że całą
@@ -2253,13 +2250,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Wniosek senatora P. Andrzejewskiego w sprawie zakończenia dyskusji na
         tym etapie jest bardzo istotny. Jeżeli przyjęlibyśmy wniosek o
@@ -2273,13 +2270,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Janusz Szymański (UP):</strong>
         Pomysł senatora P. Andrzejewskiego, żeby rozszerzyć katalog Źródeł prawa
         o zwyczaj międzynarodowy, jest bardzo groźny. Nie będę mówił, jaka jest
@@ -2295,26 +2292,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         W tej sprawie odbędzie się jutro pierwsze głosowanie.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Uważam, że z treści tego przepisu należałoby usunąć fragment dotyczący
         zasad. Praktycznie wszystkie zasady prawa międzynarodowego zostały
@@ -2343,13 +2340,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Henryk Rot (SLD):</strong>
         Niedoskonałość art. 8 wiąże się z wieloma wątpliwościami wynikającymi z
         niedoskonałości rozdziału dotyczącego Źródeł prawa. Znalazł się on jako
@@ -2372,13 +2369,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Na tle dotychczasowej dyskusji mam dwie refleksje oraz pytania do
         ekspertów lub innych osób, które będą formułowały przepisy. Pierwsza
@@ -2411,13 +2408,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Wiele osób mówiło o zasadzie konstytucjonalizmu. Chciałabym więc zwrócić
         uwagę na to, że zgłosiłam już projekt tej zasady, co prawda w nieco
@@ -2430,13 +2427,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chciałbym poinformować panią senator, że gdybyśmy uznali, iż zamiast
         art. 8 będzie art. 69, to niewątpliwie pani propozycja będzie
@@ -2448,13 +2445,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         W art. 50 projektu senackiego znajduje się ust. I w następującym
         brzmieniu: „Konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej
@@ -2470,13 +2467,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Piotr Winczorek:</strong>
         Chciałbym wyjaśnić nieporozumienie, które było zawarte w wypowiedzi
         posła W. Majewskiego. Wiele aktów normatywnych stosowanych jest obok
@@ -2492,13 +2489,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński:</strong>
         Proponuję następujące brzmienie tego przepisu: „Konstytucja jest
         najwyższym prawem Rzeczypospolitej i wiąże wszystkie organy państwa”.
@@ -2509,13 +2506,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
         Idąc tropem wniosku posła R. Grodzickiego, który uważa, że art. 8 nie
         powinien znaleźć się w tym rozdziale i powinien być odesłany do
@@ -2528,13 +2525,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Wydaje mi się, że dyskusja nad fragmentem konstytucji dotyczącym zasady
         konstytucjonalizmu jest szczególnie ważna. Przepis ten rozwinąłbym o
@@ -2550,13 +2547,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Jeżeli ktoś spośród członków Komisji chciałby wykorzystać ten wniosek,
         to bardzo proszę. O niezgodności przepisów prawa z konstytucją orzekać
@@ -2566,13 +2563,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Kazimierz Działocha:</strong>
         Nie można mówić o unieważnieniu ustaw czy innych aktów sprzecznych z
         konstytucją w następstwie orzeczenia Trybunału Konstytucyjnego. Jest to
@@ -2583,13 +2580,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Kończymy dyskusję nad art. 8 następującymi wnioskami, które jutro
         zostaną poddane pod głosowanie. Najdalej idącym wnioskiem jest
@@ -2604,13 +2601,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Jeżeli postanowimy, że zasada konstytucjonalizmu będzie potwierdzać, iż
         konstytucja jest najwyższym prawem Rzeczypospolitej Polskiej, to
@@ -2620,13 +2617,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Tak zrozumiałem panią senator. Art. 50 z projektu senackiego byłby w tej
         sytuacji głosowany alternatywnie do propozycji zawartej w art. 69
@@ -2635,13 +2632,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/RotHenryk.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Henryk Rot (SLD):</strong>
         Zgłaszam wniosek, żeby zawiesić głosowanie nad art. 8 do czasu
         rozstrzygnięcia rozdziału o źródłach prawa i to bez względu na jego
@@ -2650,26 +2647,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Chciałbym sformułować zasadę konstytucjonalizmu.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że najdalej idącym wnioskiem jest wykreślenie artykułu,
         następnie zawieszenie jego rozpatrywania i dalej — wymiana na zasadę
@@ -2679,13 +2676,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Chciałabym prosić o przerwanie dyskusji dzisiaj, ponieważ przechodzimy
         do artykułu oznaczonego w projekcie podkomisji numerem 9. Jest on
@@ -2695,13 +2692,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Sądzę, że moglibyśmy jeszcze omówić ten artykuł. Byłaby szansa na
         zakończenie prac nad rozdziałem I. Uważam, że artykuły 17 i 18 powinny
@@ -2713,26 +2710,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Pańska argumentacja mnie przekonuje i wycofuję wniosek formalny.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Z przykrością muszę powiedzieć, że posłowie Unii Wolności mają o godz.
         18 posiedzenie klubu parlamentarnego. Uważam, że w pełni uzasadniony był
@@ -2743,13 +2740,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie ma łatwych problemów, chodzi o czas. Jeżeli czasu nie wykorzystamy
         dzisiaj, to jutro będziemy musieli dłużej dyskutować.
@@ -2758,13 +2755,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Może nie mam prawa o tym mówić, ale chciałbym, żeby zaprotokołowano, że
         pojawia się autentyczny problem, ponieważ bardzo aktywnie dyskutujemy
@@ -2778,13 +2775,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Chciałbym uspokoić pana profesora, bo wieczorem po zakończeniu obrad
         nieobecni członkowie Komisji w sposób bardzo dociekliwy dowiadują się o
@@ -2803,13 +2800,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Zwracam uwagę na wariant II, który — zdaniem zespołu przygotowującego
         ostateczny tekst — w Świetle rozstrzygnięcia dotyczącego pozycji
@@ -2821,13 +2818,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Czy chodzi o wyeliminowanie wariantu II w wyniku przyjętej wcześniej
         zasady?
@@ -2835,13 +2832,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Jaskiernia (SLD):</strong>
         Odczytuję dalej sugestię prof. P. Sameckiego. Rozumiem, że pan profesor
         sygnalizuje, iż w konsekwencji podjętych głosowań kierunkowych ten
@@ -2852,13 +2849,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że wniosek zmierza do skreślenia tego wariantu. Czy w tej
         sprawie ma ktoś odrębne zdanie?
@@ -2867,13 +2864,13 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Jako członek podkomisji podstaw ustroju politycznego 1
         społeczno-gospodarczego chciałabym poinformować, że wariant II uzyskał
@@ -2883,13 +2880,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Ze zdziwieniem odbieram tego rodzaju stanowisko, ponieważ ten przepis
         odpowiada obecnemu stanowi konstytucyjnemu. W związku z tym chciałbym
@@ -2901,13 +2898,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP dr. Władysław Kulesza:</strong>
         Powracamy do tego samego punktu, który był omawiany na jednym z
         ostatnich posiedzeń podkomisji. W moim przekonaniu dotychczasowe
@@ -2928,13 +2925,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Wydaje się, że jest tu pewna logika. Skoro prezydent zostaje określony
         jako gwarant ciągłości władzy państwowej, czyli gwarant ciągłości i
@@ -2951,13 +2948,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         Powinniśmy rozwiązać ten problem. Zgodnie z obecną konstytucją prezydent
         jest po stronie władzy wykonawczej, a okazuje się, że wszystkie wnioski
@@ -2975,13 +2972,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Nad naszą dyskusją ciąży stwierdzenie posła W. Majewskiego, że coś
         trzeba zrobić z prezydentem. Niestety, to stwierdzenie odbierane jest w
@@ -3003,13 +3000,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Rozumiem, że pana wywód zmierza do utrzymania wariantu II w
         przedstawionej formule.
@@ -3017,26 +3014,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Tak.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Senator Alicja Grześkowiak (NSZZ „S”):</strong>
         Konstytucja nie powinna być pisana ani przeciwko komuś, ani pod kogoś. W
         związku z tym uważam, że dyskusja, która nabrała bardzo politycznego
@@ -3063,13 +3060,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Głosując nad brzmieniem art. 9 jako jeden z wariantów przegłosujemy
         propozycję przedstawioną przez senator A. Grześkowiak.
@@ -3077,13 +3074,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         W pełni zgadzam się ze zdaniem senator A. Grześkowiak, że konstytucja
         nie powinna być pisana ani przeciwko komuś, ani dla kogoś. Jak sądzę,
@@ -3098,13 +3095,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Paweł Sarnecki:</strong>
         Nie wiem, jak to się stało, ale art. 113 nie został poprawiony i nie
         uwzględnia wyniku głosowania. Jest tam właśnie napisane, że prezydent
@@ -3116,13 +3113,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Nie ulega wątpliwości, że jeżeli w zasadach ustrojowych, w art. 9,
         mówimy o władzy państwowej, to jakieś sformułowanie dotyczące prezydenta
@@ -3132,18 +3129,18 @@
       </p>
     </div>
 
-    <!-- <p class="mt-8 p-10 rounded-lg shadow-lg">strona 62      </p>
+    <!-- <p class="p-10 mt-8 rounded-lg shadow-lg">strona 62      </p>
     </div> -->
 
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Leszek Wiśniewski:</strong>
         Art. 9 zarówno w ust. 1, jak i w dwóch wariantach ust. 2 zawiera liczne
         komplikacje i pułapki, których można by uniknąć, gdybyśmy zdecydowali
@@ -3164,13 +3161,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Przypominam, że mówimy o podstawowych zasadach ustroju. Co prawda
         „podstawowe” skreśliliśmy, ale niewątpliwie do tego sprowadza się istota
@@ -3182,13 +3179,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Wit Majewski (SLD):</strong>
         W uzupełnieniu mojego wystąpienia chciałbym podać treść proponowanego
         art. 9 ust. 1 w brzmieniu podkomisji, ust. 2 w wariancie I podkomisji i
@@ -3198,13 +3195,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Jerzy Ciemniewski (UW):</strong>
         Proponowałbym odejście od formuły organów w tym artykule. Proponuję
         następującą treść art. 9: „Ustrój Rzeczypospolitej Polskiej opiera się
@@ -3215,13 +3212,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Byłbym ogromnie wdzięczny, gdyby zechciał pan poseł przedstawić ten
         wniosek na piśmie.
@@ -3229,13 +3226,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Krystyna Łybacka (SLD):</strong>
         Proponuję art. 9 składający się z trzech ustępów. Dwa pierwsze ustępy w
         brzmieniu jednolitego projektu przygotowanego przez podkomisję i ust. 3:
@@ -3244,26 +3241,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Proszę o zgłoszenie tego wniosku na piśmie.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Wydaje mi się, że niektórzy zakładają, iż tworzy się konstytucję na
         okres kilku miesięcy do najbliższych wyborów, że konstytucję pisze się
@@ -3291,13 +3288,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Gdyby pójść śladem wniosku prof. L. Wiśniewskiego, czy posła J.
         Ciemniewskiego i zapisać w tym artykule wyłącznie samą zasadę, to chyba
@@ -3308,26 +3305,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Przedstawiciel Prezydenta RP, prof. Michał Pietrzak:</strong>
         Dlatego przychylam się do wniosku posła J. Ciemniewskiego.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/GebethnerStanislaw.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>
           Przedstawiciel Rady Ministrów, prof. Stanisław Gebethner:
         </strong>
@@ -3347,26 +3344,26 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Po obradach zapytam obu panów profesorów, jaki system mamy obecnie.
       </p>
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Ekspert Komisji, prof. Wiktor Osiatyński:</strong>
         Nie byłem obecny na poprzednim posiedzeniu Komisji, ale na podstawie
         sprawozdań odniosłem wrażenie, że ustalono już, iż prezydent jest
@@ -3393,13 +3390,13 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="rounded-lg shadow-lg w-32 h-32"
+        class="w-32 h-32 rounded-lg shadow-lg"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy"
         width="110"
         height="110" />
-      <p class="mt-8 p-10 rounded-lg shadow-lg">
+      <p class="p-10 mt-8 rounded-lg shadow-lg">
         <strong>Poseł Aleksander Kwaśniewski (SLD):</strong>
         Namawiałbym nas wszystkich, żebyśmy poszli tym śladem, o którym mówił
         poseł J. Ciemniewski. Proszę ten głos traktować jako wypowiedź w

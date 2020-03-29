@@ -22,22 +22,21 @@
 <Nav segment={'info'} />
 
 <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
-  Komisja Konstytucyjna
+  Legislacja
 </h1>
 
 <div in:fade={{ duration: 3000 }}>
   <h2 class="mt-4 text-xl font-thin">Uchwalenie Konstytucji</h2>
   <p>
     <a
-      class="text-sm font-bold text-gray-500 uppercase tracking-wider"
+      class="text-sm font-bold tracking-wider text-gray-500 uppercase"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
       target="_blank">
       Dz.U. 1997 nr 78 poz. 483
     </a>
     <svg
-      class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -78,15 +77,14 @@
   <h2 class="mt-4 text-xl font-thin">Sprostowanie błędów</h2>
   <span>
     <a
-      class="text-sm font-bold text-gray-500 uppercase tracking-wider"
+      class="text-sm font-bold tracking-wider text-gray-500 uppercase"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319"
       rel="nofollow"
       target="_blank">
       Dz.U. z 2001 r. nr 28, poz. 319
     </a>
     <svg
-      class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -107,8 +105,7 @@
       Dz.U. 2000 nr 62 poz. 718
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -147,15 +144,14 @@
   <h3 class="mt-3 text-lg font-thin">Nowelizacja z 2006</h3>
   <span>
     <a
-      class="text-xs font-bold text-gray-500 uppercase tracking-wide"
+      class="text-xs font-bold tracking-wide text-gray-500 uppercase"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20062001471"
       rel="nofollow"
       target="_blank">
       Dz.U. 2006 nr 200 poz. 1471
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -193,8 +189,7 @@
     </a>
     ,
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -214,8 +209,7 @@
       podpisał nowelę
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -229,15 +223,14 @@
   <h3 class="mt-3 text-lg font-thin">Nowelizacja z 2009</h3>
   <span>
     <a
-      class="text-xs font-bold text-gray-500 uppercase tracking-wide"
+      class="text-xs font-bold tracking-wide text-gray-500 uppercase"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20091140946"
       rel="nofollow"
       target="_blank">
       Dz.U. 2009 nr 114 poz. 946
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -271,8 +264,7 @@
       głosowaniu
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -289,8 +281,7 @@
       podpisana
     </a>
     <svg
-      class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1

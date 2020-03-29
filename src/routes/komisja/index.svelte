@@ -36,7 +36,6 @@
     </a>
     <svg
       class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-      xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24">
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
@@ -56,7 +55,6 @@
       </a>
       <svg
         class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24">
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
@@ -74,7 +72,6 @@
       </a>
       <svg
         class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24">
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
@@ -91,7 +88,6 @@
       </a>
       <svg
         class="inline-block mb-1 w-4 h-4 fill-current text-gray-500"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24">
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
@@ -115,7 +111,6 @@
           </a>
           <svg
             class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-            xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <path
               d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
@@ -137,7 +132,6 @@
           </a>
           <svg
             class="inline-block mb-1 w-3 h-3 fill-current text-gray-500"
-            xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <path
               d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
@@ -175,7 +169,6 @@
       <svg
         in:fly={{ x: 20, duration: 1500, delay: 800 }}
         class="pt-20 w-2/3"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 742.01392 447.68385">
         <defs id="defs2561" />
         <path

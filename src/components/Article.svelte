@@ -6,31 +6,18 @@
   export let desc;
 </script>
 
-<style>
-  :global(body.dark-mode) .article {
-    border-color: rgba(255, 255, 255, 0.05);
-  }
-  :global(body.dark-mode) .desc-helper {
-    color: rgba(255, 255, 255, 0.6);
-  }
-</style>
-
 <a class="cursor-pointer" rel="prefetch" href="/{slug}">
   <div
     id={slug}
-    class="mb-2 md:mb-3 lg:mb-4 px-4 py-6 border border-gray-100 shadow-sm
-    rounded-md text-justify hover:shadow-lg">
+    class="px-4 py-6 mb-2 text-justify border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg">
     <div class="flex justify-between">
       <div>
         <strong>{title}</strong>
         <span>(Rozdział {chapter['id']} - {chapter['title']})</span>
       </div>
       {#if desc}
-        <span class="cursor-help pl-3" title="artykuł posiada wyjaśnienie">
-          <svg
-            class="h-4 w-4 fill-current text-gray-500"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20">
+        <span class="pl-3 cursor-help" title="artykuł posiada wyjaśnienie">
+          <svg class="w-4 h-4 text-gray-500 fill-current" viewBox="0 0 20 20">
             <path
               fill="currentColor"
               d="M3.302,12.238c0.464,1.879,1.054,2.701,3.022,3.562c1.969,0.86,2.904,1.8,3.676,1.8

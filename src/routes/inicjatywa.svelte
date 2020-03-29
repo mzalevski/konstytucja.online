@@ -44,10 +44,7 @@
       target="_blank">
       strona Prezydenta
     </a>
-    <svg
-      class="inline ml-px w-3 h-3 fill-current"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24">
+    <svg class="inline w-3 h-3 ml-px fill-current" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -60,10 +57,7 @@
       target="_blank">
       strona Sejmu
     </a>
-    <svg
-      class="inline ml-px w-3 h-3 fill-current"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24">
+    <svg class="inline w-3 h-3 ml-px fill-current" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -117,17 +111,14 @@
     Piotrowskiemu za wsparcie merytoryczne projektu.
   </p>
 
-  <p class="flex justify-end items-center pt-4">
+  <p class="flex items-center justify-end pt-4">
     <a
-      class=" underline hover:text-red focus:text-red"
+      class="underline  hover:text-red focus:text-red"
       href="https://maciej-zalewski.pl/"
       target="_blank">
       Maciej Zalewski
     </a>
-    <svg
-      class="inline ml-px w-4 h-4 fill-current"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24">
+    <svg class="inline w-4 h-4 ml-px fill-current" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9

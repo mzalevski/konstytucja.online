@@ -24,7 +24,7 @@
 </h1>
 
 <div in:fade={{ duration: 3000 }}>
-  <h2 class="text-lg font-bold text-gray-500 uppercase tracking-wider">
+  <h2 class="text-lg font-bold tracking-wider text-gray-500 uppercase">
     Prace w toku
   </h2>
 </div>
@@ -32,7 +32,6 @@
 <div in:fly={{ x: 20, duration: 1500, delay: 800 }} class="flex justify-end">
   <svg
     class="w-5/6 sm:w-4/5 md:w-3/4 lg:w-3/5"
-    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1040.32 649.16"
     height="649.16"
     width="1040.32">

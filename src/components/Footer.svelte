@@ -1,4 +1,4 @@
-<footer class="flex justify-center mt-4 py-4 border-t border-gray-200">
+<footer class="flex justify-center py-4 mt-4 border-t border-gray-200">
   <p>
     z miłości
     <img class="inline-block h-2 md:h-3" src="images/heart.png" alt="" />

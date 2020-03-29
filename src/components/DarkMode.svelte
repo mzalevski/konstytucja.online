@@ -11,15 +11,13 @@
 </style>
 
 <div
-  class="fixed left-0 bottom-0 flex flex-col justify-center w-16 h-16 sm:w-20
-  sm:h-20">
+  class="fixed bottom-0 left-0 flex flex-col justify-center w-16 h-16 sm:w-20 sm:h-20">
   <button
-    class="flex justify-center mx-auto w-8 h-8 hover:opacity-50"
+    class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
     on:click={toggle}
     title="tryb ciemny / tryb jasny">
     <svg
-      class="fill-current w-6 h-6 sm:w-8 sm:h-8 text-gray-700"
-      xmlns="http://www.w3.org/2000/svg"
+      class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
       viewBox="0 0 20 20">
       <path
         d="M19,9.199c-0.182,0-0.799,0-0.98,0c-0.553,0-1,0.359-1,0.801c0,0.441,0.447,0.799,1,0.799

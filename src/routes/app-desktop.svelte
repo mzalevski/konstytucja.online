@@ -38,5 +38,5 @@
     należy włączyć internet i przeładować stronę; przy następnym podejściu te
     treści będą widoczne także w trybie offline.
   </p>
-  <img class="mt-6 w-full" src="images/chrome-desktop-guide.png" alt="" />
+  <img class="w-full mt-6" src="images/chrome-desktop-guide.png" alt="" />
 </div>

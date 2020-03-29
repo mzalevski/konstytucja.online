@@ -14,9 +14,7 @@
 </svelte:head>
 
 <main
-  class="container min-h-screen flex flex-col mx-auto px-1 sm:px-2 md:px-3
-  xl:px-16 py-2 antialiased text-gray-900 text-xs font-light sm:text-base
-  overflow-hidden">
+  class="container flex flex-col min-h-screen px-1 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-2 md:px-3 xl:px-16 sm:text-base">
   <DarkMode />
   {#if yAxisPosition > 300}
     <ToTheTopBtn />

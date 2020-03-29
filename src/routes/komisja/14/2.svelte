@@ -57,7 +57,6 @@
         data-icon="angle-left"
         class="svg-inline--fa fa-angle-left fa-w-8"
         role="img"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 512">
         <path
           fill="currentColor"
@@ -74,7 +73,6 @@
         data-icon="angle-right"
         class="svg-inline--fa fa-angle-right fa-w-8"
         role="img"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 256 512">
         <path
           fill="currentColor"

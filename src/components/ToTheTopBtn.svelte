@@ -3,15 +3,13 @@
 </script>
 
 <div
-  class="fixed right-0 bottom-0 flex flex-col justify-center w-16 h-16 sm:w-20
-  sm:h-20">
+  class="fixed bottom-0 right-0 flex flex-col justify-center w-16 h-16 sm:w-20 sm:h-20">
   <button
-    class="flex justify-center mx-auto w-8 h-8 hover:opacity-50"
+    class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
     transition:fly={{ y: 200, duration: 2000 }}
     on:click={() => window.scroll(0, 0)}>
     <svg
-      class="fill-current w-6 h-6 sm:w-8 sm:h-8 text-gray-700"
-      xmlns="http://www.w3.org/2000/svg"
+      class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
       viewBox="0 0 20 20">
 
       <path

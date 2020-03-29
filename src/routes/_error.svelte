@@ -9,7 +9,7 @@
   <title>{status}</title>
 </svelte:head>
 
-<div class="mx-auto mt-32 md:mt-56 text-center">
+<div class="mx-auto mt-32 text-center md:mt-56">
   <h1 class="mt-4 text-6xl font-bold">{status} 💔</h1>
   <p class="mt-2 text-md md:text-xl">Och nie! Nie ma takiej podstrony! 😔</p>
   <a class="text-lg underline" rel="prefetch" href="/">

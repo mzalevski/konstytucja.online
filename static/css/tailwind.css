@@ -2,7 +2,7 @@
 @tailwind components;
 
 .active {
-  @apply text-red cursor-default;
+  @apply cursor-default text-red;
 }
 
 @tailwind utilities;
@@ -51,4 +51,10 @@ html {
 
 :global(body.dark-mode) .down {
   color: #ffffff;
+}
+:global(body.dark-mode) .article {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+:global(body.dark-mode) .desc-helper {
+  color: rgba(255, 255, 255, 0.6);
 }

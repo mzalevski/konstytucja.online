@@ -3,13 +3,12 @@
   let showDropdown = false;
 </script>
 
-<nav class="sm:flex items-baseline border-b border-gray-200 mb-2 sm:mb-4">
+<nav class="items-baseline mb-2 border-b border-gray-200 sm:flex sm:mb-4">
   <div
-    class="w-full flex justify-center sm:justify-start items-baseline sm:w-2/3
-    lg:w-1/2 xl:w-2/5">
+    class="flex items-baseline justify-center w-full sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
-      class="logo sm:ml-1 font-bold text-3xl sm:text-4xl text-red"
+      class="text-3xl font-bold logo sm:ml-1 sm:text-4xl text-red"
       rel="prefetch"
       href="/">
       Konstytucja
@@ -39,8 +38,7 @@
       </a>
       {#if showDropdown}
         <div
-          class="absolute w-24 sm:w-48 p-2 cursor-default shadow-lg rounded
-          border-gray-200 bg-white z-10">
+          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
           <a
             class="block md:ml-2 hover:text-red"
             rel="prefetch"
@@ -48,31 +46,31 @@
             Komisja Konstytucyjna
           </a>
           <a
-            class="block md:ml-2 pt-1 hover:text-red"
+            class="block pt-1 md:ml-2 hover:text-red"
             rel="prefetch"
             href="/legislacja">
             Proces legislacyjny
           </a>
           <a
-            class="block md:ml-2 pt-1 hover:text-red"
+            class="block pt-1 md:ml-2 hover:text-red"
             rel="prefetch"
             href="/slownik">
             Słownik pojęć
           </a>
           <a
-            class="block md:ml-2 pt-1 hover:text-red"
+            class="block pt-1 md:ml-2 hover:text-red"
             rel="prefetch"
             href="/app-mobile">
             Aplikacja - mobile
           </a>
           <a
-            class="block md:ml-2 pt-1 hover:text-red"
+            class="block pt-1 md:ml-2 hover:text-red"
             rel="prefetch"
             href="/app-desktop">
             Aplikacja - desktop
           </a>
           <a
-            class="block md:ml-2 pt-1 hover:text-red"
+            class="block pt-1 md:ml-2 hover:text-red"
             rel="prefetch"
             href="/inicjatywa">
             Inicjatywa
@@ -82,7 +80,7 @@
     </div>
   </div>
 
-  <div class="w-full sm:w-1/3 lg:w-1/2 xl:w-3/5 z-0">
+  <div class="z-0 w-full sm:w-1/3 lg:w-1/2 xl:w-3/5">
     <slot />
   </div>
 </nav>
