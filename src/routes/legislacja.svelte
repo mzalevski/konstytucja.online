@@ -45,7 +45,7 @@
     </svg>
   </p>
 
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     Konstytucja Rzeczypospolitej Polskiej została uchwalona przez Zgromadzenie
     Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum
     konstytucyjnym w dniu 25 maja 1997 r., a następnie podpisana przez
@@ -93,7 +93,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     W pierwotnym tekście Konstytucji, znalazły się dwa błędy, które zgodnie z
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
@@ -151,7 +151,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -166,11 +166,7 @@
     umowa międzynarodowa lub ustawa wykonująca akt prawa stanowionego przez
     instytucję międzynarodową, której Polska jest członkiem. Nowelizacja
     umożliwiła dokonywanie ekstradycji między innymi na podstawie europejskiego
-    nakazu aresztowania.
-  </p>
-
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-1 text-justify">
-    W
+    nakazu aresztowania. W
     <a
       class="underline hover:text-red focus:text-red"
       href="http://orka.sejm.gov.pl/SQL.nsf/glosowania?OpenAgent&5&24&23"
@@ -230,7 +226,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -242,11 +238,7 @@
     prawa wyborczego. Dodany przepis art. 99 ust. 3 Konstytucji stanowi, że
     „wybraną do Sejmu lub do Senatu nie może być osoba skazana prawomocnym
     wyrokiem na karę pozbawienia wolności za przestępstwo umyślne, ścigane z
-    oskarżenia publicznego”.
-  </p>
-
-  <p style="column-count: 2; column-gap: 2rem;" class="pt-1 text-justify">
-    W
+    oskarżenia publicznego”. W
     <a
       class="underline hover:text-red focus:text-red"
       href="http://orka.sejm.gov.pl/SQL.nsf/glosowania?OpenAgent&6&41&8"
