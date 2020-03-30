@@ -86,7 +86,7 @@
   </div>
 </div>
 <div in:fly={{ y: 100, duration: 1000 }}>
-  <div class="protocol">
+  <div class="text-xl leading-relaxed text-justify protocol">
 
     <div class="flex speaker">
       <img
