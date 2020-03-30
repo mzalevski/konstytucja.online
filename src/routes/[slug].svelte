@@ -64,7 +64,7 @@
   <a
     class="w-24 text-lg font-thin sm:text-xl hover:text-red"
     rel="prefetch"
-    href="#{$page.params.slug}">
+    href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}>
     powrót
   </a>
   <h3 class="text-lg font-thin sm:text-xl">
