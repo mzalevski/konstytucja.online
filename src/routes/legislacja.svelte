@@ -45,7 +45,7 @@
     </svg>
   </p>
 
-  <p class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
     Konstytucja Rzeczypospolitej Polskiej została uchwalona przez Zgromadzenie
     Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum
     konstytucyjnym w dniu 25 maja 1997 r., a następnie podpisana przez
@@ -93,7 +93,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
     W pierwotnym tekście Konstytucji, znalazły się dwa błędy, które zgodnie z
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
@@ -113,31 +113,22 @@
         2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
     </svg>
     ) zostały sprostowane w dniu 26 marca 2001 r. obwieszczeniem Prezesa Rady
-    Ministrów:
+    Ministrów: w
+    <a
+      class="underline hover:text-red focus:text-red"
+      rel="prefetch"
+      href="/31">
+      art. 31
+    </a>
+    w ust. 3 zamiast wyrazu „by” miał być wyraz „być”, w
+    <a
+      class="underline hover:text-red focus:text-red"
+      rel="prefetch"
+      href="/93">
+      art. 93
+    </a>
+    w ust. 1 zamiast wyrazu „organizacyjne” miał być wyraz „organizacyjnie”.
   </p>
-
-  <ol class="pl-8 list-decimal">
-    <li>
-      w
-      <a
-        class="underline hover:text-red focus:text-red"
-        rel="prefetch"
-        href="/31">
-        art. 31
-      </a>
-      w ust. 3 zamiast wyrazu „by” miał być wyraz „być”,
-    </li>
-    <li>
-      w
-      <a
-        class="underline hover:text-red focus:text-red"
-        rel="prefetch"
-        href="/93">
-        art. 93
-      </a>
-      w ust. 1 zamiast wyrazu „organizacyjne” miał być wyraz „organizacyjnie”.
-    </li>
-  </ol>
 
   <h2 class="mt-4 text-xl font-thin">Nowelizacje Konstytucji</h2>
 
@@ -160,7 +151,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -178,7 +169,7 @@
     nakazu aresztowania.
   </p>
 
-  <p class="pt-1 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-1 text-justify">
     W
     <a
       class="underline hover:text-red focus:text-red"
@@ -239,7 +230,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-2 text-justify">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red focus:text-red"
@@ -254,7 +245,7 @@
     oskarżenia publicznego”.
   </p>
 
-  <p class="pt-1 text-justify">
+  <p style="column-count: 2; column-gap: 2rem;" class="pt-1 text-justify">
     W
     <a
       class="underline hover:text-red focus:text-red"
