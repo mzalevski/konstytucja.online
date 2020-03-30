@@ -122,10 +122,10 @@
 <div class="py-4">
   <div
     in:fade={{ duration: 1000 }}
-    class="max-w-2xl mx-auto text-justify sm:text-lg">
+    class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
     {@html article.html}
   </div>
-  <div class="max-w-2xl mx-auto mt-8 border-t border-gray-200">
+  <div class="max-w-3xl mx-auto mt-8 border-t border-gray-200">
     {#if article.desc != ``}
       <div class="pt-8">
         <button on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
