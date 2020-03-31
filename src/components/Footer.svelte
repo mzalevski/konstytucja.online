@@ -4,7 +4,7 @@
     <img class="inline-block h-2 md:h-3" src="images/heart.png" alt="" />
     do Polski ~
     <a
-      class="italic hover:text-red"
+      class="italic hover:text-red-new"
       href="https://maciej-zalewski.pl"
       rel="nofollow"
       target="_blank">

@@ -39,7 +39,7 @@
     Konstytucji. Dotychczas dostępne strony internetowe, na których można było
     przeczytać Konstytucję, np.
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="https://www.prezydent.pl/prawo/konstytucja-rp/"
       target="_blank">
       strona Prezydenta
@@ -52,7 +52,7 @@
     </svg>
     ,
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm"
       target="_blank">
       strona Sejmu
@@ -98,7 +98,7 @@
     definicję pojęcia z zakresu prawa konstytucyjnego do słownika pojęć, to
     napisz do mnie na
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="mailto:konstytucja.online@gmail.com"
       target="_blank">
       ten adres
@@ -113,7 +113,7 @@
 
   <p class="flex items-center justify-end pt-4">
     <a
-      class="underline  hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="https://maciej-zalewski.pl/"
       target="_blank">
       Maciej Zalewski

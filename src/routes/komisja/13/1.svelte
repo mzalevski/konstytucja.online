@@ -41,7 +41,8 @@
     </h1>
     <h5>
       <a
-        class="text-sm font-bold tracking-wider text-gray-500 uppercase hover:text-red"
+        class="text-sm font-bold tracking-wider text-gray-500 uppercase
+        hover:text-red-new"
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
         rel="nofollow"
         target="_blank">

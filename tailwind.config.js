@@ -5,10 +5,10 @@ module.exports = {
         help: 'help'
       },
       colors: {
-        red: '#a02828'
+        'red-new': '#a02828'
       }
     }
   },
   variants: {},
   plugins: []
-}
+};

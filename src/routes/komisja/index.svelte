@@ -27,7 +27,8 @@
 <div in:fade={{ duration: 3000 }}>
   <p>
     <a
-      class="text-sm font-bold tracking-wider text-gray-500 uppercase hover:text-red"
+      class="text-sm font-bold tracking-wider text-gray-500 uppercase
+      hover:text-red-new"
       href="https://www.wikiwand.com/pl/Komisja_Konstytucyjna_Zgromadzenia_Narodowego"
       rel="nofollow"
       target="_blank">
@@ -46,7 +47,7 @@
     <p class="max-w-2xl text-justify">
       Komisja Konstytucyjna
       <a
-        class="hover:text-red"
+        class="hover:text-red-new"
         href="https://www.wikiwand.com/pl/Zgromadzenie_Narodowe_w_Polsce"
         rel="nofollow"
         target="_blank">
@@ -63,7 +64,7 @@
       została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
       trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
       <a
-        class="hover:text-red"
+        class="hover:text-red-new"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19920670336"
         rel="nofollow"
         target="_blank">
@@ -79,7 +80,7 @@
       </svg>
       zm.:
       <a
-        class="hover:text-red"
+        class="hover:text-red-new"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
         rel="nofollow"
         target="_blank">
@@ -101,7 +102,8 @@
         <h2 class="mt-4 text-xl font-thin">Skorowidz</h2>
         <p>
           <a
-            class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red"
+            class="text-xs font-bold tracking-wider text-gray-500 uppercase
+            hover:text-red-new"
             href="https://drive.google.com/open?id=1HZL7xpnoqeRuZOSmU1LsJo_8Xaqwhaqr"
             rel="nofollow"
             target="_blank">
@@ -121,7 +123,8 @@
         <h2 class="mt-4 text-xl font-thin">Biuletyny</h2>
         <p>
           <a
-            class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red"
+            class="text-xs font-bold tracking-wider text-gray-500 uppercase
+            hover:text-red-new"
             href="https://bs.sejm.gov.pl/F?func=find-b&request=000007248&find_code=SYS&local_base=BIS01"
             rel="nofollow"
             target="_blank">
@@ -140,12 +143,12 @@
 
         <ul class="pl-5 mt-2 list-disc">
           <li>
-            <a class="hover:text-red" rel="prefetch" href="komisja/13">
+            <a class="hover:text-red-new" rel="prefetch" href="komisja/13">
               Biuletyn nr 13
             </a>
           </li>
           <li>
-            <a class="hover:text-red" rel="prefetch" href="komisja/14">
+            <a class="hover:text-red-new" rel="prefetch" href="komisja/14">
               Biuletyn nr 14
             </a>
           </li>
@@ -156,7 +159,7 @@
         </h3>
         <ul class="pl-5 mt-2 list-disc">
           <li class="text-gray-500">
-            <a class="hover:text-red" rel="prefetch" href="komisja">
+            <a class="hover:text-red-new" rel="prefetch" href="komisja">
               Biuletyn nr 15
             </a>
           </li>

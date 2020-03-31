@@ -52,7 +52,7 @@
     Prezydenta Rzeczypospolitej Polskiej w dniu 16 lipca 1997 r. i ogłoszona
     tego samego dnia. Zgodnie z
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/243">
       art. 243
@@ -66,7 +66,7 @@
     Konstytucyjna z dnia 23 kwietnia 1992 roku o trybie przygotowania i
     uchwalenia Konstytucji Rzeczypospolitej Polskiej (
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/242">
       art. 242
@@ -98,7 +98,7 @@
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000620718"
       rel="nofollow"
       target="_blank">
@@ -115,14 +115,14 @@
     ) zostały sprostowane w dniu 26 marca 2001 r. obwieszczeniem Prezesa Rady
     Ministrów: w
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/31">
       art. 31
     </a>
     w ust. 3 zamiast wyrazu „by” miał być wyraz „być”, w
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/93">
       art. 93
@@ -154,7 +154,7 @@
   <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/55">
       art. 55
@@ -168,7 +168,7 @@
     umożliwiła dokonywanie ekstradycji między innymi na podstawie europejskiego
     nakazu aresztowania. W
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="http://orka.sejm.gov.pl/SQL.nsf/glosowania?OpenAgent&5&24&23"
       rel="nofollow"
       target="_blank">
@@ -189,7 +189,7 @@
     uchwalił ustawę w brzmieniu uchwalonym przez Sejm. 6 listopada 2006
     Prezydent RP Lech Kaczyński
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="https://www.prezydent.pl/archiwum-lecha-kaczynskiego/ustawy/ustawy-podpisane/art,33,listopad-2006-r-.html"
       rel="nofollow"
       target="_blank">
@@ -229,7 +229,7 @@
   <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       rel="prefetch"
       href="/99">
       art. 99
@@ -240,7 +240,7 @@
     wyrokiem na karę pozbawienia wolności za przestępstwo umyślne, ścigane z
     oskarżenia publicznego”. W
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="http://orka.sejm.gov.pl/SQL.nsf/glosowania?OpenAgent&6&41&8"
       rel="nofollow"
       target="_blank">
@@ -257,7 +257,7 @@
     wzięło udział 413 posłów, za głosowało 404, przeciw 0, wstrzymało się 9, nie
     głosowało 47. Ustawa została 1 lipca 2009 uchwalona przez Senat, a następnie
     <a
-      class="underline hover:text-red focus:text-red"
+      class="underline hover:text-red-new focus:text-red-new"
       href="https://www.prezydent.pl/archiwum-lecha-kaczynskiego/ustawy/ustawy-podpisane/art,1,lipiec-2009-r-.html"
       rel="nofollow"
       target="_blank">

@@ -2,7 +2,7 @@
 @tailwind components;
 
 .active {
-  @apply cursor-default text-red;
+  @apply cursor-default text-red-new;
 }
 
 @tailwind utilities;
