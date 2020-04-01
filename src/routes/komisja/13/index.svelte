@@ -13,48 +13,67 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h3>Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)</h3>
+  <h1 class="text-2xl font-thin">
+    Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)
+  </h1>
   <!-- <h5>
     <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+
       href="https://drive.google.com/file/d/1awtjblaTcKfacOyLZwlw_y9ki_226um_/view?usp=sharing"
       rel="nofollow"
       target="_blank">
       ORYGINAŁ BIULETYNU
     </a>
   </h5> -->
-  <p>
+  <p class="max-w-2xl pt-8 text-justify">
     W dniach 7, 8 i 9 lutego 1995 r., Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
     (SLD), rozpatrzyła: projekt jednolity Konstytucji Rzeczypospolitej Polskiej
     (w ujęciu wariantowym), sprawy różne.
   </p>
 
-  <ul class="days">
-    <a rel="prefetch" href="komisja/13/1">
+  <ul class="flex justify-around py-8">
+    <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      rel="prefetch"
+      href="komisja/13/1">
       <li>
         <p>Dzień 1</p>
         <p>(7 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/13/2.1">
+    <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      rel="prefetch"
+      href="komisja/13/2.1">
       <li>
         <p>Dzień 2 - cz. I</p>
         <p>(8 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/13/2.2">
+    <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      rel="prefetch"
+      href="komisja/13/2.2">
       <li>
         <p>Dzień 2 - cz. II</p>
         <p>(8 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/13/3">
+    <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      rel="prefetch"
+      href="komisja/13/3">
       <li>
         <p>Dzień 3</p>
         <p>(9 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/13/prasa">
+    <a
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      rel="prefetch"
+      href="komisja/13/prasa">
       <li>
         <p>Prasa</p>
       </li>
@@ -66,7 +85,7 @@
 
     <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
 
-    <ul style="column-count: 3; column-gap: 2rem;" class="py-4 rep-list">
+    <ul style="column-count: 3; column-gap: 2rem;" class="py-8 rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
       <li>2. Senator Stefan Pastuszka (PSL) — zastępca przewodniczącego</li>
       <li>3. Senator Piotr Andrzejewski (NSZZ „S”)</li>
