@@ -16,6 +16,18 @@ html {
     font-family: "Alex Brush", cursive;
 }
 
+@media (min-width: 640px) {
+  .two-col {
+    column-count: 2;
+    column-gap: 3rem;
+  }
+  
+  .three-col {
+    column-count: 3;
+    column-gap: 2rem;
+  }
+}
+
 .art-scroll:hover,
 .art-scroll:focus {
   color: rgb(220, 40, 40);

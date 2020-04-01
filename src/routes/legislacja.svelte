@@ -31,8 +31,7 @@
   <h2 class="mt-4 text-xl font-thin">Uchwalenie Konstytucji</h2>
   <p>
     <a
-      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm
-      hover:text-red-new"
+      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
       target="_blank">
@@ -48,7 +47,7 @@
     </svg>
   </p>
 
-  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
+  <p class="pt-2 text-justify two-col">
     Konstytucja Rzeczypospolitej Polskiej została uchwalona przez Zgromadzenie
     Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum
     konstytucyjnym w dniu 25 maja 1997 r., a następnie podpisana przez
@@ -77,11 +76,10 @@
     nowej konstytucji).
   </p>
 
-  <h2 class="mt-4 text-xl font-thin">Sprostowanie błędów</h2>
+  <h2 class="mt-10 text-xl font-thin">Sprostowanie błędów</h2>
   <span>
     <a
-      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm
-      hover:text-red-new"
+      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319"
       rel="nofollow"
       target="_blank">
@@ -97,7 +95,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
+  <p class="pt-2 text-justify two-col">
     W pierwotnym tekście Konstytucji, znalazły się dwa błędy, które zgodnie z
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
@@ -134,7 +132,7 @@
     w ust. 1 zamiast wyrazu „organizacyjne” miał być wyraz „organizacyjnie”.
   </p>
 
-  <h2 class="mt-4 text-xl font-thin">Nowelizacje Konstytucji</h2>
+  <h2 class="mt-10 text-xl font-thin">Nowelizacje Konstytucji</h2>
 
   <h3 class="mt-3 text-lg font-thin">Nowelizacja z 2006</h3>
   <span>
@@ -155,7 +153,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
+  <p class="pt-2 text-justify two-col">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red-new focus:text-red-new"
@@ -230,7 +228,7 @@
     </svg>
   </span>
 
-  <p style="column-count: 2; column-gap: 3rem;" class="pt-2 text-justify">
+  <p class="pt-2 text-justify two-col">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red-new focus:text-red-new"

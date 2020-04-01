@@ -83,7 +83,7 @@
 
     <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
 
-    <ul style="column-count: 3; column-gap: 2rem;" class="py-8 rep-list">
+    <ul class="three-col py-8 rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
       <li>2. Senator Stefan Pastuszka (PSL) — zastępca przewodniczącego</li>
       <li>3. Senator Piotr Andrzejewski (NSZZ „S”)</li>
