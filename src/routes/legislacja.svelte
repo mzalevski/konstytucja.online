@@ -21,7 +21,9 @@
 
 <Nav segment={'info'} />
 
-<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+<h1
+  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  in:fly={{ x: -50, duration: 1000 }}>
   Legislacja
 </h1>
 
@@ -29,7 +31,8 @@
   <h2 class="mt-4 text-xl font-thin">Uchwalenie Konstytucji</h2>
   <p>
     <a
-      class="text-sm font-bold tracking-wider text-gray-500 uppercase"
+      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm
+      hover:text-red-new"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483"
       rel="nofollow"
       target="_blank">
@@ -77,7 +80,8 @@
   <h2 class="mt-4 text-xl font-thin">Sprostowanie błędów</h2>
   <span>
     <a
-      class="text-sm font-bold tracking-wider text-gray-500 uppercase"
+      class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm
+      hover:text-red-new"
       href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20010280319"
       rel="nofollow"
       target="_blank">

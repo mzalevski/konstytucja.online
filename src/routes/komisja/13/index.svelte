@@ -13,7 +13,7 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h1 class="text-2xl font-thin">
+  <h1 class="text-lg font-thin sm:text-xl lg:text-2xl">
     Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)
   </h1>
   <!-- <h5>
@@ -35,7 +35,8 @@
 
   <ul class="flex justify-around py-8">
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
+      shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/1">
       <li>
@@ -44,7 +45,8 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
+      shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/2.1">
       <li>
@@ -53,7 +55,8 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
+      shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/2.2">
       <li>
@@ -62,7 +65,8 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
+      shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/3">
       <li>
@@ -71,7 +75,8 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
+      shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/prasa">
       <li>

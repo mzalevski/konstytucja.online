@@ -44,12 +44,14 @@
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
-    <h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+    <h1
+      class="text-lg font-thin sm:text-xl lg:text-2xl"
+      in:fly={{ x: -50, duration: 1000 }}>
       Obrady w dniu 7 lutego 1995 r.
     </h1>
     <h5>
       <a
-        class="text-sm font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
+        class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
         rel="nofollow"
         target="_blank">

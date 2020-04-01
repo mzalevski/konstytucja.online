@@ -19,7 +19,9 @@
 
 <Nav segment={'info'} />
 
-<h1 class="text-2xl font-thin" in:fly={{ x: -50, duration: 1000 }}>
+<h1
+  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  in:fly={{ x: -50, duration: 1000 }}>
   Słownik pojęć
 </h1>
 
