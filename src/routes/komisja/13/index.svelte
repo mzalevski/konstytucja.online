@@ -13,7 +13,7 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h1 class="text-lg font-thin sm:text-xl lg:text-2xl">
+  <h1 class="text-sm font-thin sm:text-xl lg:text-2xl">
     Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)
   </h1>
   <!-- <h5>
@@ -33,10 +33,9 @@
     (w ujęciu wariantowym), sprawy różne.
   </p>
 
-  <ul class="flex justify-around py-8">
+  <ul class="flex flex-wrap justify-around flex-grow py-8">
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/1">
       <li>
@@ -45,8 +44,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/2.1">
       <li>
@@ -55,8 +53,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/2.2">
       <li>
@@ -65,8 +62,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/3">
       <li>
@@ -75,8 +71,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
       rel="prefetch"
       href="komisja/13/prasa">
       <li>
@@ -90,7 +85,7 @@
 
     <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
 
-    <ul style="column-count: 3; column-gap: 2rem;" class="py-8 rep-list">
+    <ul class="py-8 three-col rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
       <li>2. Senator Stefan Pastuszka (PSL) — zastępca przewodniczącego</li>
       <li>3. Senator Piotr Andrzejewski (NSZZ „S”)</li>
