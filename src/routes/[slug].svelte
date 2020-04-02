@@ -62,12 +62,12 @@
 
 <div class="flex justify-between">
   <a
-    class="w-24 text-lg font-thin sm:text-xl hover:text-red-new"
+    class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
     rel="prefetch"
     href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}>
     powrót
   </a>
-  <h3 class="text-lg font-thin sm:text-xl">
+  <h3 class="font-thin sm:text-lg sm:text-xl">
     {article.chapter['id']} {article.chapter['title']}
   </h3>
   <div class="flex justify-end w-24">
@@ -116,8 +116,7 @@
 </div>
 
 <h1
-  class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
-  sm:text-4xl">
+  class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16 sm:text-4xl">
   {article.title}
 </h1>
 <div class="py-4">
