@@ -1,7 +1,14 @@
 <script>
   import { fly, fade } from "svelte/transition";
+
   export let segment;
+
   let showDropdown = false;
+
+  let dropdownTransitionConfig =
+    window.outerWidth > 1024
+      ? { y: -30, duration: 600 }
+      : { x: 30, duration: 600 };
 </script>
 
 <nav class="items-baseline mb-2 border-b border-gray-200 sm:flex sm:mb-4">
@@ -30,16 +37,15 @@
     </a>
 
     <div class="relative" on:mouseleave={() => (showDropdown = false)}>
-      <a
-        href="/"
+      <div
         class:active={segment === 'info'}
         on:mouseenter={() => (showDropdown = true)}
         class="ml-2 cursor-default md:ml-4 hover:text-red-new">
         Informacje
-      </a>
+      </div>
       {#if showDropdown}
         <div
-          in:fly={{ y: -30, duration: 600 }}
+          in:fly={dropdownTransitionConfig}
           class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
           <a
             class="block md:ml-2 hover:text-red-new"
