@@ -112,7 +112,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -134,7 +134,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/WiatrJerzy.png"
         alt=""
         loading="lazy" />
@@ -159,7 +159,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -181,7 +181,7 @@
     <!--<hr><p class="page-break">strona 4</p><hr>-->
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/TaylorJacek.png"
         alt=""
         loading="lazy" />
@@ -199,7 +199,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -215,7 +215,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -260,14 +260,14 @@
         gdyż nie określa terminu, do którego ma zostać odroczone posiedzenie.
       </p>
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -285,14 +285,14 @@
         Proponuję, aby następne posiedzenie Komisji odbyło się za dwa tygodnie.
       </p>
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -312,7 +312,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -330,7 +330,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -355,7 +355,7 @@
         złożonych w sprawach, które nie były przedmiotem głosowań w Komisji.
       </p>
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -364,7 +364,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/JaskierniaJerzy.png"
         alt=""
         loading="lazy" />
@@ -391,14 +391,14 @@
         były już wcześniej ustalone.
       </p>
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -434,14 +434,14 @@
         o wyjaśnienie tej kwestii.
       </p>
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -456,7 +456,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy" />
@@ -473,7 +473,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -490,7 +490,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -504,7 +504,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -519,7 +519,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -538,7 +538,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy" />
@@ -554,7 +554,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -567,7 +567,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy" />
@@ -583,7 +583,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -610,7 +610,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -627,7 +627,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -641,7 +641,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -654,7 +654,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -668,7 +668,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy" />
@@ -682,7 +682,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -698,7 +698,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -712,7 +712,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -730,7 +730,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -747,7 +747,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -768,7 +768,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -812,7 +812,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -832,7 +832,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MalachowskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -851,7 +851,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -865,7 +865,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -877,7 +877,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -889,7 +889,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/crowd.png"
         alt=""
         loading="lazy" />
@@ -901,7 +901,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -920,7 +920,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -938,7 +938,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -954,7 +954,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -973,7 +973,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -986,7 +986,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -999,7 +999,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy" />
@@ -1014,7 +1014,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy" />
@@ -1031,7 +1031,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy" />
@@ -1045,7 +1045,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -1072,7 +1072,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -1095,7 +1095,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1107,7 +1107,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1124,7 +1124,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1144,7 +1144,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1156,7 +1156,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1169,7 +1169,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -1190,7 +1190,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1211,7 +1211,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -1246,7 +1246,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1260,7 +1260,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -1282,7 +1282,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1294,7 +1294,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CimoszewiczWlodzimierz.png"
         alt=""
         loading="lazy" />
@@ -1310,7 +1310,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1327,7 +1327,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -1351,7 +1351,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/PastuszkaStefan.png"
         alt=""
         loading="lazy" />
@@ -1366,7 +1366,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DrozdekMichal.png"
         alt=""
         loading="lazy" />
@@ -1397,7 +1397,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/WinczorekPiotr.png"
         alt=""
         loading="lazy" />
@@ -1421,7 +1421,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy" />
@@ -1444,7 +1444,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SadowskiZdzislaw.png"
         alt=""
         loading="lazy" />
@@ -1467,7 +1467,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy" />
@@ -1498,7 +1498,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1518,7 +1518,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -1539,7 +1539,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SadowskiZdzislaw.png"
         alt=""
         loading="lazy" />
@@ -1567,7 +1567,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1609,7 +1609,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1627,7 +1627,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -1640,7 +1640,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1665,7 +1665,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1678,7 +1678,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -1699,7 +1699,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy" />
@@ -1720,7 +1720,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -1734,7 +1734,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy" />
@@ -1748,7 +1748,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1760,7 +1760,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/AndrzejewskiPiotr.png"
         alt=""
         loading="lazy" />
@@ -1772,7 +1772,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1795,7 +1795,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -1808,7 +1808,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -1820,7 +1820,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1837,7 +1837,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -1851,7 +1851,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy" />
@@ -1922,7 +1922,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1936,7 +1936,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -1950,7 +1950,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -1964,7 +1964,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -2001,7 +2001,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy" />
@@ -2013,7 +2013,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2031,7 +2031,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -2045,7 +2045,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2059,7 +2059,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -2071,7 +2071,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2085,7 +2085,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -2102,7 +2102,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2116,7 +2116,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OrzechowskiJan.png"
         alt=""
         loading="lazy" />
@@ -2131,7 +2131,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2143,7 +2143,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2157,7 +2157,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2173,7 +2173,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -2185,7 +2185,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -2199,7 +2199,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2212,7 +2212,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -2228,7 +2228,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2243,7 +2243,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -2265,7 +2265,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2292,7 +2292,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2308,7 +2308,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2326,7 +2326,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MazowieckiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -2349,7 +2349,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2383,7 +2383,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -2405,7 +2405,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2423,7 +2423,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2438,7 +2438,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2455,7 +2455,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -2475,7 +2475,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -2500,7 +2500,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2512,7 +2512,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2526,7 +2526,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -2539,7 +2539,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2551,7 +2551,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2564,7 +2564,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RokitaJan.png"
         alt=""
         loading="lazy" />
@@ -2599,7 +2599,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/WisniewskiLeszek.png"
         alt=""
         loading="lazy" />
@@ -2620,7 +2620,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -2638,7 +2638,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2652,7 +2652,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrzeskowiakAlicja.png"
         alt=""
         loading="lazy" />
@@ -2667,7 +2667,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2685,7 +2685,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/TaylorJacek.png"
         alt=""
         loading="lazy" />
@@ -2709,7 +2709,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -2747,7 +2747,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -2780,7 +2780,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LybackaKrystyna.png"
         alt=""
         loading="lazy" />
@@ -2808,7 +2808,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -2860,7 +2860,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -2885,7 +2885,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -2898,7 +2898,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -2924,7 +2924,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -2938,7 +2938,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MajewskiWit.png"
         alt=""
         loading="lazy" />
@@ -2967,7 +2967,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RokitaJan.png"
         alt=""
         loading="lazy" />
@@ -3001,7 +3001,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy" />
@@ -3094,7 +3094,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3107,7 +3107,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -3145,7 +3145,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy" />
@@ -3220,7 +3220,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy" />
@@ -3247,7 +3247,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -3297,7 +3297,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/OsiatynskiWiktor.png"
         alt=""
         loading="lazy" />
@@ -3318,7 +3318,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -3334,7 +3334,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RzeplinskiAndrzej.png"
         alt=""
         loading="lazy" />
@@ -3356,7 +3356,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3382,7 +3382,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -3397,7 +3397,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3411,7 +3411,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RokitaJan.png"
         alt=""
         loading="lazy" />
@@ -3441,7 +3441,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3455,7 +3455,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy" />
@@ -3475,7 +3475,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RokitaJan.png"
         alt=""
         loading="lazy" />
@@ -3498,7 +3498,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -3526,7 +3526,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -3544,7 +3544,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3556,7 +3556,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/PietrzakMichal.png"
         alt=""
         loading="lazy" />
@@ -3571,7 +3571,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy" />
@@ -3604,7 +3604,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3616,7 +3616,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/RokitaJan.png"
         alt=""
         loading="lazy" />
@@ -3632,7 +3632,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3649,7 +3649,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -3663,7 +3663,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3687,7 +3687,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/LipowiczIrena.png"
         alt=""
         loading="lazy" />
@@ -3701,7 +3701,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3735,7 +3735,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -3753,7 +3753,7 @@
     </div><hr>-->
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SarneckiPawel.png"
         alt=""
         loading="lazy" />
@@ -3767,7 +3767,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -3781,7 +3781,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy" />
@@ -3805,7 +3805,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MadejJerzy.png"
         alt=""
         loading="lazy" />
@@ -3818,7 +3818,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -3832,7 +3832,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3848,7 +3848,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -3861,7 +3861,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -3878,7 +3878,7 @@
     </div><hr>-->
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -3893,7 +3893,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/CiemniewskiJerzy.png"
         alt=""
         loading="lazy" />
@@ -3906,7 +3906,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/SzymanskiJanusz.png"
         alt=""
         loading="lazy" />
@@ -3919,7 +3919,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -3935,7 +3935,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/MoczulskiLeszek.png"
         alt=""
         loading="lazy" />
@@ -3952,7 +3952,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KuleszaWladyslaw.png"
         alt=""
         loading="lazy" />
@@ -3977,7 +3977,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/IwinskiTadeusz.png"
         alt=""
         loading="lazy" />
@@ -3997,7 +3997,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -4015,7 +4015,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/DzialochaKazimierz.png"
         alt=""
         loading="lazy" />
@@ -4029,7 +4029,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -4048,7 +4048,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/BugajRyszard.png"
         alt=""
         loading="lazy" />
@@ -4060,7 +4060,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
@@ -4080,7 +4080,7 @@
 
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/ZdradaJerzy.png"
         alt=""
         loading="lazy" />
@@ -4096,7 +4096,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/GrodzickiRyszard.png"
         alt=""
         loading="lazy" />
@@ -4115,7 +4115,7 @@
     </div>
     <div class="flex pt-4 speaker">
       <img
-        class="w-20 h-20 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
+        class="w-16 h-16 rounded-lg shadow-lg sm:w-24 sm:h-24 lg:w-32 lg:h-32"
         src="/images/kk-speakers/KwasniewskiAleksander.png"
         alt=""
         loading="lazy" />
