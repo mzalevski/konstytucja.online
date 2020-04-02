@@ -9,6 +9,11 @@
   let selectedChapter;
   let searchedText = "";
 
+  let searchTransitionConfig =
+    window.outerWidth > 1024
+      ? { y: -100, duration: 1000 }
+      : { x: 100, duration: 1000 };
+
   function sendChoice() {
     dispatch("searchMessage", {
       text: searchedText,
@@ -19,7 +24,7 @@
 
 <div
   class="relative mb-2 sm:flex sm:justify-end sm:mb-0"
-  in:fly={{ y: -100, duration: 1000 }}>
+  in:fly={searchTransitionConfig}>
   <div class="relative">
 
     <input
