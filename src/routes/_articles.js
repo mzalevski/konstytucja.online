@@ -465,7 +465,7 @@ const articles = [
 			<p>Wszystkie polskie konstytucje posługiwały się pojęciem obywatelstwa w kontekście określania praw i wolności jednostki. W Konstytucji z 1997 roku odróżniono wyraźnie prawa człowieka od praw obywatela. W związku z tym koniecznym okazało się określenie w rozdziale drugim przesłanek posiadania obywatelstwa.</p>
 			<p>Artykuł 34 wskazuje trzy główne zasady:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>zasadę krwi (obywatelstwo nabywa się poprzez urodzenie przez obywateli RP, gdy przynajmniej jedno z rodziców posiada obywatelstwo polskie),</li>
 				<li>zasadę dopuszczalności innych dróg (określonych w ustawie),</li>
 				<li>zasadę trwałości obywatelstwa (nie można go utracić inaczej niż poprzez zrzeczenie się go).</li>
@@ -495,7 +495,7 @@ const articles = [
 
 			<p>Obowiązek ochrony praw mniejszości wynika nie tylko bezpośrednio z tego artykułu Konstytucji, ale także z <a class="art-scroll" rel="prefetch" href="/32">artykułu 32</a> oraz regulacji międzynarodowych (takich jak art. 27 Międzynarodowego Paktu Praw Obywatelskich i Politycznych, europejskiej Konwencji o ochronie mniejszości narodowych z 1995 r., traktatów dwustronnych zawierane przez Polskę). Łączne odczytywanie tych przepisów pozwoliło komentatorom na sformułowanie trzech reguł uniwersalnych:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>zakazu asymilacji (rozumianego jako eliminacja odrębności narodowych i etnicznych),</li>
 				<li>zasady równego traktowania i</li>
 				<li>zakazu dyskryminacji.</li>
@@ -701,7 +701,7 @@ const articles = [
     desc: `
 			<p>Podobna regulacja nie występowała przed rokiem 1997 w polskim konstytucjonalizmie. Aby wystąpiło zawieszenie biegu przedawnienia, wymagane jest spełnienie dwóch przesłanek:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>przestępstwo musi być popełnione przez funkcjonariusza publicznego (lub na jego zlecenie), oraz</li>
 				<li>w stosunku do sprawcy tego czynu z przyczyn politycznych nie wszczęto lub przerwano (zawieszono) postępowanie (dochodzenie, śledztwo).</li>
 			</ul>
@@ -806,7 +806,7 @@ const articles = [
     desc: `
 			<p>Tajemnica korespondencji jest jedną z tradycyjnych wolności obywatelskich. Wolność komunikowania się obejmuje możliwość porozumiewania się ludzi między sobą, komunikowania wiadomości, ocen, wrażeń, itd. Artykuł 49 dotyczy jednak tylko komunikowania się za pomocą środka przekazu. Komunikacja bezpośrednia jest zagwarantowana przez prawo do prywatności. Twórcy Konstytucji, by kompleksowo uregulować wolność komunikowania się jednostki, zapewnili także wolność wyrażania poglądów (w artykule 54). Wolności te rozróżnia się poprzez analizę okoliczności przekazywania treści (wolność słowa polega na adresowaniu swego stanowiska do nieokreślonych indywidualnie osób). Wolność ta obejmuje również wolność otrzymywania określonych treści. Tajemnica komunikowania się to:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>prawo do nieujawniania treści przekazu,</li>
 				<li>prawo do nieujawniania faktu, że się przekaz otrzymało,</li>
 				<li>zakaz zdobywania wiedzy o treści przekazu bez zgody adresata (zakaz ten dotyczy także władz publicznych).</li>
@@ -848,7 +848,7 @@ const articles = [
     desc: `
 			<p>Artykuł ten stanowi o:
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>wolności jednostki od ujawniania informacji jej dotyczących innym osobom oraz szczególnie władzom publicznym. Wolności tej odpowiada zakaz podejmowania prób uzyskiwania tego rodzaju informacji poprzez przesłuchiwanie (indagację);</li>
 				<li>kompetencji władz publicznych do pozyskiwania, gromadzenia oraz udostępniania informacji o obywatelach w zakresie niezbędnym w demokratycznym państwie prawnym;</li>
 				<li>prawie dostępu każdego mieszkańca Polski do dotyczących go dokumentów urzędowych i zbiorów danych;</li>
@@ -950,7 +950,7 @@ const articles = [
     html: `
 			<p>1. Ekstradycja obywatela polskiego jest zakazana, z wyjątkiem przypadków określonych w ust. 2 i 3.</p>
 			<p class="pt-4">2. Ekstradycja obywatela polskiego może być dokonana na wniosek innego państwa lub sądowego organu międzynarodowego, jeżeli możliwość taka wynika z ratyfikowanej przez Rzeczpospolitą Polską umowy międzynarodowej lub ustawy wykonującej akt prawa stanowionego przez organizację międzynarodową, której Rzeczpospolita Polska jest członkiem, pod warunkiem że czyn objęty wnioskiem o ekstradycję:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) został popełniony poza terytorium Rzeczypospolitej Polskiej, oraz</li>
 				<li>2) stanowił przestępstwo według prawa Rzeczypospolitej Polskiej lub stanowiłby przestępstwo według prawa Rzeczypospolitej Polskiej w razie popełnienia na terytorium Rzeczypospolitej Polskiej, zarówno w czasie jego popełnienia, jak i w chwili złożenia wniosku.</li>
 			</ul>
@@ -965,7 +965,7 @@ const articles = [
 
 			<p>Artykuł 55 ust. 1 w brzmieniu sprzed nowelizacji z 2006 roku stanowił, iż „ekstradycja obywatela polskiego jest zakazana". Przepisy te zostały obecnie doprecyzowane:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>Aby ekstradycja polskiego obywatela była konstytucyjnie dopuszczalna, wszystkie elementy wyznaczające miejsce popełnienia przestępstwa muszą wystąpić poza terytorium Polski.</li>
 				<li>Ekstradycji obywatela polskiego można dokonać, jeśli jego czyn stanowił przestępstwo według prawa polskiego lub stanowiłby je w razie popełnienia go na terytorium Polski.</li>
 			</ul>
@@ -1027,7 +1027,7 @@ const articles = [
     desc: `
 			<p>Wolność zrzeszania się ujęto jako zasadę ustrojową (społeczeństwa obywatelskiego) w <a class="art-scroll" rel="prefetch" href='/12'>art. 12</a> Konstytucji. Jest ona źródłem szeregu praw podmiotowych, takich jak:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>prawo do tworzenia zrzeszeń (w tym prawo swobodnego określenia celu, rodzaju, struktury władz i nazwy zrzeszenia),</li>
 				<li>prawo do przystępowania lub nieprzystępowania do zrzeszeń już istniejących (w tym określenie warunków członkostwa),</li>
 				<li>prawo do wystąpienia ze zrzeszenia,</li>
@@ -1055,7 +1055,7 @@ const articles = [
     desc: `
 		<p>Artykuł ten konkretyzuje ogólną wolność zrzeszania się z <a class="art-scroll" rel="prefetch" href='/58'>art. 58</a> Konstytucji. Wolność działalności w związkach zawodowych jest niezwykle istotna z perspektywy historii Polski, dlatego przepis ten jest szczególnie rozbudowany i reguluje różnorodne zagadnienia. Gwarantuje to bowiem, że ograniczenia tej wolności zgodne z <a class="art-scroll" rel="prefetch" href='/31'>art. 31</a> ust. 3 zawarte w ustawie nie mogą wykraczać poza szczegółowo określone ramy. Formy zrzeszania się przewidziane w tym przepisie Konstytucji to:</p>
 
-		<ul class="pl-6">
+		<ul class="pl-4">
 			<li>związki zawodowe,</li>
 			<li>organizacje społeczno-zawodowe rolników,</li>
 			<li>organizacje pracodawców.</li>
@@ -1121,14 +1121,14 @@ const articles = [
 
 			<p>Konstytucja przewiduje jednak pewne wyłączenia: prawo to nie przysługuje osobom, które prawomocnym orzeczeniem sądowym są ubezwłasnowolnione lub pozbawione praw publicznych albo wyborczych. Szczegółowo prawa wyborcze reguluje Kodeks wyborczy, który w zakresie czynnego prawa wyborczego przewiduje, że w wyborach do Parlamentu Europejskiego w Rzeczypospolitej takie prawo ma:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>obywatel polski, który najpóźniej w dniu głosowania kończy 18 lat,</li>
 				<li>obywatel Unii Europejskiej niebędący obywatelem polskim, który najpóźniej w dniu głosowania kończy 18 lat oraz stale zamieszkuje na terytorium Rzeczypospolitej Polskiej.</li>
 			</ul>
 
 			<p>Prawo wyborcze w wyborach do organów stanowiących jednostek samorządu terytorialnego przysługuje:<p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>do rady gminy – obywatelowi polskiemu oraz obywatelowi Unii Europejskiej niebędącemu obywatelem polskim, który najpóźniej w dniu głosowania kończy 18 lat oraz stale zamieszkuje na obszarze tej gminy,</li>
 				<li>do rady powiatu i sejmiku województwa – obywatelowi polskiemu, który najpóźniej w dniu głosowania kończy 18 lat oraz stale zamieszkuje na obszarze, odpowiednio, tego powiatu i województwa; </li>
 				<li>wójta w danej gminie – osobie mającej prawo wybierania do rady tej gminy.</li>
@@ -1213,7 +1213,7 @@ const articles = [
     desc: `
 			<p>Artykuł ten omawia dwa szczegółowe zagadnienia dotyczące indywidualnego prawa pracy:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1. Prawo do bezpiecznych i higienicznych warunków pracy (ust. 1). Przepis ten nakłada na ustawodawcę obowiązek uregulowania sposobu realizacji tego prawa bez naruszania jego istoty.</li>
 				<li>2. Uprawnienia związane z czasem pracy (ust. 2), pośrednio wyrażające ogólne prawo do wypoczynku.</li>
 			</ul>
@@ -1241,7 +1241,7 @@ const articles = [
 
 			<p>Treścią tego prawa jest zagwarantowanie obywatelom świadczeń na wypadek:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>niezdolności do pracy ze względu na chorobę,</li>
 				<li>niezdolność do pracy z powodu niepełnosprawności,</li>
 				<li>osiągnięcia wieku emerytalnego,</li>
@@ -1270,7 +1270,7 @@ const articles = [
 
 			<p class="pt-4">2. Kolejne ustępy artykułu 68 nakładają na władze określone obowiązki:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>zapewnienia obywatelom, niezależnie od ich sytuacji materialnej, równego dostępu do świadczeń opieki zdrowotnej finansowanej ze środków publicznych,</li>
 				<li>określenia w drodze ustawy warunków i zakresu udzielania tych świadczeń,</li>
 				<li>zapewnienia szczególnej opieki zdrowotnej dzieciom, kobietom ciężarnym, osobom z niepełnosprawnościami i osobom w podeszłym wieku,</li>
@@ -1304,7 +1304,7 @@ const articles = [
 
 			<p>Przepis ten ma ścisły związek z zasadą godności jednostki. Udzielenie pomocy osobom z niepełnosprawnościami, tak by mogły prowadzić życie w społeczeństwie, dotyczyć ma trzech dziedzin:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>zabezpieczenia egzystencji (pokrywa się to częściowo z normą wynikającą z <a class="art-scroll" rel="prefetch" href='/67'>art. 67</a> ust. 1, odrębne uregulowanie sytuacji osób z niepełnosprawnościami sugeruje dopuszczalność przyznania im pewnych preferencji);</li>
 				<li>przysposobienia do pracy (w tym tworzenie programów szkoleniowych i przygotowawczych, wprowadzanie zachęt i ułatwień);</li>
 				<li>komunikacji społecznej (w tym tworzenie odpowiedniej infrastruktury).</li>
@@ -1334,7 +1334,7 @@ const articles = [
 
 			<p class="pt-4">2. Kolejne ustępy artykułu 70 formułują szczegółowe gwarancje prawa do nauki:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>zasadę dwusektorowości systemu szkolnictwa (równoległe istnienie systemu szkół publicznych i niepublicznych);</li>
 				<li>zasadę bezpłatności nauki w szkołach publicznych;</li>
 				<li>zasadę powszechnego i równego dostępu do wykształcenia;</li>
@@ -1387,7 +1387,7 @@ const articles = [
     desc: `
 			<p>Art. 72 normuje kilka kwestii:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>ustala obowiązek władz publicznych do zapewnienia ochrony praw dziecka, z czym łączy się prawo każdego do żądania ochrony dziecka przed szczególnie drastycznymi naruszeniami tych praw (ust. 1);</li>
 				<li>ustala zasadę pierwszeństwa roli rodziców w sprawowaniu opieki nad dzieckiem i pomocniczej roli władz w tym zakresie (ust. 2);</li>
 				<li>uznaje podmiotowość dziecka i wynikające stąd jego uprawnienia (ust. 3);</li>
@@ -1414,7 +1414,7 @@ const articles = [
     desc: `
 			<p>Art. 73 ponownie tworzy kilka wolności:</p>
 
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>wolność twórczości artystycznej (wolność sztuki – swoboda tworzenia dzieł artystycznych wszelkiego rodzaju);</li>
 				<li>wolność badań naukowych (swoboda wyboru przedmiotu badań i wolność ogłaszania wyników tych badań) oraz wolność nauczania (czyli swoboda systematycznego przekazywania wiedzy naukowej innym osobom). Wspólnie wolności te tworzą wolność nauki;</li>
 				<li>wolność korzystania z dóbr kultury (gwarantuje dostęp do efektów twórczości innych osób).</li>
@@ -1682,7 +1682,7 @@ const articles = [
     },
     html: `
 			<p>1. Ratyfikacja przez Rzeczpospolitą Polską umowy międzynarodowej i jej wypowiedzenie wymaga uprzedniej zgody wyrażonej w ustawie, jeżeli umowa dotyczy:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) pokoju, sojuszy, układów politycznych lub układów wojskowych,</li>
 				<li>2) wolności, praw lub obowiązków obywatelskich określonych w Konstytucji,</li>
 				<li>3) członkostwa Rzeczypospolitej Polskiej w organizacji międzynarodowej,</li>
@@ -2263,7 +2263,7 @@ const articles = [
     html: `
 			<p>1. Jeżeli Prezydent Rzeczypospolitej nie może przejściowo sprawować urzędu, zawiadamia o tym Marszałka Sejmu, który tymczasowo przejmuje obowiązki Prezydenta Rzeczypospolitej. Gdy Prezydent Rzeczypospolitej nie jest w stanie zawiadomić Marszałka Sejmu o niemożności sprawowania urzędu, wówczas o stwierdzeniu przeszkody w sprawowaniu urzędu przez Prezydenta Rzeczypospolitej rozstrzyga Trybunał Konstytucyjny na wniosek Marszałka Sejmu. W razie uznania przejściowej niemożności sprawowania urzędu przez Prezydenta Rzeczypospolitej Trybunał Konstytucyjny powierza Marszałkowi Sejmu tymczasowe wykonywanie obowiązków Prezydenta Rzeczypospolitej.</p>
 			<p class="pt-4">2. Marszałek Sejmu tymczasowo, do czasu wyboru nowego Prezydenta Rzeczypospolitej, wykonuje obowiązki Prezydenta Rzeczypospolitej w razie: "</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) śmierci Prezydenta Rzeczypospolitej,</li>
 				<li>2) zrzeczenia się urzędu przez Prezydenta Rzeczypospolitej,</li>
 				<li>3) stwierdzenia nieważności wyboru Prezydenta Rzeczypospolitej lub innych przyczyn nieobjęcia urzędu po wyborze,</li>
@@ -2296,7 +2296,7 @@ const articles = [
     },
     html: `
 			<p>1. Prezydent Rzeczypospolitej jako reprezentant państwa w stosunkach zewnętrznych:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) ratyfikuje i wypowiada umowy międzynarodowe, o czym zawiadamia Sejm i Senat,</li>
 				<li>2) mianuje i odwołuje pełnomocnych przedstawicieli Rzeczypospolitej Polskiej w innych państwach i przy organizacjach międzynarodowych,</li>
 				<li>3) przyjmuje listy uwierzytelniające i odwołujące akredytowanych przy nim przedstawicieli dyplomatycznych innych państw i organizacji międzynarodowych.</li>
@@ -2450,7 +2450,7 @@ const articles = [
 			<p>1. Prezydent Rzeczypospolitej, korzystając ze swoich konstytucyjnych i ustawowych kompetencji, wydaje akty urzędowe.</p>
 			<p class="pt-4">2. Akty urzędowe Prezydenta Rzeczypospolitej wymagają dla swojej ważności podpisu Prezesa Rady Ministrów, który przez podpisanie aktu ponosi odpowiedzialność przed Sejmem.</p>
 			<p class="pt-4">3. Przepis ust. 2 nie dotyczy:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) zarządzania wyborów do Sejmu i Senatu,</li>
 				<li>2) zwoływania pierwszego posiedzenia nowo wybranych Sejmu i Senatu,</li>
 				<li>3) skracania kadencji Sejmu w przypadkach określonych w Konstytucji,</li>
@@ -2538,7 +2538,7 @@ const articles = [
     },
     html: `
 			<p>Prezes Rady Ministrów:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) reprezentuje Radę Ministrów,</li>
 				<li>2) kieruje pracami Rady Ministrów,</li>
 				<li>3) wydaje rozporządzenia,</li>
@@ -2727,7 +2727,7 @@ const articles = [
     html: `
 			<p>1. Prezes Rady Ministrów składa dymisję Rady Ministrów na pierwszym posiedzeniu nowo wybranego Sejmu.</p>
 			<p class="pt-4">2. Prezes Rady Ministrów składa dymisję Rady Ministrów również w razie:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) nieuchwalenia przez Sejm wotum zaufania dla Rady Ministrów,</li>
 				<li>2) wyrażenia Radzie Ministrów wotum nieufności,</li>
 				<li>3) rezygnacji Prezesa Rady Ministrów.</li>
@@ -3060,7 +3060,7 @@ const articles = [
     },
     html: `
 			<p>1. Krajowa Rada Sądownictwa składa się z:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) Pierwszego Prezesa Sądu Najwyższego, Ministra Sprawiedliwości, Prezesa Naczelnego Sądu Administracyjnego i osoby powołanej przez Prezydenta Rzeczypospolitej,</li>
 				<li>2) piętnastu członków wybranych spośród sędziów Sądu Najwyższego, sądów powszechnych, sądów administracyjnych i sądów wojskowych,</li>
 				<li>3) czterech członków wybranych przez Sejm spośród posłów oraz dwóch członków wybranych przez Senat spośród senatorów.</li>
@@ -3080,7 +3080,7 @@ const articles = [
     },
     html: `
 			<p>Trybunał Konstytucyjny orzeka w sprawach:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) zgodności ustaw i umów międzynarodowych z Konstytucją,</li>
 				<li>2) zgodności ustaw z ratyfikowanymi umowami międzynarodowymi, których ratyfikacja wymagała uprzedniej zgody wyrażonej w ustawie,</li>
 				<li>3) zgodności przepisów prawa, wydawanych przez centralne organy państwowe, z Konstytucją, ratyfikowanymi umowami międzynarodowymi i ustawami,</li>
@@ -3127,7 +3127,7 @@ const articles = [
     },
     html: `
 			<p>Z wnioskiem w sprawach, o których mowa w <a class="art-scroll" rel="prefetch" href='/188'>art. 188</a>, do Trybunału Konstytucyjnego wystąpić mogą:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) Prezydent Rzeczypospolitej, Marszałek Sejmu, Marszałek Senatu, Prezes Rady Ministrów, 50 posłów, 30 senatorów, Pierwszy Prezes Sądu Najwyższego, Prezes Naczelnego Sądu Administracyjnego, Prokurator Generalny, Prezes Najwyższej Izby Kontroli, Rzecznik Praw Obywatelskich,</li>
 				<li>2) Krajowa Rada Sądownictwa w zakresie, o którym mowa w <a class="art-scroll" rel="prefetch" href='/186'>art. 186</a> ust. 2,</li>
 				<li>3) organy stanowiące jednostek samorządu terytorialnego,</li>
@@ -3303,7 +3303,7 @@ const articles = [
     },
     html: `
 			<p>1. Najwyższa Izba Kontroli przedkłada Sejmowi:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) analizę wykonania budżetu państwa i założeń polityki pieniężnej,</li>
 				<li>2) opinię w przedmiocie absolutorium dla Rady Ministrów,</li>
 				<li>3) informacje o wynikach kontroli, wnioski i wystąpienia, określone w ustawie.</li>
@@ -3822,7 +3822,7 @@ const articles = [
     },
     html: `
 			<p>Tracą moc:</p>
-			<ul class="pl-6">
+			<ul class="pl-4">
 				<li>1) ustawa konstytucyjna z dnia 17 października 1992 r. o wzajemnych stosunkach między władzą ustawodawczą i wykonawczą Rzeczypospolitej Polskiej oraz o samorządzie terytorialnym (Dz.U. Nr 84, poz. 426, z 1995 r. Nr 38, poz. 184, Nr 150, poz. 729 oraz z 1996 r. Nr 106, poz. 488),</li>
 				<li>2) ustawa konstytucyjna z dnia 23 kwietnia 1992 r. o trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (Dz.U. Nr 67, poz. 336 oraz z 1994 r. Nr 61, poz. 251).</li>
 			</ul>
