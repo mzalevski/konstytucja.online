@@ -1,12 +1,12 @@
 <script>
+  import { fly, fade } from "svelte/transition";
   export let segment;
   let showDropdown = false;
 </script>
 
 <nav class="items-baseline mb-2 border-b border-gray-200 sm:flex sm:mb-4">
   <div
-    class="flex items-baseline justify-center w-full sm:justify-start sm:w-2/3
-    lg:w-1/2 xl:w-2/5">
+    class="flex items-baseline justify-center w-full sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
       class="text-3xl font-bold logo sm:ml-1 sm:text-4xl text-red-new"
@@ -39,8 +39,8 @@
       </a>
       {#if showDropdown}
         <div
-          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded
-          shadow-lg cursor-default sm:w-48">
+          in:fly={{ y: -30, duration: 600 }}
+          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
           <a
             class="block md:ml-2 hover:text-red-new"
             rel="prefetch"
