@@ -1,8 +1,6 @@
 <script>
-  import { stores } from "@sapper/app";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -34,8 +32,7 @@
 
   <ul class="flex justify-around py-8">
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/14/1">
       <li>
@@ -44,8 +41,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/14/2">
       <li>
@@ -54,8 +50,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/14/3">
       <li>
@@ -64,8 +59,7 @@
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg
-      shadow-lg hover:bg-gray-200"
+      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
       rel="prefetch"
       href="komisja/14/podkomisja">
       <li>
@@ -83,7 +77,7 @@
 
     <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
 
-    <ul class="three-col py-8 rep-list">
+    <ul class="py-8 three-col rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
       <li>2. Senator Stefan Pastuszka (PSL) — zastępca przewodniczącego</li>
       <li>3. Senator Piotr Andrzejewski (NSZZ „S”)</li>

@@ -1,8 +1,6 @@
 <script>
-  import { stores } from "@sapper/app";
   import { fly, fade } from "svelte/transition";
   import Nav from "../../components/Nav.svelte";
-  import Footer from "../../components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -29,8 +27,7 @@
 <div in:fade={{ duration: 3000 }}>
   <p>
     <a
-      class="text-sm font-bold tracking-wider text-gray-500 uppercase
-      hover:text-red-new"
+      class="text-sm font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
       href="https://www.wikiwand.com/pl/Komisja_Konstytucyjna_Zgromadzenia_Narodowego"
       rel="nofollow"
       target="_blank">
@@ -104,8 +101,7 @@
         <h2 class="mt-4 text-xl font-thin">Skorowidz</h2>
         <p>
           <a
-            class="text-xs font-bold tracking-wider text-gray-500 uppercase
-            hover:text-red-new"
+            class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
             href="https://drive.google.com/open?id=1HZL7xpnoqeRuZOSmU1LsJo_8Xaqwhaqr"
             rel="nofollow"
             target="_blank">
@@ -125,8 +121,7 @@
         <h2 class="mt-4 text-xl font-thin">Biuletyny</h2>
         <p>
           <a
-            class="text-xs font-bold tracking-wider text-gray-500 uppercase
-            hover:text-red-new"
+            class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
             href="https://bs.sejm.gov.pl/F?func=find-b&request=000007248&find_code=SYS&local_base=BIS01"
             rel="nofollow"
             target="_blank">
