@@ -65,8 +65,8 @@
   <div class="p-4 mb-8 rounded shadow">
     <div class="px-4 py-8 rounded shadow">
       <div class="flex justify-between">
-        <p class="my-2 font-bold">14 lutego 1995 r.</p>
-        <p class="font-bold text-right">„Rzeczpospolita”</p>
+        <p class="font-bold">14 lutego 1995 r.</p>
+        <p class="font-bold">„Rzeczpospolita”</p>
       </div>
       <p class="text-2xl font-black text-center">Powolna ucieczka do przodu.</p>
       <p class="text-xl font-bold text-center">
@@ -272,8 +272,8 @@
   <div class="p-4 mb-8 rounded shadow">
     <div class="px-4 py-8 rounded shadow">
       <div class="flex justify-between">
-        <p class="my-2 font-bold">15 lutego 1995 r.</p>
-        <p class="font-bold text-right">„Słowo. Dziennik Katolicki”</p>
+        <p class="font-bold">15 lutego 1995 r.</p>
+        <p class="font-bold">„Słowo. Dziennik Katolicki”</p>
       </div>
       <p class="text-2xl font-black text-center">
         Konstytucja — spór o kulturę
@@ -433,8 +433,8 @@
   <div class="p-4 mb-8 rounded shadow">
     <div class="px-4 py-8 rounded shadow">
       <div class="flex justify-between">
-        <p class="my-2 font-bold">15 lutego 1995 r.</p>
-        <p class="font-bold text-right">„Czas Krakowski”</p>
+        <p class="font-bold">15 lutego 1995 r.</p>
+        <p class="font-bold">„Czas Krakowski”</p>
       </div>
       <p class="text-2xl font-black text-center">
         Konstytucja to 1000 lat historii państwa
@@ -567,8 +567,8 @@
   <div class="p-4 mb-8 rounded shadow">
     <div class="px-4 py-8 rounded shadow">
       <div class="flex justify-between">
-        <p class="my-2 font-bold">17 lutego 1995 r.</p>
-        <p class="font-bold text-right">„Rzeczpospolita”</p>
+        <p class="font-bold">17 lutego 1995 r.</p>
+        <p class="font-bold">„Rzeczpospolita”</p>
       </div>
       <p class="text-2xl font-black text-center">
         Rada Strategii Społeczno-Gospodarczej:
