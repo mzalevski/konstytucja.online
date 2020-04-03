@@ -4,113 +4,52 @@
   import Footer from "../../../components/Footer.svelte";
 </script>
 
-<style>
-  p {
-    text-align: justify;
-  }
-
-  h3 {
-    margin: 0;
-  }
-  .header {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid rgba(160, 40, 40, 0.1);
-    margin-bottom: 2rem;
-  }
-  .small-article-nav {
-    text-align: right;
-    width: 60px;
-  }
-
-  .small-article-nav a svg {
-    width: 25px;
-    height: 25px;
-  }
-  .article-metadata,
-  .press-article {
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    padding: 1rem;
-    border-radius: 3px;
-  }
-  :global(body.dark-mode) .article-metadata,
-  :global(body.dark-mode) .press-article {
-    border-color: rgba(255, 255, 255, 0.05);
-  }
-
-  .author {
-    text-align: right;
-  }
-
-  .subtitle {
-    font-size: 1.5rem;
-    font-weight: 750;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center;
-  }
-  .newspaper,
-  .date {
-    text-align: right;
-  }
-  .press-article {
-    margin-bottom: 2rem;
-  }
-
-  .author,
-  .newspaper,
-  .bold,
-  .date {
-    font-weight: 600;
-  }
-</style>
-
 <svelte:head>
   <title>Prasa</title>
 </svelte:head>
 
 <Nav segment={'info'} />
 
-<div class="header">
-  <div style="display: flex; justify-content: space-between;">
+<div class="pt-4 mb-8 shadow-b">
+  <div class="flex justify-between">
     <div>
-      <h3>Prasa o pracach konstytucyjnych</h3>
+      <h1 class="text-lg font-thin sm:text-xl lg:text-2xl">
+        Prasa o pracach konstytucyjnych
+      </h1>
       <h5>
         <a
+          class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
           href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
           rel="nofollow"
           target="_blank">
           ORYGINAŁ BIULETYNU
         </a>
-        <img class="ext-link" src="images/external-link.svg" alt="" />
+        <svg
+          class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
+          viewBox="0 0 24 24">
+          <path
+            d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
+            0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2
+            0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0
+            2H5v12h12v-5z" />
+        </svg>
       </h5>
     </div>
-    <div class="small-article-nav">
+
+    <div class="">
       <a rel="prefetch" href="/komisja/13/3">
         <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="angle-left"
-          class="svg-inline--fa fa-angle-left fa-w-8"
-          role="img"
-          viewBox="0 0 256 512">
+          class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+          viewBox="0 0 20 20">
           <path
-            fill="currentColor"
-            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
-            24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7
-            409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+            d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
+            c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
+            z" />
         </svg>
       </a>
-
     </div>
   </div>
-
-  <p>
+  <p class="mt-2 text-justify">
     W przedrukach z prasy zachowany jest styl i pisownia oryginałów. Jedynie
     oczywiste błędy rzeczowe są poprawiane w przypisach. Z publikacji prasowych
     o szerszym zakresie tematycznym w biuletynie zamieszczane są tylko fragmenty
@@ -123,23 +62,25 @@
   </p>
 </div>
 <div in:fly={{ y: 100, duration: 1000 }}>
-  <div class="press-article">
-    <div class="article-metadata">
-      <p class="newspaper">„Rzeczpospolita”</p>
-      <p class="date">14 lutego 1995 r.</p>
-      <p class="title">Powolna ucieczka do przodu.</p>
-      <p class="subtitle">
+  <div class="p-4 mb-8 rounded shadow">
+    <div class="px-4 py-8 rounded shadow">
+      <div class="flex justify-between">
+        <p class="my-2 font-bold">14 lutego 1995 r.</p>
+        <p class="font-bold text-right">„Rzeczpospolita”</p>
+      </div>
+      <p class="text-2xl font-black text-center">Powolna ucieczka do przodu.</p>
+      <p class="text-xl font-bold text-center">
         Komisja Konstytucyjna uchwaliła 10 artykułów przyszłej konstytucji.
       </p>
-      <p class="author">Jerzy Pilczyński</p>
+      <p class="text-right">Jerzy Pilczyński</p>
     </div>
-    <p class="bold">
+    <p class="mt-6 mb-2 font-bold text-justify">
       Dziesięć pierwszych artykułów ustawy zasadniczej zdołała w ubiegłym
       tygodniu uchwalić Komisja Konstytucyjna Zgromadzenia Narodowego podczas
       swego trzydniowego posiedzenia. Zostały one umieszczone w rozdziale
       otwierającym projekt, który postanowiono zatytułować „Zasady ustroju”.
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Można by więc powiedzieć, że prace konstytucyjne ruszyły wreszcie z
       miejsca i zaczynają przynosić pierwsze efekty. Idzie to jednak opornie.
       Wcześniejsze deklaracje Aleksandra Kwaśniewskiego, że już w marcu Komisja
@@ -167,9 +108,9 @@
       wcześnie jeszcze, aby wyrokować.
     </p>
 
-    <p class="bold">Spór o zasady</p>
+    <p class="my-2 font-bold">Spór o zasady</p>
 
-    <p>
+    <p class="leading-relaxed text-justify">
       Pierwszy rozdział tworzonego projektu zawiera zasady ogólne. Już na
       wstępie powstał w Komisji spór, czy takie postanowienia są w konstytucji
       potrzebne. Profesor Jerzy Ciemniewski, poseł UW, postulował, aby
@@ -196,9 +137,9 @@
       więc sprawą szczególnie trudną i odpowiedzialną.
     </p>
 
-    <p class="bold">Państwo prawne i socjalne</p>
+    <p class="my-2 font-bold">Państwo prawne i socjalne</p>
 
-    <p>
+    <p class="leading-relaxed text-justify">
       Nic dziwnego, że do sporów o ich treść doszło już przy pierwszych
       artykułach. Kontrowersje wywołał art. 1, mówiący o tym, że „Rzeczpospolita
       Polska jest demokratycznym państwem prawnym, urzeczywistniającym zasady
@@ -238,8 +179,8 @@
       Osiatyński, podtrzymywali w pewnej mierze obawy, że takie sformułowanie
       może okazać się niebezpieczne.
     </p>
-    <p class="bold">Dobro wspólne</p>
-    <p>
+    <p class="my-2 font-bold">Dobro wspólne</p>
+    <p class="leading-relaxed text-justify">
       Zasada solidaryzmu społecznego i sprawiedliwości społecznej wiąże się też
       z art. 2 projektu: „Rzeczpospolita Polska jest dobrem wspólnym wszystkich
       obywateli”. Na bogatą treść tego artykułu i konsekwencje, jakie można stąd
@@ -256,9 +197,9 @@
       zbytłatwym przekraczaniem pewnych granic”.
     </p>
 
-    <p class="bold">Zwierzchnictwo narodu</p>
+    <p class="my-2 font-bold">Zwierzchnictwo narodu</p>
 
-    <p>
+    <p class="leading-relaxed text-justify">
       Po tych trzech artykułach charakteryzujących państwo w art. 4 Komisja
       postanowiła zawrzeć zasadę zwierzchnictwa narodu: „Władza zwierzchnia w
       Rzeczypospolitej Polskiej należy do ogółu obywateli — tworzących Naród,
@@ -282,8 +223,8 @@
       czasach” — odpowiadał Drozdek. Jego propozycja nie została jednak
       przyjęta.
     </p>
-    <p class="bold">Cele państwa</p>
-    <p>
+    <p class="my-2 font-bold">Cele państwa</p>
+    <p class="leading-relaxed text-justify">
       Artykuł 6 określa cele państwa. Udało się uzgodnić, że „Rzeczpospolita
       Polska strzeże niepodległości i nienaruszalności swojego terytorium,
       gwarantuje wolności i prawa człowieka, zapewnia bezpieczeństwo obywateli,
@@ -301,8 +242,8 @@
       artykule tym znalazł się dopisek uwzględniający to, że projekt konstytucji
       realizację wielu praw odsyła do ustaw zwykłych.
     </p>
-    <p class="bold">Kłopoty z trójpodziałem</p>
-    <p>
+    <p class="my-2 font-bold">Kłopoty z trójpodziałem</p>
+    <p class="leading-relaxed text-justify">
       Po burzliwej dyskusji Komisja Konstytucyjna przyjęła klasyczną formułę
       trójpodziału władz. Sformułowanie zaproponowane przez posła Jerzego
       Ciemniewskiego (UW) umieszczono w art. 10. Brzmi ono następująco: „Ustrój
@@ -328,42 +269,48 @@
     </p>
   </div>
 
-  <div class="press-article">
-    <div class="article-metadata">
-      <p class="newspaper">„Słowo. Dziennik Katolicki”</p>
-      <p class="date">15 lutego 1995 r.</p>
-      <p class="title">Konstytucja — spór o kulturę</p>
+  <div class="p-4 mb-8 rounded shadow">
+    <div class="px-4 py-8 rounded shadow">
+      <div class="flex justify-between">
+        <p class="my-2 font-bold">15 lutego 1995 r.</p>
+        <p class="font-bold text-right">„Słowo. Dziennik Katolicki”</p>
+      </div>
+      <p class="text-2xl font-black text-center">
+        Konstytucja — spór o kulturę
+      </p>
       <p
-        class="subtitle"
-        title="Walerian Piotrowski był przewodniczącym Komisji Konstytucyjnej
+        class="text-xl font-bold text-center"
+        text-center
+        font-black
+        text-2xl="Walerian Piotrowski był przewodniczącym Komisji Konstytucyjnej
         Zgromadzenia Narodowego, składającej się z posłów I kadencji i senatorów
         II kadencji, w latach 1991-1993 [przyp. wydawcy].">
         Rozmawiamy z mec. Walerianem Piotrowskim, byłym senatorem RP,
         przewodniczącym Komisji Konstytucyjnej I kadencji Sejmu RP*
       </p>
-      <p class="author">Romana Brzezińska</p>
+      <p class="text-right">Romana Brzezińska</p>
     </div>
 
-    <p class="bold">
+    <p class="mt-6 mb-2 font-bold text-justify">
       Panie mecenasie, czy w momencie, kiedy Polska przeżywa głęboki kryzys
       rządowy, kiedy bez przerwy jesteśmy bombardowani informacjami o różnej
       rangi wydarzeniach i skandalach politycznych warto mówić o podstawach ładu
       państwowego III Rzeczypospolitej.
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Oczywiście, tym bardziej że od kilku lat toczy się w Polsce spór o
       podstawy, na jakich ma być budowane państwo. Czy ma ono być oparte o prawo
       stanowione przez demokratyczną większość, czy też ma to być państwo
       demokratyczne, respektujące prawo naturalne, które ma być przed czy ponad
       państwem.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Prace nad nową Konstytucją RP trwają, nic jeszcze nie jest przesądzone,
       ale stała się już rzecz jedna — Komisja Konstytucyjna parlamentu
       postanowiła, że ustawa zasadnicza nie będzie zawierała ani inwokacji, ani
       preambuły. Jak pan senator ocenia tę decyzję?
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Myślę, że jest w niej zawarta myśl, iż III Rzeczpospolitą trzeba urządzić
       inaczej, niż to wynika z polskiej tradycji. Tak jak do niedawna chciano
       ukształtować nowego, socjalistycznego człowieka, tak teraz wielu obecnych
@@ -376,13 +323,13 @@
       przeciwko narodowi.
     </p>
 
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Nie wiadomo jeszcze jaką decyzję podejmie Zgromadzenie Narodowe, jeżeli
       ono będzie w tym składzie uchwalać Konstytucję, ale można przypuszczać, że
       zdanie większości posłów i senatorów będzie analogiczne jak Komisji
       Konstytucyjnej...
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Boję się, że projekt zawierający preambułę może liczyć na kilkanaście
       głosów. Znakomita większość parlamentarzystów z SLD, PSL, Unii Wolności
       czy Unii Pracy, głosować będzie za pominięciem w Konstytucji wezwania
@@ -401,13 +348,13 @@
       Konstytucja 3 Maja i pierwsza po odzyskaniu niepodległości — Konstytucja
       Marcowa.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Dostrzegając już pierwsze symptomy poważnego sporu wiele osób, nawet o
       katolickiej proweniencji, uważało, że może trzeba z tych dwóch elementów
       Konstytucji zrezygnować, w zamian, by nie wzbudzać nowego konfliktu,
       próbować mocno osadzić zasady konstytucyjne w prawie naturalnym...
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       —Rzeczywiście — twierdzono, że jeśli polska Konstytucja wyraźnie odwoła
       się do ONZ-owskiej Deklaracji Praw Człowieka z 1948 roku, która
       jednoznacznie uznaje, iż wszystkie narody Świata zobowiązane są
@@ -420,11 +367,11 @@
       ludzkiego.
     </p>
 
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Społeczność katolicka powinna więc pańskim zdaniem bronić prawa do
       umieszczenia w nowej Konstytucji i inwokacji, i preambuły?
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Jeżeli chcemy, by ład konstytucyjny, ład prawny naszej ojczyzny oparty był
       na niezmiennych zasadach konstytucyjnych, to trzeba te zasady dokładPrasa
       o pracach konstytucyjnych nie określić, według kultury narodu. Jeżeli
@@ -449,10 +396,10 @@
       odcięcia władzy od narodu, musimy się opowiedzieć za wezwaniem w
       Konstytucji Imienia Bożego i za preambułą historyczną. e
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Ani preambuła, ani inwokacja nie mają jednak charakteru normatywnego...
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Konstytucja powinna być aktem politycznym, ale nie ma takiej konstytucji,
       która poprzestałaby na zapisach jurydycznych. Konstytucja jest przecież
       także pewną wartością, do ktorej powinny odnosić się myśli i czyny
@@ -466,12 +413,12 @@
       Nie wolno nam pozbawiać się w przyszłej Konstytucji RP tego, co stanowi
       zabezpieczenie przed nadużyciem władzy.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Obawiam się, że nawet pozostawienie inwokacji w nowej Konstytucji niewiele
       zmieni, jeśli nie zmieni się obyczaj polityczny, a to jest, jak widzimy,
       proces długotrwały...
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Wezwanie Imienia Bożego nie ma być dekoracją historyczną, wyniesioną z
       lamusa, ale ma być zobowiązaniem. Myślę, że ludzie dobrej woli, nawet
       jeśli nie podzielają wiary w Boga, dostrzegą, iż wezwanie Imienia Bożego
@@ -480,25 +427,29 @@
       ponad państwem uniemożliwi ograniczenie ich praw — wolności, wyznania i
       sumienia.
     </p>
-    <p class="bold">Dziękuję za rozmowę.</p>
+    <p class="my-2 font-bold">Dziękuję za rozmowę.</p>
 
   </div>
-  <div class="press-article">
-    <div class="article-metadata">
-      <p class="newspaper">„Czas Krakowski”</p>
-      <p class="date">15 lutego 1995 r.</p>
-      <p class="title">Konstytucja to 1000 lat historii państwa</p>
-      <p class="subtitle">
+  <div class="p-4 mb-8 rounded shadow">
+    <div class="px-4 py-8 rounded shadow">
+      <div class="flex justify-between">
+        <p class="my-2 font-bold">15 lutego 1995 r.</p>
+        <p class="font-bold text-right">„Czas Krakowski”</p>
+      </div>
+      <p class="text-2xl font-black text-center">
+        Konstytucja to 1000 lat historii państwa
+      </p>
+      <p class="text-xl font-bold text-center">
         Rozmowa z dr. Andrzejem Smirnowem, współautorem Obywatelskiego Projektu
         Konstytucji
       </p>
-      <p class="author">Rozmawiał Henryk Szewczyk</p>
+      <p class="text-right">Rozmawiał Henryk Szewczyk</p>
     </div>
-    <p class="bold">
+    <p class="mt-6 mb-2 font-bold text-justify">
       Prawicowi krytycy solidarnościowego projektu konstytucji zarzucają mu
       syndykalizm i socjalistyczne ciągoty. Co Pan na to?
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Owszem, w projekcie konstytucji „Solidarnoznalazły się pewne elementy,
       które są ważne dla związku zawodowego, ale co w tym dziwnego? W końcu
       projekt był przedłożony przez Komisję Krajową „S”. Jednak te elementy
@@ -513,8 +464,8 @@
       znalazły się elementy, które my mogliby-śmy atakować z innych pozycji. Nie
       ulega wątpliwości, że mówiąc o prawicy trzeba doprecyzować, o co chodzi.
     </p>
-    <p class="bold">Zatem o co chodzi?</p>
-    <p>
+    <p class="my-2 font-bold">Zatem o co chodzi?</p>
+    <p class="leading-relaxed text-justify">
       My rozumiemy to w taki sposób: to, co nas wszystkich łączy na prawicy, to
       są pewne wartości, nawiązanie do tradycji, to jest pewne wyobrażenie
       państwa niepodległego. Natomiast różnimy się w jakimś stopniu co do
@@ -530,12 +481,12 @@
       systemie ubezpieczeń zdrowotnych etc. To jest całkowicie zgodne z tym, co
       głoszą encykliki papieskie.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Kaczyński, Hall i inni ze wstrętem mówią o zbytnio rozbudowanym — ich
       zdaniem — katalogu praw socjalnych i ekonomicznych w solidarnościowym
       projekcie konstytucji.
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       To też chybiony zarzut. My tam nie zapisaliśmy prawa do pracy, natomiast
       zdecydowanie chcemy, aby polityka państwa zmierzała do możliwie pełnego,
       produktywnego zatrudnienia. Zresztą, my pracy nie traktujemy jak towaru,
@@ -548,12 +499,12 @@
       gospodarce rynkowej i solidarności społecznej. Te dwa elementy powinny być
       nierozdzielnie związane w państwie, którego wizję tworzymy.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Parlamentarna Komisja Konstytucyjna zrezygnowała z preambuły, obecnej
       m.in. w obywatelskim projekcie ustawy zasadniczej. Dlaczego preambuła jest
       tak ważna?
     </p>
-    <p class="bold">
+    <p class="leading-relaxed text-justify">
       Przede wszystkim dlatego, że mamy bardzo skomplikowaną historię, zwłaszcza
       w ostatnich dziesięcioleciach. Państwo polskie po II wojnie światowej
       istniało, chociaż nie było suwerenne. Teraz ważne jest to, do czego my
@@ -571,12 +522,12 @@
       preambuła nie ma znaczenia prawnego, ale w końcu wszechstronny rozwój
       państwa również bazuje na fundamencie przeszłości.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Nie ma tu miejsca na szczegółowe roztrząsanie solidarnościowego projektu
       konstytucji, ale dlaczego ostatni jego rozdział zatytułowany „Przepisy
       wprowadzające” jest tak długi?
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Uważamy, że aby Polska mogła się stać państwem prawa, trzeba wpierw wiele
       spraw uregulować. A więc jest tam mowa o odbudowie niektórych instytucji,
       np. instytucji sędziego Śledczego, kasacji czy też wspomnianej gruntownej
@@ -593,11 +544,11 @@
       z głowy na nogi. Zanim to się stanie, nie ma co tumanić narodu sloganami o
       państwie prawa.
     </p>
-    <p class="bold">
+    <p class="my-2 font-bold text-justify">
       Czy autorzy solidarnościowej konstytucji dopuszczają, w toku prac nad
       ostateczną wersją ustawy, kompromis z innymi projektami?
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       Konstytucja w swoim ostatecznym kształcie będzie się rodziła w
       parlamencie. W związku z tym, będzie ona tam poddana dalszej obróbce
       legislacyjnej, będą się toczyły spory nt. określonych zapisów itd.
@@ -613,18 +564,20 @@
       dziesięciolecia.
     </p>
   </div>
-  <div class="press-article">
-    <div class="article-metadata">
-      <p class="newspaper">„Rzeczpospolita”</p>
-      <p class="date">17 lutego 1995 r.</p>
-      <p class="title">
+  <div class="p-4 mb-8 rounded shadow">
+    <div class="px-4 py-8 rounded shadow">
+      <div class="flex justify-between">
+        <p class="my-2 font-bold">17 lutego 1995 r.</p>
+        <p class="font-bold text-right">„Rzeczpospolita”</p>
+      </div>
+      <p class="text-2xl font-black text-center">
         Rada Strategii Społeczno-Gospodarczej:
         <br />
         Za mało gospodarki w konstytucji
       </p>
-      <p class="author">Krzysztof Grzegrzółka</p>
+      <p class="text-right">Krzysztof Grzegrzółka</p>
     </div>
-    <p class="bold">
+    <p class="mt-6 mb-2 font-bold text-justify">
       Przyszła konstytucja powinna mieć charakter umowy społecznej. Należy w
       niej zagwarantować prawo do pracy, a rząd powinien zdawać sprawozdanie z
       tego, co zrobił dla złagodzenia bezrobocia. Niezbywalna jest też w
@@ -634,7 +587,7 @@
       przeważały wśród uczestników wczorajszego posiedzenia Rady Strategii
       Społeczno-Gospodarczej.
     </p>
-    <p>
+    <p class="leading-relaxed text-justify">
       W opinii profesora Wacława Wilczyńskiego, we wszystkich siedmiu projektach
       konstytucji, przedłożonych Komisji Konstytucyjnej Zgromadzenia Narodowego,
       jest akcentowana wolność działalności gospodarczej, jednak z
@@ -645,47 +598,47 @@
       projektów podkreśla konieczność praworządnego wywłaszczenia w sytuacjach,
       które tego wymagają. Jednak tylko projekt Senatu I kadencji podkreśla
       konieczność „niezwłocznego” odszkodowania. Troska o spadkobierców jest
-      najsilniej akcentowana w projekcie SLD, gdzie postuluje się niski podatek
-      spadkowy. We wszystkich projektach przewiduje się prawo do strajku i do
-      zabezpieczeń społecznych. Najdalej w uprzywilejowaniu pracowników idzie
-      projekt SLD, który nie przewiduje zrzeszeń pracodawców. Większość
-      projektów ustawy zasadniczej postuluje przestrzeganie zasady równowagi
-      budżetowej i obowiązek wskazywania pokrycia zwiększonych wydatków i
-      zmniejszonych dochodów. W przypadku nieuchwalenia budżetu w ustawowym
-      terminie większość projektów przewiduje finansowanie na podstawie projektu
-      budżetu. Tylko dwa projekty opowiadają się za ograniczeniem wydatków do
-      przewidzianych w zeszłorocznym budżecie. Wszystkie projekty wyłączają
-      sprawy podatków i budżetu z ewentualnego referendum, a także akcentują
-      konieczność ustawowego przyzwolenia na zaciąganie przez państwo kredytów i
-      zgody na decyzje zwiększające dług publiczny. Niektóre projekty nawiązują
-      do tradycji z okresu II Rzeczypospolitej i eksponują potrzebę powołania
-      prokuratorii generalnej do ochrony interesów Skarbu Państwa. Projekt
-      senacki proponuje regulację takich dziedzin, jak system
-      kredytowo-pieniężny, finanse publiczne i budżet, zasady systemu bankowego,
-      zarządzanie mieniem Skarbu Państwa itd. przez uchwalenie odrębnych ustaw.
-      Według projektu KPN, Skarb Państwa powinien integrować całość gospodarki i
-      finansów państwa. Wszystkie projekty skupiają się na sprawach procedur
-      powoływania prezesa NBP, mniej zaś na obowiązkach NBP dotyczących np.
-      kształtowania stabilności stosunków pieniężnych. Jedynie projekt SLD uważa
-      bank centralny za wykonawcę polityki monetarnej. Niestety, projektodawcy
-      nie wymieniają, czyjej. W kilku projektach usiłuje się włączyć do ustawy
-      zasadniczej postulaty reform ubezpieczeń społecznych, reprywatyzację i
-      powszechne uwłaszczenie włącznie z terminami ich załatwienia. W niektórych
-      projektach proponuje się nie tylko udział pracowników w zarządzaniu
-      przedsiębiorstwem, lecz także obowiązek informowania pracowników o
-      sytuacji ekonomicznej i finansowej przedsiębiorstwa. Przewodniczący rady,
-      prof. Jan Mujżel, powiedział, że w opracowywanej konstytucji państwa
-      należy precyzyjnie określić nie tylko docelowy ustrój
-      społeczno-gospodarczy Polski, lecz także relacje między rządem a
-      gospodarką. Według niego, w obecnym projekcie konstytucji „sprawy
-      gospodarki kraju są potraktowane bardzo marginalnie”. Przedstawiciel BCC
-      Jeremi Mordasewicz przypomniał, że ponad 2 mln ludzi w Polsce pracuje na
-      własny rachunek, tymczasem proponowane projekty ustawy zasadniczej w
-      większości nadal przypominają „konstytucję ludu pracującego”. J.
-      Mordasewicz wskazał, że w proponowanych zapisach konstytucyjnych
-      dotyczących gospodarki brakuje równowagi w traktowaniu klasy
-      przedsiębiorców i klasy pracobiorców. Powiedział, że aczkolwiek wątpliwe
-      jest wypracowanie jednorodnego stanowiska obecnej rady w sprawie
+      najsilniej akcentowana w projekcie SLD, gdzie postuluje się niski
+      pofont-boldk spadkowy. We wszystkich projektach przewiduje się prawo do
+      strajku i do zabezpieczeń społecznych. Najdalej w uprzywilejowaniu
+      pracowników idzie projekt SLD, który nie przewiduje zrzeszeń pracodawców.
+      Większość projektów ustawy zasadniczej postuluje przestrzeganie zasady
+      równowagi budżetowej i obowiązek wskazywania pokrycia zwiększonych
+      wydatków i zmniejszonych dochodów. W przypadku nieuchwalenia budżetu w
+      ustawowym terminie większość projektów przewiduje finansowanie na
+      podstawie projektu budżetu. Tylko dwa projekty opowiadają się za
+      ograniczeniem wydatków do przewidzianych w zeszłorocznym budżecie.
+      Wszystkie projekty wyłączają sprawy podatków i budżetu z ewentualnego
+      referendum, a także akcentują konieczność ustawowego przyzwolenia na
+      zaciąganie przez państwo kredytów i zgody na decyzje zwiększające dług
+      publiczny. Niektóre projekty nawiązują do tradycji z okresu II
+      Rzeczypospolitej i eksponują potrzebę powołania prokuratorii generalnej do
+      ochrony interesów Skarbu Państwa. Projekt senacki proponuje regulację
+      takich dziedzin, jak system kredytowo-pieniężny, finanse publiczne i
+      budżet, zasady systemu bankowego, zarządzanie mieniem Skarbu Państwa itd.
+      przez uchwalenie odrębnych ustaw. Według projektu KPN, Skarb Państwa
+      powinien integrować całość gospodarki i finansów państwa. Wszystkie
+      projekty skupiają się na sprawach procedur powoływania prezesa NBP, mniej
+      zaś na obowiązkach NBP dotyczących np. kształtowania stabilności stosunków
+      pieniężnych. Jedynie projekt SLD uważa bank centralny za wykonawcę
+      polityki monetarnej. Niestety, projektodawcy nie wymieniają, czyjej. W
+      kilku projektach usiłuje się włączyć do ustawy zasadniczej postulaty
+      reform ubezpieczeń społecznych, reprywatyzację i powszechne uwłaszczenie
+      włącznie z terminami ich załatwienia. W niektórych projektach proponuje
+      się nie tylko udział pracowników w zarządzaniu przedsiębiorstwem, lecz
+      także obowiązek informowania pracowników o sytuacji ekonomicznej i
+      finansowej przedsiębiorstwa. Przewodniczący rady, prof. Jan Mujżel,
+      powiedział, że w opracowywanej konstytucji państwa należy precyzyjnie
+      określić nie tylko docelowy ustrój społeczno-gospodarczy Polski, lecz
+      także relacje między rządem a gospodarką. Według niego, w obecnym
+      projekcie konstytucji „sprawy gospodarki kraju są potraktowane bardzo
+      marginalnie”. Przedstawiciel BCC Jeremi Mordasewicz przypomniał, że ponad
+      2 mln ludzi w Polsce pracuje na własny rachunek, tymczasem proponowane
+      projekty ustawy zasadniczej w większości nadal przypominają „konstytucję
+      ludu pracującego”. J. Mordasewicz wskazał, że w proponowanych zapisach
+      konstytucyjnych dotyczących gospodarki brakuje równowagi w traktowaniu
+      klasy przedsiębiorców i klasy pracobiorców. Powiedział, że aczkolwiek
+      wątpliwe jest wypracowanie jednorodnego stanowiska obecnej rady w sprawie
       konstytucji, to jednak rada ta może jeszcze odegrać pozytywną rolę przy
       konstruowaniu ustawy zasadniczej.
     </p>

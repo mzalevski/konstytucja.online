@@ -34,13 +34,13 @@
 
   <ul class="days">
 
-    <a rel="prefetch" href="komisja/14/podkomisja/p1">
+    <a rel="prefetch" href="komisja/14/podkomisja/1">
       <li>
         <p>Podkomisja - cz. I</p>
         <p>(22 lutego)</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/14/podkomisja/p2">
+    <a rel="prefetch" href="komisja/14/podkomisja/2">
       <li>
         <p>Podkomisja - cz. II</p>
         <p>(22 lutego)</p>

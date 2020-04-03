@@ -58,21 +58,15 @@
       </a>
     </h5> -->
   </div>
-  <div class="small-article-nav">
-    <a rel="prefetch" href="/komisja/14/podkomisja/p1">
+  <div class="flex justify-between">
+    <a rel="prefetch" href="/komisja/14/podkomisja/1">
       <svg
-        aria-hidden="true"
-        focusable="false"
-        data-prefix="fas"
-        data-icon="angle-left"
-        class="svg-inline--fa fa-angle-left fa-w-8"
-        role="img"
-        viewBox="0 0 256 512">
+        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+        viewBox="0 0 20 20">
         <path
-          fill="currentColor"
-          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4
-          24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4
-          9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+          d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
+          c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
+          z" />
       </svg>
     </a>
     <!-- <a rel="prefetch" href="/komisja/14/prasa">

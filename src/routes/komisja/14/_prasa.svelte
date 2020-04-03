@@ -90,7 +90,7 @@
           </a>
         </h5> -->
       </div>
-      <div class="small-article-nav">
+      <div class="flex justify-between">
         <a rel="prefetch" href="/komisja/14/p2">
           <svg
             aria-hidden="true"
