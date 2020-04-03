@@ -43,6 +43,18 @@
         class="ml-2 cursor-default md:ml-4 hover:text-red-new">
         Informacje
       </p>
+
+      <!-- crawl helper div start -->
+      <div class="hidden">
+        <a href="/komisja">_</a>
+        <a href="/legislacja">_</a>
+        <a href="/slownik">_</a>
+        <a href="/app-mobile">_</a>
+        <a href="/app-desktop">_</a>
+        <a href="/inicjatywa">_</a>
+      </div>
+      <!-- crawl helper div end -->
+
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
