@@ -28,13 +28,13 @@
   <div class="relative">
 
     <input
-      class="w-full px-8 py-1 font-light border border-gray-100 rounded-md shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10 focus:outline-none focus:bg-gray-100"
+      class="w-full px-8 py-1 font-light border border-gray-100 rounded-md shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10"
       bind:value={searchedText}
       on:input={sendChoice} />
     <div
       class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-help"
       title="liczba wyświetlonych artykułów">
-      <div class="">{count}</div>
+      <span>{count}</span>
     </div>
     <div
       class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none">
@@ -76,7 +76,7 @@
       </svg>
     </div>
     <select
-      class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8 lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900 focus:outline-none focus:bg-gray-100"
+      class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8 lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900"
       bind:value={selectedChapter}
       on:change={sendChoice}>
 

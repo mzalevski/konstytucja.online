@@ -37,12 +37,12 @@
     </a>
 
     <div class="relative" on:mouseleave={() => (showDropdown = false)}>
-      <div
+      <p
         class:active={segment === 'info'}
         on:mouseenter={() => (showDropdown = true)}
         class="ml-2 cursor-default md:ml-4 hover:text-red-new">
         Informacje
-      </div>
+      </p>
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}

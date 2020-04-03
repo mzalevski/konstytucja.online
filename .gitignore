@@ -1,4 +1,5 @@
 /node_modules/
+/src/node_modules/
 /src/node_modules/@sapper/
 /__sapper__/
 .vscode/settings.json

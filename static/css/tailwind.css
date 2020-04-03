@@ -33,40 +33,34 @@ html {
   color: rgb(220, 40, 40);
 }
 
-:global(body.dark-mode) .search input,
-:global(body.dark-mode) .chapter-pick select {
-  background-color: #1d3040;
-  color: white;
+
+/* Dark mode classes */
+
+body.dark-mode {
+  @apply bg-blue-900;
+  @apply text-white;
 }
 
-:global(body.dark-mode) .chapter-pick select:focus,
-:global(body.dark-mode) .search input:focus,
-:global(body.dark-mode) .search input:focus + .counter {
-  border-color: white;
+body.dark-mode input,
+body.dark-mode select {
+  @apply bg-blue-900;
+  @apply text-white;
 }
-:global(body) {
-  background-color: white;
-  transition: background-color 0.3s;
-}
-:global(body.dark-mode) {
-  background-color: #1d3040;
-  color: white;
-}
-:global(body.dark-mode) .chapter-pick select,
-:global(body.dark-mode) .search input {
-  border-color: rgba(255, 255, 255, 0.05);
-}
-:global(body.dark-mode) .search-icon,
-:global(body.dark-mode) .book-icon {
-  color: rgba(255, 255, 255, 0.4);
+body.dark-mode .bg-white {
+  @apply bg-blue-900;
 }
 
-:global(body.dark-mode) .down {
-  color: #ffffff;
+body.dark-mode .bg-red-100 {
+  @apply bg-blue-800;
 }
-:global(body.dark-mode) .article {
-  border-color: rgba(255, 255, 255, 0.05);
-}
-:global(body.dark-mode) .desc-helper {
-  color: rgba(255, 255, 255, 0.6);
+
+body.dark-mode svg,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode a:not(.logo),
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3,
+body.dark-mode .text-gray-900 {
+  @apply text-white;
 }

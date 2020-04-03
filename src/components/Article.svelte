@@ -11,10 +11,10 @@
     id={slug}
     class="px-4 py-6 mb-2 text-justify border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg">
     <div class="flex justify-between">
-      <div>
+      <p>
         <strong>{title}</strong>
         <span>(Rozdział {chapter['id']} - {chapter['title']})</span>
-      </div>
+      </p>
       {#if desc}
         <span class="pl-3 cursor-help" title="artykuł posiada wyjaśnienie">
           <svg class="w-4 h-4 text-gray-500 fill-current" viewBox="0 0 20 20">

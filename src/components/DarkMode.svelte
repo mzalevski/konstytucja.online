@@ -1,20 +1,8 @@
-<script>
-  function toggle() {
-    window.document.body.classList.toggle("dark-mode");
-  }
-</script>
-
-<style>
-  :global(body.dark-mode) button {
-    color: #cccccc;
-  }
-</style>
-
 <div
   class="fixed bottom-0 left-0 flex flex-col justify-center w-16 h-16 sm:w-20 sm:h-20">
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={toggle}
+    on:click={() => window.document.body.classList.toggle('dark-mode')}
     title="tryb ciemny / tryb jasny">
     <svg
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
