@@ -31,7 +31,9 @@
 <svelte:head>
   <title>Dzień 1 - Biuletyn nr 13</title>
 </svelte:head>
+
 <Nav segment={'info'} />
+
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
     <h1
@@ -71,6 +73,7 @@
   <div
     id="protocol"
     class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
+
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -241,6 +244,7 @@
       Komisji. Nie można składać wniosków przed rozstrzygnięciem danej sprawy, a
       tak się dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości
       złożonych w sprawach, które nie były przedmiotem głosowań w Komisji." />
+
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
@@ -340,6 +344,7 @@
       merytorycznej różnicy między tytułem podkomisji a tytułem zgłoszonym przez
       przedstawiciela Prezydenta RP i jednego z posłów, wycofuję tytuł
       zaproponowany przez podkomisję." />
+
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
@@ -583,6 +588,7 @@
       członków Komisji przywiązuje dużą wagę do republikańskiej formy państwa.
       Ponadto proponuję modyfikację mojej propozycji: „Państwo Polskie ma ustrój
       republikański i nosi nazwę — Rzeczpospolita Polska”." />
+
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -704,6 +710,7 @@
       Mazowieckiego. Artykułem 2 byłby dotychczasowy art. 2 z projektu
       podkomisji. Artykułem 3 byłaby treść obecnego art. 5. Taka sekwencja
       byłaby najwłaściwszym początkiem rozdziału I." />
+
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -801,6 +808,7 @@
       niepodległości i całości swojego terytorium. Problemy widać już przy
       kwestii kultury i języka. O ochronie praw człowieka jest mowa w rozdziale
       II." />
+
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
@@ -895,6 +903,7 @@
       jurydyczność przepisów konstytucji. Do dyskusji pzostaje więc problem, czy
       konieczne jest odrębne wymienienie strz żenia języka, gdyż język chyba
       mieści się w dziedzictwie kultury." />
+
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
@@ -1005,6 +1014,7 @@
       popierających i 2 wstrzymujących się, odrzuciła wniosek. Tak więc
       republikańska forma państwa nie będzie zapisana. Kwestia druga to:
       „państwo prawa” czy „państwo prawne”?" />
+
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
@@ -1105,6 +1115,7 @@
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Chcielibyśmy dokonać również modyfikacji w art. 3 naszej propozycji.
       W związku z tym prosimy o udzielenie głosu prof. W. Osiatyńskiemu." />
+
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -1166,6 +1177,7 @@
       bezpieczeństwa 'socjalnego. Chodzi bowiem o to, aby cele socjalne były w
       konstytucji, lecz aby to jednocześnie nie rodziło roszniwelacyjnych do
       sprawiedliwości społecznej." />
+
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -1211,6 +1223,7 @@
       że Rzeczpospolita Polska jest państwem sprawiedliwości społecznej, byłoby
       formułą bardziej roszczeniową. Skoro jednak przywróciliśmy dyskusję
       globalną, to proszę, aby wypowiedzieli się również inni eksperci." />
+
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
@@ -1384,6 +1397,7 @@
       text="Musimy zdecydować, czy art. 1 będzie zawierał formułę o dobru
       wspólnym, czy też formułę o demokratycznym państwie prawnym lub jeszcze
       inną formułę, na przykład taką, jaką zaproponował senator S. Pastuszka." />
+
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
@@ -1437,6 +1451,7 @@
       zestawieniu poprawek, lecz nie była poddana pod głosowanie i nie bardzo
       wiem, kiedy zostanie poddana głosowaniu, skoro została przesądzona treść
       art. 1." />
+
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -1549,6 +1564,7 @@
       stosownymi ekspertyzami, głosowania nie należy przeprowadzać, a w każdym
       razie ja nie czuję się kompetentny w tym głosowaniu bez tego typu
       rozstrzygnięcia." />
+
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -1643,6 +1659,7 @@
       urzeczywistnianiu zasady sprawiedliwości społecznej i formuły mówiącej o
       kierowaniu się zasadami sprawiedliwości społecznej. Myślę, że jest to
       dystynkcja tylko werbalna." />
+
     <Utterance
       speaker="Poseł Ryszard Bugaj (UW)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
@@ -1799,6 +1816,7 @@
       Doprawdy trudno ustalić, kto czego broni i o co komu chodzi, chyba że
       mówienie jest po to, aby stosować abstrakcję parlamentamą w tym celu, aby
       nie doprowadzić do żadnych konkluzji." />
+
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
       imgPath="/images/kk-speakers/RokitaJan.png"
@@ -2006,6 +2024,7 @@
       podejmuje ona bowiem kwestii rozwojowego charakteru praw oraz nasuwa
       mniejsze podstawy do wysuwania roszczeń o rezultaty działań państwa w
       zakresie polityki socjalnej." />
+
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
@@ -2138,6 +2157,7 @@
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przyjmuję uwagę senatora J. Madeja, co powoduje, że zwiększa się
       liczba wariantów art. 2." />
+
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
       imgPath="/images/kk-speakers/RokitaJan.png"
@@ -2354,6 +2374,7 @@
       musi znaleźć się art. 4 projektu, mówiący o tym, że Rzeczpospolita Polska
       jest państwem jednolitym i niepodzielnym. Jeżeli tak, to powinien to być
       jeden z początkowych artykułów." />
+
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -2418,6 +2439,7 @@
       text="Za formułą mówiącą o państwie jako wspólnym dobru wszystkich
       obywateli lub podobnie, opowiadają się poprawki: 1, 2, 4, 5,6, 7 18.
       Powinien to być odrębny artykuł i o to apeluję do wnioskodawców." />
+
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
