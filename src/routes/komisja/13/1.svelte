@@ -13,12 +13,16 @@
       if (nodeIdx % 2 !== 0) {
         // odd idx utterances
         arr[nodeIdx].classList.add("justify-end"); // whole
-        arr[nodeIdx].firstChild.classList.add("-ml-4"); // img
-        arr[nodeIdx].firstChild.classList.add("order-2"); // img
         arr[nodeIdx].lastChild.classList.add("order-1"); // text
+        arr[nodeIdx].firstChild.classList.add("order-2"); // img
+        if (window.outerWidth > 640) {
+          arr[nodeIdx].firstChild.classList.add("-ml-4"); // img
+        }
       } else {
         // even idx utterances
-        arr[nodeIdx].firstChild.classList.add("-mr-4"); // img
+        if (window.outerWidth > 640) {
+          arr[nodeIdx].firstChild.classList.add("-mr-4"); // img
+        }
       }
     }
   });
