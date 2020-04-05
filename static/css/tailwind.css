@@ -28,12 +28,6 @@ html {
   }
 }
 
-.art-scroll:hover,
-.art-scroll:focus {
-  color: rgb(220, 40, 40);
-}
-
-
 /* Dark mode classes */
 
 body.dark-mode {

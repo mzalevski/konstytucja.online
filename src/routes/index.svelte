@@ -37,7 +37,7 @@
         ).test(
           article.html.replace(
             new RegExp(
-              `<a class="art-scroll" rel="prefetch" href='/\\d+'>`,
+              `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
               "g"
             ),
             ""
