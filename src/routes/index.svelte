@@ -24,8 +24,10 @@
     searchedText = e.detail.text;
     selectedArticles = articles.filter(article => {
       return (
+        // chapter is correct
         (article.chapter["id"] === selectedChapter ||
           selectedChapter === "_") &&
+        // text is correct
         (new RegExp(
           `[ >]${searchedText.replace(
             /[\?\)\(\.\\\*\+]/g,
@@ -42,8 +44,9 @@
           )
         ) ||
           article.title
+            .replace(/\./g, "")
             .toLowerCase()
-            .includes(searchedText.replace(/\\/g, "").toLowerCase()))
+            .includes(searchedText.replace(/\./g, "").toLowerCase()))
       );
     });
   }
@@ -82,8 +85,10 @@
   {:else}
     {#each selectedArticles as article}
       {#if searchedText === ''}
+        <!-- because there is also a chapter select -->
         <Article {...article} />
       {:else}
+        <!-- if there is some search text -->
         <Article
           html={article.html.replace(
             new RegExp(
