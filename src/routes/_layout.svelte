@@ -15,13 +15,17 @@
 
 <main
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
+
   <DarkMode />
+
   {#if yAxisPosition > 300}
     <ToTheTopBtn />
   {/if}
+
   <div class="flex-1">
     <slot />
   </div>
+
   <Footer />
 
 </main>
