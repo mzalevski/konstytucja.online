@@ -1,18 +1,15 @@
 <script>
   import { onMount } from "svelte";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
-  import Footer from "../components/Footer.svelte";
-
-  let ostComments = [];
-  let ostThreads = [];
-  let ostSlugTable = [];
+  import Spinner from "../components/Spinner.svelte";
 
   const secretKey =
     "Tc85moOTfiKX7wkqafJ4wJ4dXAKkoAdjGxrAmuny9Da1BNT9iAaTb7lR3miMn6pS";
 
   async function getAllComments() {
     let comments = [];
+
     await fetch(
       `https://disqus.com/api/3.0/forums/listPosts.json?forum=konstytucja&api_key=${secretKey}`
     )
@@ -20,12 +17,15 @@
       .then(json => {
         comments = json.response;
       });
+
     return comments;
   }
-  function getRelThreadSlugs(relThreadIds) {
+
+  async function getRelThreadSlugs(relThreadIds) {
     let hrefs = [];
+
     for (const id of relThreadIds) {
-      fetch(
+      await fetch(
         `https://disqus.com/api/3.0/forums/listThreads.json?forum=konstytucja&thread=${id}&api_key=${secretKey}`
       )
         .then(response => response.json())
@@ -38,6 +38,7 @@
                   .substr(0, link.length - 1)
                   .split("/")
                   .pop();
+
           hrefs.push(ostLink);
         });
     }
@@ -45,20 +46,22 @@
     return hrefs;
   }
 
-  onMount(async () => {
-    ostComments = await getAllComments();
+  async function getOstComments() {
+    let ostThreads = [];
+
+    let ostComments = await getAllComments();
     ostComments.forEach(element => {
       ostThreads.push(element.thread);
     });
 
-    let ostLinks = getRelThreadSlugs(ostThreads);
-    // let calosc = new Map([[ostLinks, ostComments[0]]]);
-    console.log(ostLinks);
-    // let calosc = ostLinks.map((el, i) => {
-    //   return [el, ostComments[i]];
-    // });
-    // console.log(calosc.keys());
-  });
+    let ostLinks = await getRelThreadSlugs(ostThreads);
+
+    ostComments.forEach((comm, idx) => {
+      comm["link"] = ostLinks[idx];
+    });
+
+    return ostComments;
+  }
 </script>
 
 <svelte:head>
@@ -77,18 +80,37 @@
 
 <Nav segment={'info'} />
 
-<div in:fly={{ y: 100, duration: 1000 }}>
-  <h3>Dyskusja</h3>
-  <br />
-  <h4>Lista komentarzy:</h4>
-  <br />
-  {#each ostComments as comment}
-    <div>
-      {new Date(comment.createdAt).toLocaleString('pl-PL')} - {comment.author.name}:
-      <br />
-      {comment.raw_message.substr(0, 100)}
-    </div>
-    <br />
-    <br />
-  {/each}
+<h1
+  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  in:fly={{ x: -50, duration: 1000 }}>
+  Dyskusja
+</h1>
+
+<div in:fade={{ duration: 3000 }}>
+  <h2 class="mt-4 text-xl font-thin">Lista komentarzy:</h2>
+
+  <div class="py-4">
+    {#await getOstComments()}
+      <div class="w-8 mx-auto mt-64">
+        <Spinner size="50" speed="750" color="#A82124" thickness="2" gap="40" />
+      </div>
+
+    {:then ostComments}
+      {#each ostComments as comment}
+        <a href="/{comment.link}">
+          <div
+            in:fly={{ y: 100, duration: 1000 }}
+            class="p-8 my-4 rounded shadow hover:bg-gray-100">
+            <strong>Art. {comment.link}</strong>
+            - {new Date(comment.createdAt).toLocaleString('pl-PL')} - {comment.author.name}:
+            <br />
+            {comment.raw_message.substr(0, 100)} ...
+          </div>
+        </a>
+      {/each}
+    {:catch}
+      Błąd serwera. Odśwież stronę.
+    {/await}
+  </div>
+
 </div>
