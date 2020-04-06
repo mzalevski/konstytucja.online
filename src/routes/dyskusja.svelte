@@ -10,9 +10,7 @@
   async function getAllComments() {
     let comments = [];
 
-    await fetch(
-      `https://disqus.com/api/3.0/forums/listPosts.json?forum=konstytucja&api_key=${secretKey}`
-    )
+    await fetch(`/disqus/listPosts.json?forum=konstytucja&api_key=${secretKey}`)
       .then(response => response.json())
       .then(json => {
         comments = json.response;
@@ -26,7 +24,7 @@
 
     for (const id of relThreadIds) {
       await fetch(
-        `https://disqus.com/api/3.0/forums/listThreads.json?forum=konstytucja&thread=${id}&api_key=${secretKey}`
+        `/disqus/listThreads.json?forum=konstytucja&thread=${id}&api_key=${secretKey}`
       )
         .then(response => response.json())
         .then(json => {
