@@ -97,7 +97,9 @@
 
     {:then ostComments}
       {#each ostComments as comment}
-        <a href="/{comment.link}">
+        <a
+          on:click={() => sessionStorage.setItem('fromDyskusja', true)}
+          href="/{comment.link}">
           <div
             in:fly={{ y: 100, duration: 1000 }}
             class="p-8 my-4 rounded shadow hover:bg-gray-100">

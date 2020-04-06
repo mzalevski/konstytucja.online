@@ -16,10 +16,13 @@
   import { fly, fade } from "svelte/transition";
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
+
+  export let article;
+
   const { page } = stores();
+
   let isDescriptionVisible = false;
   let isDisqusVisible = false;
-  export let article;
 
   const showDisqus = () => {
     let d = document,
@@ -27,10 +30,20 @@
     s.src = "https://konstytucja.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
+
     isDisqusVisible = true;
+
+    setTimeout(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    }, 1200);
   };
 
   onMount(() => {
+    if (sessionStorage.getItem("fromDyskusja")) {
+      sessionStorage.removeItem("fromDyskusja");
+      showDisqus();
+    }
+
     document.onkeydown = e => {
       if (e.keyCode === 37 && $page.params.slug > 1) {
         isDescriptionVisible = false;
