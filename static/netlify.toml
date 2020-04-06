@@ -3,4 +3,4 @@
   to = "https://disqus.com/api/3.0/forums/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
-  headers = {X-From = "Netlify"}
+  headers = {X-From = "konstytucja.online"}
