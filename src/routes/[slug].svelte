@@ -32,13 +32,27 @@
     (d.head || d.body).appendChild(s);
 
     isDisqusVisible = true;
-
-    setTimeout(() => {
-      window.scrollTo(0, document.body.scrollHeight);
-    }, 1200);
   };
 
   onMount(() => {
+    const observer = new MutationObserver(mutations => {
+      for (let mut of mutations) {
+        if (mut.removedNodes[0] == undefined) {
+          continue;
+        }
+        if (mut.removedNodes[0].dir === "ltr") {
+          window.scrollTo(0, document.body.scrollHeight);
+          observer.disconnect();
+        }
+      }
+    });
+
+    observer.observe(document.getElementById("extra-info"), {
+      attributes: false,
+      childList: true,
+      subtree: true
+    });
+
     if (sessionStorage.getItem("fromDyskusja")) {
       sessionStorage.removeItem("fromDyskusja");
       showDisqus();
@@ -136,7 +150,9 @@
       class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
       {@html article.html}
     </div>
-    <div class="max-w-3xl mx-auto mt-8 border-t border-gray-200">
+    <div
+      id="extra-info"
+      class="max-w-3xl mx-auto mt-8 border-t border-gray-200">
       {#if article.desc != ``}
         <div class="pt-8">
           <button
