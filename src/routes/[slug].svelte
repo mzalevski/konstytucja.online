@@ -12,7 +12,7 @@
 </script>
 
 <script>
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
   import { fly, fade } from "svelte/transition";
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
@@ -35,20 +35,18 @@
   };
 
   onMount(() => {
+    let body = document.querySelector("body");
     const observer = new MutationObserver(mutations => {
       for (let mut of mutations) {
-        if (mut.removedNodes[0] == undefined) {
-          continue;
-        }
-        if (mut.removedNodes[0].dir === "ltr") {
+        if (body.scrollHeight > window.innerHeight + 100) {
+          console.log(mut);
           window.scrollTo(0, document.body.scrollHeight);
-          observer.disconnect();
         }
       }
     });
 
     observer.observe(document.getElementById("extra-info"), {
-      attributes: false,
+      attributes: true,
       childList: true,
       subtree: true
     });
