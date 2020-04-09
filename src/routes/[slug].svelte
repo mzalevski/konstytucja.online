@@ -12,7 +12,7 @@
 </script>
 
 <script>
-  import { onMount, onDestroy } from "svelte";
+  import { onMount } from "svelte";
   import { fly, fade } from "svelte/transition";
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
@@ -23,8 +23,10 @@
 
   let isDescriptionVisible = false;
   let isDisqusVisible = false;
+  let timestamp = 0;
 
   const showDisqus = () => {
+    timestamp = Date.now();
     let d = document,
       s = d.createElement("script");
     s.src = "https://konstytucja.disqus.com/embed.js";
@@ -36,11 +38,16 @@
 
   onMount(() => {
     let body = document.querySelector("body");
+    let html = document.querySelector("html");
+    html.style.scrollBehavior = "smooth";
+
     const observer = new MutationObserver(mutations => {
+      let timeCheck = Date.now() - timestamp > 300 && timestamp !== 0;
+
       for (let mut of mutations) {
-        if (body.scrollHeight > window.innerHeight + 100) {
-          console.log(mut);
+        if (body.scrollHeight > window.innerHeight + 100 && timeCheck) {
           window.scrollTo(0, document.body.scrollHeight);
+          timestamp = Date.now();
         }
       }
     });
@@ -60,10 +67,12 @@
       if (e.keyCode === 37 && $page.params.slug > 1) {
         isDescriptionVisible = false;
         isDisqusVisible = false;
+
         goto(`/${parseInt($page.params.slug) - 1}`);
       } else if (e.keyCode === 39 && $page.params.slug < 243) {
         isDescriptionVisible = false;
         isDisqusVisible = false;
+
         goto(`/${parseInt($page.params.slug) + 1}`);
       }
     };
@@ -185,7 +194,10 @@
         {:else}
           <button
             class="pt-2 text-gray-600"
-            on:click={() => (isDisqusVisible = false)}>
+            on:click={() => {
+              isDisqusVisible = false;
+              timestamp = 0;
+            }}>
             dyskusja nad artykułem | schowaj
           </button>
         {/if}
