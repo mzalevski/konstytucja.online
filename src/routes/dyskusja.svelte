@@ -89,8 +89,8 @@
 
   <div class="py-4">
     {#await getOstComments()}
-      <div class="w-8 mx-auto mt-64">
-        <Spinner size="50" speed="750" color="#A82124" thickness="2" gap="40" />
+      <div class="w-8 mx-auto mt-32 sm:mt-64">
+        <Spinner size="80" speed="750" color="#A82124" thickness="2" gap="40" />
       </div>
 
     {:then ostComments}
