@@ -3,62 +3,31 @@
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Spinner from "../components/Spinner.svelte";
+  import threads from "./_threads.js";
 
   const secretKey =
     "Tc85moOTfiKX7wkqafJ4wJ4dXAKkoAdjGxrAmuny9Da1BNT9iAaTb7lR3miMn6pS";
 
-  async function getAllComments() {
-    let comments = [];
+  async function getRawComments() {
+    let rawComments = [];
 
     await fetch(`/disqus/listPosts.json?forum=konstytucja&api_key=${secretKey}`)
       .then(response => response.json())
-      .then(json => {
-        comments = json.response;
-      });
+      .then(json => (rawComments = json.response));
+
+    return rawComments;
+  }
+
+  async function assembleComments(threads) {
+    let rawComments = await getRawComments();
+
+    let comments = rawComments.map(rc => {
+      const found = threads.find(thread => thread.id === rc.thread);
+      rc.link = found.slug;
+      return rc;
+    });
 
     return comments;
-  }
-
-  async function getRelThreadSlugs(relThreadIds) {
-    let hrefs = [];
-
-    for (const id of relThreadIds) {
-      await fetch(
-        `/disqus/listThreads.json?forum=konstytucja&thread=${id}&api_key=${secretKey}`
-      )
-        .then(response => response.json())
-        .then(json => {
-          let link = json.response[0].link;
-          let ostLink =
-            link.split("/").pop() !== ""
-              ? link.split("/").pop()
-              : link
-                  .substr(0, link.length - 1)
-                  .split("/")
-                  .pop();
-
-          hrefs.push(ostLink);
-        });
-    }
-
-    return hrefs;
-  }
-
-  async function getOstComments() {
-    let ostThreads = [];
-
-    let ostComments = await getAllComments();
-    ostComments.forEach(element => {
-      ostThreads.push(element.thread);
-    });
-
-    let ostLinks = await getRelThreadSlugs(ostThreads);
-
-    ostComments.forEach((comm, idx) => {
-      comm["link"] = ostLinks[idx];
-    });
-
-    return ostComments;
   }
 </script>
 
@@ -88,13 +57,16 @@
   <h2 class="mt-4 text-xl font-thin">Lista komentarzy:</h2>
 
   <div class="py-4">
-    {#await getOstComments()}
-      <div class="w-8 mx-auto mt-32 sm:mt-64">
-        <Spinner size="80" speed="750" color="#A82124" thickness="2" gap="40" />
+
+    {#await assembleComments(threads)}
+
+      <div class="w-20 mx-auto mt-32 sm:mt-64">
+        <Spinner size="70" speed="750" color="#A82124" thickness="2" gap="40" />
       </div>
 
-    {:then ostComments}
-      {#each ostComments as comment}
+    {:then comments}
+
+      {#each comments as comment}
         <a
           on:click={() => sessionStorage.setItem('fromDyskusja', true)}
           href="/{comment.link}">
@@ -108,6 +80,7 @@
           </div>
         </a>
       {/each}
+
     {:catch}
       Błąd serwera. Odśwież stronę.
     {/await}
