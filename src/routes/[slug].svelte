@@ -42,12 +42,10 @@
     html.style.scrollBehavior = "smooth";
 
     const observer = new MutationObserver(mutations => {
-      let timeCheck = Date.now() - timestamp > 300 && timestamp !== 0;
-
+      let scrolledBefore = false;
       for (let mut of mutations) {
-        if (body.scrollHeight > window.innerHeight + 100 && timeCheck) {
+        if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
           window.scrollTo(0, document.body.scrollHeight);
-          timestamp = Date.now();
         }
       }
     });
@@ -57,6 +55,11 @@
       childList: true,
       subtree: true
     });
+
+    setTimeout(() => {
+      observer.disconnect();
+      html.style.scrollBehavior = "";
+    }, 3000);
 
     if (sessionStorage.getItem("fromDyskusja")) {
       sessionStorage.removeItem("fromDyskusja");
