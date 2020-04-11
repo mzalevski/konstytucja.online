@@ -39,13 +39,14 @@
   onMount(() => {
     let body = document.querySelector("body");
     let html = document.querySelector("html");
-    html.style.scrollBehavior = "smooth";
 
     const observer = new MutationObserver(mutations => {
       let scrolledBefore = false;
       for (let mut of mutations) {
         if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
+          html.style.scrollBehavior = "smooth";
           window.scrollTo(0, document.body.scrollHeight);
+          html.style.scrollBehavior = "";
         }
       }
     });
@@ -56,10 +57,7 @@
       subtree: true
     });
 
-    setTimeout(() => {
-      observer.disconnect();
-      html.style.scrollBehavior = "";
-    }, 3000);
+    setTimeout(() => observer.disconnect(), 3000);
 
     if (sessionStorage.getItem("fromDyskusja")) {
       sessionStorage.removeItem("fromDyskusja");
@@ -67,16 +65,18 @@
     }
 
     document.onkeydown = e => {
-      if (e.keyCode === 37 && $page.params.slug > 1) {
+      if (e.code === "ArrowLeft" && $page.params.slug > 1) {
         isDescriptionVisible = false;
         isDisqusVisible = false;
 
         goto(`/${parseInt($page.params.slug) - 1}`);
-      } else if (e.keyCode === 39 && $page.params.slug < 243) {
+      } else if (e.code === "ArrowRight" && $page.params.slug < 243) {
         isDescriptionVisible = false;
         isDisqusVisible = false;
 
         goto(`/${parseInt($page.params.slug) + 1}`);
+      } else if (e.code === "Escape") {
+        document.getElementById("back-btn").click();
       }
     };
   });
@@ -99,6 +99,7 @@
 <div>
   <div class="flex justify-between h-8">
     <a
+      id="back-btn"
       class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
       rel="prefetch"
       href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}>
