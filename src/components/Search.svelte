@@ -1,6 +1,6 @@
 <script>
+  import { createEventDispatcher, onMount } from "svelte";
   import { fly, fade } from "svelte/transition";
-  import { createEventDispatcher } from "svelte";
 
   export let count;
 
@@ -20,6 +20,15 @@
       chapter: selectedChapter
     });
   }
+
+  onMount(() => {
+    document.onkeydown = e => {
+      if (e.code === "Slash") {
+        e.preventDefault();
+        document.getElementById("text-search").focus();
+      }
+    };
+  });
 </script>
 
 <div
@@ -28,6 +37,7 @@
   <div class="relative">
 
     <input
+      id="text-search"
       class="w-full px-8 py-1 font-light border border-gray-100 rounded-md shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10"
       bind:value={searchedText}
       on:input={sendChoice} />
