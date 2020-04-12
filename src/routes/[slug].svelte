@@ -102,7 +102,11 @@
       id="back-btn"
       class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
       rel="prefetch"
-      href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}>
+      href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
+      on:click={() => {
+        isDescriptionVisible = false;
+        isDisqusVisible = false;
+      }}>
       powrót
     </a>
     <h3 class="font-thin text-center sm:text-lg sm:text-xl">
