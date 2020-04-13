@@ -1,8 +1,21 @@
 const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
-  const ENDPOINT = `https://disqus.com/api/3.0/forums/listPosts.json?forum=konstytucja&api_key=${process.env.DISQUS_API_KEY}`;
+
+  if (
+    event.headers.referer !== 'https://staging.konstytucja.online/dyskusja' ||
+    event.headers.referer !== 'https://konstytucja.online/dyskusja'
+  ) {
+    return {
+      statusCode: 403,
+      body: JSON.stringify({ msg: 'Forbidden' })
+    };
+  }
+
+  const ENDPOINT = 'https://disqus.com/api/3.0/forums/listPosts.json';
+  const VARS = `?forum=konstytucja&api_key=${process.env.DISQUS_API_KEY}`;
+
   try {
-    const response = await fetch(ENDPOINT, {
+    const response = await fetch(ENDPOINT + VARS, {
       headers: { Accept: 'application/json' }
     });
     if (!response.ok) {
