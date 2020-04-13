@@ -1,6 +1,12 @@
 const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
-  console.log(event.headers);
+  if (event.headers.referer === 'https://staging.konstytucja.online/dyskusja') {
+    console.log('hura!');
+  } else if (event.headers.referer === undefined) {
+    console.log('unde');
+  } else {
+    console.log('cons innego');
+  }
   const ENDPOINT = 'https://disqus.com/api/3.0/forums/listPosts.json';
   const VARS = `?forum=konstytucja&api_key=${process.env.DISQUS_API_KEY}`;
 
