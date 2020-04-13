@@ -5,21 +5,10 @@
   import Spinner from "../components/Spinner.svelte";
   import threads from "./_threads.js";
 
-  const secretKey =
-    "Tc85moOTfiKX7wkqafJ4wJ4dXAKkoAdjGxrAmuny9Da1BNT9iAaTb7lR3miMn6pS";
-
-  async function getRawComments() {
-    let rawComments = [];
-
-    await fetch(`/disqus/listPosts.json?forum=konstytucja&api_key=${secretKey}`)
-      .then(response => response.json())
-      .then(json => (rawComments = json.response));
-
-    return rawComments;
-  }
-
   async function assembleComments(threads) {
-    let rawComments = await getRawComments();
+    let rawComments = await fetch("/.netlify/functions/rawComments")
+      .then(response => response.json())
+      .then(json => json.msg.response);
 
     let comments = rawComments.map(rc => {
       const found = threads.find(thread => thread.id === rc.thread);

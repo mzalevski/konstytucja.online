@@ -5,3 +5,6 @@
 .vscode/settings.json
 .vscode
 static/css/global.css
+
+# Local Netlify folder
+.netlify

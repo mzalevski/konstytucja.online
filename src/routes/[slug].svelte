@@ -39,6 +39,7 @@
   onMount(() => {
     let body = document.querySelector("body");
     let html = document.querySelector("html");
+    let rightChevron = document.getElementById("right-chevron");
 
     const observer = new MutationObserver(mutations => {
       let scrolledBefore = false;
@@ -135,6 +136,7 @@
       {/if}
       {#if $page.params.slug < 243}
         <a
+          id="right-chevron"
           class="flex flex-col justify-center"
           rel="prefetch"
           href="/{parseInt($page.params.slug) + 1}"
