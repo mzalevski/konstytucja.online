@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
-exports.handler = async function (event, context) {
+
+export async function handler(event, context) {
 
   console.log(event.headers);
 
