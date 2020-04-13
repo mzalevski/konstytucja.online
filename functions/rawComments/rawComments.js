@@ -1,6 +1,9 @@
 const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
-  if (event.headers.referer !== 'https://staging.konstytucja.online/dyskusja') {
+  if (
+    event.headers.referer !== 'https://staging.konstytucja.online/dyskusja' ||
+    event.headers.referer === undefined
+  ) {
     return {
       statusCode: 403,
       body: JSON.stringify({ msg: 'Forbidden' })
