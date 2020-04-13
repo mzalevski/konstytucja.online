@@ -2,8 +2,7 @@ const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
   console.log(event.headers);
   if (
-    (event.headers.referer !== 'https://staging.konstytucja.online/dyskusja'
-      || event.headers.referer !== 'https://konstytucja.online/dyskusja') ||
+    event.headers.referer !== 'https://staging.konstytucja.online/dyskusja' ||
     event.headers.referer === undefined
   ) {
     return {
