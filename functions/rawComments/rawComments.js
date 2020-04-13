@@ -1,10 +1,16 @@
 const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
+
   console.log(event.headers);
-  if (
-    event.headers.referer !== 'https://staging.konstytucja.online/dyskusja' ||
-    event.headers.referer === undefined
-  ) {
+
+  const URIs = [
+    'https://staging.konstytucja.online/dyskusja',
+    'https://konstytucja.online/dyskusja'
+  ];
+
+  const ref = event.headers.referer;
+
+  if (!URIs.includes(ref) || ref === undefined) {
     return {
       statusCode: 403,
       body: JSON.stringify({ msg: 'Forbidden' })
@@ -18,7 +24,10 @@ exports.handler = async function (event, context) {
       headers: { Accept: 'application/json' }
     });
     if (!response.ok) {
-      return { statusCode: response.status, body: response.statusText };
+      return {
+        statusCode: response.status,
+        body: response.statusText
+      };
     }
     const data = await response.json();
 
