@@ -1,8 +1,0 @@
-[build]
-  functions = "functions"
-
-[[redirects]]
-  from = "/disqus/*"
-  to = "https://disqus.com/api/3.0/forums/:splat"
-  status = 200
-  force = true

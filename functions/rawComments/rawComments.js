@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 exports.handler = async function (event, context) {
-  const ENDPOINT = `/disqus/listPosts.json?forum=konstytucja&api_key=${process.env.DISQUS_API_KEY}`;
+  const ENDPOINT = `https://disqus.com/api/3.0/forums/listPosts.json?forum=konstytucja&api_key=${process.env.DISQUS_API_KEY}`;
   try {
     const response = await fetch(ENDPOINT, {
       headers: { Accept: 'application/json' }
