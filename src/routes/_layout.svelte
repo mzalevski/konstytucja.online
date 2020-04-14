@@ -1,8 +1,25 @@
 <script>
+  import { onMount } from "svelte";
   import DarkMode from "../components/DarkMode.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
+
   let yAxisPosition;
+
+  function visitCount() {
+    let visits = Number(localStorage.getItem("visitCount")) || 0;
+    let current = Boolean(sessionStorage.getItem("session")) || false;
+
+    if (!current) visits++;
+
+    localStorage.setItem("visitCount", visits);
+    sessionStorage.setItem("session", true);
+    console.log(visits);
+    console.log(current);
+    return visits;
+  }
+
+  onMount(() => visitCount());
 </script>
 
 <svelte:window bind:scrollY={yAxisPosition} />
