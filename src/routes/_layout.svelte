@@ -14,8 +14,14 @@
 
     localStorage.setItem("visitCount", visits);
     sessionStorage.setItem("session", true);
+
+    if (visits === 10) {
+      console.log("Feedback prompt.");
+    }
+
     console.log(visits);
     console.log(current);
+
     return visits;
   }
 
