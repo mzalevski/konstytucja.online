@@ -72,7 +72,7 @@
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
 </Nav>
 
-<div in:fly={{ y: 100, duration: 1000, intro: true }}>
+<div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
     {#each selectedArticles as article}
       <Article
