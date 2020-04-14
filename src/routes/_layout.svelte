@@ -1,6 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import DarkMode from "../components/DarkMode.svelte";
+  import Feedback from "../components/Feedback.svelte";
+  import Tutorial from "../components/Tutorial.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
 
@@ -39,7 +41,12 @@
 <main
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
-  <DarkMode />
+  <div
+    class="fixed bottom-0 left-0 flex flex-col justify-around w-16 h-40 sm:w-20 sm:h-48">
+    <Feedback />
+    <Tutorial />
+    <DarkMode />
+  </div>
 
   {#if yAxisPosition > 300}
     <ToTheTopBtn />

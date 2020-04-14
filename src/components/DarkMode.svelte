@@ -1,5 +1,4 @@
-<div
-  class="fixed bottom-0 left-0 flex flex-col justify-center w-16 h-16 sm:w-20 sm:h-20">
+<div>
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
     on:click={() => window.document.body.classList.toggle('dark-mode')}
