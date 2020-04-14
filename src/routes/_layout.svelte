@@ -61,7 +61,12 @@
     class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-gray-900 opacity-75">
     <div class="w-1/2 p-12 mx-auto bg-white border rounded-lg shadow-inner">
       <h2 class="text-4xl font-thin">Zgłoś błąd</h2>
-      <form class="mt-4" name="feedbacl" method="POST" data-netlify="true">
+      <form
+        class="mt-4"
+        id="feedback"
+        name="feedback"
+        method="POST"
+        data-netlify="true">
         <div class="relative inline-block w-full mt-1 sm:mt-0 sm:w-8 lg:w-full">
           <div
             class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none sm:justify-center sm:w-full lg:w-auto sm:px-0 lg:px-2">
@@ -80,7 +85,7 @@
           </div>
           <select
             name="topic"
-            class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8 lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900">
+            class="w-full px-8 px-10 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer">
             <option selected="true" disabled="disabled">
               Wybierz kategorię
             </option>
