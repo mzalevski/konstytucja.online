@@ -40,7 +40,12 @@
       <p
         class:active={segment === 'info'}
         on:mouseenter={() => (showDropdown = true)}
-        on:click={() => (showDropdown = !showDropdown)}
+        on:click={e => {
+          if (/(android)/i.test(navigator.userAgent)) {
+            e.target.click();
+          }
+          showDropdown = !showDropdown;
+        }}
         class="ml-2 cursor-default md:ml-4 hover:text-red-new">
         Informacje
       </p>
