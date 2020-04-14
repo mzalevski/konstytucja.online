@@ -5,10 +5,10 @@
 
   let showDropdown = false;
 
-  // let dropdownTransitionConfig =
-  //   window.outerWidth > 1024
-  //     ? { y: -30, duration: 600 }
-  //     : { x: 30, duration: 600 };
+  let dropdownTransitionConfig =
+    window.outerWidth > 1024
+      ? { y: -30, duration: 600 }
+      : { x: 30, duration: 600 };
 </script>
 
 <nav class="items-baseline mb-2 border-b border-gray-200 sm:flex sm:mb-4">
@@ -57,55 +57,54 @@
       </div>
       <!-- crawl helper div end -->
 
-      <!-- {#if showDropdown} -->
-      <!-- in:fly={dropdownTransitionConfig} -->
-      <div
-        class:hidden={!showDropdown}
-        class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
-        <a
-          class="block md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/komisja">
-          Komisja Konstytucyjna
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/legislacja">
-          Proces legislacyjny
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/slownik">
-          Słownik pojęć
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/dyskusja">
-          Dyskusja
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/app-mobile">
-          Aplikacja - mobile
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/app-desktop">
-          Aplikacja - desktop
-        </a>
-        <a
-          class="block pt-1 md:ml-2 hover:text-red-new"
-          rel="prefetch"
-          href="/inicjatywa">
-          Inicjatywa
-        </a>
-      </div>
-      <!-- {/if} -->
+      {#if showDropdown}
+        <div
+          in:fly={dropdownTransitionConfig}
+          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
+          <a
+            class="block md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/komisja">
+            Komisja Konstytucyjna
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/legislacja">
+            Proces legislacyjny
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/slownik">
+            Słownik pojęć
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/dyskusja">
+            Dyskusja
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/app-mobile">
+            Aplikacja - mobile
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/app-desktop">
+            Aplikacja - desktop
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/inicjatywa">
+            Inicjatywa
+          </a>
+        </div>
+      {/if}
     </div>
   </div>
 
