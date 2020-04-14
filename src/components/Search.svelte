@@ -11,8 +11,8 @@
 
   let searchTransitionConfig =
     window.outerWidth > 1024
-      ? { y: -100, duration: 1000 }
-      : { x: 100, duration: 1000 };
+      ? { y: -100, duration: 1000, intro: true }
+      : { x: 100, duration: 1000, intro: true };
 
   function sendChoice() {
     dispatch("searchMessage", {
