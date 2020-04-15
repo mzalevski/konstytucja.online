@@ -44,7 +44,7 @@
         Accept: "application/x-www-form-urlencoded;charset=UTF-8",
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
-      body: new URLSearchParams(formData)
+      body: "form-name=feedbackForm&" + new URLSearchParams(formData)
     });
   }
 
