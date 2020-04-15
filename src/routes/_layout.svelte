@@ -35,6 +35,19 @@
     return visits;
   }
 
+  function handleSubmit(e) {
+    const formData = new FormData(e.target);
+
+    fetch("/", {
+      method: "POST",
+      headers: {
+        Accept: "application/x-www-form-urlencoded;charset=UTF-8",
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+      },
+      body: new URLSearchParams(formData)
+    });
+  }
+
   onMount(() => visitCount());
 </script>
 
@@ -62,7 +75,13 @@
     <div
       class="w-11/12 p-12 mx-auto bg-white border rounded-lg shadow-inner sm:w-4/5 md:w-3/4 lg:w-1/2">
       <h2 class="text-4xl font-thin">Zgłoś błąd</h2>
-      <form class="mt-4" name="feedbackForm" method="POST" data-netlify="true">
+      <form
+        on:submit|preventDefault={handleSubmit}
+        class="mt-4"
+        name="feedbackForm"
+        id="feedbackForm"
+        method="POST"
+        data-netlify="true">
         <div class="relative inline-block w-full">
           <div
             class="absolute inset-y-0 left-0 flex items-center justify-center w-auto px-2 text-gray-500 pointer-events-none x-2">
