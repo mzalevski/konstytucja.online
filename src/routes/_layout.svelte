@@ -1,18 +1,20 @@
 <script>
   import { onMount } from "svelte";
+  import { stores } from "@sapper/app";
+  import { fly, fade } from "svelte/transition";
   import DarkMode from "../components/DarkMode.svelte";
   import Feedback from "../components/Feedback.svelte";
   import Tutorial from "../components/Tutorial.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
-  import { stores } from "@sapper/app";
-  import { fly, fade } from "svelte/transition";
+  import Tooltip from "../components/Tooltip.svelte";
 
   const { page } = stores();
 
   let yAxisPosition;
   let showFeedbackModal = false;
   let showTutorialModal = false;
+  let darkMode;
 
   function handleFeedbackModalTrigger(e) {
     showFeedbackModal = e.detail.msg;
@@ -24,6 +26,13 @@
     showTutorialModal = e.detail.msg;
     console.log(e.detail.msg);
     console.log("works");
+  }
+
+  async function handleDarkModeToggle(e) {
+    darkMode = e.detail.msg;
+    window.document.body.classList.toggle("dark-mode");
+    console.log(e.detail.msg);
+    console.log("works drk md");
   }
 
   function visitCount() {
@@ -60,7 +69,11 @@
     showFeedbackModal = false;
   }
 
-  onMount(() => visitCount());
+  onMount(() => {
+    visitCount();
+
+    darkMode = document.body.classList.contains("dark-mode") ? true : false;
+  });
 </script>
 
 <svelte:window bind:scrollY={yAxisPosition} />
@@ -76,13 +89,25 @@
 
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-40 pb-6 sm:w-20 sm:h-48">
-    <Feedback
-      {showFeedbackModal}
-      on:triggerFeedbackModal={handleFeedbackModalTrigger} />
-    <Tutorial
-      {showTutorialModal}
-      on:triggerTutorialModal={handleTutorialModalTrigger} />
-    <DarkMode />
+
+    <Tooltip text={'Zgłoś błąd.'} pos={'right'}>
+      <Feedback
+        {showFeedbackModal}
+        on:triggerFeedbackModal={handleFeedbackModalTrigger} />
+    </Tooltip>
+
+    <Tooltip text={'Zobacz instrukcję.'} pos={'right'}>
+      <Tutorial
+        {showTutorialModal}
+        on:triggerTutorialModal={handleTutorialModalTrigger} />
+    </Tooltip>
+
+    <Tooltip
+      text={`zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`}
+      pos={'right'}>
+      <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
+    </Tooltip>
+
   </div>
 
   {#if showFeedbackModal}
