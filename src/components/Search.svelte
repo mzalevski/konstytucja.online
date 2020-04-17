@@ -1,6 +1,7 @@
 <script>
   import { createEventDispatcher, onMount } from "svelte";
   import { fly, fade } from "svelte/transition";
+  import Tooltip from "../components/Tooltip.svelte";
 
   export let count;
 
@@ -42,9 +43,10 @@
       bind:value={searchedText}
       on:input={sendChoice} />
     <div
-      class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-help"
-      title="liczba wyświetlonych artykułów">
-      <span>{count}</span>
+      class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-help">
+      <Tooltip text={'liczba wyświetlonych artykułów'} pos={'bottom'}>
+        <span>{count}</span>
+      </Tooltip>
     </div>
     <div
       class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none">
