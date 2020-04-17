@@ -44,7 +44,7 @@
       on:input={sendChoice} />
     <div
       class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-help">
-      <Tooltip text={'liczba wyświetlonych artykułów'} pos={'bottom'}>
+      <Tooltip text={'Liczba wyświetlonych artykułów.'} pos={'bottom'}>
         <span>{count}</span>
       </Tooltip>
     </div>

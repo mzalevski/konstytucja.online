@@ -103,7 +103,7 @@
     </Tooltip>
 
     <Tooltip
-      text={`zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`}
+      text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`}
       pos={'right'}>
       <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
