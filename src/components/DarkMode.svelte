@@ -1,8 +1,24 @@
+<script>
+  import { createEventDispatcher } from "svelte";
+
+  const dispatch = createEventDispatcher();
+
+  export let darkMode;
+
+  function toggleDarkMode() {
+    darkMode = !darkMode;
+    console.log("drkcomp!");
+    console.log(darkMode);
+    dispatch("toggleDarkMode", {
+      msg: darkMode
+    });
+  }
+</script>
+
 <div>
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={() => window.document.body.classList.toggle('dark-mode')}
-    title="tryb ciemny / tryb jasny">
+    on:click={toggleDarkMode}>
     <svg
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
       viewBox="0 0 20 20">
