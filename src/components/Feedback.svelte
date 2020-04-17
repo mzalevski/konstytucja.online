@@ -18,8 +18,7 @@
 <div>
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={triggerFeedbackModal}
-    title="Feedback">
+    on:click={triggerFeedbackModal}>
     <svg
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
       xmlns="http://www.w3.org/2000/svg"
