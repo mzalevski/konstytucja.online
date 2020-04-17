@@ -16,6 +16,7 @@
   import { fly, fade } from "svelte/transition";
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
+  import Tooltip from "../components/Tooltip.svelte";
 
   export let article;
 
@@ -99,6 +100,7 @@
 <Nav segment={'articles'} />
 <div>
   <div class="flex justify-between h-8">
+    <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'bottom'}> -->
     <a
       id="back-btn"
       class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
@@ -110,49 +112,56 @@
       }}>
       powrót
     </a>
+    <!-- </Tooltip> -->
     <h3 class="font-thin text-center sm:text-lg sm:text-xl">
       {article.chapter['id']} {article.chapter['title']}
     </h3>
     <div class="flex justify-end w-24">
       {#if $page.params.slug > 1}
-        <a
-          class="flex flex-col justify-center"
-          rel="prefetch"
-          href="/{parseInt($page.params.slug) - 1}"
-          transition:fade={{ duration: 1000 }}
-          on:click={() => {
-            isDescriptionVisible = false;
-            isDisqusVisible = false;
-          }}>
-          <svg
-            class="w-5 h-5 h-6 text-gray-900 fill-current sm:w-6"
-            viewBox="0 0 20 20">
-            <path
-              d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
-              c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-              z" />
-          </svg>
-        </a>
+        <Tooltip text={'Poprzedni artykuł.'} pos={'bottom'}>
+
+          <a
+            class="flex flex-col justify-center"
+            rel="prefetch"
+            href="/{parseInt($page.params.slug) - 1}"
+            transition:fade={{ duration: 1000 }}
+            on:click={() => {
+              isDescriptionVisible = false;
+              isDisqusVisible = false;
+            }}>
+            <svg
+              class="w-5 h-5 h-6 text-gray-900 fill-current sm:w-6"
+              viewBox="0 0 20 20">
+              <path
+                d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
+                c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
+                z" />
+            </svg>
+          </a>
+        </Tooltip>
       {/if}
       {#if $page.params.slug < 243}
-        <a
-          id="right-chevron"
-          class="flex flex-col justify-center"
-          rel="prefetch"
-          href="/{parseInt($page.params.slug) + 1}"
-          transition:fade={{ duration: 1000 }}
-          on:click={() => {
-            isDescriptionVisible = false;
-            isDisqusVisible = false;
-          }}>
-          <svg
-            class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-            viewBox="0 0 20 20">
-            <path
-              d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-              c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
-          </svg>
-        </a>
+        <Tooltip text={'Następny artykuł.'} pos={'bottom'}>
+
+          <a
+            id="right-chevron"
+            class="flex flex-col justify-center"
+            rel="prefetch"
+            href="/{parseInt($page.params.slug) + 1}"
+            transition:fade={{ duration: 1000 }}
+            on:click={() => {
+              isDescriptionVisible = false;
+              isDisqusVisible = false;
+            }}>
+            <svg
+              class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+              viewBox="0 0 20 20">
+              <path
+                d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
+                c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+            </svg>
+          </a>
+        </Tooltip>
       {/if}
     </div>
   </div>
