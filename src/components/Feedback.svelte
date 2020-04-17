@@ -3,14 +3,14 @@
 
   const dispatch = createEventDispatcher();
 
-  export let showModal;
+  export let showFeedbackModal;
 
-  function triggerModal() {
-    showModal = !showModal;
+  function triggerFeedbackModal() {
+    showFeedbackModal = !showFeedbackModal;
     console.log("feedback!");
-    console.log(showModal);
-    dispatch("triggerModal", {
-      msg: showModal
+    console.log(showFeedbackModal);
+    dispatch("triggerFeedbackModal", {
+      msg: showFeedbackModal
     });
   }
 </script>
@@ -18,7 +18,7 @@
 <div>
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={triggerModal}
+    on:click={triggerFeedbackModal}
     title="Feedback">
     <svg
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"

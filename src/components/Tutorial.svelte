@@ -1,7 +1,24 @@
+<script>
+  import { createEventDispatcher } from "svelte";
+
+  const dispatch = createEventDispatcher();
+
+  export let showTutorialModal;
+
+  function triggerTutorialModal() {
+    showTutorialModal = !showTutorialModal;
+    console.log("tutorial!");
+    console.log(showTutorialModal);
+    dispatch("triggerTutorialModal", {
+      msg: showTutorialModal
+    });
+  }
+</script>
+
 <div>
   <button
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={() => console.log('Tutorial.')}
+    on:click={triggerTutorialModal}
     title="Tutorial">
 
     <svg

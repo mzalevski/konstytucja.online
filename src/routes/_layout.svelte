@@ -11,12 +11,19 @@
   const { page } = stores();
 
   let yAxisPosition;
-  let showModal = false;
+  let showFeedbackModal = false;
+  let showTutorialModal = false;
 
-  function handleModalTrigger(e) {
-    showModal = e.detail.msg;
+  function handleFeedbackModalTrigger(e) {
+    showFeedbackModal = e.detail.msg;
     console.log("odbiornik");
-    console.log(showModal);
+    console.log(showFeedbackModal);
+  }
+
+  async function handleTutorialModalTrigger(e) {
+    showTutorialModal = e.detail.msg;
+    console.log(e.detail.msg);
+    console.log("works");
   }
 
   function visitCount() {
@@ -50,7 +57,7 @@
       body: "form-name=feedbackForm&" + new URLSearchParams(formData)
     }).then(() => console.log("asdasd"));
 
-    showModal = false;
+    showFeedbackModal = false;
   }
 
   onMount(() => visitCount());
@@ -69,12 +76,16 @@
 
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-40 pb-6 sm:w-20 sm:h-48">
-    <Feedback {showModal} on:triggerModal={handleModalTrigger} />
-    <Tutorial />
+    <Feedback
+      {showFeedbackModal}
+      on:triggerFeedbackModal={handleFeedbackModalTrigger} />
+    <Tutorial
+      {showTutorialModal}
+      on:triggerTutorialModal={handleTutorialModalTrigger} />
     <DarkMode />
   </div>
 
-  {#if showModal}
+  {#if showFeedbackModal}
     <div
       transition:fade={{ duration: 400 }}
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
@@ -144,10 +155,7 @@
             <button
               on:click={e => {
                 e.preventDefault();
-                showModal = false;
-                document
-                  .querySelector('html')
-                  .classList.remove('overflow-y-hidden');
+                showFeedbackModal = false;
               }}
               class="w-full px-4 py-2 mr-2 shadow hover:bg-gray-100">
               Annuluj
@@ -161,6 +169,33 @@
         </form>
 
       </div>
+    </div>
+  {/if}
+
+  {#if showTutorialModal}
+    <div
+      transition:fade={{ duration: 400 }}
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
+      <button
+        class="absolute top-0 right-0 w-12 h-12"
+        on:click={e => {
+          e.preventDefault();
+          showTutorialModal = false;
+        }}>
+        <svg class="text-gray-100 fill-current" viewBox="0 0 20 20">
+          <path
+            d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651
+            3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229
+            0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228
+            0-1.697s1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469
+            1.697 0s.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469
+            1.229 0 1.698z" />
+        </svg>
+      </button>
+      <div
+        class="absolute top-0 w-64 h-6 bg-gray-100 rounded-lg rounded-t-none" />
+      <div
+        class="absolute bottom-0 w-64 h-6 rounded-lg rounded-b-none bg-red-new" />
     </div>
   {/if}
 
