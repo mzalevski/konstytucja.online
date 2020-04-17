@@ -88,7 +88,7 @@
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-40 pb-6 sm:w-20 sm:h-48">
+    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-40 pb-4 sm:pb-6 sm:w-20 sm:h-48">
 
     <Tooltip text={'Zgłoś błąd.'} pos={'right'}>
       <Feedback
@@ -115,8 +115,8 @@
       transition:fade={{ duration: 400 }}
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
       <div
-        class="w-11/12 p-12 mx-auto bg-white border rounded-lg shadow-inner sm:w-4/5 md:w-3/4 lg:w-1/2">
-        <h2 class="text-4xl font-thin">Zgłoś błąd</h2>
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
+        <h2 class="text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
         <form
           on:submit|preventDefault={handleSubmit}
           class="mt-4"
