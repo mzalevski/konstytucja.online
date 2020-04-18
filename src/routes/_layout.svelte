@@ -96,7 +96,7 @@
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-4 pb-4 sm:pb-6 sm:w-20 sm:h-32">
+    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32">
 
     <Tooltip text={'Zgłoś błąd.'} pos={'right'}>
       <Feedback
@@ -125,11 +125,11 @@
       <div
         class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
         <div class="flex justify-between">
-          <h2 class="text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
+          <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
-            class="self-center transition-opacity duration-1000 ease-in-out opacity-0"
+            class="self-center w-1/2 transition-opacity duration-1000 ease-in-out opacity-0"
             id="errorMessage">
-            Opis powinien mieć co najmniej 20 znaków.
+            Opis powinien zawierać co najmniej 20 znaków.
           </span>
         </div>
         <form
@@ -191,7 +191,7 @@
             placeholder="opis błędu"
             id="feedbackMessage"
             name="message"
-            class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out rounded shadow resize-none"
+            class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out border border-gray-100 rounded shadow resize-none"
             type="text" />
           <div class="flex justify-around mt-4">
             <button
@@ -199,12 +199,12 @@
                 e.preventDefault();
                 showFeedbackModal = false;
               }}
-              class="w-full px-4 py-2 mr-2 rounded shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow hover:bg-gray-100">
               Annuluj
             </button>
             <button
               type="submit"
-              class="w-full px-4 py-2 ml-2 rounded shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow hover:bg-gray-100">
               Wyślij
             </button>
           </div>

@@ -35,7 +35,8 @@ body.dark-mode {
 }
 
 body.dark-mode input,
-body.dark-mode select {
+body.dark-mode select,
+body.dark-mode textarea {
   @apply bg-blue-900;
   @apply text-white;
 }
