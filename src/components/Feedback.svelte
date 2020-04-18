@@ -7,8 +7,6 @@
 
   function triggerFeedbackModal() {
     showFeedbackModal = !showFeedbackModal;
-    console.log("feedback!");
-    console.log(showFeedbackModal);
     dispatch("triggerFeedbackModal", {
       msg: showFeedbackModal
     });

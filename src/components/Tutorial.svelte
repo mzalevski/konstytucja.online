@@ -7,8 +7,6 @@
 
   function triggerTutorialModal() {
     showTutorialModal = !showTutorialModal;
-    console.log("tutorial!");
-    console.log(showTutorialModal);
     dispatch("triggerTutorialModal", {
       msg: showTutorialModal
     });

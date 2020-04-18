@@ -7,8 +7,6 @@
 
   function toggleDarkMode() {
     darkMode = !darkMode;
-    console.log("drkcomp!");
-    console.log(darkMode);
     dispatch("toggleDarkMode", {
       msg: darkMode
     });
