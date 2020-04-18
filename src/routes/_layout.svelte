@@ -18,21 +18,15 @@
 
   function handleFeedbackModalTrigger(e) {
     showFeedbackModal = e.detail.msg;
-    console.log("odbiornik");
-    console.log(showFeedbackModal);
   }
 
   async function handleTutorialModalTrigger(e) {
     showTutorialModal = e.detail.msg;
-    console.log(e.detail.msg);
-    console.log("works");
   }
 
   async function handleDarkModeToggle(e) {
     darkMode = e.detail.msg;
     window.document.body.classList.toggle("dark-mode");
-    console.log(e.detail.msg);
-    console.log("works drk md");
   }
 
   function visitCount() {
@@ -45,17 +39,32 @@
     sessionStorage.setItem("session", true);
 
     if (visits === 10) {
-      console.log("Feedback prompt.");
+      // console.log("Feedback prompt.");
     }
 
-    console.log(visits);
-    console.log(current);
+    // console.log(visits);
+    // console.log(current);
 
     return visits;
   }
 
   async function handleSubmit(e) {
     const formData = new FormData(e.target);
+
+    let msgInput = document.getElementById("feedbackMessage");
+    let errorMsg = document.getElementById("errorMessage");
+
+    if (msgInput.value.length < 20) {
+      msgInput.style.backgroundColor = "#fff5f5";
+      errorMsg.classList.remove("opacity-0");
+
+      setTimeout(() => {
+        msgInput.style.backgroundColor = "";
+        errorMsg.classList.add("opacity-0");
+      }, 3000);
+
+      return null;
+    }
 
     await fetch("/", {
       method: "POST",
@@ -64,15 +73,14 @@
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
       body: "form-name=feedbackForm&" + new URLSearchParams(formData)
-    }).then(() => console.log("asdasd"));
+    });
 
     showFeedbackModal = false;
   }
 
   onMount(() => {
     visitCount();
-
-    darkMode = document.body.classList.contains("dark-mode") ? true : false;
+    darkMode = document.body.classList.contains("dark-mode");
   });
 </script>
 
@@ -116,7 +124,14 @@
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
       <div
         class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
-        <h2 class="text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
+        <div class="flex justify-between">
+          <h2 class="text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
+          <span
+            class="self-center transition-opacity duration-1000 ease-in-out opacity-0"
+            id="errorMessage">
+            Opis powinien mieć co najmniej 20 znaków.
+          </span>
+        </div>
         <form
           on:submit|preventDefault={handleSubmit}
           class="mt-4"
@@ -143,7 +158,7 @@
             </div>
             <select
               name="topic"
-              class="w-full px-10 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer">
+              class="w-full px-10 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer">
               <option selected="true">
                 obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
               </option>
@@ -173,8 +188,10 @@
             </div>
           </div>
           <textarea
+            placeholder="opis błędu"
+            id="feedbackMessage"
             name="message"
-            class="block w-full h-32 p-2 mt-4 text-lg rounded shadow resize-none"
+            class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out rounded shadow resize-none"
             type="text" />
           <div class="flex justify-around mt-4">
             <button
@@ -182,12 +199,12 @@
                 e.preventDefault();
                 showFeedbackModal = false;
               }}
-              class="w-full px-4 py-2 mr-2 shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 mr-2 rounded shadow hover:bg-gray-100">
               Annuluj
             </button>
             <button
               type="submit"
-              class="w-full px-4 py-2 ml-2 shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 ml-2 rounded shadow hover:bg-gray-100">
               Wyślij
             </button>
           </div>
