@@ -31,6 +31,14 @@
       top: 50%;
     }
 
+    .avatar.left::before,
+    .avatar.left::after {
+      transform: translateY(50%) translateX(var(--translate-x, 0))
+        scale(var(--scale));
+      left: -2rem;
+      bottom: 50%;
+    }
+
     .avatar::before {
       content: attr(data-tooltip);
       color: white;
@@ -50,6 +58,11 @@
     .avatar.right::before {
       --translate-x: calc(100% - var(--arrow-size) - 1px);
       transform-origin: left center;
+    }
+
+    .avatar.left::before {
+      --translate-x: calc(-100% + var(--arrow-size) + 1px);
+      transform-origin: right center;
     }
 
     .avatar:hover::before,
@@ -73,12 +86,19 @@
       border-right-color: var(--tooltip-color);
       transform-origin: right center;
     }
+
+    .avatar.left::after {
+      --translate-x: calc(1 * var(--arrow-size));
+      border-left-color: var(--tooltip-color);
+      transform-origin: left center;
+    }
   }
 </style>
 
 <div
   class:bottom={pos === 'bottom'}
   class:right={pos === 'right'}
+  class:left={pos === 'left'}
   class="relative avatar"
   data-tooltip={text}>
   <slot />

@@ -148,15 +148,15 @@
                 obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
               </option>
               <option class="font-light" value="głowna">strona główna</option>
-              <option class="font-light" value="preambula">
-                strona preambuła
+              <option class="font-light" value="preambula">preambuła</option>
+              <option class="font-light" value="komisja">
+                komisja konstytucyjna
               </option>
-              <option class="font-light" value="komisja">strona komisja</option>
               <option class="font-light" value="mobilna">
                 aplikacja mobilna
               </option>
               <option class="font-light" value="desktop">
-                aplikacja desktop
+                aplikacja desktopowa
               </option>
               <option class="font-light" value="inne">inne</option>
             </select>
