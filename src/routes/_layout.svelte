@@ -4,7 +4,7 @@
   import { fly, fade } from "svelte/transition";
   import DarkMode from "../components/DarkMode.svelte";
   import Feedback from "../components/Feedback.svelte";
-  import Tutorial from "../components/Tutorial.svelte";
+  // import Tutorial from "../components/Tutorial.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
   import Tooltip from "../components/Tooltip.svelte";
@@ -88,7 +88,7 @@
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-40 pb-4 sm:pb-6 sm:w-20 sm:h-48">
+    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-4 pb-4 sm:pb-6 sm:w-20 sm:h-32">
 
     <Tooltip text={'Zgłoś błąd.'} pos={'right'}>
       <Feedback
@@ -96,11 +96,11 @@
         on:triggerFeedbackModal={handleFeedbackModalTrigger} />
     </Tooltip>
 
-    <Tooltip text={'Zobacz instrukcję.'} pos={'right'}>
+    <!-- <Tooltip text={'Zobacz instrukcję.'} pos={'right'}>
       <Tutorial
         {showTutorialModal}
         on:triggerTutorialModal={handleTutorialModalTrigger} />
-    </Tooltip>
+    </Tooltip> -->
 
     <Tooltip
       text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`}
