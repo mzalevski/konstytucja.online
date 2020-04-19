@@ -25,52 +25,52 @@
       ORYGINAŁ BIULETYNU
     </a>
   </h5> -->
-  <p class="max-w-2xl pt-8 text-justify">
+  <p class="max-w-2xl pt-6 text-justify">
     W dniach 7, 8 i 9 lutego 1995 r., Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
     (SLD), rozpatrzyła: projekt jednolity Konstytucji Rzeczypospolitej Polskiej
     (w ujęciu wariantowym), sprawy różne.
   </p>
 
-  <ul class="flex flex-wrap justify-around flex-grow py-8">
+  <ul class="flex flex-wrap flex-grow py-8">
     <a
-      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/13/1">
       <li>
-        <p>Dzień 1</p>
-        <p>(7 lutego)</p>
+        <p class="font-semibold">Dzień 1</p>
+        <p class="font-thin">7 lutego</p>
       </li>
     </a>
     <a
-      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/13/2.1">
       <li>
-        <p>Dzień 2 - cz. I</p>
-        <p>(8 lutego)</p>
+        <p class="font-semibold">Dzień 2 - cz. I</p>
+        <p class="font-thin">8 lutego</p>
       </li>
     </a>
     <a
-      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/13/2.2">
       <li>
-        <p>Dzień 2 - cz. II</p>
-        <p>(8 lutego)</p>
+        <p class="font-semibold">Dzień 2 - cz. II</p>
+        <p class="font-thin">8 lutego</p>
       </li>
     </a>
     <a
-      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/13/3">
       <li>
-        <p>Dzień 3</p>
-        <p>(9 lutego)</p>
+        <p class="font-semibold">Dzień 3</p>
+        <p class="font-thin">9 lutego</p>
       </li>
     </a>
     <a
-      class="w-24 py-4 my-1 font-semibold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg sm:p-8 sm:text-lg sm:w-40 hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 font-semibold text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/13/prasa">
       <li>
@@ -80,9 +80,13 @@
   </ul>
 
   <div>
-    <h3>Skład komisji konstytucyjnej zgromadzenia narodowego</h3>
+    <h3 class="mt-3 text-xl font-thin">
+      Skład komisji konstytucyjnej zgromadzenia narodowego
+    </h3>
 
-    <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
+    <h5 class="text-xs font-bold tracking-wide text-gray-500 uppercase">
+      (po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)
+    </h5>
 
     <ul class="py-8 three-col rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
@@ -142,7 +146,7 @@
       <li>55. Poseł Janusz Wojciechowski (PSL)</li>
       <li>56. Poseł Jerzy Zdrada (UW)</li>
     </ul>
-    <p>
+    <p class="mt-3 text-lg font-thin">
       W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
       przedstawiciele:
       <br />

@@ -11,7 +11,7 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h1 class="text-lg font-thin sm:text-xl lg:text-2xl">
+  <h1 class="text-sm font-thin sm:text-xl lg:text-2xl">
     Posiedzenia Komisji Konstytucyjnej ZN (21, 22 i 23.02.1995 r.)
   </h1>
   <!-- <h5>
@@ -22,7 +22,7 @@
       ORYGINAŁ BIULETYNU
     </a>
   </h5> -->
-  <p class="max-w-2xl pt-8 text-justify">
+  <p class="max-w-2xl pt-6 text-justify">
     W dniach 21, 22 i 23 lutego 1995 r. Komisja Konstytucyjna Zgromadzenia
     Narodowego, obradująca pod przewodnictwem posła Aleksandra Kwaśniewskiego
     (SLD), rozpatrywała: projekt jednolity Konstytucji Rzeczypospolitej Polskiej
@@ -30,41 +30,41 @@
     Konstytucyjnej w II kwartale 1995 r., sprawy różne.
   </p>
 
-  <ul class="flex justify-around py-8">
+  <ul class="flex flex-wrap flex-grow py-8">
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/14/1">
       <li>
-        <p>Dzień 1</p>
-        <p>(21 lutego)</p>
+        <p class="font-semibold">Dzień 1</p>
+        <p class="font-thin">21 lutego</p>
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/14/2">
       <li>
-        <p>Dzień 2</p>
-        <p>(22 lutego)</p>
+        <p class="font-semibold">Dzień 2</p>
+        <p class="font-thin">22 lutego</p>
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/14/3">
       <li>
-        <p>Dzień 3</p>
-        <p>(23 lutego)</p>
+        <p class="font-semibold">Dzień 3</p>
+        <p class="font-thin">23 lutego</p>
       </li>
     </a>
     <a
-      class="p-8 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg shadow-lg hover:bg-gray-200"
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
       href="komisja/14/podkomisja">
       <li>
-        <p>Podkomisja</p>
-        <p>(22 lutego)</p>
+        <p class="font-semibold">Podkomisja</p>
+        <p class="font-thin">22 lutego</p>
       </li>
     </a>
     <!-- <a rel="prefetch" href="komisja/14/prasa">
@@ -73,9 +73,13 @@
   </ul>
 
   <div>
-    <h3>Skład komisji konstytucyjnej zgromadzenia narodowego</h3>
+    <h3 class="mt-3 text-xl font-thin">
+      Skład komisji konstytucyjnej zgromadzenia narodowego
+    </h3>
 
-    <h5>(po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)</h5>
+    <h5 class="text-xs font-bold tracking-wide text-gray-500 uppercase">
+      (po zmianach z dnia 25 marca, 26 sierpnia i 16 września 1994 r.)
+    </h5>
 
     <ul class="py-8 three-col rep-list">
       <li>1. Poseł Aleksander Kwaśniewski (SLD) — przewodniczący</li>
@@ -135,7 +139,7 @@
       <li>55. Poseł Janusz Wojciechowski (PSL)</li>
       <li>56. Poseł Jerzy Zdrada (UW)</li>
     </ul>
-    <p>
+    <p class="mt-3 text-lg font-thin">
       W posiedzeniu udział wzięli przedstawiciele:
       <br />
       Prezydenta RP — prof. Michał Pietrzak i prof. Andrzej Rzepliński,

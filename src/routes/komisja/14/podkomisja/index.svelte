@@ -11,7 +11,9 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
 
-  <h3>Posiedzenia Komisji Konstytucyjnej ZN (21, 22 i 23.02.1995 r.)</h3>
+  <h1 class="text-sm font-thin sm:text-xl lg:text-2xl">
+    Posiedzenia Komisji Konstytucyjnej ZN (21, 22 i 23.02.1995 r.)
+  </h1>
   <!-- <h5>
     <a
       href="https://drive.google.com/file/d/1awtjblaTcKfacOyLZwlw_y9ki_226um_/view?usp=sharing"
@@ -21,7 +23,7 @@
     </a>
   </h5> -->
 
-  <p>
+  <p class="max-w-2xl pt-6 text-justify">
     Dnia 22 lutego 1995 r. podkomisja podstaw ustroju politycznego i
     społeczno-gospodarczego, obradująca pod przewodnictwem posła Ryszarda Bugaja
     (UP), rozpatrzyła: —— propozycje przepisów konstytucyjnych dotyczących
@@ -30,18 +32,24 @@
     związków wyznaniowych oraz eksperci konstytucjonaliści.
   </p>
 
-  <ul class="days">
+  <ul class="flex flex-wrap flex-grow py-8">
 
-    <a rel="prefetch" href="komisja/14/podkomisja/1">
+    <a
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
+      rel="prefetch"
+      href="komisja/14/podkomisja/1">
       <li>
-        <p>Podkomisja - cz. I</p>
-        <p>(22 lutego)</p>
+        <p class="font-semibold">Podkomisja - cz. I</p>
+        <p class="font-thin">22 lutego</p>
       </li>
     </a>
-    <a rel="prefetch" href="komisja/14/podkomisja/2">
+    <a
+      class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
+      rel="prefetch"
+      href="komisja/14/podkomisja/2">
       <li>
-        <p>Podkomisja - cz. II</p>
-        <p>(22 lutego)</p>
+        <p class="font-semibold">Podkomisja - cz. II</p>
+        <p class="font-thin">22 lutego</p>
       </li>
     </a>
   </ul>
