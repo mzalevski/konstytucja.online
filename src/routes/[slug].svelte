@@ -196,10 +196,14 @@
           {#if isDescriptionVisible}
             <div
               class="text-justify"
-              in:fly|fade={{ y: -40, duration: 1000 }}
-              out:fly|fade={{ y: -40, duration: 200 }}>
-              <h3>Wyjaśnienie treści artykułu</h3>
-              {@html article.desc}
+              in:fly|fade={{ y: -15, duration: 800 }}
+              out:fly|fade={{ y: -15, duration: 400 }}>
+              <h3 class="pt-2 font-thin sm:text-lg sm:text-xl">
+                Wyjaśnienie treści artykułu
+              </h3>
+              <div class="pt-2">
+                {@html article.desc}
+              </div>
             </div>
           {/if}
         </div>
