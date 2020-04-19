@@ -75,7 +75,8 @@
       body: "form-name=feedbackForm&" + new URLSearchParams(formData)
     });
 
-    showFeedbackModal = false;
+    msgInput.style.backgroundColor = "#f0fff4";
+    setTimeout(() => (showFeedbackModal = false), 1000);
   }
 
   onMount(() => {
@@ -127,7 +128,7 @@
         <div class="flex justify-between">
           <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
-            class="self-center w-1/2 transition-opacity duration-1000 ease-in-out opacity-0"
+            class="self-center w-1/2 text-right transition-opacity duration-1000 ease-in-out opacity-0"
             id="errorMessage">
             Opis powinien zawierać co najmniej 20 znaków.
           </span>
