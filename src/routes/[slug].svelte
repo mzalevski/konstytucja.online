@@ -130,7 +130,7 @@
               isDisqusVisible = false;
             }}>
             <svg
-              class="w-5 h-5 h-6 text-gray-900 fill-current sm:w-6"
+              class="w-5 h-5 h-6 mr-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20">
               <path
                 d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
@@ -142,7 +142,6 @@
       {/if}
       {#if $page.params.slug < 243}
         <Tooltip text={'Następny artykuł.'} pos={'bottom'}>
-
           <a
             id="right-chevron"
             class="flex flex-col justify-center"
@@ -154,7 +153,7 @@
               isDisqusVisible = false;
             }}>
             <svg
-              class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+              class="w-5 h-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20">
               <path
                 d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
