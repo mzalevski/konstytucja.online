@@ -61,11 +61,11 @@
           href="/{comment.link}">
           <div
             in:fly={{ y: 100, duration: 1000 }}
-            class="p-8 my-4 rounded shadow hover:bg-gray-100">
+            class="p-4 my-4 rounded shadow sm:p-8 hover:bg-gray-100">
             <strong>Art. {comment.link}</strong>
             - {new Date(comment.createdAt).toLocaleString('pl-PL')} - {comment.author.name}:
             <br />
-            {comment.raw_message.substr(0, 100)} ...
+            {comment.raw_message.substr(0, 120)} ...
           </div>
         </a>
       {/each}
