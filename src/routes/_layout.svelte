@@ -201,7 +201,7 @@
                 showFeedbackModal = false;
               }}
               class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow hover:bg-gray-100">
-              Annuluj
+              Anuluj
             </button>
             <button
               type="submit"
