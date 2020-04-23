@@ -15,6 +15,7 @@
   import Article from "../components/Article.svelte";
 
   export let articles;
+
   let selectedArticles = articles;
   let searchedText;
   let selectedChapter;
@@ -22,32 +23,37 @@
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
     searchedText = e.detail.text;
+
+    let allChapters = selectedChapter === "_";
+
+    let parsedSearchedText = searchedText.replace(
+      /[\?\)\(\.\\\*\+]/g,
+      match => `\\${match}`
+    );
+
     selectedArticles = articles.filter(article => {
-      return (
-        // chapter is correct
-        (article.chapter["id"] === selectedChapter ||
-          selectedChapter === "_") &&
-        // text is correct
-        (new RegExp(
-          `[ >]${searchedText.replace(
-            /[\?\)\(\.\\\*\+]/g,
-            match => `\\${match}`
-          )}`,
-          "gi"
-        ).test(
-          article.html.replace(
-            new RegExp(
-              `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
-              "g"
-            ),
-            ""
-          )
-        ) ||
-          article.title
-            .replace(/\./g, "")
-            .toLowerCase()
-            .includes(searchedText.replace(/\./g, "").toLowerCase()))
+      let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
+
+      let parsedArticleHtml = article.html.replace(
+        new RegExp(
+          `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
+          "g"
+        ),
+        ""
       );
+      console.log(parsedArticleHtml);
+
+      let textHit = new RegExp(`[ >]${parsedSearchedText}`, "gi").test(
+        parsedArticleHtml
+      );
+
+      let titleHit = article.title
+        .replace(/\./g, "")
+        .toLowerCase()
+        // zawiera to i tamto
+        .includes(searchedText.replace(/\./g, "").toLowerCase());
+
+      return (chapterHit && textHit) || titleHit;
     });
   }
 </script>
