@@ -36,7 +36,7 @@
         </span>
       {/if}
     </div>
-    <div class="pt-3">
+    <div style="hyphens: auto;" class="pt-3">
       {@html html}
     </div>
   </div>
