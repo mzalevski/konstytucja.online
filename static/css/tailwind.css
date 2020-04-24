@@ -13,16 +13,6 @@ html {
   @apply bg-white;
 }
 
-@font-face {
-  font-family: AlexBrush;
-  src: url(/fonts/AlexBrush-Regular.ttf) format("truetype");
-}
-
-.logo {
-  font-family: "AlexBrush";
-
-}
-
 @media (min-width: 640px) {
   .two-col {
     column-count: 2;

@@ -11,32 +11,34 @@
       : { x: 30, duration: 600 };
 </script>
 
-<nav class="items-baseline mb-2 border-b border-gray-200 sm:flex sm:mb-4">
+<nav class="items-center mt-2 mb-2 border-b border-gray-200 sm:pb-2 sm:flex">
   <div
-    class="flex items-baseline justify-center w-full sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
+    class="flex items-center justify-center w-full mb-2 sm:mb-px sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
-      class="text-3xl font-bold logo sm:ml-1 sm:text-4xl text-red-new"
+      class="sm:ml-1"
       rel="prefetch"
       href="/">
-      Konstytucja
+      <img class="h-6 sm:h-8" src="/images/logo.png" alt="logo" />
     </a>
     <a
       class:active={segment === 'preambula'}
-      class="ml-3 sm:ml-4 md:ml-6 hover:text-red-new"
+      class="self-end pb-px ml-3 sm:ml-4 md:ml-6 hover:text-red-new"
       rel="prefetch"
       href="preambula">
       Preambuła
     </a>
     <a
       class:active={segment === undefined}
-      class="ml-2 md:ml-4 hover:text-red-new"
+      class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
       rel="prefetch"
       href="/">
       Artykuły
     </a>
 
-    <div class="relative" on:mouseleave={() => (showDropdown = false)}>
+    <div
+      class="relative self-end pb-px"
+      on:mouseleave={() => (showDropdown = false)}>
       <p
         class:active={segment === 'info'}
         on:mouseenter={() => (showDropdown = true)}
@@ -46,7 +48,7 @@
           }
           showDropdown = !showDropdown;
         }}
-        class="ml-2 cursor-default md:ml-4 hover:text-red-new">
+        class="self-end ml-2 cursor-default md:ml-4 hover:text-red-new">
         Informacje
       </p>
 
