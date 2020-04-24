@@ -7,7 +7,7 @@ module.exports = {
         './src/**/*.svelte'
       ],
       defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g)
-        .map(el => el.includes('class:') ? el.substr('class:'.length) : el) || []
+        .map(hit => hit.includes('class:') ? hit.substr('class:'.length) : hit) || []
     })
   ]
 }
