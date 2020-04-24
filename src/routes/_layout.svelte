@@ -94,7 +94,7 @@
 </svelte:head>
 
 <main
-  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
+  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32">
