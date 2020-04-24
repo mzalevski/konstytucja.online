@@ -87,12 +87,6 @@
 
 <svelte:window bind:scrollY={yAxisPosition} />
 
-<svelte:head>
-  <link
-    href="https://fonts.googleapis.com/css?family=Alex+Brush&text=Konstytucja"
-    rel="stylesheet" />
-</svelte:head>
-
 <main
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
 
@@ -145,7 +139,6 @@
               class="absolute inset-y-0 left-0 flex items-center justify-center w-auto ml-2 text-gray-500 pointer-events-none">
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
-                xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20">
                 <path
                   d="M18.405 4.799c-.111-.44-.655-.799-1.21-.799h-6.814c-.554

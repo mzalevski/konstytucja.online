@@ -2,17 +2,25 @@
 @tailwind components;
 
 .active {
-  @apply cursor-default text-red-new;
+  @apply cursor-default;
+  @apply text-red-new;
 }
 
 @tailwind utilities;
 
 html {
-  overflow-y: scroll;
+  @apply overflow-y-scroll;
+  @apply bg-white;
+}
+
+@font-face {
+  font-family: AlexBrush;
+  src: url(/fonts/AlexBrush-Regular.ttf) format("truetype");
 }
 
 .logo {
-    font-family: "Alex Brush", cursive;
+  font-family: "AlexBrush";
+
 }
 
 @media (min-width: 640px) {
