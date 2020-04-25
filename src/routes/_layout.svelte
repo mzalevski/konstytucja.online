@@ -172,7 +172,7 @@
               <option class="font-light" value="inne">inne</option>
             </select>
             <div
-              class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none sm:hidden lg:flex">
+              class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none">
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
                 viewBox="0 0 20 20">
