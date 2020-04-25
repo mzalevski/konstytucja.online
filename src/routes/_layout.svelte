@@ -185,11 +185,13 @@
             class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out border border-gray-100 rounded shadow resize-none"
             type="text" />
           <input
+            id="platform"
             class="hidden"
             type="text"
             name="platform"
             value={navigator.platform} />
           <input
+            id="browser"
             class="hidden"
             type="text"
             name="browser"
