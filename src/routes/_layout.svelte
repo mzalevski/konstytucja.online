@@ -49,8 +49,6 @@
   }
 
   async function handleSubmit(e) {
-    const formData = new FormData(e.target);
-
     let msgInput = document.getElementById("feedbackMessage");
     let errorMsg = document.getElementById("errorMessage");
 
@@ -66,6 +64,8 @@
       return null;
     }
 
+    const feedbackData = new URLSearchParams(new FormData(e.target)).toString();
+
     await fetch("/", {
       method: "POST",
       headers: {
@@ -73,9 +73,9 @@
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
       body:
-        new URLSearchParams(formData) +
-        new URLSearchParams(`&platform=${navigator.platform}`) +
-        new URLSearchParams(`&browser=${navigator.appCodeName}`)
+        feedbackData +
+        `&platform=${navigator.platform}` +
+        `&browser=${navigator.appCodeName}`
     });
 
     msgInput.style.backgroundColor = "#f0fff4";
