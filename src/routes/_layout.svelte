@@ -72,7 +72,11 @@
         Accept: "application/x-www-form-urlencoded;charset=UTF-8",
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
-      body: new URLSearchParams(formData)
+      body:
+        "form-name=feedbackForm&" +
+        new URLSearchParams(formData) +
+        `&platform=${navigator.platform}` +
+        `&browser=${navigator.appCodeName}`
     });
 
     msgInput.style.backgroundColor = "#f0fff4";
@@ -126,8 +130,8 @@
           </span>
         </div>
         <form
-          id="bugReport"
-          name="bugReport"
+          id="feedbackForm"
+          name="feedbackForm"
           method="POST"
           class="mt-4"
           on:submit|preventDefault={handleSubmit}
@@ -184,19 +188,6 @@
             name="message"
             class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out border border-gray-100 rounded shadow resize-none"
             type="text" />
-          <input
-            class="hidden"
-            id="platform"
-            type="text"
-            name="platform"
-            value={navigator.platform} />
-          <input
-            class="hidden"
-            id="browser"
-            type="text"
-            name="browser"
-            value={navigator.appCodeName} />
-
           <div class="flex justify-around mt-4">
             <button
               on:click={e => {
