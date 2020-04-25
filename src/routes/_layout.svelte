@@ -73,10 +73,9 @@
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
       body:
-        "form-name=feedbackForm&" +
         new URLSearchParams(formData) +
-        `&platform=${navigator.platform}` +
-        `&browser=${navigator.appCodeName}`
+        new URLSearchParams(`&platform=${navigator.platform}`) +
+        new URLSearchParams(`&browser=${navigator.appCodeName}`)
     });
 
     msgInput.style.backgroundColor = "#f0fff4";
