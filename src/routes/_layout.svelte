@@ -72,7 +72,11 @@
         Accept: "application/x-www-form-urlencoded;charset=UTF-8",
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
-      body: "form-name=feedbackForm&" + new URLSearchParams(formData)
+      body:
+        "form-name=feedbackForm&" +
+        new URLSearchParams(formData) +
+        `&platform=${navigator.platform}` +
+        `&browser=${navigator.appCodeName}`
     });
 
     msgInput.style.backgroundColor = "#f0fff4";
@@ -120,17 +124,17 @@
         <div class="flex justify-between">
           <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
-            class="self-center w-1/2 text-right transition-opacity duration-1000 ease-in-out opacity-0"
-            id="errorMessage">
+            id="errorMessage"
+            class="self-center w-1/2 text-right transition-opacity duration-1000 ease-in-out opacity-0">
             Opis powinien zawierać co najmniej 20 znaków.
           </span>
         </div>
         <form
-          on:submit|preventDefault={handleSubmit}
-          class="mt-4"
-          name="feedbackForm"
           id="feedbackForm"
+          name="feedbackForm"
           method="POST"
+          class="mt-4"
+          on:submit|preventDefault={handleSubmit}
           data-netlify="true">
           <div class="relative inline-block w-full">
             <div
@@ -169,7 +173,6 @@
             </select>
             <div
               class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none sm:hidden lg:flex">
-
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
                 viewBox="0 0 20 20">
