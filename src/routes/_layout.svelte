@@ -49,6 +49,8 @@
   }
 
   async function handleSubmit(e) {
+    const formData = new FormData(e.target);
+
     let msgInput = document.getElementById("feedbackMessage");
     let errorMsg = document.getElementById("errorMessage");
 
@@ -64,8 +66,6 @@
       return null;
     }
 
-    const feedbackData = new URLSearchParams(new FormData(e.target)).toString();
-
     await fetch("/", {
       method: "POST",
       headers: {
@@ -73,7 +73,8 @@
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
       body:
-        feedbackData +
+        "form-name=feedbackForm&" +
+        new URLSearchParams(formData) +
         `&platform=${navigator.platform}` +
         `&browser=${navigator.appCodeName}`
     });
@@ -154,7 +155,7 @@
             <select
               name="topic"
               class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer">
-              <option selected="true">
+              <option selected value={$page.path}>
                 obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
               </option>
               <option class="font-light" value="głowna">strona główna</option>
