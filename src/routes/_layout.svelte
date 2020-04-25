@@ -73,8 +73,7 @@
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
       body:
-        "form-name=feedbackForm&" +
-        new URLSearchParams(formData) +
+        new URLSearchParams(formData).toString() +
         `&platform=${navigator.platform}` +
         `&browser=${navigator.appCodeName}`
     });
