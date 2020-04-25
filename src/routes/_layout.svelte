@@ -72,7 +72,7 @@
         Accept: "application/x-www-form-urlencoded;charset=UTF-8",
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
       },
-      body: "form-name=bugReport&" + new URLSearchParams(formData)
+      body: new URLSearchParams(formData)
     });
 
     msgInput.style.backgroundColor = "#f0fff4";
