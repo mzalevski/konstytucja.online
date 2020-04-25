@@ -1,12 +1,12 @@
 <script>
-  export let text = "example text";
-  export let pos = "bottom";
+  export let text;
+  export let pos;
 </script>
 
 <style>
   @media (min-width: 640px) {
-    .avatar::before,
-    .avatar::after {
+    .target::before,
+    .target::after {
       --scale: 0;
       --arrow-size: 12px;
       --tooltip-color: #a02828;
@@ -15,31 +15,34 @@
       transition: 150ms transform;
     }
 
-    .avatar.bottom::before,
-    .avatar.bottom::after {
+    .target.b::before,
+    .target.b::after {
       transform: translateX(-50%) translateY(var(--translate-y, 0))
         scale(var(--scale));
+
       bottom: -1.5rem;
       left: 50%;
     }
 
-    .avatar.right::before,
-    .avatar.right::after {
+    .target.r::before,
+    .target.r::after {
       transform: translateY(-50%) translateX(var(--translate-x, 0))
         scale(var(--scale));
+
       right: -1.5rem;
       top: 50%;
     }
 
-    .avatar.left::before,
-    .avatar.left::after {
+    .target.l::before,
+    .target.l::after {
       transform: translateY(50%) translateX(var(--translate-x, 0))
         scale(var(--scale));
+
       left: -2rem;
       bottom: 50%;
     }
 
-    .avatar::before {
+    .target::before {
       content: attr(data-tooltip);
       color: white;
       padding: 0.5rem;
@@ -50,44 +53,44 @@
       background: var(--tooltip-color);
     }
 
-    .avatar.bottom::before {
+    .target.b::before {
       --translate-y: calc(100% - var(--arrow-size) - 1px);
       transform-origin: top center;
     }
 
-    .avatar.right::before {
+    .target.r::before {
       --translate-x: calc(100% - var(--arrow-size) - 1px);
       transform-origin: left center;
     }
 
-    .avatar.left::before {
+    .target.l::before {
       --translate-x: calc(-100% + var(--arrow-size) + 1px);
       transform-origin: right center;
     }
 
-    .avatar:hover::before,
-    .avatar:hover::after {
+    .target:hover::before,
+    .target:hover::after {
       --scale: 1;
     }
 
-    .avatar::after {
+    .target::after {
       content: "";
       border: var(--arrow-size) solid transparent;
     }
 
-    .avatar.bottom::after {
+    .target.b::after {
       --translate-y: calc(-1 * var(--arrow-size));
       border-bottom-color: var(--tooltip-color);
       transform-origin: bottom center;
     }
 
-    .avatar.right::after {
+    .target.r::after {
       --translate-x: calc(-1 * var(--arrow-size));
       border-right-color: var(--tooltip-color);
       transform-origin: right center;
     }
 
-    .avatar.left::after {
+    .target.l::after {
       --translate-x: calc(1 * var(--arrow-size));
       border-left-color: var(--tooltip-color);
       transform-origin: left center;
@@ -96,10 +99,10 @@
 </style>
 
 <div
-  class:bottom={pos === 'bottom'}
-  class:right={pos === 'right'}
-  class:left={pos === 'left'}
-  class="relative avatar"
+  class:b={pos === 'b'}
+  class:r={pos === 'r'}
+  class:l={pos === 'l'}
+  class="relative target"
   data-tooltip={text}>
   <slot />
 </div>

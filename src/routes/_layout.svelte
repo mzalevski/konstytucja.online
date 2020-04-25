@@ -93,21 +93,19 @@
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32">
 
-    <Tooltip text={'Zgłoś błąd.'} pos={'right'}>
+    <Tooltip text={'Zgłoś błąd.'} pos={'r'}>
       <Feedback
         {showFeedbackModal}
         on:triggerFeedbackModal={handleFeedbackModalTrigger} />
     </Tooltip>
 
-    <!-- <Tooltip text={'Zobacz instrukcję.'} pos={'right'}>
+    <!-- <Tooltip text={'Zobacz instrukcję.'} pos={'r'}>
       <Tutorial
         {showTutorialModal}
         on:triggerTutorialModal={handleTutorialModalTrigger} />
     </Tooltip> -->
 
-    <Tooltip
-      text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`}
-      pos={'right'}>
+    <Tooltip text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`} pos={'r'}>
       <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
 
@@ -152,7 +150,7 @@
             </div>
             <select
               name="topic"
-              class="w-full px-10 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer">
+              class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer">
               <option selected="true">
                 obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
               </option>

@@ -19,7 +19,7 @@
       </p>
       {#if desc}
         <span class="pl-3">
-          <Tooltip text={'Artykuł posiada wyjaśnienie.'} pos={'left'}>
+          <Tooltip text={'Artykuł posiada wyjaśnienie.'} pos={'l'}>
             <svg class="w-4 h-4 text-gray-500 fill-current" viewBox="0 0 20 20">
               <path
                 fill="currentColor"

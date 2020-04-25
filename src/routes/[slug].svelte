@@ -100,7 +100,7 @@
 <Nav segment={'articles'} />
 <div>
   <div class="flex justify-between h-8">
-    <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'bottom'}> -->
+    <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
       id="back-btn"
       class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
@@ -118,7 +118,7 @@
     </h3>
     <div class="flex justify-end w-24">
       {#if $page.params.slug > 1}
-        <Tooltip text={'Poprzedni artykuł.'} pos={'bottom'}>
+        <Tooltip text={'Poprzedni artykuł.'} pos={'b'}>
 
           <a
             class="flex flex-col justify-center"
@@ -141,7 +141,7 @@
         </Tooltip>
       {/if}
       {#if $page.params.slug < 243}
-        <Tooltip text={'Następny artykuł.'} pos={'bottom'}>
+        <Tooltip text={'Następny artykuł.'} pos={'b'}>
           <a
             id="right-chevron"
             class="flex flex-col justify-center"

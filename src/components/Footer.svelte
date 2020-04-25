@@ -1,4 +1,4 @@
-<footer class="flex justify-center py-4 mt-4 border-t border-gray-200">
+<footer class="flex justify-center py-4 mt-12 border-t border-gray-200">
   <p>
     z miłości
     <svg
@@ -10,12 +10,5 @@
         17l7.19-6.599c1.88-1.726 1.88-4.52 0-6.246z" />
     </svg>
     do Polski
-    <!-- <a
-      class="italic hover:text-red-new"
-      href="https://maciej-zalewski.pl"
-      rel="nofollow"
-      target="_blank">
-      Maciej Zalewski
-    </a> -->
   </p>
 </footer>
