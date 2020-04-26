@@ -24,12 +24,12 @@
     selectedChapter = e.detail.chapter;
     searchedText = e.detail.text;
 
-    let allChapters = selectedChapter === "_";
-
     let parsedSearchedText = searchedText.replace(
       /[\?\)\(\.\\\*\+]/g,
       match => `\\${match}`
     );
+
+    let allChapters = selectedChapter === "_";
 
     selectedArticles = articles.filter(article => {
       let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
@@ -53,7 +53,7 @@
         // zawiera to i tamto
         .includes(searchedText.replace(/\./g, "").toLowerCase());
 
-      return (chapterHit && textHit) || titleHit;
+      return (chapterHit && textHit) || (titleHit && searchedText);
     });
   }
 </script>
