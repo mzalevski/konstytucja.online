@@ -6,8 +6,6 @@
   @apply text-red-new;
 }
 
-@tailwind utilities;
-
 html {
   @apply overflow-y-scroll;
   @apply bg-white;
@@ -25,7 +23,10 @@ html {
   }
 }
 
-/* Dark mode classes */
+
+/***********************\
+|DARK MODE SECTION START|
+\***********************/
 
 body.dark-mode {
   @apply bg-blue-900;
@@ -49,10 +50,20 @@ body.dark-mode .bg-red-100 {
 body.dark-mode svg,
 body.dark-mode p,
 body.dark-mode span,
-body.dark-mode a:not(.logo),
 body.dark-mode h1, 
 body.dark-mode h2, 
 body.dark-mode h3,
 body.dark-mode .text-gray-900 {
   @apply text-white;
 }
+
+body.dark-mode .hover\:bg-gray-100:hover {
+  @apply bg-blue-800;
+}
+
+/*********************\
+|DARK MODE SECTION END|
+\*********************/
+
+
+@tailwind utilities;
