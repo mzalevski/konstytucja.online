@@ -86,16 +86,26 @@
   onMount(() => {
     visitCount();
     darkMode = document.body.classList.contains("dark-mode");
+
+    document.onkeydown = e => {
+      if (e.code === "Slash" && !showFeedbackModal) {
+        e.preventDefault();
+        document.getElementById("text-search").focus();
+      }
+    };
   });
 </script>
 
 <svelte:window bind:scrollY={yAxisPosition} />
 
 <main
-  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base">
+  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden
+  text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3
+  xl:px-16 sm:text-base">
 
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32">
+    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2
+    pb-4 sm:py-6 sm:w-20 sm:h-32">
 
     <Tooltip text={'Zgłoś błąd.'} pos={'r'}>
       <Feedback
@@ -118,14 +128,17 @@
   {#if showFeedbackModal}
     <div
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+      bg-dark-overlay">
       <div
-        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
+        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
         <div class="flex justify-between">
           <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
             id="errorMessage"
-            class="self-center w-1/2 text-right transition-opacity duration-1000 ease-in-out opacity-0">
+            class="self-center w-1/2 text-right transition-opacity duration-1000
+            ease-in-out opacity-0">
             Opis powinien zawierać co najmniej 20 znaków.
           </span>
         </div>
@@ -138,7 +151,8 @@
           data-netlify="true">
           <div class="relative inline-block w-full">
             <div
-              class="absolute inset-y-0 left-0 flex items-center justify-center w-auto ml-2 text-gray-500 pointer-events-none">
+              class="absolute inset-y-0 left-0 flex items-center justify-center
+              w-auto ml-2 text-gray-500 pointer-events-none">
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
                 viewBox="0 0 20 20">
@@ -154,7 +168,8 @@
             </div>
             <select
               name="topic"
-              class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer">
+              class="w-full px-8 py-1 font-light text-gray-900 bg-white border
+              border-gray-100 rounded shadow appearance-none cursor-pointer">
               <option selected value={$page.path}>
                 obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
               </option>
@@ -172,7 +187,8 @@
               <option class="font-light" value="inne">inne</option>
             </select>
             <div
-              class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none">
+              class="absolute inset-y-0 right-0 flex items-center px-2
+              text-gray-900 pointer-events-none">
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
                 viewBox="0 0 20 20">
@@ -183,10 +199,12 @@
             </div>
           </div>
           <textarea
-            placeholder="opis błędu"
             id="feedbackMessage"
             name="message"
-            class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out border border-gray-100 rounded shadow resize-none"
+            placeholder="opis błędu"
+            class="block w-full h-32 p-2 mt-4 text-lg transition-colors
+            duration-1000 ease-in-out border border-gray-100 rounded shadow
+            resize-none"
             type="text" />
           <div class="flex justify-around mt-4">
             <button
@@ -194,12 +212,14 @@
                 e.preventDefault();
                 showFeedbackModal = false;
               }}
-              class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow
+              hover:bg-gray-100">
               Anuluj
             </button>
             <button
               type="submit"
-              class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow hover:bg-gray-100">
+              class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
+              hover:bg-gray-100">
               Wyślij
             </button>
           </div>
@@ -212,7 +232,8 @@
   {#if showTutorialModal}
     <div
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay">
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+      bg-dark-overlay">
       <button
         class="absolute top-0 right-0 w-12 h-12"
         on:click={e => {

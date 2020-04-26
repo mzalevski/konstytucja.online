@@ -47,12 +47,12 @@ body.dark-mode .bg-red-100 {
   @apply bg-blue-800;
 }
 
-body.dark-mode svg,
 body.dark-mode p,
-body.dark-mode span,
 body.dark-mode h1, 
 body.dark-mode h2, 
 body.dark-mode h3,
+body.dark-mode svg,
+body.dark-mode span,
 body.dark-mode .text-gray-900 {
   @apply text-white;
 }
