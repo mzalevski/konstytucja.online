@@ -1,4 +1,6 @@
 <script>
+  import { blur } from "svelte/transition";
+
   export let speaker;
   export let imgPath;
   export let text;
@@ -6,6 +8,7 @@
 
 <div class="flex mt-4">
   <img
+    in:blur={{ duration: 700, intro: true }}
     class="w-16 h-16 rounded-lg shadow-xl sm:w-24 sm:h-24 lg:w-32 lg:h-32"
     src={imgPath}
     alt={speaker}
