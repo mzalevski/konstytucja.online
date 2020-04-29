@@ -29,10 +29,10 @@
       href="preambula">
       Preambuła
     </a>
-    <h1 class="pt-1 sm:mt-px">
+    <h1 class="pt-1 mt-px sm:pt-2 sm:-mt-px">
       <a
         class:active={segment === undefined}
-        class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
+        class="self-end ml-2 md:ml-4 hover:text-red-new"
         rel="prefetch"
         href="/">
         Artykuły
