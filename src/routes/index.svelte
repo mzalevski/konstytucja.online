@@ -59,7 +59,7 @@
 </script>
 
 <svelte:head>
-  <title>Konstytucja</title>
+  <title>Konstytucja Rzeczypospolitej Polskiej</title>
 
   <link rel="canonical" href="https://konstytucja.online" />
 
