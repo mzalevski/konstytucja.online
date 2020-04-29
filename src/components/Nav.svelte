@@ -13,7 +13,8 @@
 
 <nav class="items-center mt-2 mb-2 border-b border-gray-200 sm:pb-2 sm:flex">
   <div
-    class="flex items-center justify-center w-full mb-2 sm:mb-px sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
+    class="flex items-center justify-center w-full mb-2 sm:mb-px
+    sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
       class="sm:ml-1"
@@ -28,13 +29,15 @@
       href="preambula">
       Preambuła
     </a>
-    <a
-      class:active={segment === undefined}
-      class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
-      rel="prefetch"
-      href="/">
-      Artykuły
-    </a>
+    <h1 class="pt-1 sm:mt-px">
+      <a
+        class:active={segment === undefined}
+        class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
+        rel="prefetch"
+        href="/">
+        Artykuły
+      </a>
+    </h1>
 
     <div
       class="relative self-end pb-px"
@@ -67,7 +70,8 @@
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
-          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded shadow-lg cursor-default sm:w-48">
+          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded
+          shadow-lg cursor-default sm:w-48">
           <a
             class="block md:ml-2 hover:text-red-new"
             rel="prefetch"
