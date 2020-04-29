@@ -24,7 +24,7 @@
 </script>
 
 <div
-  class="relative mb-2 sm:flex sm:justify-end sm:mb-0"
+  class="relative -mt-px mb-2 sm:flex sm:justify-end sm:mb-0"
   in:fly={searchTransitionConfig}>
   <div class="relative">
 
