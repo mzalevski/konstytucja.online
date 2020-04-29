@@ -60,18 +60,21 @@
 
 <svelte:head>
   <title>Konstytucja</title>
+
   <link rel="canonical" href="https://konstytucja.online" />
+
   <meta
     name="description"
     content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
     1997 r." />
+
   <meta
     name="keywords"
     content="konstytucja, konstytucjarp, konstytucjaonline, online, prawo,
     konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
     rada ministrów, sejm, senat" />
-  <meta name="konstytucja" content="website" />
 
+  <meta name="konstytucja" content="website" />
 </svelte:head>
 
 <Nav>
