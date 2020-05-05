@@ -57,6 +57,7 @@
         <a href="/komisja">_</a>
         <a href="/legislacja">_</a>
         <a href="/dyskusja">_</a>
+        <a href="/odpowiedzi">_</a>
         <a href="/slownik">_</a>
         <a href="/app-mobile">_</a>
         <a href="/app-desktop">_</a>
@@ -92,6 +93,12 @@
             rel="prefetch"
             href="/dyskusja">
             Dyskusja
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/odpowiedzi">
+            Odpowiedzi
           </a>
           <a
             class="block pt-1 md:ml-2 hover:text-red-new"
