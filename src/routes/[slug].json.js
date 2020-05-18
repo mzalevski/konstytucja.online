@@ -1,13 +1,13 @@
 import articles from './_articles.js';
-import createHyphenator from "hyphen";
-import patterns from "hyphen/patterns/pl";
+// import createHyphenator from "hyphen";
+// import patterns from "hyphen/patterns/pl";
 
-const hyphenateHTML = createHyphenator(patterns, { async: false, html: true });
+// const hyphenateHTML = createHyphenator(patterns, { async: false, html: true });
 
 const lookup = new Map();
 
 articles.forEach(article => {
-	article.html = hyphenateHTML(article.html);
+	article.html = article.html;
 	lookup.set(article.slug, JSON.stringify(article));
 });
 
