@@ -87,12 +87,12 @@
     visitCount();
     darkMode = document.body.classList.contains("dark-mode");
 
-    document.onkeydown = e => {
-      if (e.code === "Slash" && !showFeedbackModal) {
-        e.preventDefault();
-        document.getElementById("text-search").focus();
-      }
-    };
+    // document.onkeydown = e => {
+    //   if (e.code === "Slash" && !showFeedbackModal) {
+    //     e.preventDefault();
+    //     document.getElementById("text-search").focus();
+    //   }
+    // };
   });
 </script>
 
@@ -107,6 +107,10 @@
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2
     pb-4 sm:py-6 sm:w-20 sm:h-32">
 
+    <Tooltip text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`} pos={'r'}>
+      <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
+    </Tooltip>
+
     <Tooltip text={'Zgłoś błąd.'} pos={'r'}>
       <Feedback
         {showFeedbackModal}
@@ -119,14 +123,11 @@
         on:triggerTutorialModal={handleTutorialModalTrigger} />
     </Tooltip> -->
 
-    <Tooltip text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`} pos={'r'}>
-      <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
-    </Tooltip>
-
   </div>
 
   {#if showFeedbackModal}
     <div
+      id="feedback-modal"
       transition:fade={{ duration: 400 }}
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
       bg-dark-overlay">

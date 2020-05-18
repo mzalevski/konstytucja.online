@@ -21,6 +21,15 @@
       chapter: selectedChapter
     });
   }
+
+  onMount(() => {
+    document.onkeydown = e => {
+      if (e.code === "Slash" && !document.getElementById("feedback-modal")) {
+        e.preventDefault();
+        document.getElementById("text-search").focus();
+      }
+    };
+  });
 </script>
 
 <div
