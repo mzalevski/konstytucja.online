@@ -86,13 +86,6 @@
   onMount(() => {
     visitCount();
     darkMode = document.body.classList.contains("dark-mode");
-
-    // document.onkeydown = e => {
-    //   if (e.code === "Slash" && !showFeedbackModal) {
-    //     e.preventDefault();
-    //     document.getElementById("text-search").focus();
-    //   }
-    // };
   });
 </script>
 
