@@ -166,12 +166,14 @@
   </div>
 
   <h1
-    class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16 sm:text-4xl">
+    class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
+    sm:text-4xl">
     {article.title}
   </h1>
   <div class="py-4">
     <div
       in:fade={{ duration: 1000 }}
+      style="hyphens: auto;"
       class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
       {@html article.html}
     </div>
