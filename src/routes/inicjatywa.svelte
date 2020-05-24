@@ -114,7 +114,7 @@
   <p class="flex items-center justify-end pt-4">
     <a
       class="underline hover:text-red-new focus:text-red-new"
-      href="https://maciej-zalewski.pl/"
+      href="https://mzalevski.pl/"
       target="_blank">
       Maciej Zalewski
     </a>
