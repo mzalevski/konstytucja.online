@@ -70,9 +70,9 @@
 
   <meta
     name="keywords"
-    content="konstytucja, konstytucjarp, konstytucjaonline, online, prawo,
-    konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
-    rada ministrów, sejm, senat" />
+    content="konstytucja, konstytucjarp, konstytucja online, konstytucjaonline,
+    online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
+    trybunał, prezydent, rada ministrów, sejm, senat" />
 
   <meta name="konstytucja" content="website" />
 </svelte:head>
