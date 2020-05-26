@@ -116,7 +116,7 @@
     <h3 class="font-thin text-center sm:text-lg sm:text-xl">
       {article.chapter['id']} {article.chapter['title']}
     </h3>
-    <div class="flex justify-end w-24">
+    <div class="flex pt-px mt-px justify-end w-24">
       {#if $page.params.slug > 1}
         <Tooltip text={'Poprzedni artykuł.'} pos={'b'}>
 
@@ -166,7 +166,8 @@
   </div>
 
   <h1
-    class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16 sm:text-4xl">
+    class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
+    sm:text-4xl">
     {article.title}
   </h1>
   <div class="py-4">
