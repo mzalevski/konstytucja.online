@@ -205,19 +205,6 @@
           5) skargi konstytucyjnej (o której mowa w art. 79 ust. 1 Konstytucji).
         </li>
       </ul>
-      <span class="line-through">
-        Dodatkowo, ponieważ TK orzekł już, że prawo unijne (traktatu akcesyjny i
-        Traktat z Lizbony) są zgodne z Konstytucją, to obecnie nie może orzekać
-        ponownie w tej samej sprawie – a do tego sprowadzałaby się de facto
-        skarga do TK, w której skarżący żąda oceny przez TK zgodności z
-        Konstytucją przepisów Traktatu o Funkcjonowaniu Unii Europejskiej
-        pozwalających TSUE na wyrokowanie, czy Polska naruszyła swoje obowiązki
-        traktatowe, albo czy przepisy Traktatu o Funkcjonowaniu Unii
-        Europejskiej nie pozwalają one na stosowanie określonego rozwiązania
-        prawnego w prawie polskim. TK może natomiast rozpoznać skargę dotyczącą
-        zgodności z Konstytucją nowych przepisów prawa unijnego – np. nowej
-        dyrektywy albo nowego rozporządzenia UE.
-      </span>
     </div>
   </div>
 
