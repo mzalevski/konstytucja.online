@@ -22,10 +22,16 @@
 <h1
   class="text-lg font-thin sm:text-xl lg:text-2xl"
   in:fly={{ x: -50, duration: 1000 }}>
-  Komisja Konstytucyjna
+  Odpowiedzi
 </h1>
-<div in:fade={{ duration: 3000 }}>
-  <a href="/odpowiedzi/czy-umowa-miedzynarodowa-moze-stac-wyzej-od-konstytucji">
-    odp1
-  </a>
+<div class="mt-4" in:fade={{ duration: 3000 }}>
+  <div class="flex space-x-4 text-lg">
+    <a class="w-1/12 hover:text-red-new" href="/91">Art. 91</a>
+    <a
+      class="w-9/12 hover:text-red-new underline"
+      href="/odpowiedzi/czy-umowa-miedzynarodowa-moze-stac-wyzej-od-konstytucji">
+      Czy ratyfikowana umowa międzynarodowa może stać wyżej od Konstytucji?
+    </a>
+    <a class="w-2/12 hover:text-red-new" href="">adw. Michał Chodorek</a>
+  </div>
 </div>

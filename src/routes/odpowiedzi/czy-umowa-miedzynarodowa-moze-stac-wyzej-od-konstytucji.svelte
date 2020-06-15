@@ -149,7 +149,7 @@
       </strong>
     </div>
 
-    <h2 class="mt-8 text-2xl font-thin">Sprawa nie jest taka prosta</h2>
+    <h2 class="mt-8 text-2xl font-thin">Kiedy TSUE może orzekać</h2>
     <div>
       Z dokładnie taką sytuacją mieliśmy do czynienia w przypadku europejskiego
       nakazu aresztowania (ENA). 27 kwietnia 2005 roku Trybunał Konstytucyjny
@@ -175,7 +175,7 @@
       stosowane – przez żadne organy tego państwa (sądy, organy administracji,
       itd.).
     </div>
-    <h2 class="mt-8 text-2xl font-thin">Sprawa nie jest taka prosta</h2>
+    <h2 class="mt-8 text-2xl font-thin">Naruszenie traktatów</h2>
     <div>
       Po drugie, TSUE może orzekać o naruszeniu przez państwo członkowskie UE
       zobowiązań, jakie na nim ciążą na mocy traktatów unijnych (na wniosek
@@ -205,17 +205,19 @@
           5) skargi konstytucyjnej (o której mowa w art. 79 ust. 1 Konstytucji).
         </li>
       </ul>
-      Dodatkowo, ponieważ TK orzekł już, że prawo unijne (traktatu akcesyjny i
-      Traktat z Lizbony) są zgodne z Konstytucją, to obecnie nie może orzekać
-      ponownie w tej samej sprawie – a do tego sprowadzałaby się de facto skarga
-      do TK, w której skarżący żąda oceny przez TK zgodności z Konstytucją
-      przepisów Traktatu o Funkcjonowaniu Unii Europejskiej pozwalających TSUE
-      na wyrokowanie, czy Polska naruszyła swoje obowiązki traktatowe, albo czy
-      przepisy Traktatu o Funkcjonowaniu Unii Europejskiej nie pozwalają one na
-      stosowanie określonego rozwiązania prawnego w prawie polskim. TK może
-      natomiast rozpoznać skargę dotyczącą zgodności z Konstytucją nowych
-      przepisów prawa unijnego – np. nowej dyrektywy albo nowego rozporządzenia
-      UE.
+      <span class="line-through">
+        Dodatkowo, ponieważ TK orzekł już, że prawo unijne (traktatu akcesyjny i
+        Traktat z Lizbony) są zgodne z Konstytucją, to obecnie nie może orzekać
+        ponownie w tej samej sprawie – a do tego sprowadzałaby się de facto
+        skarga do TK, w której skarżący żąda oceny przez TK zgodności z
+        Konstytucją przepisów Traktatu o Funkcjonowaniu Unii Europejskiej
+        pozwalających TSUE na wyrokowanie, czy Polska naruszyła swoje obowiązki
+        traktatowe, albo czy przepisy Traktatu o Funkcjonowaniu Unii
+        Europejskiej nie pozwalają one na stosowanie określonego rozwiązania
+        prawnego w prawie polskim. TK może natomiast rozpoznać skargę dotyczącą
+        zgodności z Konstytucją nowych przepisów prawa unijnego – np. nowej
+        dyrektywy albo nowego rozporządzenia UE.
+      </span>
     </div>
   </div>
 
