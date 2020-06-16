@@ -173,6 +173,7 @@
   <div class="py-4">
     <div
       in:fade={{ duration: 1000 }}
+      style="hyphens: auto;"
       class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
       {@html article.html}
     </div>

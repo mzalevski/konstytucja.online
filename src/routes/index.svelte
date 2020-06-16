@@ -41,7 +41,6 @@
         ),
         ""
       );
-      console.log(parsedArticleHtml);
 
       let textHit = new RegExp(`[ >]${parsedSearchedText}`, "gi").test(
         parsedArticleHtml

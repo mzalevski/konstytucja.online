@@ -15,6 +15,7 @@
 
 <div>
   <button
+    tabindex="-1"
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
     on:click={toggleDarkMode}>
     <svg

@@ -43,7 +43,8 @@
     </h1>
     <h5>
       <a
-        class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
+        class="text-xs font-bold tracking-wider text-gray-500 uppercase
+        sm:text-sm hover:text-red-new"
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
         rel="nofollow"
         target="_blank">
@@ -72,7 +73,8 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div
     id="protocol"
-    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
+    class="text-xs leading-relaxed text-justify sm:text-base md:text-md
+    lg:text-lg xl:text-xl">
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -449,7 +451,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Do brzmienia art. 1 zaproponowanego przez prof. M. Pietrzaka na
       poprzednim posiedzeniu, proponujemy dodanie ust. 2. Brzmienie art. 1
       byłoby więc następujące: „Ust. 1. Państwo Polskie jest jednolitą i
@@ -546,7 +548,7 @@
 
     <Utterance
       speaker="Głos z sali"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/crowd.png"
       text="Głosowanie nad poprawkami już się odbyło." />
 
     <Utterance
@@ -628,7 +630,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Z dyskusji wynika, że treść art. 1 jest postrzegana przez treść
       obecnego art. 5. Projekt konstytucji Unii Wolności obejmuje tylko zasady
       państwa. Mam więc uwagę do formuły mówiącej o urzeczywistnianiu zasad
@@ -727,7 +729,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Mam dwie uwagi do art. 3. Pierwsza z nich dotyczy sformułowania
       mówiącego o gwarantowaniu praw człowieka. Uważam, że w kontekście innych
       pojęć ujętych w tym artykule, z formułą tą mogą być kłopoty
@@ -1051,7 +1053,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Nie jestem językoznawcą, ale jest tak, że w języku polskim
       rzeczownik określa przymiotnik. Nie mówimy: „państwo demokracji”, lecz
       „państwo demokratyczne”." />
@@ -1268,7 +1270,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Jak widać z przedłożonych propozycji, kwestia państwa prawnego jest
       ujęta. W tej sytuacji, przyłączając się do argumentacji prof. W.
       Osiatyńskiego — po wymianie poglądów z prof. M. Pietrzakiem — proponujemy
@@ -1526,7 +1528,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Przypominam, że zgłosiliśmy propozycję: „Rzeczpospolita Polska jest
       demokratycznym państwem prawnym i socjalnym." />
 
@@ -1935,7 +1937,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Czas obecnej debaty jest dłuższy niż czas debaty w podkomisji
       podstaw ustroju politycznego i społeczno-gospodarczego. Debata w
       podkomisji nie była wyczerpująca i bogata. Została ona dość stanowczo
@@ -2112,7 +2114,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Odnosząc się do wypowiedzi posła R. Bugaja, że proponowany przez
       niego zapis uniemożliwiałby restryktywne ustawy w kwestiach socjalnych,
       obawiam się, że będzie wręcz odwrotnie, jeżeli Trybunał będzie miał prawo
