@@ -211,20 +211,22 @@
       {/if}
 
       <div class="pt-4">
-        {#if !isDisqusVisible}
-          <button class="pt-2 text-gray-600" on:click={() => showDisqus()}>
-            dyskusja nad artykułem | pokaż
-          </button>
-        {:else}
-          <button
-            class="pt-2 text-gray-600"
-            on:click={() => {
-              isDisqusVisible = false;
-              timestamp = 0;
-            }}>
-            dyskusja nad artykułem | schowaj
-          </button>
-        {/if}
+        <button>
+          {#if !isDisqusVisible}
+            <span class="pt-2 text-gray-600" on:click={() => showDisqus()}>
+              dyskusja nad artykułem | pokaż
+            </span>
+          {:else}
+            <span
+              class="pt-2 text-gray-600"
+              on:click={() => {
+                isDisqusVisible = false;
+                timestamp = 0;
+              }}>
+              dyskusja nad artykułem | schowaj
+            </span>
+          {/if}
+        </button>
       </div>
 
       {#if isDisqusVisible}
