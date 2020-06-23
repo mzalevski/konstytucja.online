@@ -20,7 +20,7 @@
       class="sm:ml-1"
       rel="prefetch"
       href="/">
-      <img class="h-6 sm:h-8" src="/images/logo.png" alt="logo" />
+      <img class="h-6 sm:h-8" id="logo" alt="logo" />
     </a>
     <a
       class:active={segment === 'preambula'}

@@ -6,6 +6,10 @@
   @apply text-red-new;
 }
 
+#logo {
+  content: url("/images/logo.png");
+}
+
 html {
   @apply overflow-y-scroll;
   @apply bg-white;
@@ -61,8 +65,20 @@ body.dark-mode .text-gray-900 {
   @apply text-white;
 }
 
+body.dark-mode #logo {
+  content: url("/images/logo-white.png");
+}
+
+body.dark-mode .active {
+  @apply text-blue-300;
+}
+
 body.dark-mode .hover\:bg-gray-100:hover {
   @apply bg-blue-800;
+}
+
+body.dark-mode .hover\:text-red-new:hover {
+  @apply text-blue-300;
 }
 
 /*********************\
