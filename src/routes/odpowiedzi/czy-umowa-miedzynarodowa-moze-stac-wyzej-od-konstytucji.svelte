@@ -23,7 +23,7 @@
     id="back-btn"
     class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
     rel="prefetch"
-    href="/">
+    href="/odpowiedzi">
     powrót
   </a>
   <h3 class="font-thin text-center sm:text-lg sm:text-xl">6 maja 2020r.</h3>
@@ -62,7 +62,9 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    adw. Michał Chodorek
+    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+      adw. Michał Chodorek
+    </a>
   </h2>
   <h2 class="font-thin text-center text-md sm:text-lg">
     Odpowiedź skonsultowana z konstytucjonalistą, prof. Ryszardem Piotrowskim
