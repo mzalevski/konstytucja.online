@@ -25,13 +25,17 @@
   Odpowiedzi
 </h1>
 <div class="mt-4" in:fade={{ duration: 3000 }}>
-  <div class="flex space-x-4 text-lg">
-    <a class="w-1/12 hover:text-red-new" href="/91">Art. 91</a>
+  <div class="flex flex-col text-lg sm:flex-row sm:space-x-4">
+    <a class="sm:w-1/12 hover:text-red-new" href="/91">Art. 91</a>
     <a
-      class="w-9/12 hover:text-red-new underline"
+      class="underline sm:w-9/12 hover:text-red-new"
       href="/odpowiedzi/czy-umowa-miedzynarodowa-moze-stac-wyzej-od-konstytucji">
       Czy ratyfikowana umowa międzynarodowa może stać wyżej od Konstytucji?
     </a>
-    <a class="w-2/12 hover:text-red-new" href="">adw. Michał Chodorek</a>
+    <a
+      class="sm:w-2/12 hover:text-red-new"
+      href="https://twitter.com/MichalChodorek">
+      adw. Michał Chodorek
+    </a>
   </div>
 </div>
