@@ -28,7 +28,7 @@
   </a>
   <h3 class="font-thin text-center sm:text-lg sm:text-xl">6 maja 2020r.</h3>
   <div class="flex justify-end w-24">
-
+    <!-- 
     <a
       class="flex flex-col justify-center"
       rel="prefetch"
@@ -56,14 +56,10 @@
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
           c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
       </svg>
-    </a>
+    </a> -->
   </div>
 </div>
-<!-- <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
-  in:fly={{ x: -50, duration: 1000 }}>
-  Odpowiedzi
-</h1> -->
+
 <div class="pt-8 sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-2xl text-center font-thin">adw. Michał Chodorek</h2>
   <h2 class="text-lg text-center font-thin">
@@ -102,30 +98,6 @@
         </cite>
       </blockquote>
     </div>
-
-    <!-- <h2 class="mt-8 text-2xl font-thin">Krótka odpowiedź</h2>
-    <div>
-      Panie Andrzeju, zgodnie z Konstytucją hierarchia aktów prawnych wygląda
-      następująco: Konstytucja, umowy międzynarodowe ratyfikowane za zgodą
-      wyrażoną w ustawie, ustawy, pozostałe umowy międzynarodowe, akty
-      wykonawcze do ustaw. Umowa międzynarodowa, nawet ratyfikowana za zgodą
-      wyrażoną w ustawie, nie może więc stać wyżej od Konstytucji. Ale sprawa
-      stosunku prawa UE do Konstytucji i umocowania TSUE do orzekania w sprawach
-      ustawodawstwa państw członkowskich nie jest taka prosta. Kwestią tą
-      zajmował się już Trybunał Konstytucyjny – badając zgodność z Konstytucją
-      traktatu akcesyjnego i Traktatu z Lizbony. TK orzekł, że prawo unijne
-      (traktatu akcesyjny i Traktat z Lizbony) są zgodne z Konstytucją – a więc
-      również, że zgodne z Konstytucją jest, że TSUE może ostatecznie orzekać w
-      sprawach wskazanych w traktatach unijnych. W związku z tym, orzeczenia
-      TSUE wydawane na podstawie traktatów unijnych są ostateczne i wiążące dla
-      Polski. TK nie ma kompetencji, żeby rozpoznawać jakiekolwiek „odwołania”
-      od orzeczeń TSUE. Dodatkowo, ponieważ TK orzekł już, że prawo unijne
-      (traktatu akcesyjny i Traktat z Lizbony) są zgodne z Konstytucją, to
-      obecnie nie może orzekać ponownie w tej samej sprawie – a do tego
-      sprowadzałaby się skarga do TK, w której żądano by oceny przez TK
-      zgodności z Konstytucją przepisów Traktatu o Funkcjonowaniu Unii
-      Europejskiej pozwalających TSUE na wyrokowanie.
-    </div> -->
 
     <h2 class="mt-8 text-2xl font-thin">Sprawa nie jest taka prosta</h2>
     <div>
@@ -175,7 +147,9 @@
       stosowane – przez żadne organy tego państwa (sądy, organy administracji,
       itd.).
     </div>
-    <h2 class="mt-8 text-2xl font-thin">Naruszenie traktatów</h2>
+    <h2 class="mt-8 text-2xl font-thin">
+      TK nie może weryfikować orzeczeń innych sądów i trybunałów
+    </h2>
     <div>
       Po drugie, TSUE może orzekać o naruszeniu przez państwo członkowskie UE
       zobowiązań, jakie na nim ciążą na mocy traktatów unijnych (na wniosek
