@@ -60,12 +60,14 @@
   </div>
 </div>
 
-<div class="pt-8 sm:pt-10 md:pt-12 lg:pt-16">
-  <h2 class="mt-4 text-2xl text-center font-thin">adw. Michał Chodorek</h2>
-  <h2 class="text-lg text-center font-thin">
+<div class="sm:pt-10 md:pt-12 lg:pt-16">
+  <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
+    adw. Michał Chodorek
+  </h2>
+  <h2 class="font-thin text-center text-md sm:text-lg">
     Odpowiedź skonsultowana z konstytucjonalistą, prof. Ryszardem Piotrowskim
   </h2>
-  <h1 class="text-xl font-thin text-center sm:text-4xl">
+  <h1 class="text-lg font-thin text-center sm:text-xl sm:text-4xl">
     Czy ratyfikowana umowa międzynarodowa
     <br />
     może stać wyżej od Konstytucji?
@@ -78,8 +80,8 @@
   <div in:fade={{ duration: 3000 }}>
     <div class="pt-6">
       <blockquote
-        class="rounded px-4 py-1 text-xl italic border-l-4 bg-gray-100
-        text-gray-600 border-gray-500">
+        class="px-4 py-1 text-lg sm:text-xl italic text-gray-600 bg-gray-100
+        border-l-4 border-gray-500 rounded">
         <p class="mb-4">
           Czy ratyfikowana umowa międzynarodowa może stać wyżej od Konstytucji,
           co znaczy czy wyroki TSUE są ostateczne czy też podlegają ocenie przez
@@ -99,7 +101,9 @@
       </blockquote>
     </div>
 
-    <h2 class="mt-8 text-2xl font-thin">Sprawa nie jest taka prosta</h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
+      Sprawa nie jest taka prosta
+    </h2>
     <div>
       Zgodnie z Konstytucją hierarchia aktów prawnych wygląda następująco:
       Konstytucja, umowy międzynarodowe ratyfikowane za zgodą wyrażoną w
@@ -121,7 +125,7 @@
       </strong>
     </div>
 
-    <h2 class="mt-8 text-2xl font-thin">Kiedy TSUE może orzekać</h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Kiedy TSUE może orzekać</h2>
     <div>
       Z dokładnie taką sytuacją mieliśmy do czynienia w przypadku europejskiego
       nakazu aresztowania (ENA). 27 kwietnia 2005 roku Trybunał Konstytucyjny
@@ -147,7 +151,7 @@
       stosowane – przez żadne organy tego państwa (sądy, organy administracji,
       itd.).
     </div>
-    <h2 class="mt-8 text-2xl font-thin">
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       TK nie może weryfikować orzeczeń innych sądów i trybunałów
     </h2>
     <div>
@@ -161,7 +165,7 @@
       Wszystkie powyższe wyroki TSUE są ostateczne. Polski TK nie może badać ich
       zgodności z prawem. TK nie może weryfikować orzeczeń innych sądów i
       trybunałów. W zakresie jego kompetencji leży tylko orzekanie w sprawach:
-      <ul class="pl-3 pb-4 pt-1 text-left">
+      <ul class="pt-1 pb-4 pl-3 text-left">
         <li>1) zgodności ustaw i umów międzynarodowych z Konstytucją,</li>
         <li>
           2) zgodności ustaw z ratyfikowanymi umowami międzynarodowymi, których
