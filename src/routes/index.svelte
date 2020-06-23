@@ -115,7 +115,7 @@
                 return `${match.slice(
                   0,
                   1
-                )}<span style="background-color: rgb(255, 155, 155); border-radius: 3px;">${match.slice(
+                )}<span class="py-px pl-px bg-red-300 rounded">${match.slice(
                   1
                 )}</span>`;
               }
