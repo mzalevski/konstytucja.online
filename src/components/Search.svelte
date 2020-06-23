@@ -21,15 +21,6 @@
       chapter: selectedChapter
     });
   }
-
-  onMount(() => {
-    document.onkeydown = e => {
-      if (e.code === "Slash" && !document.getElementById("feedback-modal")) {
-        e.preventDefault();
-        document.getElementById("text-search").focus();
-      }
-    };
-  });
 </script>
 
 <div
@@ -97,7 +88,7 @@
       border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8
       lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900"
       bind:value={selectedChapter}
-      on:change={sendChoice}>
+      on:blur={sendChoice}>
 
       <option class="font-light text-gray-900" value="_">
         Wszystkie rozdziały
