@@ -83,13 +83,29 @@
     setTimeout(() => (showFeedbackModal = false), 1000);
   }
 
+  function handleKeydown(e) {
+    if (e.code === "Slash" && !document.getElementById("feedback-modal")) {
+      e.preventDefault();
+      document.getElementById("text-search").focus();
+    }
+    if (
+      e.code === "KeyD" &&
+      !document.getElementById("feedback-modal") &&
+      document.getElementById("text-search") !== document.activeElement
+    ) {
+      e.preventDefault();
+      darkMode = !darkMode;
+      window.document.body.classList.toggle("dark-mode");
+    }
+  }
+
   onMount(() => {
     visitCount();
     darkMode = document.body.classList.contains("dark-mode");
   });
 </script>
 
-<svelte:window bind:scrollY={yAxisPosition} />
+<svelte:window bind:scrollY={yAxisPosition} on:keydown={handleKeydown} />
 
 <main
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden
