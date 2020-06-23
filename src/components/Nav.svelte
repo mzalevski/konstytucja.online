@@ -17,7 +17,7 @@
     sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
-      class="sm:ml-1"
+      class="sm:ml-4"
       rel="prefetch"
       href="/">
       <img class="h-6 sm:h-8" id="logo" alt="logo" />
