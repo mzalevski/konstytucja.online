@@ -54,6 +54,10 @@ body.dark-mode .bg-gray-100 {
   @apply bg-blue-800;
 }
 
+body.dark-mode .bg-green-100 {
+  @apply bg-blue-400;
+}
+
 body.dark-mode .border-gray-100,
 body.dark-mode .border-gray-200 {
   @apply border-blue-800;

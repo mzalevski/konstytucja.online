@@ -55,11 +55,11 @@
     let errorMsg = document.getElementById("errorMessage");
 
     if (msgInput.value.length < 20) {
-      msgInput.style.backgroundColor = "#fff5f5";
+      msgInput.classList.add("bg-red-100");
       errorMsg.classList.remove("opacity-0");
 
       setTimeout(() => {
-        msgInput.style.backgroundColor = "";
+        msgInput.classList.remove("bg-red-100");
         errorMsg.classList.add("opacity-0");
       }, 3000);
 
@@ -79,7 +79,7 @@
         `&browser=${navigator.appCodeName}`
     });
 
-    msgInput.style.backgroundColor = "#f0fff4";
+    msgInput.classList.add("bg-green-100");
     setTimeout(() => (showFeedbackModal = false), 1000);
   }
 
