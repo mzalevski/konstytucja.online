@@ -53,7 +53,11 @@
     } else if (e.code === "KeyW") {
       isDescriptionVisible = !isDescriptionVisible;
     } else if (e.code === "KeyQ") {
-      isDisqusVisible = !isDisqusVisible;
+      if (!isDisqusVisible) {
+        showDisqus();
+      } else {
+        isDisqusVisible = false;
+      }
     } else if (e.code === "KeyF") {
       isFindVisible = !isFindVisible;
       if (isFindVisible) findDestination = undefined;
