@@ -88,7 +88,7 @@
       border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8
       lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900"
       bind:value={selectedChapter}
-      on:blur={sendChoice}>
+      on:change={sendChoice}>
 
       <option class="font-light text-gray-900" value="_">
         Wszystkie rozdziały
