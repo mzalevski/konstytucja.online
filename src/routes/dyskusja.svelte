@@ -50,7 +50,7 @@
     {#await assembleComments(threads)}
 
       <div class="w-20 mx-auto mt-32">
-        <Spinner size="70" speed="750" color="#A82124" thickness="2" gap="40" />
+        <Spinner size="70" speed="750" thickness="2" gap="40" />
       </div>
 
     {:then comments}

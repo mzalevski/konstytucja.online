@@ -82,6 +82,10 @@ body.dark-mode .text-gray-900 {
   @apply text-white;
 }
 
+body.dark-mode svg.text-red-new {
+  @apply text-blue-300;
+}
+
 body.dark-mode #logo {
   content: url("/images/logo-white.png");
 }
