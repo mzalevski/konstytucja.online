@@ -363,7 +363,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/WinczorekPiotr.png"
       text="Wszystkie propozycje tytułów odpowiadają treści rozdziału I. Różnice
       mają charakter tylko werbalny." />
 
@@ -842,7 +842,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/WinczorekPiotr.png"
       text="Przychylam się do opinii senatora S. Pastuszki i M. Drozdka. Nie
       ulega wątpliwości, że konstytucja powinna być aktem normatywnym o bardzo
       ograniczonej liczbie haseł. Haseł nie da się jednak zupełnie wyeliminować
