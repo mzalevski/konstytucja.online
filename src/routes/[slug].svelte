@@ -49,7 +49,11 @@
       isDisqusVisible = false;
       goto(`/${parseInt($page.params.slug) + 1}`);
     } else if (e.code === "Escape") {
-      document.getElementById("back-btn").click();
+      if (!isFindVisible) {
+        document.getElementById("back-btn").click();
+      } else {
+        isFindVisible = false;
+      }
     } else if (e.code === "KeyW") {
       isDescriptionVisible = !isDescriptionVisible;
     } else if (e.code === "KeyQ") {
