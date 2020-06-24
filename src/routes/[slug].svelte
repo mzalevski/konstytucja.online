@@ -68,6 +68,8 @@
       if (!isFindVisible) return;
       if (!findDestination) return;
       goto(`/${findDestination}`);
+      isDescriptionVisible = false;
+      isDisqusVisible = false;
       isFindVisible = false;
     }
   };
