@@ -1,3 +1,4 @@
+const extLink = `<svg class="inline fill-current text-gray-900 w-3 h-3 pb-px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"/></svg>`;
 const articles = [
   {
     title: "Art. 1",
@@ -273,7 +274,7 @@ const articles = [
     desc: `
 			<p>Co do zasady Konstytucja gwarantuje wolność działalności gospodarczej – jest to jedna z podstaw naszego ustroju. Tak jak artykuł 21 określa warunki dopuszczalnego przez Konstytucję ograniczenia prawa własności, tak artykuł 22 zakłada dopuszczalność ograniczenia wolności działalności gospodarczej. Sformułowane zostały w nim określone warunki, od których spełnienia zależy dopuszczalność tego ograniczenia. Pierwszy warunek to zastosowanie drogi ustawowej. Nie można zatem ograniczeń tego rodzaju wprowadzać innym aktem prawnym niż ustawa (np. nie może wprowadzić ich samodzielnie władza wykonawcza lub w drodze aktów prawnych Rada Ministrów czy ministrowie). Drugie ograniczenie, podobnie jak w przypadku wywłaszczenia, polega na tym, że jest ono dopuszczalne tylko ze względu na ważny interes publiczny. Nie ma więc żadnych innych uwarunkowań, które by pozwalały wprowadzić tego rodzaju ograniczenia.</p>
 
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -383,7 +384,7 @@ const articles = [
 			<p>Bezpośrednie naruszenia godności jednostki to sytuacje nietypowe, ekstremalne, głęboko ingerujące w nasze poczucie sprawiedliwości. Niemniej zdarzają się także w Polsce i wymagają nieustającej uwagi i wrażliwości. Konstytucja wywodzi nasze prawa z trzech fundamentalnych wartości: godności, wolności i równości. Godność jest najważniejszym z tych terminów. Możemy rozumieć ją zarówno jako źródło i podstawę wolności i praw człowieka lub jako odrębne, przysługujące nam prawo. Godność przysługuje każdemu z nas, każdemu człowiekowi, bez względu na jakiekolwiek cechy – wiek, płeć, niepełnosprawność, chorobę, pochodzenie, poglądy itd. – niezależnie również od naszego zachowania. Obowiązkiem państwa, społeczeństwa i innych ludzi jest uznawanie i nienaruszanie tej godności. Oznacza to zapewnienie wszystkim „minimum szacunku” oraz takich ram do samorealizacji, które umożliwią działanie zgodne z naszą wolą i systemem wartości.</p>
 			<p class="pt-2">Naruszeniem godności będzie każda sytuacja, gdy człowiek staje się wyłącznie przedmiotem działań podejmowanych przez władzę. Godność jest przyrodzona – jej źródłem nie jest Konstytucja lub inny akt prawny, ale sam fakt bycia człowiekiem (jest to tzw. prawo naturalne). Jest również nienaruszalna – co oznacza, że żaden, nawet najważniejszy interes publiczny nie może uzasadniać ingerencji w naszą godność. Nie można jej w żaden sposób stracić, nawet wskutek najbardziej nagannego zachowania czy popełnienia najcięższego przestępstwa, nie może zostać nam odebrana i nie możemy się jej zrzec.</p>
 			<p class="pt-2">Godność jest więc z jednej strony matką innych praw, „pojęciem-kluczem” dla rozumienia całego systemu, gwarantem naszych wolności. Z drugiej zaś osobnym prawem, pewnego rodzaju buforem bezpieczeństwa dla jednostki. Niektóre naganne działania, które formalnie nie naruszają innych praw lub wolności wynikających z Konstytucji, mogą stanowić naruszenie samej godności i właśnie dlatego być niedopuszczalne. Bardzo rzadko jednak prawnicy powołują się na pojęcie godności bezpośrednio – zazwyczaj godność naruszana jest wskutek naruszenia innego przysługującego nam prawa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -407,7 +408,7 @@ const articles = [
 
 			<p class="pt-2">Z kolei z konstytucyjnej zasady proporcjonalności wynika przekonanie, że stopień intensywności ingerencji w sytuację prawną jednostki musi znajdować uzasadnienie w randze promowanego interesu publicznego. Innymi słowy, ograniczenie praw jednostki musi być ekwiwalentne wobec celu, któremu służy dana regulacja. Przy spełnieniu pewnych warunków dopuszczalne jest więc ograniczenie konstytucyjnych praw i wolności jednostki dla ochrony innych dóbr. Zgodność ograniczenia z Konstytucją zależy zawsze jednak od odpowiedzi na trzy pytania: czy wprowadzone ograniczenia służą realizacji określonego celu (przydatność), czy jest niezbędne dla jego osiągnięcia (konieczność), czy nie stanowi zbyt wysokiego kosztu realizacji założonego celu, a zatem czy – poświęcone dobro pozostaje we właściwej proporcji do osiągniętego efektu (proporcjonalność)<sup title="Tak L. Garlicki, Orzecznictwo Trybunału Konstytucyjnego w 2000 r., Przegląd Sejmowy 2001 r., nr 9, s. 97">2</sup>.</p>
 
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -423,10 +424,8 @@ const articles = [
 		`,
     desc: `
 			<p>Ustęp 1. Równość — wraz z godnością i wolnością — stanowi podstawę porządku ustrojowego i w tym powiązaniu należy ją rozpatrywać. Zasada równości wyznacza sposób i zakres korzystania z innych wolności i praw, oraz określa zakres dopuszczalnych ograniczeń. Konstytucja gwarantuje wszystkim równość wobec prawa. Oznacza to, że nierówności społeczne będą niezgodne z Konstytucją wtedy, gdy są efektem obowiązującego prawa. Równość rozumiana jako prawo podmiotowe może być traktowana jako „równość wobec prawa” oraz „równość w prawie”, tak w stanowieniu jak i w stosowaniu prawa. Zasadę równości rozpatruje się w relacjach jednostka – władza publiczna. Zasada równości oznacza, że wszystkie podmioty prawa charakteryzujący się daną cechą istotną w równym stopniu powinny być traktowane równo, według jednolitej miary, bez zróżnicowań dyskryminujących lub faworyzujących. Jednocześnie zasada ta zakłada odmienne traktowanie tych podmiotów, które nie posiadają wspólnej cechy istotnej.</p>
-
 			<p class="pt-2">Ustęp 2. Konstytucja zakazuje dyskryminacji z jakiejkolwiek przyczyny. Zakaz dyskryminacji jest konsekwencją i logicznym następstwem zasady równości. Konstytucja zakazuje wprost wprowadzania nieuzasadnionych zróżnicowań. Zakaz dyskryminacji ma charakter uniwersalny podmiotowo („nikt”) i przedmiotowo (obejmuje „życie polityczne, społeczne lub gospodarcze”). Dyskryminacja to gorsze traktowanie ze względu na cechę osobistą. Jest to kwalifikowana forma nierównego traktowania osoby ze względu na jakąś jej cechę osobistą, bez racjonalnego uzasadnienia. Do najczęściej wymienianych przesłanek dyskryminacji zalicza się płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek, orientację seksualną lub tożsamość płciową, ale mogą do nich należeć także inne cechy osobiste jak np. pochodzenie społeczne czy status materialny. Niedopuszczalne jest, by organy władzy publicznej odstępowały od zakazu dyskryminacji. Żeby ustalić, czy mamy do czynienia z dyskryminacją, musimy zbadać, czy rzeczywiście dwa podmioty zostały różnie potraktowane. Jeśli tak, to dlaczego: czy powodem była konkretna cecha danej osoby (to jest dyskryminacja) czy też inne przyczyny (Przykład: osoby z niepełnosprawnością mają prawo do głosowania korespondencyjnego. Osoby bez orzeczonej niepełnosprawności są więc traktowane nierówno, ale to nie jest dyskryminacja). Standard ochrony prawnej przed nierównym traktowaniem i dyskryminacją wynika z aktów prawa międzynarodowego i europejskiego. Na gruncie prawa polskiego podstawowe znaczenie mają regulacje Kodeksu pracy oraz ustawy o wdrożeniu niektórych przepisów Unii Europejskiej w zakresie równego traktowania.</p>
-
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -444,7 +443,7 @@ const articles = [
 			<p>Zasadę równości płci znajdziemy pośrednio w ogólnej zasadzie równości. Ponieważ Konstytucja nie tworzy katalogu cech, w oparciu o które zakazane jest różnicowanie sytuacji jednostek, artykuł 33 ma szczególne znaczenie i stanowi rozwinięcie <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/32'>art. 32</a>.
 			<p class="pt-2">Zakazuje ona dyskryminacji, tj. nieuzasadnionego różnicowania sytuacji prawnej obu płci. Zatem przyjęcie płci jako podstawy zróżnicowania rodzi domniemanie niekonstytucyjności danego rozwiązania. Wynika to także bezpośrednio z zakazu różnicowania ze względu na płeć zawartego w art. 14 Europejskiej Konwencji Praw Człowieka.</p>
 			<p class="pt-2">Zróżnicowania są uzasadnione, gdy spełniają warunki konieczności, proporcjonalności oraz związku z innymi normami konstytucyjnymi, np. na płaszczyźnie praw socjalnych dopuszczalne jest przyznawanie pewnych przywilejów kobietom w celu wyrównania faktycznych nierówności społecznych (dyskryminacja pozytywna).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -461,18 +460,14 @@ const articles = [
     desc: `
 			<p>Wszystkie polskie konstytucje posługiwały się pojęciem obywatelstwa w kontekście określania praw i wolności jednostki. W Konstytucji z 1997 roku odróżniono wyraźnie prawa człowieka od praw obywatela. W związku z tym koniecznym okazało się określenie w rozdziale drugim przesłanek posiadania obywatelstwa.</p>
 			<p class="pt-2">Artykuł 34 wskazuje trzy główne zasady:</p>
-
 			<ul class="pl-4">
 				<li>1) zasadę krwi (obywatelstwo nabywa się poprzez urodzenie przez obywateli RP, gdy przynajmniej jedno z rodziców posiada obywatelstwo polskie),</li>
 				<li>2) zasadę dopuszczalności innych dróg (określonych w ustawie),</li>
 				<li>3) zasadę trwałości obywatelstwa (nie można go utracić inaczej niż poprzez zrzeczenie się go).</li>
 			</ul>
-
 			<p class="pt-2">Konstytucja wyklucza możliwość pozbawienia obywatelstwa bez zgody obywatela. Historycznie jest to niezwykle istotne rozwiązanie, ponieważ w Polsce utrata obywatelstwa stosowana była jako forma kary lub represji zazwyczaj w kontekście politycznym.</p>
-
 			<p class="pt-2">Warto przypomnieć tu, że obywatelom polskim – tak jak wszystkim obywatelom państw członkowskich Unii Europejskiej – przysługuje także obywatelstwo europejskie.</p>
-
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -496,7 +491,7 @@ const articles = [
 				<li>3) zakazu dyskryminacji.</li>
 			</ul>
 			<p class="pt-2">Obywatel polski będący przedstawicielem mniejszości ma konstytucyjne prawo do zachowania i rozwoju swojej tożsamości narodowej lub etnicznej: języka, obyczajów, tradycji i kultury. Należyta realizacja tych wolności wymaga także pozytywnych działań państwa. W rozumieniu ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym mniejszością narodową jest grupa obywateli polskich, która jest mniej liczebna od pozostałej części ludności RP, w sposób istotny odróżnia się od pozostałych obywateli językiem, kulturą lub tradycją, dąży do zachowania tych odrębności, ma świadomość własnej historycznej wspólnoty narodowej i jest ukierunkowana na jej wyrażanie i ochronę, a jej przodkowie zamieszkiwali obecne terytorium Polski od co najmniej 100 lat. Grupa taka, aby zostać uznana za mniejszość narodową, powinna ponadto utożsamiać się z narodem zorganizowanym we własnym państwie. Mniejszością etniczną jest natomiast grupa obywateli polskich spełniająca powyższe kryteria, lecz nieutożsamiająca się z narodem zorganizowanym we własnym państwie.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -512,7 +507,7 @@ const articles = [
     desc: `
 			<p>Prawo do opieki ze strony Rzeczypospolitej istnieje niezależnie od charakteru pobytu za granicą (stałego, tymczasowego, legalnego etc.). Obowiązek opieki spoczywa na władzach publicznych, przede wszystkim na instytucjach działających w stosunkach zagranicznych (np. konsulatach). Prawo to istnieje w każdej sytuacji, także w przypadku naruszenia przez obywatela prawa (polskiego lub obcego).</p>
 			<p class="pt-2">Podmiotem opieki jest obywatel polski, poza zakresem ochrony pozostają więc Polacy nieposiadający obywatelstwa polskiego. Artykuł 36 nie precyzuje jednak, na czym ma polegać opieka. Pozostawia to ustawodawcy, dlatego trudno sprecyzować katalog uprawnień i obowiązków.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -532,7 +527,7 @@ const articles = [
 			<p class="pt-2">Dlatego wszystkie prawa i wolności, których Konstytucja nie zastrzega dla obywateli, przysługują także cudzoziemcom.</p>
 			<p class="pt-2">Pod władzą RP znajdują się przede wszystkim osoby, które przebywają na terytorium Polski (w rozumieniu regulacji prawa międzynarodowego) lub są poddane polskim regulacjom prawnym.</p>
 			<p class="pt-2">Wyjątki od zasady uniwersalności mogą odnosić się jedynie do cudzoziemców i muszą zostać ustanowione w ustawie. Dopuszczalny zakres wyjątków należy ustalić w relacji z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>art. 31</a> ust. 3, <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/32'>art. 32</a> (zasada równości) oraz <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/30'>art. 30</a> Konstytucji (zasada godności).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -549,7 +544,7 @@ const articles = [
 			<p>Prawo do ochrony życia jest jedną z najważniejszych gwarancji konstytucyjnych, które w sposób naturalny warunkuje istnienie wszystkich dalszych wolności i praw. Ponieważ życie ludzkie jest wartością konstytucyjną, państwo w sposób bezpośredni powołane zostaje do jego ochrony.</p>
 			<p class="pt-2">Ochrona życia wynika z samej zasady państwa demokratycznego. Dlatego przed 1997 r., gdy Konstytucja nie odnosiła się wprost do ochrony życia ludzkiego, Trybunał Konstytucyjny wywiódł zasadę jego ochrony z samej charakterystyki polskiej państwowości – z zasady demokratycznego państwa prawnego (por. orzeczenie K 26/96).</p>
 			<p class="pt-2">Konstytucja wymaga od państwa nie tylko powstrzymania się od wprowadzania regulacji dopuszczających pozbawianie życia ludzkiego, np. w ramach kary śmierci, ale również podejmowania określonych kroków w celu ochrony tego życia.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -565,7 +560,7 @@ const articles = [
     desc: `
 			<p>Rozwój medycyny i nauk biologicznych stawia nowe wyzwania dla ochrony praw człowieka i realizacji podstawowych praw i wolności konstytucyjnych.</p>
 			<p class="pt-2">Z Konstytucji wynika, że eksperymenty medyczne oraz inne nie mogą być obarczone świadomym ryzykiem negatywnych skutków dla osób poddanych eksperymentowi. Dobrowolnie wyrażona zgoda na udział w eksperymencie powinna być zawsze udzielona indywidualnie, a nie w sposób zbiorowy. Dobrowolność zgody oznacza również pełne poinformowanie o celach, przebiegu oraz możliwych następstwach poddania się procedurze. Eksperymentem naukowym może być jedynie eksperyment przeprowadzony przez osoby posiadające odpowiednią wiedzę i uprawnienia. Zagadnienia związane z bioetyką i prawami człowieka zostały opisane przy <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/38'>art. 38</a> (Prawo do ochrony życia)</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -591,7 +586,7 @@ const articles = [
 			<p class="pt-2">Konwencja, mimo wprowadzenia definicji tortur oraz powołania ciała skargowego w postaci Komitetu przeciwko torturom ONZ, którego zadaniem jest m.in. badanie wszelkich zgłoszeń dotyczących tortur, nie odnosi się do kwestii zapobiegania torturom i nieludzkiemu traktowaniu. Tymczasem w latach 70. rozpoczęła się dyskusja na temat znaczenia działań prewencyjnych w eliminowaniu tego typu praktyk<sup title="Już wówczas kilka organizacji międzynarodowych połączyło swoje siły w celu znalezienia dodatkowych, bardziej pragmatycznych, sposobów zapobiegania takim nadużyciom. Szwajcarski filantrop Jean Jacques Gautier, zainspirowany wynikami wizyt więzień przeprowadzanych przez Międzynarodowy Komitet Czerwonego Krzyża podczas wojny, starał się stworzyć system regularnych wizyt wszystkich miejsc zatrzymań na całym świecie. W 1977 r‏. powołał Stowarzyszenie Zapobiegania Torturom (APT), niezależną organizację pozarządową z siedzibą w Genewie, która od początku broniła prostej, lecz nowatorskiej zasady wysuniętej przez niego, iż wizytowanie miejsc, w których przebywają ludzie pozbawieni wolności to najbardziej skuteczna metoda zapobiegania torturom i maltretowaniu. Przez wiele lat członkowie APT zabiegali o utworzenie takiego systemu w strukturach ONZ.">12</sup>. Ukoronowaniem starań o uzupełnienie systemu prewencji tortur było podpisanie w dniu 18 grudnia 2002 r. Protokołu Fakultatywnego do Konwencji ONZ w sprawie zakazu stosowania tortur oraz nieludzkiego i poniżającego traktowania (dalej zwanym Protokołem lub OPCAT). Tym samym społeczność międzynarodowa wyraziła swój oficjalny sprzeciw wobec stosowania tortur oraz innych form okrutnego, nieludzkiego lub poniżającego traktowania.</p>
 			<p class="pt-2">Zgodnie z Protokołem jednym z najskuteczniejszych sposobów zapobiegania torturom jest stworzenie systemu regularnych, kontrolnych wizyt przeprowadzanych w miejscach, gdzie przebywają osoby pozbawione wolności. Protokół przewiduje powołanie tzw. międzynarodowego mechanizmu prewencji oraz krajowych mechanizmów prewencji. Zgodnie z OPCAT każde państwo-strona zezwala na przeprowadzanie wizyt przez obydwa mechanizmy w jakimkolwiek miejscu pozostającym pod jego jurysdykcją i kontrolą, gdzie przebywają lub mogą przebywać osoby pozbawione wolności na podstawie polecenia organu władzy publicznej bądź za jego namową, zgodą lub przyzwoleniem.</p>
 			<p class="pt-2">Polska ratyfikowała OPCAT w 2005 r.<sup title="Dz. U. z 2007 r. nr 30, poz. 192">13</sup>, krajowy mechanizm prewencji [tortur] (KMPT) powołany został w 2008 r. Funkcja ta powierzona została RPO<sup title="Dz. U. z 2014 r., poz. 1648">14</sup>.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -613,7 +608,7 @@ const articles = [
 			<p class="pt-2">2 i 3. Pozbawienie wolności osobistej nie oznacza pozbawienia jednostki możliwości decydowania o sobie, ale jedynie pozbawienie wolności osobistej sensu stricto. O pozbawieniu wolności orzeka sąd (prawo jednostki do sądu wynika z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/45'>art. 45</a> Konstytucji). Zasada ta nie ma zastosowania do sytuacji ograniczenia wolności, chyba, że uzna tak ustawodawca. Konstytucja posługuje się także pojęciem „zatrzymanie”, które umożliwia innym instytucjom publicznym ingerencję w wolność. Musi się ono odbywać jednak wyjątkowo, w trybie i sytuacjach określonych na podstawie przepisów ustawy. Przedstawiciele władzy w momencie zatrzymania mają obowiązek niezwłocznego poinformowania zatrzymanego o przyczynach ich ingerencji. Poinformowanie to powinno polegać również na wskazaniu konieczności danej interwencji w formie zatrzymania. Informacja ta powinna zostać przekazana niezwłocznie (gdy będzie to możliwe) oraz w zrozumiały sposób (także np. poprzez tłumacza języka obcego lub migowego). Kolejny obowiązek spoczywający na władzach publicznych w sytuacji zatrzymania to przekazanie zatrzymanego w ciągu 48 godzin do dyspozycji sądu. Oznacza to między innymi obowiązek starannego rozważenia całokształtu sytuacji zatrzymanego i natychmiastowe zwolnienie go, o ile wygasły przyczyny zatrzymania, bez przedstawienia do dyspozycji sądu. Przekazanie do dyspozycji sądu oznacza uznanie przez przedstawicieli władz konieczności podjęcia dalszych kroków prawnych wobec zatrzymanego. Powinno więc być połączone z odpowiednim wnioskiem, o czym należy poinformować zatrzymanego. Sąd w takiej sytuacji może zdecydować o zwolnieniu zatrzymanego lub tymczasowym aresztowaniu go (na doręczenie postanowienia sądu w tym zakresie przedstawiciele władz mają 24 godziny).</p>
 			<p class="pt-2">4. Humanitarne traktowanie to coś więcej niż zakaz tortur, okrutnego, poniżającego i nieludzkiego traktowania. Oznacza ono takie obchodzenie się z osobą pozbawioną wolności, które uwzględnia i respektuje pewne minimalne potrzeby każdego człowieka, odnosząc je do standardów danego społeczeństwa. Warto podkreślić, że sposób traktowania osób pozbawionych wolności określono za pomocą najbardziej pojemnego terminu. Twórcy Konstytucji wykorzystali pojęcie humanitarnego traktowania, kierując się założeniem o możliwości resocjalizacji i powrotu do społeczeństwa. Dlatego rolą państwa jest także tworzenie warunków sprzyjających resocjalizacji i podejmowanie na szeroką skalę działań wychowawczych.</p>
 			<p class="pt-2">5. Każde pozbawienie wolności to bardzo daleka ingerencja w sferę wolności jednostki, dlatego naruszenie tego dobra musi być traktowane ze szczególną powagą. Twórcy Konstytucji stworzyli zatem osobną regulację, która umożliwia dochodzenie tego rodzaju odszkodowań. Odszkodowanie za bezprawne pozbawienie wolności jest jednym z przypadków „wynagrodzenia za szkody”, które przysługuje jednostce „za niezgodne z prawem działanie organu władzy publicznej” (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/77'>art. 77</a> ust. 1).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -632,7 +627,7 @@ const articles = [
 			<p>1 Twórcy Konstytucji w sposób szczególny podkreślili tutaj odpowiedzialność za przestępstwa, a więc takie czyny zabronione pod groźbą kary, które są społecznie nieakceptowalne, wysoko szkodliwe, przy których wymierzane dolegliwości powinny być szczególnie odczuwalne. Zasadę, że odpowiedzialności karnej podlega tylko ten, kto popełnia czyn zabroniony pod groźbą kary przez ustawę obowiązującą w czasie jego popełnienia, prawnicy opisują po łacinie jako nullum crimen sine lege (nullum crimen, nulla poena sine lege poenali anteriori).	Zarówno zasada nullum crime (nie ma przestępstwa) jak i zasada nulla poena (nie ma kary) znajdują swoje źródło już w <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>artykule 31</a> ust. 3 Konstytucji (Ograniczenia w zakresie korzystania z konstytucyjnych wolności i praw mogą być ustanawiane tylko w ustawie i tylko wtedy, gdy są konieczne w demokratycznym państwie dla jego bezpieczeństwa). Obie zasady mają charakter absolutny i nie mogą być poddawane żadnym wyjątkom.</p>
 			<p class="pt-2">2. Prawo do obrony oznacza możliwość podejmowania wszelkich działań zgodnych z prawem, które mają potwierdzić wersję zdarzeń uczestnika postępowania (jego niewinność lub określony charakter winy). W żadnym wypadku nie można wymagać współdziałania w udowodnieniu stawianych zarzutów. Prawo to przysługuje na wszystkich stadiach postępowania i we wszystkich instancjach. Za każdym razem występuje w pełnym zakresie, niezależnie od zapadłych orzeczeń.	Niezwykle istotne jest w tym wypadku prawo do korzystania z pomocy obrońcy. Obrońca działa w interesie podejrzanego, umożliwiając mu pełne i efektywne korzystanie z przysługujących praw.</p>
 			<p class="pt-2">3. Fakt popełnienia zabronionego czynu oraz fakt popełnienia go w sposób zawiniony muszą być udowodnione. Domniemanie niewinności odnosi się do każdego, kto dopuścił się czynu zabronionego, a nie jedynie do oskarżonego. Takie szerokie ujęcie jest istotne ponieważ artykuł 42 dotyczy odpowiedzialności karnej i postępowania karnego w każdej postaci. Przepis ten należy bezpośrednio powiązać z prawem do sądu (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/45'>art. 45</a> ust. 1). Jednocześnie warto podkreślić, że wyroki sądowe to najczęściej spotykane rozstrzygnięcia orzekające o wymierzeniu kary. Domniemanie niewinności przypisane jest również osobom, przeciwko którym toczy się dochodzenie lub śledztwo, a także obwinionym o popełnienie wykroczenia lub innego czynu zabronionego pod groźbą kary.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -647,7 +642,7 @@ const articles = [
 		`,
     desc: `
 			<p>Prawo karne co do zasady przewiduje instytucję przedawnienia. Jeśli ściganie sprawcy stało się możliwe dopiero po upływie znacznego czasu, odstępuje się od ścigania. Często bowiem czyn zatarł się już w pamięci, a sprawca jest innym człowiekiem. Artykuł 43 wprowadza jednak dwa wyjątki od tej zasady: pierwszy dotyczy zbrodni wojennych a drugi – zbrodni przeciwko ludzkości. Zbrodnie wojenne to najcięższe przestępstwa popełniane w trakcie wojny, niezależnie przeciwko komu zostały popełnione. O ile Polska nie zdecyduje się na ekstradycję lub przekazanie sprawy odpowiedniemu trybunałowi międzynarodowemu, jest zobowiązana do wszczęcia postępowania karnego. W przypadku zbrodni wojennej nie przyjmuje się jako okoliczności wyłączającej odpowiedzialność działania na rozkaz przełożonego. Zbrodnie przeciwko ludzkości to masowe zamachy przeciwko całym grupom ludności w celu wykonania lub wsparcia polityki państwa lub organizacji. Szczególną formą zbrodni przeciwko ludzkości jest ludobójstwo, czyli czyny zmierzające do eksterminacji pewnych grup ludności jako grup o szczególnych cechach społecznych, narodowych, religijnych czy rasowych. Winni takich zbrodni powinni zostać osądzeni przez władze polskie niezależnie od momentu popełnienia tego czynu.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -667,7 +662,7 @@ const articles = [
 				<li>2) w stosunku do sprawcy tego czynu z przyczyn politycznych nie wszczęto lub przerwano (zawieszono) postępowanie (dochodzenie, śledztwo).</li>
 			</ul>
 			<p class="pt-2">Nie chodzi jedynie o przestępstwa polityczne, ale o wszystkie przestępstwa – w tym także czyny wymienione w art. 43. Przepis ten ma szczególne znaczenie w kontekście zdarzeń, które zaszły w trakcie trwania poprzedniego ustroju. Obecnie nieściganie przestępstw z przyczyn politycznych jest niekonstytucyjne.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -685,7 +680,7 @@ const articles = [
 			<p>Każdy może zwrócić się do sądu, gdy poszukuje sprawiedliwości lub gdy odczuwa potrzebę ustalenia swojego statusu prawnego. Prawo do sądu oznacza, że o statusie jednostki decyduje ostatecznie sąd – i nikt inny. Prawo do sądu jest również gwarancją praw i wolności jednostki, pod warunkiem, że sąd jest niezawisły i niezależny.</p>
 			<p class="pt-2">Z takiego ukształtowania artykułu 45 wynika także zasada dostępności do sądów. Powinno być to względnie łatwe (także w sprawach rozpoznawanych przez wyższe instancje), a wszelkie ograniczenia w tym zakresie muszą być zgodne z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>art. 31</a> ust. 3 Konstytucji.</p>
 			<p class="pt-2">Prawo do niezawisłego i niezależnego sądu wynika także z dalszych szczegółowych rozwiązań konstytucyjnych (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/173'>art. 173</a>, <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/178'>178</a> oraz <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/186'>186</a> Konstytucji). Sąd nie może sprzyjać żadnej ze stron procesowych, musi być bezstronny, także – a może szczególnie – w sprawach, w których jednostka procesuje się z państwem. Tak rozumiana bezstronność sędziów jest elementem ich niezależności i niezawisłości. Artykuł 45 charakteryzuje również sposób działania sądów – sprawy powinny być rozpatrywane sprawiedliwie, jawnie i bez nieuzasadnionej zwłoki.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -702,7 +697,7 @@ const articles = [
 			<p>Artykuł 46 nawiązuje bezpośrednio do prawa własności jednostki, uregulowanego w artykule 64 Konstytucji. Umieszczenie tej regulacji w podrozdziale dotyczącym wolności osobistych stanowi wzmocnienie instytucji prawa własności i wyklucza pozbawienie jednostki własności całości posiadanych przez nią dóbr.</p>
 			<p class="pt-2">Własność nie może być nikomu odebrania ani przez akt ustawodawczy, ani wykonawczy. Dopuszczalne jest natomiast wywłaszczenie (art. 21), które nie oznacza „przepadku rzeczy” w związku z konstytucyjnym nakazem „słusznego odszkodowania”, który rekompensuje utracone dobro.</p>
 			<p class="pt-2">Jedynie sądy poprzez prawomocne orzeczenia mogą orzekać o pozbawieniu własności, jeśli w danej sytuacji przewiduje to ustawa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -719,7 +714,7 @@ const articles = [
 			<p>Artykuł ten dotyczy dwóch sytuacji: prawa jednostki do prawnej ochrony wskazanych sfer życia oraz prawa do decydowania o sprawach dotyczących życia osobistego.</p>\
 			<p class="pt-2">Z prawa do ochrony życia prywatnego wynika obowiązek władz publicznych, by uregulować te zagadnienia oraz powstrzymać się od ingerencji w sfery prywatne. Przepis ten powiązany jest bezpośrednio z wolnością człowieka (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>art. 31</a> ust. 1) i wolnością osobistą jednostki (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/41'>art. 41</a>).</p>
 			<p class="pt-2">Twórcy Konstytucji posłużyli się trzema zazębiającymi się pojęciami: życie prywatne, życie rodzinne oraz życie osobiste.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -737,7 +732,7 @@ const articles = [
 			<p>Wychowanie oznacza zaszczepianie i umacnianie w dzieciach określonego światopoglądu, przekonań, systemu wartości, zasad obyczajowych, moralnych i etycznych poprzez świadome działania rodziców. Rodzice mają tu swobodę postępowania i wolność od wszelkich postronnych ingerencji. Dopiero gdyby przekazywanie pewnych treści należało zakwalifikować jako demoralizację, mogą wkroczyć organy państwa celem ochrony dziecka.</p>
 			<p class="pt-2">Prawo do wychowywania zgodnie z własnymi przekonaniami, podobnie jak i inne prawa rodzicielskie mogą być ograniczane, a nawet odebrane rodzicom w sytuacjach określonych w ustawie.</p>
 			<p class="pt-2">Wynika to z zasady priorytetu dobra dziecka.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -757,7 +752,7 @@ const articles = [
 				<li>2) prawo do nieujawniania faktu, że się przekaz otrzymało,</li>
 				<li>3) zakaz zdobywania wiedzy o treści przekazu bez zgody adresata (zakaz ten dotyczy także władz publicznych).</li>
 			</ul>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -772,7 +767,7 @@ const articles = [
 		`,
     desc: `
 			<p>Nienaruszalność mieszkania uregulowana została analogicznie do swobody korespondencji – wraz z zakazem wglądu do niej osób trzecich. Prawo to może być określane jako niezakłócone korzystanie ze swego mieszkania (tzw. mir domowy) i ma bezpośredni związek z prawem do prywatności oraz zasadą godności. 	Za naruszenie mieszkania uznaje się wkraczanie do mieszkania bez zgody osób tam zamieszkujących bądź nieopuszczenie go na żądanie mieszkańców. Może być więc rozumiane jako zakaz przeszukiwania (bez dostatecznych podstaw) oraz zakaz wszelkiego nieuprawnionego wkraczania i przebywania w nim. Podmiotami zobowiązanymi do szanowania tej wolności są wszystkie inne osoby, w tym ewentualny właściciel mieszkania lub przedstawiciele organów władzy i pracownicy służb publicznych. Uprawnieni do korzystania z nienaruszalności są mieszkańcy (a więc także lokatorzy).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -799,7 +794,7 @@ const articles = [
 				<li>5) prawie żądania usunięcia informacji zawartych w jednym lub drugim zbiorze w tych samych przypadkach.</li>
 			</ul>
 			<p class="pt-2">Władze publiczne nie mogą dla własnych celów dokumentować danych osobowych, sprawdzać i dokumentować zachowań osób prywatnych czy zmuszać do ujawniania swych indywidualnych cech, właściwości oraz postępowania.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -821,7 +816,7 @@ const articles = [
 			<p class="pt-2">Wolność poruszania się oznacza możliwość zmiany miejsca pobytu, zamieszkiwanie (jeśli dysponuje się mieszkaniem) lub pobyt (niezależnie od posiadania mieszkania i tymczasowości). Konstytucja reguluje także swobodę wyjazdu z Polski w dowolnym celu oraz swobodę emigrowania. Wolności te przysługują nie tylko obywatelom RP, ale każdej jednostce.</p>
 			<p class="pt-2">Obywatel polski przebywający w Rzeczypospolitej, nie może być deportowany do innego państwa (zakaz wydalenia z kraju), nie można mu również zakazać powrotu do kraju.</p>
 			<p class="pt-2">Cudzoziemcy, których pochodzenie polskie zostało stwierdzone, mają zaś prawo osiedlenia się na stałe na terytorium Polski.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -846,7 +841,7 @@ const articles = [
 			<p class="pt-2">Wolność sumienia polega na możliwości przyjmowania dowolnego światopoglądu. Wolność religii jest jedną z sytuacji realizowania się wolności sumienia i ma miejsce w przypadku przyjęcia światopoglądu uznającego istnienie Boga (niezależnie od jego wizji w rozmaitych religiach). Wolność ta zakłada wymóg tolerowania zwolenników różnych światopoglądów, głoszonych przez nich wypowiedzi i ich praktyk religijnych.</p>
 			<p class="pt-2">Twórcy Konstytucji w ustępie drugim tego artykułu wskazali na pewne konkretne przejawy realizacji tej wolności, jednak jest to katalog otwarty i można go rozszerzać.</p>
 			<p class="pt-2">Artykuł ten gwarantuje również dwa odrębne prawa w tym zakresie: prawo do korzystania z pomocy religijnej tam, gdzie się przebywa (a zatem także np. w miejscach pozbawienia wolności i szpitalach) oraz prawo do nauczania religii w szkołach (dotyczy to także nauczania religii mniejszościowych i etyki).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -865,7 +860,7 @@ const articles = [
 			<p class="pt-2">Wyrażenie „pogląd” należy w tym wypadku rozumieć jak najszerzej, jako wyrażanie osobistych ocen, prezentowanie opinii czy przypuszczeń, informowanie o faktach etc. Wolność ta ma zastosowanie zarówno w sferze publicznej jak i prywatnej (choć szczególnego znaczenia nabiera na gruncie przestrzeni publicznej, życia społecznego, a zwłaszcza politycznego), obejmuje osoby fizyczne i prawne. Forma wyrażania poglądów może być dowolna, niekoniecznie poprzez wypowiedzi słowne (np. poprzez noszenie określonego stroju).</p>
 			<p class="pt-2">Wolność pozyskiwania informacji dotyczyć może zbierania danych z dowolnych sfer życia publicznego (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/61'>art. 61</a> Konstytucji nakłada na władze obowiązek udzielania odpowiednich informacji) lub prywatnego.</p>
 			<p class="pt-2">Poprzez rozpowszechnianie informacji należy rozumieć udostępnianie zebranych danych osobom trzecim (indywidualnie wybranym) lub upowszechnianie ich (czyli podawanie do wiadomości publicznej, np. poprzez środki społecznego przekazu). Potwierdza to konstytucyjną zasadę wolności prasy zawartą w <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/14'>art. 14</a>.</p>
-			<p class="pt-2" class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2" class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -894,7 +889,7 @@ const articles = [
 				<li>1) Aby ekstradycja polskiego obywatela była konstytucyjnie dopuszczalna, wszystkie elementy wyznaczające miejsce popełnienia przestępstwa muszą wystąpić poza terytorium Polski.</li>
 				<li>2) Ekstradycji obywatela polskiego można dokonać, jeśli jego czyn stanowił przestępstwo według prawa polskiego lub stanowiłby je w razie popełnienia go na terytorium Polski.</li>
 			</ul>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -911,7 +906,7 @@ const articles = [
     desc: `
 			<p>Status azylanta lub uchodźcy mogą uzyskać jedynie cudzoziemcy (obywatele innych państw lub bezpaństwowcy). Osoby te znajdują się pod władzą Rzeczypospolitej i z tego powodu korzystają z praw i wolności zapewnionych w Konstytucji.</p>
 			<p class="pt-2">Statusu azylanta lub uchodźcy nie uzyskuje się automatycznie, należy się o niego ubiegać przed organami państwa (powody i procedurę – która musi być również zgodna z zasadami konstytucyjnymi – określa ustawa lub umowa międzynarodowa).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -928,7 +923,7 @@ const articles = [
 			<p>Z konstytucyjnej wolności zgromadzeń można wyprowadzić kilka praw podmiotowych: prawo do organizowania zgromadzenia, kierowania jego przebiegiem, uczestniczenia lub nieuczestniczenia w zgromadzeniu i prawo do ochrony ze strony państwa lub innych władz publicznych.</p>
 			<p class="pt-2">Wszelka ingerencja władz publicznych w sferę wolności zgromadzeń musi być powściągliwa i musi mieć uzasadnienie prawne.</p>
 			<p class="pt-2">Warunkiem objęcia zgromadzenia ochroną konstytucyjną jest jego pokojowy charakter.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -952,7 +947,7 @@ const articles = [
 				<li>4) prawo do udziału w kierowaniu zrzeszeniem (uczestniczenia w pracach, tworzenia struktur, swobodnego działania w granicach prawa).</li>
 			</ul>
 			<p class="pt-2">Sama instytucja zrzeszenia ma także prawo do swobodnego działania. Ważnym aspektem korzystania z tej wolności jest dobrowolność zrzeszeń (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/11'>art. 11</a> i <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/12'>12</a> Konstytucji). Władze państwa muszą odpowiednio rozważnie decydować o ewentualnej dopuszczalnej ingerencji w wolność zrzeszania się (zawsze jedynie na podstawie i w granicach obowiązującego prawa).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -975,7 +970,7 @@ const articles = [
 			<li>2) organizacje społeczno-zawodowe rolników,</li>
 			<li>3) organizacje pracodawców.</li>
 		</ul>
-		<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+		<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -992,7 +987,7 @@ const articles = [
 			<p>Prawo to przysługuje jedynie obywatelom polskim korzystającym z pełni praw publicznych. Nie dotyczy osób prawnych i innych podmiotów zbiorowych.</p>
 			<p class="pt-2">Regulacja ta tworzy prawo równego dostępu do służby cywilnej. Posługuje się wyrażeniem „dostęp na jednakowych zasadach”. Jednakowe zasady mają zapewnić równość szans wszystkich spełniających określone warunki osób, które ubiegają się o objęcie służby publicznej Szczególnie ważne jest w tym kontekście równe traktowanie kobiet i mężczyzn.</p>
 			<p class="pt-2">Prawo do „dostępu” nie oznacza automatycznego przyjęcia do służby publicznej, a jedynie możliwość ubiegania się. Państwo ma obowiązek stworzenia formalnych gwarancji zapobiegających nieuzasadnionej i bezprawnej dyskryminacji.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1011,7 +1006,7 @@ const articles = [
     desc: `
 			<p>1. Prawo dostępu do informacji publicznej, czyli prawo do informacji o działalności organów władzy publicznej, a także osób pełniących funkcje publiczne, zagwarantowane jest jedynie obywatelom, co jest związane z politycznym charakterem tego prawa. Warto wskazać, ze konstytucyjne prawo do informacji o stanie i ochronie środowiska jest zagwarantowane każdemu, także osobom nieposiadającym obywatelstwa (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/74'>art. 74</a> ust. 3). Prawo do informacji publicznej przysługuje bez względu na ewentualny interes prawny w dostępie do danej informacji, dlatego nie jest konieczne podawanie powodu ubiegania się o informację. Może być też realizowane w różnych formach. Prawo obywateli nie jest ograniczone tylko do organów przedstawicielskich. Z treści art. 61 ust. 1 wynika, że obejmuje ono także uzyskiwanie informacji o działalności samorządu gospodarczego i zawodowego, a także innych jednostek organizacyjnych, jeśli wykonują one zadania władzy publicznej, a także jeśli gospodarują mieniem komunalnym lub majątkiem Skarbu Państwa.</p>
 			<p class="pt-2">2-4. Prawo do informacji może być realizowane w różnych formach. Konstytucja wymienia tylko najważniejsze z nich, co nie wyczerpuje pełnego katalogu. Z tych najważniejszych form wymienia się dostęp do dokumentów, a także wstęp na posiedzenia kolegialnych organów władzy publicznej pochodzących z powszechnych wyborów (posiedzenia Sejmu, Senatu, organów stanowiących samorządu terytorialnego), z prawem rejestracji dźwięku lub zapisu. Ograniczenia tego prawa, o których wspomina ustęp 3, nie są liczne i zostały uzasadnione potrzebą ochrony wolności i praw innych osób, ochrony porządku publicznego, bezpieczeństwa lub ważnego interesu gospodarczego państwa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1039,7 +1034,7 @@ const articles = [
 				<li>3) wójta w danej gminie – osobie mającej prawo wybierania do rady tej gminy.</li>
 			</ul>
 			<p class="pt-2">Krąg osób posiadających bierne prawo wyborcze (prawo wybieralności) jest ukształtowany różnie w zależności od rodzaju wyborów.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1055,7 +1050,7 @@ const articles = [
     desc: `
 			<p>Przepis ten reguluje prawo do występowania do władz publicznych, organizacji i instytucji społecznych z określonymi wnioskami. Konstytucja prawo to pojmuje szeroko przewidując takie formuły jak: petycje, wnioski, a także skargi. Prawo to, co warto podkreślić, przysługuje każdemu, a więc nie tylko obywatelom polskim.</p>
 			<p class="pt-2">Adresatem petycji, wniosków i skarg mogą być organy władzy publicznej oraz organizacje i instytucje społeczne w ramach zadań im zleconych z zakresu administracji publicznej. Tryb ich rozpatrywania określa ustawa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1073,7 +1068,7 @@ const articles = [
     desc: `
 			<p>Konstytucja rozróżnia własność od innych praw majątkowych i wyraźnie akcentuje jej wyższą rangę. Odrębnie art. 64 gwarantuje ochronę prawa dziedziczenia. Adresatem obowiązków wynikających z tego prawa (w tym zapewnienia im równej ochrony prawnej) są władze publiczne.</p>
 			<p class="pt-2">Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>art. 31</a> ust. 3 oraz art. 64 ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z art. 64 ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1093,7 +1088,7 @@ const articles = [
     desc: `
 			<p>1. Konstytucja rozróżnia własność od innych praw majątkowych i wyraźnie akcentuje jej wyższą rangę. Odrębnie <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/64'>art. 64</a> gwarantuje ochronę prawa dziedziczenia. Adresatem obowiązków wynikających z tego prawa (w tym zapewnienia im równej ochrony prawnej) są władze publiczne. Ani prawo własności ani inne prawa majątkowe nie mają charakteru absolutnego. Zakres dopuszczalnych ograniczeń prawa własności określa <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/31'>art. 31</a> ust. 3 oraz <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/64'>art. 64</a> ust. 3 (tylko w drodze ustawy, nie może naruszać istoty prawa). Powtórzenie niektórych przesłanek w obu tych przepisach jeszcze bardziej podkreśla znaczenie prawa własności. Gwarancje z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/64'>art. 64</a> ust. 3 nie odnoszą się jednak do innych niż własność praw majątkowych.</p>
 			<p class="pt-2">2-5. Kolejne ustępy art. 65 regulują bardziej szczegółowo prawa pracownicze. Ustęp drugi określa aspekt negatywny wolności pracy. Oznacza on zakaz wprowadzania obowiązku pracy, któremu niepodporządkowanie się prowadziłoby do sankcji karnych lub administracyjnych. Władza nie może narzucić podjęcia pracy. Zakaz pracy przymusowej oznacza też zakaz zmuszania kogokolwiek przez władze do podejmowania określonego zatrudnienia (rodzaju czy miejsca pracy). Zakaz ten nie ma jednak charakteru absolutnego i dopuszcza się ustawowe nałożenie obowiązku pracy (musiałoby być to jednak zgodne z wiążącym Polskę prawem międzynarodowym). Konstytucja zakazuje także stałego zatrudniania dzieci do lat 16. Przepis ten jest jedną z gwarancji ochrony praw dziecka (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/72'>art. 72</a>). Konstytucyjnym obowiązkiem ustawodawcy jest określenie minimalnej wysokości wynagrodzenia za pracę oraz sposobu ustalania tej wysokości. Wyraźnie zakazuje się różnicowania wynagrodzenia za pracę jednakowej wartości ze względu na płeć (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/33'>art. 33</a> ust. 2). Z artykułu 65 można zatem wyprowadzić prawo pracownika do minimalnego wynagrodzenia.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1114,7 +1109,7 @@ const articles = [
 				<li>2. Uprawnienia związane z czasem pracy (ust. 2), pośrednio wyrażające ogólne prawo do wypoczynku.</li>
 			</ul>
 			<p class="pt-2">Analizować je można zatem w kontekście zasady ochrony pracy (art. 24) oraz prawa do ochrony zdrowia (art. 68).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1138,7 +1133,7 @@ const articles = [
 				<li>3) osiągnięcia wieku emerytalnego,</li>
 				<li>4) pozostawania bez pracy nie z własnej woli i nieposiadanie innych środków utrzymania.</li>
 			</ul>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1169,7 +1164,7 @@ const articles = [
 			<p class="pt-2">3. Konieczność zapewnienia szczególnej opieki zdrowotnej dzieciom, kobietom ciężarnym, osobom z niepełnosprawnościami i w podeszłym wieku stanowi wyjątek od obowiązku zapewnienia wszystkim obywatelom – niezależnie od ich sytuacji materialnej – równego dostępu do świadczeń opieki zdrowotnej finansowanych ze środków publicznych.	Art. 68 ust. 3 Konstytucji RP nie jest uważany za źródło praw podmiotowych dla wymienionych w nim osób. Nie oznacza to jednak, że władze publiczne mogą lekceważyć wynikające z niego obowiązki. Nie można jednoznacznie stwierdzić, jakie konkretne działania, zgodnie z wolą twórców Konstytucji należałoby zaliczyć do szczególnej opieki zdrowotnej. Władze publiczne mają w tym zakresie daleko idącą swobodę. 3. Konieczność zapewnienia szczególnej opieki zdrowotnej dzieciom, kobietom ciężarnym, osobom z niepełnosprawnościami i w podeszłym wieku stanowi wyjątek od obowiązku zapewnienia wszystkim obywatelom – niezależnie od ich sytuacji materialnej – równego dostępu do świadczeń opieki zdrowotnej finansowanych ze środków publicznych.	Art. 68 ust. 3 Konstytucji RP nie jest uważany za źródło praw podmiotowych dla wymienionych w nim osób. Nie oznacza to jednak, że władze publiczne mogą lekceważyć wynikające z niego obowiązki. Nie można jednoznacznie stwierdzić, jakie konkretne działania, zgodnie z wolą twórców Konstytucji należałoby zaliczyć do szczególnej opieki zdrowotnej. Władze publiczne mają w tym zakresie daleko idącą swobodę.</p>
 			<p class="pt-2">4. Ten przepis Konstytucji nakłada na władze publiczne obowiązek zwalczania chorób epidemicznych i zapobiegania negatywnym dla zdrowia skutkom degradacji środowiska.	Komentatorzy podkreślają, że chodzi przede wszystkim o podejmowanie działań prewencyjnych, tj. profilaktycznych, edukacyjnych, dbałość o higienę, kontrolę zakażeń oraz leczenie chorób epidemicznych<sup title="Konstytucja Rzeczypospolitej Polskiej. Komentarz, pod red. L. Garlickiego, tom III – Warszawa 2003 r.">1</sup>.	Ten obowiązek należy analizować łącznie z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/74'>art. 74</a> Konstytucji, który zobowiązuje władze publiczne do prowadzenia polityki zapewniającej bezpieczeństwo ekologiczne współczesnemu i przyszłym pokoleniom, ochrony środowiska, wspierania działań obywateli na rzecz poprawy stanu środowiska oraz zapewnienia jednostkom prawa do informacji o stanie i ochronie środowiska, a także z art. 86, który nakłada na każdego obowiązek dbałości o stan środowiska oraz odpowiedzialność za jego pogorszenie, której zasady określa ustawa.</p>
 			<p class="pt-2">5. W art. 68 ust. 5 Konstytucji uregulowany został obowiązek nałożony na władze publiczne, by popierały kulturę fizyczną i jej rozwój, zwłaszcza wśród dzieci i młodzieży. Może to być realizowane poprzez budowę obiektów sportowych, ścieżek rowerowych, lodowisk, basenów, organizowanie konkursów dla dzieci i młodzieży, popieranie tego typu działań oraz prowadzenie kampanii nakłaniających do uprawiania sportu.
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1191,7 +1186,7 @@ const articles = [
 				<li>3) komunikacji społecznej (w tym tworzenie odpowiedniej infrastruktury).</li>
 			</ul>
 			<p class="pt-2">Sposób i zakres tej pomocy ma określać ustawa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1221,7 +1216,7 @@ const articles = [
 			<p class="pt-2">3. Ustęp 3 w zdaniu 1 reguluje wolność wyboru typu szkoły – publicznej lub niepublicznej. Z tego przepisu można również wyprowadzić zakaz dyskryminowania szkół niepublicznych i ich uczniów. Kolejne ustępy precyzują wolność zakładania szkół innych niż publiczne, np. prowadzonych przez Kościół. Jest to gwarancja zasady pluralizmu w kontekście wolności religii i praw rodziców do wychowywania dzieci zgodnie z własnymi przekonaniami.	4. Zasada powszechnego i równego dostępu do wykształcenia odnosi się jedynie do obywateli Rzeczypospolitej. Przepis ten tworzy zasadę polityki państwa, a nie prawo podmiotowe, więc nie stwarza bezpośrednich roszczeń. Jednakże zasada powszechności i równości ma bezpośredni związek z realizacją prawa do nauki i jest konieczna, by w pełni korzystać z tego prawa.	Zasada ta dotyczy kształcenia w systemie szkolnictwa publicznego. Powszechność nauki oznacza, że każda osoba objęta obowiązkiem szkolnym musi mieć zapewnioną możliwość nauki w szkole publicznej, chyba że decyduje się na korzystanie z oferty szkół niepublicznych. Z zasady powszechności wynika także, że osoby, które ukończyły 18 lat, również muszą mieć zagwarantowaną możliwość pobierania nauki w szkołach na różnych szczeblach. Równość w dostępie do nauki to realizacja ogólnej zasady równości (art. 32). Każdy powinien mieć jednakową szansę podjęcia nauki w szkołach na różnych szczeblach edukacji. Szczególnie istotne w tym kontekście jest uwzględnienie <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/33'>art. 33</a> i zapewnienie równości w dostępie do nauki niezależnie od płci.</p>
 			<p class="pt-2">4. Ustęp 4 tworzy także zasadę pomocy władz publicznych dla uczniów i studentów, której realizacja może odbywać się na różne przewidziane przez ustawodawcę sposoby.</p>
 			<p class="pt-2">5. Zasada autonomii szkół wyższych dotyczy zarówno szkół publicznych, jak i niepublicznych. Te drugie, w związku ze swoim charakterem, są niezależne od władz publicznych. Zasada autonomii nie odnosi się do szkół innych szczebli. Uczelnie, korzystając z autonomii, nie mogą jednak podejmować działań sprzecznych z powszechnie obowiązującym prawem.	Poprzez tę zasadę Konstytucja chroni sferę wolności prowadzenia badań naukowych i kształcenia w ramach obowiązującego porządku prawnego. Władzom szkół wyższych musi być pozostawiona sfera swobodnego decydowania o nauce i nauczaniu, decydowania o organizacji wewnętrznej i władzach uczelni, toku nauczania, zasadach przyjmowania studentów, określenia ich praw i obowiązków. Szczególnie istotne jest w tym wypadku zadbanie o odpowiednie gwarancje praw studentów i studentek.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1238,7 +1233,7 @@ const articles = [
     desc: `
 			<p>1. Artykuł ten jest fragmentem szerszej regulacji konstytucyjnej, która formułuje zasadę pomocniczości oraz przyznania szczególnej ochrony i opieki małżeństwu, rodzinie, macierzyństwu i rodzicielstwu (art. 18). Ustęp 1 obejmuje zagadnienie ochrony rodziny. Konstytucyjne pojęcie rodziny odnosi się do każdego trwałego związku dwóch lub więcej osób, zazwyczaj opartego na małżeństwie i więzach pokrewieństwa lub powinowactwa. W zdaniu 2 wprowadza pojęcie rodziny niepełnej, które dotyczy w szczególności rodzica samodzielnie wychowującego dzieci. Nie ma na gruncie tego artykułu przeszkód dla rozumienia przez pojęcie rodziny związków osób tej samej płci. Nakaz uwzględnienia w polityce społecznej i gospodarczej dobra rodziny to typowe zadanie państwa. Zdanie 2 ustępu 1 formułuje również prawo podmiotowe, które przysługuje rodzinom znajdującym się w trudnej sytuacji materialnej i społecznej (dotyczyć ma jednocześnie obu sfer – finansowej i środowiskowej). Treścią tego prawa jest uzyskanie szczególnej pomocy ze strony władz publicznych.</p>
 			<p class="pt-2">2. Ustęp drugi reguluje sytuację matki i łączy się bezpośrednio z zasadą ochrony macierzyństwa (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/18'>art. 18</a>). Regulację ujęto w formę prawa podmiotowego matki w sytuacjach przed i po urodzeniu dziecka. Tym samym art. 71 odnosi się zarówno do kobiet w ciąży, jak i w pierwszym okresie po porodzie. Prawo to odnosi się zarówno do kobiet będących obywatelkami Polski jak i cudzoziemkami. Treścią prawa jest zapewnienie szczególnej pomocy matce. Pomoc ta i jej szczególny charakter oznacza, że powinna wykraczać poza zwykłe potrzeby rodziny. Przepisy Konstytucji nie konkretyzują jednak jej formy. Ustawodawcy przysługuje zatem szeroka swoboda w regulowaniu form i zakresu tej pomocy.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1264,7 +1259,7 @@ const articles = [
 			</ul>
 			<p class="pt-2">Dobro dziecka na podstawie tego przepisu staje się samoistną wartością konstytucyjną, która uzupełnia szersze dobro rodziny. Zgodnie z Konwencją o prawach dziecka, dzieckiem jest każda istota ludzka w wieku poniżej 18 lat, chyba że zgodnie z prawem uzyska ono wcześniej pełnoletniość.</p>
 			<p class="pt-2">Konstytucja podchodzi do koncepcji pozycji dziecka na dwa sposoby: po pierwsze określa zasady i zakres poddania dziecka władzy innych osób (np. rodziców i opiekunów), po drugie zapewnia mu możliwość samodzielnego realizowania niektórych wolności i praw.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1285,7 +1280,7 @@ const articles = [
 				<li>3) wolność korzystania z dóbr kultury (gwarantuje dostęp do efektów twórczości innych osób).</li>
 			</ul>
 			<p class="pt-2">Wolności te bezpośrednio powiązane są z wolnością wyrażania poglądów (art. 54), są szczególną forma jej realizacji. Zostały one ujęte w formę prawa podmiotowego, więc wynikają z nich roszczenia indywidualne</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 
 		`,
   },
@@ -1307,7 +1302,7 @@ const articles = [
 			<p class="pt-2">Artykuł 74 przede wszystkim formułuje zadania i obowiązki władz publicznych i tworzy zasadę polityki państwa. Dwa zasadnicze obowiązki to ochrona środowiska (ust. 2) oraz wspieranie odpowiednich działań obywateli (ust 4). Ochrona środowiska to całokształt działań i narzędzi, które przeciwdziałają pogorszaniu się stanu środowiska. Warto podkreślić w tym kontekście przeciwdziałanie negatywnym dla zdrowia skutkom degradacji środowiska (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/68'>art. 68</a> ust. 4).</p>
 			<p class="pt-2">Ustęp trzeci formułuje prawo podmiotowe (obywateli i cudzoziemców) do informacji o stanie i ochronie środowiska. Jest to konkretyzacja szerszego prawa do informacji (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/54'>art. 54</a> i <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/61'>art. 61</a>).</p>
 			<p class="pt-2">Adresatem tych obowiązków są władze publiczne.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1326,7 +1321,7 @@ const articles = [
 			<p class="pt-2">Przepis ten nie konkretyzuje zakresu, form czy metod działania władz publicznych. Jednak w zadaniach szczegółowych wskazano na pierwszym miejscu eliminowanie zjawiska bezdomności, które to zjawisko kłóci się z zasadą godności jednostki.</p>
 			<p class="pt-2">Kolejny obowiązek szczegółowy państwa dotyczy obywateli w gorszej sytuacji finansowej, którym państwo powinno pomagać poprzez rozwój budownictwa socjalnego. Władze mają również popierać działania obywateli zmierzające do uzyskania własnego mieszkania. Realizacją tego zadania może być takie ukształtowanie systemu prawa, by przewidywał on system tanich kredytów, zwolnień i ulg podatkowych, czy bezpośrednią pomoc finansową dla potrzebujących.</p>
 			<p class="pt-2">Ustęp drugi tego artykułu nakłada obowiązek przyjęcia ustawy, która zapewni ochronę prawną szeroko rozumianych lokatorów (w tym także najemców).</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1343,7 +1338,7 @@ const articles = [
 			<p>Przepis ten formułuje kolejną zasadę polityki państwa, która tworzy obowiązki po stronie władz publicznych. Beneficjentami tych obowiązków są konsumenci, użytkownicy i najemcy – nie ma znaczenia zatem kwestia obywatelstwa.</p>
 			<p class="pt-2">Konstytucja nakłada na władze publiczne obowiązek ochrony praw konsumentów, użytkowników i najemców przed działaniami, które mogą zagrozić ich zdrowiu, prywatności i bezpieczeństwu. Konstytucja chroni też konsumenta przed nieuczciwymi praktykami rynkowymi.</p>
 			<p class="pt-2">Celem działań władz publicznych ma być więc stworzenie takiego systemu prawnego, który pozwoli na zapobieganie i przeciwstawianie się naruszeniom w tym zakresie.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1360,7 +1355,7 @@ const articles = [
     desc: `
 			<p>1. Przepis ten obejmuje każdego, komu została wyrządzona szkoda przez niezgodne z prawem działanie organu władzy publicznej. Ponadto oznacza on, że prawo do wynagrodzenia szkody przysługuje nie tylko obywatelowi polskiemu, ale także obcokrajowcom. Komentatorzy wskazują różne źródła potencjalnej szkody, spowodowanej działaniem władz publicznych: jednostkowe działania faktyczne (czynności materialno-techniczne), wydanie aktu indywidualnego (orzeczeń sądowych, aktów administracyjnych), nienormatywne akty generalne, akty normatywne (z ustawami włącznie). Konieczną przesłanką uzasadniającą roszczenie o wynagrodzenie szkody, jest stwierdzenie niezgodności z prawem działań organów władzy publicznej.</p>
 			<p class="pt-2">2. Regulacja ta ma uniwersalny wymiar. Gwarantuje drogę sądową nie tylko w sprawach o roszczenia odszkodowawcze wobec władzy publicznej, ale również gwarantuje drogę sądową w orzekaniu o wszelkich przypadkach naruszenia praw i wolności. Prawo do sądu należy do jednych z podstawowych praw jednostki i stanowi jedną z fundamentalnych gwarancji praworządności. Komentatorzy podkreślają, że zakres przedmiotowy ustępu 2 ma nieporównywalnie szerszy charakter i wiąże się raczej z <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/45'>art. 45</a> ust. 1 Konstytucji niż z art. 77 ust. 1. Oba wspomniane przepisy nie powtarzają swojej treści, <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/45'>art. 45</a> stanowi pozytywne ujęcie prawa do sądu, natomiast art. 77 ust 2. negatywne. Art. 77 ust. 2 dotyczy dochodzenia naruszonych wolności i praw zagwarantowanych w Konstytucji RP. Sąd Najwyższy stwierdził, że posługuje się on pojęciem drogi sądowej w szerokim znaczeniu, obejmującej postępowanie przed jakimkolwiek sądem przewidzianym w <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/175'>art. 175</a> Konstytucji, a więc przed Sądem Najwyższym, sądami powszechnym, administracyjnymi i wojskowymi.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1376,7 +1371,7 @@ const articles = [
     desc: `
 			<p>Konstytucja gwarantuje stronom prawo do zaskarżania orzeczeń i decyzji wydanych w pierwszej instancji.</p>
 			<p class="pt-2">Jak orzekł Trybunał Konstytucyjny, organ rozpoznający środek zaskarżenia powinien mieć możliwość merytorycznej oceny prawidłowości rozstrzygnięcia w sprawie<sup title="wyrok TK z 24 lutego 2015 r., K 34/12">1</sup>. „Konstytucyjne prawo zaskarżania orzeczeń i decyzji wydanych w pierwszej instancji stanowi bardzo istotny czynnik urzeczywistniania tzw. sprawiedliwości proceduralnej"<sup title="wyrok TK z 16 listopada 1999 r., SK 11/99">2</sup>.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1394,7 +1389,7 @@ const articles = [
 			<p>Ochronie za pomocą skargi konstytucyjnej podlegają konstytucyjne wolności i prawa, które zostały naruszone. Prawo to przysługuje każdemu, a więc nie jest związane z faktem posiadania obywatelstwa polskiego (wyjątki przewiduje Konstytucja w ust. 2, a dotyczą one tylko cudzoziemców starających się w Polsce o azyl lub o uzyskanie statusu uchodźcy).</p>
 			<p class="pt-2">Komentatorzy zauważają, że powszechna skarga konstytucyjna stanowi filar demokratycznego państwa prawnego. Sankcje w postaci orzeczenia Trybunału Konstytucyjnego powinny być stosowane wówczas, kiedy organ stanowiący prawo, w tym i parlament, zlekceważył konstytucyjne prawo jednostki.</p>
 			<p class="pt-2">Trzeba pamiętać, że wniesienie skargi konstytucyjnej jest możliwe tylko w przypadku, gdy orzeczenie sądu lub decyzja organu administracji była ostateczna</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1411,7 +1406,7 @@ const articles = [
 			<p>Do Rzecznika może zwrócić się obywatel polski, cudzoziemiec znajdujący się pod władzą Rzeczypospolitej Polskiej, osoba prawna, organizacja obywateli lub inna jednostka organizacyjna, jeśli może być podmiotem praw i obowiązków.</p>
 			<p class="pt-2">Rzecznik może podjąć przewidziane prawem czynności na wniosek obywateli i ich organizacji, organów samorządowych, a także z własnej inicjatywy na podstawie wyników analizy obowiązujących przepisów prawnych, przeprowadzonej kontroli, informacji uzyskanej za pośrednictwem środków masowego przekazu itp.</p>
 			<p class="pt-2">Bliżej zadania Rzecznika określają <a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/208'>art. 208-212</a> Konstytucji oraz ustawa.</p>
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -1428,7 +1423,7 @@ const articles = [
       <p>Nie wszystkie prawa i wolności zawarte w Konstytucji są chronione w ten sam sposób. Szczegółowo wymienione prawa ekonomiczne, socjalne i kulturalne mogą być dochodzone wyłącznie w granicach określonych w ustawie. Oznacza to, że władza ustawodawcza może samodzielnie ustalać mechanizm prawny ich ochrony. Ponadto, przepisy wymieniające te prawa upoważniają władzę ustawodawczą do precyzowania zakresu treściowego i osobowego tych praw. Władzę tę obciąża jednak obowiązek ich ustanowienia na poziomie co najmniej minimalnym oraz w sposób, który nie pozbawia ich rzeczywistej treści konstytucyjnej.</p>
       <p class="pt-2">Prawa wymienione w art. 81 to: prawo do minimalnego wynagrodzenia za pracę (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/65'>art. 65</a> ust. 4), prawo do bezpiecznych i higienicznych warunków pracy (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/66'>art. 66</a> ust. 1), prawo do urlopu (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/66'>art. 66</a> ust. 2), prawa osób niepełnosprawnych (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/69'>art. 69</a>), prawa rodzin w trudnej sytuacji materialnej i społecznej (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/71'>art. 71</a> ust. 1), prawa matki w związku z macierzyństwem (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/71'>art. 71</a> ust. 2), prawa związane z ochroną środowiska (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/74'>art. 74</a>), prawa lokatorskie (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/75'>art. 75</a>), prawa konsumenckie (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/76'>art. 76</a>). Niektóre z tych praw Konstytucja formułuje jako zasady polityki państwa (normy programowe), co – mimo eksponowania obowiązków władz publicznych – uniemożliwia dochodzenie bezpośrednich roszczeń na ich podstawie.</p>
       <p class="pt-2">Zakres, nawet minimalny, realizacji praw podmiotowych zawartych w art. 81 przez władzę ustawodawczą oraz sposób ich dochodzenia musi być określony w akcie normatywnym rangi nie niższej niż ustawa. Upoważnienie ustawodawcy do stworzenia samodzielnego mechanizmu ochrony tych praw oznacza również, że ich dochodzenie na drodze sądowej (<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/77'>art. 77</a> ust. 2) może być ograniczone.</p>
-      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/gorazdowski_m" rel="nofollow" target="_blank">Maciej Gorazdowski</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/gorazdowski_m" rel="nofollow" target="_blank">Maciej Gorazdowski</a> ${extLink}</p>
     `,
   },
   {
@@ -2233,7 +2228,7 @@ const articles = [
 
 			<p>Akt łaski jest to całkowite lub częściowe darowanie sprawcy skutków kary orzeczonej prawomocnym wyrokiem sądu. Nie jest to więc uchylenie wyroku ani uniewinnienie skazanego, a jedynie odnosi się do skutków wyroku sądowego.</p>
 
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
@@ -3329,7 +3324,7 @@ const articles = [
 
 			<p>Przepis ten formułuje wyraźnie i wprost bezwzględny nakaz regulacji tej materii na drodze ustawy. Artykuł 217 kładzie kres możliwościom nakładania podatków i danin publicznych, ustalania stawek podatkowych, zasad przyznawania ulg i umorzeń, jak również zwolnień od podatku w innej formie niż w drodze ustawy.</p>
 
-			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> <img class="inline w-3 h-3" src="images/external-link.svg" alt=""></p>
+			<p class="pt-2 text-right italic">wyjaśnienie ze strony <a href="https://www.rpo.gov.pl/konstytucja" rel="nofollow" target="_blank">Rzecznika Praw Obywatelskich</a> ${extLink}</p>
 		`,
   },
   {
