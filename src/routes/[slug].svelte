@@ -124,7 +124,7 @@
     <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
       id="back-btn"
-      class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
+      class="w-24 font-thin sm:text-xl hover:text-red-new"
       rel="prefetch"
       href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
       on:click={() => {
@@ -134,7 +134,7 @@
       powrót
     </a>
     <!-- </Tooltip> -->
-    <h3 class="font-thin text-center sm:text-lg sm:text-xl">
+    <h3 class="font-thin text-center sm:text-xl">
       {article.chapter['id']} {article.chapter['title']}
     </h3>
     <div class="flex justify-end w-24 pt-px mt-px">
@@ -151,7 +151,7 @@
               isDisqusVisible = false;
             }}>
             <svg
-              class="w-5 h-5 h-6 mr-1 text-gray-900 fill-current sm:w-6"
+              class="w-5 h-6 mr-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20">
               <path
                 d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
@@ -174,7 +174,7 @@
               isDisqusVisible = false;
             }}>
             <svg
-              class="w-5 h-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
+              class="w-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20">
               <path
                 d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
@@ -193,12 +193,14 @@
       bg-dark-overlay">
       <div
         class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
-        <div class="flex justify-between">
-          <h2 class="text-2xl font-thin sm:text-4xl">Przejdź do artykułu</h2>
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3">
+        <div class="">
+          <h2 class="text-2xl font-thin text-center sm:text-4xl">
+            Przejdź do artykułu
+          </h2>
         </div>
 
-        <div class="relative inline-block w-full">
+        <div class="relative inline-block w-full pt-4">
           <div
             class="absolute inset-y-0 left-0 flex items-center justify-center
             w-auto ml-2 text-gray-500 pointer-events-none">
@@ -215,9 +217,11 @@
           <input
             bind:value={findDestination}
             type="number"
+            min="1"
+            max="243"
             name="find"
             id="find"
-            class="w-full text-xl font-thin font-light text-center text-gray-900
+            class="w-full p-px text-xl font-light text-center text-gray-900
             bg-white border border-gray-100 rounded shadow appearance-none
             cursor-pointer sm:text-4xl" />
           <div
@@ -268,7 +272,7 @@
               class="text-justify"
               in:fly|fade={{ y: -15, duration: 800 }}
               out:fly|fade={{ y: -15, duration: 400 }}>
-              <h3 class="pt-2 font-thin sm:text-lg sm:text-xl">
+              <h3 class="pt-2 font-thin sm:text-xl">
                 Wyjaśnienie treści artykułu
               </h3>
               <div class="pt-2">
