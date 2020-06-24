@@ -87,8 +87,7 @@
     if (e.code === "Slash" && !document.getElementById("feedback-modal")) {
       e.preventDefault();
       document.getElementById("text-search").focus();
-    }
-    if (
+    } else if (
       e.code === "KeyD" &&
       !document.getElementById("feedback-modal") &&
       document.getElementById("text-search") !== document.activeElement
@@ -96,6 +95,11 @@
       e.preventDefault();
       darkMode = !darkMode;
       window.document.body.classList.toggle("dark-mode");
+    } else if (
+      e.code === "Escape" &&
+      document.getElementById("text-search") === document.activeElement
+    ) {
+      document.activeElement.blur();
     }
   }
 
