@@ -24,6 +24,8 @@
 
   let isDescriptionVisible = false;
   let isDisqusVisible = false;
+  let isFindVisible = false;
+  let findDestination;
   let timestamp = 0;
 
   const showDisqus = () => {
@@ -35,6 +37,35 @@
     (d.head || d.body).appendChild(s);
 
     isDisqusVisible = true;
+  };
+
+  const handleKeydown = e => {
+    if (e.code === "ArrowLeft" && $page.params.slug > 1) {
+      isDescriptionVisible = false;
+      isDisqusVisible = false;
+      goto(`/${parseInt($page.params.slug) - 1}`);
+    } else if (e.code === "ArrowRight" && $page.params.slug < 243) {
+      isDescriptionVisible = false;
+      isDisqusVisible = false;
+      goto(`/${parseInt($page.params.slug) + 1}`);
+    } else if (e.code === "Escape") {
+      document.getElementById("back-btn").click();
+    } else if (e.code === "KeyW") {
+      isDescriptionVisible = !isDescriptionVisible;
+    } else if (e.code === "KeyQ") {
+      isDisqusVisible = !isDisqusVisible;
+    } else if (e.code === "KeyF") {
+      isFindVisible = !isFindVisible;
+      if (isFindVisible) findDestination = undefined;
+      setTimeout(() => {
+        if (isFindVisible) document.getElementById("find").focus();
+      }, 100);
+    } else if (e.code === "Enter") {
+      if (!isFindVisible) return;
+      if (!findDestination) return;
+      goto(`/${findDestination}`);
+      isFindVisible = false;
+    }
   };
 
   onMount(() => {
@@ -65,24 +96,10 @@
       sessionStorage.removeItem("fromDyskusja");
       showDisqus();
     }
-
-    document.onkeydown = e => {
-      if (e.code === "ArrowLeft" && $page.params.slug > 1) {
-        isDescriptionVisible = false;
-        isDisqusVisible = false;
-
-        goto(`/${parseInt($page.params.slug) - 1}`);
-      } else if (e.code === "ArrowRight" && $page.params.slug < 243) {
-        isDescriptionVisible = false;
-        isDisqusVisible = false;
-
-        goto(`/${parseInt($page.params.slug) + 1}`);
-      } else if (e.code === "Escape") {
-        document.getElementById("back-btn").click();
-      }
-    };
   });
 </script>
+
+<svelte:window on:keydown={handleKeydown} />
 
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
@@ -116,7 +133,7 @@
     <h3 class="font-thin text-center sm:text-lg sm:text-xl">
       {article.chapter['id']} {article.chapter['title']}
     </h3>
-    <div class="flex pt-px mt-px justify-end w-24">
+    <div class="flex justify-end w-24 pt-px mt-px">
       {#if $page.params.slug > 1}
         <Tooltip text={'Poprzedni artykuł.'} pos={'b'}>
 
@@ -164,7 +181,55 @@
       {/if}
     </div>
   </div>
+  {#if isFindVisible}
+    <div
+      id="feedback-modal"
+      transition:fade={{ duration: 400 }}
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+      bg-dark-overlay">
+      <div
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
+        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
+        <div class="flex justify-between">
+          <h2 class="text-2xl font-thin sm:text-4xl">Przejdź do artykułu</h2>
+        </div>
 
+        <div class="relative inline-block w-full">
+          <div
+            class="absolute inset-y-0 left-0 flex items-center justify-center
+            w-auto ml-2 text-gray-500 pointer-events-none">
+            <!-- <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
+              <path
+                d="M18.405 4.799c-.111-.44-.655-.799-1.21-.799h-6.814c-.554
+                0-1.33-.318-1.722-.707l-.596-.588C7.671 2.316 6.896 2 6.342
+                2H3.087c-.555 0-1.059.447-1.12.994L1.675
+                6h16.931l-.201-1.201zM19.412 7H.588c-.342
+                0-.61.294-.577.635l.923 9.669c.037.394.369.696.766.696h16.6c.397
+                0 .728-.302.766-.696l.923-9.669c.033-.341-.235-.635-.577-.635z" />
+            </svg> -->
+          </div>
+          <input
+            bind:value={findDestination}
+            type="number"
+            name="find"
+            id="find"
+            class="w-full text-xl font-thin font-light text-center text-gray-900
+            bg-white border border-gray-100 rounded shadow appearance-none
+            cursor-pointer sm:text-4xl" />
+          <div
+            class="absolute inset-y-0 right-0 flex items-center px-2
+            text-gray-900 pointer-events-none">
+            <!-- <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757
+                6.586 4.343 8z" />
+            </svg> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  {/if}
   <h1
     class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
