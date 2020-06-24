@@ -230,7 +230,7 @@
       proponuję, ograniczy liczbę wniosków mniejszości." />
 
     <Utterance
-      speaker="Poseł Aleksander Kwaśniewski ( SLD )"
+      speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Szczegółowo procedurę składania wniosków mniejszości normuje
       regulamin Komisji i regulamin Sejmu. Uważam, że możemy przyjąć, iż wnioski
@@ -329,7 +329,7 @@
       zasady... ." />
 
     <Utterance
-      speaker="Poseł Aleksander Kwaśniewski ( SLD )"
+      speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wnioskodawcy wyrażają zgodę na zaproponowaną zmianę redakcyjną. W
       tej sytuacji tytuł proponowany przez podkomisję oraz tytuł proponowany
@@ -417,7 +417,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Michał Pietrzak"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/PietrzakMichal.png"
       text="Zwracam jednak uwagę, że Komisja nie rozstrzygnęła tytułu
       konstytucji. Może to być tytuł: „Konstytucja Polski” lub „Konstytucja
       Rzeczypospolitej Polskiej”." />
@@ -1039,7 +1039,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Uważam, że poseł J. Ciemniewski ma rację. Formuła „państwa prawnego”
       znajduje się w naszym prawie konstytucyjnym od grudnia 1989 r. i weszła na
       trwałe do orzecznictwa Trybunału Konstytucyjnego. Czy zatem warto zmieniać
@@ -1848,7 +1848,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Chcę najpierw usprawiedliwić zasadność sporu, który się toczy. Wiem,
       że z punktu widzenia procedury, która poprzedzała dzisiejszą debatę, może
       to być trochę irytujące. Jest jednak tak, że prowadzony jest spór o
@@ -2192,7 +2192,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Chcę przypomnieć, że należy odnosić się do całości projektu, a
       zwłaszcza do rozdziału o sądach i trybunałach. W sposobie ujęcia
       kompetencji Trybunału Konstytucyjnego, a zwłaszcza w kwestii ostateczności
@@ -2257,7 +2257,7 @@
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Michał Pietrzak"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/PietrzakMichal.png"
       text="Proponuję rozważenie formuły mówiącej o urzeczywistnianiu zasad
       sprawiedliwości społecznej w zakresie ustawowo określonym. Wydaje się, że
       jest to formuła kompromisowa, możliwa do przyjęcia przez zwolenników obu
@@ -2265,7 +2265,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Zaproponowana formuła kryje pewne niebezpieczeństwa i grozi sporem z
       zakresu filozofii prawa. Nie można w ten sposób prawa stawiać ponad
       sprawiedliwością. Sprawiedliwość ma być realizowana zawsze poprzez ustawę.
@@ -2525,7 +2525,7 @@
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
-      imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
+      imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="W naszych uwagach pisemnych proponujemy, aby obecny art. 2 był art.
       1, gdyż jest ogólniejszy i pełniejszy w swoim wyrazie niż artykuł o
       demokratycznym państwie prawnym." />
