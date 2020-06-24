@@ -306,7 +306,7 @@
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
       imgPath="/images/kk-speakers/OrzechowskiJan.png"
-      text="Jeżeli chodzi o artykuły: I, 215, to ich cechą wspólną jest to, że
+      text="Jeżeli chodzi o artykuły: 1, 2 i 5, to ich cechą wspólną jest to, że
       zawierają określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie
       tych trzech artykułów artykułem i o treści: „Rzeczpospolita Polska jest
       demokratycznym państwem prawa, wspólnym dobrem jej obywateli,
