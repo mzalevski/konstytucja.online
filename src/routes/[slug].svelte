@@ -64,7 +64,6 @@
       }
     } else if (e.code === "KeyF") {
       isFindVisible = !isFindVisible;
-      if (isFindVisible) findDestination = undefined;
       setTimeout(() => {
         if (isFindVisible) document.getElementById("find").focus();
       }, 100);
@@ -209,36 +208,38 @@
         <div class="relative inline-block w-full pt-4">
           <div
             class="absolute inset-y-0 left-0 flex items-center justify-center
-            w-auto ml-2 text-gray-500 pointer-events-none">
-            <!-- <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
-              <path
-                d="M18.405 4.799c-.111-.44-.655-.799-1.21-.799h-6.814c-.554
-                0-1.33-.318-1.722-.707l-.596-.588C7.671 2.316 6.896 2 6.342
-                2H3.087c-.555 0-1.059.447-1.12.994L1.675
-                6h16.931l-.201-1.201zM19.412 7H.588c-.342
-                0-.61.294-.577.635l.923 9.669c.037.394.369.696.766.696h16.6c.397
-                0 .728-.302.766-.696l.923-9.669c.033-.341-.235-.635-.577-.635z" />
-            </svg> -->
+            w-auto ml-2 text-gray-500 pointer-events-none" />
+          <div class="flex">
+
+            <input
+              bind:value={findDestination}
+              placeholder="nr artykułu"
+              type="number"
+              min="1"
+              max="243"
+              name="find"
+              id="find"
+              class="w-full p-px text-xl font-light text-center text-gray-900
+              bg-white border border-gray-100 rounded shadow appearance-none
+              cursor-pointer sm:text-4xl" />
+
+            <Tooltip text={'Naciśnij enter.'} pos={'b'}>
+              <svg
+                class="w-16 h-16 mx-2 text-gray-700 rounded fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path d="M256 0v32h224v448H32V32h64V0H0v512h512V0z" />
+                <path
+                  d="M128 0h32v32h-32zM192 0h32v32h-32zM148.688 196.688L73.376
+                  272l75.312 75.312 22.624-22.624L134.624
+                  288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
+              </svg>
+            </Tooltip>
+
           </div>
-          <input
-            bind:value={findDestination}
-            type="number"
-            min="1"
-            max="243"
-            name="find"
-            id="find"
-            class="w-full p-px text-xl font-light text-center text-gray-900
-            bg-white border border-gray-100 rounded shadow appearance-none
-            cursor-pointer sm:text-4xl" />
           <div
             class="absolute inset-y-0 right-0 flex items-center px-2
-            text-gray-900 pointer-events-none">
-            <!-- <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757
-                6.586 4.343 8z" />
-            </svg> -->
-          </div>
+            text-gray-900 pointer-events-none" />
         </div>
 
       </div>
