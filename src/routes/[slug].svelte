@@ -40,11 +40,19 @@
   };
 
   const handleKeydown = e => {
-    if (e.code === "ArrowLeft" && $page.params.slug > 1) {
+    if (
+      e.code === "ArrowLeft" &&
+      $page.params.slug > 1 &&
+      !window.document.getElementById("find")
+    ) {
       isDescriptionVisible = false;
       isDisqusVisible = false;
       goto(`/${parseInt($page.params.slug) - 1}`);
-    } else if (e.code === "ArrowRight" && $page.params.slug < 243) {
+    } else if (
+      e.code === "ArrowRight" &&
+      $page.params.slug < 243 &&
+      !window.document.getElementById("find")
+    ) {
       isDescriptionVisible = false;
       isDisqusVisible = false;
       goto(`/${parseInt($page.params.slug) + 1}`);
@@ -69,11 +77,6 @@
       }, 100);
     } else if (e.code === "Enter") {
       if (!isFindVisible) return;
-      if (!findDestination) return;
-      goto(`/${findDestination}`);
-      isDescriptionVisible = false;
-      isDisqusVisible = false;
-      isFindVisible = false;
     }
   };
 
@@ -212,6 +215,19 @@
           <div class="flex">
 
             <input
+              on:keydown={e => {
+                console.log(parseInt(e.target.value) > 243);
+                if (e.target.value.length === 3 && !['Backspace', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
+                  e.preventDefault();
+                }
+                if (e.code === 'Enter' && (parseInt(e.target.value) <= 243 && parseInt(e.target.value) >= 1)) {
+                  if (!findDestination) return;
+                  goto(`/${findDestination}`);
+                  isDescriptionVisible = false;
+                  isDisqusVisible = false;
+                  isFindVisible = false;
+                }
+              }}
               bind:value={findDestination}
               placeholder="nr artykułu"
               type="number"
