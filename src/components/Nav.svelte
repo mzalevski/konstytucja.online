@@ -62,6 +62,7 @@
         <a href="/app-mobile">_</a>
         <a href="/app-desktop">_</a>
         <a href="/inicjatywa">_</a>
+        <a href="/skroty">_</a>
       </div>
       <!-- crawl helper div end -->
 
@@ -117,6 +118,12 @@
             rel="prefetch"
             href="/inicjatywa">
             Inicjatywa
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/skroty">
+            Skróty klawiszowe
           </a>
         </div>
       {/if}
