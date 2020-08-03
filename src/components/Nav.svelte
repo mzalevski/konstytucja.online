@@ -63,6 +63,7 @@
         <a href="/app-desktop">_</a>
         <a href="/inicjatywa">_</a>
         <a href="/skroty">_</a>
+        <a href="/twitter-bot">_</a>
       </div>
       <!-- crawl helper div end -->
 
@@ -124,6 +125,12 @@
             rel="prefetch"
             href="/skroty">
             Skróty klawiszowe
+          </a>
+          <a
+            class="block pt-1 md:ml-2 hover:text-red-new"
+            rel="prefetch"
+            href="/twitter-bot">
+            Twitter Bot
           </a>
         </div>
       {/if}
