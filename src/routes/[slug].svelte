@@ -132,7 +132,7 @@
     <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
       id="back-btn"
-      class="w-24 font-thin sm:text-xl hover:text-red-new"
+      class="w-24 font-thin sm:text-xl hover:text-red-new pl-1"
       rel="prefetch"
       href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
       on:click={() => {
