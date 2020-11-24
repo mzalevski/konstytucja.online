@@ -85,29 +85,29 @@
     let html = document.querySelector("html");
     let rightChevron = document.getElementById("right-chevron");
 
-    // const observer = new MutationObserver(mutations => {
-    //   let scrolledBefore = false;
-    //   for (let mut of mutations) {
-    //     if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
-    //       html.style.scrollBehavior = "smooth";
-    //       window.scrollTo(0, document.body.scrollHeight);
-    //       html.style.scrollBehavior = "";
-    //     }
-    //   }
-    // });
+    const observer = new MutationObserver(mutations => {
+      let scrolledBefore = false;
+      for (let mut of mutations) {
+        if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
+          html.style.scrollBehavior = "smooth";
+          window.scrollTo(0, document.body.scrollHeight);
+          html.style.scrollBehavior = "";
+        }
+      }
+    });
 
-    // observer.observe(document.getElementById("extra-info"), {
-    //   attributes: true,
-    //   childList: true,
-    //   subtree: true,
-    // });
+    observer.observe(document.getElementById("extra-info"), {
+      attributes: true,
+      childList: true,
+      subtree: true,
+    });
 
-    // setTimeout(() => observer.disconnect(), 3000);
+    setTimeout(() => observer.disconnect(), 3000);
 
-    // if (sessionStorage.getItem("fromDyskusja")) {
-    //   sessionStorage.removeItem("fromDyskusja");
-    //   showDisqus();
-    // }
+    if (sessionStorage.getItem("fromDyskusja")) {
+      sessionStorage.removeItem("fromDyskusja");
+      showDisqus();
+    }
   });
 </script>
 
