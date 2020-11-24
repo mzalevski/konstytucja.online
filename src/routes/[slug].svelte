@@ -85,29 +85,29 @@
     let html = document.querySelector("html");
     let rightChevron = document.getElementById("right-chevron");
 
-    const observer = new MutationObserver(mutations => {
-      let scrolledBefore = false;
-      for (let mut of mutations) {
-        if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
-          html.style.scrollBehavior = "smooth";
-          window.scrollTo(0, document.body.scrollHeight);
-          html.style.scrollBehavior = "";
-        }
-      }
-    });
+    // const observer = new MutationObserver(mutations => {
+    //   let scrolledBefore = false;
+    //   for (let mut of mutations) {
+    //     if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
+    //       html.style.scrollBehavior = "smooth";
+    //       window.scrollTo(0, document.body.scrollHeight);
+    //       html.style.scrollBehavior = "";
+    //     }
+    //   }
+    // });
 
-    observer.observe(document.getElementById("extra-info"), {
-      attributes: true,
-      childList: true,
-      subtree: true
-    });
+    // observer.observe(document.getElementById("extra-info"), {
+    //   attributes: true,
+    //   childList: true,
+    //   subtree: true,
+    // });
 
-    setTimeout(() => observer.disconnect(), 3000);
+    // setTimeout(() => observer.disconnect(), 3000);
 
-    if (sessionStorage.getItem("fromDyskusja")) {
-      sessionStorage.removeItem("fromDyskusja");
-      showDisqus();
-    }
+    // if (sessionStorage.getItem("fromDyskusja")) {
+    //   sessionStorage.removeItem("fromDyskusja");
+    //   showDisqus();
+    // }
   });
 </script>
 
@@ -143,17 +143,16 @@
     </a>
     <!-- </Tooltip> -->
     <h3 class="font-thin text-center sm:text-xl">
-      {article.chapter['id']} {article.chapter['title']}
+      {article.chapter['id']}
+      {article.chapter['title']}
     </h3>
     <div class="flex justify-end w-24 pt-px mt-px">
       {#if $page.params.slug > 1}
         <Tooltip text={'Poprzedni artykuł.'} pos={'b'}>
-
           <a
             class="flex flex-col justify-center"
             rel="prefetch"
             href="/{parseInt($page.params.slug) - 1}"
-            transition:fade={{ duration: 1000 }}
             on:click={() => {
               isDescriptionVisible = false;
               isDisqusVisible = false;
@@ -176,7 +175,6 @@
             class="flex flex-col justify-center"
             rel="prefetch"
             href="/{parseInt($page.params.slug) + 1}"
-            transition:fade={{ duration: 1000 }}
             on:click={() => {
               isDescriptionVisible = false;
               isDisqusVisible = false;
@@ -213,14 +211,13 @@
             class="absolute inset-y-0 left-0 flex items-center justify-center
             w-auto ml-2 text-gray-500 pointer-events-none" />
           <div class="flex">
-
             <input
               on:keydown={e => {
                 console.log(parseInt(e.target.value) > 243);
                 if (e.target.value.length === 3 && !['Backspace', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
                   e.preventDefault();
                 }
-                if (e.code === 'Enter' && (parseInt(e.target.value) <= 243 && parseInt(e.target.value) >= 1)) {
+                if (e.code === 'Enter' && parseInt(e.target.value) <= 243 && parseInt(e.target.value) >= 1) {
                   if (!findDestination) return;
                   goto(`/${findDestination}`);
                   isDescriptionVisible = false;
@@ -251,13 +248,11 @@
                   288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
               </svg>
             </Tooltip>
-
           </div>
           <div
             class="absolute inset-y-0 right-0 flex items-center px-2
             text-gray-900 pointer-events-none" />
         </div>
-
       </div>
     </div>
   {/if}
