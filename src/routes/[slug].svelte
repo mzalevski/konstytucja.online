@@ -71,6 +71,7 @@
         isDisqusVisible = false;
       }
     } else if (e.code === "KeyF") {
+      findDestination = null;
       isFindVisible = !isFindVisible;
       setTimeout(() => {
         if (isFindVisible) document.getElementById("find").focus();
