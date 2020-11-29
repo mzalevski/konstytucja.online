@@ -27,7 +27,7 @@
   let isFindVisible = false;
   let findDestination;
   let timestamp = 0;
-
+  let currentPage = parseInt($page.params.slug);
   const showDisqus = () => {
     timestamp = Date.now();
     let d = document,
@@ -43,19 +43,21 @@
     if (
       e.code === "ArrowLeft" &&
       $page.params.slug > 1 &&
+      currentPage > 1 &&
       !window.document.getElementById("find")
     ) {
       isDescriptionVisible = false;
       isDisqusVisible = false;
-      goto(`/${parseInt($page.params.slug) - 1}`);
+      currentPage = currentPage - 1;
     } else if (
       e.code === "ArrowRight" &&
       $page.params.slug < 243 &&
+      currentPage < 243 &&
       !window.document.getElementById("find")
     ) {
       isDescriptionVisible = false;
       isDisqusVisible = false;
-      goto(`/${parseInt($page.params.slug) + 1}`);
+      currentPage = currentPage + 1;
     } else if (e.code === "Escape") {
       if (!isFindVisible) {
         document.getElementById("back-btn").click();
@@ -78,6 +80,24 @@
       }, 100);
     } else if (e.code === "Enter") {
       if (!isFindVisible) return;
+    }
+  };
+
+  const handleKeyup = e => {
+    if (
+      e.code === "ArrowLeft" &&
+      $page.params.slug > 1 &&
+      !window.document.getElementById("find")
+    ) {
+      goto(`/${currentPage}`);
+    } else if (
+      e.code === "ArrowRight" &&
+      $page.params.slug < 243 &&
+      !window.document.getElementById("find")
+    ) {
+      goto(`/${currentPage}`);
+    } else {
+      return null;
     }
   };
 
@@ -112,7 +132,7 @@
   });
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
+<svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
 
 <svelte:head>
   <title>{article.title} Konstytucji RP</title>
@@ -214,12 +234,12 @@
           <div class="flex">
             <input
               on:keydown={e => {
-                console.log(parseInt(e.target.value) > 243);
                 if (e.target.value.length === 3 && !['Backspace', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
                   e.preventDefault();
                 }
                 if (e.code === 'Enter' && parseInt(e.target.value) <= 243 && parseInt(e.target.value) >= 1) {
                   if (!findDestination) return;
+                  currentPage = findDestination;
                   goto(`/${findDestination}`);
                   isDescriptionVisible = false;
                   isDisqusVisible = false;
@@ -253,6 +273,24 @@
           <div
             class="absolute inset-y-0 right-0 flex items-center px-2
             text-gray-900 pointer-events-none" />
+        </div>
+      </div>
+    </div>
+  {/if}
+  {#if Math.abs($page.params.slug - currentPage) > 1}
+    <div
+      id="feedback-modal"
+      transition:fade={{ duration: 400 }}
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+      bg-dark-overlay">
+      <div
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3">
+        <div class="">
+          <h2 class="text-2xl font-thin text-center sm:text-4xl">
+            Przejdź do art.
+            <span class="font-bold">{currentPage}</span>
+          </h2>
         </div>
       </div>
     </div>
