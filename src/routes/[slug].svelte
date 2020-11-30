@@ -175,6 +175,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) - 1}"
             on:click={() => {
+              currentPage = $page.params.slug;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
@@ -197,6 +198,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) + 1}"
             on:click={() => {
+              currentPage = $page.params.slug;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
