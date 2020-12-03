@@ -175,7 +175,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) - 1}"
             on:click={() => {
-              currentPage = $page.params.slug;
+              currentPage = parseInt($page.params.slug) - 1;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
@@ -198,7 +198,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) + 1}"
             on:click={() => {
-              currentPage = $page.params.slug;
+              currentPage = parseInt($page.params.slug) + 1;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
@@ -279,6 +279,7 @@
       </div>
     </div>
   {/if}
+
   {#if Math.abs($page.params.slug - currentPage) > 1}
     <div
       id="feedback-modal"
