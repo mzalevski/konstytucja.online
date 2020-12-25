@@ -132,8 +132,16 @@
     }
 
     const eventManager = new EventManager(document.getElementById("container"));
-    const onSwipeLeft = () => alert("swipe left!");
-    const onSwipeRight = () => alert("swipe right!");
+    const onSwipeLeft = () => {
+      if (currentPage === 243) return null;
+      currentPage = currentPage + 1;
+      goto(`/${currentPage}`);
+    };
+    const onSwipeRight = () => {
+      if (currentPage === 1) return null;
+      currentPage = currentPage - 1;
+      goto(`/${currentPage}`);
+    };
 
     eventManager.on({
       swipeleft: onSwipeLeft,
@@ -158,7 +166,7 @@
 </svelte:head>
 
 <Nav segment={'articles'} />
-<div>
+<div id="container">
   <div class="flex justify-between h-8">
     <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
