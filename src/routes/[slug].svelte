@@ -12,7 +12,7 @@
 </script>
 
 <script>
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
   import { fly, fade } from "svelte/transition";
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
@@ -20,6 +20,8 @@
   import { EventManager } from "mjolnir.js";
 
   export let article;
+
+  let eventManager;
 
   const { page } = stores();
 
@@ -105,7 +107,6 @@
   onMount(() => {
     let body = document.querySelector("body");
     let html = document.querySelector("html");
-    let rightChevron = document.getElementById("right-chevron");
 
     const observer = new MutationObserver((mutations) => {
       let scrolledBefore = false;
@@ -131,17 +132,15 @@
       showDisqus();
     }
 
-    const eventManager = new EventManager(document.documentElement);
+    eventManager = new EventManager(document.documentElement);
 
     const onSwipeLeft = () => {
-      if (!$page.path.match(/\/\d/)) return null;
       if (currentPage === 243) return null;
       currentPage = currentPage + 1;
       goto(`/${currentPage}`);
     };
 
     const onSwipeRight = () => {
-      if (!$page.path.match(/\/\d/)) return null;
       if (currentPage === 1) return null;
       currentPage = currentPage - 1;
       goto(`/${currentPage}`);
@@ -151,6 +150,10 @@
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
     });
+  });
+
+  onDestroy(() => {
+    eventManager.destroy();
   });
 </script>
 
@@ -184,9 +187,6 @@
       }}>
       powrót
     </a>
-    <!-- <pre>
-      {JSON.stringify($page.params, null, 2)}
-    </pre> -->
     <!-- </Tooltip> -->
     <h3 class="font-thin text-center sm:text-xl">
       {article.chapter['id']}
