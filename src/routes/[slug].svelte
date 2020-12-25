@@ -104,6 +104,18 @@
     }
   };
 
+  const onSwipeLeft = () => {
+    if (currentPage === 243) return null;
+    currentPage = currentPage + 1;
+    goto(`/${currentPage}`);
+  };
+
+  const onSwipeRight = () => {
+    if (currentPage === 1) return null;
+    currentPage = currentPage - 1;
+    goto(`/${currentPage}`);
+  };
+
   onMount(() => {
     let body = document.querySelector("body");
     let html = document.querySelector("html");
@@ -134,18 +146,6 @@
 
     eventManager = new EventManager(document.documentElement);
 
-    const onSwipeLeft = () => {
-      if (currentPage === 243) return null;
-      currentPage = currentPage + 1;
-      goto(`/${currentPage}`);
-    };
-
-    const onSwipeRight = () => {
-      if (currentPage === 1) return null;
-      currentPage = currentPage - 1;
-      goto(`/${currentPage}`);
-    };
-
     eventManager.on({
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
@@ -153,8 +153,10 @@
   });
 
   onDestroy(() => {
-    eventManager.off("swipeleft");
-    eventManager.off("swiperight");
+    eventManager.off({
+      swipeleft: onSwipeLeft,
+      swiperight: onSwipeRight,
+    });
   });
 </script>
 
