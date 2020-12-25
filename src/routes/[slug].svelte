@@ -134,14 +134,14 @@
     const eventManager = new EventManager(document.documentElement);
 
     const onSwipeLeft = () => {
-      if (!$page) return null;
+      if (!document.location.pathname.match(/\/\d/)) return null;
       if (currentPage === 243) return null;
       currentPage = currentPage + 1;
       goto(`/${currentPage}`);
     };
 
     const onSwipeRight = () => {
-      if (!$page) return null;
+      if (!document.location.pathname.match(/\/\d/)) return null;
       if (currentPage === 1) return null;
       currentPage = currentPage - 1;
       goto(`/${currentPage}`);
