@@ -131,13 +131,17 @@
       showDisqus();
     }
 
-    const eventManager = new EventManager(document.getElementById("container"));
+    const eventManager = new EventManager(document.documentElement);
+
     const onSwipeLeft = () => {
+      if (!$page) return null;
       if (currentPage === 243) return null;
       currentPage = currentPage + 1;
       goto(`/${currentPage}`);
     };
+
     const onSwipeRight = () => {
+      if (!$page) return null;
       if (currentPage === 1) return null;
       currentPage = currentPage - 1;
       goto(`/${currentPage}`);
@@ -166,7 +170,7 @@
 </svelte:head>
 
 <Nav segment={'articles'} />
-<div id="container">
+<div>
   <div class="flex justify-between h-8">
     <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
@@ -180,6 +184,9 @@
       }}>
       powrót
     </a>
+    <!-- <pre>
+      {JSON.stringify($page.params, null, 2)}
+    </pre> -->
     <!-- </Tooltip> -->
     <h3 class="font-thin text-center sm:text-xl">
       {article.chapter['id']}
