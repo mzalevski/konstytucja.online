@@ -22,7 +22,7 @@
   export let article;
 
   let eventManager;
-
+  let fire = true;
   const { page } = stores();
 
   let isDescriptionVisible = false;
@@ -105,18 +105,21 @@
   };
 
   const onSwipeLeft = () => {
+    if (!fire) return null;
     if (currentPage === 243) return null;
     currentPage = currentPage + 1;
     goto(`/${currentPage}`);
   };
 
   const onSwipeRight = () => {
+    if (!fire) return null;
     if (currentPage === 1) return null;
     currentPage = currentPage - 1;
     goto(`/${currentPage}`);
   };
 
   onMount(() => {
+    fire = true;
     let body = document.querySelector("body");
     let html = document.querySelector("html");
 
@@ -153,10 +156,7 @@
   });
 
   onDestroy(() => {
-    eventManager.off({
-      swipeleft: onSwipeLeft,
-      swiperight: onSwipeRight,
-    });
+    fire = false;
   });
 </script>
 
