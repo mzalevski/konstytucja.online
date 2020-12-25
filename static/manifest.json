@@ -3,7 +3,7 @@
 	"theme_color": "#333333",
 	"name": "Konstytucja",
 	"short_name": "Konstytucja",
-	"display": "minimal-ui",
+	"display": "standalone",
 	"start_url": "/",
 	"icons": [
 		{
