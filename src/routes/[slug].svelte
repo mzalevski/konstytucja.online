@@ -19,12 +19,6 @@
   import Tooltip from "../components/Tooltip.svelte";
   import { EventManager } from "mjolnir.js";
 
-  const eventManager = new EventManager(document.getElementById("container"));
-  const swipeLeft = () => alert("swipe left!");
-  const swipeRight = () => alert("swipe right!");
-
-  eventManager.on({ swipeLeft, swipeRight });
-
   export let article;
 
   const { page } = stores();
@@ -136,6 +130,15 @@
       sessionStorage.removeItem("fromDyskusja");
       showDisqus();
     }
+
+    const eventManager = new EventManager(document.getElementById("container"));
+    const onSwipeLeft = () => alert("swipe left!");
+    const onSwipeRight = () => alert("swipe right!");
+
+    eventManager.on({
+      swipeleft: onSwipeLeft,
+      swiperight: onSwipeRight,
+    });
   });
 </script>
 
