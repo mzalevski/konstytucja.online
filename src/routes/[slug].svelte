@@ -22,7 +22,7 @@
   export let article;
 
   let eventManager;
-  let fire = true;
+
   const { page } = stores();
 
   let isDescriptionVisible = false;
@@ -105,21 +105,18 @@
   };
 
   const onSwipeLeft = () => {
-    if (!fire) return null;
     if (currentPage === 243) return null;
     currentPage = currentPage + 1;
     goto(`/${currentPage}`);
   };
 
   const onSwipeRight = () => {
-    if (!fire) return null;
     if (currentPage === 1) return null;
     currentPage = currentPage - 1;
     goto(`/${currentPage}`);
   };
 
   onMount(() => {
-    fire = true;
     let body = document.querySelector("body");
     let html = document.querySelector("html");
 
@@ -152,12 +149,17 @@
     eventManager.on({
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
+      swipeup: () => {},
+      swipedown: () => {},
     });
   });
 
-  onDestroy(() => {
-    fire = false;
-  });
+  // onDestroy(() => {
+  //   eventManager.off({
+  //     swipeleft: onSwipeLeft,
+  //     swiperight: onSwipeRight,
+  //   });
+  // });
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
@@ -174,7 +176,6 @@
     prezydent, rada ministrów, sejm, senat" />
   <meta name="konstytucja" content="website" />
 </svelte:head>
-
 <Nav segment={'articles'} />
 <div>
   <div class="flex justify-between h-8">
