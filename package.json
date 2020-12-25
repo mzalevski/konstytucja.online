@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "mjolnir.js": "^2.5.0",
     "polka": "next",
     "sirv": "^0.4.6"
   },

@@ -17,6 +17,13 @@
   import { stores, goto } from "@sapper/app";
   import Nav from "../components/Nav.svelte";
   import Tooltip from "../components/Tooltip.svelte";
+  import { EventManager } from "mjolnir.js";
+
+  const eventManager = new EventManager(document.getElementById("container"));
+  const swipeLeft = () => alert("swipe left!");
+  const swipeRight = () => alert("swipe right!");
+
+  eventManager.on({ swipeLeft, swipeRight });
 
   export let article;
 
@@ -39,7 +46,7 @@
     isDisqusVisible = true;
   };
 
-  const handleKeydown = e => {
+  const handleKeydown = (e) => {
     if (
       e.code === "ArrowLeft" &&
       $page.params.slug > 1 &&
@@ -83,7 +90,7 @@
     }
   };
 
-  const handleKeyup = e => {
+  const handleKeyup = (e) => {
     if (
       e.code === "ArrowLeft" &&
       $page.params.slug > 1 &&
@@ -106,7 +113,7 @@
     let html = document.querySelector("html");
     let rightChevron = document.getElementById("right-chevron");
 
-    const observer = new MutationObserver(mutations => {
+    const observer = new MutationObserver((mutations) => {
       let scrolledBefore = false;
       for (let mut of mutations) {
         if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
@@ -235,7 +242,7 @@
             w-auto ml-2 text-gray-500 pointer-events-none" />
           <div class="flex">
             <input
-              on:keydown={e => {
+              on:keydown={(e) => {
                 if (e.target.value.length === 3 && !['Backspace', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight'].includes(e.code)) {
                   e.preventDefault();
                 }
