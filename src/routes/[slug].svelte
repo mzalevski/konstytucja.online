@@ -144,22 +144,13 @@
       showDisqus();
     }
 
-    eventManager = new EventManager(document.documentElement);
+    eventManager = new EventManager(document.getElementById("swipeable"));
 
     eventManager.on({
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
-      swipeup: () => {},
-      swipedown: () => {},
     });
   });
-
-  // onDestroy(() => {
-  //   eventManager.off({
-  //     swipeleft: onSwipeLeft,
-  //     swiperight: onSwipeRight,
-  //   });
-  // });
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
@@ -177,7 +168,7 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 <Nav segment={'articles'} />
-<div>
+<div id="swipeable">
   <div class="flex justify-between h-8">
     <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
     <a
