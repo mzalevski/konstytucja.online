@@ -13,7 +13,7 @@
 
 <nav class="items-center mt-2 mb-2 border-b border-gray-200 sm:pb-2 sm:flex">
   <div
-    class="flex items-center justify-center w-full mb-2 sm:mb-px
+    class="flex items-center justify-between px-1 sm:px-0 w-full mb-2 sm:mb-px
     sm:justify-start sm:w-2/3 lg:w-1/2 xl:w-2/5">
     <a
       class:active={segment === undefined}
@@ -42,7 +42,7 @@
       <p
         class:active={segment === 'info'}
         on:mouseenter={() => (showDropdown = true)}
-        on:click={e => {
+        on:click={(e) => {
           if (/(android)/i.test(navigator.userAgent)) {
             e.target.click();
           }
