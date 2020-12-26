@@ -144,13 +144,20 @@
       showDisqus();
     }
 
-    eventManager = new EventManager(document.getElementById("swipeable"));
+    // eventManager = new EventManager(document.getElementById("swipeable"));
 
-    eventManager.on({
-      swipeleft: onSwipeLeft,
-      swiperight: onSwipeRight,
-    });
+    // eventManager.on({
+    //   swipeleft: onSwipeLeft,
+    //   swiperight: onSwipeRight,
+    // });
   });
+
+  // onDestroy(() => {
+  //   eventManager.off({
+  //     swipeleft: onSwipeLeft,
+  //     swiperight: onSwipeRight,
+  //   });
+  // });
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
