@@ -144,12 +144,14 @@
       showDisqus();
     }
 
-    // eventManager = new EventManager(document.getElementById("swipeable"));
+    eventManager = new EventManager(document.getElementById("swipeable"), {
+      touchAction: "auto",
+    });
 
-    // eventManager.on({
-    //   swipeleft: () => console.log("left"),
-    //   swiperight: () => console.log("right"),
-    // });
+    eventManager.on({
+      swipeleft: () => console.log("left"),
+      swiperight: () => console.log("right"),
+    });
   });
 
   // onDestroy(() => {
