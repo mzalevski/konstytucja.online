@@ -106,12 +106,16 @@
 
   const onSwipeLeft = () => {
     if (currentPage === 243) return null;
+    isDescriptionVisible = false;
+    isDisqusVisible = false;
     currentPage = currentPage + 1;
     goto(`/${currentPage}`);
   };
 
   const onSwipeRight = () => {
     if (currentPage === 1) return null;
+    isDescriptionVisible = false;
+    isDisqusVisible = false;
     currentPage = currentPage - 1;
     goto(`/${currentPage}`);
   };
@@ -144,7 +148,7 @@
       showDisqus();
     }
 
-    eventManager = new EventManager(document.getElementById("swipeable"), {
+    eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
 
