@@ -145,7 +145,7 @@
     }
 
     eventManager = new EventManager(document.getElementById("swipeable"), {
-      touchAction: "pan-x",
+      touchAction: "pan-y",
     });
 
     eventManager.on({
