@@ -145,21 +145,21 @@
     }
 
     eventManager = new EventManager(document.getElementById("swipeable"), {
-      touchAction: "auto",
+      touchAction: "pan-x",
     });
 
     eventManager.on({
-      swipeleft: () => console.log("left"),
-      swiperight: () => console.log("right"),
+      swipeleft: onSwipeLeft,
+      swiperight: onSwipeRight,
     });
   });
 
-  // onDestroy(() => {
-  //   eventManager.off({
-  //     swipeleft: onSwipeLeft,
-  //     swiperight: onSwipeRight,
-  //   });
-  // });
+  onDestroy(() => {
+    eventManager.off({
+      swipeleft: onSwipeLeft,
+      swiperight: onSwipeRight,
+    });
+  });
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
