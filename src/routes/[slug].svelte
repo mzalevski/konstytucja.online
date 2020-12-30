@@ -159,10 +159,12 @@
   });
 
   onDestroy(() => {
-    eventManager.off({
-      swipeleft: onSwipeLeft,
-      swiperight: onSwipeRight,
-    });
+    if (typeof window !== "undefined") {
+      eventManager.off({
+        swipeleft: onSwipeLeft,
+        swiperight: onSwipeRight,
+      });
+    }
   });
 </script>
 
