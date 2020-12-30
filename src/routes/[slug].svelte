@@ -342,7 +342,7 @@
     <div
       in:fade={{ duration: 1000 }}
       style="hyphens: auto;"
-      class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
+      class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl">
       {@html article.html}
     </div>
     <div
@@ -351,15 +351,12 @@
       {#if article.desc != ``}
         <div class="pt-8">
           <button
+            class="text-gray-600 text-sm"
             on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
             {#if !isDescriptionVisible}
-              <span class="pt-2 text-gray-600">
-                wyjaśnienie treści artykułu | pokaż
-              </span>
+              <span class="pt-2"> wyjaśnienie treści artykułu | pokaż </span>
             {:else}
-              <span class="pt-2 text-gray-600">
-                wyjaśnienie treści artykułu | schowaj
-              </span>
+              <span class="pt-2"> wyjaśnienie treści artykułu | schowaj </span>
             {/if}
           </button>
           {#if isDescriptionVisible}
@@ -367,10 +364,10 @@
               class="text-justify"
               in:fly|fade={{ y: -15, duration: 800 }}
               out:fly|fade={{ y: -15, duration: 400 }}>
-              <h3 class="pt-2 font-thin sm:text-xl">
+              <h3 class="pt-2 font-thin text-base sm:text-xl">
                 Wyjaśnienie treści artykułu
               </h3>
-              <div class="pt-2">
+              <div class="pt-2 text-sm">
                 {@html article.desc}
               </div>
             </div>
@@ -379,14 +376,14 @@
       {/if}
 
       <div class="pt-4">
-        <button>
+        <button class="text-gray-600 text-sm">
           {#if !isDisqusVisible}
-            <span class="pt-2 text-gray-600" on:click={() => showDisqus()}>
+            <span class="pt-2" on:click={() => showDisqus()}>
               dyskusja nad artykułem | pokaż
             </span>
           {:else}
             <span
-              class="pt-2 text-gray-600"
+              class="pt-2"
               on:click={() => {
                 isDisqusVisible = false;
                 timestamp = 0;
