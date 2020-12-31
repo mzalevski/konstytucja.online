@@ -14,24 +14,18 @@
       ? { y: -30, duration: 600 }
       : { y: 30, duration: 600 };
 
+  const onSwipeRight = () => (showDropdown = false);
+
   onMount(() => {
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({
-      swiperight: () => {
-        showDropdown = false;
-      },
-    });
+    eventManager.on({ swiperight: onSwipeRight });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({
-        swiperight: () => {
-          showDropdown = false;
-        },
-      });
+      eventManager.off({ swiperight: onSwipeRight });
     }
   });
 </script>

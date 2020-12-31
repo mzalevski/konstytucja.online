@@ -60,28 +60,23 @@
     });
   }
 
+  const onSwipeLeft = () => (showDropdown = true);
+
+  const onSwipeRight = () => () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/preambula");
+  };
+
   onMount(() => {
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({
-      swiperight: () => {
-        if (showDropdown) showDropdown = false;
-        else goto("/preambula");
-      },
-      swipeleft: () => (showDropdown = true),
-    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({
-        swiperight: () => {
-          if (showDropdown) showDropdown = false;
-          else goto("/preambula");
-        },
-        swipeleft: () => (showDropdown = true),
-      });
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>

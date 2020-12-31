@@ -33,16 +33,18 @@
     "a poszanowanie tych zasad mieli za niewzruszoną podstawę Rzeczypospolitej Polskiej.",
   ];
 
+  const onSwipeLeft = () => goto("/");
+
   onMount(() => {
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swipeleft: () => goto("/") });
+    eventManager.on({ swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swipeleft: () => goto("/") });
+      eventManager.off({ swipeleft: onSwipeLeft });
     }
   });
 </script>
