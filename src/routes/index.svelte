@@ -62,7 +62,7 @@
 
   const onSwipeLeft = () => (showDropdown = true);
 
-  const onSwipeRight = () => () => {
+  const onSwipeRight = () => {
     if (showDropdown) showDropdown = false;
     else goto("/preambula");
   };
