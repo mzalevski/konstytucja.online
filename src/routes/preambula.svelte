@@ -1,6 +1,11 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto } from "@sapper/app";
+
+  let eventManager;
 
   const paragraphs = [
     "W trosce o byt i przyszłość naszej Ojczyzny,",
@@ -27,6 +32,19 @@
     "jego prawa do wolności i obowiązku solidarności z innymi,",
     "a poszanowanie tych zasad mieli za niewzruszoną podstawę Rzeczypospolitej Polskiej.",
   ];
+
+  onMount(() => {
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swipeleft: () => goto("/") });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swipeleft: () => goto("/") });
+    }
+  });
 </script>
 
 <svelte:head>

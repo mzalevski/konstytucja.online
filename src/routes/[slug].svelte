@@ -18,9 +18,11 @@
   import Nav from "../components/Nav.svelte";
   import Tooltip from "../components/Tooltip.svelte";
   import { EventManager } from "mjolnir.js";
+
   export let article;
 
   let eventManager;
+
   const { page } = stores();
   let mounted = true;
   let xDelta = 30;

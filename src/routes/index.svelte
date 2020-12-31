@@ -1,8 +1,8 @@
 <script context="module">
   export function preload({ params, query }) {
     return this.fetch(`index.json`)
-      .then(r => r.json())
-      .then(articles => {
+      .then((r) => r.json())
+      .then((articles) => {
         return { articles };
       });
   }
@@ -13,12 +13,16 @@
   import Nav from "../components/Nav.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto } from "@sapper/app";
 
   export let articles;
 
   let selectedArticles = articles;
   let searchedText;
   let selectedChapter;
+  let eventManager;
 
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
@@ -26,12 +30,12 @@
 
     let parsedSearchedText = searchedText.replace(
       /[\?\)\(\.\\\*\+]/g,
-      match => `\\${match}`
+      (match) => `\\${match}`
     );
 
     let allChapters = selectedChapter === "_";
 
-    selectedArticles = articles.filter(article => {
+    selectedArticles = articles.filter((article) => {
       let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
 
       let parsedArticleHtml = article.html.replace(
@@ -49,12 +53,24 @@
       let titleHit = article.title
         .replace(/\./g, "")
         .toLowerCase()
-        // zawiera to i tamto
         .includes(searchedText.replace(/\./g, "").toLowerCase());
 
       return (chapterHit && textHit) || (titleHit && searchedText);
     });
   }
+
+  onMount(() => {
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: () => goto("/preambula") });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: () => goto("/preambula") });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -102,7 +118,7 @@
             new RegExp(
               `[ >]${searchedText.replace(
                 /[\<\>\?\)\(\.\\\*\+]/g,
-                match => `\\${match}`
+                (match) => `\\${match}`
               )}`,
               'gi'
             ),
