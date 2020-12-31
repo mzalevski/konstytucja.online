@@ -363,7 +363,7 @@
     <div
       on:click={(e) => {
         if (e.target.pathname) {
-          currentPage = e.target.pathname;
+          currentPage = parseInt(e.target.pathname.slice(1));
         }
       }}
       in:fade={{ duration: 1000 }}
