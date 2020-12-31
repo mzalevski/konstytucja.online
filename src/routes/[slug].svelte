@@ -23,7 +23,7 @@
   let eventManager;
   const { page } = stores();
   let mounted = true;
-  let xDelta = 20;
+  let xDelta = 30;
   let isDescriptionVisible = false;
   let isDisqusVisible = false;
   let isFindVisible = false;
@@ -41,8 +41,9 @@
   };
 
   page.subscribe(({ path }) => {
-    if (currentPage > parseInt(path.slice(1))) xDelta = -20;
-    if (currentPage < parseInt(path.slice(1))) xDelta = 20;
+    if (currentPage > parseInt(path.slice(1))) xDelta = -30;
+    else if (currentPage < parseInt(path.slice(1))) xDelta = 30;
+    else xDelta = 0;
     currentPage = parseInt(path.slice(1));
     mounted = true;
   });
@@ -97,12 +98,14 @@
       $page.params.slug > 1 &&
       !window.document.getElementById("find")
     ) {
+      mounted = false;
       goto(`/${currentPage}`);
     } else if (
       e.code === "ArrowRight" &&
       $page.params.slug < 243 &&
       !window.document.getElementById("find")
     ) {
+      mounted = false;
       goto(`/${currentPage}`);
     } else {
       return null;
@@ -111,18 +114,20 @@
 
   const onSwipeLeft = () => {
     if (currentPage === 243) return null;
+    mounted = false;
     isDescriptionVisible = false;
     isDisqusVisible = false;
-    currentPage = currentPage + 1;
-    goto(`/${currentPage}`);
+    // currentPage = currentPage + 1;
+    goto(`/${currentPage + 1}`);
   };
 
   const onSwipeRight = () => {
     if (currentPage === 1) return null;
+    mounted = false;
     isDescriptionVisible = false;
     isDisqusVisible = false;
-    currentPage = currentPage - 1;
-    goto(`/${currentPage}`);
+    // currentPage = currentPage - 1;
+    goto(`/${currentPage - 1}`);
   };
 
   onMount(() => {
@@ -360,12 +365,12 @@
   {/if}
   {#if mounted}
     <h1
-      in:fly|fade={{ x: xDelta, duration: 800 }}
+      in:fly|fade={{ x: xDelta, duration: 600 }}
       class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
       {article.title}
     </h1>
-    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 800 }}>
+    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 600 }}>
       <div
         on:click={(e) => {
           if (e.target.pathname) {
