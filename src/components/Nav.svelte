@@ -1,14 +1,39 @@
 <script>
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+
   import { fly, fade } from "svelte/transition";
 
   export let segment;
+  export let showDropdown = false;
 
-  let showDropdown = false;
+  let eventManager;
 
   let dropdownTransitionConfig =
     window.outerWidth > 1024
       ? { y: -30, duration: 600 }
-      : { x: 30, duration: 600 };
+      : { y: 30, duration: 600 };
+
+  onMount(() => {
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({
+      swiperight: () => {
+        showDropdown = false;
+      },
+    });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({
+        swiperight: () => {
+          showDropdown = false;
+        },
+      });
+    }
+  });
 </script>
 
 <nav class="items-center mt-2 mb-2 border-b border-gray-200 sm:pb-2 sm:flex">
@@ -70,68 +95,83 @@
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
-          class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded
-          shadow-lg cursor-default sm:w-48">
+          class="fixed sm:absolute left-0 sm:left-auto top-0 sm:top-auto z-10 text-center pt-16 sm:pt-0 sm:text-left w-screen h-screen sm:p-2 bg-white border-gray-200 rounded
+          shadow-lg cursor-default sm:w-48 sm:h-auto">
           <a
-            class="block md:ml-2 hover:text-red-new"
+            class="block md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/komisja">
             Komisja Konstytucyjna
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/legislacja">
             Proces legislacyjny
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/slownik">
             Słownik pojęć
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/dyskusja">
             Dyskusja
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/odpowiedzi">
             Odpowiedzi
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/app-mobile">
             Aplikacja - mobile
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/app-desktop">
             Aplikacja - desktop
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/inicjatywa">
             Inicjatywa
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/skroty">
             Skróty klawiszowe
           </a>
           <a
-            class="block pt-1 md:ml-2 hover:text-red-new"
+            class="block pt-3 sm:pt-1 md:ml-2 text-xl sm:text-sm hover:text-red-new"
             rel="prefetch"
             href="/twitter-bot">
             Twitter Bot
           </a>
+          {#if showDropdown}
+            <div
+              class="fixed top-0 right-0 p-4 cursor-pointer hover:bg-gray-100 rounded"
+              on:click={() => (showDropdown = false)}>
+              <svg
+                class="w-8 h-8 stroke-current text-gray-900"
+                viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </div>
+          {/if}
         </div>
       {/if}
     </div>

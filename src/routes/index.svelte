@@ -23,6 +23,7 @@
   let searchedText;
   let selectedChapter;
   let eventManager;
+  let showDropdown = false;
 
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
@@ -63,12 +64,24 @@
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swiperight: () => goto("/preambula") });
+    eventManager.on({
+      swiperight: () => {
+        if (showDropdown) showDropdown = false;
+        else goto("/preambula");
+      },
+      swipeleft: () => (showDropdown = true),
+    });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swiperight: () => goto("/preambula") });
+      eventManager.off({
+        swiperight: () => {
+          if (showDropdown) showDropdown = false;
+          else goto("/preambula");
+        },
+        swipeleft: () => (showDropdown = true),
+      });
     }
   });
 </script>
@@ -92,7 +105,7 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav>
+<Nav {showDropdown}>
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
 </Nav>
 
