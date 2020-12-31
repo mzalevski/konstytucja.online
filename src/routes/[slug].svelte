@@ -353,6 +353,7 @@
       </div>
     </div>
   {/if}
+
   <h1
     class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
@@ -360,6 +361,11 @@
   </h1>
   <div class="py-4">
     <div
+      on:click={(e) => {
+        if (e.target.pathname) {
+          currentPage = e.target.pathname;
+        }
+      }}
       in:fade={{ duration: 1000 }}
       style="hyphens: auto;"
       class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl">
