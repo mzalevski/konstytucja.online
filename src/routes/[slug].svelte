@@ -18,13 +18,12 @@
   import Nav from "../components/Nav.svelte";
   import Tooltip from "../components/Tooltip.svelte";
   import { EventManager } from "mjolnir.js";
-
   export let article;
 
   let eventManager;
-
   const { page } = stores();
-
+  let mounted = true;
+  let xDelta = 20;
   let isDescriptionVisible = false;
   let isDisqusVisible = false;
   let isFindVisible = false;
@@ -38,9 +37,15 @@
     s.src = "https://konstytucja.disqus.com/embed.js";
     s.setAttribute("data-timestamp", +new Date());
     (d.head || d.body).appendChild(s);
-
     isDisqusVisible = true;
   };
+
+  page.subscribe(({ path }) => {
+    if (currentPage > parseInt(path.slice(1))) xDelta = -20;
+    if (currentPage < parseInt(path.slice(1))) xDelta = 20;
+    currentPage = parseInt(path.slice(1));
+    mounted = true;
+  });
 
   const handleKeydown = (e) => {
     if (
@@ -230,7 +235,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) - 1}"
             on:click={() => {
-              currentPage = parseInt($page.params.slug) - 1;
+              mounted = false;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
@@ -253,7 +258,7 @@
             rel="prefetch"
             href="/{parseInt($page.params.slug) + 1}"
             on:click={() => {
-              currentPage = parseInt($page.params.slug) + 1;
+              mounted = false;
               isDescriptionVisible = false;
               isDisqusVisible = false;
             }}>
@@ -353,80 +358,84 @@
       </div>
     </div>
   {/if}
-
-  <h1
-    class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
+  {#if mounted}
+    <h1
+      in:fly|fade={{ x: xDelta, duration: 800 }}
+      class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
-    {article.title}
-  </h1>
-  <div class="py-4">
-    <div
-      on:click={(e) => {
-        if (e.target.pathname) {
-          currentPage = parseInt(e.target.pathname.slice(1));
-        }
-      }}
-      in:fade={{ duration: 1000 }}
-      style="hyphens: auto;"
-      class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl">
-      {@html article.html}
-    </div>
-    <div
-      id="extra-info"
-      class="max-w-3xl mx-auto mt-8 border-t border-gray-200">
-      {#if article.desc != ``}
-        <div class="pt-8">
-          <button
-            class="text-gray-600 text-sm"
-            on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
-            {#if !isDescriptionVisible}
-              <span class="pt-2"> wyjaśnienie treści artykułu | pokaż </span>
+      {article.title}
+    </h1>
+    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 800 }}>
+      <div
+        on:click={(e) => {
+          if (e.target.pathname) {
+            currentPage = parseInt(e.target.pathname.slice(1));
+          }
+        }}
+        in:fade={{ duration: 1000 }}
+        style="hyphens: auto;"
+        class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl">
+        {@html article.html}
+      </div>
+      <div
+        id="extra-info"
+        class="max-w-3xl mx-auto mt-8 border-t border-gray-200">
+        {#if article.desc != ``}
+          <div class="pt-8">
+            <button
+              class="text-gray-600 text-sm"
+              on:click={() => (isDescriptionVisible = !isDescriptionVisible)}>
+              {#if !isDescriptionVisible}
+                <span class="pt-2"> wyjaśnienie treści artykułu | pokaż </span>
+              {:else}
+                <span class="pt-2">
+                  wyjaśnienie treści artykułu | schowaj
+                </span>
+              {/if}
+            </button>
+            {#if isDescriptionVisible}
+              <div
+                class="text-justify"
+                in:fly|fade={{ y: -15, duration: 800 }}
+                out:fly|fade={{ y: -15, duration: 400 }}>
+                <h3 class="pt-2 font-thin text-base sm:text-xl">
+                  Wyjaśnienie treści artykułu
+                </h3>
+                <div class="pt-2 text-sm">
+                  {@html article.desc}
+                </div>
+              </div>
+            {/if}
+          </div>
+        {/if}
+
+        <div class="pt-4">
+          <button class="text-gray-600 text-sm">
+            {#if !isDisqusVisible}
+              <span class="pt-2" on:click={() => showDisqus()}>
+                dyskusja nad artykułem | pokaż
+              </span>
             {:else}
-              <span class="pt-2"> wyjaśnienie treści artykułu | schowaj </span>
+              <span
+                class="pt-2"
+                on:click={() => {
+                  isDisqusVisible = false;
+                  timestamp = 0;
+                }}>
+                dyskusja nad artykułem | schowaj
+              </span>
             {/if}
           </button>
-          {#if isDescriptionVisible}
-            <div
-              class="text-justify"
-              in:fly|fade={{ y: -15, duration: 800 }}
-              out:fly|fade={{ y: -15, duration: 400 }}>
-              <h3 class="pt-2 font-thin text-base sm:text-xl">
-                Wyjaśnienie treści artykułu
-              </h3>
-              <div class="pt-2 text-sm">
-                {@html article.desc}
-              </div>
-            </div>
-          {/if}
         </div>
-      {/if}
 
-      <div class="pt-4">
-        <button class="text-gray-600 text-sm">
-          {#if !isDisqusVisible}
-            <span class="pt-2" on:click={() => showDisqus()}>
-              dyskusja nad artykułem | pokaż
-            </span>
-          {:else}
-            <span
-              class="pt-2"
-              on:click={() => {
-                isDisqusVisible = false;
-                timestamp = 0;
-              }}>
-              dyskusja nad artykułem | schowaj
-            </span>
-          {/if}
-        </button>
+        {#if isDisqusVisible}
+          <div
+            class="pt-4"
+            id="disqus_thread"
+            in:fly={{ y: -40, duration: 1000 }}
+            out:fly={{ y: -40, duration: 200 }} />
+        {/if}
       </div>
-
-      {#if isDisqusVisible}
-        <div
-          class="pt-4"
-          id="disqus_thread"
-          in:fly={{ y: -40, duration: 1000 }}
-          out:fly={{ y: -40, duration: 200 }} />
-      {/if}
     </div>
-  </div>
+  {/if}
 </div>
