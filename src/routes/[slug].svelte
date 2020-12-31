@@ -183,21 +183,41 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 <Nav segment={'articles'} />
-<div id="swipeable">
+<div>
   <div class="flex justify-between h-8">
-    <!-- <Tooltip text={'Powrót do listy artykułów.'} pos={'b'}> -->
-    <a
-      id="back-btn"
-      class="w-24 font-thin sm:text-xl hover:text-red-new pl-1"
-      rel="prefetch"
-      href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
-      on:click={() => {
-        isDescriptionVisible = false;
-        isDisqusVisible = false;
-      }}>
-      powrót
-    </a>
-    <!-- </Tooltip> -->
+    <div class="flex justify-start w-24 pt-px mt-px">
+      <Tooltip text={'Powrót do listy.'} pos={'b'}>
+        <a
+          id="back-btn"
+          class="flex flex-col justify-center"
+          rel="prefetch"
+          href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
+          on:click={() => {
+            isDescriptionVisible = false;
+            isDisqusVisible = false;
+          }}>
+          <div class="flex">
+            <svg
+              class="w-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
+              viewBox="0 0 20 20">
+              <path
+                d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
+            c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
+            z" />
+            </svg>
+            <svg
+              class="w-5 h-6 -ml-2 text-gray-900 fill-current sm:w-6"
+              viewBox="0 0 20 20">
+              <path
+                d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
+          c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
+          z" />
+            </svg>
+          </div>
+        </a>
+      </Tooltip>
+    </div>
+
     <h3 class="font-thin text-center sm:text-xl">
       {article.chapter['id']}
       {article.chapter['title']}
