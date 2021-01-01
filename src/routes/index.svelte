@@ -106,7 +106,7 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
-    {#each selectedArticles as article}
+    {#each selectedArticles.slice(0, 10) as article}
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
