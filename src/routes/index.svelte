@@ -19,11 +19,27 @@
 
   export let articles;
 
+  let scrollY;
   let selectedArticles = articles;
+  let articlesToShow = selectedArticles.slice(0, 10);
   let searchedText;
   let selectedChapter;
   let eventManager;
   let showDropdown = false;
+
+  function handleScroll() {
+    if (scrollY / (document.documentElement.scrollHeight - 1000) > 0.9) {
+      if (articlesToShow.length < articles.length) {
+        articlesToShow = [
+          ...articlesToShow,
+          ...selectedArticles.slice(
+            articlesToShow.length,
+            articlesToShow.length + 10
+          ),
+        ];
+      }
+    }
+  }
 
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
@@ -100,13 +116,15 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
+<svelte:window bind:scrollY on:scroll={handleScroll} />
+
 <Nav {showDropdown}>
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
 </Nav>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
-    {#each selectedArticles.slice(0, 10) as article}
+    {#each articlesToShow as article}
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
