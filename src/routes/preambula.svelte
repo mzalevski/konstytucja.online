@@ -3,7 +3,7 @@
   import Nav from "../components/Nav.svelte";
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
-  import { goto } from "@sapper/app";
+  import { goto, prefetch } from "@sapper/app";
 
   let eventManager;
 
@@ -36,6 +36,7 @@
   const onSwipeLeft = () => goto("/");
 
   onMount(() => {
+    prefetch("/");
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });

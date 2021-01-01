@@ -9,7 +9,7 @@
 </script>
 
 <script>
-  import { fly, fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
@@ -106,7 +106,7 @@
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
-    {#each selectedArticles.slice(0, 10) as article}
+    {#each selectedArticles as article}
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}

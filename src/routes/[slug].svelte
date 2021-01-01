@@ -367,12 +367,12 @@
   {/if}
   {#if mounted}
     <h1
-      in:fly|fade={{ x: xDelta, duration: 150 }}
+      in:fly|fade={{ x: xDelta, duration: 100 }}
       class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
       {article.title}
     </h1>
-    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 150 }}>
+    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 100 }}>
       <div
         on:click={(e) => {
           if (e.target.pathname) {
