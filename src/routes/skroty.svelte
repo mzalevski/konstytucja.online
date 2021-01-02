@@ -1,6 +1,26 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto, prefetch } from "@sapper/app";
+  let eventManager;
+
+  const onSwipeRight = () => goto("/");
+
+  onMount(() => {
+    prefetch("/");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -27,7 +47,6 @@
 </h1>
 
 <div class="mt-4" in:fade={{ duration: 3000 }}>
-
   <h2 class="mt-4 text-xl font-thin">Wszędzie</h2>
   <div class="flex text-lg sm:space-x-4">
     <img class="w-10 h-10 sm:w-16 sm:h-16" src="/images/keys/D.png" alt="" />

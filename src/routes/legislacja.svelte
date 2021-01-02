@@ -1,6 +1,26 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto, prefetch } from "@sapper/app";
+  let eventManager;
+
+  const onSwipeRight = () => goto("/");
+
+  onMount(() => {
+    prefetch("/");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -276,5 +296,4 @@
     dopiero począwszy od kolejnych kadencji Sejmu i Senatu (tj. od VII kadencji
     Sejmu i VIII kadencji Senatu).
   </p>
-
 </div>

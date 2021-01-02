@@ -153,7 +153,7 @@
           </a>
           {#if showDropdown}
             <div
-              class="fixed top-0 right-0 p-4 cursor-pointer hover:bg-gray-100 rounded"
+              class="fixed sm:hidden top-0 right-0 p-4 cursor-pointer hover:bg-gray-100 rounded"
               on:click={() => (showDropdown = false)}>
               <svg
                 class="w-8 h-8 stroke-current text-gray-900"
