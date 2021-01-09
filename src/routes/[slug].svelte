@@ -337,14 +337,23 @@
 
             <Tooltip text={'Naciśnij enter.'} pos={'b'}>
               <svg
+                on:click={() => {
+                  if (!(parseInt(findDestination) <= 243 && parseInt(findDestination) >= 1)) return;
+                  if (!findDestination) return;
+                  currentPage = findDestination;
+                  goto(`/${findDestination}`);
+                  isDescriptionVisible = false;
+                  isDisqusVisible = false;
+                  isFindVisible = false;
+                }}
                 class="w-16 h-16 mx-2 text-gray-700 rounded fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512">
                 <path d="M256 0v32h224v448H32V32h64V0H0v512h512V0z" />
                 <path
                   d="M128 0h32v32h-32zM192 0h32v32h-32zM148.688 196.688L73.376
-                  272l75.312 75.312 22.624-22.624L134.624
-                  288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
+                272l75.312 75.312 22.624-22.624L134.624
+                288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
               </svg>
             </Tooltip>
           </div>
