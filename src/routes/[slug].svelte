@@ -338,7 +338,7 @@
             <Tooltip text={'Naciśnij enter.'} pos={'b'}>
               <svg
                 on:click={() => {
-                  if (!(parseInt(findDestination) <= 243 && parseInt(findDestination) >= 1)) return;
+                  if (parseInt(findDestination) < 1 || parseInt(findDestination) > 243) return;
                   if (!findDestination) return;
                   currentPage = findDestination;
                   goto(`/${findDestination}`);
