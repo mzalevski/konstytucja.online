@@ -333,8 +333,11 @@
             <Tooltip text={'Naciśnij enter.'} pos={'b'}>
               <svg
                 on:click={() => {
-                  if (parseInt(findDestination) < 1 || parseInt(findDestination) > 243) return;
                   if (!findDestination) return;
+                  if (parseInt(findDestination) < 1 || parseInt(findDestination) > 243) {
+                    findDestination = null;
+                    return;
+                  }
                   currentPage = findDestination;
                   goto(`/${findDestination}`);
                   isDescriptionVisible = false;
