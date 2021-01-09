@@ -121,22 +121,17 @@
   const onSwipeLeft = () => {
     if (currentPage === 243) return null;
     mounted = false;
-    // isDescriptionVisible = false;
-    // isDisqusVisible = false;
-    // currentPage = currentPage + 1;
     goto(`/${currentPage + 1}`);
   };
 
   const onSwipeRight = () => {
     if (currentPage === 1) return null;
     mounted = false;
-    // isDescriptionVisible = false;
-    // isDisqusVisible = false;
-    // currentPage = currentPage - 1;
     goto(`/${currentPage - 1}`);
   };
 
   const onPress = () => {
+    findDestination = null;
     isFindVisible = true;
   };
 
