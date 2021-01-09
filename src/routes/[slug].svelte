@@ -48,6 +48,10 @@
     else xDelta = 0;
     currentPage = parseInt(path.slice(1));
     mounted = true;
+    setTimeout(() => {
+      isDescriptionVisible = false;
+      isDisqusVisible = false;
+    }, 1000);
   });
 
   const handleKeydown = (e) => {
@@ -117,8 +121,8 @@
   const onSwipeLeft = () => {
     if (currentPage === 243) return null;
     mounted = false;
-    isDescriptionVisible = false;
-    isDisqusVisible = false;
+    // isDescriptionVisible = false;
+    // isDisqusVisible = false;
     // currentPage = currentPage + 1;
     goto(`/${currentPage + 1}`);
   };
@@ -126,10 +130,14 @@
   const onSwipeRight = () => {
     if (currentPage === 1) return null;
     mounted = false;
-    isDescriptionVisible = false;
-    isDisqusVisible = false;
+    // isDescriptionVisible = false;
+    // isDisqusVisible = false;
     // currentPage = currentPage - 1;
     goto(`/${currentPage - 1}`);
+  };
+
+  const onPress = () => {
+    isFindVisible = true;
   };
 
   onMount(() => {
@@ -167,6 +175,7 @@
     eventManager.on({
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
+      press: onPress,
     });
   });
 
