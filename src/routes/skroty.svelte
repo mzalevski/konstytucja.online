@@ -27,7 +27,6 @@
 </h1>
 
 <div class="mt-4" in:fade={{ duration: 3000 }}>
-
   <h2 class="mt-4 text-xl font-thin">Wszędzie</h2>
   <div class="flex text-lg sm:space-x-4">
     <img class="w-10 h-10 sm:w-16 sm:h-16" src="/images/keys/D.png" alt="" />
@@ -72,7 +71,7 @@
     <span
       class="hidden md:block pt-2 sm:pt-3 text-sm sm:text-base sm:w-4/12
       hover:text-red-new">
-      strzałka w prawo
+      strzałka w prawo (przytrzymaj, aby przejść o więcej artykułów)
     </span>
   </div>
 
@@ -85,7 +84,7 @@
     <span
       class="hidden md:block pt-2 sm:pt-3 text-sm sm:text-base sm:w-4/12
       hover:text-red-new">
-      strzałka w lewo
+      strzałka w lewo (przytrzymaj, aby przejść o więcej artykułów)
     </span>
   </div>
 
