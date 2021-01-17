@@ -173,7 +173,7 @@ pointer-events-none sm:hidden lg:flex"
           max="243"
           placeholder="Twoja odpowiedź"
           on:keydown={e => {
-            if (["Enter", "KeyUp"].includes(e.code)) {
+            if (["Enter"].includes(e.key)) {
               if (!answer) return;
               if (answer === parseInt(randomArticle.slug)) {
                 points = points + 1;
