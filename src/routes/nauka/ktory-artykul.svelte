@@ -12,6 +12,7 @@
   import Nav from "../../components/Nav.svelte";
   import { fly, fade } from "svelte/transition";
   import { onMount } from "svelte";
+  import { goto } from "@sapper/app";
   export let articles;
   let answer = null;
   let randomArticle = null;
@@ -52,28 +53,33 @@
   in:fly={{ x: -50, duration: 1000 }}
 >Który to artykuł?</h1>
 
-<div>Punkty: {points}</div>
-
-<span>
-  {#each Array.from({ length: hearts }, (v, k) => k) as heart}
-    ❤️
-  {/each}
-
-  {#each Array.from({ length: Math.abs(hearts - 3) }, (v, k) => k) as heart}
-    💔
-  {/each}
-</span>
-
 {#if randomArticle}
   <div>pop: {randomArticle.slug}</div>
 
   <div class="mt-4" in:fade={{ duration: 3000 }}>
     <div
       style="hyphens: auto;"
-      class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl"
+      class="max-w-3xl mx-auto text-base leading-relaxed text-justify sm:text-xl"
     >
-      <div class="mb-8">
-        <span class="text-2xl">Twoja odpowiedź: </span><input
+      <div class="w-2/5 mx-auto mb-8">
+        <div class="flex justify-between mb-4">
+          <div class="">Punkty: {points}</div>
+
+          <div class="">
+            <span>
+              {#each Array.from({ length: hearts }, (v, k) => k) as heart}
+                ❤️
+              {/each}
+
+              {#each Array.from({ length: Math.abs(hearts - 3) }, (v, k) => k) as heart}
+                💔
+              {/each}
+            </span>
+          </div>
+        </div>
+
+        <input
+          placeholder="Twoja odpowiedź"
           on:keydown={e => {
             if (e.code === "Enter") {
               if (answer === parseInt(randomArticle.slug)) {
@@ -88,7 +94,7 @@
                     points = 0;
                     hearts = 3;
                   } else {
-                    alert("koniec koniec");
+                    goto("/");
                   }
                 }
               }
@@ -96,12 +102,13 @@
               randomArticle = getRandomArticle();
             }
           }}
-          class="border px-2 ml-2"
+          class="h-12 text-center placeholder-gray-300 border outline-none appearance-none"
           bind:value={answer}
           type="number"
           autofocus
         />
       </div>
+
       {@html randomArticle.html}
     </div>
   </div>
