@@ -13,7 +13,6 @@
   import { fly, fade } from "svelte/transition";
   import { onMount } from "svelte";
   import { goto } from "@sapper/app";
-  import { prevent_default } from "svelte/internal";
   export let articles;
   let answer = null;
   let randomArticle = null;
@@ -23,12 +22,13 @@
   let showErrorModal = false;
   let showOptionsModal = false;
   let showSuccessModal = false;
+  let showEndModal = false;
 
   const getRandomArticle = chapter => {
     const arts = articles.filter(
       a => a.chapter.id === chapter || chapter === "_"
     );
-    return arts[Math.floor(Math.random() * arts.length) + 1];
+    return arts[Math.floor(Math.random() * arts.length)];
   };
 
   onMount(() => {
@@ -71,6 +71,9 @@
       on:click={() => {
         if (showErrorModal) showErrorModal = false;
         randomArticle = getRandomArticle(selectedChapter);
+        if (hearts === 0) {
+          showEndModal = true;
+        }
         setTimeout(() => {
           document.getElementById("art-input").focus();
         }, 100);
@@ -236,14 +239,53 @@
   </div>
 {/if}
 
+{#if showEndModal}
+  <div
+    id="options-modal"
+    transition:fade={{ duration: 400 }}
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+      bg-dark-overlay"
+  >
+    <div
+      class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
+    >
+      <h2 class="text-2xl font-thin sm:text-4xl">
+        Koniec gry! Grasz jeszcze raz?
+      </h2>
+
+      <div class="">
+        <div class="flex justify-around mt-4">
+          <button
+            on:click={() => {
+              goto("/");
+            }}
+            class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow
+            hover:bg-gray-100">
+            Nie
+          </button>
+          <button
+            on:click={() => {
+              hearts = 3;
+              points = 0;
+              randomArticle = getRandomArticle(selectedChapter);
+              showEndModal = false;
+            }}
+            class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
+            hover:bg-gray-100">
+            Tak
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+{/if}
+
 <h1
   class="text-lg font-thin sm:text-xl lg:text-2xl"
   in:fly={{ x: -50, duration: 1000 }}
 >Który to artykuł?</h1>
 {#if randomArticle}
-  <!-- <div>pop: {randomArticle.slug}</div>
-  <div>sel: {selectedChapter}</div> -->
-
   <div class="mt-4" in:fade={{ duration: 3000 }}>
     <div
       style="hyphens: auto;"
@@ -298,16 +340,6 @@
                 setTimeout(() => {
                   document.getElementById("error-modal-btn").focus();
                 }, 100);
-
-                if (hearts === 0) {
-                  const more = confirm("koniec gry! jeszcze raz?");
-                  if (more) {
-                    points = 0;
-                    hearts = 3;
-                  } else {
-                    goto("/");
-                  }
-                }
               }
               answer = null;
             }
