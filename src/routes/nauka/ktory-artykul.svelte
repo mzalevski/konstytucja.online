@@ -249,7 +249,7 @@
       style="hyphens: auto;"
       class="max-w-3xl mx-auto text-base leading-relaxed text-justify sm:text-xl"
     >
-      <div class="w-2/5 mx-auto my-12">
+      <div class="w-4/5 sm:w-3/5 md:w-2/5 mx-auto my-12">
         <div class="flex justify-between mb-4">
           <div class="">Punkty: {points}</div>
 
@@ -312,7 +312,7 @@
               answer = null;
             }
           }}
-          class="h-12 text-center placeholder-gray-300 border outline-none appearance-none w-full"
+          class="h-12 text-center placeholder-gray-300 rounded border outline-none appearance-none w-full"
           bind:value={answer}
           type="number"
           autofocus
