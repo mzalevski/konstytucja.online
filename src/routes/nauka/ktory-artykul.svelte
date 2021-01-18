@@ -73,6 +73,9 @@
         randomArticle = getRandomArticle(selectedChapter);
         if (hearts === 0) {
           showEndModal = true;
+          setTimeout(() => {
+            document.getElementById("next-round").focus();
+          }, 150);
         }
         setTimeout(() => {
           document.getElementById("art-input").focus();
@@ -242,7 +245,7 @@
 {#if showEndModal}
   <div
     id="options-modal"
-    transition:fade={{ duration: 400 }}
+    in:fade={{ duration: 400 }}
     class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
       bg-dark-overlay"
   >
@@ -267,12 +270,15 @@
               hearts = 3;
               points = 0;
               randomArticle = getRandomArticle(selectedChapter);
+              setTimeout(() => {
+                document.getElementById("art-input").focus();
+              }, 100);
               showEndModal = false;
             }}
             class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
-            hover:bg-gray-100">
-            Tak 🔥
-          </button>
+            hover:bg-gray-100"
+            id="next-round"> Tak 🔥</button
+          >
         </div>
       </div>
     </div>
