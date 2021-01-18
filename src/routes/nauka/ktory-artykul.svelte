@@ -250,9 +250,7 @@
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
         sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
     >
-      <h2 class="text-2xl font-thin sm:text-4xl">
-        Koniec gry! Grasz jeszcze raz?
-      </h2>
+      <h2 class="text-2xl font-thin sm:text-4xl">Koniec! Kolejna runda?</h2>
 
       <div class="">
         <div class="flex justify-around mt-4">
@@ -262,7 +260,7 @@
             }}
             class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow
             hover:bg-gray-100">
-            Nie
+            Nie 😿
           </button>
           <button
             on:click={() => {
@@ -273,7 +271,7 @@
             }}
             class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
             hover:bg-gray-100">
-            Tak
+            Tak 🔥
           </button>
         </div>
       </div>
