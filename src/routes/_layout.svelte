@@ -294,6 +294,7 @@
 
   <Footer />
 </main>
+
 <nav
   class="text-gray-400 divide-white divide-x-2 divid text-sm bg-black flex fixed bottom-0 h-8 w-screen"
 >
