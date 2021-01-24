@@ -81,16 +81,7 @@
         <a href="/twitter-bot">_</a>
       </div>
       <!-- crawl helper div end -->
-      <!-- class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded
-      shadow-lg cursor-default sm:w-48">
-      <a
-        class="block md:ml-2 hover:text-red-new"
-        rel="prefetch"
-        href="/komisja">
-        Komisja Konstytucyjna
-      </a>
-      <a
-        class="block pt-1 md:ml-2 hover:text-red-new" -->
+
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
