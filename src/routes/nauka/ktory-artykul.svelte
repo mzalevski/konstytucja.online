@@ -63,7 +63,7 @@
   <div
     id="error-modal"
     transition:fade={{ duration: 400 }}
-    class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+    class="fixed inset-0 z-50 flex flex-col items-center justify-end sm:justify-center h-full
       bg-dark-overlay"
   >
     <button
@@ -82,7 +82,7 @@
         }, 100);
       }}
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3">
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 mb-16 sm:mb-0">
       <div class="">
         <h2 class="text-2xl font-thin text-center sm:text-4xl">
           Błędna odpowiedź! 😿<br />To był art.
@@ -97,7 +97,7 @@
   <div
     id="success-modal"
     transition:fade={{ duration: 400 }}
-    class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+    class="fixed inset-0 z-50 flex flex-col items-center justify-end sm:justify-center h-full
       bg-dark-overlay"
   >
     <button
@@ -110,7 +110,7 @@
         }, 100);
       }}
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3">
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 mb-16 sm:mb-0">
       <div class="">
         <h2 class="text-2xl font-thin text-center sm:text-4xl">
           Dobra odpowiedź! 🎉<br />To w istocie był art.
@@ -246,12 +246,12 @@
   <div
     id="options-modal"
     in:fade={{ duration: 400 }}
-    class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
+    class="fixed inset-0 z-50 flex flex-col items-center justify-end sm:justify-center h-full
       bg-dark-overlay"
   >
     <div
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
+        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 mb-16 sm:mb-0"
     >
       <h2 class="text-2xl font-thin sm:text-4xl">Koniec! Kolejna runda?</h2>
 
