@@ -1,8 +1,8 @@
 <script context="module">
   export function preload({ params, query }) {
     return this.fetch(`index.json`)
-      .then((r) => r.json())
-      .then((articles) => {
+      .then(r => r.json())
+      .then(articles => {
         return { articles };
       });
   }
@@ -21,25 +21,11 @@
 
   let scrollY;
   let selectedArticles = articles;
-  let articlesToShow = selectedArticles.slice(0, 10);
+  let articlesToShow = selectedArticles;
   let searchedText;
   let selectedChapter;
   let eventManager;
   let showDropdown = false;
-
-  function handleScroll() {
-    if (scrollY / (document.documentElement.scrollHeight - 1000) > 0.9) {
-      if (articlesToShow.length < articles.length) {
-        articlesToShow = [
-          ...articlesToShow,
-          ...selectedArticles.slice(
-            articlesToShow.length,
-            articlesToShow.length + 10
-          ),
-        ];
-      }
-    }
-  }
 
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
@@ -47,12 +33,12 @@
 
     let parsedSearchedText = searchedText.replace(
       /[\?\)\(\.\\\*\+]/g,
-      (match) => `\\${match}`
+      match => `\\${match}`
     );
 
     let allChapters = selectedChapter === "_";
 
-    selectedArticles = articles.filter((article) => {
+    selectedArticles = articles.filter(article => {
       let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
 
       let parsedArticleHtml = article.html.replace(
@@ -105,18 +91,20 @@
   <meta
     name="description"
     content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
-    1997 r." />
+    1997 r."
+  />
 
   <meta
     name="keywords"
     content="konstytucja, konstytucjarp, konstytucja online, konstytucjaonline,
     online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat" />
+    trybunał, prezydent, rada ministrów, sejm, senat"
+  />
 
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<svelte:window bind:scrollY on:scroll={handleScroll} />
+<svelte:window bind:scrollY />
 
 <Nav {showDropdown}>
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
@@ -130,11 +118,12 @@
         slug={article.slug}
         title={article.title}
         chapter={article.chapter}
-        desc={article.desc} />
+        desc={article.desc}
+      />
     {/each}
   {:else}
     {#each selectedArticles as article}
-      {#if searchedText === ''}
+      {#if searchedText === ""}
         <!-- because there is also a chapter select -->
         <Article {...article} />
       {:else}
@@ -144,13 +133,13 @@
             new RegExp(
               `[ >]${searchedText.replace(
                 /[\<\>\?\)\(\.\\\*\+]/g,
-                (match) => `\\${match}`
+                match => `\\${match}`
               )}`,
-              'gi'
+              "gi"
             ),
             (match, offset, string) => {
               if (
-                !['href', 'clas', 'rel='].includes(
+                !["href", "clas", "rel="].includes(
                   string.slice(offset + 1, offset + 5)
                 )
               ) {
@@ -166,7 +155,8 @@
           slug={article.slug}
           title={article.title}
           chapter={article.chapter}
-          desc={article.desc} />
+          desc={article.desc}
+        />
       {/if}
     {/each}
   {/if}
