@@ -81,54 +81,63 @@
         <a href="/twitter-bot">_</a>
       </div>
       <!-- crawl helper div end -->
-
+      <!-- class="absolute z-10 w-24 p-2 bg-white border-gray-200 rounded
+      shadow-lg cursor-default sm:w-48">
+      <a
+        class="block md:ml-2 hover:text-red-new"
+        rel="prefetch"
+        href="/komisja">
+        Komisja Konstytucyjna
+      </a>
+      <a
+        class="block pt-1 md:ml-2 hover:text-red-new" -->
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
           class="fixed top-0 left-0 z-10 w-screen h-screen pt-16 mt-px text-center bg-white border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
         >
           <a
-            class="block text-xl md:ml-2 sm:text-sm hover:text-red-new"
+            class="block text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/komisja"> Komisja Konstytucyjna </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/legislacja"> Proces legislacyjny </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/slownik"> Słownik pojęć </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/dyskusja"> Dyskusja </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/odpowiedzi"> Odpowiedzi </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/app-mobile"> Aplikacja - mobile </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/app-desktop"> Aplikacja - desktop </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/inicjatywa"> Inicjatywa </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/skroty"> Skróty klawiszowe </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/twitter-bot"> Twitter Bot </a>
           <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-sm hover:text-red-new"
+            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/nauka/ktory-artykul"> Nauka </a>
           {#if showDropdown}
