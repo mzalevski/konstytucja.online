@@ -106,9 +106,12 @@
 
 <svelte:window bind:scrollY />
 
-<Nav {showDropdown}>
+<nav class="items-center mt-2 mb-2 border-b border-gray-200 sm:pb-2 sm:flex">
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
-</Nav>
+</nav>
+
+<!-- <Nav {showDropdown}> -->
+<!-- </Nav> -->
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}

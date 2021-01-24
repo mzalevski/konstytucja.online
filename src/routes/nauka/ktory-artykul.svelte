@@ -277,7 +277,7 @@
             }}
             class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
             hover:bg-gray-100"
-            id="next-round"> Tak 🔥</button
+            id="next-round">Tak 🔥</button
           >
         </div>
       </div>
