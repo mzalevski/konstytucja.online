@@ -296,7 +296,7 @@
 </main>
 
 <nav
-  class="text-gray-400 divide-white divide-x-2 divid text-sm bg-black flex fixed bottom-0 h-8 w-screen"
+  class="text-gray-400 divide-white divide-x-2 divid text-sm bg-black flex fixed bottom-0 h-8 w-screen border-b-2 border-whiteq"
 >
   <div class="flex flex-col justify-center mx-auto w-full">
     <div class="flex justify-center">Preambuła</div>
