@@ -38,19 +38,26 @@
       class:active={segment === undefined}
       class="mr-2 sm:mr-0 sm:ml-3"
       rel="prefetch"
-      href="/">
+      href="/"
+    >
       <img class="h-6 sm:h-8" id="logo" alt="logo" />
     </a>
     <a
       class:active={segment === "preambula"}
       class="self-end pb-px ml-3 sm:ml-4 md:ml-6 hover:text-red-new"
       rel="prefetch"
-      href="preambula"> Preambuła </a>
+      href="preambula"
+    >
+      Preambuła
+    </a>
     <a
       class:active={segment === undefined}
       class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
       rel="prefetch"
-      href="/"> Artykuły </a>
+      href="/"
+    >
+      Artykuły
+    </a>
     <div
       class="relative self-end pb-px"
       on:mouseleave={() => (showDropdown = false)}
@@ -65,7 +72,9 @@
           showDropdown = !showDropdown;
         }}
         class="self-end ml-2 cursor-default md:ml-4 hover:text-red-new"
-      >Informacje</p>
+      >
+        Informacje
+      </p>
 
       <!-- crawl helper div start -->
       <div class="hidden">
@@ -79,6 +88,8 @@
         <a href="/inicjatywa">_</a>
         <a href="/skroty">_</a>
         <a href="/twitter-bot">_</a>
+        <a href="/nauka">_</a>
+        <a href="/nauka/ktory-artykul">_</a>
       </div>
       <!-- crawl helper div end -->
 
@@ -90,47 +101,80 @@
           <a
             class="block text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/komisja"> Komisja Konstytucyjna </a>
+            href="/komisja"
+          >
+            Komisja Konstytucyjna
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/legislacja"> Proces legislacyjny </a>
+            href="/legislacja"
+          >
+            Proces legislacyjny
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/slownik"> Słownik pojęć </a>
+            href="/slownik"
+          >
+            Słownik pojęć
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/dyskusja"> Dyskusja </a>
+            href="/dyskusja"
+          >
+            Dyskusja
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/odpowiedzi"> Odpowiedzi </a>
+            href="/odpowiedzi"
+          >
+            Odpowiedzi
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/app-mobile"> Aplikacja - mobile </a>
+            href="/app-mobile"
+          >
+            Aplikacja - mobile
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/app-desktop"> Aplikacja - desktop </a>
+            href="/app-desktop"
+          >
+            Aplikacja - desktop
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/inicjatywa"> Inicjatywa </a>
+            href="/inicjatywa"
+          >
+            Inicjatywa
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/skroty"> Skróty klawiszowe </a>
+            href="/skroty"
+          >
+            Skróty klawiszowe
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/twitter-bot"> Twitter Bot </a>
+            href="/twitter-bot"
+          >
+            Twitter Bot
+          </a>
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/nauka/ktory-artykul"> Nauka </a>
+            href="/nauka/ktory-artykul"
+          >
+            Nauka
+          </a>
           {#if showDropdown}
             <div
               class="fixed top-0 right-0 p-4 rounded cursor-pointer sm:hidden hover:bg-gray-100"
@@ -138,7 +182,8 @@
             >
               <svg
                 class="w-8 h-8 text-gray-900 stroke-current"
-                viewBox="0 0 24 24">
+                viewBox="0 0 24 24"
+              >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
