@@ -1,15 +1,15 @@
 <script context="module">
   export function preload({ params, query }) {
     return this.fetch(`index.json`)
-      .then((r) => r.json())
-      .then((articles) => {
+      .then(r => r.json())
+      .then(articles => {
         return { articles };
       });
   }
 </script>
 
 <script>
-  import { fly, fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
   import Search from "../components/Search.svelte";
   import Article from "../components/Article.svelte";
@@ -19,10 +19,13 @@
 
   export let articles;
 
+  let scrollY;
   let selectedArticles = articles;
+  let articlesToShow = selectedArticles;
   let searchedText;
   let selectedChapter;
   let eventManager;
+  let showDropdown = false;
 
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
@@ -30,12 +33,12 @@
 
     let parsedSearchedText = searchedText.replace(
       /[\?\)\(\.\\\*\+]/g,
-      (match) => `\\${match}`
+      match => `\\${match}`
     );
 
     let allChapters = selectedChapter === "_";
 
-    selectedArticles = articles.filter((article) => {
+    selectedArticles = articles.filter(article => {
       let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
 
       let parsedArticleHtml = article.html.replace(
@@ -59,16 +62,23 @@
     });
   }
 
+  const onSwipeLeft = () => (showDropdown = true);
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/preambula");
+  };
+
   onMount(() => {
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swiperight: () => goto("/preambula") });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swiperight: () => goto("/preambula") });
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>
@@ -81,34 +91,39 @@
   <meta
     name="description"
     content="Czytnik Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
-    1997 r." />
+    1997 r."
+  />
 
   <meta
     name="keywords"
     content="konstytucja, konstytucjarp, konstytucja online, konstytucjaonline,
     online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat" />
+    trybunał, prezydent, rada ministrów, sejm, senat"
+  />
 
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav>
+<svelte:window bind:scrollY />
+
+<Nav {showDropdown}>
   <Search on:searchMessage={handleSearch} count={selectedArticles.length} />
 </Nav>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
-    {#each selectedArticles as article}
+    {#each articlesToShow as article}
       <Article
         html={article.html.replace(/href='\//g, `href='#`)}
         slug={article.slug}
         title={article.title}
         chapter={article.chapter}
-        desc={article.desc} />
+        desc={article.desc}
+      />
     {/each}
   {:else}
     {#each selectedArticles as article}
-      {#if searchedText === ''}
+      {#if searchedText === ""}
         <!-- because there is also a chapter select -->
         <Article {...article} />
       {:else}
@@ -118,13 +133,13 @@
             new RegExp(
               `[ >]${searchedText.replace(
                 /[\<\>\?\)\(\.\\\*\+]/g,
-                (match) => `\\${match}`
+                match => `\\${match}`
               )}`,
-              'gi'
+              "gi"
             ),
             (match, offset, string) => {
               if (
-                !['href', 'clas', 'rel='].includes(
+                !["href", "clas", "rel="].includes(
                   string.slice(offset + 1, offset + 5)
                 )
               ) {
@@ -140,7 +155,8 @@
           slug={article.slug}
           title={article.title}
           chapter={article.chapter}
-          desc={article.desc} />
+          desc={article.desc}
+        />
       {/if}
     {/each}
   {/if}

@@ -48,6 +48,10 @@
     else xDelta = 0;
     currentPage = parseInt(path.slice(1));
     mounted = true;
+    setTimeout(() => {
+      isDescriptionVisible = false;
+      isDisqusVisible = false;
+    }, 1000);
   });
 
   const handleKeydown = (e) => {
@@ -117,19 +121,18 @@
   const onSwipeLeft = () => {
     if (currentPage === 243) return null;
     mounted = false;
-    isDescriptionVisible = false;
-    isDisqusVisible = false;
-    // currentPage = currentPage + 1;
     goto(`/${currentPage + 1}`);
   };
 
   const onSwipeRight = () => {
     if (currentPage === 1) return null;
     mounted = false;
-    isDescriptionVisible = false;
-    isDisqusVisible = false;
-    // currentPage = currentPage - 1;
     goto(`/${currentPage - 1}`);
+  };
+
+  const onPress = () => {
+    findDestination = null;
+    isFindVisible = true;
   };
 
   onMount(() => {
@@ -167,6 +170,7 @@
     eventManager.on({
       swipeleft: onSwipeLeft,
       swiperight: onSwipeRight,
+      press: onPress,
     });
   });
 
@@ -328,14 +332,26 @@
 
             <Tooltip text={'Naciśnij enter.'} pos={'b'}>
               <svg
+                on:click={() => {
+                  if (!findDestination) return;
+                  if (parseInt(findDestination) < 1 || parseInt(findDestination) > 243) {
+                    findDestination = null;
+                    return;
+                  }
+                  currentPage = findDestination;
+                  goto(`/${findDestination}`);
+                  isDescriptionVisible = false;
+                  isDisqusVisible = false;
+                  isFindVisible = false;
+                }}
                 class="w-16 h-16 mx-2 text-gray-700 rounded fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512">
                 <path d="M256 0v32h224v448H32V32h64V0H0v512h512V0z" />
                 <path
                   d="M128 0h32v32h-32zM192 0h32v32h-32zM148.688 196.688L73.376
-                  272l75.312 75.312 22.624-22.624L134.624
-                  288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
+                272l75.312 75.312 22.624-22.624L134.624
+                288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z" />
               </svg>
             </Tooltip>
           </div>
@@ -367,12 +383,12 @@
   {/if}
   {#if mounted}
     <h1
-      in:fly|fade={{ x: xDelta, duration: 150 }}
+      in:fly|fade={{ x: xDelta, duration: 100 }}
       class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
     sm:text-4xl">
       {article.title}
     </h1>
-    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 150 }}>
+    <div class="py-4" in:fly|fade={{ x: xDelta, duration: 100 }}>
       <div
         on:click={(e) => {
           if (e.target.pathname) {

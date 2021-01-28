@@ -1,6 +1,26 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto, prefetch } from "@sapper/app";
+  let eventManager;
+
+  const onSwipeRight = () => goto("/");
+
+  onMount(() => {
+    prefetch("/");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -26,7 +46,6 @@
 </h1>
 
 <div in:fade={{ duration: 3000 }}>
-
   <p class="mt-4 text-center text-justify">
     Niniejszy czytnik jest odpowiedzią na niewystarczający dostęp do tekstu
     prawa oraz do informacji o prawie. Obywatele Rzeczpospolitej powinni znać
