@@ -5,7 +5,7 @@
 	"short_name": "Konstytucja",
 	"display": "standalone",
 	"start_url": "/",
-	"shortcurs": [
+	"shortcuts": [
 		{
 			"name": "Nauka",
 			"url": "/nauka/ktory-artykul"
