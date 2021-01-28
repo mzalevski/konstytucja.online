@@ -13,7 +13,9 @@
 			"url": "/nauka/ktory-artykul",
 			"icons": [
 				{
-					"src": "images/study.png"
+					"src": "images/study.png",
+					"sizes": "400x360",
+					"type": "image/png"
 				}
 			]
 		}
