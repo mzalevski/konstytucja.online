@@ -87,7 +87,7 @@
         <a href="/app-desktop">_</a>
         <a href="/inicjatywa">_</a>
         <a href="/skroty">_</a>
-        <a href="/twitter-bot">_</a>
+        <!-- <a href="/twitter-bot">_</a> -->
         <a href="/nauka">_</a>
         <a href="/nauka/ktory-artykul">_</a>
       </div>
@@ -161,13 +161,13 @@
           >
             Skróty klawiszowe
           </a>
-          <a
+          <!-- <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/twitter-bot"
           >
             Twitter Bot
-          </a>
+          </a> -->
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
