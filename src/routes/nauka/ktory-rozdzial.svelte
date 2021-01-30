@@ -27,16 +27,16 @@
   const chapterMap = {
     I: [1, "1 - 29"],
     II: [2, "30 - 86"],
-    III: [3, "87 - ??"],
-    IV: [4, "? - ??"],
-    V: [5, "? - ??"],
-    VI: [6, "? - ??"],
-    VII: [7, "? - ??"],
-    VIII: [8, "? - ??"],
-    IX: [9, "? - ??"],
-    X: [10, "? - ??"],
-    XI: [11, "? - ??"],
-    XII: [12, "?? - 243"],
+    III: [3, "87 - 94"],
+    IV: [4, "95 - 125"],
+    V: [5, "126 - 145"],
+    VI: [6, "146 - 162"],
+    VII: [7, "163 - 172"],
+    VIII: [8, "173 - 201"],
+    IX: [9, "202 - 215"],
+    X: [10, "216 - 227"],
+    XI: [11, "228 - 234"],
+    XII: [12, "235 - 243"],
   };
 
   const getRandomArticle = chapter => {
@@ -106,9 +106,11 @@
             >{chapterMap[randomArticle.chapter.id][0]}</span
           >
         </h2>
-        <div class="font-black">{randomArticle.chapter.title}</div>
-        <div class="font-black">
-          zakres: {chapterMap[randomArticle.chapter.id][1]}
+        <div class="font-bold text-2xl">
+          <div>{randomArticle.chapter.title}</div>
+          <div>
+            zakres: {chapterMap[randomArticle.chapter.id][1]}
+          </div>
         </div>
       </div>
     </button>
@@ -142,9 +144,11 @@
           >
         </h2>
 
-        <div class="font-black">{randomArticle.chapter.title}</div>
-        <div class="font-black">
-          zakres: {chapterMap[randomArticle.chapter.id][1]}
+        <div class="font-bold text-2xl">
+          <div>{randomArticle.chapter.title}</div>
+          <div>
+            zakres: {chapterMap[randomArticle.chapter.id][1]}
+          </div>
         </div>
       </div>
     </button>
@@ -310,7 +314,7 @@
           autofocus
         />
       </div>
-      <h1 class="py-4 text-xl font-thin text-center sm:text-4xl">
+      <h1 class="py-2 sm:py-4 text-xl font-thin text-center sm:text-4xl">
         {randomArticle.title}
       </h1>
       {@html randomArticle.html}
