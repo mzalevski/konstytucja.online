@@ -90,6 +90,7 @@
         <!-- <a href="/twitter-bot">_</a> -->
         <a href="/nauka">_</a>
         <a href="/nauka/ktory-artykul">_</a>
+        <a href="/nauka/ktory-rozdzial">_</a>
       </div>
       <!-- crawl helper div end -->
 
@@ -171,7 +172,7 @@
           <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
-            href="/nauka/ktory-artykul"
+            href="/nauka"
           >
             Nauka
           </a>

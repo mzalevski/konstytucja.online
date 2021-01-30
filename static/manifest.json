@@ -7,7 +7,18 @@
 	"start_url": "/",
 	"shortcuts": [
 		{
-			"name": "Nauka",
+			"name": "Preambuła",
+			"url": "/preambula",
+			"icons": [
+				{
+					"src": "images/document.png",
+					"sizes": "192x192",
+					"type": "image/png"
+				}
+			]
+		},
+		{
+			"name": "Nauka: który artykuł?",
 			"url": "/nauka/ktory-artykul",
 			"icons": [
 				{
@@ -18,11 +29,11 @@
 			]
 		},
 		{
-			"name": "Preambuła",
-			"url": "/preambula",
+			"name": "Nauka: który rozdział?",
+			"url": "/nauka/ktory-rozdzial",
 			"icons": [
 				{
-					"src": "images/document.png",
+					"src": "images/study2.png",
 					"sizes": "192x192",
 					"type": "image/png"
 				}
