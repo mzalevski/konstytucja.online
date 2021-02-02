@@ -93,7 +93,7 @@
           }, 150);
         }
         setTimeout(() => {
-          document.getElementById("art-input").focus();
+          document.getElementById("chapter-input").focus();
         }, 100);
       }}
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
@@ -130,7 +130,7 @@
         if (showSuccessModal) showSuccessModal = false;
         randomArticle = getRandomArticle(selectedChapter);
         setTimeout(() => {
-          document.getElementById("art-input").focus();
+          document.getElementById("chapter-input").focus();
         }, 100);
       }}
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
@@ -227,7 +227,7 @@
               points = 0;
               randomArticle = getRandomArticle(selectedChapter);
               setTimeout(() => {
-                document.getElementById("art-input").focus();
+                document.getElementById("chapter-input").focus();
               }, 100);
               showEndModal = false;
             }}
@@ -273,13 +273,13 @@
         </div>
 
         <input
-          id="art-input"
+          id="chapter-input"
           min="1"
-          max="243"
+          max="12"
           placeholder="Twoja odpowiedź"
           on:keydown={e => {
             if (
-              e.target.value.length === 3 &&
+              e.target.value.length === 2 &&
               ![
                 "Backspace",
                 "ArrowDown",
