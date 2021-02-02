@@ -8,3 +8,20 @@ static/css/global.css
 
 # Local Netlify folder
 .netlify
+
+# TWA
+app
+gradle
+.gradle
+android.keystore
+app-release-bundle.aab
+app-release-signed.apk
+app-release-unsigned-aligned.apk
+assetlinks.json
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+store_icon.png
+twa-manifest.json
