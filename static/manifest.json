@@ -4,7 +4,7 @@
 	"name": "Konstytucja",
 	"short_name": "Konstytucja",
 	"display": "standalone",
-	"start_url": "https://konstytucja.online",
+	"start_url": "/",
 	"shortcuts": [
 		{
 			"name": "Preambuła",
