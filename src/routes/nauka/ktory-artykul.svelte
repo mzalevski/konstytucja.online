@@ -18,7 +18,7 @@
   let randomArticle = null;
   let points = 0;
   let hearts = 3;
-  let selectedChapters = [];
+  let selectedChapters = ["I"];
   let showErrorModal = false;
   let showOptionsModal = false;
   let showSuccessModal = false;
@@ -213,6 +213,10 @@
           </button>
           <button
             on:click={() => {
+              if (selectedChapters.length === 0) {
+                alert("Wybierz zakres pytań!");
+                return;
+              }
               randomArticle = getRandomArticle(selectedChapters);
               showOptionsModal = false;
             }}
