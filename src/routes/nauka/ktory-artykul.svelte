@@ -24,6 +24,7 @@
   let showSuccessModal = false;
   let showEndModal = false;
   $: allChaptersSelected = selectedChapters.length === 13;
+  let importantOnlyMode = false;
 
   const chapters = [
     ["I", "Rozdział I - Rzeczpospolita"],
@@ -41,11 +42,143 @@
     ["XIII", "Rozdział XIII - Przepisy końcowe"],
   ];
 
+  const importantArticlesIdx = [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    // "74",
+    // "75",
+    // "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "99",
+    "100",
+    "101",
+    "105",
+    "118",
+    "119",
+    "120",
+    "121",
+    "122",
+    "123",
+    "127",
+    "128",
+    "129",
+    "130",
+    "144",
+    "146",
+    "147",
+    "164",
+    "165",
+    "163",
+    "171",
+    "175",
+    "179",
+    "187",
+    "188",
+    "189",
+    "194",
+    "228",
+    "229",
+    "230",
+    "231",
+    "232",
+    "235",
+  ];
+
   const getRandomArticle = chapterRange => {
-    const arts = articles.filter(
-      a => chapterRange.includes(a.chapter.id) || chapterRange.includes("_")
-    );
-    return arts[Math.floor(Math.random() * arts.length)];
+    if (importantOnlyMode) {
+      const randomIdx = Math.floor(Math.random() * importantArticlesIdx.length);
+      const theImportantArticleIdx = importantArticlesIdx[randomIdx];
+      return articles.find(a => a.slug === theImportantArticleIdx);
+    } else {
+      const arts = articles.filter(a => chapterRange.includes(a.chapter.id));
+      return arts[Math.floor(Math.random() * arts.length)];
+    }
   };
 
   onMount(() => {
@@ -158,8 +291,21 @@
           <input
             type="checkbox"
             class="w-4 h-4 mt-1 mb-px"
+            bind:checked={importantOnlyMode}
+            on:click={() => {
+              selectedChapters = [];
+            }}
+          />
+          <div>Tylko najważniejsze artykuły (subiektywny zbiór)</div>
+        </label>
+        <hr />
+        <label class="flex space-x-3 cursor-pointer">
+          <input
+            type="checkbox"
+            class="w-4 h-4 mt-1 mb-px"
             bind:checked={allChaptersSelected}
             on:click={() => {
+              importantOnlyMode = false;
               if (allChaptersSelected) {
                 selectedChapters = [];
               } else {
@@ -191,6 +337,9 @@
               class="w-4 h-4 mt-1 mb-px"
               bind:group={selectedChapters}
               value={chapter[0]}
+              on:click={() => {
+                importantOnlyMode = false;
+              }}
             />
             <div>
               {chapter[1]}
@@ -213,7 +362,7 @@
           </button>
           <button
             on:click={() => {
-              if (selectedChapters.length === 0) {
+              if (selectedChapters.length === 0 && !importantOnlyMode) {
                 alert("Wybierz zakres pytań!");
                 return;
               }
