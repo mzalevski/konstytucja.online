@@ -36,7 +36,8 @@
     IX: [9, "202 - 215"],
     X: [10, "216 - 227"],
     XI: [11, "228 - 234"],
-    XII: [12, "235 - 243"],
+    XII: [12, "235 - 235"],
+    XIII: [13, "236 - 243"],
   };
 
   const getRandomArticle = chapter => {
@@ -275,7 +276,7 @@
         <input
           id="chapter-input"
           min="1"
-          max="12"
+          max="13"
           placeholder="Twoja odpowiedź"
           on:keydown={e => {
             if (
