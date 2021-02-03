@@ -18,15 +18,32 @@
   let randomArticle = null;
   let points = 0;
   let hearts = 3;
-  let selectedChapter = "_";
+  let selectedChapters = [];
   let showErrorModal = false;
   let showOptionsModal = false;
   let showSuccessModal = false;
   let showEndModal = false;
+  $: allChaptersSelected = selectedChapters.length === 13;
 
-  const getRandomArticle = chapter => {
+  const chapters = [
+    ["I", "Rozdział I - Rzeczpospolita"],
+    ["II", "Rozdział II - Wolności, prawa i obowiązki człowieka i obywatela"],
+    ["III", "Rozdział III - Źródła prawa"],
+    ["IV", "Rozdział IV - Sejm i Senat"],
+    ["V", "Rozdział V - Prezydent Rzeczypospolitej Polskiej"],
+    ["VI", "Rozdział VI - Rada Ministrów i administracja rządowa"],
+    ["VII", "Rozdział VII - Samorząd terytorialny"],
+    ["VIII", "Rozdział VIII - Sądy i Trybunały"],
+    ["IX", "Rozdział IX - Organy kontroli państwowej i ochrony prawa"],
+    ["X", "Rozdział X - Finanse publiczne"],
+    ["XI", "Rozdział XI - Stany nadzwyczajne"],
+    ["XII", "Rozdział XII - Zmiana Konstytucji"],
+    ["XIII", "Rozdział XIII - Przepisy końcowe"],
+  ];
+
+  const getRandomArticle = chapterRange => {
     const arts = articles.filter(
-      a => a.chapter.id === chapter || chapter === "_"
+      a => chapterRange.includes(a.chapter.id) || chapterRange.includes("_")
     );
     return arts[Math.floor(Math.random() * arts.length)];
   };
@@ -70,7 +87,7 @@
       id="error-modal-btn"
       on:click={() => {
         if (showErrorModal) showErrorModal = false;
-        randomArticle = getRandomArticle(selectedChapter);
+        randomArticle = getRandomArticle(selectedChapters);
         if (hearts === 0) {
           showEndModal = true;
           setTimeout(() => {
@@ -105,7 +122,7 @@
       id="success-modal-btn"
       on:click={() => {
         if (showSuccessModal) showSuccessModal = false;
-        randomArticle = getRandomArticle(selectedChapter);
+        randomArticle = getRandomArticle(selectedChapters);
         setTimeout(() => {
           document.getElementById("art-input").focus();
         }, 100);
@@ -135,90 +152,53 @@
         sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
     >
       <h2 class="text-2xl font-thin sm:text-4xl">Wybierz zakres pytań:</h2>
-      <div class="relative inline-block w-full my-4 sm:w-8 lg:w-full">
-        <div
-          class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500
-      pointer-events-none sm:justify-center sm:w-full lg:w-auto sm:px-0 lg:px-2"
-        >
-          <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
-            <g fill-rule="evenodd">
-              <g>
-                <path
-                  d="M2,1.99079514 C2,0.891309342 2.89706013,0 4.00585866,0
-            L14.9931545,0 C15.5492199,0 16,0.443864822 16,1 L16,2
-            L5.00247329,2 C4.44882258,2 4,2.44386482 4,3 C4,3.55228475
-            4.44994876,4 5.00684547,4 L16.9931545,4 C17.5492199,4
-            18,4.44463086 18,5.00087166 L18,18.0059397 C18,19.1072288
-            17.1054862,20 16.0059397,20 L3.99406028,20 C2.8927712,20
-            2,19.1017876 2,18.0092049 L2,1.99079514 Z M6,4 L10,4 L10,12 L8,10
-            L6,12 L6,4 Z"
-                />
-              </g>
-            </g>
-          </svg>
-        </div>
-        <select
-          autofocus
-          class="w-full px-8 py-1 font-light text-gray-900 bg-white border
-    border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8
-    lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900"
-          bind:value={selectedChapter}
-        >
-          <option class="font-light text-gray-900" value="_">
-            Wszystkie rozdziały
-          </option>
-          <option class="font-light text-gray-900" value="I">
-            Rozdział I - Rzeczpospolita
-          </option>
-          <option class="font-light text-gray-900" value="II">
-            Rozdział II - Wolności, prawa i obowiązki człowieka i obywatela
-          </option>
-          <option class="font-light text-gray-900" value="III">
-            Rozdział III - Źródła prawa
-          </option>
-          <option class="font-light text-gray-900" value="IV">
-            Rozdział IV - Sejm i Senat
-          </option>
-          <option class="font-light text-gray-900" value="V">
-            Rozdział V - Prezydent Rzeczypospolitej Polskiej
-          </option>
-          <option class="font-light text-gray-900" value="VI">
-            Rozdział VI - Rada Ministrów i administracja rządowa
-          </option>
-          <option class="font-light text-gray-900" value="VII">
-            Rozdział VII - Samorząd terytorialny
-          </option>
-          <option class="font-light text-gray-900" value="VIII">
-            Rozdział VIII - Sądy i Trybunały
-          </option>
-          <option class="font-light text-gray-900" value="IX">
-            Rozdział IX - Organy kontroli państwowej i ochrony prawa
-          </option>
-          <option class="font-light text-gray-900" value="X">
-            Rozdział X - Finanse publiczne
-          </option>
-          <option class="font-light text-gray-900" value="XI">
-            Rozdział XI - Stany nadzwyczajne
-          </option>
-          <option class="font-light text-gray-900" value="XII">
-            Rozdział XII - Zmiana Konstytucji
-          </option>
-          <option class="font-light text-gray-900" value="XIII">
-            Rozdział XIII - Przepisy przejściowe i końcowe
-          </option>
-        </select>
-        <div
-          class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900
-    pointer-events-none sm:hidden lg:flex"
-        >
-          <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
-            <path
-              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586
-      4.343 8z"
+
+      <div class="mt-2 mb-4 font-light text-gray-900 flex flex-col space-y-2">
+        <label class="flex space-x-3 cursor-pointer">
+          <input
+            type="checkbox"
+            class="w-4 h-4 mt-1 mb-px"
+            bind:checked={allChaptersSelected}
+            on:click={() => {
+              if (allChaptersSelected) {
+                selectedChapters = [];
+              } else {
+                selectedChapters = [
+                  "I",
+                  "II",
+                  "III",
+                  "IV",
+                  "V",
+                  "VI",
+                  "VII",
+                  "VIII",
+                  "IX",
+                  "X",
+                  "XI",
+                  "XII",
+                  "XIII",
+                ];
+              }
+            }}
+          />
+          <div>Wszystkie rozdziały</div>
+        </label>
+
+        {#each chapters as chapter}
+          <label class="flex space-x-3 cursor-pointer">
+            <input
+              type="checkbox"
+              class="w-4 h-4 mt-1 mb-px"
+              bind:group={selectedChapters}
+              value={chapter[0]}
             />
-          </svg>
-        </div>
+            <div>
+              {chapter[1]}
+            </div>
+          </label>
+        {/each}
       </div>
+
       <div class="">
         <div class="flex justify-around mt-4">
           <button
@@ -233,7 +213,7 @@
           </button>
           <button
             on:click={() => {
-              randomArticle = getRandomArticle(selectedChapter);
+              randomArticle = getRandomArticle(selectedChapters);
               showOptionsModal = false;
             }}
             class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
@@ -275,7 +255,7 @@
             on:click={() => {
               hearts = 3;
               points = 0;
-              randomArticle = getRandomArticle(selectedChapter);
+              randomArticle = getRandomArticle(selectedChapters);
               setTimeout(() => {
                 document.getElementById("art-input").focus();
               }, 100);
