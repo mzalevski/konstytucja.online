@@ -220,16 +220,17 @@
       id="error-modal-btn"
       on:click={() => {
         if (showErrorModal) showErrorModal = false;
-        randomArticle = getRandomArticle(selectedChapters);
         if (hearts === 0) {
           showEndModal = true;
           setTimeout(() => {
             document.getElementById("next-round").focus();
           }, 150);
+        } else {
+          randomArticle = getRandomArticle(selectedChapters);
+          setTimeout(() => {
+            document.getElementById("art-input").focus();
+          }, 100);
         }
-        setTimeout(() => {
-          document.getElementById("art-input").focus();
-        }, 100);
       }}
       class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
         sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 mb-16 sm:mb-0"
