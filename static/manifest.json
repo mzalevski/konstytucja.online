@@ -5,6 +5,10 @@
 	"short_name": "Konstytucja",
 	"display": "standalone",
 	"start_url": "/",
+	"navigationColor": "#ffffff",
+	"navigationColorDark": "#2a4365",
+	"navigationDividerColor": "#ffffff",
+	"navigationDividerColorDark": "#2a4365",
 	"shortcuts": [
 		{
 			"name": "Preambuła",
