@@ -217,6 +217,7 @@
       bg-dark-overlay"
   >
     <button
+      aria-label="error-modal-btn"
       id="error-modal-btn"
       on:click={() => {
         if (showErrorModal) showErrorModal = false;
@@ -248,12 +249,14 @@
 {#if showSuccessModal}
   <div
     id="success-modal"
+    aria-label="success-modal"
     transition:fade={{ duration: 400 }}
     class="fixed inset-0 z-50 flex flex-col items-center justify-end sm:justify-center h-full
       bg-dark-overlay"
   >
     <button
       id="success-modal-btn"
+      aria-label="success-modal-btn"
       on:click={() => {
         if (showSuccessModal) showSuccessModal = false;
         randomArticle = getRandomArticle(selectedChapters);
@@ -352,6 +355,7 @@
       <div class="">
         <div class="flex justify-around mt-4">
           <button
+            aria-label="cancel"
             on:click={() => {
               showOptionsModal = false;
               goto("/nauka");
@@ -362,6 +366,7 @@
             Anuluj
           </button>
           <button
+            aria-label="ok"
             on:click={() => {
               if (selectedChapters.length === 0 && !importantOnlyMode) {
                 alert("Wybierz zakres pytań!");
@@ -397,6 +402,7 @@
       <div class="">
         <div class="flex justify-around mt-4">
           <button
+            aria-label="reject"
             on:click={() => {
               goto("/nauka");
             }}
@@ -406,6 +412,7 @@
             Nie 😿
           </button>
           <button
+            aria-label="accept"
             on:click={() => {
               hearts = 3;
               points = 0;

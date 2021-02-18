@@ -83,6 +83,7 @@
       bg-dark-overlay"
   >
     <button
+      aria-label="error-modal-btn"
       id="error-modal-btn"
       on:click={() => {
         if (showErrorModal) showErrorModal = false;
@@ -127,6 +128,7 @@
   >
     <button
       id="success-modal-btn"
+      aria-label="success-modal-btn"
       on:click={() => {
         if (showSuccessModal) showSuccessModal = false;
         randomArticle = getRandomArticle(selectedChapter);
@@ -172,6 +174,7 @@
       <div class="">
         <div class="flex justify-around mt-4">
           <button
+            aria-label="reject"
             on:click={() => {
               showOptionsModal = false;
               goto("/nauka");
@@ -182,6 +185,7 @@
             Anuluj
           </button>
           <button
+            aria-label="accept"
             autofocus
             on:click={() => {
               randomArticle = getRandomArticle(selectedChapter);
@@ -214,6 +218,7 @@
       <div class="">
         <div class="flex justify-around mt-4">
           <button
+            aria-label="reject"
             on:click={() => {
               goto("/nauka");
             }}
@@ -223,6 +228,7 @@
             Nie 😿
           </button>
           <button
+            aria-label="accept"
             on:click={() => {
               hearts = 3;
               points = 0;

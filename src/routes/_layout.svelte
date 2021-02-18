@@ -70,13 +70,13 @@
       method: "POST",
       headers: {
         Accept: "application/x-www-form-urlencoded;charset=UTF-8",
-        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
       },
       body:
         "form-name=feedbackForm&" +
         new URLSearchParams(formData) +
         `&platform=${navigator.platform}` +
-        `&browser=${navigator.appCodeName}`
+        `&browser=${navigator.appCodeName}`,
     });
 
     msgInput.classList.add("bg-green-100");
@@ -114,20 +114,21 @@
 <main
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden
   text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3
-  xl:px-16 sm:text-base">
-
+  xl:px-16 sm:text-base"
+>
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2
-    pb-4 sm:py-6 sm:w-20 sm:h-32">
-
-    <Tooltip text={`Zmień na ${darkMode ? 'jasny' : 'ciemny'} tryb.`} pos={'r'}>
+    pb-4 sm:py-6 sm:w-20 sm:h-32"
+  >
+    <Tooltip text={`Zmień na ${darkMode ? "jasny" : "ciemny"} tryb.`} pos={"r"}>
       <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
 
-    <Tooltip text={'Zgłoś błąd.'} pos={'r'}>
+    <Tooltip text={"Zgłoś błąd."} pos={"r"}>
       <Feedback
         {showFeedbackModal}
-        on:triggerFeedbackModal={handleFeedbackModalTrigger} />
+        on:triggerFeedbackModal={handleFeedbackModalTrigger}
+      />
     </Tooltip>
 
     <!-- <Tooltip text={'Zobacz instrukcję.'} pos={'r'}>
@@ -135,7 +136,6 @@
         {showTutorialModal}
         on:triggerTutorialModal={handleTutorialModalTrigger} />
     </Tooltip> -->
-
   </div>
 
   {#if showFeedbackModal}
@@ -143,16 +143,19 @@
       id="feedback-modal"
       transition:fade={{ duration: 400 }}
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay">
+      bg-dark-overlay"
+    >
       <div
         class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2">
+        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2"
+      >
         <div class="flex justify-between">
           <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
             id="errorMessage"
             class="self-center w-1/2 text-right transition-opacity duration-1000
-            ease-in-out opacity-0">
+            ease-in-out opacity-0"
+          >
             Opis powinien zawierać co najmniej 20 znaków.
           </span>
         </div>
@@ -162,14 +165,17 @@
           method="POST"
           class="mt-4"
           on:submit|preventDefault={handleSubmit}
-          data-netlify="true">
+          data-netlify="true"
+        >
           <div class="relative inline-block w-full">
             <div
               class="absolute inset-y-0 left-0 flex items-center justify-center
-              w-auto ml-2 text-gray-500 pointer-events-none">
+              w-auto ml-2 text-gray-500 pointer-events-none"
+            >
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
-                viewBox="0 0 20 20">
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M18.405 4.799c-.111-.44-.655-.799-1.21-.799h-6.814c-.554
                   0-1.33-.318-1.722-.707l-.596-.588C7.671 2.316 6.896 2 6.342
@@ -177,15 +183,19 @@
                   6h16.931l-.201-1.201zM19.412 7H.588c-.342
                   0-.61.294-.577.635l.923
                   9.669c.037.394.369.696.766.696h16.6c.397 0
-                  .728-.302.766-.696l.923-9.669c.033-.341-.235-.635-.577-.635z" />
+                  .728-.302.766-.696l.923-9.669c.033-.341-.235-.635-.577-.635z"
+                />
               </svg>
             </div>
             <select
               name="topic"
               class="w-full px-8 py-1 font-light text-gray-900 bg-white border
-              border-gray-100 rounded shadow appearance-none cursor-pointer">
+              border-gray-100 rounded shadow appearance-none cursor-pointer"
+            >
               <option selected value={$page.path}>
-                obecna strona: {$page.host}{$page.path === '/' ? '' : $page.path}
+                obecna strona: {$page.host}{$page.path === "/"
+                  ? ""
+                  : $page.path}
               </option>
               <option class="font-light" value="głowna">strona główna</option>
               <option class="font-light" value="preambula">preambuła</option>
@@ -202,13 +212,16 @@
             </select>
             <div
               class="absolute inset-y-0 right-0 flex items-center px-2
-              text-gray-900 pointer-events-none">
+              text-gray-900 pointer-events-none"
+            >
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
-                viewBox="0 0 20 20">
+                viewBox="0 0 20 20"
+              >
                 <path
                   d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757
-                  6.586 4.343 8z" />
+                  6.586 4.343 8z"
+                />
               </svg>
             </div>
           </div>
@@ -219,26 +232,30 @@
             class="block w-full h-32 p-2 mt-4 text-lg transition-colors
             duration-1000 ease-in-out border border-gray-100 rounded shadow
             resize-none"
-            type="text" />
+            type="text"
+          />
           <div class="flex justify-around mt-4">
             <button
+              aria-label="cancel"
               on:click={e => {
                 e.preventDefault();
                 showFeedbackModal = false;
               }}
               class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow
-              hover:bg-gray-100">
+              hover:bg-gray-100"
+            >
               Anuluj
             </button>
             <button
+              aria-label="submit"
               type="submit"
               class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
-              hover:bg-gray-100">
+              hover:bg-gray-100"
+            >
               Wyślij
             </button>
           </div>
         </form>
-
       </div>
     </div>
   {/if}
@@ -247,13 +264,15 @@
     <div
       transition:fade={{ duration: 400 }}
       class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay">
+      bg-dark-overlay"
+    >
       <button
         class="absolute top-0 right-0 w-12 h-12"
         on:click={e => {
           e.preventDefault();
           showTutorialModal = false;
-        }}>
+        }}
+      >
         <svg class="text-gray-100 fill-current" viewBox="0 0 20 20">
           <path
             d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651
@@ -261,13 +280,16 @@
             0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228
             0-1.697s1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469
             1.697 0s.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469
-            1.229 0 1.698z" />
+            1.229 0 1.698z"
+          />
         </svg>
       </button>
       <div
-        class="absolute top-0 w-64 h-6 bg-gray-100 rounded-lg rounded-t-none" />
+        class="absolute top-0 w-64 h-6 bg-gray-100 rounded-lg rounded-t-none"
+      />
       <div
-        class="absolute bottom-0 w-64 h-6 rounded-lg rounded-b-none bg-red-new" />
+        class="absolute bottom-0 w-64 h-6 rounded-lg rounded-b-none bg-red-new"
+      />
     </div>
   {/if}
 
@@ -280,5 +302,4 @@
   </div>
 
   <Footer />
-
 </main>

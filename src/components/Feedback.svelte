@@ -8,19 +8,22 @@
   function triggerFeedbackModal() {
     showFeedbackModal = !showFeedbackModal;
     dispatch("triggerFeedbackModal", {
-      msg: showFeedbackModal
+      msg: showFeedbackModal,
     });
   }
 </script>
 
 <div>
   <button
+    aria-label="trigger feedback modal"
     tabindex="-1"
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
-    on:click={triggerFeedbackModal}>
+    on:click={triggerFeedbackModal}
+  >
     <svg
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
-      viewBox="0 0 20 20">
+      viewBox="0 0 20 20"
+    >
       <path
         d="M10 1C7.7907715 1 6 2.7908325 6 5h8c0-2.2091675-1.7907715-4-4-4zm9
         9h-3V7.5031738c0-.02771-.0065918-.0535278-.0080566-.0808716l2.2150879-2.21521c.390625-.3905029.390625-1.0236816
@@ -41,7 +44,8 @@
         .3903809-.3905029.3903809-1.0236816
         0-1.4142456l-2.8286133-2.8283691c-.0395508-.0396729-.0900879-.0575562-.1342773-.0891724C15.84375
         13.520813 16 12.7799683 16 12h3c.5522461 0 1-.4477539 1-1
-        0-.5523071-.4477539-1-1-1z" />
+        0-.5523071-.4477539-1-1-1z"
+      />
     </svg>
   </button>
 </div>
