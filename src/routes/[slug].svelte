@@ -320,44 +320,46 @@
             w-auto ml-2 text-gray-500 pointer-events-none"
           />
           <div class="flex">
-            <input
-              on:keydown={e => {
-                if (
-                  e.target.value.length === 3 &&
-                  ![
-                    "Backspace",
-                    "ArrowDown",
-                    "ArrowUp",
-                    "ArrowLeft",
-                    "ArrowRight",
-                  ].includes(e.code)
-                ) {
-                  e.preventDefault();
-                }
-                if (
-                  e.code === "Enter" &&
-                  parseInt(e.target.value) <= 243 &&
-                  parseInt(e.target.value) >= 1
-                ) {
-                  if (!findDestination) return;
-                  currentPage = findDestination;
-                  goto(`/${findDestination}`);
-                  isDescriptionVisible = false;
-                  isDisqusVisible = false;
-                  isFindVisible = false;
-                }
-              }}
-              bind:value={findDestination}
-              placeholder="nr artykułu"
-              type="number"
-              min="1"
-              max="243"
-              name="find"
-              id="find"
-              class="w-full p-px text-xl font-light text-center text-gray-900
+            <label aria-label="go to article">
+              <input
+                on:keydown={e => {
+                  if (
+                    e.target.value.length === 3 &&
+                    ![
+                      "Backspace",
+                      "ArrowDown",
+                      "ArrowUp",
+                      "ArrowLeft",
+                      "ArrowRight",
+                    ].includes(e.code)
+                  ) {
+                    e.preventDefault();
+                  }
+                  if (
+                    e.code === "Enter" &&
+                    parseInt(e.target.value) <= 243 &&
+                    parseInt(e.target.value) >= 1
+                  ) {
+                    if (!findDestination) return;
+                    currentPage = findDestination;
+                    goto(`/${findDestination}`);
+                    isDescriptionVisible = false;
+                    isDisqusVisible = false;
+                    isFindVisible = false;
+                  }
+                }}
+                bind:value={findDestination}
+                placeholder="nr artykułu"
+                type="number"
+                min="1"
+                max="243"
+                name="find"
+                id="find"
+                class="w-full p-px text-xl font-light text-center text-gray-900
               bg-white border border-gray-100 rounded shadow appearance-none
               cursor-pointer sm:text-4xl"
-            />
+              /></label
+            >
 
             <Tooltip text={"Naciśnij enter."} pos={"b"}>
               <svg

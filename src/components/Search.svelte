@@ -28,13 +28,16 @@
   in:fly={searchTransitionConfig}
 >
   <div class="relative">
-    <input
-      id="text-search"
-      class="w-full px-8 py-1 font-light border border-gray-100 rounded-md
+    <label aria-label="text-search">
+      <input
+        id="text-search"
+        class="w-full px-8 py-1 font-light border border-gray-100 rounded-md
       shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10"
-      bind:value={searchedText}
-      on:input={sendChoice}
-    />
+        bind:value={searchedText}
+        on:input={sendChoice}
+      />
+    </label>
+
     <div
       class="absolute inset-y-0 right-0 flex flex-col justify-center px-2
       cursor-default"

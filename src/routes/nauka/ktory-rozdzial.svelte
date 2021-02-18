@@ -278,48 +278,49 @@
             </span>
           </div>
         </div>
-
-        <input
-          id="chapter-input"
-          min="1"
-          max="13"
-          placeholder="Twoja odpowiedź"
-          on:keydown={e => {
-            if (
-              e.target.value.length === 2 &&
-              ![
-                "Backspace",
-                "ArrowDown",
-                "ArrowUp",
-                "ArrowLeft",
-                "ArrowRight",
-              ].includes(e.code)
-            ) {
-              e.preventDefault();
-            }
-            if (["Enter"].includes(e.key)) {
-              if (!answer) return;
-              if (answer === chapterMap[randomArticle.chapter.id][0]) {
-                points = points + 1;
-                showSuccessModal = true;
-                setTimeout(() => {
-                  document.getElementById("success-modal-btn").focus();
-                }, 100);
-              } else {
-                hearts = hearts - 1;
-                showErrorModal = true;
-                setTimeout(() => {
-                  document.getElementById("error-modal-btn").focus();
-                }, 100);
+        <labe aria-label="chapter-input">
+          <input
+            id="chapter-input"
+            min="1"
+            max="13"
+            placeholder="Twoja odpowiedź"
+            on:keydown={e => {
+              if (
+                e.target.value.length === 2 &&
+                ![
+                  "Backspace",
+                  "ArrowDown",
+                  "ArrowUp",
+                  "ArrowLeft",
+                  "ArrowRight",
+                ].includes(e.code)
+              ) {
+                e.preventDefault();
               }
-              answer = null;
-            }
-          }}
-          class="h-12 text-center placeholder-gray-300 rounded border outline-none appearance-none w-full"
-          bind:value={answer}
-          type="number"
-          autofocus
-        />
+              if (["Enter"].includes(e.key)) {
+                if (!answer) return;
+                if (answer === chapterMap[randomArticle.chapter.id][0]) {
+                  points = points + 1;
+                  showSuccessModal = true;
+                  setTimeout(() => {
+                    document.getElementById("success-modal-btn").focus();
+                  }, 100);
+                } else {
+                  hearts = hearts - 1;
+                  showErrorModal = true;
+                  setTimeout(() => {
+                    document.getElementById("error-modal-btn").focus();
+                  }, 100);
+                }
+                answer = null;
+              }
+            }}
+            class="h-12 text-center placeholder-gray-300 rounded border outline-none appearance-none w-full"
+            bind:value={answer}
+            type="number"
+            autofocus
+          />
+        </labe>
       </div>
       <h1 class="py-2 sm:py-4 text-xl font-thin text-center sm:text-4xl">
         {randomArticle.title}
