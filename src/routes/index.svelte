@@ -15,9 +15,11 @@
   import Article from "../components/Article.svelte";
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
-  import { goto } from "@sapper/app";
+  import { goto, stores } from "@sapper/app";
 
   export let articles;
+
+  const { page } = stores();
 
   let scrollY;
   let selectedArticles = articles;
@@ -84,6 +86,21 @@
   };
 
   onMount(() => {
+    if ($page.query.fromArticle) {
+      articlesToShow = [
+        ...articlesToShow,
+        ...selectedArticles.slice(
+          articlesToShow.length,
+          parseInt($page.query.fromArticle) + 10
+        ),
+      ];
+
+      setTimeout(() => {
+        document.documentElement
+          .querySelector(`#art-${$page.query.fromArticle}`)
+          .scrollIntoViewIfNeeded();
+      }, 50);
+    }
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
@@ -127,13 +144,7 @@
 <div in:fly={{ y: 100, duration: 1000 }}>
   {#if selectedArticles.length === articles.length}
     {#each articlesToShow as article}
-      <Article
-        html={article.html.replace(/href='\//g, `href='#`)}
-        slug={article.slug}
-        title={article.title}
-        chapter={article.chapter}
-        desc={article.desc}
-      />
+      <Article {...article} />
     {/each}
   {:else}
     {#each selectedArticles as article}

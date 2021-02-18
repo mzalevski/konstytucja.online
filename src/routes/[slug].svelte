@@ -207,7 +207,7 @@
           id="back-btn"
           class="flex flex-col justify-center"
           rel="prefetch"
-          href={$page.params.slug > 1 ? '#' + ($page.params.slug - 1) : '/'}
+          href={`/?fromArticle=${$page.params.slug}`}
           on:click={() => {
             isDescriptionVisible = false;
             isDisqusVisible = false;
