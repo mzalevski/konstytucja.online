@@ -1,7 +1,7 @@
 {
   "name": "konstytucja.online",
-  "description": "czytnik konstytucji",
-  "version": "0.0.1",
+  "description": "Czytnik Konstytucji RP",
+  "version": "1.0.0",
   "scripts": {
     "dev": "postcss static/css/tailwind.css -o static/css/global.css && sapper dev",
     "export": "postcss static/css/tailwind.css -o static/css/global.css && sapper export --legacy"
