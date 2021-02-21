@@ -4,21 +4,27 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
-  let eventManager;
 
-  const onSwipeRight = () => goto("/odpowiedzi");
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/odpowiedzi");
+  };
 
   onMount(() => {
     prefetch("/odpowiedzi");
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swiperight: onSwipeRight });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swiperight: onSwipeRight });
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>
@@ -28,22 +34,26 @@
   <meta
     name="description"
     content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia
-    2 kwietnia 1997 r." />
+    2 kwietnia 1997 r."
+  />
   <meta
     name="keywords"
     content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
     online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat" />
+    trybunał, prezydent, rada ministrów, sejm, senat"
+  />
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
+
 <div class="flex justify-between h-8">
   <a
     id="back-btn"
     class="w-24 font-thin sm:text-lg sm:text-xl hover:text-red-new"
     rel="prefetch"
-    href="/odpowiedzi">
+    href="/odpowiedzi"
+  >
     powrót
   </a>
   <h3 class="font-thin text-center sm:text-lg sm:text-xl">6 maja 2020r.</h3>
@@ -98,12 +108,14 @@
 
 <div
   in:fade={{ duration: 1000 }}
-  class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl">
+  class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
+>
   <div in:fade={{ duration: 3000 }}>
     <div class="pt-6">
       <blockquote
         class="px-4 py-1 text-lg sm:text-xl italic text-gray-600 bg-gray-100
-        border-l-4 border-gray-500 rounded">
+        border-l-4 border-gray-500 rounded"
+      >
         <p class="mb-4">
           Czy ratyfikowana umowa międzynarodowa może stać wyżej od Konstytucji,
           co znaczy czy wyroki TSUE są ostateczne czy też podlegają ocenie przez

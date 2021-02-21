@@ -9,7 +9,10 @@
   let showDropdown = false;
 
   const onSwipeLeft = () => (showDropdown = true);
-  const onSwipeRight = () => goto("/");
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/");
+  };
 
   onMount(() => {
     prefetch("/");

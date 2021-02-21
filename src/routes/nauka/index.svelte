@@ -8,7 +8,11 @@
   let eventManager;
   let showDropdown = false;
 
-  const onSwipeRight = () => goto("/");
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/");
+  };
+
   const onSwipeLeft = () => (showDropdown = true);
 
   onMount(() => {
