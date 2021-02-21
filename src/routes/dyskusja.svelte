@@ -6,15 +6,17 @@
   import threads from "./_threads.js";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
+
   let eventManager;
+  let showDropdown = false;
 
   async function assembleComments(threads) {
     let rawComments = await fetch("/.netlify/functions/rawComments")
-      .then((response) => response.json())
-      .then((json) => json.msg.response);
+      .then(response => response.json())
+      .then(json => json.msg.response);
 
-    let comments = rawComments.map((rc) => {
-      const found = threads.find((thread) => thread.id === rc.thread);
+    let comments = rawComments.map(rc => {
+      const found = threads.find(thread => thread.id === rc.thread);
       rc.link = found.slug;
       return rc;
     });
@@ -22,6 +24,7 @@
     return comments;
   }
 
+  const onSwipeLeft = () => (showDropdown = true);
   const onSwipeRight = () => goto("/");
 
   onMount(() => {
@@ -29,12 +32,12 @@
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swiperight: onSwipeRight });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swiperight: onSwipeRight });
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>
@@ -44,20 +47,23 @@
   <meta
     name="description"
     content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia
-    2 kwietnia 1997 r." />
+    2 kwietnia 1997 r."
+  />
   <meta
     name="keywords"
     content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
     online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat" />
+    trybunał, prezydent, rada ministrów, sejm, senat"
+  />
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <h1
   class="text-lg font-thin sm:text-xl lg:text-2xl"
-  in:fly={{ x: -50, duration: 1000 }}>
+  in:fly={{ x: -50, duration: 1000 }}
+>
   Dyskusja
 </h1>
 
@@ -72,14 +78,16 @@
     {:then comments}
       {#each comments as comment}
         <a
-          on:click={() => sessionStorage.setItem('fromDyskusja', true)}
-          href="/{comment.link}">
+          on:click={() => sessionStorage.setItem("fromDyskusja", true)}
+          href="/{comment.link}"
+        >
           <div
             in:fly={{ y: 100, duration: 1000 }}
-            class="p-4 my-4 rounded shadow sm:p-8 hover:bg-gray-100">
+            class="p-4 my-4 rounded shadow sm:p-8 hover:bg-gray-100"
+          >
             <strong>Art. {comment.link}</strong>
             -
-            {new Date(comment.createdAt).toLocaleString('pl-PL')}
+            {new Date(comment.createdAt).toLocaleString("pl-PL")}
             -
             {comment.author.name}:
             <br />

@@ -4,21 +4,24 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
+
   let eventManager;
+  let showDropdown = false;
 
   const onSwipeRight = () => goto("/");
+  const onSwipeLeft = () => (showDropdown = true);
 
   onMount(() => {
     prefetch("/");
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
-    eventManager.on({ swiperight: onSwipeRight });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
   });
 
   onDestroy(() => {
     if (typeof window !== "undefined") {
-      eventManager.off({ swiperight: onSwipeRight });
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>
@@ -39,7 +42,7 @@
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav segment={"info"} />
+<Nav {showDropdown} segment={"info"} />
 
 <h1
   class="text-lg font-thin sm:text-xl lg:text-2xl"

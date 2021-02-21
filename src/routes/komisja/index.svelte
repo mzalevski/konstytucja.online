@@ -1,6 +1,29 @@
 <script>
   import { fly, fade } from "svelte/transition";
   import Nav from "../../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto, prefetch } from "@sapper/app";
+  let eventManager;
+
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => goto("/");
+
+  onMount(() => {
+    prefetch("/");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
+  });
 </script>
 
 <svelte:head>
@@ -8,20 +31,23 @@
   <meta
     name="description"
     content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia
-    2 kwietnia 1997 r." />
+    2 kwietnia 1997 r."
+  />
   <meta
     name="keywords"
     content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
     online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat" />
+    trybunał, prezydent, rada ministrów, sejm, senat"
+  />
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <h1
   class="text-lg font-thin sm:text-xl lg:text-2xl"
-  in:fly={{ x: -50, duration: 1000 }}>
+  in:fly={{ x: -50, duration: 1000 }}
+>
   Komisja Konstytucyjna
 </h1>
 <div in:fade={{ duration: 3000 }}>
@@ -30,16 +56,19 @@
       class="text-sm font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
       href="https://www.wikiwand.com/pl/Komisja_Konstytucyjna_Zgromadzenia_Narodowego"
       rel="nofollow"
-      target="_blank">
+      target="_blank"
+    >
       Komisja Konstytucyjna ZN
     </a>
     <svg
       class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
-      viewBox="0 0 24 24">
+      viewBox="0 0 24 24"
+    >
       <path
         d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1 1
         0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2 2H5a2
-        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+        2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"
+      />
     </svg>
   </p>
   <div class="mt-4">
@@ -49,49 +78,58 @@
         class="hover:text-red-new"
         href="https://www.wikiwand.com/pl/Zgromadzenie_Narodowe_w_Polsce"
         rel="nofollow"
-        target="_blank">
+        target="_blank"
+      >
         Zgromadzenia Narodowego
       </a>
       <svg
         class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
-        viewBox="0 0 24 24">
+        viewBox="0 0 24 24"
+      >
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
           1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2
-          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"
+        />
       </svg>
-      została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o
-      trybie przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
+      została utworzona przez ustawę konstytucyjną z dnia 23 kwietnia 1992 r. o trybie
+      przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej (
       <a
         class="hover:text-red-new"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19920670336"
         rel="nofollow"
-        target="_blank">
+        target="_blank"
+      >
         Dz.U. 1992 nr 67, poz. 336
       </a>
       <svg
         class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
-        viewBox="0 0 24 24">
+        viewBox="0 0 24 24"
+      >
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
           1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2
-          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"
+        />
       </svg>
       zm.:
       <a
         class="hover:text-red-new"
         href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19940610251"
         rel="nofollow"
-        target="_blank">
+        target="_blank"
+      >
         Dz.U. 1994 nr 61, poz. 251
       </a>
       <svg
         class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
-        viewBox="0 0 24 24">
+        viewBox="0 0 24 24"
+      >
         <path
           d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1 0-2h6a1
           1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2 0 0 1-2
-          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z" />
+          2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0 2H5v12h12v-5z"
+        />
       </svg>
       ).
     </p>
@@ -104,17 +142,20 @@
             class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
             href="https://drive.google.com/open?id=1HZL7xpnoqeRuZOSmU1LsJo_8Xaqwhaqr"
             rel="nofollow"
-            target="_blank">
+            target="_blank"
+          >
             skorowidz
           </a>
           <svg
             class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
-            viewBox="0 0 24 24">
+            viewBox="0 0 24 24"
+          >
             <path
               d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
               0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2
               2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0
-              2H5v12h12v-5z" />
+              2H5v12h12v-5z"
+            />
           </svg>
         </p>
 
@@ -124,17 +165,20 @@
             class="text-xs font-bold tracking-wider text-gray-500 uppercase hover:text-red-new"
             href="https://bs.sejm.gov.pl/F?func=find-b&request=000007248&find_code=SYS&local_base=BIS01"
             rel="nofollow"
-            target="_blank">
+            target="_blank"
+          >
             lista biuletynów
           </a>
           <svg
             class="inline-block w-3 h-3 mb-1 text-gray-500 fill-current"
-            viewBox="0 0 24 24">
+            viewBox="0 0 24 24"
+          >
             <path
               d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
               0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2
               2 0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0
-              2H5v12h12v-5z" />
+              2H5v12h12v-5z"
+            />
           </svg>
         </p>
 
@@ -151,7 +195,8 @@
           </li>
         </ul>
         <h3
-          class="mt-4 text-sm font-bold tracking-wider text-gray-400 uppercase">
+          class="mt-4 text-sm font-bold tracking-wider text-gray-400 uppercase"
+        >
           Prace w toku:
         </h3>
         <ul class="pl-5 mt-2 list-disc">
