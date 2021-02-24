@@ -1,8 +1,23 @@
 <script>
-  import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import Utterance from "../../../components/Utterance.svelte";
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/13/2.1");
+  };
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/13");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -25,6 +40,17 @@
         }
       }
     }
+    prefetch("/komisja");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 </script>
 
@@ -32,13 +58,14 @@
   <title>Dzień 1 - Biuletyn nr 13</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 7 lutego 1995 r.
     </h1>
     <h5>
@@ -47,14 +74,16 @@
         sm:text-sm hover:text-red-new"
         href="https://drive.google.com/file/d/1Ts4ETnD5wGc3hV2Vluy2yX7RoIcR7ZHn/view?usp=sharing"
         rel="nofollow"
-        target="_blank">
+        target="_blank"
+      >
         ORYGINAŁ BIULETYNU
       </a>
       <svg class="inline w-4 h-4 ml-px fill-current" viewBox="0 0 24 24">
         <path d="M0 0h24v24H0z" fill="none" />
         <path
           d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
-          2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+          2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+        />
       </svg>
     </h5>
   </div>
@@ -62,10 +91,12 @@
     <a rel="prefetch" href="/komisja/13/2.1">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
       </svg>
     </a>
   </div>
@@ -74,8 +105,8 @@
   <div
     id="protocol"
     class="text-xs leading-relaxed text-justify sm:text-base md:text-md
-    lg:text-lg xl:text-xl">
-
+    lg:text-lg xl:text-xl"
+  >
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -94,7 +125,8 @@
       innych gości, ekspertów i dziennikarzy. Proponowany porządek dzienny
       przewiduje rozpatrzenie artykułów składających się na rozdział pierwszy
       jednolitego projektu Konstytucji RP (w ujęciu wariantowym) oraz sprawy
-      różne. Czy są wnioski lub uwagi do proponowanego porządku dziennego?" />
+      różne. Czy są wnioski lub uwagi do proponowanego porządku dziennego?"
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -108,7 +140,8 @@
       się w systemie wartości, na którym zbudowana jest konstytucja. Wymaga to
       zasięgnięcia opinii ekspertów, a nie było na to czasu. Dlatego też
       zgłaszam wniosek formalny o odwołanie — przerwanie — posiedzenia Komisji
-      Konstytucyjnej." />
+      Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Wiatr (SLD)"
@@ -125,7 +158,8 @@
       się przy tym na to, że „Solidarności” wystarczył bardzo krótki czas na
       przygotowanie projektu konstytucji. Tak więc pracując jeszcze wolniej
       narazilibyśmy się na jeszcze bardziej zdecydowaną krytykę. W związku z tym
-      zgłaszam wniosek o odrzucenie wniosku senator A. Grześkowiak." />
+      zgłaszam wniosek o odrzucenie wniosku senator A. Grześkowiak."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -137,7 +171,8 @@
       odbywa się wiele posiedzeń komisji. Zwracam się więc do pana
       przewodniczącego, aby spowodował realizację ustalenia, że w trakcie
       posiedzenia Komisji Konstytucyjnej nie odbywają się posiedzenia komisji
-      sejmowych." />
+      sejmowych."
+    />
 
     <Utterance
       speaker="Poseł Jacek Taylor (UW)"
@@ -147,7 +182,8 @@
       Właściwie trudno zdecydować się, czy pozostać na posiedzeniu Komisji
       Konstytucyjnej, czy też przejść na posiedzenie trzech połączonych komisji
       obradujących nad kwestią ubezpieczeń. Myślę więc, że w słowach senator A.
-      Grześkowiak i posła R. Bugaja tkwi jednak ziarno prawdy." />
+      Grześkowiak i posła R. Bugaja tkwi jednak ziarno prawdy."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -155,7 +191,8 @@
       text="Kontynuując wątek uwagi posła R. Bugaja chcę powiedzieć, że termin
       przyszłego posiedzenia Komisji Konstytucyjnej zbiega się z terminem
       posiedzenia Senatu. Koordynacja prac Sejmu, Senatu i Komisji
-      Konstytucyjnej szwankuje więc wyraźnie. Komisja powinna jednak pracować." />
+      Konstytucyjnej szwankuje więc wyraźnie. Komisja powinna jednak pracować."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -186,25 +223,29 @@
       jest zgodne z faktami, ani intencjami jakie nam towarzyszyły. Odrzucam
       więc zarzuty, że prace nad nową konstytucją są sztucznie wydłużane. Tyle
       moich uwag do zgłoszonych wniosków i uwag. Poddam pod głosowanie wniosek
-      senator A. Grześkowiak." />
+      senator A. Grześkowiak."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Zwracam uwagę, że wniosek senator A. Grześkowiak nie jest kompletny,
-      gdyż nie określa terminu, do którego ma zostać odroczone posiedzenie." />
+      gdyż nie określa terminu, do którego ma zostać odroczone posiedzenie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proszę senator A. Grześkowiak o uzupełnienie wniosku poprzez
-      określenie terminu odroczenia posiedzenia Komisji." />
+      określenie terminu odroczenia posiedzenia Komisji."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
       imgPath="/images/kk-speakers/GrzeskowiakAlicja.png"
       text="Proponuję, aby następne posiedzenie Komisji odbyło się za dwa
-      tygodnie." />
+      tygodnie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -216,7 +257,8 @@
       posiedzenie będzie kontynuowane. Powracam więc do kwestii przyjęcia
       zaproponowanego porządku dziennego przewidującego rozpatrywanie rozdziału
       I projektu oraz sprawy różne. Czy są wnioski lub uwagi do porządku
-      dziennego? Nie ma. Stwierdzam więc przyjęcie porządku dziennego." />
+      dziennego? Nie ma. Stwierdzam więc przyjęcie porządku dziennego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -227,7 +269,8 @@
       Wychodziłoby to częściowo naprzeciw postulatowi senator A. Grześkowiak,
       aby dać czas na analizę przyjmowanych rozstrzygnięć i czas na decyzję o
       ewentualnym złożeniu wniosku mniejszości. Sądzę, że procedura, którą
-      proponuję, ograniczy liczbę wniosków mniejszości." />
+      proponuję, ograniczy liczbę wniosków mniejszości."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -235,7 +278,8 @@
       text="Szczegółowo procedurę składania wniosków mniejszości normuje
       regulamin Komisji i regulamin Sejmu. Uważam, że możemy przyjąć, iż wnioski
       mniejszości będą składane po zakończeniu rozpatrywania rozdziału, a także
-      po zakończeniu rozpatrywania projektu." />
+      po zakończeniu rozpatrywania projektu."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -245,14 +289,16 @@
       można składać tylko w sprawach, które były rozstrzygane na posiedzeniu
       Komisji. Nie można składać wniosków przed rozstrzygnięciem danej sprawy, a
       tak się dzieje. Otrzymaliśmy bowiem kserokopie wniosków mniejszości
-      złożonych w sprawach, które nie były przedmiotem głosowań w Komisji." />
+      złożonych w sprawach, które nie były przedmiotem głosowań w Komisji."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Myślę, że charakter prawny materiałów, o których mówił poseł J.
       Szymański, jest taki, iż są to poprawki błędnie nazwane wnioskami
-      mniejszości." />
+      mniejszości."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -265,7 +311,8 @@
       projektu tak dokładnie, aby wiedzieć, czy pojawią się sprzeczności w
       przyjmowanych przepisach. W związku z tym w procedurze prac powinniśmy
       sobie zarezerwować możliwość powrotu do kwestii, które były już wcześniej
-      ustalone." />
+      ustalone."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -286,7 +333,8 @@
       Propozycje zmian i poprawek dotyczące tych artykułów zostały zawarte w
       materiale dostarczonym członkom Komisji i noszącym tytuł: „Propozycje
       zgłoszone do projektu konstytucji na posiedzeniu Komisji Konstytucyjnej w
-      dniu 27 stycznia 1995 r.”" />
+      dniu 27 stycznia 1995 r.”"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -294,14 +342,16 @@
       text="Rozumiem, że jeżeli chodzi o wniosek posła J. Szymańskiego ujęty
       jako propozycja skreślenia art. 1-4, to chodzi o zmianę usytuowania
       wymienionych artykułów, a nie o ich definitywne usunięcie. Proszę jednak o
-      wyjaśnienie tej kwestii." />
+      wyjaśnienie tej kwestii."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
       imgPath="/images/kk-speakers/GrzeskowiakAlicja.png"
       text="Chcę zgłosić poprawki do rozdziału I. Łącznie z tytułem za chwilę
       dostarczę tekst poprawek. Poprawki te to pierwszy rozdział z projektu
-      konstytucji przygotowanego przez Komisję Konstytucyjną Senatu I kadencji." />
+      konstytucji przygotowanego przez Komisję Konstytucyjną Senatu I kadencji."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -310,7 +360,8 @@
       zawierają określenie Rzeczypospolitej Polskiej. Proponuję więc zastąpienie
       tych trzech artykułów artykułem i o treści: „Rzeczpospolita Polska jest
       demokratycznym państwem prawa, wspólnym dobrem jej obywateli,
-      urzeczywistniającym zasady sprawiedliwości społecznej”." />
+      urzeczywistniającym zasady sprawiedliwości społecznej”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -320,13 +371,15 @@
       senatora H. Rota i posła J. Szymańskiego: „Zasady ustroju Rzeczypospolitej
       Polskiej. W projekcie senackim — o czym mówiła senator A. Grześkowiak —
       tytuł rozdziału I brzmi: „Zasady naczelne”. Czy są uwagi do przedłożonych
-      propozycji?" />
+      propozycji?"
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Iwiński (SLD)"
       imgPath="/images/kk-speakers/IwinskiTadeusz.png"
       text="Uważam, że zamiast: „Zasady podstawowe...” powinno być: „Podstawowe
-      zasady... ." />
+      zasady... ."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -334,7 +387,8 @@
       text="Wnioskodawcy wyrażają zgodę na zaproponowaną zmianę redakcyjną. W
       tej sytuacji tytuł proponowany przez podkomisję oraz tytuł proponowany
       przez prof. A. Rzeplińskiego i posła W. Majewskiego są do siebie bardzo
-      podobne. Warto rozważyć, czy byłaby możliwa rezygnacja z jednego z nich." />
+      podobne. Warto rozważyć, czy byłaby możliwa rezygnacja z jednego z nich."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -345,7 +399,8 @@
       wycofać tytuł przyjęty przez podkomisję. Ponieważ jednak nie dostrzegam
       merytorycznej różnicy między tytułem podkomisji a tytułem zgłoszonym przez
       przedstawiciela Prezydenta RP i jednego z posłów, wycofuję tytuł
-      zaproponowany przez podkomisję." />
+      zaproponowany przez podkomisję."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -353,19 +408,22 @@
       text="Zwracam się do senatora H. Rota i posła J. Szymańskiego, aby
       rozważyli możliwość skreślenia swojej propozycji do formuły: „Zasady
       ustroju Rzeczypospolitej Polskiej” lub nawet do formuły: „Zasady ustroju”.
-      Zasady są bowiem podstawowe." />
+      Zasady są bowiem podstawowe."
+    />
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wnioskodawcy przyjmują dalej idącą propozycję poseł I. Lipowicz.
       Proszę, aby eksperci wypowiedzieli się na temat propozycji tytułu
-      rozdziału 1." />
+      rozdziału 1."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
       imgPath="/images/kk-speakers/WinczorekPiotr.png"
       text="Wszystkie propozycje tytułów odpowiadają treści rozdziału I. Różnice
-      mają charakter tylko werbalny." />
+      mają charakter tylko werbalny."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -383,7 +441,8 @@
       ustroju”. Stwierdzam, że w głosowaniu wniosek zyskał poparcie 18 członków
       Komisji. Tak więc większością głosów Komisja przyjęła, że rozdział
       pierwszy będzie miał tytuł: „Zasady ustroju”. Przechodzimy do debaty nad
-      treścią pierwszych pięciu artykułów w rozdziale I." />
+      treścią pierwszych pięciu artykułów w rozdziale I."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -393,34 +452,39 @@
       projektu wszystkich przepisów art. 1-4. Jestem za skreśleniem w całości
       art. 1 i 2. Uważam również, że rozdział I powinien rozpoczynać się od art.
       | wyrażającego zasadę demokratycznego państwa prawnego
-      urzeczywistniającego zasady sprawiedliwości społecznej." />
+      urzeczywistniającego zasady sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem więc, że posła J. Szymańskiego mogę dopisać jako
       wnioskodawcę do formuły zgłoszonej na poprzednim posiedzeniu przez posłów:
-      T. Iwińskiego 1J. Zdradę." />
+      T. Iwińskiego 1J. Zdradę."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Nie, gdyż moja propozycja nie mówi o republikańskiej formie państwa,
-      co jest zawarte w propozycji posłów: T. Iwińskiego i J. Zdrady." />
+      co jest zawarte w propozycji posłów: T. Iwińskiego i J. Zdrady."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Powrócimy do tej kwestii za chwilę. Proponuję, abyśmy teraz
       rozstrzygnęli losy obecnego art. 1, gdyż zostały zgłoszone wnioski o jego
-      wykreślenie." />
+      wykreślenie."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Michał Pietrzak"
       imgPath="/images/kk-speakers/PietrzakMichal.png"
       text="Zwracam jednak uwagę, że Komisja nie rozstrzygnęła tytułu
       konstytucji. Może to być tytuł: „Konstytucja Polski” lub „Konstytucja
-      Rzeczypospolitej Polskiej”." />
+      Rzeczypospolitej Polskiej”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -429,14 +493,16 @@
       przygotowania i uchwalenia Konstytucji Rzeczypospolitej Polskiej. Projekt
       Konstytucji, który mamy przygotować, będzie więc projektem Konstytucji
       Rzeczypospolitej Polskiej. Kwestia tytułu konstytucji jest więc
-      rozstrzygnięta i nie powinna być głosowana." />
+      rozstrzygnięta i nie powinna być głosowana."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Sądzę, że uwaga prof. M. Pietrzaka jest zasadna. Kwestia tytułu
       konstytucji wymaga rozstrzygnięcia. Powinno ono jednak nastąpić w końcowej
-      fazie prac." />
+      fazie prac."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -447,7 +513,8 @@
       Konstytucji Rzeczypospolitej Polskiej, sprawę tytułu nowej konstytucji
       należy uznać za przesądzoną. Powracamy do art. 1. Przypominam, że
       zgłoszono kilka wniosków o wykreślenie art. | w jego obecnej treści, gdyż
-      jest tautologiczny. Kwestię tę musimy więc rozstrzygnąć w głosowaniu." />
+      jest tautologiczny. Kwestię tę musimy więc rozstrzygnąć w głosowaniu."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -456,7 +523,8 @@
       poprzednim posiedzeniu, proponujemy dodanie ust. 2. Brzmienie art. 1
       byłoby więc następujące: „Ust. 1. Państwo Polskie jest jednolitą i
       niepodzielną republiką, Jego tradycyjną nazwą jest — Rzeczpospolita
-      Polska. Ust. 2. Państwo Polskie jest wspólnym dobrem wszystkich obywatel”." />
+      Polska. Ust. 2. Państwo Polskie jest wspólnym dobrem wszystkich obywatel”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -470,7 +538,8 @@
       bowiem założyć, że Polska może być monarchią. Należy również przypomnieć,
       że padły głosy za utrzymaniem art. 4, choćby z racji nawiązania do
       tradycji konstytucji marcowej, której art. 1 miał taką właśnie treść.
-      Jestem więc przeciwny skreśleniu art. 1." />
+      Jestem więc przeciwny skreśleniu art. 1."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -507,7 +576,8 @@
       Każde pokolenie obowiązane jest wysiłkiem własnym wzmóc siły i powagę
       Rzeczypospolitej. Ust. 4. Za spełnienie tego obowiązku odpowiada przed
       potomnością swoim honorem i swoim imieniem”. Czy są wnioski lub uwagi do
-      przedłożonych propozycji?" />
+      przedłożonych propozycji?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -520,7 +590,8 @@
       republiki. Jeżeli chodzi o punkt 5 zestawienia propozycji, to jest on
       zgodny z moją intencją tylko pod względem kolejności artykułów, lecz nie
       ich treści. Zawarta w tym punkcie treść art. 1 nie jest zgodna z moim
-      wnioskiem. Swoją treść art. 1 przedstawiłem przed chwilą." />
+      wnioskiem. Swoją treść art. 1 przedstawiłem przed chwilą."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Małachowski (UP)"
@@ -528,28 +599,33 @@
       text="Chcę zwrócić uwagę, że Komisja proponuje następujące brzmienie:
       „Rzeczpospolita jest republiką”, gdyż wyraz „Rzeczpospolita” jest wiernym
       tłumaczeniem łacińskich wyrazów: res publica. Nie jest to więc wyraz
-      polski." />
+      polski."
+    />
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
       imgPath="/images/kk-speakers/GrzeskowiakAlicja.png"
       text="W związku z decyzją Komisji o wykreśleniu art. 1 w dotychczasowym
       brzmieniu, zgłaszam jako poprawkę następujące brzmienie art. 1: „Państwo
-      Polskie jest Rzecząpospolitą ”." />
+      Polskie jest Rzecząpospolitą ”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Rozumiem, że jest to wniosek mniejszości." />
+      text="Rozumiem, że jest to wniosek mniejszości."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
       imgPath="/images/kk-speakers/GrzeskowiakAlicja.png"
-      text="Przedłożoną formułę zgłaszam jako poprawkę." />
+      text="Przedłożoną formułę zgłaszam jako poprawkę."
+    />
 
     <Utterance
       speaker="Głos z sali"
       imgPath="/images/kk-speakers/crowd.png"
-      text="Głosowanie nad poprawkami już się odbyło." />
+      text="Głosowanie nad poprawkami już się odbyło."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -561,7 +637,8 @@
       możliwości wszystkim jej członkom. Mogę oczywiście swoje propozycje
       zgłosić jako wniosek mniejszości, gdyż nie miałam szansy zgłoszenia
       poprawki i brania udziału w głosowaniu, choć wychodząc z sali zgłosiłam
-      panu przewodniczącemu cel wyjścia." />
+      panu przewodniczącemu cel wyjścia."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -572,7 +649,8 @@
       Dodam, że również zamierzam złożyć wniosek mniejszości w tej kwestii.
       Jeżeli chodzi o kolejne artykuły, to uważam, że powinniśmy ustalić, że
       głosowanie będzie przeprowadzone wówczas, gdy wszystkie propozycje zostaną
-      zestawione w formie pisemnej." />
+      zestawione w formie pisemnej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -581,7 +659,8 @@
       chcę natomiast poinformować, że jej wniosek dotyczący nie tylko brzmienia
       art. 1, ale także dotyczący brzmienia tytułu, został poddany pod
       głosowanie mimo nieobecności wnioskodawcy. Powracam do kwestii ustalenia
-      nowego brzmienia art. 1." />
+      nowego brzmienia art. 1."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -589,19 +668,22 @@
       text="Swoją propozycję złożyłem dlatego, iż odniosłem wrażenie, że część
       członków Komisji przywiązuje dużą wagę do republikańskiej formy państwa.
       Ponadto proponuję modyfikację mojej propozycji: „Państwo Polskie ma ustrój
-      republikański i nosi nazwę — Rzeczpospolita Polska”." />
+      republikański i nosi nazwę — Rzeczpospolita Polska”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wydaje się, że powinniśmy zdecydować, czy określenie mówiące o
-      republikańskiej formie rządów znajdzie się w konstytucji, czy też nie." />
+      republikańskiej formie rządów znajdzie się w konstytucji, czy też nie."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Iwiński (SLD)"
       imgPath="/images/kk-speakers/IwinskiTadeusz.png"
       text="Uważam, że art. 1 powinien zostać oparty na treści obecnego art. 5.
-      Kwestia republikańskiej formy państwa jest kwestią drugorzędną." />
+      Kwestia republikańskiej formy państwa jest kwestią drugorzędną."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -609,7 +691,8 @@
       text="Uważam, że konieczne jest sformułowanie mówiące o republikańskiej
       formie rządów. Rzeczpospolita jako republika szlachecka była monarchią. W
       obecnej formie republika oznacza formę sprawowania władzy. Ponadto warto
-      pamiętać, że są w Polsce partie polityczne o programie monarchistycznym." />
+      pamiętać, że są w Polsce partie polityczne o programie monarchistycznym."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -619,14 +702,16 @@
       okresie międzywojennym używano nazwy „Rzeczpospolita” dla określenia
       republiki, lecz jest to tradycja krótsza. Zarówno więc monarchiści jak i
       republikanie mają do czego odwoływać się, choć tradycje monarchistyczne są
-      dłuższe." />
+      dłuższe."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
       imgPath="/images/kk-speakers/OrzechowskiJan.png"
       text="Uważam, że w art. 1 powinny znaleźć się elementy obecnego art. 2
       iart. 5. Nie uważam natomiast za konieczne pisanie o republikańskiej
-      formie rządów." />
+      formie rządów."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -645,7 +730,8 @@
       konstytucje definiując państwo najczęściej ograniczają się do formuły
       państwa prawnego i ewentualnie społecznego, czyli socjalnego. Chcę również
       dodać, iż uważam, że ze względów redakcyjnych bardziej poprawna jest
-      formuła: państwo prawne, a nie państwo prawa." />
+      formuła: państwo prawne, a nie państwo prawa."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -661,13 +747,15 @@
       Polskiego”. Uzasadnienie przedłożonej propozycji przedstawiałam już
       podczas posiedzenia Komisji Konstytucyjnej oraz Zgromadzenia Narodowego.
       Jeżeli jednak ktoś będzie chciał usłyszeć uzasadnienie, to mogę je
-      przedstawić." />
+      przedstawić."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Jest to art. 2 projektu senackiego. Rozumiem, że miałby być
-      artykułem 1." />
+      artykułem 1."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -677,7 +765,8 @@
       sobie debatę nad tym sformułowaniem. W jej wyniku przyjęto formułę
       demokratycznego państwa prawnego. Uważam, że zanim przyjmiemy formułę art.
       1 powinniśmy poprosić ekspertów o opinię, gdyż w doktrynie występuje
-      zarówno pojęcie państwa prawa, jak i państwa prawnego." />
+      zarówno pojęcie państwa prawa, jak i państwa prawnego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -690,18 +779,21 @@
       popierających i 2 wstrzymujących się, odrzuciła wniosek. Z wyników
       głosowania wynika jednak, iż nie ma quorum, co oznacza, że Komisja nie
       podjęła decyzji. Głosowania formalne przeprowadzimy w późniejszym
-      terminie." />
+      terminie."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="Proponuję przyjąć stałe godziny głosowań." />
+      text="Proponuję przyjąć stałe godziny głosowań."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Nad przedyskutowanymi kwestiami głosowania odbędą się o godz. 15.
-      Czy są jeszcze wnioski lub poprawki dotyczące art. 1?" />
+      Czy są jeszcze wnioski lub poprawki dotyczące art. 1?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -711,7 +803,8 @@
       powinna być poddana pod głosowanie propozycja zgłoszona przez posła T.
       Mazowieckiego. Artykułem 2 byłby dotychczasowy art. 2 z projektu
       podkomisji. Artykułem 3 byłaby treść obecnego art. 5. Taka sekwencja
-      byłaby najwłaściwszym początkiem rozdziału I." />
+      byłaby najwłaściwszym początkiem rozdziału I."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -725,7 +818,8 @@
       artykułach 1, 215. Musimy więc teraz zdecydować o treści artykułów: 3, 4 i
       6 oraz o ich kolejności, gdyż zgłoszono wnioski dotyczące zmiany
       kolejności. Akcentowano zwłaszcza, aby artykułem 2 był artykuł poświęcony
-      suwerenności narodu, a więc obecny art. 6." />
+      suwerenności narodu, a więc obecny art. 6."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -751,14 +845,16 @@
       zwłaszcza sędziów, a także urzędów obsadzanych przez Sejm. Myślę więc, że
       można rozważyć rezygnację z formuły: „demokratycznie wybranych”. Proponuję
       rozważyć również, aby art. 6 rozpoczynał się od wyrazów: „Suwerenem
-      Rzeczypospolitej Polskiej jest ogół obywateli tworzących Naród...”" />
+      Rzeczypospolitej Polskiej jest ogół obywateli tworzących Naród...”"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przypominam, że w art. 3 rozstrzygnięcia wymaga również kwestia
       ujęta alternatywnie przez podkomisję podstaw ustroju politycznego 1
-      społeczno-gospodarczego." />
+      społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -772,12 +868,14 @@
       stosując zasady zrównoważonego rozwoju”. Wniosek grupy członków Komisji
       mówi o trwałym i zrównoważonym rozwoju. Jest to definicja podwójna. Lepiej
       więc mówić o zrównoważonym rozwoju, co oznacza zaspokojenie potrzeb
-      obecnego pokolenia z uwzględnieniem potrzeb przyszłych pokoleń." />
+      obecnego pokolenia z uwzględnieniem potrzeb przyszłych pokoleń."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Chcę dodać, iż stosowane jest również pojęcie harmonijnego rozwoju." />
+      text="Chcę dodać, iż stosowane jest również pojęcie harmonijnego rozwoju."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -785,7 +883,8 @@
       text="Przychylam się do argumentów, że obecny art. 6 ze względu na treść
       powinien być art. 2. Chcę dodać jeszcze jeden argument, aby treść obecnego
       art. 6 poprzedzała art. 3. W obu tych artykułach występuje pojęcie narodu,
-      lecz jest ono zdefiniowane w art. 6, a pierwszy raz występuje w art. 3." />
+      lecz jest ono zdefiniowane w art. 6, a pierwszy raz występuje w art. 3."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -795,7 +894,8 @@
       władza zwierzchnia należy do Narodu. Ust. 2. Naród sprawuje władzę przez
       swych przedstawicieli lub bezpośrednio”. Argumenty na rzecz usytuowania w
       art. 2 zasady suwerenności narodu zostały już przedstawione. Nie będę więc
-      ich powtarzał." />
+      ich powtarzał."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -809,7 +909,8 @@
       przeciwnie, jego skreślenie. Warto dodać, że każde państwo strzeże
       niepodległości i całości swojego terytorium. Problemy widać już przy
       kwestii kultury i języka. O ochronie praw człowieka jest mowa w rozdziale
-      II." />
+      II."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -817,7 +918,8 @@
       text="Absolutnie nie mogę podzielić stanowiska posła J. Ciemniewskiego,
       który postuluje skreślenie art. 3 określającego cele państwa i jego
       charakter. W moim pojęciu skreślenie art. 3 spowoduje, że może stracić
-      sens cały rozdział I." />
+      sens cały rozdział I."
+    />
 
     <Utterance
       speaker="Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji
@@ -838,7 +940,8 @@
       to być zapisane w konstytucji. Jeżeli chodzi o propozycję posła W.
       Cimoszewicza przesunięcia kolejności art. 3 i art. 6, to nie popieram Jej.
       gdyż uważam, że art. 3 ma większą wagę, ponieważ dotyczy celów państwa.
-      Definicja państwa może być umieszczona również później." />
+      Definicja państwa może być umieszczona również później."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -854,7 +957,8 @@
       do art. 3 formuły o zrównoważonym rozwoju. Korzystając z okazji chcę
       również odnieść się polemicznie do wypowiedzi prof. A. Rzeplińskiego na
       temat formuły mówiącej o gwarantowaniu praw człowieka. Pojęcie gwarancji
-      praw jest na gruncie nauk prawnych i praktyki pojęciem znanym." />
+      praw jest na gruncie nauk prawnych i praktyki pojęciem znanym."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -870,7 +974,8 @@
       narodowe, zarówno w sensie duchowym, jak i materialnym. Chcę zwrócić
       uwagę, że w poprawce, którą dzisiaj złożyłem, jest zawarta stosowna
       propozycja. Jej miejsce widzę jednak nieco dalej w systematyce rozdziału
-      I." />
+      I."
+    />
 
     <Utterance
       speaker="Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław
@@ -884,7 +989,8 @@
       wprowadzeniem pojęcia zrównoważonego rozwoju, gdyż jest ono nieostre i
       wieloznaczne. Myślę, że należałoby posłużyć się pojęciem trwałego i
       wszechstronnego rozwoju społecznego i gospodarczego. Jest to formuła
-      dłuższa, lecz bardziej właściwa." />
+      dłuższa, lecz bardziej właściwa."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -904,7 +1010,8 @@
       oznacza to sprzeciwiania się celom i wartościom, lecz chodzi o
       jurydyczność przepisów konstytucji. Do dyskusji pzostaje więc problem, czy
       konieczne jest odrębne wymienienie strz żenia języka, gdyż język chyba
-      mieści się w dziedzictwie kultury." />
+      mieści się w dziedzictwie kultury."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -917,7 +1024,8 @@
       zasadę legalizmu. Art. 3 miałby brzmienie: „Ust. 1. Przestrzeganie praw
       Rzeczypospolitej Polskiej jest podstawowym obowiązkiem każdego organu
       państwa. Ust. 2. Wszystkie organy władzy i administracji państwowej
-      działają na podstawie przepisów prawa”." />
+      działają na podstawie przepisów prawa”."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -931,7 +1039,8 @@
       rozwoju, po to aby nie zniszczyć zasobów, które powinny służyć również
       przyszłym pokoleniom. Nie można postępować według zasady: po nas choćby
       potop. Jestem więc za przyjęciem formuły zrównoważonego rozwoju, zwłaszcza
-      że termin ten zyskał już uznanie również w Polsce." />
+      że termin ten zyskał już uznanie również w Polsce."
+    />
 
     <Utterance
       speaker="Przedstawiciel Polskiego Towarzystwa Ekonomicznego prof. Zdzisław
@@ -949,7 +1058,8 @@
       ekorozwój, które jest jednak terminem żargonowym. Pojęcie: „zrównoważony
       rozwój” jest pojęciem nieostrym dlatego, że dzisiejszy rozwój opiera się
       na innowacyjności, która powoduje ciągłe wytrącanie z równowagi. Rozwój ma
-      więc być niezrównoważony." />
+      więc być niezrównoważony."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -984,7 +1094,8 @@
       Legislacyjnego i sekretariatu Komisji. Celem spotkania będzie
       uporządkowanie zgłoszonych propozycji poprawek tak, aby mogły one być
       przedmiotem głosowania po przerwie. Ogłaszam przerwę do godz. 15. [Po
-      przerwie]" />
+      przerwie]"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -995,13 +1106,15 @@
       będą one podstawą głosowań. Wcześniej jednak chciałbym, aby Komisja
       rozstrzygnęła dwie kwestie natury bardziej szczegółowej. Kwestia pierwsza
       to pytanie, czy wśród cech opisujących państwo ma być określenie mówiące o
-      ustroju republikańskim, czy też nie." />
+      ustroju republikańskim, czy też nie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
       imgPath="/images/kk-speakers/ZdradaJerzy.png"
       text="W propozycji brzmienia art, 1, które zgłosiliśmy, nie ma wyrazu:
-      „nost”. Proszę o uzupełnienie tego braku." />
+      „nost”. Proszę o uzupełnienie tego braku."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1015,13 +1128,15 @@
       Komisja w głosowaniu, większością 18 głosów przeciwnych, przy 9 głosach
       popierających i 2 wstrzymujących się, odrzuciła wniosek. Tak więc
       republikańska forma państwa nie będzie zapisana. Kwestia druga to:
-      „państwo prawa” czy „państwo prawne”?" />
+      „państwo prawa” czy „państwo prawne”?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Uważam, że dobrze byłoby, abyśmy mogli wysłuchać opinii ekspertów w
-      tej kwestii." />
+      tej kwestii."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1035,7 +1150,8 @@
       to sformułowanie poprawne, to lepiej je utrzymać, gdyż opiera się na nim
       orzecznictwo Trybunału Konstytucyjnego i literatura przedmiotu. Za tym,
       aby nie dokonywać zmiany przemawia również to, że nie jest proponowana
-      zmiana treści tego pojęcia." />
+      zmiana treści tego pojęcia."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1049,31 +1165,36 @@
       stawia znak równości między tymi dwiema formułami. Znajduje to również
       wyraz w niektórych orzeczeniach i uzasadnieniach. Uważam więc, że między
       tymi dwiema formułami nie ma istotnych różnic. Może więc pozostać formuła
-      mówiąca o „państwie prawnym”." />
+      mówiąca o „państwie prawnym”."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
       imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Nie jestem językoznawcą, ale jest tak, że w języku polskim
       rzeczownik określa przymiotnik. Nie mówimy: „państwo demokracji”, lecz
-      „państwo demokratyczne”." />
+      „państwo demokratyczne”."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
       text="Wydaje się, że pojęcie „państwo prawa” powstało jako dosłowne
       tłumaczenie oryginału niemieckiego. W literaturze prawnej i prawniczej
-      przyjęło się jednak: „państwo prawne”." />
+      przyjęło się jednak: „państwo prawne”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Czy ktoś jest przeciwny przyjęciu formuły: „państwo prawne”?" />
+      text="Czy ktoś jest przeciwny przyjęciu formuły: „państwo prawne”?"
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
       imgPath="/images/kk-speakers/AndrzejewskiPiotr.png"
-      text="Jestem przeciwny." />
+      text="Jestem przeciwny."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1089,18 +1210,21 @@
       aby wnioskodawcy poszczególnych propozycji uwzględnili w nich wyniki
       głosowań. Przystępujemy do analizy propozycji brzmienia art. 1-4
       zgłoszonych w dniu dzisiejszym. Proszę o zmodyfikowane brzmienie pierwszej
-      propozycji." />
+      propozycji."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
       imgPath="/images/kk-speakers/ZdradaJerzy.png"
       text="Proponujemy, aby art. 2 naszej propozycji stał się art. 1, a art. 3
-      — art. 2." />
+      — art. 2."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="Proponuję, abyśmy obecnie pole decyzji ograniczyli do art. 1." />
+      text="Proponuję, abyśmy obecnie pole decyzji ograniczyli do art. 1."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1110,13 +1234,15 @@
       zgłosił poseł J. Jaskiernia. Pobyt autora wniosku w szpitalu utrudnia
       weryfikację brzmienia propozycji. Autorami wniosku nr 3 są posłowie: T.
       Iwiński i J. Szymański. Czy poza zmianą wyrazu: „prawa” na: „prawnym” są
-      inne propozycje zmian? Nie ma." />
+      inne propozycje zmian? Nie ma."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Chcielibyśmy dokonać również modyfikacji w art. 3 naszej propozycji.
-      W związku z tym prosimy o udzielenie głosu prof. W. Osiatyńskiemu." />
+      W związku z tym prosimy o udzielenie głosu prof. W. Osiatyńskiemu."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1178,28 +1304,32 @@
       zasadami sprawiedliwości lub formuła o kierowaniu się zasadami
       bezpieczeństwa 'socjalnego. Chodzi bowiem o to, aby cele socjalne były w
       konstytucji, lecz aby to jednocześnie nie rodziło roszniwelacyjnych do
-      sprawiedliwości społecznej." />
+      sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proszę więc wnioskodawców, czyli posłów J. Zdradę i T. Mazowieckiego
       o przedstawienie brzmienia art. 2 w wersji poprawionej, po wypowiedzi
-      prof. W. Osiatyńskiego." />
+      prof. W. Osiatyńskiego."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Generalnie rzecz biorąc wolałbym, aby przepis taki był w innym
       artykule. Skoro jednak formuła ta ma być w tym artykule, to powinna ona
-      mówić o kierowaniu się zasadami sprawiedliwości społecznej." />
+      mówić o kierowaniu się zasadami sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem więc, że propozycja posłów: J. Zdrady i T. Mazowieckiego
       brzmi: „Rzeczpospolita Polska jest demokratycznym państwem prawnym
-      kierującym się zasadami sprawiedliwości społecznej”." />
+      kierującym się zasadami sprawiedliwości społecznej”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1224,12 +1354,14 @@
       że urzeczywistnianie nie prowadzi natychmiast to rezultatu. Stwierdzenie,
       że Rzeczpospolita Polska jest państwem sprawiedliwości społecznej, byłoby
       formułą bardziej roszczeniową. Skoro jednak przywróciliśmy dyskusję
-      globalną, to proszę, aby wypowiedzieli się również inni eksperci." />
+      globalną, to proszę, aby wypowiedzieli się również inni eksperci."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
-      text="Popieram argument posła R. Bugaja." />
+      text="Popieram argument posła R. Bugaja."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1240,33 +1372,38 @@
       jest autorstwa posła J. Jaskierni. Korzystając z niepisanej zgody
       nieobecnego autora proponuję, aby ust. 1 brzmiał: „Rzeczpospolita Polska
       jest państwem suwerennym, jednolitym i niepodzielnym”. Pozostałe ustępy
-      pozostają bez zmian." />
+      pozostają bez zmian."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
       imgPath="/images/kk-speakers/CiemniewskiJerzy.png"
       text="Postuluję wykreślenie wyrazu „suwerennym ”. Wymienianie cechy
       państwa, jaką jest suwerenność, jest — jak się wydaje — nie na miejscu w
-      związku z najnowszą historią." />
+      związku z najnowszą historią."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przyjmuję uwagę posła J. Ciemniewskiego, co oznacza, że ust. 1
       będzie identyczny z art. 4 projektu. Czy są uwagi do wniosku nr 3? Nie ma.
-      Czy są uwagi do wniosku nr 4?" />
+      Czy są uwagi do wniosku nr 4?"
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
       imgPath="/images/kk-speakers/GrzeskowiakAlicja.png"
-      text="Podtrzymuję swój wniosek w przedłożonym brzmieniu." />
+      text="Podtrzymuję swój wniosek w przedłożonym brzmieniu."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czy są uwagi do wniosku nr 5 przygotowanego przez posła L.
       Moczulskiego? Nie ma. Czy są uwagi do wniosku nr 6 przygotowanego przez
-      przedstawicieli Prezydenta RP?" />
+      przedstawicieli Prezydenta RP?"
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -1276,14 +1413,16 @@
       Osiatyńskiego — po wymianie poglądów z prof. M. Pietrzakiem — proponujemy
       art. 4 w następującym brzmieniu: „Rzeczpospolita Polska jest państwem
       prawnym i socjalnym”. Ponadto w art. 1 ust. 1 zdanie pierwsze otrzymuje
-      brzmienie: „Państwo Polskie jest jednolite i niepodzielne”." />
+      brzmienie: „Państwo Polskie jest jednolite i niepodzielne”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czy do wniosku nr 7, poza zamianą wyrazu „prawa” na „prawnym , są
       dalsze uwagi? Nie ma. Analogiczna zmiana następuje we wniosku nr 8
-      senatora J. Orzechowskiego. Czy są dalsze uwagi do wniosku nr 8?" />
+      senatora J. Orzechowskiego. Czy są dalsze uwagi do wniosku nr 8?"
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -1291,19 +1430,22 @@
       text="Proponuję, abyśmy w konstytucji nie odchodzili od idei
       sprawiedliwości społecznej. Jest to idea utrwalona w Świadomości
       społecznej Polaków. Uważam więc, że zachowanie formuły o urzeczywistnianiu
-      zasad sprawiedliwości społecznej jest uzasadnione." />
+      zasad sprawiedliwości społecznej jest uzasadnione."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Czy są uwagi do wniosku nr 9, senatora J. Madeja?" />
+      text="Czy są uwagi do wniosku nr 9, senatora J. Madeja?"
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Mam ochotę zadać pytanie senatorowi J. Orzechowskiemu, która zasada
       sprawiedliwości obowiązuje: czy zasada „każdemu według pracy , czy
-      „każdemu według potrzeb”?" />
+      „każdemu według potrzeb”?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1312,25 +1454,29 @@
       chodzi o wniosek nr 11, to proszę poprawić, że jego autorami są
       senatorowie: P. Jankiewicz, H. Rot i J. Orzechowski. Czy są inne uwagi do
       wniosku nr 11? Nie ma. Czy są uwagi do wniosku nr 12 posła J.
-      Ciemniewskiego, który proponuje skreślenie art. 3?" />
+      Ciemniewskiego, który proponuje skreślenie art. 3?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="Przyłączam się do wniosku posła J. Ciemniewskiego." />
+      text="Przyłączam się do wniosku posła J. Ciemniewskiego."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Iwiński (SLD)"
       imgPath="/images/kk-speakers/IwinskiTadeusz.png"
       text="W art. 4 mojego wniosku proponuję modyfikację części końcowej.
       Powinna ona brzmieć: „oraz zapewnia ochronę Środowiska kierując się zasadą
-      zrównoważonego rozwoju”." />
+      zrównoważonego rozwoju”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wnioski zostały uzupełnione oraz uporządkowane. Możemy więc przejść
-      do głosowania." />
+      do głosowania."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -1339,7 +1485,8 @@
       Jest bowiem tak, że początkowe artykuły konstytucji wymieniają z reguły
       najważniejsze kwestie. Dobrze byłoby więc — dla swego rodzaju elegancji
       legislacyjnej, aby artykuły początkowe były jednoustępowe, a nie
-      rozbudowane w formie kilku ustępów." />
+      rozbudowane w formie kilku ustępów."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1347,7 +1494,8 @@
       text="Zgadzam się z uwagą posła J. Zdrady co do zasady jednoustępowości
       początkowych artykułów konstytucji. Myślę jednak, że jest to kwestia na
       finał prac redakcyjnych. Najpierw w głosowaniu musimy rozstrzygnąć wybór
-      wariantu." />
+      wariantu."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1362,7 +1510,8 @@
       co do treści merytorycznej. Ponadto wydaje mi się, że jest chyba
       obowiązkiem Komisji rozstrzygnięcie wariantów, które przygotowała
       podkomisja redakcyjna, zagadnień ogólnych i przepisów wprowadzających
-      konstytucję. Powinno to chyba nastąpić w pierwszej kolejności." />
+      konstytucję. Powinno to chyba nastąpić w pierwszej kolejności."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1382,7 +1531,8 @@
       wniosek nr 4 senator A. Grześkowiak, art. 1 ust. I wniosku nr 5 posła L.
       Moczulskiego, art. 1 wniosku nr 6 złożonego przez przedstawicieli
       Prezydenta RP, wniosek nr 7 senatora S. Pastuszki oraz wniosek nr 8
-      senatora J. Orzechowskiego." />
+      senatora J. Orzechowskiego."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -1391,14 +1541,16 @@
       konieczność rozstrzygnięcia kolejności, a więc czy art. 1 ma mówić o tym,
       że Rzeczpospolita Polska jest wspólnym dobrem wszystkich obywateli, czy
       też że jest państwem niepodzielnym, czy też, że jest demokratycznym
-      państwem prawnym kierującym się zasadami sprawiedliwości społecznej." />
+      państwem prawnym kierującym się zasadami sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Musimy zdecydować, czy art. 1 będzie zawierał formułę o dobru
       wspólnym, czy też formułę o demokratycznym państwie prawnym lub jeszcze
-      inną formułę, na przykład taką, jaką zaproponował senator S. Pastuszka." />
+      inną formułę, na przykład taką, jaką zaproponował senator S. Pastuszka."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1414,7 +1566,8 @@
       kwestii sprawiedliwości społecznej czy państwa socjalnego. Problem nie
       polega na tym, aby w ogóle nie podjąć kwestii działalności socjalnej
       państwa, lecz na tym, że przyjmując określoną formułę możemy przesądzić
-      zakres zobowiązań państwa i to, kto będzie rozstrzygał tę kwestię. |" />
+      zakres zobowiązań państwa i to, kto będzie rozstrzygał tę kwestię. |"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1441,7 +1594,8 @@
       Komisji. Tak więc Komisja zdecydowała, że art. 1 Konstytucji będzie miał
       brzmienie stwierdzające, że Rzeczpospolita Polska jest demokratycznym
       państwem prawnym urzeczywistniającym zasady sprawiedliwości społecznej.
-      Przechodzimy do art. 2." />
+      Przechodzimy do art. 2."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1452,7 +1606,8 @@
       sposób głosowania spowodował, że moja poprawka jest ujęta w zbiorczym
       zestawieniu poprawek, lecz nie była poddana pod głosowanie i nie bardzo
       wiem, kiedy zostanie poddana głosowaniu, skoro została przesądzona treść
-      art. 1." />
+      art. 1."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1463,7 +1618,8 @@
       jest wspólnym dobrem wszystkich obywateli. Formuła ta znajduje się bowiem
       w art. 1 ust. I wniosku senator A. Grześkowiak. Przypominam, że opcja
       uzyskała poparcie 8 członków Komisji. Uważam również, że możliwe jest
-      przeprowadzenie pełnego głosowania nad każdym zgłoszonym wnioskiem." />
+      przeprowadzenie pełnego głosowania nad każdym zgłoszonym wnioskiem."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -1471,7 +1627,8 @@
       text="Uważam, że w głosowaniu przesądziliśmy tylko generalną formułę art.
       1. Teraz powinniśmy rozstrzygnąć, czy znajdzie się w nim formuła mówiąca o
       urzeczywistnianiu zasad sprawiedliwości społecznej, czy formuła mówiąca o
-      kierowaniu się zasadami sprawiedliwości społecznej." />
+      kierowaniu się zasadami sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1481,7 +1638,8 @@
       demokratycznym państwie prawnym oraz o zasadzie sprawiedliwości
       społecznej. Rozstrzygnięcia wymaga natomiast rzeczywiście formuła
       dotycząca sprawiedliwości społecznej, a więc kwestia, którą podniósł
-      senator J. Madej." />
+      senator J. Madej."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1494,7 +1652,8 @@
       zgłoszonymi w toku posiedzenia odbywa się na następnym posiedzeniu. W
       wyjątkowych wypadkach przewodniczący Komisji może dopuścić głosowanie
       poprawek na tym samym posiedzeniu”. Uważam więc, że trzeba głosować nad
-      każdą poprawką." />
+      każdą poprawką."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1512,36 +1671,42 @@
       zakończyć procedurę zmierzającą do ustalenia ostatecznego brzmienia art.
       1. W grę wchodzi brzmienie proponowane przez posła T. Iwińskiego, senatora
       H. Rota i moje oraz brzmienie proponowane przez posłów J. Zdradę oraz T.
-      Mazowieckiego." />
+      Mazowieckiego."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
-      text="Zgadzam się z opinią posła J. Szymańskiego." />
+      text="Zgadzam się z opinią posła J. Szymańskiego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przechodzimy zatem do uszczegółowienia propozycji, która uzyskała
       poparcie 20 członków Komisji. Do wyboru mamy dwie formuły, o których mówił
-      poseł J. Szymański." />
+      poseł J. Szymański."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
       imgPath="/images/kk-speakers/RzeplinskiAndrzej.png"
       text="Przypominam, że zgłosiliśmy propozycję: „Rzeczpospolita Polska jest
-      demokratycznym państwem prawnym i socjalnym." />
+      demokratycznym państwem prawnym i socjalnym."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Przyjmujemy więc, że są trzy propozycje." />
+      text="Przyjmujemy więc, że są trzy propozycje."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Chcę się opowiedzieć za przyjęciem formuły mówiącej o kierowaniu się
-      zasadami sprawiedliwości społecznej." />
+      zasadami sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
@@ -1565,7 +1730,8 @@
       to który wyraz to oznacza. Uważam, że bez rozstrzygnięcia tej kwestii
       stosownymi ekspertyzami, głosowania nie należy przeprowadzać, a w każdym
       razie ja nie czuję się kompetentny w tym głosowaniu bez tego typu
-      rozstrzygnięcia." />
+      rozstrzygnięcia."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -1579,7 +1745,8 @@
       traktowanie osób niepełnosprawnych, kobiet w pewnych sytuacjach, praw
       wyborczych. Tak więc zakres pojęcia urzeczywistniania zasad
       sprawiedliwości społecznej jest znacznie szerszy niż tylko rozdział dóbr i
-      wartości socjalnych." />
+      wartości socjalnych."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1590,14 +1757,16 @@
       zrozumieć, jaki jest sens zgłaszania poprawek, które nie są poddawane pod
       głosowanie. Widzę, że ustalanie brzmienia poszczególnych artykułów
       konstytucji ma miejsce teraz na sali. Wiem natomiast, że mamy prawo
-      składania wniosków mniejszości, lecz jest to inna kwestia." />
+      składania wniosków mniejszości, lecz jest to inna kwestia."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Chcę poinformować panią senator, że poprawki są głosowane. Jej
       poprawka dotycząca art. 1 została poddana głosowaniu w ramach głosowania
-      kierunkowego nad trzema opcjami generalnymi brzmienia art. 1." />
+      kierunkowego nad trzema opcjami generalnymi brzmienia art. 1."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1605,7 +1774,8 @@
       text="Już dość długo głosuję nad różnymi poprawkami, lecz nie rozumiem, co
       to znaczy, że głosowanie nad moją poprawką było kierunkowe. Proszę o
       precyzyjną odpowiedź, czy zgłoszone poprawki były poddane pod głosowanie,
-      czy też nie." />
+      czy też nie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1616,7 +1786,8 @@
       poprawki senator A. Grześkowiak i od innych poprawek. | Głosowanie nad
       poszczególnymi poprawkami jest oczywiście możliwe, lecz nic z tego nie
       wyniknie. Podobne opinie przedstawili poseł J. Szymański i senator J.
-      Madej." />
+      Madej."
+    />
 
     <Utterance
       speaker="Poseł Jacek Taylor (UW)"
@@ -1633,7 +1804,8 @@
       sformułowanie o kierowaniu się zasadami sprawiedliwości społecznej nie
       daje podstawy do'samodzielnego roszczenia. Jest to poniekąd tylko
       dyrektywa ogólna, która chyba nie jest wystarczająca, aby uznać ją za
-      podstawę roszczenia." />
+      podstawę roszczenia."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1660,7 +1832,8 @@
       nie odnajduję wyraźnej dystynkcji między formułą mówiącą o
       urzeczywistnianiu zasady sprawiedliwości społecznej i formuły mówiącej o
       kierowaniu się zasadami sprawiedliwości społecznej. Myślę, że jest to
-      dystynkcja tylko werbalna." />
+      dystynkcja tylko werbalna."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UW)"
@@ -1686,7 +1859,8 @@
       „urzeczywistwyraża pewność, iż urzeczywistnianie następuje w miarę pewnych
       obiektywnych możliwości, a więc nie jest to natychmiast stan wymagalny,
       lecz pewien ruch i dążenie. Opowiadam się więc za utrzymaniem
-      dotychczasowej formuły konstytucyjnej." />
+      dotychczasowej formuły konstytucyjnej."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1706,7 +1880,8 @@
       kształt dopiero w prawodawstwie zwykłym. Nie można więc utożsamiać
       zobowiązań wynikających z prawa publicznego ze zobowiązaniami wynikającymi
       z prawa cywilnego. W konkluzji kategorycznie opowiadam się za formułą o
-      państwie urzeczywistniającym zasady sprawiedliwości społecznej." />
+      państwie urzeczywistniającym zasady sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1750,7 +1925,8 @@
       bardzo niebezpieczna droga. Co więcej, jeżeli ma to oznaczać, że jako
       ustawodawcy nie wolno mi się cofnąć na tej drodze, lecz mam zmierzać w
       kierunku bliżej nieokreślonego ideału, to zawahałbym się przed
-      podniesieniem ręki w głosowaniu za takim sformułowaniem." />
+      podniesieniem ręki w głosowaniu za takim sformułowaniem."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1768,13 +1944,15 @@
       W. Osiatyński, to zaproponowaliśmy powrót do dyskusji. Wówczas pan
       przewodniczący powiedział, że nie ma potrzeby i wówczas nikt nie
       protestował. Jeżeli trzeba powr cić do dyskusji, to uczyńmy to, ale proszę
-      nie stawiać zarzutu, że chcemy zamknąć dyskusję." />
+      nie stawiać zarzutu, że chcemy zamknąć dyskusję."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Dyskusja faktycznie trwa i jest rzeczowa. Uważam jednak, że mając
-      już wiedzę na dyskutowany temat możemy przystąpić do decydowania." />
+      już wiedzę na dyskutowany temat możemy przystąpić do decydowania."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1793,14 +1971,16 @@
       bez rozstrzygnięcia katalogu praw socjalnych i ich gwarancji formalnych na
       przykład w formie skargi konstytucyjnej. Należy jednak dodać, że w dużej
       mierze będzie to zależało od charakteru i treści samej normy, a więc, czy
-      będzie miała charakter samowykonawczy." />
+      będzie miała charakter samowykonawczy."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Poseł K. Łybackiej, która była zaskoczona powtarzaniem dyskusji,
       chcę zwrócić uwagę, że dyskusję tę powtórzymy po raz trzeci na posiedzeniu
-      Zgromadzenia Narodowego." />
+      Zgromadzenia Narodowego."
+    />
 
     <Utterance
       speaker="Poseł Wit Majewski (SLD)"
@@ -1817,7 +1997,8 @@
       brzmienie tej formuły i jej obecność jako art. 1 nowej Konstytucji RP.
       Doprawdy trudno ustalić, kto czego broni i o co komu chodzi, chyba że
       mówienie jest po to, aby stosować abstrakcję parlamentamą w tym celu, aby
-      nie doprowadzić do żadnych konkluzji." />
+      nie doprowadzić do żadnych konkluzji."
+    />
 
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
@@ -1844,7 +2025,8 @@
       zmuszony uznać, że postąpiłem rozsądnie rezygnując z prac w podkomisji w
       ich początkowym etapie. Zmienię to zdanie, jeżeli z prac podkomisji będzie
       wynikać jednoznaczna odpowiedź i zostanie przedstawiona przez posła R.
-      Bugaja." />
+      Bugaja."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1927,13 +2109,15 @@
       dopiero uchwalone prawo — a więc ustawa — decyduje o tym, jak
       sprawiedliwość została w nim wyrażona. Być może formuła „kieruje” jest
       lepsza, ale formuła „urzeczywistnia” w Świetle orzeczenia Trybunału
-      Konstytucyjnego nie daje podstaw do obaw, które były wyrażane." />
+      Konstytucyjnego nie daje podstaw do obaw, które były wyrażane."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Kwestia jest niewątpliwie kluczowa. Dziękuję więc prof. K. Działosze
-      za uwagi wyjaśniające." />
+      za uwagi wyjaśniające."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -1963,7 +2147,8 @@
       istotne znaczenie, gdyż możemy się znaleźć w sytuacji, w której Trybunał
       Konstytucyjny będzie sprawował władzę prawodawczą i władzę wykonawczą,
       gdyż będzie dokonywał redystrybucji dochodu narodowego, co powinno być w
-      gestii wyłącznie władzy ustawodawczej i wykonawczej." />
+      gestii wyłącznie władzy ustawodawczej i wykonawczej."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -2025,7 +2210,8 @@
       mówiącej o kierowaniu się zasadami sprawiedliwości społecznej. Nie
       podejmuje ona bowiem kwestii rozwojowego charakteru praw oraz nasuwa
       mniejsze podstawy do wysuwania roszczeń o rezultaty działań państwa w
-      zakresie polityki socjalnej." />
+      zakresie polityki socjalnej."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -2045,7 +2231,8 @@
       mówiące o kierowaniu się zasadami sprawiedliwości społecznej, gdyż w moim
       przekonaniu nakłada to obowiązek starannego działania władz państwowych, a
       nie urzeczywistnienia, czyli osiągnięcia celu, co wydaje się prawie
-      nierealne." />
+      nierealne."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2087,7 +2274,8 @@
       udział w pracach parlamentu jest nie tylko prawem, ale 1 obowiązkiem
       posłów i senatorów. Jeżeli poseł J. Rokita nie wziął udziału w żadnym w 12
       dotychczasowych posiedzeń podkomisji i nie przedstawił żadnego
-      usprawiedliwienia, jest to problem i mam prawo o nim mówić." />
+      usprawiedliwienia, jest to problem i mam prawo o nim mówić."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -2101,7 +2289,8 @@
       uwagę, że i zasada mówiąca o kierowaniu, i zasada mówiąca o państwie
       socjalnym również zapewnią cele, o których mówił poseł R. Bugaj. Nawet
       rząd UPR nie będzie mógł naruszyć tych zasad. Nie rozpatrujemy bowiem
-      kwestii całkowitego usunięcia zasady sprawiedliwości społecznej." />
+      kwestii całkowitego usunięcia zasady sprawiedliwości społecznej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -2110,7 +2299,8 @@
       wypowiadałem się przeciwko art. 3 właśnie z tych powodów, a więc ze
       względu na niejasność tych pojęć ujętych w art. 3. Nie bardzo wiadomo, do
       czego mogą prowadzić tak określone cele państwa. Jest to ponadto
-      obudowywanie konstytucji hasłami, a nie normami." />
+      obudowywanie konstytucji hasłami, a nie normami."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -2125,7 +2315,8 @@
       właśnie było w USA, kiedy to w pewnym okresie Sąd Najwyższy stosunkowo
       często orzekał niekonstytucyjność ustaw. Spowodowało to zmniejszenie
       odpowiedzialności Kongresu za treść ustaw. Parlamentarzyści wiedzieli
-      bowiem, że Sąd Najwyższy uchyli ustawy sprzeczne z konstytucją." />
+      bowiem, że Sąd Najwyższy uchyli ustawy sprzeczne z konstytucją."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2144,7 +2335,8 @@
       odrębna, iż powinna być głosowana odrębnie. Odrębnością cechuje się
       również koncepcja posła L. Moczulskiego. Ponadto należałoby wyjaśnić, jak
       art. 2 widzą przedstawiciele Prezydenta RP, wobec dość wyraźnego
-      zarysowania się treści art. 1." />
+      zarysowania się treści art. 1."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -2152,13 +2344,15 @@
       text="Możliwy jest również wariant art. 2 mówiący o tym, że państwo jest
       wspólnym dobrem wszystkich obywateli. Ponadto chcę zachęcać członków
       Komisji do przyjęcia formuły mówiącej o zrównoważonym rozwoju. Nie jest to
-      bowiem hasło, lecz kierunek rozwoju Świata." />
+      bowiem hasło, lecz kierunek rozwoju Świata."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przyjmuję uwagę senatora J. Madeja, co powoduje, że zwiększa się
-      liczba wariantów art. 2." />
+      liczba wariantów art. 2."
+    />
 
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
@@ -2181,14 +2375,16 @@
       uzyskać efekt ustrojowy w postaci kontroli wydatków publicznych przez
       Trybunał Konstytucyjny, czy też nie. Jest to bowiem pytanie o ustrojowy
       fundament państwa. W tym kontekście pytanie o wyrazy jest pytaniem
-      śmiesznym." />
+      śmiesznym."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proszę ponownie o wypowiedź prof. K. Działochę, odnoszącą się do
       pytania posła J. Rokity. Chodzi o wypowiedź, która mogłaby być przydatna
-      przy interpretacji konstytucji." />
+      przy interpretacji konstytucji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -2201,7 +2397,8 @@
       przesądzać o wydatkach państwa. Jest to zabezpieczenie — w moim
       przekonaniu dyskusyjne — polegające na tym, że orzeczenia pociągające za
       sobą wydatki budżetowe nie będą miały charakteru ostatecznego. W tej
-      części byłyby rozpatrywane przez Sejm." />
+      części byłyby rozpatrywane przez Sejm."
+    />
 
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
@@ -2216,7 +2413,8 @@
       że na przykład w 1999 r. większość parlamentarna przeznaczyła za mało
       pieniędzy dla emerytów a za dużo na pomoc dla przedsiębiorstw, a jest to
       sprzeczne z zasadą sprawiedliwości społecznej. Tu poszukiwałbym gwarancji,
-      a nie w rygorach politycznych dotyczących Trybunału Konstytucyjnego." />
+      a nie w rygorach politycznych dotyczących Trybunału Konstytucyjnego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2237,7 +2435,8 @@
       reforma ta nie zostanie przeprowadzona wcześniej. Wówczas jednak może być
       problem z taką reformą, która chciałaby cofnąć wiele uprawnień z zakresu
       służby zdrowia. Mnie chodzi o to, aby nie było to możliwe, i w tym się
-      różnimy." />
+      różnimy."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -2248,12 +2447,14 @@
       odpadów, a prokuratura nie może znaleźć winnych. Sprawiedliwość społeczna
       jest jednak nadal pojęciem bardzo szerokim i możliwe są różne
       interpretacje. Przypominam hasło mówiące o tym, że wszyscy mamy jednakowe
-      żołądki." />
+      żołądki."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Apeluję raz jeszcze o zmierzanie do konkluzji." />
+      text="Apeluję raz jeszcze o zmierzanie do konkluzji."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Michał Pietrzak"
@@ -2261,7 +2462,8 @@
       text="Proponuję rozważenie formuły mówiącej o urzeczywistnianiu zasad
       sprawiedliwości społecznej w zakresie ustawowo określonym. Wydaje się, że
       jest to formuła kompromisowa, możliwa do przyjęcia przez zwolenników obu
-      koncepcji." />
+      koncepcji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -2286,12 +2488,14 @@
       o sprawiedliwości społecznej. Ponadto norma ta jest bardzo trudna do
       zdefiniowania prawnego. Dla jej interpretacji duże znaczenie mieć będą
       panujące poglądy polityczne. Nie można również zakładać, że będzie
-      przynosić szkody i będzie narzędziem realizacji złych celów." />
+      przynosić szkody i będzie narzędziem realizacji złych celów."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Przeprowadziliśmy bardzo wszechstronną dyskusję...." />
+      text="Przeprowadziliśmy bardzo wszechstronną dyskusję...."
+    />
 
     <Utterance
       speaker="Poseł Jan Rokita (UW)"
@@ -2300,7 +2504,8 @@
       którą przed chwilą kierował do prof. K. Działochy, a więc aby uzyskać
       pewną zgodną interpretację intencji Komisji, która znalazłaby się w
       protokole? Czy pan przewodniczący trwa przy tej myśli, czy też porzucił
-      ją? Ja ją bardzo popieram." />
+      ją? Ja ją bardzo popieram."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2310,14 +2515,16 @@
       stanowisko. Uważam, że wszystko, co było możliwe do wyjaśnienia na tym
       etapie prac, zostało wyjaśnione. Mówiąc skrótowo rysują się trzy opcje:
       urzeczywistnianie, kierowanie i państwo socjalne. Każdy z członków Komisji
-      mógłby wybrać jedną z nich." />
+      mógłby wybrać jedną z nich."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Iwiński (SLD)"
       imgPath="/images/kk-speakers/IwinskiTadeusz.png"
       text="Proszę jednak zwrócić uwagę, że dwa pierwsze warianty mówią o
       sprawiedliwości społecznej, a trzeci nic nie mówi. Powinno to znaleźć
-      odzwierciedlenie w sposobie głosowania." />
+      odzwierciedlenie w sposobie głosowania."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2333,14 +2540,16 @@
       że w głosowaniu wniosek uzyskał poparcie 7 członków Komisji. Poddaję pod
       głosowanie wniosek, aby art. 1 miał brzmienie: „Rzeczpospolita Polska jest
       demokratycznym państwem prawnym 1 socjalnym”. Stwierdzam, że w głosowaniu
-      wniosek zyskał poparcie członków Komisji. Nikt się nie wstrzymał." />
+      wniosek zyskał poparcie członków Komisji. Nikt się nie wstrzymał."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
       text="Za najwłaściwszą uważaliśmy formułę mówiącą o kierowaniu. Wniosek
       ten upadł. Drugim popieranym przez nas wnioskiem była formuła o państwie
-      socjalnym. Nie mieliśmy jednak możliwości głosować na tę formułę." />
+      socjalnym. Nie mieliśmy jednak możliwości głosować na tę formułę."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2367,7 +2576,8 @@
       zostały dwa dalsze wnioski, które proponuję przegłosować odrębnie. Jest to
       wniosek senator A. Grześkowiak, będący częścią pewnej całości opartej na
       innej filozofii konstytucji. Podobnie rzecz się ma z poprawką posła L.
-      Moczulskiego. |" />
+      Moczulskiego. |"
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -2375,21 +2585,24 @@
       text="Uważam, że należy odpowiedzieć na pytanie, czy w tekście konstytucji
       musi znaleźć się art. 4 projektu, mówiący o tym, że Rzeczpospolita Polska
       jest państwem jednolitym i niepodzielnym. Jeżeli tak, to powinien to być
-      jeden z początkowych artykułów." />
+      jeden z początkowych artykułów."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Art. 4 nie musi się znaleźć w konstytucji. Jest to formuła typowa
       dla konstytucjonalizmu francuskiego. . Fakt, że Polska jest państwem
-      unitarnym, będzie wynikać z rozdziału o samorządzie terytorialnym." />
+      unitarnym, będzie wynikać z rozdziału o samorządzie terytorialnym."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Uważam, że skoro art. 1 formułuje zasady państwa prawnego, to
       konsekwencją przyjęcia tej konwencji powinno być to, że art. 2 powinien
-      wyrażać zasadę zwierzchnictwa narodu." />
+      wyrażać zasadę zwierzchnictwa narodu."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -2405,20 +2618,23 @@
       wspólnotowego określenia Rzeczypospolitej. Powinna to być kwestia
       pierwsza. Kolejnym elementem byłaby kwestia trwałości państwa. Następnie
       powinno być ujęte pochodzenie władzy. Odwrócenie tej kolejności nie byłoby
-      logiczne. Proponuję więc rozpocząć od kwestii art. 2 z mojej propozycji." />
+      logiczne. Proponuję więc rozpocząć od kwestii art. 2 z mojej propozycji."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Popieram pogląd posła L. Moczulskiego, że art. 2 powinien dotyczyć
-      państwa jako wspólnego dobra wszystkich obywateli." />
+      państwa jako wspólnego dobra wszystkich obywateli."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
       imgPath="/images/kk-speakers/ZdradaJerzy.png"
       text="W naszej propozycji norma o państwie jako dobru wspólnym była
       również jako art. 2. Uważamy, że jest to kolejność logiczna. Zasada
-      zwierzchnictwa narodu powinna być w art. 3." />
+      zwierzchnictwa narodu powinna być w art. 3."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2427,20 +2643,23 @@
       widzenia, to moglibyśmy rozstrzygnąć tę kwestię, gdyż ja także uważam, że
       po określeniu podstawowych elementów ustrojowych w art. l, w art. 2
       powinno znaleźć się określenie mówiące o państwie jako wspólnym dobru
-      wszystkich obywateli. Następna powinna być norma o suwerenności." />
+      wszystkich obywateli. Następna powinna być norma o suwerenności."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Odmienny pogląd mam nie tylko ja, ale również senator A. Grześkowiak
-      i poseł T. Iwiński." />
+      i poseł T. Iwiński."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
       imgPath="/images/kk-speakers/ZdradaJerzy.png"
       text="Za formułą mówiącą o państwie jako wspólnym dobru wszystkich
       obywateli lub podobnie, opowiadają się poprawki: 1, 2, 4, 5,6, 7 18.
-      Powinien to być odrębny artykuł i o to apeluję do wnioskodawców." />
+      Powinien to być odrębny artykuł i o to apeluję do wnioskodawców."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -2448,19 +2667,22 @@
       text="Nie jestem szczególnie przywiązany do myśli ustrojowej konstytucji
       kwietniowej i choć poseł L. Moczulski podpowiada mi, że była to najlepsza
       konstytucja, to ja jednak nie popieram tego poglądu. Jestem uparty i
-      podtrzymuję swój wniosek." />
+      podtrzymuję swój wniosek."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
       imgPath="/images/kk-speakers/CiemniewskiJerzy.png"
       text="Chcę zapytać posła J. Szymańskiego, czy w ogóle wyklucza normę
-      mówiącą o państwie jako wspólnym dobru, czy też widzi ją w innym miejscu?" />
+      mówiącą o państwie jako wspólnym dobru, czy też widzi ją w innym miejscu?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Uważam, że przepis mówiący o państwie jako wspólnym dobru w ogóle
-      nie powinien znaleźć się w konstytucji." />
+      nie powinien znaleźć się w konstytucji."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2469,7 +2691,8 @@
       dodać, że z punktu widzenia konstytucji formuła, o której dyskutujemy,
       wyraża myśl niebagatelną. Jeżeli w konstytucji ma być wyrażona filozofia
       państwa, to myśl ta pomoże temu. Ponadto proszę pamiętać, że jest to
-      propozycja przygotowana przez podkomisję." />
+      propozycja przygotowana przez podkomisję."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -2479,7 +2702,8 @@
       argumentem przekonywającym. Utrzymywanie takiego stanu rzeczy nie jest
       najlepsze. Zaproponuję jutro, aby na cenzurowanym była nie tylko jedna
       konstytucja. Przedłożę propozycję przepisu zapożyczonego z konstytucji z
-      dnia 22 lipca... 1807 roku." />
+      dnia 22 lipca... 1807 roku."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, dr. Władysław Kulesza"
@@ -2497,7 +2721,8 @@
       obywateli jest otwarciem drogi do budowy prawdziwie demokratycznego
       społeczeństwa. Proszę więc wziąć pod uwagę, że formuła ta zawiera bogate
       konotacje filozoficzne, których nie da się sprowadzić do pojęcia tylko
-      politycznego." />
+      politycznego."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Iwiński (SLD)"
@@ -2510,7 +2735,8 @@
       sprowadzała się do wykreślenia obecnego art. 2. Zawierała natomiast
       propozycje brzmienia czterech pierwszych artykułów, Uważam, że jest to
       propozycja nadal ważna i podtrzymuję ją. Oznacza to również podtrzymanie
-      wniosku o skreślenie w całości art. 2." />
+      wniosku o skreślenie w całości art. 2."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2521,14 +2747,16 @@
       głosowaniu, większością 17 głosów przeciwnych, przy 9 głosach
       popierających i i wstrzymującym się, odrzuciła wniosek. Dodam, iż jedna
       osoba nie brała udziału w głosowaniu. Zamierzam poddać pod głosowanie
-      wniosek o utrzymanie art. 2 projektu jako art. 2 konstytucji." />
+      wniosek o utrzymanie art. 2 projektu jako art. 2 konstytucji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
       imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="W naszych uwagach pisemnych proponujemy, aby obecny art. 2 był art.
       1, gdyż jest ogólniejszy i pełniejszy w swoim wyrazie niż artykuł o
-      demokratycznym państwie prawnym." />
+      demokratycznym państwie prawnym."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2540,12 +2768,14 @@
       Stwierdzam, że Komisja w głosowaniu, większością 20 głosów popierających,
       przy 3 głosach przeciwnych i 5 wstrzymujących się, przyjęła wniosek. Tak
       więc art. 2 projektu brzmi: „Rzeczpospolita Polska jest wspólnym dobrem
-      wszystkich obywateli”." />
+      wszystkich obywateli”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Wnoszę o odłożenie posiedzenia do jutra do godz. 9.30." />
+      text="Wnoszę o odłożenie posiedzenia do jutra do godz. 9.30."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2557,7 +2787,8 @@
       P. Sarnecki stwierdził, że kwestia ta może być ujęta w rozdziale o
       samorządzie terytorialnym. Zagadnienia te podejmiemy w jutrzejszej
       debacie. Czy przed zamknięciem debaty w dniu dzisiejszym ktoś chciałby
-      zabrać głos w sprawach różnych?" />
+      zabrać głos w sprawach różnych?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -2566,7 +2797,8 @@
       byliśmy za usunięciem artykułu mówiącego o państwie jako dobru wspólnym.
       Chcę wyjaśnić, iż ja wypowiadałem się tylko w kwestii kolejności artykułów
       i wspomniałem o art. 2, który w mojej koncepcji miał być art. 4. Nie byłem
-      więc za usunięciem art. 2, lecz za inną kolejnością." />
+      więc za usunięciem art. 2, lecz za inną kolejnością."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Grodzicki (SLD)"
@@ -2578,12 +2810,14 @@
       podkomisji, w skład której wchodzi 5 członków Komisji Konstytucyjnej,
       dlatego że marszałek nie wyraził zgody na posiedzenie tej podkomisji w
       trakcie ostatniego posiedzenia Sejmu. Proszę, aby pan przewodniczący użył
-      swoich wpływów na marszałka Sejmu, jeżeli chodzi o tę praktykę." />
+      swoich wpływów na marszałka Sejmu, jeżeli chodzi o tę praktykę."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czy są dalsze sprawy różne? Nie ma. Zamykam obrady w dniu
-      dzisiejszym. Wznowimy je jutro o 9.30." />
+      dzisiejszym. Wznowimy je jutro o 9.30."
+    />
   </div>
 </div>

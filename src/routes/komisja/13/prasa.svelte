@@ -1,14 +1,39 @@
 <script>
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/13/3");
+  };
+
+  onMount(() => {
+    prefetch("/komisja/13/3");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
+  });
 </script>
 
 <svelte:head>
   <title>Prasa</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="pt-4 mb-8 shadow-b">
   <div class="flex justify-between">
@@ -21,17 +46,20 @@
           class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
           href="https://drive.google.com/file/d/11T-4wqLyg3qDTevhw0wPY77qMg6iKOtF/view?usp=sharing"
           rel="nofollow"
-          target="_blank">
+          target="_blank"
+        >
           ORYGINAŁ BIULETYNU
         </a>
         <svg
           class="inline-block w-4 h-4 mb-1 text-gray-500 fill-current"
-          viewBox="0 0 24 24">
+          viewBox="0 0 24 24"
+        >
           <path
             d="M19 6.41L8.7 16.71a1 1 0 1 1-1.4-1.42L17.58 5H14a1 1 0 0 1
             0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-2 0V6.41zM17 14a1 1 0 0 1 2 0v5a2 2
             0 0 1-2 2H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h5a1 1 0 0 1 0
-            2H5v12h12v-5z" />
+            2H5v12h12v-5z"
+          />
         </svg>
       </h5>
     </div>
@@ -40,11 +68,13 @@
       <a rel="prefetch" href="/komisja/13/3">
         <svg
           class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-          viewBox="0 0 20 20">
+          viewBox="0 0 20 20"
+        >
           <path
             d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
             c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-            z" />
+            z"
+          />
         </svg>
       </a>
     </div>
@@ -284,7 +314,8 @@
         font-black
         text-2xl="Walerian Piotrowski był przewodniczącym Komisji Konstytucyjnej
         Zgromadzenia Narodowego, składającej się z posłów I kadencji i senatorów
-        II kadencji, w latach 1991-1993 [przyp. wydawcy].">
+        II kadencji, w latach 1991-1993 [przyp. wydawcy]."
+      >
         Rozmawiamy z mec. Walerianem Piotrowskim, byłym senatorem RP,
         przewodniczącym Komisji Konstytucyjnej I kadencji Sejmu RP*
       </p>
@@ -428,7 +459,6 @@
       sumienia.
     </p>
     <p class="my-2 font-bold">Dziękuję za rozmowę.</p>
-
   </div>
   <div class="p-4 mb-8 rounded shadow">
     <div class="px-4 py-8 rounded shadow">

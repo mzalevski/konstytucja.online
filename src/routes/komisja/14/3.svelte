@@ -1,9 +1,20 @@
 <script>
-  import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
   import Utterance from "../../../components/Utterance.svelte";
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/2");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -26,6 +37,17 @@
         }
       }
     }
+    prefetch("/komisja/14/2");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 </script>
 
@@ -33,13 +55,14 @@
   <title>Dzień 3 - Biuletyn nr 14</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 23 lutego 1995 r.
     </h1>
     <!-- <h5>
@@ -55,20 +78,24 @@
     <a rel="prefetch" href="/komisja/14/2">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
           c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-          z" />
+          z"
+        />
       </svg>
     </a>
     <a rel="prefetch" href="/komisja/14/podkomisja/1">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
       </svg>
     </a>
   </div>
@@ -77,8 +104,8 @@
 <div
   id="protocol"
   in:fly={{ y: 100, duration: 1000 }}
-  class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
-
+  class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl"
+>
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -117,7 +144,8 @@
     to, aby decyzje Komisji były w pełni Świadome, przy uwzględnieniu i
     poszanowaniu istniejących różnic poglądów. Decyzje Komisji powinny
     uwzględniać poglądy nie tylko nas jako członków Komisji, ale również poglądy
-    naszych klubów parlamentarnych." />
+    naszych klubów parlamentarnych."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -131,7 +159,8 @@
     niezaakceptowania konsensu przez przedstawicieli SLD, chcę bardzo wyraźnie
     powiedzieć, że jeżeli chodzi o mój wniosek, to chodzi o wniosek pierwotny, a
     nie wniosek wynikający z wczorajszej dyskusji. Powracam więc do pierwotnego
-    wniosku." />
+    wniosku."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -150,7 +179,8 @@
     niezależności, muszę dokonać autopoprawki i zgłosić sprzeciw wobec zasady
     oddzielenia kościoła od państwa. Jest to bowiem nieklarowne i obciążone
     tragicznymi doświadczeniami przeszłości. Jeżeli przechodzimy do demokracji,
-    to zerwijmy również z zasadą tak obciążoną, w przyszłości." />
+    to zerwijmy również z zasadą tak obciążoną, w przyszłości."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -168,7 +198,8 @@
     zdaniem moich zwierzchników w Kościele katolickim, jest równoznaczna z
     oddzieleniem w sensie pozytywnym. Wpisywanie jednocześnie oddzielenia,
     autonomii i niezależności byłoby tautologią. Stąd też na zasady autonomii i
-    niezależności zgadzamy się, natomiast na oddzielenie — nie." />
+    niezależności zgadzamy się, natomiast na oddzielenie — nie."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -178,7 +209,8 @@
     niezależności, nie byłoby odzwierciedleniem sytuacji, w której unika się
     powtórzenia pojęć tożsamych? Przedstawiciel Sekretariatu Konferencji
     Episkopatu Polski, ks. prof. Józef Krukowski: Na ujęcie poJęcia:
-    „oddzielone” nie mam akceptacji. Nie mogę więc wyrazić zgody." />
+    „oddzielone” nie mam akceptacji. Nie mogę więc wyrazić zgody."
+  />
 
   <Utterance
     speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -202,7 +234,8 @@
     stalinowskiej konstytucji. Raz jeszcze chcę powtórzyć, że proponuję Komisji
     sformułowanie, które przedłożyłam w poprawce i które stwierdza m.in., że
     państwo i Kościół katolicki oraz inne kościoły i związki wyznaniowe Są
-    autonomiczne i niezależne." />
+    autonomiczne i niezależne."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -211,7 +244,8 @@
     spróbowali określić znaczenie pojęcia: „autonomiczny . W projektach
     konstytucji kwestia ta pojawia się w dwóch kontekstach. Kontekst pierwszy to
     stosunki państwo-kościół, a kontekst drugi to autonomia szkół wyższych. W
-    polskim prawie konstytucyjnym autonomia nie jest zdefiniowana." />
+    polskim prawie konstytucyjnym autonomia nie jest zdefiniowana."
+  />
 
   <Utterance
     speaker="Senator Krzysztof Kozłowski (KD)"
@@ -224,7 +258,8 @@
     zgrzyt, który uniemożliwił wczoraj ustalenie formuły kompromisowej. Tak więc
     wnioskuję o inną redakcję dyskutowanej formuły. Minimum byłoby wpisanie
     formuły mówiącej o oddzieleniu od organów państwa bądź władz państwowych, a
-    nie od państwa." />
+    nie od państwa."
+  />
 
   <Utterance
     speaker="Poseł Krystyna Łybacka (SLD)"
@@ -244,7 +279,8 @@
     uważa, że ust. 4 stwierdzający: „W celu realizacji praw człowieka i potrzeb
     obywateli Państwo współdziała z Kościołem i związkami wyznaniowymi , jest
     właśnie taką gwarancją pozytywnego rozumienia oddzielenia kościoła od
-    państwa." />
+    państwa."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -256,7 +292,8 @@
     bowiem jest norma ogólna mówiąca o niezależności kościoła i państwa, a
     następnie stwierdza się, +e w ustawach określi się tę kwestię, to przyjęcie
     tej tormuły oznaczałoby, że państwo jednostronnie określa zakres
-    działalności kościołów." />
+    działalności kościołów."
+  />
 
   <Utterance
     speaker="Poseł Longin Pastusiak (SLD)"
@@ -268,7 +305,8 @@
     ta znalazła wyraz w licznych wykładniach Sądu Najwyższego, który jest
     najwyższym interpretatorem amerykańskiej konstytucji oraz znajduje wyraz w
     dosłownym sformułowaniu mówiącym o rozdziale państwa i kościoła. Warto więc
-    trzymać się faktów historycznych i rodowodu tej koncepcji." />
+    trzymać się faktów historycznych i rodowodu tej koncepcji."
+  />
 
   <Utterance
     speaker="Senator Alicja Grześkowiak NSZZ „S”)"
@@ -277,7 +315,8 @@
     Zjednoczonymi. Faktem niezaprzeczalnym jest natomiast to, że w konstytucji z
     1952 r. znajduje się formuła o oddzieleniu państwa od koś- cioła i kościoła
     od państwa. Nie wiem, na czym polega kompromis, jeżeli przyjmuje się tę samą
-    formułę." />
+    formułę."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -285,7 +324,8 @@
     text="Proponuję, aby nie prowadzić dalszej polemiki, gdyż przedstawione
     uwagi są prawdziwe. Uwaga posła L. Pastusiaka o formule zapisanej w
     Konstytucji USA jest prawdziwa. Uwaga senator A. Grześkowiak, że nie
-    jesteśmy Stanami Zjednoczonymi, jest prawdą." />
+    jesteśmy Stanami Zjednoczonymi, jest prawdą."
+  />
 
   <Utterance
     speaker="Poseł Leszek Moczulski (KPN)"
@@ -303,13 +343,15 @@
     kościołami i związkami wyznaniowyrni. Jeżeli nie przyjmiemy jasnej konwencji
     terminologicznej, to zachodzi obawa, że w tej niejasności kryje się jakaś
     manipulacja i że chodzi o coś innego. Apeluję więc o bardzo wyraźne
-    posługiwanie się terminami." />
+    posługiwanie się terminami."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
     text="Apel jest trafny, lecz co miałby on praktycznie oznaczać na przykład w
-    odniesieniu do art. 15 podkomisji?" />
+    odniesieniu do art. 15 podkomisji?"
+  />
 
   <Utterance
     speaker="Poseł Leszek Moczulski (KPN)"
@@ -320,7 +362,8 @@
     od Rzeczypospolitej”. Druga formuła jest horrendalna. Trzeba jednak dokonać
     wyboru, gdyż formuła mówiąca o oddzieleniu od państwa dla niektórych z nas
     oznacza oddzielenie od władz państwowych. Dla innych oznaczać może jednak
-    oddzielenie od Rzeczypospolitej, a jest to coś zupełnie innego." />
+    oddzielenie od Rzeczypospolitej, a jest to coś zupełnie innego."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -391,7 +434,8 @@
     antycypowaniem zagadnienia, które podlega innym regułom, gdyż chodzi o umowę
     międzynarodową. Z, istoty rzeczy musi to być wyraz woli obu stron. Sztywne
     przesądzenie tej kwestii w konstytucji byłoby sprzeczne z techniką
-    postępowania w zakresie podejmowania rozstrzygnięć tego typu problemów." />
+    postępowania w zakresie podejmowania rozstrzygnięć tego typu problemów."
+  />
 
   <Utterance
     speaker="Poseł Zbigniew Siemiątkowski (SLD)"
@@ -419,7 +463,8 @@
     konkordatu, na których zależy kościołowi. Chodzi o takie określenia jak
     autonomia i niezależność, a także współdziałanie. Zaproponowana formuła
     zawiera również pojęcie występujące w konstytucjach innych państw i
-    wskazujące na oddzielenie kościoła i władz publicznych." />
+    wskazujące na oddzielenie kościoła i władz publicznych."
+  />
 
   <Utterance
     speaker="Senator Jerzy Madej (KD)"
@@ -451,7 +496,8 @@
     określających stosunek państwa do Kościoła katolickiego i do innych
     kościołów i związków wyznaniowych. Zbędne jest więc precyzowanie zadań
     Kościoła katolickiego i innych kościołów. Przepis ten jest bardzo
-    przejrzysty i powinien być przy jety." />
+    przejrzysty i powinien być przy jety."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -475,14 +521,16 @@
     kwestię tę ujęliby od „wewnątrz”. Możemy oczywiście wysłuchać ekspertów, ale
     ja chciałbym dowiedzieć się, czy dzisiaj będziemy coś przegłosowywać, czy
     też jest to luźna rozmowa, w której wysłuchamy również ekspertów, którzy
-    będą mogli powiedzieć, co sądzą na temat zakresu działalności kościoła." />
+    będą mogli powiedzieć, co sądzą na temat zakresu działalności kościoła."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
     text="Nie są to luźne rozmowy, lecz pracujemy nad takim sformułowaniem
     przepisu, który byłby do zaakceptowania przez zdecydowaną większość. Wymaga
-    to jednak wyjaśnień." />
+    to jednak wyjaśnień."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -527,7 +575,8 @@
     za to bardzo komunikatywny. Nie oznacza to, że przeceniam tę formułę. Tak
     więc pozostawiłbym pojęcie „państwo” w omawianej formule. Właściwe znaczenie
     zostanie temu pojęciu przypisane w kontekście sensu całych przepisów
-    konstytucyjnych." />
+    konstytucyjnych."
+  />
 
   <Utterance
     speaker="Poseł Leszek Moczulski (KPN)"
@@ -554,7 +603,8 @@
     zagrożeniem, że kościół jako instytucja uzurpowałby sobie prawo do
     uczestniczenia we władz państwowej. Stąd też mój kolejny apel, abyśmy
     posługiwali się terminami wystarczająco ostrymi, co pozwoli uniknąć
-    nieporozumień." />
+    nieporozumień."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -605,7 +655,8 @@
     koncepcjami rozdziału kościoła od państwa. Jest to więc formuła bardzo
     pojemna i z tego powodu jej użycie w konstytucji może być niebezpieczne.
     Należałoby więc w tekście konstytucji stwierdzić, jakiego typu rozdział ma
-    być realizowany." />
+    być realizowany."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -626,7 +677,8 @@
     ich kompetencji, funkcji i zadań. Pojęcie „władze publiczne” jest bogatsze w
     treść od pojęcia „organ” czy „organ władzy publicznej”. Pojęcie to jest
     niekiedy stosowane dla wyodrębnienia pewnej instytucji realizującej władztwo
-    publiczne." />
+    publiczne."
+  />
 
   <Utterance
     speaker="Poseł Irena Lipowicz (UW)"
@@ -650,14 +702,16 @@
     oddzielenia zawiera się w autonomii i niezależności. W ten sposób
     skonstruujemy pojęcie trójczłonowe, które nie będzie w pełni logiczne.
     Jeżeli na kwestię tę spojrzymy bez uprzedzeń ideologicznych i nadmiernych
-    lęków, to wydaje się, że taka formuła byłaby do zaakceptowania." />
+    lęków, to wydaje się, że taka formuła byłaby do zaakceptowania."
+  />
 
   <Utterance
     speaker="Poseł Krystyna Łybacka (SLD)"
     imgPath="/images/kk-speakers/LybackaKrystyna.png"
     text="Wypowiedź poseł I. Lipowicz była niezmiernie interesująca. Proszę
     tylko o wyjaśnienie, w czym tkwi mój błąd, albowiem uczelnie są
-    autonomiczne, a nie są oddzielone od państwa." />
+    autonomiczne, a nie są oddzielone od państwa."
+  />
 
   <Utterance
     speaker="Poseł Irena Lipowicz (UW)"
@@ -671,7 +725,8 @@
     K. Łybackiej. Ponadto pytałam poseł K. Łybacką, czy byłaby skłonna
     zrezygnować ze swojej propozycji, skoro była wczoraj osobą, która zerwała
     kompromis. Może więc w dniu dzisiejszym należałoby uczynić krok w drugim
-    kierunku i odstąpić od pojęcia „oddzielone”." />
+    kierunku i odstąpić od pojęcia „oddzielone”."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -679,18 +734,21 @@
     text="Chcę zapytać poseł I. Lipowicz, czy dostrzega istotną różnicę
     merytoryczną między pojęciem „autonomiczne” a pojęciem „niezależne”. Pytam
     dlatego, że po części podzielam pogląd poseł I. Lipowicz, że autonomia
-    oznacza — zakłada — oddzielenie. Chodzi więc o pojęcie niezależności." />
+    oznacza — zakłada — oddzielenie. Chodzi więc o pojęcie niezależności."
+  />
 
   <Utterance
     speaker="Poseł Irena Lipowicz (UW)"
     imgPath="/images/kk-speakers/LipowiczIrena.png"
     text="Niezależność jest w tej formule, która dotyczy wykonywania misji
-    poszczególnych kościołów." />
+    poszczególnych kościołów."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-    text="Rozumiem więc, że niezależność dotyczy wykonywania zadań kościołów." />
+    text="Rozumiem więc, że niezależność dotyczy wykonywania zadań kościołów."
+  />
 
   <Utterance
     speaker="Poseł Irena Lipowicz (UW)"
@@ -736,7 +794,8 @@
     możliwość interpretacji, iż kościoły nie podlegają pod przypisy regulujące
     działalność gospodarczą. Moim zdaniem jest to rozumowanie nieuprawnione,
     gdyż autonomia i niezależność w żaden sposób nie zwalniają od przestrzegania
-    prawa. Tego rodzaju obawy polegają na nieporozumieniu." />
+    prawa. Tego rodzaju obawy polegają na nieporozumieniu."
+  />
 
   <Utterance
     speaker="Poseł Wit Majewski (SLD)"
@@ -751,7 +810,8 @@
     czasu, aby przygotować jednolite stanowisko. Uważam, że jako Komisja
     nagłaśniając dyskusję — jakby — oddalamy się od osiągnięcia kompromisu.
     Wydaje się więc, że po wysłuchaniu stanowisk sprawa powinna ponownie
-    powrócić do podkomisji, która powinna wypracować jedną propozycję." />
+    powrócić do podkomisji, która powinna wypracować jedną propozycję."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -865,7 +925,8 @@
     że zadania w sposób naturalny — uwzględniając przypadki historycznie
     wyjątkowe — będą zgodne z wolą kościołów, a nie będą polegać na przykład na
     tworzeniu armii po to, aby dokonać przewrotu. Wprowadzenie do konstytucji,
-    czy ustaw tego typu zakazów byłoby bezsensowne." />
+    czy ustaw tego typu zakazów byłoby bezsensowne."
+  />
 
   <Utterance
     speaker="Poseł Krystyna Łybacka (SLD)"
@@ -902,7 +963,8 @@
     jest niebezpieczne. Druga zaproponowana wersja proponuje ograniczenie do
     kościołów, związków wyznaniowych i organów państwowych. Kojarzy się to
     jednak z inną od demokratycznej koncepcją państwa. Nie aprobowałbym zapisu,
-    aby relacje między państwem a kościołami ograniczyć do organów państwowych." />
+    aby relacje między państwem a kościołami ograniczyć do organów państwowych."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -913,14 +975,16 @@
     też nie. Czy poseł K. Łybacka nie zauważyła wczoraj wielkich wysiłków posła
     R. Bugaja zwracającego uwagę, aby jeszcze dyskutować, kiedy sama żądała
     głosowania nad wnioskiem przecinającym dyskusję? Czy nie można więc tej
-    sytuacji określić jako zerwanie konsensu?" />
+    sytuacji określić jako zerwanie konsensu?"
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
     text="Odpowiedź na to pytanie pozostawmy historykom prac nad konstytucją.
     Nie wracajmy więc do tej kwestii, lecz szukajmy rozwiązań, które mogą
-    zbudować szeroki konsens wokół art. 15." />
+    zbudować szeroki konsens wokół art. 15."
+  />
 
   <Utterance
     speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1060,7 +1124,8 @@
     usunął z art. 1 ustawy o stosunku państwa do Kościoła katolickiego w
     Rzeczypospolitej Polskiej sformułowania, że kościół działa w ramach
     ustrojowych Rzeczypospolitej Polskiej. Jaki był sens tej zmiany, skoro
-    wszyscy twierdzą, że kościół działa w tych ramach?" />
+    wszyscy twierdzą, że kościół działa w tych ramach?"
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1074,7 +1139,8 @@
     więc pewne zastrzeżenia. Uważam jednak, że można zmierzać do tego, aby
     zastanowić się w jaki sposób zastąpić formułę: „oddzielenie kościoła od
     państwa”. Chodzi o ujęcie, które zadowoli zdecydowaną większość. Sądzę, że
-    chyba można znaleźć takie rozwiązanie." />
+    chyba można znaleźć takie rozwiązanie."
+  />
 
   <Utterance
     speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1089,7 +1155,8 @@
     głosiłem zasadę neutralności Światopoglądowej państwa. Dzisiaj, kiedy głoszę
     tę samą zasadę, to według senator A. Grześkowiak jestem wrogiem kościoła.
     Dobrze, że senator A. Grześkowiak nie domaga się, aby ekspertów będących
-    zwolennikami określonej koncepcji, wyrzucano z kraju tak jak arian." />
+    zwolennikami określonej koncepcji, wyrzucano z kraju tak jak arian."
+  />
 
   <Utterance
     speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1107,7 +1174,8 @@
     wypowiedziane podczas posiedzenia Komisji Konstytucyjnej w dniu 8 grudnia
     1994 r. Bardzo nas to zabolało. Muszę więc sprostować tę kwestię. Jeżeli
     natomiast chodzi o oficjalne stanowisko, to jest ono zawarte jako pkt 11 w
-    zestawieniu zgłoszonych propozycji brzmienia art. 15." />
+    zestawieniu zgłoszonych propozycji brzmienia art. 15."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1141,7 +1209,8 @@
     Kościoły miałyby więc pozycję równą innym organizacjom o charakterze
     charytatywnym. Myślę więc, że rysuje się kompromis, który zaspokaja potrzeby
     obu stron, usuwając jednocześnie problem oddzielenia. Rysująca się koncepcja
-    byłaby koncepcją pozytywnego rozdziału, przynajmniej w sensie teoretycznym." />
+    byłaby koncepcją pozytywnego rozdziału, przynajmniej w sensie teoretycznym."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1170,7 +1239,8 @@
     15 odsyłałby do art. 37, to wówczas formuła użyta w art. 15 nie byłaby
     formułą pustą. Byłaby definiowana przez przepisy, które kościołom i związkom
     wyznaniowym wyznaczają w sposób bardzo szeroki określone zadania związane z
-    urzeczywistnianiem wolności religijnych jednostki." />
+    urzeczywistnianiem wolności religijnych jednostki."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1186,7 +1256,8 @@
     pytanie jest następujące: czy prof. K. Działocha nie uważa, że lepiej jest
     zrezygnować z tego, gdyż w dalszym ustępie jest mowa, że to ustawy oraz
     konkordat regulują tę sprawę bez potrzeby definiowania, co stanowi zakres
-    działalności kościoła." />
+    działalności kościoła."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1205,7 +1276,8 @@
     23.02.1995 r. (21) wych. Dlatego też w mojej propozycji jest mowa o
     działalności związanej z realizacją wolności sumienia i wyznania. Nie jest
     to cała sfera, gdyż swoje obowiązki ma również państwo, zwłaszcza jeżeli
-    chodzi o obowiązki o charakterze negatywnym, a więc nieingerowania." />
+    chodzi o obowiązki o charakterze negatywnym, a więc nieingerowania."
+  />
 
   <Utterance
     speaker="Senator Stefan Pastuszka (PSL)"
@@ -1248,7 +1320,8 @@
     wyznaniowych. Komisja ta wraz z ekspertami podjęłaby próbę wypracowania
     właściwej formuły. Wydaje się bowiem, że podczas posiedzenia plenarnego nie
     wypracujemy takiej formuły, tym bardziej że niekiedy zbyt mocno działają
-    emocje." />
+    emocje."
+  />
 
   <Utterance
     speaker="Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
@@ -1323,7 +1396,8 @@
     wykonywaniu swoich zadań. Szczegółowy zakres zadań określają natomiast
     ustawy oraz konkordat. Nie kruszyłbym więc kopii. Nałeży natomiast spojrzeć
     na całokształt przepisów. Powinna być również stosowana wykładnia
-    systematyczna obejmująca całokształt zagadnienia, a nie wyrywkowe kwestie." />
+    systematyczna obejmująca całokształt zagadnienia, a nie wyrywkowe kwestie."
+  />
 
   <Utterance
     speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -1401,7 +1475,8 @@
     dookreśla pojęcie oddzielenia i uzupełnia je. Wskazuje również wyraźnie, że
     chodzi o rozumienie przyjazne I pozytywne, a nie jakiekolwiek inne. Jeżeli
     powoływano się na to, że w wielu innych konstytucjach nie ma zasady
-    oddzielenia, to nie ma tam również zasady współdziałania." />
+    oddzielenia, to nie ma tam również zasady współdziałania."
+  />
 
   <Utterance
     speaker="Poseł Jacek Taylor (UW)"
@@ -1474,7 +1549,8 @@
     rodzaju przepis, który będzie zmierzał do ograniczenia roli kościoła, nie
     będzie mógł być zaakceptowany przez tę część opinii publicznej, która
     zgłosiła obywatelski projekt konstytucji, niezależnie od decyzji Komisji
-    Konstytucyjnej i parlamentu." />
+    Konstytucyjnej i parlamentu."
+  />
 
   <Utterance
     speaker="Poseł Janusz Szymański (UP)"
@@ -1514,7 +1590,8 @@
     widzę bowiem żadnego uzasadnienia dla próby sformułowania zasady, która
     mieści się w typowej materii rozdziału o prawach i wolnościach
     obywatelskich, w rozdziale o zasadach ustroju. Proszę, aby opinię w tej
-    kwestii przedstawili eksperci." />
+    kwestii przedstawili eksperci."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1602,7 +1679,8 @@
     jakie nie. Chodzi o to, aby Komisja Konstytucyjna wiedziała, jakie
     stanowisko zajmiemy podczas referendum. Taka jest moja rola. Nie mogę
     okłamywać Komisji Konstytucyjnej. Jeżeli będziemy mieli krytyczne
-    stanowisko, to ja zawsze o tym powiem." />
+    stanowisko, to ja zawsze o tym powiem."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1669,7 +1747,8 @@
     pod warunkiem, że nie będzie to traktowane w ten sposób, iż ktoś niejako z
     góry zastrzeże, co nie może być przedmiotem tego konsensu. Zamach na pojęcie
     oddzielenia od państwa miałby swój bardzo poważny wydźwięk ustrojowy, gdyż
-    kwestia ta jest ujęta w rozdziale o zasadach ustroju." />
+    kwestia ta jest ujęta w rozdziale o zasadach ustroju."
+  />
 
   <Utterance
     speaker="Poseł Jacek Taylor (UW)"
@@ -1679,7 +1758,8 @@
     parafa towarzysza Józefa Wissarionowicza, który parafował naszą konstytucję
     z 1952 r., co Portugalczyków nie spotkało. Ponadto rozdział może być:
     przyjazny, neutralny i wrogi. Natomiast termin: „współdziałanie ”, który
-    lansujemy, na pewno nie może oznaczać wrogości." />
+    lansujemy, na pewno nie może oznaczać wrogości."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1691,14 +1771,16 @@
     oddzielenie wcale nie oznacza braku możliwości współdziałania. Są to dwie
     niezależne kategorie. Instytucje mogą być oddzielone i mogą ze sobą
     współdziałać. Chodzi natomiast o to, aby jedna i druga nie próbowały
-    przejmować swoich wzajemnych funkcji. Jest to istota oddzielenia." />
+    przejmować swoich wzajemnych funkcji. Jest to istota oddzielenia."
+  />
 
   <Utterance
     speaker="Poseł Jacek Taylor (UW)"
     imgPath="/images/kk-speakers/TaylorJacek.png"
     text="Byłem obecny wówczas kiedy posłowie: J. Jaskiernia i L. Pastusiak mó-
     wili o konstytucji amerykańskiej. Nie jest to jednak nasza tradycja. Nasza
-    tradycja jest dużo gorsza." />
+    tradycja jest dużo gorsza."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1723,7 +1805,8 @@
     była więc unikalnym przypadkiem państwa autorytarnego, stojącego na straży
     rozdziału kościoła od państwa. Dopiero w 1940 r. konkordat
     portugalsko-watykański trochę złagodził i zmodyfikował istniejącą sytuację.
-    Przykład nie jest więc najlepszy." />
+    Przykład nie jest więc najlepszy."
+  />
 
   <Utterance
     speaker="Senator Jerzy Madej (KD)"
@@ -1737,7 +1820,8 @@
     treści przepisu, lecz w jego realizacji. Nie bardzo wiem, dlaczego
     przedstawiciel pełnomocnika Konstytucji „Solidarności” I przedstawiciel
     Kościoła katolickiego chcą zrezygnować z przepisu, który stwarza tak dobre
-    warunki kościołowi w Polsce." />
+    warunki kościołowi w Polsce."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1778,7 +1862,8 @@
     należy zwrócić uwagę na pozytywną formułę zaproponowaną przez prof. W.
     Osiatyńskiego. Chodzi o formułę pozytywną stwierdzającą, że kościoły I
     związki wyznaniowe nie uczestniczą w sprawowaniu — wykonywaniu — władzy
-    państwowej." />
+    państwowej."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1793,7 +1878,8 @@
     uregulowana w rozdziale o prawach i wolnościach obywatelskich, to tylko w
     zakresie dotyczącym praw i wolności, a nie od strony stosunków między
     instytucjami. Dyskutowaną kwestię należy uregulować w rozdziale pierwszym.
-    Ponadto chcę dodać, że popieram to, co mówił poseł T. Mazowiecki." />
+    Ponadto chcę dodać, że popieram to, co mówił poseł T. Mazowiecki."
+  />
 
   <Utterance
     speaker="Poseł Tadeusz Iwiński (SLD)"
@@ -1823,7 +1909,8 @@
     Hiszpanii i Portugalii — kiedy to w niektórych okresach kościół nadmiernie
     uczestniczył w życiu politycznym. W moim więc przekonaniu formuła mówiąca o
     oddzieleniu jest zasadna. Jest to mądre zastosowanie się do lekcji
-    przeszłości. Nie ma w tym nic nagannego." />
+    przeszłości. Nie ma w tym nic nagannego."
+  />
 
   <Utterance
     speaker="Poseł Piotr Ikonowicz (PPS)"
@@ -1841,7 +1928,8 @@
     wniosek formalny, aby przedstawicieli tych organizacji i instytucji zaprosić
     do dyskusji na następnym posiedzeniu Komisji. Chodzi bowiem o to, aby
     kwestii dotyczącej kościołów oraz tych organizacji i instytucji nie
-    rozstrzygać przed ich wysłuchaniem." />
+    rozstrzygać przed ich wysłuchaniem."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1938,14 +2026,16 @@
     zaproponowana przez posła J. Jaskiernię oraz przez przedstawicieli
     Prezydenta RP: prof. A. Rzeplińskiego i prof. M. Pietrzaka. Ponadto
     propozycję brzmienia nowego art. 10a przedłożył poseł J. Ciemniewski. Czy są
-    pytania do wnioskodawców nowych artykułów?" />
+    pytania do wnioskodawców nowych artykułów?"
+  />
 
   <Utterance
     speaker="Poseł Janusz Szymański (UP)"
     imgPath="/images/kk-speakers/SzymanskiJanusz.png"
     text="Chcę zapytać, czy wnioskodawcy nie uważają, że rozdział pierwszy nie
     jest najbardziej właściwy do zamieszczania tego rodzaju przepisów, które
-    chyba powinny znaleźć się w rozdziale drugim dotyczącym praw człowieka?" />
+    chyba powinny znaleźć się w rozdziale drugim dotyczącym praw człowieka?"
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1975,7 +2065,8 @@
     opinii obywateli. Sądzę również, że tego typu norma będzie sprzyjała
     interpretacji konstytucji. Wielokrotnie bowiem wskazywano, że normy zawarte
     w rozdziale pierwszym sprzyjają interpretacji intencji ustawodawcy
-    konstytucyjnego. Z, tych motywacji zaproponowałem art. Sa." />
+    konstytucyjnego. Z, tych motywacji zaproponowałem art. Sa."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1989,7 +2080,8 @@
     instytucji w konstytucji miałoby więc znaczenie przełomowe. Należy ponadto
     dodać, że jest to dziedzictwo „Solidamości” nie zakwestionowane, a wręcz
     przeciwnie, zaakceptowane przez wszystkie siły polityczne i społeczne po
-    1989 r. Jest to kwestia, która właś- ciwie wszystkich łączy." />
+    1989 r. Jest to kwestia, która właś- ciwie wszystkich łączy."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2004,7 +2096,8 @@
     Polska gwarantuje wolność tworzenia i działania organizacji pozarządowych
     służących realizacji potrzeb obywateli działających w ramach porządku
     konstytucyjnego”. Trzecią propozycję — art. 10a — przedłożył poseł J.
-    Ciemniewski." />
+    Ciemniewski."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -2023,7 +2116,8 @@
     w rozdziale o prawach obywatelskich. Chcę jeszcze dodać, iż uważam, że moja
     propozycja podejmuje — generalnie rzecz biorąc — tę samą problematykę, którą
     podejmuje propozycja posła J. Jaskierni i przedstawicieli Prezydenta RP,
-    prof. A. Rzeplińskiego i prof. M. Pietrzaka." />
+    prof. A. Rzeplińskiego i prof. M. Pietrzaka."
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -2031,7 +2125,8 @@
     text="Uważam, że w propozycji brzmienia art. 10a są jednak zawarte dwie dość
     różne materie. Jest to zasada społeczeństwa obywatelskiego oraz zasada
     subsydiamości. Zasady te łączą się ze sobą, lecz jednocześnie sugerowałbym,
-    aby wnioskodawca rozważył, czy nie powinny to być dwa odrębne artykuły." />
+    aby wnioskodawca rozważył, czy nie powinny to być dwa odrębne artykuły."
+  />
 
   <Utterance
     speaker="Poseł Piotr Ikonowicz (PPS)"
@@ -2055,7 +2150,8 @@
     artykułów, które nadają jej charakter skażony jedną ideologią. W tym
     przypadku jest to ideologia neoliberalna. Apeluję więc o wycofanie
     propozycji art. 10a, gdyż jest to konfliktowanie, a nie poszukiwanie
-    kompromisu. Obrady w dniu 23.02.1995 r. (21" />
+    kompromisu. Obrady w dniu 23.02.1995 r. (21"
+  />
 
   <Utterance
     speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -2073,7 +2169,8 @@
     tę kwestię od strony pozytywnej. Zaproponowana formuła to swego rodzaju
     gilotyna obcinająca wszystko to, co jest pozytywne w zasadzie pomocniczości.
     Eksponowane jest to, co jest negatywne, a więc powstrzymanie się państwa od
-    działań, które przekraczają władztwo publiczne." />
+    działań, które przekraczają władztwo publiczne."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2094,7 +2191,8 @@
     kolizje z terminami posiedzeń komisji, zwłaszcza sejmowych. Marszałkowie izb
     zwrócili się do przewodniczących komisji, aby kolizji nie było. W tej
     sytuacji trudno zrobić coś więcej. Proszę również pamiętać, że przygotowanie
-    i uchwalenie konstytucji jest priorytetowym zadaniem tego parlamentu." />
+    i uchwalenie konstytucji jest priorytetowym zadaniem tego parlamentu."
+  />
 
   <Utterance
     speaker="Senator Jerzy Madej (KD)"
@@ -2105,7 +2203,8 @@
     moim przekonaniu są problemy ważne i ważniejsze. Konstytucja jest kwestią
     bardzo ważną, choć może nie najważniejszą. Mam również wniosek
     organizacyjny, aby członkowie Komisji Konstytucyjnej zawiesili działalność w
-    więcej niż jednej komisji sejmowej lub senackiej." />
+    więcej niż jednej komisji sejmowej lub senackiej."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2117,7 +2216,8 @@
     dany klub deleguje innego parlamentarzystę. Chcę również przypomnieć, że
     byliśmy już oskarżani o przyspieszanie prac, ale i o spowalnianie prac. Nikt
     nie chce natomiast podkreślić, że ciężko pracujemy i to w rytmie, który jest
-    bardzo wyczerpujący dla członków Komisji, obsługi oraz ekspertów." />
+    bardzo wyczerpujący dla członków Komisji, obsługi oraz ekspertów."
+  />
 
   <Utterance
     speaker="Poseł Wojciech Borowik (UP)"
@@ -2127,25 +2227,28 @@
     trzydniowe. Posiedzenia dwudniowe dają szansę w miarę normalnego
     funkcjonowania w innej komisji, której z reguły jesteśmy członkami. Druga
     moja propozycja organizacyjna to prośba o ustalenie stałych godzin
-    przeprowadzania głosowań." />
+    przeprowadzania głosowań."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
     text="Wraz z zastępcą przewodniczącego Komisji rozpatrzymy propozycję posła
     W. Borowika. Wydaje się, że zasługuje ona na przyjęcie. Rozumiem także, iż
-    proponowane dni obrad to wtorek i Środa, ale już od godz. 9 do godz. 19." />
+    proponowane dni obrad to wtorek i Środa, ale już od godz. 9 do godz. 19."
+  />
 
   <Utterance
     speaker="Poseł Jerzy Jaskiernia (SLD)"
     imgPath="/images/kk-speakers/JaskierniaJerzy.png"
-    text="Popieram propozycję posła W. Borowika." />
+    text="Popieram propozycję posła W. Borowika."
+  />
 
   <Utterance
     speaker="Poseł Aleksander Kwaśniewski (SLD)"
     imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
     text="Czy ktoś chciałby zabrać głos w sprawach różnych przed zamknięciem
     posiedzenia? Nie ma. Dziękuję wszystkim osobom uczestniczącym w posiedzeniu.
-    Zamykam posiedzenie." />
-
+    Zamykam posiedzenie."
+  />
 </div>

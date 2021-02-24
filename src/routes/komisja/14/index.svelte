@@ -1,16 +1,41 @@
 <script>
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja");
+  };
+
+  onMount(() => {
+    prefetch("/komisja");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
+  });
 </script>
 
 <svelte:head>
   <title>Biuletyn nr 14</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-
   <h1 class="text-sm font-thin sm:text-xl lg:text-2xl">
     Posiedzenia Komisji Konstytucyjnej ZN (21, 22 i 23.02.1995 r.)
   </h1>
@@ -34,7 +59,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/14/1">
+      href="komisja/14/1"
+    >
       <li>
         <p class="font-semibold">Dzień 1</p>
         <p class="font-thin">21 lutego</p>
@@ -43,7 +69,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/14/2">
+      href="komisja/14/2"
+    >
       <li>
         <p class="font-semibold">Dzień 2</p>
         <p class="font-thin">22 lutego</p>
@@ -52,7 +79,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/14/3">
+      href="komisja/14/3"
+    >
       <li>
         <p class="font-semibold">Dzień 3</p>
         <p class="font-thin">23 lutego</p>
@@ -61,7 +89,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/14/podkomisja">
+      href="komisja/14/podkomisja"
+    >
       <li>
         <p class="font-semibold">Podkomisja</p>
         <p class="font-thin">22 lutego</p>
@@ -146,9 +175,8 @@
       <br />
       Rady Ministrów — prof. Stanisław Gebethner i prof. Andrzej Gwiżdż, a także
       <br />
-      przedstawiciele kościołów i związków zawodowych oraz organizacji
-      politycznych i społecznych.
+      przedstawiciele kościołów i związków zawodowych oraz organizacji politycznych
+      i społecznych.
     </p>
   </div>
-
 </div>

@@ -1,9 +1,23 @@
 <script>
-  import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
   import Utterance from "../../../components/Utterance.svelte";
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/2");
+  };
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -26,6 +40,18 @@
         }
       }
     }
+    prefetch("/komisja/14");
+    prefetch("/komisja/14/2");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 </script>
 
@@ -33,13 +59,14 @@
   <title>Dzień 1 - Biuletyn nr 14</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
   <div>
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 21 lutego 1995 r.
     </h1>
     <!-- <h5>
@@ -52,24 +79,25 @@
     </h5> -->
   </div>
   <div class="flex justify-between">
-
     <a rel="prefetch" href="/komisja/14/2">
-          <svg
-            class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-            viewBox="0 0 20 20">
-            <path
-              d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-              c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
-          </svg>
+      <svg
+        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+        viewBox="0 0 20 20"
+      >
+        <path
+          d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
+              c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
+      </svg>
     </a>
   </div>
 </div>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-
-  <div id="protocol"
-    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
-
+  <div
+    id="protocol"
+    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl"
+  >
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -84,7 +112,8 @@
         Sejmu i Kancelarią Senatu. Kalendarz ten nie koliduje z posiedzeniami
         Sejmu i Senatu, ale niewątpliwie nakłada poważne obowiązki na członków
         Komisji Konstytucyjnej. Zbieramy się i pracujemy wyłącznie w wolnych
-        terminach. Jeżeli nie byłoby zastrzeżeń do takiego porządku obrad ..." />
+        terminach. Jeżeli nie byłoby zastrzeżeń do takiego porządku obrad ..."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -94,7 +123,8 @@
         Komisja Polityki Gospodarczej, Budżetu i Finansów. Proszę przynajmniej o
         jedną rzecz — druga część obrad Komisji Polityki Gospodarczej, Budżetu i
         Finansów jest bardzo istotna — abyśmy jutro do godz. 16 mogli zakończyć
-        nasze prace." />
+        nasze prace."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -137,37 +167,43 @@
         prace o godz. 9, dlatego że możemy obradować jedynie do obiadu, czyli do
         godz. 13 lub 13.30. Właściwie powinniśmy zakończyć posiedzenie o godz.
         13, mam jednak zgodę ministra W. Sawickiego na przedłużenie obrad o
-        kwadrans. Potem sala musi zostać przygotowana do obrad Senatu." />
+        kwadrans. Potem sala musi zostać przygotowana do obrad Senatu."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
       text="Kiedy odbędą się głosowania nad przepisami dotyczącymi stosunków
-        państwo-—kościół?" />
+        państwo-—kościół?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Być może dzisiaj lub jutro rano; zależy to od prac podkomisji. Tak
-        wygląda tryb naszych bieżących prac." />
+        wygląda tryb naszych bieżących prac."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="Nie chciałbym, aby głosowania te odbyły się jutro." />
+      text="Nie chciałbym, aby głosowania te odbyły się jutro."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czwartek nie jest szczęśliwym dniem. Głosowania uzależniam od sposobu
         przygotowania wniosków przez podkomisję podstaw ustroju politycznego i
-        społeczno-gospodarczego." />
+        społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Mam prośbę, aby głosowania zawsze odbywały się w godzinach porannych.
-        Uważam, że powinniśmy głosować rano — 1 dzisiaj, 1 jutro." />
+        Uważam, że powinniśmy głosować rano — 1 dzisiaj, 1 jutro."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -177,7 +213,8 @@
         Uprzedzałem, że jest to dla mnie pora zbyt późna. Przewodniczący A.
         Kwaśniewski w tej chwili zapowiada, iż przerwa zacznie się o godz.
         13.30. O tej godzinie w żaden sposób nie mogę wziąć udziału w pracach
-        podkomisji podstaw ustroju politycznego i społeczno-gospodarczego." />
+        podkomisji podstaw ustroju politycznego i społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -211,7 +248,8 @@
         nie rozdzielając ich na samorządy terytorialne oraz na inne formy
         samorządności. Są to propozycje podkomisji podstaw ustroju politycznego
         i społeczno-gospodarczego oraz indywidualnych osób. W sumie np. do art.
-        11 zgłoszono siedem wniosków." />
+        11 zgłoszono siedem wniosków."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -230,33 +268,38 @@
         nie może to stanowić żadnych podstaw do konkretnego roszczenia; istnieją
         inne formy udziału obywateli w sprawowaniu władzy publicznej. Samorząd
         jest formą podstawową. Natomiast gwarancja udziału w sprawowaniu władzy
-        publicznej, to w przekonaniu członków zespołu było coś więcej." />
+        publicznej, to w przekonaniu członków zespołu było coś więcej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="W tej chwili na sali jest już obecnych 28 członków Komisji
         Konstytucyjnej. Myślę, że możemy przejść do głoSOowań. Czy są pytania do
-        złożonych wniosków?" />
+        złożonych wniosków?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Pragnę się upewnić, czy jedno z określeń użyte w wielu wariantach i
         wielu propozycjach jest właściwą formą odmiany: „zapewnia się możliwość
-        działania innym formom samorządu czy „,,... innych form samorządu”?" />
+        działania innym formom samorządu czy „,,... innych form samorządu”?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="O którym wniosku mówił poseł J. Szymański?" />
+      text="O którym wniosku mówił poseł J. Szymański?"
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
       text="Ww propozycjach podkomisji do art. 11 każdorazowo używa się wyrazów:
         „innych form samorządu”. Jest pytanie, czy nie lepiej będzie zapisać:
-        „innym formom samorządu ?" />
+        „innym formom samorządu ?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -264,7 +307,8 @@
       text="Myślę, że wyraziłem się bardzo jasno i nie ma potrzeby objaśniać mojej
         wypowiedzi. Stawiam pytanie, czy z punktu widzenia poprawności języka
         propozycja podkomisji do art. 1l jest właściwie sformułowana? Chciałbym
-        uzyskać odpowiedź na to pytanie przed rozpoczęciem głosowań." />
+        uzyskać odpowiedź na to pytanie przed rozpoczęciem głosowań."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -275,13 +319,15 @@
         przypadku powinien być dopełniacz, czyli: „możliwość działania innych
         form samorządu”, a nie: „możliwość działania innym formom samorządu”.
         Przy formie osobowej byłaby np.: „możliwość działania innym organizacjom
-        ”." />
+        ”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Kto jeszcze pragnie wystąpić w roli językoznawcy i wyjaśnić, która forma
-        jest poprawna?" />
+        jest poprawna?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -297,7 +343,8 @@
         jakby nie miały jakiejś cząstki udziału w sprawowaniu władzy publicznej.
         Założenie jest następujące: samorząd terytorialny uczestniczy w
         Sprawowaniu władzy publicznej, a pozostałe samorządy — nie uczestniczą.
-        Chyba tak nie jest." />
+        Chyba tak nie jest."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -307,7 +354,8 @@
         Komisji Konstytucyjnej poza ekspertami, gośćmi, przewodniczącym i
         wiceprzewodniczącym, jest zmienny, możemy niechcący wrócić do dyskusji,
         którą już odbyliśmy. Rozumiem, że po wystąpieniach posła W. Majewskiego
-        i senatora H. Rota wątpliwości zostaną już wyjaśnione." />
+        i senatora H. Rota wątpliwości zostaną już wyjaśnione."
+    />
 
     <Utterance
       speaker="Poseł Wit Majewski (SLD)"
@@ -316,7 +364,8 @@
         właściwych ekspertów. Myślę, że po przegłosowaniu wszystkich artykułów,
         spojrzą na nie językoznawcy. Jeśli zaproponują poprawki, które nie
         zmienią prawnego i politycznego brzmienia Konstytucji RP, to je
-        przyjmiemy." />
+        przyjmiemy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -325,7 +374,8 @@
         członków Komisji, że w momencie, gdy projekt Konstytucji RP zostanie
         przygotowany, poprosimy znawców języka polskiego i prawników o
         ujednolicenie treści zapisów. Jest to kolejny etap prac; na razie mówimy
-        o zawartości merytorycznej ustawy zasadniczej." />
+        o zawartości merytorycznej ustawy zasadniczej."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -341,12 +391,14 @@
         o działalność w zakresie władzy publicznej, to nie potrzeba by było
         żadnej ustawy. Samorząd klatki schodowej nie musi czekać na ustawę.
         Według mnie, w art. 1l ust. 2 muszą się znaleźć dodatkowe wyrazy: „w
-        sprawowaniu władzy publicznej”." />
+        sprawowaniu władzy publicznej”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Po wystąpieniu poseł I. Lipowicz przejdziemy do głosowań." />
+      text="Po wystąpieniu poseł I. Lipowicz przejdziemy do głosowań."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -369,7 +421,8 @@
         sprawowaniu władzy publicznej, gdyż stanowi on organ administracji
         państwowej i takie samo roszczenie będzie miał np. samorząd lekarski. W
         tej chwili reguluje to ustawa. Mogą powstać takie konflikty
-        kompetencyjne, że będziemy musieli rozstrzygać je na nowo." />
+        kompetencyjne, że będziemy musieli rozstrzygać je na nowo."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -401,7 +454,8 @@
         stwierdzenie „na szczeblu lokalnym”. Stwierdzam, że w głosowaniu wniosek
         uzyskał 10 głosów popierających, 16 głosów przeciwnych, przy 3
         wstrzymujących się. W związku z powyższym w wariancie II i III art. 11
-        ust. 1 podkomisji wykreślamy wyrazy „na szczeblu lokalnym”." />
+        ust. 1 podkomisji wykreślamy wyrazy „na szczeblu lokalnym”."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -413,7 +467,8 @@
         zastąpić go wyrazem „udziału. Art. 11 ust. 2 w wariancie I otrzymałby
         brzmienie: „„Rzeczpospolita Polska, w granicach określonych ustawą,
         zapewnia innym formom samorządu możliwość udziału w sprawowaniu władzy
-        publicznej .." />
+        publicznej .."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -430,7 +485,8 @@
         uczestniczyć w finalnym głosowaniu nad art. 11. W tej chwili głosujemy
         pkt 1 — propozycje podkomisji — wariant I, II i III. Wariant II różni
         się od wariantu III wyrazami: „gwarantuje swobodę” 1 ,„zapewnia
-        możliwość”. Merytorycznie treści owych warlantów są różne." />
+        możliwość”. Merytorycznie treści owych warlantów są różne."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -445,7 +501,8 @@
         art. 11 ust. I z wariantu II. Propozycje posłów dotyczą innego brzmienia
         art. 11 ust. 1. Należy iść drogą ustępów. Najpierw przesądźmy treść ust.
         1, a potem wrócimy do ust. 2. Wtedy przegłosujemy autopoprawkę senatora
-        H. Rota itd." />
+        H. Rota itd."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -459,7 +516,8 @@
         abyśmy głosowali warianty po kolei; różnią się one od siebie. Wniosek
         senatorów S. Pastuszki i H. Rota należy odczytywać następująco: art. 1l
         ust. | — treść zaproponowana w wariancie I podkomisji; ust. 2 — treść
-        zapisana w pkt. 5 druk nr 5." />
+        zapisana w pkt. 5 druk nr 5."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -470,14 +528,16 @@
         zestawienia. W moim przekonaniu, najpierw powinniśmy określić
         preferencje w stosunku do wariantu zgłoszonego przez podkomisję, a
         dopiero potem nanosić ewentualne poprawki, jeśli taka będzie wola
-        większości." />
+        większości."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proponowałem to samo. Przegłosujmy warianty I, II, III zgłoszone przez
         podkomisję. Jeżeli okazałoby się, że dwa z nich uzyskały podobną liczbę
-        głosów, przegłosowalibyśmy ten, który wygra w powtómym głosowaniu." />
+        głosów, przegłosowalibyśmy ten, który wygra w powtómym głosowaniu."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -489,13 +549,15 @@
         przegłosowaniu wszystkich poprawek jako równorzędnych. Uważam, że po
         kolei powinniśmy głosować warianty I, II i III podkomisji, poprawkę
         senator A. Grześkowiak itd. Zobaczymy, które z wniosków uzyskają
-        największą liczbę głosów i dokonamy ostatecznych rozstrzygnięć." />
+        największą liczbę głosów i dokonamy ostatecznych rozstrzygnięć."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
       text="Członkowie podkomisji po to wspólnie pracowali, głosowali i dyskutowali,
-        aby uzyskać wspólne stanowisko. Należy być konsekwentnym." />
+        aby uzyskać wspólne stanowisko. Należy być konsekwentnym."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -550,13 +612,15 @@
         wariantu I propozycji podkomisji oraz dodatkowego ust. 3, propozycja
         posła L. Moczulskiego, dotycząca całości art. 11. Przechodzimy do
         głosowań. W tej chwili będzieiny głosować nad siedmioma propozycjami do
-        art. 11." />
+        art. 11."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="W tej chwili będziemy głosować nad wersją podkomisji bez poprawek
-        zgłoszonych m.in. przez senator A. Grześkowiak." />
+        zgłoszonych m.in. przez senator A. Grześkowiak."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -628,7 +692,8 @@
         Narodowego brzmi następuąCO: „l. Rzeczpospolita Polska gwarantuje udział
         samorządu terytorialnego w sprawowaniu władzy publicznej. 2.
         Rzeczpospolita Polska, w granicach określonych ustawą, zapewnia
-        możliwość działania innych form samorządu”." />
+        możliwość działania innych form samorządu”."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -643,7 +708,8 @@
         istniał we wniosku senatorów H. Rota i S. Pastuszki inny argument, który
         uniemożliwił poparcie tego wniosku oprócz tego, że chodzi o sprawowanie
         władzy publicznej. W tej chwili chowamy głowę w piasek. Jeżeli pójdziemy
-        dalej, zostawiamy sobie lukę." />
+        dalej, zostawiamy sobie lukę."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -656,12 +722,14 @@
         rozdział „Samorząd. Była już nawet zgłaszana propozycja, by nie nazywał
         się on „Samorząd terytorialny”, tylko „Samorządy albo „Samorządność”. W
         tym właśnie rozdziale znajdą się stwierdzenia dotyczące np.
-        obligatoryjności przynależności do niektórych samorządów." />
+        obligatoryjności przynależności do niektórych samorządów."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="Mówimy w tej chwili o „Zasadach ustroju”." />
+      text="Mówimy w tej chwili o „Zasadach ustroju”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -673,7 +741,8 @@
         powinien być zgłoszony jako wniosek mniejszości, to jest to oczywiście
         dopuszczalne. Proszę tak uczynić. Wszystkie artykuły Konstytucji RP będą
         jeszcze raz przegłosowane przez Zgromadzenie Narodowe. Na posiedzeniu
-        Komisji Konstytucyjnej posuwajmy się naprzód. na a O" />
+        Komisji Konstytucyjnej posuwajmy się naprzód. na a O"
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -691,7 +760,8 @@
         na ustawę? Chodzi nam przecież tylko o to, czy dajemy przyzwolenie na
         działalność konkretnych form samorządów w zakresie sprawowania władzy
         publicznej, a nie w ogóle jakimkolwiek formom samorządów. Dlatego też
-        zgłosiliśmy razem z senatorem S. Pastuszką propozycję do art. LI." />
+        zgłosiliśmy razem z senatorem S. Pastuszką propozycję do art. LI."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -700,7 +770,8 @@
         mam prośbę do ekspertów, gdyż zostało zadane pytanie niezwykle istotne.
         Czy przyjmując zdecydowaną większością głosów takie, a nie inne
         brzmienie art. Il — wariant I podkomisji — nie popełniliśmy błędu w
-        sztuce? Proszę o odpowiedź prof. P. Winczorka." />
+        sztuce? Proszę o odpowiedź prof. P. Winczorka."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -717,7 +788,8 @@
         wypadku senator H. Rot ma rację. To, co będzie przekazane samorządom
         ustawą, będzie musiało być przekazane w granicach realizacji władztwa
         publicznego, a nie działalności całkowicie swobodnej, dobrowolnej, bez
-        żadnych zobowiązań i bez żadnych uprawnień władczych." />
+        żadnych zobowiązań i bez żadnych uprawnień władczych."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -833,23 +905,27 @@
         kształcie; naciśnięcie przycisku „przeciw” będzie oznaczać przyjęcie
         art. 13 w dwuustępowym kształcie — bez ust. 2 z wariantu I — 1
         naciśnięcie przycisku „wstrzymanie się” będzie oznaczało wstrzymanie się
-        bądź inne zdanie." />
+        bądź inne zdanie."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="A jeżeli ktoś chciałby zagłosować tylko za ust. 1 art. 13?" />
+      text="A jeżeli ktoś chciałby zagłosować tylko za ust. 1 art. 13?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Myślę, że może wtedy głosować za wnioskiein posła J. Zdrady." />
+      text="Myślę, że może wtedy głosować za wnioskiein posła J. Zdrady."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
       imgPath="/images/kk-speakers/OrzechowskiJan.png"
       text="A jeśli ktoś chciałby głosować przeciwko zapisowi art. 13 we wszystkich
-        jego wariantach?" />
+        jego wariantach?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -868,7 +944,8 @@
         posiadają te same obowłązki. 3. Ograniczenie swobody działalności
         gospodarczej jest dopuszczalne tylko w ustawie i ze względu na ważny
         interes publiczny”. Widzę, że senator S. Pastuszka chce uściślić swój
-        wniosek do art. 13." />
+        wniosek do art. 13."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -879,22 +956,26 @@
         Polska zapewnia szczególną ochronę i pomoc gospodarstwom rodzinnym,
         stanowiącym podstawę ustroju roinego państwa”. Treść ust. 3 byłaby taka:
         „Definicję gospodarstwa rodzinnego oraz rodzaj opieki i charakter pomocy
-        dla tych gospodarstw określa ustawa”." />
+        dla tych gospodarstw określa ustawa”."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
-      text="Mam prośbę do senatora S. Pastuszki, aby wycofał swoją autopoprawkę." />
+      text="Mam prośbę do senatora S. Pastuszki, aby wycofał swoją autopoprawkę."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Z tego wnioskuję, że wnioskodawca wycofuje swoją autopoprawkę. Czy tak?" />
+      text="Z tego wnioskuję, że wnioskodawca wycofuje swoją autopoprawkę. Czy tak?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Tak." />
+      text="Tak."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -924,7 +1005,8 @@
         popierających, 12 głosów przeciwnych, przy 3 wstrzymujących się. W
         związku z tym, że dwa wnioski do art. 13 uzyskały więcej głosów „za”
         aniżeli „przeciw ”', proponuję, abyśmy przeprowadzili głosowanie
-        alternatywne. Chodzi o wnioski podkomisji i senatora S$. Pastuszki." />
+        alternatywne. Chodzi o wnioski podkomisji i senatora S$. Pastuszki."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -935,19 +1017,22 @@
         obowiązki”. Jeżeli zgadzamy się, że Konstytucja RP nie może być zbiorem
         werbalnych uniesień, czy przesłań, natomiast powinna mieć charakter
         jurydyczny, to w związku z tym ust. 2 art. 13 w propozycji podkomisji
-        jest absolutnie zbędny i jest on tylko hasłem." />
+        jest absolutnie zbędny i jest on tylko hasłem."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Po pierwsze, odbyła się dyskusja i po drugie przeprowadziliśmy
-        głosowania..." />
+        głosowania..."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Już wcześniej zabrałem głos, że sposób przeprowadzenia głosowania mógł
-        powodować pewne niejasności. Złożę zatem wniosek mniejszości." />
+        powodować pewne niejasności. Złożę zatem wniosek mniejszości."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -955,7 +1040,8 @@
       text="Głosowaliśmy nad wyborem któregoś z wariantów podkomisji. Przeszliśmy do
         głosowań kolejnych wniosków, a poseł J. Szymański wyraża teraz swoje
         wątpliwości. Z tego wynika, że chce on doprowadzić do reasumpcji nie
-        jednego głosowania, ale pięciu, które odbyły się w międzyczasie." />
+        jednego głosowania, ale pięciu, które odbyły się w międzyczasie."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -963,12 +1049,14 @@
       text="Chcę powiedzieć, że protestowałem, kiedy poseł A. Kwaśniewski udzielał
         głosu posłowi K. Kamińskiemu. Wtedy wydawało mi się, że nie było czasu
         na dyskusję. Ale skoro dyskusja stała się faktem, to umówmy się, że do
-        końca dzisiejszego posiedzenia wszystko jest jeszcze możliwe." />
+        końca dzisiejszego posiedzenia wszystko jest jeszcze możliwe."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Co jest możliwe?" />
+      text="Co jest możliwe?"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -976,13 +1064,15 @@
       text="Uzyskanie takiego wyjaśnienia ekspertów, o jakie prosi poseł J.
         Szymański, jak oni interpretują konsekwencję przyjęcia zapisu:
         „Wszystkie podmioty gospodarcze korzystają z tych samych uprawnień 1
-        posiadają te same obowiązki”." />
+        posiadają te same obowiązki”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wyjaśnimy to w punkcie: sprawy różne. Czy któryś z ekspertów pragnie
-        zabrać głos?" />
+        zabrać głos?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -998,7 +1088,8 @@
         równego traktowania kategorii istotnych. W ust. 2 art. 13 w propozycji
         podkomisji zauważam pewnego rodzaju „urawniłowkę”. Bez względu na
         okoliczności wszystkie podmioty mają być traktowane równo. Jest to
-        sprzeczne z rozumieniem zasady równości." />
+        sprzeczne z rozumieniem zasady równości."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
@@ -1014,7 +1105,8 @@
         system? Proszę zwrócić uwagę, jaki chaos prawny mógłby pociągnąć zapis
         konstytucyjny, przyjęty w propozycji podkomisji. Podałam tylko przykład
         z prawa podatkowego, ale odnosi się to również i do innych dziedzin
-        prawa. Mam po prostu wątpliwości." />
+        prawa. Mam po prostu wątpliwości."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -1024,7 +1116,8 @@
         Świadomy nad trzema wariantami art. 13. Tylko zabrakło odpowiedzi na
         moje pierwsze pytanie, w jaki sposób mają głosować parlamentarzyści,
         którzy uważają, że art. 13 w wersji podkomisji nie powinien mieć ust. 2.
-        Nie głosowano wariantu, żeby ten ustęp po prostu skreślić." />
+        Nie głosowano wariantu, żeby ten ustęp po prostu skreślić."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1034,7 +1127,8 @@
         były za skreśleniem, 4 wstrzymały się od głosu. Wynik ten został
         przecież zanotowany. | Mam jeszcze pytanie do prof. P. Winczorka, a
         właściwie proszę go o wyrażenie opinii. Jeżeli popełniono błąd w sztuce
-        konstytucyjnej, to można oczywiście zaproponować reasumpcję głosowania." />
+        konstytucyjnej, to można oczywiście zaproponować reasumpcję głosowania."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1045,13 +1139,15 @@
         wprowadzić pewną dywersyfikację. Wydawało mi się, że tak rozumując, z
         jednej strony mocno akcentuję zasadę równości, z drugiej nie zamykam
         drogi, w pewnych nadzwyczajnych sytuacjach, dla zróżnicowania podmiotów.
-        Jeżeli był to błąd, wnoszę o reasumpcję głosowania." />
+        Jeżeli był to błąd, wnoszę o reasumpcję głosowania."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proszę zabierać głos w celu dokonania wyjaśnień. Padł już wniosek o
-        reasumpcję głosowania." />
+        reasumpcję głosowania."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -1073,12 +1169,14 @@
         artykułu i poddać ją jeszcze obróbce redakcyjnej według wskazań
         ekspertów. Nie możemy tego zrobić w tej chwili, gdyż okazuje się, że
         prace nad treścią ust. 2 nie są jeszcze zakończone. Zgłaszam to jako
-        wniosek." />
+        wniosek."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Za chwilę go rozpatrzymy." />
+      text="Za chwilę go rozpatrzymy."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1091,7 +1189,8 @@
         Lipowicz, tzn. przyjąć art. 13 jako dwuustępowy, a kwestię równości
         sektorów pozostawić na razie na boku. Nie wiem, czy wymaga ona
         rozstrzygnięcia akurat wśród zasad konstytucyjnych. Wydaje mi się, że
-        byłoby rozsądnie wyłączyć z wariantu I ust. 2." />
+        byłoby rozsądnie wyłączyć z wariantu I ust. 2."
+    />
 
     <Utterance
       speaker="Poseł Wit Majewski (SLD)"
@@ -1107,7 +1206,8 @@
         działalność gospodarczą działają według jednakowych reguł prawnych.
         Ostatnio nawet ustawa tzw. „popiwkowa” wprowadza równe zasady dla
         wszystkich przedsiębiorstw. Nie widzę powodów, aby funkcjonował podwójny
-        zapis konstytucyjny." />
+        zapis konstytucyjny."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1120,47 +1220,55 @@
         chwili wybrali między dwoma wariantami art. 13: wariantem podkomisji —
         na razie złożonym z ust. 1 i 3; ust, 2 pozostawiamy ze znakiem zapytania
         — a wariantem senatora S. Pastuszki. Wtedy będziemy wiedzieli, w jakim
-        kierunku zmierzamy, ponieważ jeden z tych wariantów uzyska większość." />
+        kierunku zmierzamy, ponieważ jeden z tych wariantów uzyska większość."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
       text="Wniosek senatora S$. Pastuszki do art. 13 uzyskał 13 głosów
-        popierających." />
+        popierających."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Zgadzam Się." />
+      text="Zgadzam Się."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="To ile głosów popierających uzyskała propozycja podkomisji?" />
+      text="To ile głosów popierających uzyskała propozycja podkomisji?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Uzyskała 17 głosów popierających. Teraz powinniśmy dokonać wyboru
         pomiędzy propozycją podkomisji a propozycją senatora S$. Pastuszki.
-        Można to nazwać „dogrywką”." />
+        Można to nazwać „dogrywką”."
+    />
 
     <Utterance
       speaker="Poseł Henryk Kroll (MN)"
       imgPath="/images/kk-speakers/KrollHenryk.png"
       text="Wydaje mi się, że w chwili, kiedy zostawiamy otwartą sprawę propozycji
         podkomisji, nie możemy kończyć głosowania alternatywnego nad treścią
-        art. 13." />
+        art. 13."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Czego nie możemy zrobić?" />
+      text="Czego nie możemy zrobić?"
+    />
 
     <Utterance
       speaker="Poseł Henryk Kroll (MN)"
       imgPath="/images/kk-speakers/KrollHenryk.png"
-      text="Nie możemy kończyć głosowania." />
+      text="Nie możemy kończyć głosowania."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1169,7 +1277,8 @@
         Pastuszki, to nie byłoby sensu dalej nad nim procedować. Musimy to
         ustalić, inaczej niepotrzebnie będziemy tracić czas. Jestem zdania, że
         art. 13 w wersji podkomisji możemy zapisać tak, aby nie budził on
-        kontrowersji. Zdaje się, że jest już jakaś propozycja w tej sprawie." />
+        kontrowersji. Zdaje się, że jest już jakaś propozycja w tej sprawie."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1183,12 +1292,14 @@
         gospodarcze korzystają z tych samych uprawnień i posiadają te same
         obowiązki” dodać: ,,... bez względu na formę własności”, to istota
         rzeczy byłaby tu należycie oddana. Wiem, że zdanie to będzie trochę
-        niezręczne, ale sens jego byłby właściwy." />
+        niezręczne, ale sens jego byłby właściwy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Zdań niezręcznych nie powinniśmy jednak głosować." />
+      text="Zdań niezręcznych nie powinniśmy jednak głosować."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1196,7 +1307,8 @@
       text="Prof. K. Działocha proponuje powrót do socjalistycznej koncepcji form
         własności. Dla mnie jest to nie do przyjęcia. Jest to pojmowanie
         własności jako kategorii, która ma formy i typy. Znowu wracamy do
-        systemu, z którym myśleliśmy, że się rozstajemy." />
+        systemu, z którym myśleliśmy, że się rozstajemy."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -1216,20 +1328,23 @@
         obecnie ust. 3. Jeżeli w przyszłości komisja redakcyjna włączy ponownie
         — mam nadzieję, już dobrze zredagowaną — zasadę równości sektorów do
         art. 13, to nie będzie się to sprzeciwiać woli podkomisji podstaw
-        ustroju politycznego i społeczno-gospodarczego." />
+        ustroju politycznego i społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Jeżeli nie będzie sprzeciwu wobec wniosku poseł I. Lipowicz, to
         moglibyśmy jej propozycję przyjąć. Przyczyni się to do uporządkowania
-        naszej pracy." />
+        naszej pracy."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Skoro ust. 2 art. 13 ma zostać jeszcze raz przeredagowany, to może niech
-        na chwilę „powróci” do podkomisji razem z kontrowersyjnym art. 15." />
+        na chwilę „powróci” do podkomisji razem z kontrowersyjnym art. 15."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1245,12 +1360,14 @@
         rozstrzygnięcie kwestii struktury przepisu art. 13 w brzmieniu
         przedłożonym przez podkomisję. M ma www. e — a Uważam, że żadne prace
         redakcyjne nie przyniosą zadowalającego rezultatu, jeśli chodzi o ust. 2
-        tego artykułu." />
+        tego artykułu."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Wniosek o reasumpcję głosowania zaraz przegłosujemy." />
+      text="Wniosek o reasumpcję głosowania zaraz przegłosujemy."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1274,7 +1391,8 @@
         stosunku państwa do gospodarki, gdyż nie jest to to samo, co swoboda
         działalności gospodarczej. Swoboda działalności gospodarczej oznacza
         tylko tyle, że jest taka swoboda i państwo właściwie nie ma prawa w nią
-        ingerować." />
+        ingerować."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1286,7 +1404,8 @@
         nieporozumienie, które, moim zdaniem, słusznie zdefiniowała poseł I.
         Lipowicz; jednocześnie uczyniono to w sposób budzący wątpliwości. Wymaga
         to lepszego zredagowania. W tej chwili nie prowadźmy dyskusji, gdyż
-        miała już ona miejsce dwa tygodnie temu." />
+        miała już ona miejsce dwa tygodnie temu."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -1297,7 +1416,8 @@
         również powinniśmy odesłać do doprecyzowania. Jeżeli uważamy, że
         propozycja podkomisji budzi wątpliwości, to bądźmy konsekwentni; w obu
         wnioskach są rzeczy wymagające dopowiedzenia. l mm —m m am man _ z — ——
-        aa" />
+        aa"
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -1311,7 +1431,8 @@
         senatora S. Pastuszki. Wynik głosowania rozstrzygnie sprawę. Art. 13 w
         brzmieniu zaproponowanym przez senatora S. Pastuszkę ma zwartą treść i
         jest jasno sprecyzowany. Wnoszę, abyśmy głosowanie przeprowadzili do
-        końca, a nie przerywali je w połowie." />
+        końca, a nie przerywali je w połowie."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1329,7 +1450,8 @@
         uprzywilejowania lub dyskryminacji ze względu na przynależność
         własnościową. Dzisiaj jest sytuacja taka, że te same podmioty, tej samej
         wielkości, w tych samych branżach, na tym samym terytorium mają głęboko
-        zróżnicowane warunki. Chciałbym, aby to nie było możliwe." />
+        zróżnicowane warunki. Chciałbym, aby to nie było możliwe."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1344,13 +1466,15 @@
         rozstrzygnęlibyśmy wniosek o reasumpcję po to, aby wrócić do sprawy i
         ewentualnie usunąć art. 13 ust. 2 z wniosku podkomisji. Jeżeli chodzi o
         wniosek senatora S. Pastuszki, to pozostaje on bez zmian. Jutro rano
-        przegłosowalibyśmy ewentualnie arty kuły..." />
+        przegłosowalibyśmy ewentualnie arty kuły..."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
       text="Może teraz dokonamy wyboru pomiędzy wnioskami podkomisji i senatora 5.
-        Pastuszki. nm Z i e m0 w r — ai" />
+        Pastuszki. nm Z i e m0 w r — ai"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1363,7 +1487,8 @@
         przeprowadzić jutro rano. Nie widzę tu żadnego problemu. Czy
         wnioskodawcy zgadzają się na takie rozwiązanie? Jeśli mielibyśmy
         głosować w tej chwili, to.trzeba by zacząć od reasumpcji poprzedniego
-        głosowania." />
+        głosowania."
+    />
 
     <Utterance
       speaker="Senator Jan Madej (KD)"
@@ -1375,7 +1500,8 @@
         powinna dotyczyć przyjęcia propozycji podkomisji w wersji dwuustępowej,
         tzn. obecnego art. 13 ust. 1 i 3. Dopiero potem możemy przeprowadzić
         głosowanie w sprawie wyboru pomiędzy propozycjami podkomisji i senatora
-        S. Pastuszki." />
+        S. Pastuszki."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1389,7 +1515,8 @@
         do powtórnego głosowania nad wnioskiem podkomisji do art. 13.
         Przyciśnięcie przycisku „za” będzie oznaczać utrzymanie trzyustępowego
         art. 13, czyli również inkryminowanego ust. 2. Widzę, że poseł R. Bugaj
-        ma inną propozycję." />
+        ma inną propozycję."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1397,7 +1524,8 @@
       text="Potrafię zaproponować autopoprawkę, ale zaproponowanie w tej chwili tak
         ważnego przepisu może być ryzykowne. Proponuję następujący zapis:
         „Uprawnienia i obowiązki podmiotów gospodarczych są równe bez względu na
-        przynależność do różnych sektorów własnościowych ”." />
+        przynależność do różnych sektorów własnościowych ”."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1418,7 +1546,8 @@
         w ustawie i ze względu na ważny interes publiczny”. Przechodzimy teraz
         do głosowania o dokonanie wyboru pomiędzy przyjętą przed chwilą
         propozycją podkomisji a propozycją senatora S. Pastuszki. Czy wszyscy
-        członkowie Komisji się na to zgadzają?" />
+        członkowie Komisji się na to zgadzają?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1426,18 +1555,21 @@
       text="Wydaje mi się, że propozycja senatora S. Pastuszki do art. 13 może
         budzić wątpliwości zarówno pod kątem redakcyjnym, jak i ze względu na
         treść normatywną proponowanego przepisu. Sugeruję sformułowanie tej
-        propozycji na piśmie." />
+        propozycji na piśmie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Jest ona sformułowana na piśmie." />
+      text="Jest ona sformułowana na piśmie."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="W takim razie, czy senator S$. Pastuszka podtrzymuje zmodyfikowaną
-        wersję swojego wniosku do art. 13?" />
+        wersję swojego wniosku do art. 13?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1457,31 +1589,36 @@
         następująCo: „l. Rzeczpospolita Polska zapewnia swobodę działalności
         gospodarczej. 2. Ograniczenie swobody działalności gospodar czej jest
         dopuszczalne tylko w ustawie i ze względu na ważny interes publiczny”.
-        ————— mra ——" />
+        ————— mra ——"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Oświadczam, że składam wniosek mniejszości." />
+      text="Oświadczam, że składam wniosek mniejszości."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Przechodzimy do głosowań nad propozycjami do art. 14. Pozostał nam do
-        rozpatrzenia jeden artykuł." />
+        rozpatrzenia jeden artykuł."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Chcę zabrać głos w sprawie formalnej. Przed półgodziną powinna zostać
         ogłoszona przerwa. Chcę zapytać posła R. Bugaja, czy posiedzenie
-        podkomisji jest nadal aktualne? Moje w nim uczestnictwo jest niemożliwe." />
+        podkomisji jest nadal aktualne? Moje w nim uczestnictwo jest niemożliwe."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Zostało wyraźnie napisane, że posiedzenie podkomisji odbędzie się w
-        przerwie obiadowej." />
+        przerwie obiadowej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1490,12 +1627,14 @@
         Komisji chciałbym rozpoczynać obrady w terminach wyznaczonych. Współ-
         czuję tym wszystkim, którzy byli tutaj o godz. 11, prosiłbym jednak, aby
         skierować swoje uwagi do członków Komisji, którzy albo się spóźnili,
-        albo w ogóle nie przybyli, bo to oni utrudniają nam pracę." />
+        albo w ogóle nie przybyli, bo to oni utrudniają nam pracę."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
-      text="Czy odbędzie się dzisiejsze posiedzenie podkomisji?" />
+      text="Czy odbędzie się dzisiejsze posiedzenie podkomisji?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1533,35 +1672,41 @@
         Konstytucji RP „Zasady ustroju”. Stwierdzam, że w głosowaniu wniosek
         uzyskał 20 głosów popierających, 6 głosów przeciwnych, przy 4
         wstrzymujących się. Oznacza to, że artykuły 16-18 utrzymujemy w
-        rozdziale I Konstytucji RP „Zasady ustroju”." />
+        rozdziale I Konstytucji RP „Zasady ustroju”."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="Chcę zabrać głos w sprawie harmonogramu prac Komisji Konstytucyjnej.
-        Kiedy będziemy go omawiać i kiedy będziemy nad nim głosować?" />
+        Kiedy będziemy go omawiać i kiedy będziemy nad nim głosować?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Czy chodzi o art. 157" />
+      text="Czy chodzi o art. 157"
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
-      text="Chodzi o harmonogram." />
+      text="Chodzi o harmonogram."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Harmonogram prac Komisji Konstytucyjnej będziemy omawiać dopiero w
-        czwartek. Proszę się z nim zapoznać." />
+        czwartek. Proszę się z nim zapoznać."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="Wnioskuję, aby go omówić dzisiaj, teraz albo przynajmniej po przerwie
-        obiadowej." />
+        obiadowej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1572,12 +1717,14 @@
         brzmienia art. 15. Wszystkich zainteresowanych serdecznie zapraszam do
         uczestniczenia w posiedzeniu podkomisji. O godz. 15.15 wznawiamy obrady
         Komisji Konstytucyjnej. Wówczas to będziemy prowadzić dyskusję na temat
-        art. 15." />
+        art. 15."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="Czyli dzisiaj art. 15 nie przegłosujemy?" />
+      text="Czyli dzisiaj art. 15 nie przegłosujemy?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1605,7 +1752,8 @@
         Proszę sekretariat Komisji Konstytucyjnej o rozpowszechnienie wniosku
         posła J. Jaskierni. Chciałbym, aby najpierw poseł J. Jaskiernia
         przedstawił motywację swego wniosku. Potem chciałbym zapytać ekspertów,
-        co sądzą o tej propozycji." />
+        co sądzą o tej propozycji."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1635,23 +1783,27 @@
         profit; są one bardzo rozpowszechnione w wielu krajach, a w Polsce nie
         stworzono jeszcze dla nich właściwych podwalin. Dlatego też wnosząc
         swoją propozycję, oczekuję na wypowiedzi ekspertów oraz na głosy
-        członków Komisji Konstytucyjnej." />
+        członków Komisji Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Mam jedno pytanie do posła J. Jaskierni: w którym miejscu rozdziału I
-        widziałby swoją propozycję?" />
+        widziałby swoją propozycję?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
-      text="W tej sprawie również prosiłbym o opinię ekspertów." />
+      text="W tej sprawie również prosiłbym o opinię ekspertów."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Wniosek posła J. Jaskierni wyraża zasadę społeczeństwa obywatelskiego." />
+      text="Wniosek posła J. Jaskierni wyraża zasadę społeczeństwa obywatelskiego."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1668,13 +1820,15 @@
         „Wolności, prawa oraz obowiązki człowieka i obywatela” pewne kwestie
         rozwijamy, jednak rozdział I „Zasady ustroju” ma szczególną kwalifikację
         i rangę. Stąd chodziło mi o podniesienie rangi problematyki
-        społeczeństwa obywatelskiego vis-d-vis regulacji partii politycznych." />
+        społeczeństwa obywatelskiego vis-d-vis regulacji partii politycznych."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Najkrócej mówiąc, chodzi o artykuł określający zasadę społeczeństwa
-        obywatelskiego." />
+        obywatelskiego."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -1704,7 +1858,8 @@
         Jaskiernię zapewne nie tylko chodzi o państwo, ale i o samorząd
         terytorialny oraz, być może, o inne podmioty. Można się dziwić, że
         wcześniej na to nie wpadliśmy, żeby do Konstytucji RP wprowadzić tego
-        typu postanowienie, jakie zaproponował poseł J. Jaskiernia." />
+        typu postanowienie, jakie zaproponował poseł J. Jaskiernia."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1752,7 +1907,8 @@
         potrzebna, a o tym, że może ona być zagrożona, Świadczą ostatnie decyzje
         z jednej strony Ministerstwa Finansów, z drugiej — Ministerstwa
         Sprawiedliwości, dotyczące ich ingerencji w działalność społeczeństwa
-        obywatelskiego." />
+        obywatelskiego."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1776,7 +1932,8 @@
         przystąpić do debaty na temat celowości wprowadzenia do Konstytucji RP
         przepisu zaproponowanego przez posła J. Jaskiernię — czy przepisu o
         podobnym sensie — to powinniśmy jednak zacząć od pewnego sprecyzowania,
-        o czym w gruncie rzeczy chcemy mówić." />
+        o czym w gruncie rzeczy chcemy mówić."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -1810,7 +1967,8 @@
         sobie nie jest bez znaczenia. Może to być materia konstytucyjna, ale
         raczej widziałbym tę problematykę w rozdziale II Konstytucji RP, mó-
         wiącym także o wolnościach i prawach politycznych, przy zapisie
-        określającym prawo zrzeszania się." />
+        określającym prawo zrzeszania się."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1821,7 +1979,8 @@
         zgłaszanie nowych wniosków do tego rozdziału. Stąd dopuściłem do
         dyskusji nad wnioskiem posła J. Jaskierni. Oczywiście, jeżeli poseł J.
         Ciemniewski awizuje, że jutro zgłosi nowe wnioski, to bardzo go o to
-        proszę. Proszę je zgłosić na piśmie." />
+        proszę. Proszę je zgłosić na piśmie."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -1879,7 +2038,8 @@
         pewnych konsekwencji prawnych. Jaka wizja dalszych uregulowań prawnych
         idzie za sformułowaniem zawartym we wniosku posła J. Jaskierni? Na pewno
         wynikają z tego jakieś konsekwencje prawne. Zadałem tylko kilka pytań
-        uściślających." />
+        uściślających."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (SKD)"
@@ -1905,7 +2065,8 @@
         przepis proponowany przez posła J. Jaskiernię, to nie do rozdziału I
         „Zasady ustroju”. Jeżeli uzgodniliśmy, że w tym rozdziale mają się
         znaleźć zasady ogólne — zasady ustrojowe — to konsekwentnie się tego
-        trzymajmy." />
+        trzymajmy."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -1934,7 +2095,8 @@
         zmodyfikowanego wniosku posła J. Jaskierni: „Organizacje pozarządowe
         służące realizacji interesów oraz wyrażaniu opinii obywateli, działające
         w ramach porządku konstytucyjnego, pozostają pod szczególną ochroną
-        prawa”." />
+        prawa”."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1964,7 +2126,8 @@
         Można ją porównać z innymi zasadami. Jeżeli w zasadach naczelnych mówi
         się o partiach politycznych, kościołach, to równie dobrze może się wśród
         nich znaleźć to, co jest istotą społeczeństwa niezależnego od państwa,
-        społeczeństwa obywatelskiego czy cywilnego." />
+        społeczeństwa obywatelskiego czy cywilnego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1979,7 +2142,8 @@
         aniżeli polityczna w ramach partii. Głośno myślę, kierując swoje pytanie
         do ekspertów, czy jeżeli zdecydowalibyśmy się na dodanie do zasad
         naczelnych propozycji posła J. Jaskierni, to czy w tym miejscu, o któ-
-        rym przed chwilą powiedziałem?" />
+        rym przed chwilą powiedziałem?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -2037,12 +2201,14 @@
         pojęcie. | Rodzi się pytanie, czy nie jesteśmy zbyt schematyczni w
         dotychczasowej konstrukcji konstytucyjnej lczy nie mamy pewnej alergii
         do niektórych innowacyjnych rozwiązań, które mogłyby być wprowadzone do
-        Konstytucji RP? a an NĄ" />
+        Konstytucji RP? a an NĄ"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Nie mamy żadnej alergii, skoro stać nas na rząd spoza koalicji rządowej." />
+      text="Nie mamy żadnej alergii, skoro stać nas na rząd spoza koalicji rządowej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -2066,7 +2232,8 @@
         rozwiązania, które mogę przedłożyć członkom Komisji Konstytucyjnej celem
         dalszego procesu decyzyjnego. Rozumiem, że kończymy debatę nad
         rozdziałem I i uprawnione są wszelkie inicjatywy zmierzające do
-        wzbogacenia tego rozdziału o te elementy, których w nim zabrakło." />
+        wzbogacenia tego rozdziału o te elementy, których w nim zabrakło."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2074,7 +2241,8 @@
       text="Mam gorącą prośbę do posła wnioskodawcy. Gdyby udało się przedstawić ową
         poprawkę w jednym wariancie, byloby to dla nas bardzo wygodne. Gdyby
         wszelkie wewnętrzne dylematy można było rozstrzygnąć wcześniej,
-        bylibyśmy zobowiązani; ułatwiłoby to nam zadanie." />
+        bylibyśmy zobowiązani; ułatwiłoby to nam zadanie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -2086,20 +2254,23 @@
         uprawnione i konsumujące inne sformułowania, to bardzo ułatwiłoby mi to
         zadanie. Gdyby przewodniczący A. Kwaśniewski poddał w tej chwili ów
         problem do przedyskutowania, to bardzo ułatwiłoby ostateczną redakcję
-        mojego wniosku." />
+        mojego wniosku."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem, że chodzi o możliwość wpisania do Konstytucji RP pojęcia
-        „organizacje pozarządowe”." />
+        „organizacje pozarządowe”."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Pojęcie „organizacje pozarządowe” obejmuje szereg elementów i pozwala
         uniknąć terminów typu „ruchy społeczne”, „organizacje społeczne”, które
-        nie są w projekcie jednolitym Konstytucji RP użyte." />
+        nie są w projekcie jednolitym Konstytucji RP użyte."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -2121,14 +2292,16 @@
         niewątpliwie jest organizacją pozarządową. Druga wątpliwość: rozumiem,
         że poseł J. Jaskiernia wycofa określenie „szczególną” w odniesieniu do
         ochrony państwa. Nie wiem, czy teraz pozostało wyrażenie „pod ochroną
-        państwa” czy „pod ochroną prawa”?" />
+        państwa” czy „pod ochroną prawa”?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Jestem na etapie redagowania swojej propozycji. Niemniej z przyjemnością
         wysłucham teraz głosów, które padną, gdyż będą one pomocne przy
-        ostatecznej redakcji mojego wniosku." />
+        ostatecznej redakcji mojego wniosku."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -2159,7 +2332,8 @@
         Według mnie, obecny zapis, zaproponowany przez posła J. Jaskiernię, jest
         niedoskonały i wymaga on głębokiego przemyślenia. Drobne poprawki, które
         poseł J. Jaskiernia czyni w tej chwili, nie rozwiewają moich
-        wątpliwości. Chętnie wysłucham zdania ekspertów." />
+        wątpliwości. Chętnie wysłucham zdania ekspertów."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -2193,7 +2367,8 @@
         działanie władzy publicznej, a nie ingerowałoby w sferę, która powinna
         być realizowana przez różnego rodzaju podmioty tworzone przez obywateli.
         Proponuję, aby zamiast tworzenia katalogu różnych stowarzyszeń 1
-        fundacji, pójść drogą określenia granic działania państwa." />
+        fundacji, pójść drogą określenia granic działania państwa."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -2236,13 +2411,15 @@
         zachowania nad nimi pełnej kontroli. Zasady naczelne ustroju mogą
         wynikać nie tylko z rozdziału I Konstytucji RP, ale także, poprzez pewne
         uogólnienie, ze szczegółowych przepisów zawartych w wielu innych
-        częściach ustawy zasadniczej." />
+        częściach ustawy zasadniczej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="W tej chwili powstał bardzo poważny spór. Samorząd jest podstawowym
-        elementem realizacji samorządności i jednocześnie władzy publicznej." />
+        elementem realizacji samorządności i jednocześnie władzy publicznej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -2251,13 +2428,15 @@
         J. Jaskierni: „pod szczególną ochroną państwa”. Jakie obowiązki państwa
         wynikałyby z takiego zapisu i czy nie obejmowałyby one np. obowiązków
         finansowych należących do państwa w stosunku do organizacji, które
-        zostałyby poddane szczególnej ochronie państwa?" />
+        zostałyby poddane szczególnej ochronie państwa?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Teraz głos zabierze senator J. Orzechowski, a potem poseł J. Jaskiernia
-        odpowiedziałby na postawione pytania." />
+        odpowiedziałby na postawione pytania."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -2278,30 +2457,35 @@
         tak nieostry nie nadaje się do wprowadzenia do części ogólnej
         Konstytucji RP, mówiącej o zasadach ustroju; prawo zrzeszania się można
         by ewentualnie uzupełnić w podrozdziale „Wolności i prawa polityczne”.
-        Osobiście jestem przeciwny wnioskowi posła J. Jaskierni." />
+        Osobiście jestem przeciwny wnioskowi posła J. Jaskierni."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Głos zabierze poseł J. Jaskiernia." />
+      text="Głos zabierze poseł J. Jaskiernia."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
       imgPath="/images/kk-speakers/SarneckiPawel.png"
-      text="Może najpierw wysłuchamy odpowiedzi na pytanie posła J. Zdrady." />
+      text="Może najpierw wysłuchamy odpowiedzi na pytanie posła J. Zdrady."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Wydaje mi się, że najpierw poseł J. Jaskiernia powinien ustosunkować się
-        do podniesionych uwag zwa" />
+        do podniesionych uwag zwa"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Przychylam się do sugestii prof. Sarneckiego, abyśmy wcześniej
         wysłuchali stanowiska ekspertów, gdyż może to rzutować na brzmienie
-        moich propozycji." />
+        moich propozycji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -2323,7 +2507,8 @@
         zostało wyeliminowane z systemu prawnego, ponieważ zmiana ustawy — Prawo
         o stowarzyszeniach wykreśliła określenie „stowarzyszenie wyższej
         użyteczności publicznej”, nadawane jako tytuł honorowy. W tej chwili nie
-        ma go w żadnej ustawie, czy to o stowarzyszeniach, czy o fundacjach." />
+        ma go w żadnej ustawie, czy to o stowarzyszeniach, czy o fundacjach."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -2356,26 +2541,30 @@
         czego państwo nie może lub co może zrobić oraz zasady ochrony takich
         sfer społeczeństwa obywatelskiego, w które państwo nie może ingerować.
         Byłoby to wyznaczeniem dodatkowej granicy zasady pomocniczości. Wtedy
-        byłaby ona w pełni doprecyzowana." />
+        byłaby ona w pełni doprecyzowana."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem, że po wypowiedziach posłów I. Lipowicz i J. Jaskierni będziemy
-        zbliżać się do finału dyskusji prowadzonej w tej sprawie." />
+        zbliżać się do finału dyskusji prowadzonej w tej sprawie."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
       text="Dopiero w tym momencie zdałam sobie sprawę, że chciałam zapytać,
         dlaczego nie ma żadnego eksperta-kobiety wśród ekspertów Kounisji
-        Konstytucyjnej Z.gromadzenia Narodowego?" />
+        Konstytucyjnej Z.gromadzenia Narodowego?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Takiego wyboru dokonali członkowie Komisji Konstytucyjnej kilka miesięcy
-        temu." />
+        temu."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -2406,7 +2595,8 @@
         wszystkim. W niektórych przypadkach wyjątek stanowi samorząd
         terytorialny, który nie tylko ma pierwszeństwo w realizacji zasady
         pomocniczości samoorganizowania się, ale który w dodatku posiada
-        gwarancję udziału we władzy publicznej." />
+        gwarancję udziału we władzy publicznej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -2489,7 +2679,8 @@
         organizacji zrzeszających obywateli w ramach porządku prawnego, w celu
         realizacji interesów oraz wyrażania opinii”. Propozycja ta konsumuje
         większość uwag, ale OCzywiście nie wszystkie. Rozumiem, że może nad nią
-        trwać daisza praca." />
+        trwać daisza praca."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2516,7 +2707,8 @@
         organizacje mające charakter organizacji użyteczności publicznej cieszą
         się osobowością prawa publicznego — zasady uznawania tej osobowości
         określają ustawy? Moja wypowiedź to głos osoby zainteresowanej
-        uporządkowaniem polskiego prawa." />
+        uporządkowaniem polskiego prawa."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -2530,7 +2722,8 @@
         środowiska, w art. 58 — o organizacjach konsumentów; jest też mowa o
         związkach wyznaniowych. Czy w kontekście wolności zrzeszania się
         artykuły te nie wyczerpują wszystkich myśli, które zawiera przedłożony
-        nam projekt przepisu?" />
+        nam projekt przepisu?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2543,13 +2736,15 @@
         organizacji, stowarzyszeń ruchów konsumenckich, ruchów ochrony
         środowiska itp. Komisja Konstytucyjna podejmie określoną decyzję. Mam
         prośbę do prof. P. Sarneckiego, aby zapisał na kartce wymienione przez
-        siebie artykuły, co ułatwi nam ich przypomnienie." />
+        siebie artykuły, co ułatwi nam ich przypomnienie."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
       text="Chciałbym, aby rozdział I został poddany analizie pod kątem poprawności
-        językowo-logicznej." />
+        językowo-logicznej."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2559,7 +2754,8 @@
         przepisu dotyczącego społeczeństwa obywatelskiego. Przegłosujemy je
         jutro. Jutro o godz. 9 zbiera się podkomisja pracująca pod
         przewodnictwem posła R. Bugaja, aby ponownie omówić art. 15. Poseł J.
-        Ciemniewski awizował też jakieś wnioski." />
+        Ciemniewski awizował też jakieś wnioski."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -2577,14 +2773,16 @@
         to rozrzutnie określono — totalitaryzmu. Publikowałem wówczas — co
         poświadczą czytelnicy-prawnicy — prace, w których broniłem koncepcji
         prawa publicznego. Władze totalitame nie uniemożliwiały mi publikowania
-        owej koncepcji." />
+        owej koncepcji."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Apelujemy do wnioskodawców, aby przez noc przemyśleli swoje wnioski.
         Jeżeli wnioski zostały zgłoszone, to obowiązkiem Komisji jest ich
-        przegłosowanie. Czy poseł L. Błądek pragnie zabrać głos w tej sprawie?" />
+        przegłosowanie. Czy poseł L. Błądek pragnie zabrać głos w tej sprawie?"
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
@@ -2592,21 +2790,24 @@
       text="Zgłosiliśmy poprawkę do art. 15 i będziemy prosić o jej przegłosowanie.
         Poprawkę tę zgłosiliśmy w związku z tym, że został przyjęty art. 9
         Konstytucji RP, który dotyczy uregulowania kwestii umów
-        międzynarodowych. ma mae Ea PT A A EE e Tw oo" />
+        międzynarodowych. ma mae Ea PT A A EE e Tw oo"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Wobec tego zapraszam poseł L. Błądek na posiedzenie podkomisji, która
         odbędzie się jutro o godz. 9. Głosowanie zgłoszonej przez nią poprawki
-        oczywiście się odbędzie." />
+        oczywiście się odbędzie."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="Wydaje mi się, że poprawkę tę powinna przegłosować Komisja
         Konstytucyjna, a nie podkomisja podstaw ustroju politycznego 1
-        społeczno-gospodarczego." />
+        społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2614,7 +2815,8 @@
       text="Wnioski, które Komisja Konstytucyjna powinna przegłosować, na pewno
         przegłosuje. Jeżeli szukamy rozwiązań kompromisowych, to sugeruję udział
         w posiedzeniu podkomisji, obradującej pod przewodnictwem posła R. Bugaja
-        jutro o godz. 9." />
+        jutro o godz. 9."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -2627,7 +2829,8 @@
         zrzeszeń działających w ramach porządku prawnego w celu realizacji
         interesów oraz wyrażania opinii obywateli”. Taki jest kształt mojej
         poprawki, na razie zgłoszonej jako art. 5a. Potem numeracja uległaby
-        zmianie." />
+        zmianie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2640,7 +2843,8 @@
         tego rozdziału. Czy członkowie Komisji Konstytucyjnej mają w tej sprawie
         jakieś nowe pomysły lub wyraźne opcje? Na początku pragnę zapytać
         ekspertów, czy zauważają istotne różnice pomiędzy propozycją tytułu z
-        wariantu I a propozycją z wariantu II?" />
+        wariantu I a propozycją z wariantu II?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -2666,12 +2870,14 @@
         się je poprzez pewne ograniczenia tak, aby wszyscy mogli z nich
         korzystać w równym stopniu. W związku z tym uważam, że wysunięcie
         wolności na czoło tytułu rozdziału lI Konstytucji RP jest bardziej
-        trafne od wysunięcia na czoło praw." />
+        trafne od wysunięcia na czoło praw."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Rozumiem, że eksperci Komisji Konstytucyjnej są zwolennikami wariantu I." />
+      text="Rozumiem, że eksperci Komisji Konstytucyjnej są zwolennikami wariantu I."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -2692,13 +2898,15 @@
         opowiedzieć się za tym, aby rozdział II Konstytucji RP nosł tytuł
         „Prawa, wolności i obowiązki człowieka i obywatela”. Popieram więc
         wariant II. Jednocześnie opowiadam się za pewną konsekwencją
-        terminologiczną, która, moim zdaniem, nie zawsze jest zachowana." />
+        terminologiczną, która, moim zdaniem, nie zawsze jest zachowana."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Jeżeli nie ma nowych uwag i do wyboru pozostają nam tylko warianty I i
-        II, to możemy poddać je pod głosowanie." />
+        II, to możemy poddać je pod głosowanie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -2709,7 +2917,8 @@
         konstytucyjne obowiązki obywatelskie, natomiast dla określenia
         konstytucyjnego obowiązku człowieka nie przychodzi mi nic do głowy.
         Muszę powiedzieć, że z tego punktu widzenia tytuł rozdziału II nie
-        wydaje mi się adekwatny do jego zawartości." />
+        wydaje mi się adekwatny do jego zawartości."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -2751,14 +2960,16 @@
         mr — mz m i nm _ mn „a mm m człowiekowi jako obywatelowi przysługują,
         mogły | być w jakiś szczególny sposób wyakcentowane. Ujęcie ich w
         odrębnym akcie dawałoby większe możliwości. Nie jestem prawnikiem, więc
-        mam prawo się mylić. Przedstawiam wyłącznie swoje odczucia. | |" />
+        mam prawo się mylić. Przedstawiam wyłącznie swoje odczucia. | |"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Wydaje mi się, że wyodrębnienie praw i obowiązków człowieka i obywatela
         może czasami stanowić pewne zagrożenie i możliwość odcięcia tego, co
-        stanowi integralną część konstytucji." />
+        stanowi integralną część konstytucji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -2780,7 +2991,8 @@
         zawrzeć przepisy na temat stosunków państwo-jednostka w postaci
         podstawowych, fundamentalnych wolności i praw. Wyodrębnienie tego w
         innym dokumencie, który nawet byłby załącznikiem do konstytucji, jest
-        nietrafnym rozwiązaniem." />
+        nietrafnym rozwiązaniem."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -2792,7 +3004,8 @@
         działalności gospodarczej. Przecież to także dotyczy praw obywatelskich.
         Przy ich wyodrębnieniu w „Karcie praw i wolności” rysowałby się niełatwy
         do precyzyjnego określenia stosunek między tą Kartą a pewnymi prawami,
-        które znalazłyby się w ogólnych zasadach ustroju." />
+        które znalazłyby się w ogólnych zasadach ustroju."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -2811,7 +3024,8 @@
         hierarchicznym aktów prawotwórczych od konstytucji w rozumieniu
         kodyfikacyjnym. Wracając do punktu wyjścia, proponuję utrzymać rozdział
         traktujący o prawach i wolnościach człowieka i obywatela w strukturze
-        Konstytucji RP jako ustawy zasadniczej." />
+        Konstytucji RP jako ustawy zasadniczej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -2835,7 +3049,8 @@
         porządku konstytucyjnego. Konstytucja Republiki Czeskiej o tym wyraźnie
         mówi. Jest to oczywiście kwestia decyzji. Proponuję tylko, aby rozdział
         II Konstytucji RP nazywał się „„Karta praw i wolności”, a nie żeby go
-        wyłączać, załączać itd." />
+        wyłączać, załączać itd."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -2851,7 +3066,8 @@
         Wypowiedzi, które usłyszałem, nie rozwiały do końca moich wątpliwości,
         czy zapis „człowiek i obywatel” jest w pełni uzasadniony. Któryś z moich
         przedmówców wyjaśnił już, co oznacza wyrażenie „obowiązki człowieka w
-        Państwie Polskim”. Chodzi o człowieka, który nie jest obywatelem." />
+        Państwie Polskim”. Chodzi o człowieka, który nie jest obywatelem."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -2859,7 +3075,8 @@
       text="Są ludzie, którzy nie są obywatelami Polski, choć przebywają w naszym
         kraju. Im również należą się określone prawa. Nawiązanie do „Magna
         Charta Libertatum” — angielskiej karty wolności — tworzy pewien dysonans
-        i niejako łamie konstrukcję Konstytucji RP." />
+        i niejako łamie konstrukcję Konstytucji RP."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -2890,7 +3107,8 @@
         Sarneckiego o pogląd w tej sprawie. Czy przywiązują wagę do dystynkcji,
         która jest dokonana w tytule „człowieka i obywatela”? Czy wystarczy —
         tak jak sugerował poseł J. Ciemniewski — ograniczenie do jednego członu
-        „obywatela”?" />
+        „obywatela”?"
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -2946,7 +3164,8 @@
         „wolnościami”. Określenie „prawa” posiada chyba szersze znaczenie, a
         „wolności — węższe. Po drugie, musimy również brać uwagę względy
         filologiczne. Język polski nie lubi połączenia „wolności i prawa”,
-        natomiast w pełni uznaje „prawa i wolności ." />
+        natomiast w pełni uznaje „prawa i wolności ."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -2955,18 +3174,21 @@
         nas w zakres dyskusji nie nad brzmieniem tytułu rozdziału II, lecz w
         zakres rozważań merytorycznych. Pragnę ustosunkować się do dwóch
         kwestii. W moim odczuciu, odwołanie się do konstytucji kwietniowej nie
-        jest najlepszym przykładem." />
+        jest najlepszym przykładem."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
       imgPath="/images/kk-speakers/MoczulskiLeszek.png"
-      text="Nie odwoływałem się do konstytucji kwietniowej." />
+      text="Nie odwoływałem się do konstytucji kwietniowej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Ale KPN się od wołuje. Zabiorę głos na zakończenie dyskusji w tej
-        sprawie." />
+        sprawie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -3040,7 +3262,8 @@
         nowoczesnych praw 1 wolności po to, aby zaktualizować starą
         „Deklarację”. Wydaje mi się, że nie powinniśmy zbytnio komplikować
         sytuacji i raczej opowiedzieć się za normalnym rozdziałem
-        konstytucyjnym." />
+        konstytucyjnym."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -3063,7 +3286,8 @@
         rangi. Wobec tego optuję za tym, aby prawa i wolności stanowiły rozdział
         ustawy zasadniczej, a nie aby tworzyły odrębną „Kartę praw i wolności .
         Mentalność Czechów, Słowaków i Polaków jest nieco inna — skądinąd
-        uwarunkowana historycznie." />
+        uwarunkowana historycznie."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3093,7 +3317,8 @@
         wskazują, że akcentuje się prawa i wolności, choć obowiązki również
         stanowią część materii konstytucyjnej. Poprzez tytuł rozdziału II „Karta
         praw i wolności” pragniemy podkreślić ich szczególną rangę dla
-        obywateli." />
+        obywateli."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -3106,12 +3331,14 @@
         się, że słuszna idea prof. A. Rzeplińskiego, aby podkreślić wagę
         rozdziału Il poprzez nazwanie go „Kartą praw I wolności”, może być
         odebrana wręcz przeciwnie. Myślę, że rozdział II zatytułowany „Prawa i
-        wolności” będzie bardziej zrozumiały." />
+        wolności” będzie bardziej zrozumiały."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Poseł L. Moczulski pragnie zabrać głos ad vocem." />
+      text="Poseł L. Moczulski pragnie zabrać głos ad vocem."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -3124,12 +3351,14 @@
         czy innej formie Konstytucja RP łatwiej uzyska poparcie podczas
         referendum, są argumentami szkodliwymi. Jeżeli będziemy myśleli tymi
         kategoriami, to napiszemy manifest polityczny, a nie Konstytucję RP,
-        która powinna obowiązywać przez co najmniej dwadzieścia kilka lat." />
+        która powinna obowiązywać przez co najmniej dwadzieścia kilka lat."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Ad vocem głos zabierze poseł K. Łybacka." />
+      text="Ad vocem głos zabierze poseł K. Łybacka."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -3142,12 +3371,14 @@
         mogli stać się uczestnikami bardzo cennych seminaryjnych dyskusji, ale
         piszemy ją po to, aby została przyjęta i zaakceptowana przez tych, dla
         których ją piszemy. Nie chodzi tu o manifest, ale o uczciwość w
-        konstruowaniu Konstytucji RP." />
+        konstruowaniu Konstytucji RP."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Znów głos advocem." />
+      text="Znów głos advocem."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -3156,7 +3387,8 @@
         piszemy po to, aby łatwiej uzyskała poparcie podczas referendum, to nie
         piszemy ustawy zasadniczej. Jeżeli dopasowujemy ją do potrzeby chwili,
         to milcząco zakładamy, że w innej chwili tej potrzeby już nie będzie ona
-        zaspokajała." />
+        zaspokajała."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -3196,7 +3428,8 @@
         Podawałem m.in. przykład obowiązku ochrony środowiska. Obowiązek ten
         spoczywa na każdym niezależnie od tego, czy jest obywatelem, czy nie.
         Wiadomo przecież, jakie kary grożą np. szyprom statków, czyszczących
-        ładownie na polskich wodach terytorialnych itd." />
+        ładownie na polskich wodach terytorialnych itd."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3210,12 +3443,14 @@
         Również w środę na godz. 9 przewidziano posiedzenie podkomisji podstaw
         ustroju politycznego i społeczno-gospodarczego, której przewodniczy
         poseł R. Bugaj. Posiedzenie to poświęcone będzie newralgicznemu
-        problemowi stosunków państwo-kościół." />
+        problemowi stosunków państwo-kościół."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="O której jutro zaczyna się posiedzenie Komisji Konstytucyjnej?" />
+      text="O której jutro zaczyna się posiedzenie Komisji Konstytucyjnej?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3224,7 +3459,8 @@
         godz. 9 będzie obradować podkomisja pod przewodnictwem posła R. Bugaja.
         Czy zaproponowana przeze mnie konwencja odpowiada członkom Komisji
         Konstytucyjnej? Chodzi mi o to, aby głosowanie odbyło się w czwartek o
-        godz. 9." />
+        godz. 9."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3234,7 +3470,8 @@
         istnieje związek przyczynowy pomiędzy kolejnymi artykułami, które bę-
         dziemy rozważali. Wydaje się, że zblokowane głosowanie w czwartek rano
         sprzyjałoby uporządkowaniu wszystkich propozycji zapisów. Stąd popieram
-        propozycję przewodniczącego S. Pastuszki. mezem e" />
+        propozycję przewodniczącego S. Pastuszki. mezem e"
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -3246,13 +3483,15 @@
         sejmowa Komisja Administracji i Spraw Wewnętrznych. W związku z tym
         podejrzewam, że znów będziemy mieć kłopoty z quorum. Właściwie nie
         wiadomo, posiedzenie której komisji jest ważniejsze i gdzie powinni się
-        udawać poszczególni parlamentarzyści." />
+        udawać poszczególni parlamentarzyści."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Znów borykamy się z tym samym dylematem. Pomimo pewnych ustaleń dochodzi
-        do napięć." />
+        do napięć."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3265,23 +3504,27 @@
         Komisji Konstytucyjnej, jesteśmy usprawiedliwieni przed innymi
         komisjami, które obradują w tym samym czasie. Proponuję, aby tego nie
         zmieniać, gdyż w przeciwnym razie sparaliżujemy prace Komisji
-        Konstytucyjnej." />
+        Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Czy możemy postawić formalny wniosek, aby głosowanie odbyło się w
-        czwartek?" />
+        czwartek?"
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="Myślę, że wniosku senatora S$. Pastuszki nie musimy nawet głosować." />
+      text="Myślę, że wniosku senatora S$. Pastuszki nie musimy nawet głosować."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Mamy do czynienia z rozbieżnością stanowisk." />
+      text="Mamy do czynienia z rozbieżnością stanowisk."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3297,19 +3540,22 @@
         zakończymy sekwencję głosowań. Nie zmieniajmy wszystkiego pod wpływem
         kolejnych impulsów. Każdy z nas, oprócz pracy w Komisji Konstytucyjnej,
         ma jakieś równoległe prace. Uczestniczymy jednak w posiedzeniach tej
-        Komisji, zgodnie z priorytetem danym pracom Komisji Konstytucyjnej." />
+        Komisji, zgodnie z priorytetem danym pracom Komisji Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Czy w tej spra wie pragnie jeszcze zabrać głos senator K. Kozłowski?" />
+      text="Czy w tej spra wie pragnie jeszcze zabrać głos senator K. Kozłowski?"
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
       text="Ubolewam: tylko, że mimo zapewnień, iż wszystko będzie skoordynowane,
         nikt nie przejmuje się Komisją Konstytucyjną. Jej posiedzenia są
-        wyznaczane „jak gdyby nigdy nic”." />
+        wyznaczane „jak gdyby nigdy nic”."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -3326,20 +3572,23 @@
         Kormnisji Konstytucyjnej. Niektórzy przewodniczący komisji — nieskromnie
         powiem, że jestem jednym z nich — tak właśnie robią. Inni natomiast
         zwołują posiedzenia komisji na 1-2 godziny przed obradami Senatu. Jest
-        to w jakimś sensie dramat." />
+        to w jakimś sensie dramat."
+    />
 
     <Utterance
       speaker="Poseł Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czyli mogę przyjąć, że zdecydowana większość członków Komisji
         Konstytucyjnej stoi na stanowisku, iż w czwartek o godz. 9 powinniśmy
-        rozpocząć głosowania nad kolejnymi przepisami konstytucyjnymi..." />
+        rozpocząć głosowania nad kolejnymi przepisami konstytucyjnymi..."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
       text="...ale pod warunkiem, że przewodniczący S. Pastuszka, jako senator,
-        zwróci uwagę marszałkowi Senatu, że coś jest tu jednak nie w porządku." />
+        zwróci uwagę marszałkowi Senatu, że coś jest tu jednak nie w porządku."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3382,7 +3631,8 @@
         także do innych kwestii. To z innych obszarów wynikają konsekwencje,
         które tutaj odnotowujemy. Jeżeli w naszej konstytucji robimy coś
         oryginalnego, to przesądzamy o wolnościach, prawach i obowiązkach
-        obywatela." />
+        obywatela."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -3452,7 +3702,8 @@
         złego się ostatecznie nie stanie, jeżeli rozdział II będzie zatytułowany
         „„Wolności i prawa człowieka i obywatela”. W istocie rzeczy niczego to
         nie zmienia, dlatego że przedmiotem regulacji tego rozdziału, chociaż w
-        mniejszym zakresie, będą także obowiązki." />
+        mniejszym zakresie, będą także obowiązki."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -3480,7 +3731,8 @@
         wolności i człowieka, i obywatela. Świadczą o tym konkretne przepisy.
         Nie wszystko zatem musi być zawarte w tytule rozdziału. Sądzę, że pewna
         wstrzemięźliwość w wykorzystywaniu farby drukarskiej byłaby wartością
-        przy tworzeniu przepisów Konstytucji RP." />
+        przy tworzeniu przepisów Konstytucji RP."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -3532,7 +3784,8 @@
         bez n —— nama em n. O OTO A AE AN mn szych intencji do pójścia w tym
         kierunku, mogłoby być błędnie odczytane. Proszę wybaczyć tak obszerne
         uzasadnienie do propozycji zmierzającej w kierunku zrezygnowania w
-        tytule rozdziału II Konstytucji RP z pojęcia „obowiązki obywatelskie”." />
+        tytule rozdziału II Konstytucji RP z pojęcia „obowiązki obywatelskie”."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -3567,7 +3820,8 @@
         „Wolności i prawa”, a rozdział III — np. „Obowiązki obywatelskie”. Nie
         będziemy wtedy mieli problemu z wiązaniem praw i obowiązków, a także z
         ich współzależnością. Będziemy natomiast mieli w Konstytucji RP
-        uwzględnione obowiązki, które są dosyć ważną rzeczą." />
+        uwzględnione obowiązki, które są dosyć ważną rzeczą."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3578,14 +3832,16 @@
         poseł I. Lipowicz, iż wcale nie w latach siedemdziesiątych nastąpiła w
         Polsce po raz pierwszy ostra korelacja pomiędzy prawami a obowiązkami
         obywatelskimi, tylko w latach trzydziestych, po zamachu majowym. Poseł
-        I. Lipowicz pragnie zabrać głos ad vocem." />
+        I. Lipowicz pragnie zabrać głos ad vocem."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
       text="Obstaję przy swoim stanowisku, że jako pojęcie doktrynalne idea Ścisłej
         łączności odległych od siebie praw i obowiązków pojawiła się w polskim
-        prawie administracyjnym w latach sześćdziesiątych i siedemdziesiątych." />
+        prawie administracyjnym w latach sześćdziesiątych i siedemdziesiątych."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3600,7 +3856,8 @@
         patrzenie na konstytucję jako na element edukacji społeczeństwa. Jeśli
         konstytucja ma edukować, to równie silnie powinien być w niej zaznaczony
         problem obowiązków obywatela, który musi pracować na rzecz ojczyzny,
-        żeby móc czerpać ze wspólnego dobra." />
+        żeby móc czerpać ze wspólnego dobra."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3637,14 +3894,16 @@
         to na temat tych ograniczeń pisze się więcej niż na temat praw,
         wolności, obowiązków. W tytule rozdziału nie da się wszystkiego opisać.
         Dobrze byłoby, aby taki tytuł dokładnie trafiał w to, o co w tym wypadku
-        ustawodawcy konstytucyjnemu chodzi." />
+        ustawodawcy konstytucyjnemu chodzi."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Czy ktoś jeszcze chciałby zabrać głos w kwestii nazwy rozdziału II
         Konstytucji RP? Nie widzę. Dylemat w tej sprawie będzie rozstrzygnięty w
-        czwartek w czasie głosowania." />
+        czwartek w czasie głosowania."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -3652,13 +3911,15 @@
       text="Chciałabym przejąć wniosek prof. W. Osiatyńskiego. W przypadku, gdybyśmy
         zdecydowali, że obowiązki obywatelskie powinny się jednak znaleźć w
         tytule rozdziału, to chciałabym, aby był to odrębny rozdział konstytucji
-        RP." />
+        RP."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
       imgPath="/images/kk-speakers/CiemniewskiJerzy.png"
       text="Bardzo proszę, aby była także głosowana propozycja tytułu rozdziału II
-        „Prawa i wolności”." />
+        „Prawa i wolności”."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3668,7 +3929,8 @@
         konstytucyjnych. Mam tu w szczególności na uwadze art. 19, do którego
         treści zaproponowano dwa warianty. Chcę zapytać członków Komisji
         Konstytucyjnej oraz ekspertów, czy zechcieliby zabrać głos w celu
-        uzasadnienia któregoś z wariantów zapisu art. 19?" />
+        uzasadnienia któregoś z wariantów zapisu art. 19?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3677,13 +3939,15 @@
         Gwiżdża, który przewodniczył właściwej podkomisji. Jego wiedza jest
         tutaj bardzo znacząca. Niezależnie od tego, co chcą powiedzieć na temat
         art. 19 eksperci, byłoby rzeczą cenną, aby przewodniczący podkomisji
-        czuwał nad rozwojem sytuacji i przebiegiem merytorycznym argumentacji." />
+        czuwał nad rozwojem sytuacji i przebiegiem merytorycznym argumentacji."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Nie wątpię, że wniosek posła J. Jaskierni jest słuszny, ale, o ile wiem,
-        poseł J. Gwiżdż zachorował i ciałem tu na pewno nie jest." />
+        poseł J. Gwiżdż zachorował i ciałem tu na pewno nie jest."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia SLD)"
@@ -3691,12 +3955,14 @@
       text="Jeżeli nieobecność posła J. Gwiżdża jest usprawiedliwiona, to zapytuję,
         czy nie ma innej osoby z podkomisji, która mogłaby podjąć się ciężaru
         zreferowania Spraw. Jest to dość liczna podkomisja. Któryś z jej
-        członków mógłby się tego podjąć." />
+        członków mógłby się tego podjąć."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Czy jest na stali ktoś z podkomisji praw i obowiązków obywateli?" />
+      text="Czy jest na stali ktoś z podkomisji praw i obowiązków obywateli?"
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -3704,23 +3970,27 @@
       text="W pełni popieram wniosek posła J. Jaskierni. Jeżeli nie ma w tej chwili
         nikogo, kto byłby w stanie zreferować nam rozdział II Konstytucji RP, to
         proponuję na dzisiaj zakończyć obrady. Składam w tej sprawie wniosek
-        formalny." />
+        formalny."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Poseł J. Gwiżdż jest podobno chory. Jego nieobecność uważam za
-        usprawiedliwioną. |" />
+        usprawiedliwioną. |"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
-      text="Czy poseł J. Gwiżdż będzie obecny np. jutro?" />
+      text="Czy poseł J. Gwiżdż będzie obecny np. jutro?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Może wie coś na ten temat sekretariat Komisji Konstytucyjnej." />
+      text="Może wie coś na ten temat sekretariat Komisji Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -3730,14 +4000,16 @@
         znacznej liczby jej członków, wreszcie pod nieobecność znakomitej
         większości członków Komisji Konstytucyjnej, jest nieuzasadnione. Wnoszę
         o przyjęcie propozycji poseł I. Lipowicz. Chcę, abyśmy przerwali
-        dzisiejsze posiedzenie." />
+        dzisiejsze posiedzenie."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
       imgPath="/images/kk-speakers/OsiatynskiWiktor.png"
       text="Wiem, że przewodniczący J. Gwiżdż — będąc ekspertem podkomisji,
         kontaktowałem się z nim — ma dzisiaj jakiś zabieg albo badanie i jutro
-        będzie." />
+        będzie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -3750,7 +4022,8 @@
         R. Bugaj. Ma ona do rozpatrzenia ważny element. Będziemy w tej dobrej
         sytuacji, że wkraczając w obszar wolności, praw oraz obowiązków,
         będziemy znali wszystkie opcje dotyczące rozdziału I Konstytucji RP, co
-        ułatwi nam posuwanie się dalej." />
+        ułatwi nam posuwanie się dalej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -3759,7 +4032,7 @@
         ogłaszam przerwę w posiedzeniu Komisji Konstytucyjnej do jutra, do godz.
         11. Przypominam, że o godz. 9 rozpoczyna obrady podkomisja, której
         przewodniczy poseł R. Bugaj; będzie ona rozpatrywała art. 15 dotyczący
-        stosunków państwo-kościół." />
-
+        stosunków państwo-kościół."
+    />
   </div>
 </div>

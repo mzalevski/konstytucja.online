@@ -1,9 +1,23 @@
 <script>
-  import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
   import Utterance from "../../../components/Utterance.svelte";
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/3");
+  };
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/1");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -26,6 +40,18 @@
         }
       }
     }
+    prefetch("/komisja/14/3");
+    prefetch("/komisja/14/1");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 </script>
 
@@ -33,15 +59,14 @@
   <title>Dzień 2 - Biuletyn nr 14</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
-
   <div>
-
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 22 lutego 1995 r.
     </h1>
 
@@ -56,36 +81,38 @@
   </div>
 
   <div class="flex justify-between">
-
     <a rel="prefetch" href="/komisja/14/1">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
           c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-          z" />
+          z"
+        />
       </svg>
     </a>
 
     <a rel="prefetch" href="/komisja/14/3">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
       </svg>
     </a>
-
   </div>
 </div>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-
-  <div id="protocol"
-    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
-
+  <div
+    id="protocol"
+    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl"
+  >
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
@@ -105,8 +132,9 @@
         podkomisji ustroju politycznego i społeczno-gospodarczego. Po relacji
         posła R. Bugaja rozpatrzymy propozycje, które zostały zgłoszone przez
         przedstawicieli kościołów i wyznań religijnych. Odbędziemy nad nimi
-        dyskusję i ewentualnie poddamy je pod głosowanie." />
-        
+        dyskusję i ewentualnie poddamy je pod głosowanie."
+    />
+
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
@@ -124,13 +152,15 @@
         treści art. 15. Skoro przewodniczący S. Pastuszka poinformował nas, że
         podkomisja nie doszła do porozumienia, to w moim przekonaniu, jej mandat
         wygasł. My, jako Komisja Konstytucyjna in corpore, musimy się zająć na
-        nowo sprawą art. 15." />
+        nowo sprawą art. 15."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Uprzejmie proszę posła R. Bugaja o złożenie relacji z prac podkomisji
-        podstaw ustroju politycznego i społeczno-gospodarczego." />
+        podstaw ustroju politycznego i społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -148,7 +178,8 @@
         modyfikacji. Wszyscy członkowie podkomisji zgodzili się z tym, że nad
         treścią art. 15 należy się jeszcze zatrzymać. Wolą całej Komisji
         Konstytucyjnej należy albo zaakceptować taki stan rzeczy, albo
-        przystąpić do pracy nad art. 15 na posiedzeniu plenarnym." />
+        przystąpić do pracy nad art. 15 na posiedzeniu plenarnym."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -177,7 +208,8 @@
         o ile podkomisja mogłaby się podjąć trudu wykorzystania najbliższych
         godzin — odroczenie posiedzenia in gre Obrady w dniu 22.02.1995 r. (20)
         mio do godz. 15. Stwórzmy podkomisji szansę dokończenia pracy, którą
-        rozpoczęła." />
+        rozpoczęła."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -200,7 +232,8 @@
         lub 15, chyba że z sali padnie inny wniosek. Wtedy mielibyśmy szansę na
         zakończenie prac nad art. 15. Jego brzmienie rozstrzygnęlibyśmy jutro w
         głosowaniu. Tym samym o godz. 15 moglibyśmy rozpocząć dyskusję na temat
-        przepisów rozdziału II Konstytucji RP." />
+        przepisów rozdziału II Konstytucji RP."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -216,7 +249,8 @@
         Jednak opinie prawne ujawniły pewne niedoskonałości tego projektu. W
         związku z tym, nie jestem pewien, czy podkomisja może pewne sprawy
         rozwiązać „od ręki”. Jeżeli jednak jest to wolą Komisji Konstytucyjnej,
-        to dostosujemy się do niej." />
+        to dostosujemy się do niej."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
@@ -234,7 +268,8 @@
         punktu widzenia przyszłego ustroju naszego państwa. Marcowe posiedzenie
         podkomisji byłoby posiedzeniem 3-dniowym. Jak dzisiaj zdążyłam się
         zorientować, jesteśmy dopiero na początku drogi do wypracowania konsensu
-        w sprawie brzmienia art. 15." />
+        w sprawie brzmienia art. 15."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -264,12 +299,14 @@
         podkomisji. Jeżeli tak się nie stanie, to wówczas okaże się, że nawet
         to, co było uznawane do 1952 r., dzisiaj nie może być uznane. Widocznie
         poszliśmy jeszcze dalej w niektórych kwestiach niż miało to miejsce w
-        latach czterdziestych i pięćdziesiątych." />
+        latach czterdziestych i pięćdziesiątych."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Poseł R. Bugaj ma pytanie do posła L. Moczulskiego." />
+      text="Poseł R. Bugaj ma pytanie do posła L. Moczulskiego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -284,7 +321,8 @@
         rekomendacja, że w komunistycznej Polsce coś obowiązywało, gdyż było to
         obowiązywanie szczególne. Myślę, że nie jest to baza, która może być
         zaakceptowana jako konsens między kościołami. Nie rozumiem propozycji
-        posła L. Moczulskiego." />
+        posła L. Moczulskiego."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -303,14 +341,16 @@
         Ponownie spotkalibyśmy się o godz. 15. Rzeczywiście, opinia publiczna
         oczekuje na wynik prac Komisji Konstytucyjnej, dlatego nie możemy ich
         przedłużać, gdyż moglibyśmy spotkać się z zarzutem ich niepoważnego
-        traktowania." />
+        traktowania."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Sprawdźmy przynajmniej, czy jest quorum. Jak ogłosimy przerwę, może się
         okazać, że nie ma wystarczającej liczby członków podkomisji. Byłoby to
-        najgorsze z możliwych rozwiązań." />
+        najgorsze z możliwych rozwiązań."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -322,7 +362,8 @@
         podstaw ustroju politycznego i społeczno-gospodarczego przybyli na
         posiedzenie, któremu będzie przewodniczył poseł R. Bugaj. Jest to sprawa
         kluczowa I nie możemy tolerować sytuacji niemożności uzyskania quorum.
-        Klub SLD deklaruje, że takie działania dyscyplinujące podejmie." />
+        Klub SLD deklaruje, że takie działania dyscyplinujące podejmie."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Bentkowski (PSL)"
@@ -333,13 +374,15 @@
         wszystkich jako członków PSL — który jest iden tyczny z treścią
         konkordatu. Określa on stosunek kościoła do państwa. Chcę, aby wszyscy
         zdali sobie sprawę, jakie będzie stanowisko PSL w tej materii. Od tego
-        stanowiska nie możemy odejść." />
+        stanowiska nie możemy odejść."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Skoro nie ma głosów przeciwnych, zarządzę przerwę. Może spra wdźmy
-        przedtem obecność. Prosi o to poseł Łybacka." />
+        przedtem obecność. Prosi o to poseł Łybacka."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -347,7 +390,8 @@
       text="Jeżeli przewodniczący S. Pastuszka zarządzi przerwę do godz. 15, to
         sprawdzanie w tej chwili obecności nie jest potrzebne. Będzie ono
         potrzebne na posiedzeniu podkomisji, która będzie obradowała pod
-        przewodnictwem posła R. Bugaja. Zadbajmy o to, aby było tam quorum." />
+        przewodnictwem posła R. Bugaja. Zadbajmy o to, aby było tam quorum."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -355,13 +399,15 @@
       text="W dzisiejsze obrady wkradł się pewien chaos. Oczywiście że możemy
         sprawdzić obecność, żeby się zorientować, ilu nas dokładnie jest. Od
         tego mamy listę obecności. Czy poseł K. Łybacka podtrzymuje wniosek o
-        sprawdzenie obecności?" />
+        sprawdzenie obecności?"
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
       text="Jeżeli wniosek ten spotyka się z tak zgodnym sprzeciwem, to jestem
-        skłonna go natychmiast wycofać." />
+        skłonna go natychmiast wycofać."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -372,7 +418,8 @@
         ustroju politycznego i społeczno-gospodarczego. Przyjmujemy propozycję
         posła J. Jaskierni, że kluby parlamentarne powinny zdyscyplinować swoich
         członków uczestniczących w pracach podkomisji, której przewodniczy poseł
-        R. Bugaj. [Po przerwie]" />
+        R. Bugaj. [Po przerwie]"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -380,25 +427,29 @@
       text="Czekamy na przybycie posła R. Bugaja, który przedstawi sprawozdanie z
         posiedzenia podkomisji podstaw ustroju politycznego i
         społeczno-gospodarczego. Może sam zrelacjonuję przebieg tego
-        posiedzenia, a poseł R. Bugaj uzupełni moją wypowiedź." />
+        posiedzenia, a poseł R. Bugaj uzupełni moją wypowiedź."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Czy jest jakaś przyczyna usprawiedliwiająca nieobecność przewodniczącego
-        R. Bugaja?" />
+        R. Bugaja?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Przewodniczący R. Bugaj doskonale wiedział, że wznawiamy obrady o godz.
-        15." />
+        15."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Byłoby dobrze, aby to poseł R. Bugaj przedstawiał nam sprawozdanie
-        podkomisji." />
+        podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -407,7 +458,8 @@
         Bugaj. Poseł Sławomir Szatkowski (PSL): Przedyskutujmy w tym czasie
         sprawę zupełnie inną. Czy powinniśmy dalej pracować w takim tempie? Nie
         możemy pracować w tzw. terenie, gdyż co tydzień jesteśmy w Warszawie.
-        Mamy przecież jakieś zobowiązania wobec swoich wyborców." />
+        Mamy przecież jakieś zobowiązania wobec swoich wyborców."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -416,18 +468,21 @@
         jutro. Na każdy miesiąc są planowane po dwa spotkania 3-dniowe. Moim
         zdaniem, powinniśmy się jednak koncentrować na tak ważnym akcie, jakim
         jest Konstytucja RP po to, aby do końca roku powstał jej jednolity
-        tekst, który przedłożymy Zgromadzeniu Narodowemu." />
+        tekst, który przedłożymy Zgromadzeniu Narodowemu."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
       text="Rozumiem, że przewodniczący S. Pastuszka otworzył po przerwie
-        posiedzenie Komisji Konstytucyjnej." />
+        posiedzenie Komisji Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="W tej chwili oczekujemy jeszcze na posła R. Bugaja." />
+      text="W tej chwili oczekujemy jeszcze na posła R. Bugaja."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -446,7 +501,8 @@
         uprawniona wyłącznie Komisja Konstytucyjna. Jeśli dalej będzie tak
         przebiegała praca, to rzeczywiście głos posła S. Szatkowskiego jest
         słuszny; powinniśmy wrócić do pracy poselskiej i senatorskiej w tzw.
-        terenie, skoro nie potrafimy zorganizować pracy nad konstytucją." />
+        terenie, skoro nie potrafimy zorganizować pracy nad konstytucją."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -466,7 +522,8 @@
         odpowiedzialność za pracę podkomisji. Mam jednak nadzieję, że
         przewodniczący podkomisji podstaw ustroju politycznego i
         społeczno-gospodarczego przedstawi członkom Komisji Konstytucyjnej tok i
-        efekt pracy kierowanego przez siebie zespołu." />
+        efekt pracy kierowanego przez siebie zespołu."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -485,7 +542,8 @@
         przewodniczącego R. Bugaja w dalszym ciągu nie będzie, to prosiłbym,
         żeby przewodniczący S. Pastuszka albo inny członek podkomisji,
         ewentualnie któryś z ekspertów, poinformował nas o rozwoju wydarzeń 1 o
-        przyczynach zaistniałych trudności." />
+        przyczynach zaistniałych trudności."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -494,7 +552,8 @@
         podkomisji podstaw ustroju politycznego i społeczno-gospodarczego, kto
         inny przedstawi sprawozdanie z jej dzisiejszych prac. Być może będę to
         ja oraz główni wnioskodawcy propozycji brzmienia art. 15: poseł T.
-        Mazowiecki i poseł W. Cimoszewicz." />
+        Mazowiecki i poseł W. Cimoszewicz."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -509,7 +568,8 @@
         rozstrzygnięcia, ocz wiście po krótkim referacie przewodniczącego R.
         Bugaja i po wymianie poglądów. Gdy minie godz. 15.15 bardzo proszę o to,
         żebyśmy rozpoczęli prace nad przepisami rozdziału II Konstytucji RP.
-        Prośbę tę wystosuję do przewodniczącego S. Pastuszki." />
+        Prośbę tę wystosuję do przewodniczącego S. Pastuszki."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -518,13 +578,15 @@
         przewodniczący podkomisji praw i obowiązków obywateli. Widzę, że z
         frekwencją jest coraz gorzej. Powinno nas być 56 posłów i senatorów,
         tymczasem obecnych jest tylko kilku, czy kilkunastu. Dzieje się coś
-        niedobrego." />
+        niedobrego."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Pragnę wyjaśnić, że nieobecność posła J. Gwiżdża jest usprawiedliwiona
-        ze względu na stan zdrowia." />
+        ze względu na stan zdrowia."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -549,7 +611,8 @@
         Uważam, że powinniśmy stworzyć przesłanki dla podkomisji, żeby zamknęła
         prace w tej jednej konkretnej sprawie i żebyśmy jutro mogli decydować.
         Rozumiem, że minęła godz. 15.15, zatem wnoszę o poinformowanie nas, co
-        było przedmiotem obrad podkomisji." />
+        było przedmiotem obrad podkomisji."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -557,17 +620,20 @@
       text="Są dwa wnioski formalne: — wniosek posła J. Szymańskiego o przystąpienie
         do rozpatrywania przepisów rozdziału HH Konstytucji RP, mówiącego o
         wolnościach, prawach i obowiązkach obywateli oraz — wniosek posła J.
-        Jaskierni." />
+        Jaskierni."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
       imgPath="/images/kk-speakers/SzymanskiJanusz.png"
-      text="Czy mogę zmodyfikować swój wniosek?" />
+      text="Czy mogę zmodyfikować swój wniosek?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Proszę bardzo." />
+      text="Proszę bardzo."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -580,7 +646,8 @@
         straciliśmy sporo czasu. Należałoby zatem pracować efektywniej.
         Prosiłbym, aby po wspomnianej sekwencji informacji, przystąpić do
         realizacji mojego postulatu. Tylko pod takim warunkiem modyfikuję swój
-        wniosek." />
+        wniosek."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -595,7 +662,8 @@
         pierwsze zapisu, czy konkordat „może regulować , czy „reguluje ...”
         Widzę, że przybył już poseł R. Bugaj, który jest bardziej ode mnie
         kompetentny w zakresie referowania przebiegu prac podkomisji. Przekazuję
-        więc mu głos." />
+        więc mu głos."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -645,7 +713,8 @@
         mówi się: „ustawy ... oraz umowa międzynarodowa”. Jeśli dobrze
         relacjonuję, to spór o te dwie sprawy czy też sprzeciw wobec tych dwóch
         spraw ze strony części członków podkomisji, niestety, uniemożliwił nam
-        osiągnięcie konsensu." />
+        osiągnięcie konsensu."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -661,7 +730,8 @@
         czy ma być ona wymieniona przy użyciu formuły sugerującej, że zawarcie
         tej umowy jest niezbędne, obowiązkowe, czy też przy użyciu formuły
         stwierdzającej dopuszczalność tego typu umowy. Tylko tego dotyczyła
-        różnica poglądów." />
+        różnica poglądów."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -673,7 +743,8 @@
         czy można się tu posłużyć spójnikiem „oraz, Według ocen niektórych
         ekspertów wyraz „„oraz” zawierał swego rodzaju przymus zawarcia umowy
         międzynarodowej — konkordatowej. Inni eksperci uważali, że ów spójnik
-        takiego przymusu nie implikuje. Nie zdołaliśmy jednak tego uzgodnić." />
+        takiego przymusu nie implikuje. Nie zdołaliśmy jednak tego uzgodnić."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -685,7 +756,8 @@
         chcę zapytać, co z inicjatywą posła T. Mazowieckiego? Na ile wyraża on
         zgodę na przyjęcie nowej wersji zapisu art. 15? Jeśli zapis ten
         składający się z 5 ustępów ma być przedmiotem naszych dalszych prac, to
-        co z pozostałymi wersjami zapisów art. 15?" />
+        co z pozostałymi wersjami zapisów art. 15?"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -713,7 +785,8 @@
         Konstytucyjnej, przedstawicieli kościołów, a także ekspertów, natomiast
         ustępy, co do których są rozbieżności — których nie da się przezwyciężyć
         nawet po wyjaśnieniach — będą ujęte wariantowo. Mielibyśmy wtedy
-        czytelne pole opcyjne przed podjęciem decyzji." />
+        czytelne pole opcyjne przed podjęciem decyzji."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -724,7 +797,8 @@
         przegłosujecie później na posiedzeniu Komisji Konstytucyjnej to, co
         myśmy kwestionowali. Przepraszam bardzo, ale to nie ma nic wspólnego z
         konsensem. Proszę nie posługiwać się sformułowaniem „konsens” w
-        odniesieniu do prac podkomisji." />
+        odniesieniu do prac podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -748,7 +822,8 @@
         Dopóty nie widzimy innych propozycji choćby w ujęciu wariantowym, nie
         bardzo wiemy, na czym właściwie polega spór. Członkowie podkomisji
         obradowali nad art. 15 kilka godzin, my natomiast mamy jednolity tekst
-        oraz sprawozdanie posła R. Bugaja, które jest ulotne." />
+        oraz sprawozdanie posła R. Bugaja, które jest ulotne."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -758,26 +833,30 @@
         nawet te, które zostały przyjęte w ostatnim momencie. Myślę, że zaraz
         będzie to zrobione. Gotowe przedłożenie podkomisji zostanie dostarczone
         zainteresowanym do ręki. Będzie w nim uwidocznione, do jakich zapisów
-        zgłoszono Sprzeciw." />
+        zgłoszono Sprzeciw."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="Rozumiem, że tekst, który wcześniej otrzymaliśmy, nie jest ostatecznym
         efektem pracy podkomisji podstaw rozwoju politycznego i
-        społeczno-gospodarczego." />
+        społeczno-gospodarczego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Jest to tylko punkt wyjściowy." />
+      text="Jest to tylko punkt wyjściowy."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
       imgPath="/images/kk-speakers/JaskierniaJerzy.png"
       text="I to jest właśnie mylące. W czasie obrad członkowie podkomisji doszli do
         konsensu, który okazuje się, brzmiał nieco inaczej. Tego ostatecznego
-        brzmienia jak do tej pory nie widzimy." />
+        brzmienia jak do tej pory nie widzimy."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -788,7 +867,8 @@
         „zadań” jest niczym innym jak pogrzebaniem konsensu. Konsens wówczas
         przestaje po prostu istnieć. Godzę się na pierwszy fragment zapisu;
         jednocześnie większość członków podkomisji kwestionuje drugi fragment
-        tego samego zapisu. W takim wypadku raczej nie ma mowy o konsensie." />
+        tego samego zapisu. W takim wypadku raczej nie ma mowy o konsensie."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -810,7 +890,8 @@
         Łybacką i posła W. Cimoszewicza. | Jeżeli dalej będzie prowadzona
         dyskusja nad brzmieniem art. 15, my również będziemy musieli wycofać się
         z wcześniejszych kompromisowych uzgodnień. Obrady w dniu 22.02.1995 r.
-        (20)" />
+        (20)"
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -819,7 +900,8 @@
         stwierdzenia, że nie zaakceptowałam jakiegoś zapisu. Po prostu nie
         miałam jeszcze jasności. Cały czas oczekiwaliśmy wyjaśnienia, co należy
         rozumieć przez określenie „zadania”. Jest to jednak dalekie od
-        niezaakceptowania jakiegoś zapisu." />
+        niezaakceptowania jakiegoś zapisu."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -828,7 +910,8 @@
         różnicami. Czy powinno być sformułowanie „określa konkordat , czy też
         wyrażenie „może określać umowa międzynarodowa ze Stolicą Apostolską”?
         Podałem to jako przykład. Najpierw musimy rozstrzygnąć tego typu
-        pytania, sformułowane m.in. przez posła W. Cimoszewicza." />
+        pytania, sformułowane m.in. przez posła W. Cimoszewicza."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -848,7 +931,8 @@
         uzyskać całkowitą pewność. Wcześniej sądziłem, że po to są prowadzone
         prace podkomisji, aby został zmieniony pewien stan przeszły i że jest to
         próba szukania konsensu. O wyjaśnienie tej sytuacji proszę posła R.
-        Bugaja." />
+        Bugaja."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -936,7 +1020,8 @@
         kościoła, a nie państwa. Państwo nie powinno w nią ingerować, bowiem
         mówimy o państwie demokratycznym, przestrzegającym praw człowieka, a nie
         o totalitarnym, próbującym narzucić swoje reguły obywatelom 1 wyznaczać
-        im zakres działania. Chodzi nam o konstrukcję państwa „oddalonego”." />
+        im zakres działania. Chodzi nam o konstrukcję państwa „oddalonego”."
+    />
 
     <Utterance
       speaker="Poseł Zbigniew Siemiątkowski (SLD)"
@@ -948,13 +1033,15 @@
         obecnym na sali przedstawicielom kościoła i związków wyznaniowych.
         Sądzę, że mogą oni powiedzieć nam w sposób bardziej kompetentny i
         uprawomocniony o owych zadaniach i rozumieniu omawianego zapisu. Proszę
-        o udzielenie głosu przedstawicielom kościoła i związków wyznaniowych." />
+        o udzielenie głosu przedstawicielom kościoła i związków wyznaniowych."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Pragnę wyjaśnić, że wszyscy zaproszeni goście mają prawo do zabierania
-        głosu." />
+        głosu."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
@@ -971,23 +1058,27 @@
         w związku z tym powracamy do omawiania przedłożenia podkomisji — trzy
         warianty — i przedłożeń poselskich, których zdaje się, że jest osiem.
         Trudno, nie ma kompromisu; rozstrzygajmy w głosowaniach, zamiast brnąć w
-        semi naryjne dysputy." />
+        semi naryjne dysputy."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="Wyjaśnię, iż próbowaliśmy znaleźć kompromis w zakresie dwóch
-        zasadniczych kwestii. Nasza dyskusja szła właśnie w tym kierunku." />
+        zasadniczych kwestii. Nasza dyskusja szła właśnie w tym kierunku."
+    />
 
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="Czy ust. 1 jest kompromisowy, czy nie?" />
+      text="Czy ust. 1 jest kompromisowy, czy nie?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Zostało tylko 14 minut do zakończenia dzisiejszego posiedzenia." />
+      text="Zostało tylko 14 minut do zakończenia dzisiejszego posiedzenia."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -1001,7 +1092,8 @@
         podmiotów prawa międzynarodowego. Po drugie, musi na nią wyrazić zgodę
         Sejm w ustawie. Suwerenny przedstawiciel narodu, Sejmu, nie może być w
         żaden sposób zmuszany do podejmowania decyzji w tej sprawie. Spór na
-        temat istnienia jakiegoś przymusu jest sporem bezprzedmiotowym." />
+        temat istnienia jakiegoś przymusu jest sporem bezprzedmiotowym."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1034,7 +1126,8 @@
         ekspertów po to, by jutro przedstawić rozwiązanie stanowiące element
         konsensu? W omawianej sprawie taki konsens miałby wymiar wręcz
         historyczny. Mocno zachęcam do jego wypracowania ze względu na los całej
-        Konstytucji RP i jej społecznej percepcji." />
+        Konstytucji RP i jej społecznej percepcji."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1049,7 +1142,8 @@
         jest nadzieja, że kształt art. 15, jaki podkomisja wypracowała w pewnym
         momencie, zostanie zaakceptowany. Zwołanie posiedzenia podkomisji w tej
         sprawie nie uważam w obecnej chwili za celowe i stwarzające szanse na
-        jakiś postęp." />
+        jakiś postęp."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -1057,7 +1151,8 @@
       text="Proponuję zebranie się klubu SLD w celu dojścia do konsensu we własnym
         gronie. Słyszymy bardzo daleko idące i otwarte wypowiedzi oraz sprzeciw,
         z jakim zetknęliśmy się już w podkomisji. Może klub SLD uzgodni wspólne
-        stanowisko, a dopiero potem zwołamy posiedzenie podkomisji." />
+        stanowisko, a dopiero potem zwołamy posiedzenie podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1080,7 +1175,8 @@
         Cimoszewicza, dotycząca wyspecyfikowania na trzech poziomach
         rozbieżności, jeśli chodzi o ust. 4. Mam prośbę do sekretariatu Komisji
         Konstytucyjnej, aby przygotował specyfikacje zgodnie z powyższą
-        propozycją, abyśmy jutro w głosowaniu mogli przystąpić do rozstrzygnięć." />
+        propozycją, abyśmy jutro w głosowaniu mogli przystąpić do rozstrzygnięć."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -1143,7 +1239,8 @@
         związki wyznaniowe są równouprawnione, to generalnie jest to prawdą.
         Jeśli jednak nie wyjaśnimy, co jest kościołem, a co związkiem
         wyznaniowym, a przepisy konstytucyjne będą działać bezpośrednio, to
-        Konstytucja RP może stać się źródłem istotnych nadużyć." />
+        Konstytucja RP może stać się źródłem istotnych nadużyć."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -1154,7 +1251,8 @@
         Współdziałanie państwa z kościołem w celu zaspokojenia potrzeb obywateli
         nie wyklucza możliwości ich współdziałania w zakresie obrony państwa.
         Proponuję, aby jako ostatni wypowiedział się prof. W. Osiatyński, a
-        potem ewentualnie wysłuchamy końcowych wniosków." />
+        potem ewentualnie wysłuchamy końcowych wniosków."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1182,7 +1280,8 @@
         rozumieją pojęcie swoich zadań na tle art. 15 ust. 3, zgodnie z którym
         kościoły i związki wyznaniowe powinny korzystać z autonomii i
         niezależności. Ma to zasadnicze znaczenie dla potwierdzenia, czy
-        znajdujemy się blisko osiągnięcia konsensu." />
+        znajdujemy się blisko osiągnięcia konsensu."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -1227,7 +1326,8 @@
         Konstytucyjnej Zgromadzenia Narodowego. W związku z tym proszę nie
         apelować o uzgadnianie jakiegokolwiek stanowiska w omawianym zakresie.
         Być może, gdzie indziej obowiązuje dyscyplina partyjna, my natomiast
-        ponosimy osobistą odpowiedzialność za to, za czym się opowiadamy," />
+        ponosimy osobistą odpowiedzialność za to, za czym się opowiadamy,"
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1259,7 +1359,8 @@
         jeszcze jakąś inną. Podobne, różne podejrzenia zaciemniają nam obraz.
         Jeżeli przewodniczący senator S. Pastuszka zezwoli na odpowiedź na
         postawione pytania, to będziemy wiedzieli, na czym polega spór.
-        Rozumiem, że nie jest to tylko spór stylistyczno-legislacyjny." />
+        Rozumiem, że nie jest to tylko spór stylistyczno-legislacyjny."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1270,12 +1371,14 @@
         „niezależność”, „autonomia”. Apeluję, aby przewodniczący S. Pastuszka
         zamknął dzisiejsze posiedzenie Komisji Konstytucyjnej i pozwolił posłom
         SLD ponoszącym osobistą odpowiedzialność za wypowiedzi wygłaszane na
-        forum naszej Komisji porozumieć się ze sobą do dnia jutrzejszego." />
+        forum naszej Komisji porozumieć się ze sobą do dnia jutrzejszego."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
-      text="Poseł J. Jaskiernia pragnie zabrać głos ad vocem." />
+      text="Poseł J. Jaskiernia pragnie zabrać głos ad vocem."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Jaskiernia (SLD)"
@@ -1290,13 +1393,15 @@
         zdaniem, odpowiedź na te pytania bardzo ułatwi nam to, do czego zachęca
         poseł T. Mazowiecki, czyli podejmowanie decyzji — ko legialnych,
         indywidualnych, klubowych, jest to w tej chwili bez znaczenia.
-        Chcielibyśmy poznać precyzyjną różnicę pomiędzy powyższymi zadaniami." />
+        Chcielibyśmy poznać precyzyjną różnicę pomiędzy powyższymi zadaniami."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Do których ekspertów poseł J. Jaskiernia kieruje swoje pytanie? Czy
-        ekspertów-prawników, czy do ekspertów od zadań kościoła?" />
+        ekspertów-prawników, czy do ekspertów od zadań kościoła?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -1311,7 +1416,7 @@
         odpowiedź. Ponieważ dzisiaj nie ma na to czasu, sądzę, że osoby
         kompetentne w tym zakresie odpowiedzą nam na nie jutro, na posiedzeniu
         Komisji Konstytucyjnej, które rozpoczynamy o godz. 9. Zamykam drugi
-        dzień posiedzenia Komisji Konstytucyjnej Zgromadzenia Narodowego." />
-
+        dzień posiedzenia Komisji Konstytucyjnej Zgromadzenia Narodowego."
+    />
   </div>
 </div>

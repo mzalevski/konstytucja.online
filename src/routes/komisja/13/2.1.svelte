@@ -1,9 +1,23 @@
 <script>
-  import { onMount } from "svelte";
+  import { onDestroy, onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
+  import { EventManager } from "mjolnir.js";
   import Utterance from "../../../components/Utterance.svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/13/2.2");
+  };
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/13/1");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -26,6 +40,18 @@
         }
       }
     }
+    prefetch("/komisja/13/1");
+    prefetch("/komisja/13/2.2");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 </script>
 
@@ -33,15 +59,14 @@
   <title>Dzień 2 - Biuletyn nr 13</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
-
   <div>
-
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 8 lutego 1995 r. - cz. I
     </h1>
 
@@ -50,51 +75,53 @@
         class="text-xs font-bold tracking-wider text-gray-500 uppercase sm:text-sm hover:text-red-new"
         href="https://drive.google.com/file/d/1G4mGATMKIpJhEEK67nL4msrsMc6UQICx/view?usp=sharing"
         rel="nofollow"
-        target="_blank">
+        target="_blank"
+      >
         ORYGINAŁ BIULETYNU
       </a>
       <svg class="inline w-4 h-4 ml-px fill-current" viewBox="0 0 24 24">
         <path d="M0 0h24v24H0z" fill="none" />
         <path
           d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
-          2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+          2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+        />
       </svg>
     </h5>
-
   </div>
 
   <div class="flex justify-between">
-
     <a rel="prefetch" href="/komisja/13/1">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
           c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-          z" />
+          z"
+        />
       </svg>
     </a>
 
     <a rel="prefetch" href="/komisja/13/2.2">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
       </svg>
     </a>
-
   </div>
-
 </div>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div
     id="protocol"
-    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
-
+    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl"
+  >
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
@@ -114,7 +141,8 @@
       przedstawicieli prezydenta, którzy proponowali podnieść kwestię
       niepodzielności i jednolitości państwa. Ponadto mamy propozycję senator A.
       Grześkowiak I posła L. Moczulskiego. Jaka ze strony ekspertów byłaby rada
-      na temat tego, co należałoby umieścić w art. 3?" />
+      na temat tego, co należałoby umieścić w art. 3?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -123,7 +151,8 @@
       Może warto byłoby rozważyć teraz to, co jest zawarte w art. 4. Następnie
       można umieścić art. 3 z przedłożonego projektu, który dotyczy celów
       państwa. Wpierw powinna być jednak charakterystyka generalna państwa,
-      potem jego cele i następnie kwestie dotyczące struktury władzy." />
+      potem jego cele i następnie kwestie dotyczące struktury władzy."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -136,7 +165,8 @@
       czy trafne jest określenie dotyczące strzeżenia dziedzictwa kultury i
       języka narodu. Art. 6 definiuje pojęcie narodu politycznego. Byłbym za
       tym, żeby użyć określenia: „kultury narodowej i języka”, ponieważ nie
-      powinniśmy wynaradawiać Polonii." />
+      powinniśmy wynaradawiać Polonii."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -148,14 +178,16 @@
       jest państwem jednolitym i niepodzielnym”. Pozostałe treści merytoryczne
       na pewno znajdą się w tekście, ale pierwszeństwo powinien uzyskać przepis
       o jednolitości i niepodzielności państwa. Czy w tej sprawie są inne
-      zdania?" />
+      zdania?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
       imgPath="/images/kk-speakers/SarneckiPawel.png"
       text="Chciałbym przypomnieć, że w rozdziale I zawarta jest zasada
       samorządu terytorialnego, która ustala terytoriaIny ustrój państwa. Może
-      należałoby się zastanowić nad celowością art. 4, o czym wczoraj mówiliśmy." />
+      należałoby się zastanowić nad celowością art. 4, o czym wczoraj mówiliśmy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -164,14 +196,16 @@
       uważamy, że przepis „Rzeczpospolita Polska jest państwem jednolitym 1
       niepodzielpowinien znaleźć się w art. 3, czy też — zgodnie z opinią prof.
       P. Sameckiego — wystarczy, że ta regulacja znajdzie się we fragmencie
-      konstytucji dotyczącym samorządu?" />
+      konstytucji dotyczącym samorządu?"
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Czy pominięcie obecnego art. 4 stanowi jakieś zagrożenie dla
       jednolitości Polski? Czy bez tego przepisu Polska stanie się państwem
-      federacyjnym?" />
+      federacyjnym?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -181,7 +215,8 @@
       wprowadzeniem autonomicznych samorządów regionalnych, które miałyby prawo
       stanowienia ustaw, prawo do własnego pieniądza i polityki zagranicznej.
       Pojawiły się takie propozycje. Dlatego uważam, że ta sprawa jest ważna i
-      powinna być uwzględniona w art. 3." />
+      powinna być uwzględniona w art. 3."
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
@@ -192,7 +227,8 @@
       niepodległości i całości swojego terytorium, dziedzictwa kultury, języka
       narodu oraz zapewnia ochronę i rozwój środowiska”, byłaby tożsama ze
       sformułowaniem o jednolitości i niepodzielności państwa? Taką poprawkę
-      zgłosiłem, ale chciałbym wiedzieć, czy przepis ten jest tożsamy." />
+      zgłosiłem, ale chciałbym wiedzieć, czy przepis ten jest tożsamy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -202,7 +238,8 @@
       człowieka, strzeże niepodległości i całości swojego terytorium, strzeże
       dziedzictwa kultury i języka Narodu (kultury narodowej i języka) oraz
       zapewnia ochronę środowiska przyrodniczego”. Czy art. 3 nie jest zawarty w
-      treści artykułu z projektu obywatelskiego?" />
+      treści artykułu z projektu obywatelskiego?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -211,7 +248,8 @@
       mowa jest w niej o strzeżeniu niepodległości, co raczej dotyczy stosunków
       zewnętrznych. W tym przypadku chodzi o stosunki wewnętrzne, by Polska była
       państwem unitarnym, a nie złożonym z jednostek o charakterze
-      autonomicznym, czy takich, które noszą pewne cechy suwerenności." />
+      autonomicznym, czy takich, które noszą pewne cechy suwerenności."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -221,12 +259,14 @@
       dziś, ale i na przyszłe lata. Wobec tego przepis o jednolitości i
       niepodzielności państwa polskiego powinien być uwzględniony. W art. 3
       będzie podkreślona kwestia wolności i praw człowieka, strzeżenia
-      dziedzictwa kultury. Uważam, że art. 4 powinien być zachowany." />
+      dziedzictwa kultury. Uważam, że art. 4 powinien być zachowany."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Proszę o opinię odnośnie do umiejscowienia tego przepisu." />
+      text="Proszę o opinię odnośnie do umiejscowienia tego przepisu."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -237,12 +277,14 @@
       Samorząd terytorialny jest formą zdecentralizowanego państwa jednolitego.
       Co do tego nie ma sporu. Przepis ten może być umieszczony przy regulacji
       dotyczącej samorządu terytorialnego, który ma dość jasno określoną treść
-      znaczeniową." />
+      znaczeniową."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
-      text="Czy w ogóle uwzględnimy ten przepis, a jeśli tak, to czy w art. 3?" />
+      text="Czy w ogóle uwzględnimy ten przepis, a jeśli tak, to czy w art. 3?"
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -253,7 +295,8 @@
       powinien być zamieszczony artykuł stwierdzający, że państwo jest jednolite
       i niepodzielne. W art. 11 oraz w art. 197 i następnych nie stwierdzono, że
       państwo polskie ma charakter jednolity i niepodzielny. Jest to tylko
-      interpretacja." />
+      interpretacja."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP dr. Władysław Kulesza"
@@ -273,7 +316,8 @@
       samorządach Śląska Opolskiego jedną z pierwszych decyzji podejmowanych w
       formie uchwały była decyzja o zdjęciu ze Ściany godła pa stwowego, bo w
       siedzibie samorządu terytorialnego jest ono niepotrzebne, to odwołanie się
-      do tej racji ma sens konstytucyjny." />
+      do tej racji ma sens konstytucyjny."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -281,13 +325,15 @@
       text="Wydaje się, że argumenty zostały przedstawione z obu stron. Nie
       popełnimy wielkiego błędu, jeśli ta kwestia będzie uwzględniona i nie
       popełnimy wielkiego błędu, jeśli jej nie będzie. Przedłużanie tej dyskusji
-      zużywa cenny czas, ale nie mam prawa ograniczać wypowiedzi." />
+      zużywa cenny czas, ale nie mam prawa ograniczać wypowiedzi."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Czy należy rozumieć, że podda pan pod głosowanie art. 4, ale poza
-      tym będzie jeszcze debata nad art. 3, ewentualnie w zmienionym kształcie?" />
+      tym będzie jeszcze debata nad art. 3, ewentualnie w zmienionym kształcie?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -303,7 +349,8 @@
       niepodzielność państwa. Argumentacje już przytoczono. Czym innym są
       gwarancje państwa wobec praw człowieka, niepodległości, dziedzictwa
       kultury, języka, zapewnienia ochrony Środowiska, harmonijnego i
-      zrównoważonego rozwoju. Art. 3 będzie jeszcze rozpatrywany." />
+      zrównoważonego rozwoju. Art. 3 będzie jeszcze rozpatrywany."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -319,13 +366,15 @@
       ustrój samorządowy, ani ustrój z uwzględnieniem jednostek regionalnych nie
       narusza unitarnego charakteru państwa. Uważam, że taki przepis jest
       zbędny, bo odzwierciedlałby tylko niczym nie uzasadnione kompleksy i źle
-      by o nas świadczył." />
+      by o nas świadczył."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Poseł I. Lipowicz podniosła nowy argument, a mianowicie narodowych
-      kompleksów." />
+      kompleksów."
+    />
 
     <Utterance
       speaker="Poseł Longin Pastusiak (SLD)"
@@ -337,13 +386,15 @@
       euroregionów z tego powodu, że Słowacja jest państwem jednolitym. Jeżeli
       przepis o jednolitym i niepodzielnym charakterze państwa zawierałby
       czynnik zewnętrzny, to — moim zdaniem — powinien się znaleźć w
-      konstytucji, ale bliżej rozdziału dotyczącego samorządu terytorialnego." />
+      konstytucji, ale bliżej rozdziału dotyczącego samorządu terytorialnego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Pan poseł jest zdania, że w tym miejscu nie powinien on być
-      uwzględniony." />
+      uwzględniony."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -360,7 +411,8 @@
       udział w euroregionach. W podkomisji nie pojawiły się tego typu obawy, bo
       tak tej zasady zinterpretować nie można. Czy taka interpretacja jest
       możliwa? Czy przepis ten byłby przeszkodą przy przystępowaniu do
-      euroregionu w takim znaczeniu, jak to jest określone w Unii Europejskiej?" />
+      euroregionu w takim znaczeniu, jak to jest określone w Unii Europejskiej?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -368,7 +420,8 @@
       text="Nie sądzę, że przepis ten byłby przeszkodą, chyba że powstanie
       euroregionu oznaczałoby oderwanie jakiegoś obszaru od państwa polskiego i
       przyłączenie do innego państwa, czy też do jednostki ponadnarodowej, ale o
-      to nie chodzi w euroregionach." />
+      to nie chodzi w euroregionach."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -380,7 +433,8 @@
       konstrukcji konstytucji. Jeżeli przepis będzie uwzględniony w tym miejscu,
       to będzie spełniał rolę edukacyjną, o której mówił dr T. Kulesza. Jeżeli
       zostanie on wyeliminowany, to normy te są wypowiedziane w artykułach
-      dotyczących samorządu terytorialnego." />
+      dotyczących samorządu terytorialnego."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -395,7 +449,8 @@
       o obecność w czasie obrad Komisji Konstytucyjnej. Powracamy do dyskusji.
       Zostały zgłoszone wnioski dotyczące obowiązków państwa. Pierwszy brzmi jak
       art. 3 zamieszczony w projekcie podkomisji. Jaki artykuł powinien mieć
-      pierwszeństwo, czy dotyczący zasady władztwa, czy obowiązków państwa?" />
+      pierwszeństwo, czy dotyczący zasady władztwa, czy obowiązków państwa?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -414,19 +469,22 @@
       trzeciej grupie powinny być przepisy określające cele i zadania
       Rzeczypospolitej. Może najpierw Komisja przesądzi artykuły dotyczące
       zwierzchnictwa narodu, wolności tworzenia partii politycznych oraz ich
-      roli w kształtowaniu i wyrażaniu woli obywateli." />
+      roli w kształtowaniu i wyrażaniu woli obywateli."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Podjęte przez nas decyzje mogą być jeszcze zweryfikowane przez
       Zgromadzenie Narodowe. Art. 4 w systematyce ekspertów powinien dotyczyć
-      władztwa. Czy może on dotyczyć obowiązków państwa?" />
+      władztwa. Czy może on dotyczyć obowiązków państwa?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
       imgPath="/images/kk-speakers/DzialochaKazimierz.png"
-      text="Powinien dotyczyć tylko władztwa." />
+      text="Powinien dotyczyć tylko władztwa."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -437,7 +495,8 @@
       wnioski z wątpliwości, które zrodziły się wczoraj wieczorem, proponuję
       nieco inną procedurę. Wpierw wysłuchajmy ekspertów, a później podejmować
       będziemy decyzje. Eksperci uważają, że art. 4 powinien dotyczyć władztwa.
-      Czy w tej sprawie członkowie Komisji mają uwagi?" />
+      Czy w tej sprawie członkowie Komisji mają uwagi?"
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -445,25 +504,29 @@
       text="Jeżeli obecny art. 3 przesuniemy dalej, to znajdzie się on dopiero
       po art. 11, dotyczącym samorządu terytorialnego. Chyba byłoby to trochę za
       daleko. Uważam, że zasada zrównoważonego rozwoju powinna być wyeksponowana
-      w rozdziale I." />
+      w rozdziale I."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Gdzie znalazłby się dotychczasowy art. 3, mówiący o obowiązkach
-      państwa?" />
+      państwa?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
       imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Najpierw trzeba określić, do kogo władza należy, a potem dopiero,
-      jakie ma ona realizować cele." />
+      jakie ma ona realizować cele."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem, że artykuł o celach państwa umieszczony byłby przed
-      kwestiami dotyczącymi własności i działalności gospodarczej." />
+      kwestiami dotyczącymi własności i działalności gospodarczej."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -478,7 +541,8 @@
       Następnie trzeba przesądzić o tym, jak jest ona podzielona w strukturze
       organów władzy, między władzę ogólną a samorząd terytorialny. Nie
       prowadziłoby to do przeniesienia artykułu o celach władzy za artykuł o
-      strukturze władzy, tylko cele władzy byłyby za zasadą władztwa." />
+      strukturze władzy, tylko cele władzy byłyby za zasadą władztwa."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -497,7 +561,8 @@
       Chętnie zgodziłbym się z tym, co przed chwilą powiedział prof. W.
       Osiatyński, że w momencie dojścia do władzy należy umieścić partie
       polityczne jako organ pośredniczący. Nawiązuję do przepisu, który jest w
-      naszym projekcie konstytucji, chociaż jest on znacznie dalej uwzględniony." />
+      naszym projekcie konstytucji, chociaż jest on znacznie dalej uwzględniony."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -508,7 +573,8 @@
       czyli art. 3. Jest to propozycja ekspercka popierana przez kilku członków
       Komisji. Odrębną propozycję zgłosił poseł L. Moczulski, który proponuje,
       żeby najpierw uwzględnić przepis o celach państwa, a następnie o
-      władztwie." />
+      władztwie."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Grodzicki (SLD)"
@@ -520,7 +586,8 @@
       na temat tego, czy kolejność umieszczenia w rozdziale I poszczególnych
       zasad będzie rzutowała przy interpretacji konstytucji na ich
       hierarchizowanie, czy też nie. Jeśli dbamy tylko o poetykę tekstu, to jest
-      to inny problem od hierarchizowania konstytucyjnych zasad." />
+      to inny problem od hierarchizowania konstytucyjnych zasad."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -531,7 +598,8 @@
       Posiedzenia Komisji Konstytucyjnej ZN żeby problemy jednogatunkowe były
       ujęte w jedną całość, a nie, by konstytucja była tekstem, w którym
       mieszają się różne zagadnienia. Taka jest idea uporządkowania treści
-      konstytucji w bloki tematyczne." />
+      konstytucji w bloki tematyczne."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -545,31 +613,36 @@
       aksjologiczne byłyby szerzej uwzględnione w preambule konstytucji.
       Przyjęliśmy, że preambuły nie będzie, więc minimum zawarte w art. 3
       powinno znaleźć się w początkowych fragmentach konstytucji, przed
-      charakterystyką państwa i strukturą władzy." />
+      charakterystyką państwa i strukturą władzy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Drugie głosowanie będzie dotyczyło tego, czy cele państwa mają
-      znaleźć się przed władztwem, czy odwrotnie." />
+      znaleźć się przed władztwem, czy odwrotnie."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
       imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Rozumiem, że poseł R. Grodzicki nawiązywał do mojej wypowiedzi. Mnie
       nie chodziło o nic innego, tylko o to, że pierwsze artykuły mają bardzo
-      ogólny charakter." />
+      ogólny charakter."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP dr. Władysław Kulesza"
       imgPath="/images/kk-speakers/KuleszaWladyslaw.png"
       text="Nawiązując do wypowiedzi prof. W. Osiatyńskiego chciałbym zapytać,
-      czy art. 3 powędruje między art. 1l a art. 12?" />
+      czy art. 3 powędruje między art. 1l a art. 12?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
       imgPath="/images/kk-speakers/OsiatynskiWiktor.png"
-      text="Byłby artykułem 5." />
+      text="Byłby artykułem 5."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -583,7 +656,8 @@
       prawny nadany ustaleniu, które nie ma znaczenia prawnego, lecz społeczne.
       Jeżeli wysuwamy element prawa i element socjalny i równocześnie pomijamy
       inne, to tworzymy kaleki potworek typu połowicznej aborcji. Proponuję,
-      żeby unikać takich rozwiązań." />
+      żeby unikać takich rozwiązań."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -603,7 +677,8 @@
       kultury, języka narodu oraz zapewnia ochronę i rozwój Śśrodowiska”.
       Różnica jest tylko w pierwszej części artykułu. Senator P. Andrzejewski
       proponuje, żeby Rzeczpospolita nie tylko gwarantowała, ale i zapewniała
-      prawa człowieka i ich nienaruszalność." />
+      prawa człowieka i ich nienaruszalność."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -611,7 +686,8 @@
       text="Proszę wziąć pod uwagę złożoną przeze mnie propozycję art. 14.
       Określiem go jako art. 14 nie dlatego, że uważałem, iż powinien on być w
       takiej kolejności umieszczony, tylko dopasowałem do zaproponowanego
-      schematu." />
+      schematu."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -620,7 +696,8 @@
       głosowaniem nad wyborem sformułowania dotyczącego kultury narodowej i
       języka. Następnie musimy przesądzić sprawę zrównoważonego rozwoju i inne
       brzmienie pierwszej części art. 3. Kolejną propozycję przedstawia KPN.
-      Wczoraj poseł L. Moczulski zgłosił cały kompleks wniosków." />
+      Wczoraj poseł L. Moczulski zgłosił cały kompleks wniosków."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -641,20 +718,23 @@
       obowiązkiem państwa jest ich ochrona. „Rzeczpospolita Polska chroni
       wolności i prawa człowieka, gwarantuje bezpieczeństwo obywateli >strzeże
       niepodległości i całości swojego terytorium... Tyle na temat zasadniczych
-      celów państwa." />
+      celów państwa."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Trzeba przyznać, że jedna sprawa umknęła naszej uwadze.
       Sformułowanie przedstawione przez prof. W. Osiatyńskiego jest dobre i
-      wnoszę propozycję z tym zgodną." />
+      wnoszę propozycję z tym zgodną."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Traktu jemy to jako kolejny wniosek. Czy nie byłby on wyczerpaniem
-      merytorycznej zawartości propozycji senatora P. Andrzejewskiego?" />
+      merytorycznej zawartości propozycji senatora P. Andrzejewskiego?"
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
@@ -666,7 +746,8 @@
       jest to funkcja czasownikowa, a „gwarantuje” oznacza obowiązek wpisany do
       konstytucji. Nie można jednego wyrazu zestawiać w oderwaniu od innych,
       proszę więc o czas na przedyskutowanie tego sformułowania z prof. w.
-      Osiatyńskim." />
+      Osiatyńskim."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -679,7 +760,8 @@
       nowych wartości kulturowych, artystycznych i intelektualnych otrzymuje
       pomoc i wsparcie ze strony państwa”. Rozumiem, że pod głosowanie mam
       poddać ust. I, bo ust. 2 znajduje się w dalszych częściach projektu
-      przygotowanego przez podkomisję." />
+      przygotowanego przez podkomisję."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -689,7 +771,8 @@
       gdzie zadania państwa będą określone bardziej konkretnie. Gdybyśmy
       umieścili ten problem na wstępie, to z katalogu różnych zwybralibyśmy
       tylko to jedno. Dlaczego pan poseł uważa, że akurat ten problem należy
-      umieścić w tym miejscu?" />
+      umieścić w tym miejscu?"
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -698,19 +781,22 @@
       bezpieczeństwo socjalne obywateli. Na pewno nie jest to wartość mniejsza.
       W ustawach będą rozwijane sprawy bezpieczeństwa socjalnego, podobnie jak
       kwestie kultury. Uważam, że kultura powinna być uwzględniona wśród
-      głównych zpaństwa." />
+      głównych zpaństwa."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
       imgPath="/images/kk-speakers/PastuszkaStefan.png"
       text="W art. 3 powinien znaleźć się przepis, iż państwo realizuje zasady
-      trwałego i zrównoważonego rozwoju." />
+      trwałego i zrównoważonego rozwoju."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Ten wniosek jest już zgłoszony i będzie przegłosowany. Rozumiem, że
-      już wszystkie poglądy na ten temat zostały wymienione." />
+      już wszystkie poglądy na ten temat zostały wymienione."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -722,7 +808,8 @@
       których była mowa. Zrodziła się wątpliwość, czy kolejność nie powinna być
       taka: Rzeczpospolita Polska strzeże niepodległości i całości terytorium,
       chroni wolności i prawa człowieka, gwarantuje bezpieczeństwo obywateli
-      itd. Składam tego rodzaju propozycję." />
+      itd. Składam tego rodzaju propozycję."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -734,7 +821,8 @@
       języka”. „Rzeczpospolita Polska strzeże niepodległości i całości swojego
       terytorium, chroni prawa i wolności człowieka, gwarantuje bezpieczeństwo
       obywateli, strzeże dziedzictwa narodowego, zapewnia ochronę środowiska
-      poprzez zrównoważony rozwój”. Czy tak miałby brzmieć ten artykuł?" />
+      poprzez zrównoważony rozwój”. Czy tak miałby brzmieć ten artykuł?"
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -744,7 +832,8 @@
       ochronie, a przy bezpieczeństwie obywateli o gwarantowaniu? Prawa
       człowieka muszą być zagwarantowane, więc wyraz „chrosłabia to
       sformułowanie. Możemy napisać, że gwarantuje wolności i prawa człowieka
-      oraz bezpieczeństwo obywateli." />
+      oraz bezpieczeństwo obywateli."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -779,7 +868,8 @@
       koncepcji w rozdziale o prawach i obowiązkach obywateli. W obu przypadkach
       najważniejsze nie będzie to, co w artykule dotyczy celów państwa, tylko
       jak ta ochrona jest określona w rozdziale o prawach i obowiązkach
-      obywatelskich." />
+      obywatelskich."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -794,14 +884,16 @@
       przekonany, przy pełnym zrozumieniu istoty horyzontalnego działania praw
       obywatelskich. Konstytucja jako akt fundamentalny dla państwa powinna
       zawierać wolności i prawa funkcjonujące nie tylko w relacji wertykalnej,
-      to znaczy państwo—samorządy-—jednostka, ale także między jednostkami." />
+      to znaczy państwo—samorządy-—jednostka, ale także między jednostkami."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Przy wolnościach i prawach człowieka optowałbym za wyrazem
       „gwarantuje”, bo konstytucja powinna prawa gwarantować, a nie tylko
-      chronić." />
+      chronić."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -813,7 +905,8 @@
       strzeże niepodległości i całości swojego terytorium, gwarantuje prawa i
       wolności człowieka, zapewnia bezpieczeństwo obywateli, strzeże dziedzictwa
       narodowego, zapewnia ochronę środowiska przyrodniczego poprzez
-      zrównoważony rozwój”." />
+      zrównoważony rozwój”."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -822,7 +915,8 @@
       nA ma na bezpieczeństwa obywateli. Dlatego sądzę, że jeśli piszemy, Iż
       państwo gwarantuje prawa i wolności człowieka, to również należy napisać,
       że gwarantuje bezpieczeństwo obywateli, a nie zapewnia, bo jest to zbyt
-      słabe określenie." />
+      słabe określenie."
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ S”)"
@@ -846,7 +940,8 @@
       Chodzi o to, żeby zapisać jak najdalej idące gwarancje ze strony państwa
       na rzecz praw człowieka i bezpieczeństwa obywateli. Dlatego przepis
       projektu obywatelskiego uzupełniony o bezpieczeństwo obywateli daje
-      potrójne gwarancje rezultatu funkcji państwa w tej dziedzinie." />
+      potrójne gwarancje rezultatu funkcji państwa w tej dziedzinie."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -858,13 +953,15 @@
       komukolwiek cokolwiek się stanie, poszkodowany będzie mógł zgłaszać
       roszczenia w stosunku do Rzeczypospolitej Polskiej za złamanie przepisów
       konstytucji. Czy będzie zasada bezpośredniej stosowalności przepisów
-      konstytucji?" />
+      konstytucji?"
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Czy nie będzie to tak rozciągliwy przepis, że uraz spowodowany
-      śŚliskością drogi może powodować roszczenia ze strony obywatela?" />
+      śŚliskością drogi może powodować roszczenia ze strony obywatela?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -877,7 +974,8 @@
       podstawowych praw jednostki gwarantowanych konstytucją. Skarga
       zorientowana jest na ochronę podstawowych praw zawarowanych w konstytucji,
       po wyczerpaniu wszystkich innych środków. Jej podstawą materialno-prawną
-      nie mogą być ogólne sformułowania o celach państwa." />
+      nie mogą być ogólne sformułowania o celach państwa."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -895,7 +993,8 @@
       odpoczywającemu w lesie miejskim. Takie sprawy są z całą powagą rozważane
       i oceniane przez sądy, które określają granice odpowiedzialności państwa.
       Rozpatrywane są drobne roszczenia przeciwko państwu. Szersza postawa
-      konstytucyjna nie zachwieje budowlą." />
+      konstytucyjna nie zachwieje budowlą."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -910,7 +1009,8 @@
       propozycjach. Jeżeli pan senator P. Andrzejewski nie wyrazi zgody, to
       jeszcze będziemy musieli przegłosować problem zrównoważonego rozwoju.
       Jeżeli byłaby pańska zgoda, to moglibyśmy uznać, że jesteśmy bliscy
-      sformułowania wspólnego przepisu." />
+      sformułowania wspólnego przepisu."
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
@@ -928,7 +1028,8 @@
       formule, ale widzę niebezpieczeństwa wynikające z jej otwartości. Sama
       otwartość jest zagrożeniem różnych stanów faktycznych, które konstytucja
       będzie musiała obejmować, a których swoją wyobraźnią w tej chwili możemy
-      jeszcze nie ogarniać. Dlatego jestem przeciwny tej propozycji." />
+      jeszcze nie ogarniać. Dlatego jestem przeciwny tej propozycji."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -936,7 +1037,8 @@
       text="Wczoraj na ten temat dyskutowaliśmy z udziałem gości, więc nie
       wracajmy już do tego problemu. Mamy wniosek senatora J. Madeja i odmienny
       pogląd senatora P. Andrzejewskiego. Proszę nie rozpoczynać dyskusji na ten
-      temat, bo został on już omówiony." />
+      temat, bo został on już omówiony."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -947,7 +1049,8 @@
       przyrodnicze. Chodzi właśnie o zapewnienie ochrony środowiska człowieka w
       szerokim znaczeniu — poprzez zasadę zrównoważonego rozwoju. Zasada ta
       oznacza zaspokajanie potrzeb ludzkości bez uszczerbku dla przyszłych
-      pokoleń." />
+      pokoleń."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -958,7 +1061,8 @@
       zaproponowanym przez podkomisję art. 3 sformułowane jest niedobre
       określenie. Nie chodzi o całość terytorium, tylko o realizację zasady
       integralności terytorialnej nienaruszalności terytorium. W tym znaczeniu
-      jest to logiczne." />
+      jest to logiczne."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -982,7 +1086,8 @@
       pełni demokratycznej procedurze, bo są nominowani. Taki wniosek już się
       pojawił. Na początku chciałbym zapytać ekspertów o stosunek do tego
       przepisu i do propozycji wyeliminowania wyrazów „demokratycznie
-      wybranych”." />
+      wybranych”."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -990,7 +1095,8 @@
       text="Przypominam, że w art. 25 Międzynarodowego Paktu Praw Obywatelskich
       i Politycznych podkreśla się wyraźnie demokratycznie wybranych
       przedstawicielii bo mogą być różni przedstawiciele narodu. W związku z tym
-      uważam, że dobrze byłoby zachować to określenie." />
+      uważam, że dobrze byłoby zachować to określenie."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1001,13 +1107,15 @@
       kardynalne pytanie, kto reprezentuje naród, czyli suwerena, kto jest
       nośnikiem praw narodu? Sądzę, że dopiero poprzez to sprecyzowanie unikamy
       dwuznaczności prowadzących do swoistej dwuwładzy w reprezentacji praw
-      suwerena." />
+      suwerena."
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
       imgPath="/images/kk-speakers/OrzechowskiJan.png"
       text="Poseł K. Łybacka wyczerpała moją myśl, gorąco popieram przedstawioną
-      propozycję." />
+      propozycję."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1027,7 +1135,8 @@
       demokracji bezpośredniej. Opowiadam się przeciwko propozycji poseł K.
       Łybackiej wyliczającej reprezentację sejmową i senacką. Sformułowanie w
       ust. 2 jest uniwersalne, wzmacnia zasadę ujętą w art, 1, a jednocześnie
-      potwierdza demokratyczną legitymację reprezentacji obywatelskiej." />
+      potwierdza demokratyczną legitymację reprezentacji obywatelskiej."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -1041,7 +1150,8 @@
       kogo ona pochodzi. Rozwiązanie przedstawione na piśmie stanowi, że władza
       w Rzeczypospolitej pochodzi od narodu i należy do narodu rozumianego jako
       ogół obywateli. Chciałbym ponadto poprzeć to wszystko, co przed chwilą
-      powiedział poseł J. Szymański." />
+      powiedział poseł J. Szymański."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
@@ -1058,7 +1168,8 @@
       Intencja posła L. Moczulskiego jest szlachetna, ale jeśli mamy obywateli,
       którzy uważają, że władza nie pochodzi od narodu, tylko od Boga, to co
       wtedy? Wtedy odbieramy części obywateli możliwość identyfikowania się z
-      tym artykułem." />
+      tym artykułem."
+    />
 
     <Utterance
       speaker="Poseł Leszek Moczulski (KPN)"
@@ -1066,13 +1177,15 @@
       text="Jeśli używamy określenia ogólnego i wyjaśniamy, czym ono jest, to
       nikogo nie pozbawiamy takiej możliwości. Czy ogół obywateli stanowi
       odrębną tożsamość, jaką jest naród polityczny, czy jest to przypadkowe
-      zbiorowisko? Ogół obywateli polskich stanowi odrębną tożsamość." />
+      zbiorowisko? Ogół obywateli polskich stanowi odrębną tożsamość."
+    />
 
     <Utterance
       speaker="Poseł Irena Lipowicz (UW)"
       imgPath="/images/kk-speakers/LipowiczIrena.png"
       text="Tu się zgadzamy, ale uważam, że to, co pan teraz wyjaśnił w sprawie
-      tożsamości wspólnoty, nie byłoby oddane zaproponowanym zapisem." />
+      tożsamości wspólnoty, nie byłoby oddane zaproponowanym zapisem."
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
@@ -1099,7 +1212,8 @@
       władza zwierzchnia nad całością narodu i państwa. Dlatego jest to
       przedmiot prerogatyw wyodrębnionych w następnym artykule. Popieram wniosek
       alternatywny z projektu NSZZ „Solidarność, bo daje on konkretną gwarancję
-      zrealizowania postulatów, o których była przed chwilą mowa." />
+      zrealizowania postulatów, o których była przed chwilą mowa."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP dr. Władysław Kulesza"
@@ -1114,7 +1228,8 @@
       terytorialny i władzę sądową. Formuła zawarta w art. 6 wyrasta nie tylko z
       przesłanek politycznych, ale i ustrojowych. Próba przeredagowania przepisu
       poprzez dopisywanie różnych podmiotów prowadziłaby do ruiny legislacyjnej
-      art. 6. Pomijam w tej chwili intencje polityczne." />
+      art. 6. Pomijam w tej chwili intencje polityczne."
+    />
 
     <Utterance
       speaker="Senator Alicja Grześkowiak (NSZZ „S”)"
@@ -1147,14 +1262,16 @@
       uważam, że należy uwzględnić ten zwrot. Zwierzchnictwo narodu może mieć
       formę bezpośrednią i w senackim projekcie proponujemy referendum oraz
       obywatelską inicjatywę ustawodawczą. Konkludując, rekomenduję treść
-      przepisu w brzmieniu z senackiego projektu konstytucji." />
+      przepisu w brzmieniu z senackiego projektu konstytucji."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
       text="Mam pytania do ekspertów. Kto może reprezentować suwerena, czyli
       naród? Czy jest korzystna sytuacja, kiedy więcej jest nośników praw tego
-      samego podmiotu? Czy nie prowadzi to do dwuwładzy i konfliktów?" />
+      samego podmiotu? Czy nie prowadzi to do dwuwładzy i konfliktów?"
+    />
 
     <Utterance
       speaker="Senator Jan Orzechowski (PSL)"
@@ -1168,7 +1285,8 @@
       zawierać wzmianki o demokratycznych wyborach? Uważam, że zasada
       demokratycznych wyborów powinna być zamieszczona w tej części konstytucji,
       która będzie dotyczyła Sejmu, Senatu i samorządu terytorialnego. W
-      rozdziale I wystarczający jest przepis o charakterze ogólnym." />
+      rozdziale I wystarczający jest przepis o charakterze ogólnym."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1181,7 +1299,8 @@
       jaki jest to katalog organów. Czy w projektowanym artykule należałoby
       wyliczyć organy, żeby nie było wątpliwości, o jaką chodzi reprezentację,
       czy też ta sprawa wynikałaby z interpretacji systemowej, bez wyliczania
-      organów?" />
+      organów?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1216,7 +1335,8 @@
       głosowaliście pa stwo, że inaczej ma być określony charakter roli
       prezydenta. Państwo nie przegłosowaliście, czy krąg organów
       przedstawicielskich ma być zrozumiany szeroko, czy tradycyjnie, jak w art.
-      2 obowiązujących przepisów konstytucyjnych. Ja niczego nie przesądzam." />
+      2 obowiązujących przepisów konstytucyjnych. Ja niczego nie przesądzam."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -1224,7 +1344,8 @@
       text="Pytanie postawione przez poseł K. Łybacką jest newralgiczne I
       trudne. Argumentacja pana profesora rozwiała mi sporo wątpliwości, bo
       popierałem wniosek poseł K. Łybackiej. W związku z tym chciałbym zapytać,
-      czy pani poseł zgłosi propozycję przepisu, o którym mówiła?" />
+      czy pani poseł zgłosi propozycję przepisu, o którym mówiła?"
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1236,7 +1357,8 @@
       nośników praw suwerena. Dlatego o to pytałam. Czym innym jest odczytywanie
       powszechnych wyborów jako wzmocnienie autorytetu, a czym innym jest
       odczytywanie wyników powszechnych wyborów w sensie interpretacji prawa do
-      reprezentowania suwerena. To są dwie zupełnie różne sprawy." />
+      reprezentowania suwerena. To są dwie zupełnie różne sprawy."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1250,7 +1372,8 @@
       państwa zawsze należy do władzy zwierzchniej narodu, niezależnie od
       kompetencji. Rozumiem inne zastrzeżenia interpretacyjne pana profesora,
       ale nie mogę przyjąć, że tamte rozstrzygnięcia przesądziły w tej sprawie.
-      Jest to nieuprawnione." />
+      Jest to nieuprawnione."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Zdrada (UW)"
@@ -1275,7 +1398,8 @@
       od narodu. Znajdowała ona swój wyraz w dotychczasowych konstytucjach.
       Uważam, że dotychczasowe sformułowanie wyczerpuje problem. Jeśli pani
       senator uważa, że ta kwestia powinna być podniesiona, to istnieje
-      możliwość jej przegłosowania." />
+      możliwość jej przegłosowania."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -1284,7 +1408,8 @@
       propozycja nowego brzmienia artykułu, zgłoszona przez senatora H. Rota:
       „Władza zwierzchnia w Rzeczypospolitej Polskiej należy do narodu, który
       sprawuje ją przez demokratycznie wybranych przedstawicieli lub
-      bezpośrednio ”." />
+      bezpośrednio ”."
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -1308,7 +1433,8 @@
       demokratyczności wyłaniania przedstawicieli powinna znaleźć się w tym
       artykule. Szukałem kompromisu, a nie dodatkowej propozycji. Jeśli tak
       państwo potraktowaliby moją propozycję, to bylibyśmy bliżsi ustalenia
-      treści art. 6." />
+      treści art. 6."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -1324,7 +1450,8 @@
       aparatu władzy i wewnętrzne hamowanie, by sfera aktywności państwa była
       ograniczona i była zapewniona szeroka swoboda działalności obywateli, to
       wówczas uważa się, że powinno być wielu nośników suwerenności. W tym
-      przypadku opowiadamy się za zasadą podziału władzy." />
+      przypadku opowiadamy się za zasadą podziału władzy."
+    />
 
     <Utterance
       speaker="Poseł Janusz Szymański (UP)"
@@ -1350,7 +1477,8 @@
       Działochy, że tylko organ o charakterze kolegialnym, pochodzący z wyborów
       powszechnych może być uwzględniony przy rozpatrywaniu tego problemu. Na
       gruncie zasady podziału władzy nie ma sporów wśród konstytucjonalistów, że
-      głowa państwa jest również nosicielem suwerenności." />
+      głowa państwa jest również nosicielem suwerenności."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Grodzicki (SLD)"
@@ -1372,7 +1500,8 @@
       wersja zakłada, że są one bezwzględnie ostateczne, a trzy pozostałe
       przewidują, że parlament ma coś jeszcze do powiedzenia, to wówczas
       stwierdzenie, że tylko Sejm i Senat są emanacją narodu, jest uzasadnione.
-      W tym znaczeniu warto by poprzeć propozycję poseł K. Łybackiej." />
+      W tym znaczeniu warto by poprzeć propozycję poseł K. Łybackiej."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1397,7 +1526,8 @@
       podziałami. Wyraża zawsze część racji większości czy mniejszości. Trzeba
       zastanowić się nad przyjęciem wniosku poseł K. Łybackiej albo pozostać
       przy sformułowaniu ogólnym i szukać dalszych interpretacji w innych
-      częściach konstytucji." />
+      częściach konstytucji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1414,7 +1544,8 @@
       komponowało z przyjętym już art. 2, który stwierdza, że Rzeczpospolita
       jest dobrem wspólnym wszystkich obywateli. Byłaby korespondencja między
       tymi artykułami. Obawy wynikają z tendencji nacjonalistycznych, a nie z
-      konieczności narzuconej przez logikę konstytucjonalizmu demokratycznego." />
+      konieczności narzuconej przez logikę konstytucjonalizmu demokratycznego."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1440,7 +1571,8 @@
       organem władzy wykonawczej. Sprawa ta będzie przedmiotem dalszych ustaleń.
       Sądzę, że nie powinniśmy ich antycypować, kiedy mówimy o fundamentalnej
       zasadzie ustroju nowożytnego państwa, o zasadzie suwerenności narodu.
-      Wydaje się, że bez tego fundamentu państwo nie może w ogóle funkcjonować." />
+      Wydaje się, że bez tego fundamentu państwo nie może w ogóle funkcjonować."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1459,7 +1591,8 @@
       konstytucja jest dokumentem zabezpieczającym przed pewnymi zagrożeniami.
       Przy braku definicji konstytucyjnej rozumienia narodu istnieje możliwość
       dokonania innej interpretacji niż naród polityczny. Określenie narodu jako
-      ogółu obywateli byłoby bardzo wskazane." />
+      ogółu obywateli byłoby bardzo wskazane."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1488,7 +1621,8 @@
       kształtowaniu i wyrażaniu woli obywateli oraz wpływaniu na politykę
       Państwa . Chciałbym zapytać, czy członkowie Komisji mają w tej sprawie
       wnioski? Czy eksperci mają uwagi do wariantów art. 10? Czy jest w tych
-      wariantach coś, co kłóci się z logiką konstytucyjną i wymagałoby zmiany?" />
+      wariantach coś, co kłóci się z logiką konstytucyjną i wymagałoby zmiany?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1503,7 +1637,8 @@
       inicjatyw obywateli i innych form quasi-demokracji bezpośredniej. Zostawmy
       możliwość uczestnictwa obywateli w życiu politycznym zasadzie wolności
       zrzeszania się. Tutaj chodzi o określenie roli partii politycznych w
-      realizacji władzy politycznej narodu." />
+      realizacji władzy politycznej narodu."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1514,7 +1649,8 @@
       artykułu bez podziału na dwa ustępy? Czy sprawa finansowania partii
       politycznych musi być ujęta osobno? Posiedzenia Komisji Konstytucyjnej ZN
       oma Rozumiem, że chodzi o elegancję tekstu. Wycofuję uwagę, skoro nie jest
-      to możliwe." />
+      to możliwe."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -1529,7 +1665,8 @@
       być zamieszczona w konstytucji? Czy ten problem nie powinien być
       uregulówany w ustawie o partiach politycznych? Czy sposób finansowania
       partii politycznych jest tak istotną kwestią, która musi być zapisana w
-      konstytucji?" />
+      konstytucji?"
+    />
 
     <Utterance
       speaker="Senator Henryk Rot (SLD)"
@@ -1541,7 +1678,8 @@
       jest materią konstytucyjną. Czy tej kwestii nie można uregulować w ustawie
       o partiach politycznych? Uważam, że jest to materia do uregulowania
       ustawowego. Prosiłbym, żeby eksperci wypowiedzieli się na ten temat.
-      Uważam, że lepiej nie wyrazimy tego, co jest zawarte w ust. l." />
+      Uważam, że lepiej nie wyrazimy tego, co jest zawarte w ust. l."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1565,7 +1703,8 @@
       życia publicznego, które mogą deformować wyrażanie i realizowanie woli
       narodu, sądzę, że niczym złym nie byłoby pozostawienie tego ustępu.
       Posiedzenia Komisji Konstytucyjnej ZN Oznaczałoby to także, że partie
-      polityczne nie mogłyby się opierać przed ujawnieniem swoich funduszy." />
+      polityczne nie mogłyby się opierać przed ujawnieniem swoich funduszy."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1594,7 +1733,8 @@
       miejscu następującą formułę: „Obywatele wpływają na demokratyczne
       wykonywanie władzy publicznej za pośrednictwem partii politycznych”.
       Gwarancje wolności tworzenia i działania partii przeniósłbym do
-      postanowień dotyczących wolności zrzeszania się." />
+      postanowień dotyczących wolności zrzeszania się."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1603,7 +1743,8 @@
       władztwo dokonuje się nie wyłącznie poprzez partie polityczne. Różne są
       możliwości obywateli w tej dziedzinie, a to brzmienie artykułu
       oznaczałoby, że tylko poprzez partie polityczne można uczestniczyć w
-      sprawowaniu władzy." />
+      sprawowaniu władzy."
+    />
 
     <Utterance
       speaker="Poseł Longin Pastusiak (SLD)"
@@ -1616,7 +1757,8 @@
       wystarczy pierwsze zdanie: „Rzeczpospolita Polska gwarantuje wolność
       tworzenia i działania partii politycznych”. Działanie obejmuje także
       udział w wyrażaniu opinii, udział w wyborach itd. Ust. 2 nadaje się do
-      ustawy o partiach politycznych." />
+      ustawy o partiach politycznych."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1625,7 +1767,8 @@
       powiedzieć. Opowiadam się za tym, że jeżeli w tym miejscu umieścimy
       artykuł o partiach politycznych, to powinien określać on tylko ich funkcję
       jako elementu sprawowania władzy zwierzchniej, a nie należy określać zasad
-      finansowania partii." />
+      finansowania partii."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1646,7 +1789,8 @@
       partii politycznych”. Mamy element jawnego działania i finansowania.
       Przepis ten nie określałby jednocześnie roli partii politycznych w
       zwierzchnictwie. Potem przeszlibyśmy do artykułów mówiących o tym, jak
-      władza jest ograniczona i jak jest podzielona." />
+      władza jest ograniczona i jak jest podzielona."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Grodzicki (SLD)"
@@ -1670,7 +1814,8 @@
       swoich kandydatów lub partycypować w koalicjach wyborczych? Państwowa
       Komisja Wyborcza odpowiadała na ten problem negatywnie. Trzeba
       jednoznacznie o tym przesądzić, ale w dalszym przepisach konstytucji,
-      mówiących o prawie do zrzeszania Się." />
+      mówiących o prawie do zrzeszania Się."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -1698,7 +1843,8 @@
       Demokratycznej. W art. 7 mówi się wyraźnie, że partie polityczne zrzeszają
       na zasadach dobrowolności obywateli Rzeczypospolitej w celu wpływania
       metodami demokratycznymi na sprawowanie władzy publicznej. Rozumiem, że w
-      wyniku zmiany poglądu nastąpiło odstępstwo od tej propoZYCJI." />
+      wyniku zmiany poglądu nastąpiło odstępstwo od tej propoZYCJI."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1708,7 +1854,8 @@
       rodzi takie ujęcie, więc zmieniliśmy treść tego artykułu. W aktualnym
       przedłożeniu naszego klubu art. 7 brzmi: „Partie polityczne służą
       obywatelom do wpływania metodami demokratycznymi na działalność władzy
-      publicznej ." />
+      publicznej ."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1730,7 +1877,8 @@
       dobrowolności i równości obywateli Rzeczypospolitej Polskiej w celu
       wpływania metodami demokratycznymi na kształtowanie polityki Państwa. W
       ust. 2 jest mowa, że o sprzeczności z konstytucją celów działalności
-      partii politycznej orzeka Trybunał Konstytucyjny." />
+      partii politycznej orzeka Trybunał Konstytucyjny."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1748,7 +1896,8 @@
       działania i finansowania partii politycznych. Spełnione muszą być dwa
       istotne warunki: partie polityczne muszą być rejestrowane i muszą określać
       swoje cele. Do tego dochodzi zasada jawności ich finansowania i procedura
-      delegalizacji partii politycznych przez Trybunał Konstytucyjny." />
+      delegalizacji partii politycznych przez Trybunał Konstytucyjny."
+    />
 
     <Utterance
       speaker="Senator Jerzy Madej (KD)"
@@ -1767,7 +1916,8 @@
       przekonaniu nieunikniony będzie powrót do partii politycznych w
       rozdziałach o wolnościach i prawach obywatelskich oraz o zasadach
       działania organów władzy. Będą tam zamieszczone szczegółowe przepisy
-      dotyczące funkcjonowania partii politycznych." />
+      dotyczące funkcjonowania partii politycznych."
+    />
 
     <Utterance
       speaker="Senator Piotr Andrzejewski (NSZZ „S”)"
@@ -1792,7 +1942,8 @@
       Pastusiaka, aby tę materię uregulować w rozdziale o prawach i wolnościach
       obywatelskich oraz we fragmencie dotyczącym kompetencji odpowiednich
       organów orzekających o legalności bądź nielegalności partii politycznych.
-      W tym wypadku chodzi o kompetencje Sądu Najwyższego." />
+      W tym wypadku chodzi o kompetencje Sądu Najwyższego."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP dr. Władysław Kulesza"
@@ -1808,14 +1959,16 @@
       Pozostałe kwestie dotyczące m.in. kompetencji Trybunału Konstytucyjnego
       mogłyby być umieszczone dalej. Senator P. Andrzejewski pytał, co zrobić z
       innymi formami aktywności obywateli. Art. 41 chyba powinien
-      satysfakcjonować." />
+      satysfakcjonować."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Proszę o przedłożenie propozycji na piśmie. Rozumiem, że prof. W.
       Osiatyński przedłoży swój projekt na piśmie. Czy ktoś spośród członków
-      Komisji gotów jest podjąć inicjatywę prof. W. Osiatyńskiego?" />
+      Komisji gotów jest podjąć inicjatywę prof. W. Osiatyńskiego?"
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1823,7 +1976,8 @@
       text="Jeżeli prof. W. Osiatyński pozwoli, to ja bardzo chętnie podejmę
       pańską inicjatywę i zgłoszę odpowiedni wniosek. Wiele konstytucji
       podkreśla doniosłą rolę partii politycznych w mechanizmie
-      urzeczywistniania władzy zwierzchniej narodu." />
+      urzeczywistniania władzy zwierzchniej narodu."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Ciemniewski (UW)"
@@ -1846,14 +2000,16 @@
       K. Działochy stwierdzam, że jestem w stanie wyliczyć kilka przykładów,
       gdzie treści zawarte w części ogólnej powtarzają się w przepisach
       dotyczących organizacji i środków ochrony prawnej. Nie widziałbym w tym
-      przypadku nic sprzecznego z zasadami prawidłowej legislacji." />
+      przypadku nic sprzecznego z zasadami prawidłowej legislacji."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Rozumiem, że zakończyliśmy wymianę poglądów na temat treści
       zawartych w art. 10 projektu podkomisji. Do rozstrzygnięcia mamy kilka
-      kwestii." />
+      kwestii."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -1882,7 +2038,8 @@
       politycznych, skrajnie prawicowych lub skrajnie lewicowych, które będą
       dążyły do obalenia porządku konstytucyjnego w drodze rewolucyjnej. Czy
       chcemy wbudować w treść tego przepisu jawność działania i finansowania
-      partii politycznych?" />
+      partii politycznych?"
+    />
 
     <Utterance
       speaker="Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji
@@ -1911,7 +2068,8 @@
       o tym artykule, ale powrócę do niego w momencie, kiedy będziemy mówili o
       wolności stowarzyszania się. Przypominam, że postulujemy, by o zgodności
       programu i działalności partii politycznych z konstytucją decydował Sąd
-      Najwyższy." />
+      Najwyższy."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -1926,7 +2084,8 @@
       wnioski — 1 przegłosowanie wariantów art. 10. Następnie będziemy głosować
       nad wnioskiem, który zgłosiła poseł K. Łybacka w sprawie innej redakcji
       tego artykułu oraz wnioskiem dr W. Kuleszy dotyczącym także innej redakcji
-      przepisu." />
+      przepisu."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1934,7 +2093,8 @@
       text="Zakaz działania za pomocą środków zbrojnych i sprzecznych z prawem
       jest zawarty w przepisie art. 41 ust. 4: „Zakazane są zrzeszenia, których
       cel lub działalność stanowi przestępstwo. O zakazie działania takiego
-      zrzeszenia orzeka sąd”. Partia polityczna jest zrzeszeniem." />
+      zrzeszenia orzeka sąd”. Partia polityczna jest zrzeszeniem."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1942,7 +2102,8 @@
       text="W propozycji prof. W. Osiatyńskiego, którą z całą przyjemnością
       przejęłam, znajduje się przepis o legalnie działających partiach
       politycznych. Sprawa jest oczywista, bo chodzi o legalnie działające
-      partie." />
+      partie."
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -1957,7 +2118,8 @@
       ramach porządku konstytucyjnego, ale wewnątrz niej tworzy się frakcja,
       która popycha partię w kierunku obalenia porządku konstytucyjnego. Chodzi
       o to, żeby legalnie wobec takiej partii można było rozpocząć proces przed
-      Trybunałem Konstytucyjnym, który orzeka w tej sprawie." />
+      Trybunałem Konstytucyjnym, który orzeka w tej sprawie."
+    />
 
     <Utterance
       speaker="Poseł Jerzy Wiatr (SLD)"
@@ -1972,7 +2134,8 @@
       ustalałoby, które partie są komunistyczne, a które nie? Bliski dostojnemu
       przedstawicielowi projektu obywatelskiego „Tygodnik Solidarnz reguły o
       SdRP pisze jako o partii komunistycznej. Czy panowie chcecie iść tak
-      daleko i nas też zdelegalizować, czy też będziecie łagodniejsi?" />
+      daleko i nas też zdelegalizować, czy też będziecie łagodniejsi?"
+    />
 
     <Utterance
       speaker="Przedstawiciel pełnomocnika obywatelskiego projektu konstytucji
@@ -1988,7 +2151,8 @@
       Przypomnę, że niemiecka konstytucja zakazuje działalności partii
       politycznych o pewnym rodzaju programu. Jest tam praktyka stosowania
       kryterium przy orzekaniu o legalności czy nielegalności działania partii
-      politycznych. Można zobaczyć, jak Niemcy to robią." />
+      politycznych. Można zobaczyć, jak Niemcy to robią."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
@@ -2000,7 +2164,8 @@
       demokratyczno-liberalną jest partia W. Żyrinowskiego, co stanowi pewien
       problem z punktu widzenia logiki reprezentowanej propozycji pana Drozdka.
       Trzeba szukać precyzyjnych określeń, które pozwalałyby odpowiedniemu
-      trybunałowi określić, czy działalność partii narusza reguły konstytucyjne." />
+      trybunałowi określić, czy działalność partii narusza reguły konstytucyjne."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2009,7 +2174,8 @@
       satysfakcjonowałoby prof. A. Rzeplińskiego: „Kształtowanie i wyrażanie
       woli obywateli w zakresie realizacji władzy zwierzchniej narodu odbywa się
       za pośrednictwem jawnie finansowanych partii politycznych działających w
-      ramach porządku konstytucyjnego Rzeczypospolitej Polskiej”?" />
+      ramach porządku konstytucyjnego Rzeczypospolitej Polskiej”?"
+    />
 
     <Utterance
       speaker="Przedstawiciel Prezydenta RP, prof. Andrzej Rzepliński"
@@ -2020,14 +2186,15 @@
       stosowania przemocy w celu zmiany ustroju. Jeżeli „związek prawdziwych
       komunistów” zakłada, że w drodze legalnych wyborów zdobędzie władzę i
       zmieni ustrój, to proszę bardzo. Chodzi o program, a nie o nazwę, bo
-      inaczej wprowadzilibyśmy anarchię." />
+      inaczej wprowadzilibyśmy anarchię."
+    />
 
     <Utterance
       speaker="Poseł Aleksander Kwaśniewski (SLD)"
       imgPath="/images/kk-speakers/KwasniewskiAleksander.png"
       text="Trzeba byłoby do konstytucji dołączyć aneks nazw. Mamy wnioski,
       które są składane do sekretariatu. Przypominam, że obrady wznowimy po
-      przerwie o godz. 15. [Przerwa]" />
-
+      przerwie o godz. 15. [Przerwa]"
+    />
   </div>
 </div>

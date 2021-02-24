@@ -1,17 +1,41 @@
 <script>
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
-  import Footer from "../../../components/Footer.svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja");
+  };
+
+  onMount(() => {
+    prefetch("/komisja");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
+  });
 </script>
 
 <svelte:head>
   <title>Biuletyn nr 13</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-
   <h1 class="text-sm font-thin sm:text-xl lg:text-2xl">
     Posiedzenia Komisji Konstytucyjnej ZN (7, 8 i 9.02.1995 r.)
   </h1>
@@ -36,7 +60,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/13/1">
+      href="komisja/13/1"
+    >
       <li>
         <p class="font-semibold">Dzień 1</p>
         <p class="font-thin">7 lutego</p>
@@ -45,7 +70,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/13/2.1">
+      href="komisja/13/2.1"
+    >
       <li>
         <p class="font-semibold">Dzień 2 - cz. I</p>
         <p class="font-thin">8 lutego</p>
@@ -54,7 +80,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/13/2.2">
+      href="komisja/13/2.2"
+    >
       <li>
         <p class="font-semibold">Dzień 2 - cz. II</p>
         <p class="font-thin">8 lutego</p>
@@ -63,7 +90,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/13/3">
+      href="komisja/13/3"
+    >
       <li>
         <p class="font-semibold">Dzień 3</p>
         <p class="font-thin">9 lutego</p>
@@ -72,7 +100,8 @@
     <a
       class="w-24 py-4 my-1 mr-4 font-semibold text-center text-gray-800 rounded-lg shadow-lg sm:p-4 sm:text-lg sm:w-40 hover:bg-gray-100"
       rel="prefetch"
-      href="komisja/13/prasa">
+      href="komisja/13/prasa"
+    >
       <li>
         <p>Prasa</p>
       </li>
@@ -150,11 +179,10 @@
       W posiedzeniu udział wziął wicemarszałek Sejmu Aleksander Małachowski oraz
       przedstawiciele:
       <br />
-      Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej Rzepliński, dr
-      Władysław Kulesza i
+      Prezydenta RP — prof. Michał Pietrzak, prof. Andrzej Rzepliński, dr Władysław
+      Kulesza i
       <br />
       Rady Ministrów — prof. Stanisław Gebethner, prof. Andrzej Gwiżdż.
     </p>
   </div>
-
 </div>
