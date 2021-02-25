@@ -9,9 +9,7 @@
   let eventManager;
   let showDropdown = false;
 
-  const onSwipeLeft = () => {
-    showDropdown = true;
-  };
+  const onSwipeLeft = () => (showDropdown = true);
 
   const onSwipeRight = () => {
     if (showDropdown) showDropdown = false;
@@ -39,8 +37,7 @@
         }
       }
     }
-    prefetch("/komisja/14/podkomisja");
-    prefetch("/komisja/14/podkomisja/2");
+    prefetch("/komisja/14/podkomisja/1");
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
