@@ -81,7 +81,7 @@
   <div class="flex justify-between">
     <a rel="prefetch" href="/komisja/14/2">
       <svg
-        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+        class="w-5 h-5 ml-3 text-gray-900 fill-current sm:w-6"
         viewBox="0 0 20 20"
       >
         <path
@@ -1472,8 +1472,7 @@
     <Utterance
       speaker="Poseł Krzysztof Kamiński (KPN)"
       imgPath="/images/kk-speakers/KaminskiKrzysztof.png"
-      text="Może teraz dokonamy wyboru pomiędzy wnioskami podkomisji i senatora 5.
-        Pastuszki. nm Z i e m0 w r — ai"
+      text="Może teraz dokonamy wyboru pomiędzy wnioskami podkomisji i senatora Pastuszki."
     />
 
     <Utterance
@@ -1491,8 +1490,8 @@
     />
 
     <Utterance
-      speaker="Senator Jan Madej (KD)"
-      imgPath="/images/kk-speakers/MadejJan.png"
+      speaker="Senator Jerzy Madej (KD)"
+      imgPath="/images/kk-speakers/MadejJerzy.png"
       text="Z wypowiedzi ekspertów i przebiegu dyskusji wynikało, że nawet gdyby
         art. 13 ust. 2 w wersji podkomisji został przeredagowany, to i tak
         powinien się on znaleźć w innym miejscu — w innym artykule, a może nawet

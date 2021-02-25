@@ -83,7 +83,7 @@
   <div class="flex justify-between">
     <a rel="prefetch" href="/komisja/14/1">
       <svg
-        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+        class="w-5 h-5 ml-3 text-gray-900 fill-current sm:w-6"
         viewBox="0 0 20 20"
       >
         <path
@@ -96,7 +96,7 @@
 
     <a rel="prefetch" href="/komisja/14/3">
       <svg
-        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
+        class="w-5 h-5 ml-3 text-gray-900 fill-current sm:w-6"
         viewBox="0 0 20 20"
       >
         <path
