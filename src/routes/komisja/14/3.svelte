@@ -87,7 +87,7 @@
         />
       </svg>
     </a>
-    <a rel="prefetch" href="/komisja/14/podkomisja/1">
+    <!-- <a rel="prefetch" href="/komisja/14/podkomisja/1">
       <svg
         class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
         viewBox="0 0 20 20"
@@ -97,7 +97,7 @@
           c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
         />
       </svg>
-    </a>
+    </a> -->
   </div>
 </div>
 

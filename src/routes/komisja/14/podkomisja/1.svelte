@@ -1,9 +1,23 @@
 <script>
-  import { onMount } from "svelte";
   import { fly } from "svelte/transition";
   import Nav from "../../../../components/Nav.svelte";
-  import Footer from "../../../../components/Footer.svelte";
   import Utterance from "../../../../components/Utterance.svelte";
+  import { EventManager } from "mjolnir.js";
+  import { onDestroy, onMount } from "svelte";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/podkomisja/2");
+  };
+
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/komisja/14/podkomisja");
+  };
 
   onMount(() => {
     const protocol = window.document.getElementById("protocol");
@@ -13,34 +27,46 @@
     for (let nodeIdx in arr) {
       if (nodeIdx % 2 !== 0) {
         // odd idx utterances
-        arr[nodeIdx].classList.add("justify-end"); // whole
-        arr[nodeIdx].lastChild.classList.add("order-1"); // text
-        arr[nodeIdx].firstChild.classList.add("order-2"); // img
+        arr[nodeIdx].classList?.add("justify-end"); // whole
+        arr[nodeIdx].lastChild.classList?.add("order-1"); // text
+        arr[nodeIdx].firstChild.classList?.add("order-2"); // img
         if (window.outerWidth > 640) {
-          arr[nodeIdx].firstChild.classList.add("-ml-4"); // img
+          arr[nodeIdx].firstChild.classList?.add("-ml-4"); // img
         }
       } else {
         // even idx utterances
         if (window.outerWidth > 640) {
-          arr[nodeIdx].firstChild.classList.add("-mr-4"); // img
+          arr[nodeIdx].firstChild.classList?.add("-mr-4"); // img
         }
       }
+    }
+    prefetch("/komisja/14/podkomisja");
+    prefetch("/komisja/14/podkomisja/2");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 </script>
 
 <svelte:head>
-  <title>Dzień 3 - Biuletyn nr 14</title>
+  <title>Podkomisja cz. I - Biuletyn nr 14</title>
 </svelte:head>
 
-<Nav segment={'info'} />
+<Nav {showDropdown} segment={"info"} />
 
 <div class="flex justify-between pt-4 pb-8 mb-8 border-b">
-
   <div>
     <h1
       class="text-lg font-thin sm:text-xl lg:text-2xl"
-      in:fly={{ x: -50, duration: 1000 }}>
+      in:fly={{ x: -50, duration: 1000 }}
+    >
       Obrady w dniu 22 lutego 1995 r. - podkomisja cz. I
     </h1>
     <!-- <h5>
@@ -56,30 +82,35 @@
   <div class="flex justify-between">
     <a rel="prefetch" href="/komisja/14/3">
       <svg
-        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        class="w-5 h-5 ml-3 text-gray-900 fill-current sm:w-6"
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.891,17.418c0.268,0.272,0.268,0.709,0,0.979s-0.701,0.271-0.969,0l-7.83-7.908
           c-0.268-0.27-0.268-0.707,0-0.979l7.83-7.908c0.268-0.27,0.701-0.27,0.969,0c0.268,0.271,0.268,0.709,0,0.979L6.75,10L13.891,17.418
-          z" />
+          z"
+        />
       </svg>
     </a>
     <a rel="prefetch" href="/komisja/14/podkomisja/2">
       <svg
-        class="w-5 h-5 h-6 ml-3 text-gray-900 fill-current sm:w-6"
-        viewBox="0 0 20 20">
+        class="w-5 h-5 ml-3 text-gray-900 fill-current sm:w-6"
+        viewBox="0 0 20 20"
+      >
         <path
           d="M13.25,10L6.109,2.58c-0.268-0.27-0.268-0.707,0-0.979c0.268-0.27,0.701-0.27,0.969,0l7.83,7.908
-          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z" />
+          c0.268,0.271,0.268,0.709,0,0.979l-7.83,7.908c-0.268,0.271-0.701,0.27-0.969,0c-0.268-0.269-0.268-0.707,0-0.979L13.25,10z"
+        />
       </svg>
     </a>
   </div>
 </div>
+
 <div in:fly={{ y: 100, duration: 1000 }}>
   <div
     id="protocol"
-    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl">
-
+    class="text-xs leading-relaxed text-justify sm:text-base md:text-md lg:text-lg xl:text-xl"
+  >
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
@@ -98,7 +129,8 @@
       dostarczyłoby satysfakcji wnioskodawcom punktu dotyczącego gospodarki
       rodzinnej. Prosiłbym państwa o skorzystanie z chwili czasu i wymienienie
       poglądów na ten temat. Szczególnie zwracam się do ekspertów. Czy możemy
-      deklarować równość sektorów w odniesieniu do tego aspektu sprawy?" />
+      deklarować równość sektorów w odniesieniu do tego aspektu sprawy?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -108,21 +140,24 @@
       własnościowy. Zakaz uprzywilejowania i zakaz dyskryminacji mieści się w
       ogólnej formule równości. Niewątpliwie w konstytucji znajdzie się zasada
       równości, z której będzie można wydedukować odpowiednie konsekwencje dla
-      różnych podmiotów gospodarczych." />
+      różnych podmiotów gospodarczych."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Chcemy dopuścić nierówność podmiotów gospodarczych w pewnych
       aspektach. Z pewnością chcielibyśmy, żeby polityka gospodarcza stwarzała
-      szczególnie przychylne warunki dla drobnych przedsiębiorstw." />
+      szczególnie przychylne warunki dla drobnych przedsiębiorstw."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
       imgPath="/images/kk-speakers/DzialochaKazimierz.png"
       text="Zasada równości dopuszcza preferencje dla najsłabszych. W
       orzecznictwie Trybunału Konstytucyjnego jest to bardzo wyraźnie
-      eksponowane." />
+      eksponowane."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -131,7 +166,8 @@
       najsłabsze. Niekoniecznie tak jest. Możemy chcieć preferować podmioty z
       innych ważnych powodów, np. ze wzęględu na regionalne bezrobocie. Czy
       eksperci skłaniają się do poglądu, że nie ma potrzeby podejmowania tego
-      problemu?" />
+      problemu?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -142,7 +178,8 @@
       to z generalnej zasady. Niepokoiły mnie preferencje dla gospodarstw
       rodzinnych. Mielibyśmy do czynienia z nierównością podmiotów
       gospodarczych, gdybyśmy chcieli szczególnie preferować rodzinne
-      gospodarstwa chłopskie." />
+      gospodarstwa chłopskie."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -166,7 +203,8 @@
       kontrowersje, które były wczoraj sygnalizowane odnośnie do pojęcia
       „podmiot gospodarczy”. Można wprowadzić pojęcie każdego prowadzącego
       działalność gospodarczą. Uważam, że taki powinien być kierunek naszych
-      poszukiwań." />
+      poszukiwań."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -187,13 +225,15 @@
       początku chciałbym się poradzić, jaki powinniśmy przyjąć tryb postępowania
       z tymi wnioskami. Uważam, że nie możemy ich ubezwłasnowolnić, możemy tylko
       wypracować i rekomendować Komisji jakieś warianty. Czy macie państwo w tej
-      sprawie opinie?" />
+      sprawie opinie?"
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="O jakich mówimy wariantach? Czy o tych, które mamy w projekcie
-      jednolitym, czy o innych?" />
+      jednolitym, czy o innych?"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -208,7 +248,8 @@
       jeszcze nie głosowała nad tym przepisem, więc wnioski mniejszości nie
       mogły być zgłoszone. Proponuję przyznać podkomisji mandat dość szeroki i
       zobaczymy, co wyniknie na posiedzeniu Komisji po przedłożeniu
-      sprawozdania." />
+      sprawozdania."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -242,18 +283,21 @@
       innych kościołów oraz związków wyznaniowych określa ustawa uchwalona na
       podstawie umowy zawartej przez rząd z ich właściwymi przedstawicielami”.
       Boję się, że jest to sprawa, która przy innych sformułowaniach może stać
-      się zasadniczym elementem referendum konstytucyjnego." />
+      się zasadniczym elementem referendum konstytucyjnego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Spodziewałem się autopoprawki." />
+      text="Spodziewałem się autopoprawki."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="Jest ona w ust. 3: „Stosunki między państwem a Kościołem katolickim
-      określa umowa międzynarodowa ze Stolicą Apostolską i ustawy”." />
+      określa umowa międzynarodowa ze Stolicą Apostolską i ustawy”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -262,12 +306,14 @@
       Autokefalicznego Kościoła Prawosławnego, ks. bp Jeremiasz: Mam uwagę
       redakcyjną do ust. 4. Dobrze byłoby w tym ustępie zastosować liczbę mnogą
       do sformułowania „określają ustawy”. W przeciwnym razie może to być
-      zrozumiane jako jedna ustawa dla wszystkich kościołów." />
+      zrozumiane jako jedna ustawa dla wszystkich kościołów."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
-      text="Trzeba zapytać się ekspertów, czy zachodzi takie niebezpieczeństwo." />
+      text="Trzeba zapytać się ekspertów, czy zachodzi takie niebezpieczeństwo."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -293,7 +339,8 @@
       dodaniu w ust. 3 pojęcia ustawy i po sugestii ks. bpa Jeremiasza, by w
       ust. 4 ustawy byty określone w liczbie mnogiej, bardzo gorąco proszę
       podkomisję o przyjęcie dla dobra sprawy tej wersji, która byłaby
-      przedstawiona całej Komisji Konstytucyjnej." />
+      przedstawiona całej Komisji Konstytucyjnej."
+    />
 
     <Utterance
       speaker="Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
@@ -377,7 +424,8 @@
       na podstawie umowy. Gdybyście państwo zwrócili uwagę na wyjaśnienia
       dotyczące tych zawiłości, to byłbym bardzo szczęśliwy. Mam serdeczną
       prośbę o poparcie i łaskawe uwzględnienie tego projektu także ze strony
-      kościoła, który mam zaszczyt reprezentować." />
+      kościoła, który mam zaszczyt reprezentować."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -521,7 +569,8 @@
       wniosków sądowych. Zależy nam na tym, by mocno podkreślić, iż ustawa o
       stosunku państwa do danego kościoła nie może być narzucona. W konstytucji
       należy wyraźnie określić, że chodzi o porozumienie, a w jakiej ma to
-      nastąpić formie, to już jest problem dla ekspertów." />
+      nastąpić formie, to już jest problem dla ekspertów."
+    />
 
     <Utterance
       speaker="Senator Stefan Pastuszka (PSL)"
@@ -549,7 +598,8 @@
       był konfliktogenny. Chciałbym bronić wspólnej propozycji zgłoszonej przez
       posła J. Wojciechowskiego, posła A. Bentkowskiego i mnie. Wydaje mi się,
       że nasza propozycja zawiera idee, które są we wniosku posła T.
-      Mazowieckiego." />
+      Mazowieckiego."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -696,7 +746,8 @@
       regulacji stosunków. W Polsce jest on może więcej niż możliwy, bo
       właściwy. Wyraz „nadto”, jak niektórzy sugerują, nie jest odpowiedni, bo
       wskazywałby, że umowa jest źródłem prawa niższego rzędu od ustawy. Takich
-      nieporozumień nie należałoby wprowadzać do konstytucji." />
+      nieporozumień nie należałoby wprowadzać do konstytucji."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -709,7 +760,8 @@
       „na podstawie umowy zawartej przez rząd z ich właściwymi
       przedstawicielami” na sformułowanie: „po porozumieniu”. Byłaby to bardzo
       istotna różnica. Chciałbym, by wariant ten był dokładnie sprecyzowany,
-      żebyśmy wiedzieli, do czego się odnosimy." />
+      żebyśmy wiedzieli, do czego się odnosimy."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
@@ -765,7 +817,8 @@
       jak również niezależność kościołów przy wykonywaniu swych funkcji,
       wzajemne poszanowanie w stosunkach państwo-kościół. Ta propozycja wychodzi
       naprzeciw właściwemu uregulowaniu omawianej problematyki, tym bardziej że
-      uzgodniliśmy już, iż w tym rozdziale będą tylko zasady ustrojowe." />
+      uzgodniliśmy już, iż w tym rozdziale będą tylko zasady ustrojowe."
+    />
 
     <Utterance
       speaker="Poseł Wojciech Borowik (UP)"
@@ -789,7 +842,8 @@
       związku z tym konstytucyjnym przepisem państwo polskie będzie
       ubezwłasnowolnione w sprawie wypowiedzenia konkordatu? Chciałbym uzyskać
       na te pytania konkretne odpo wiedzi, bo sądzę, że będą ore rzutowały na
-      naszą ocenę przedstawionej propozycji." />
+      naszą ocenę przedstawionej propozycji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -833,14 +887,16 @@
       tak widzę te problemy i dlatego się zastrzegłem, że mogą oddziaływać
       względy osobiste. Moim zdaniem, chodzi tu o autonomię i niezależność w sto
       sunkach między państwem i kościołem, a nie o autonomiczność 1 niezależność
-      państwa. Zakres autonomii i niezależności jest tylko na tym obszarze." />
+      państwa. Zakres autonomii i niezależności jest tylko na tym obszarze."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Pojęcie autonomii i niezależności odniósł pan profesor w stosunku do
       kościoła. Mówił pan wyraźnie o prawie stanowienia własnych norm. Inaczej
-      traktuje pan to pojęcie w stosunku do państwa." />
+      traktuje pan to pojęcie w stosunku do państwa."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -888,14 +944,16 @@
       suwerenności państwa. Umowa zawierana jest z rządem. Jeśli zawarł on umowę
       niezgodną z wolą suwerena reprezentowanego w parlamencie, to parlament nie
       jest związany obowiązkiem wydania takiej ustawy. Nie mógłby wydać ustawy o
-      innej treści niż ta, która wynika z zawartego porozumienia czy umowy." />
+      innej treści niż ta, która wynika z zawartego porozumienia czy umowy."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Może być taka sytuacja, że jeden rząd zawiera porozumienie. Następny
       parlament jest związany takim porozumieniem, albo musi od początku
-      zawierać umowę." />
+      zawierać umowę."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
@@ -904,7 +962,8 @@
       kościołem w Polsce reguluje ustawa z 1989 r., która określa wszelkie prawa
       Kościoła rzymskokatolickiego w Polsce. Dla mnie konkordat jest tylko umową
       międzynarodową między dwoma państwami, więc dlaczego mówi pan profesor, że
-      art. 9 nie konsumuje tego zagadnienia? Czy dobrze zrozumiałam?" />
+      art. 9 nie konsumuje tego zagadnienia? Czy dobrze zrozumiałam?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -919,7 +978,8 @@
       Konkordat nie musi dotyczyć tylko stosunków między państwem i Stolicą
       Apostolską jako podmiotem prawa międzynarodowego, ale może — jeśli zechce
       — wejść w stosunki wewnętrzne głębiej niż z samej nazwy „umowa
-      międzynarodowa” czy „umowa międzypaństwowa” by to wynikało." />
+      międzynarodowa” czy „umowa międzypaństwowa” by to wynikało."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -954,13 +1014,15 @@
       funkcji”. Jest tu pewne niebezpieczeństwo, ale mamy przecież cały
       pozostały system prawny, w tym prawo kame i administracyjne, które pozwala
       na ingerencję państwa w sytuacji, gdy działalność kościołów wykracza poza
-      pewne granice." />
+      pewne granice."
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="Co pan profesor rozumie pod pojęciem „swych funkcji”? Jak będzie
-      należało to interpretować?" />
+      należało to interpretować?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -978,25 +1040,29 @@
       albo przymus. Na ogół odnosi się ta sprawa do przyszłości. Rzadko używamy
       gramatycznego czasu przyszłego, ale przepisy prawa ze swej istoty odnoszą
       się do przyszłości, a nie do teraźniejszości. Tak więc strona gramatyczna
-      jest trochę mniej ważna." />
+      jest trochę mniej ważna."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Czy pan profesor odniósł swoją uwagę do ust. 3 uzupełnionego już o
-      wyrazy „I ustawy?" />
+      wyrazy „I ustawy?"
+    />
 
     <Utterance
       speaker="Poseł Lidia Błądek (PSL)"
       imgPath="/images/kk-speakers/BladekLidia.png"
       text="W sprawie formalnej. Nie ma wszystkich ekspertów, więc prosiłabym,
-      żeby pozostali wypowiedzieli się na ten temat na piśmie." />
+      żeby pozostali wypowiedzieli się na ten temat na piśmie."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Musimy naszych ekspertów chronić przed zadaniami zbyt daleko
-      idącymi." />
+      idącymi."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1006,7 +1072,8 @@
       Ekspertyz bardzo poważnych jest pięć. Wiem, że nie wszyscy byli zadowoleni
       z doboru ekspertów, ale w tych ekspertyzach reprezentowane są wszystkie
       opcje prawnicze i światopoglądowe. Proszę nam teraz nie kazać pisać czegoś
-      w trybie doraźnym, trzeba te dokumenty przeczytać." />
+      w trybie doraźnym, trzeba te dokumenty przeczytać."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Paweł Sarnecki"
@@ -1014,7 +1081,8 @@
       text="Zostało postawione pytanie: czy Polska mogłaby wypowiedzieć
       konkordat? Jak każda umowa międzynarodowa konkordat podlega ogólnym
       zasadom prawa międzynarodowego, skodyfikowanym zasadom prawa traktatowego.
-      Wypowiedzenie konkordatu jest do pomyślenia i możliwe." />
+      Wypowiedzenie konkordatu jest do pomyślenia i możliwe."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1024,7 +1092,8 @@
       ogólne zasady to umożliwiają. Jeżeli nie zakończymy obrad decyzją, to
       pójdziemy na posiedzenie Komisji Konstytucyjnej i oświadczymy, że nie
       doszliśmy do żadnych konkluzji. Tak możemy zrobić, jeżeli będzie taka wola
-      podkomisji." />
+      podkomisji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Wiktor Osiatyński"
@@ -1129,7 +1198,8 @@
       przepis z rozdziału o prawach obywatelskich mówiący o wolności sumienia i
       wyznania. Nie jest konieczne uwzględnienie kwestii filozoficznych w tym
       artykule. W ust. 2 projektu posła T. Mazowieckiego też postawiłbym kropkę
-      po zwrocie „...dla dobra wspólnego”." />
+      po zwrocie „...dla dobra wspólnego”."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -1231,7 +1301,8 @@
       wyraz „określa”. Ci, którzy w terminie „określa” chcieliby widzieć coś
       innego są w błędzie. Jeżeli wyraz „określa” zostanie zachowany, to musimy
       zdawać sobie sprawę, że oznacza to nakaz, a więc przymus zawarcia takiej
-      umowy." />
+      umowy."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1240,7 +1311,8 @@
       Podkomisja podstaw ustroju politycznego... (22.02.1995 r. — 14) 89
       tualnej. Sugerowałbym, żebyśmy zaproponowali Komisji Konstytucyjnej, by
       nasza podkomisja pracowała jeszcze nad tym problemem. Materiału do
-      sprawozdania jeszcze nie mamy, a już jesteśmy opóźnieni." />
+      sprawozdania jeszcze nie mamy, a już jesteśmy opóźnieni."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1251,7 +1323,8 @@
       konstytucja nakazać Stolicy Apostolskiej zawarcia konkordatu. Zwracam
       uwagę, że konstytucja marcowa z 1921 r. zawierała dokładnie taki sam wyraz
       „określa”, a konkordat został zawarty 5 lat później. Mógłby nie zostać w
-      ogóle zawarty." />
+      ogóle zawarty."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1259,10 +1332,12 @@
       text="Nie mamy czasu na wymianę zdań, bo musimy wrócić na plenarne
       posiedzenie Komisji Konstytucyjnej. Czy państwo się zgodzicie, żeby nasza
       podkomisja jeszcze raz zebrała się w celu omówienia tej sprawy? Nie ma
-      sprzeciwów. Zamykam posiedzenie." />
+      sprzeciwów. Zamykam posiedzenie."
+    />
 
     <p
-      class="px-2 py-2 mt-8 rounded-lg shadow-lg sm:px-12 sm:py-6 lg:px-16 xl:py-8">
+      class="px-2 py-2 mt-8 rounded-lg shadow-lg sm:px-12 sm:py-6 lg:px-16 xl:py-8"
+    >
       Dnia 22 lutego 1995 r. podkomisja podstaw ustroju politycznego i
       społeczno-gospodarczego, obradująca pod przewodnictwem posła Ryszarda
       Bugaja (UP), rozpatrzyła: — propozycje przepisów konstytucyjnych
@@ -1293,7 +1368,8 @@
       obejmowane. W obu kierunkach moglibyśmy zmierzać i może pojawiłaby się
       jakaś satysfakcjonująca propozycja. Czy są już konkretne pomysły i czy są
       potrzebne dodatkowe wyjaśnienia ze strony ekspertów? Pewnego
-      doprecyzowania w tej fazie wymaga propozycja posła T. Mazowieckiego." />
+      doprecyzowania w tej fazie wymaga propozycja posła T. Mazowieckiego."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1303,13 +1379,15 @@
       problem. Mnie odpowiada interpretacja prof. P. Winczorka, który mówił, że
       z zasady suwerenności państwa nie wynika żadna obligatoryjność. Jeżeli
       podstawą procedowania będzie projekt, który zgłosiłem, to może będziemy
-      omawiali poszczególne ustępy." />
+      omawiali poszczególne ustępy."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Do tej fazy proponowałbym przejść jeszcze nie teraz. Chciałbym
-      zaproponować pewne sformułowanie, ale po dyskusji." />
+      zaproponować pewne sformułowanie, ale po dyskusji."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1321,7 +1399,8 @@
       nie jest to obrazą, a poza tym inne kościoły zgadzały się na uregulowanie
       tych kwestii w dwóch ustępach. Nie można nie widzieć słonia, nie można
       zamykać oczu na fakt, że jest to najpoważniejsza instytucja kościelna w
-      naszym kraju." />
+      naszym kraju."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1329,19 +1408,22 @@
       text="Mnie się wydaje, że nie spotkało się to ze sprzeciwem. Nie pamiętam,
       żeby propozycja wyodrębnienia dwóch ustępów spotkała się z zastrzeżeniami.
       Problem polegał tylko na tym, że w pierwotnej wersji napisano wyłącznie o
-      umowie międzynarodowej i tego dotyczyła różnica zdań." />
+      umowie międzynarodowej i tego dotyczyła różnica zdań."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
       imgPath="/images/kk-speakers/MazowieckiTadeusz.png"
       text="O ile pamiętam, to w projekcie posła W. Cimoszewicza sprawy te są
-      umieszczone w jednym ustępie, są one ukryte." />
+      umieszczone w jednym ustępie, są one ukryte."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Nie ma zasadniczego sprzeciwu wobec uwzględnienia w osobnym ustępie
-      tylko Kościoła katolickiego." />
+      tylko Kościoła katolickiego."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -1367,7 +1449,8 @@
       wszystko, co wynika z projektu posła T. Mazowieckiego, a także z wariantu
       I art. 15 przyjętego przez podkomisję posła R. Bugaja. Pewne elementy są
       wspólne z projektem posła W. Cimoszewicza. Moim zdaniem byłaby to
-      propozycja, nad którą można głosować." />
+      propozycja, nad którą można głosować."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -1418,7 +1501,8 @@
       takiego zobowiązania nie zależy wyłącznie od stanowiska władz państwowych.
       Formuła, że stosunki między państwem i Kościołem katolickim może również
       regulować umowa międzynarodowa wychodziłaby naprzeciw tym uwagom. Po
-      uwzględnieniu tych uwag bylibyśmy bardzo blisko porozumienia." />
+      uwzględnieniu tych uwag bylibyśmy bardzo blisko porozumienia."
+    />
 
     <Utterance
       speaker="Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof.
@@ -1435,7 +1519,8 @@
       Jeremiasz jako przedstawiciel Kościoła prawosławnego, moja skromna osoba,
       jak również moi przyjaciele z Kościoła Zielonoświątkowego i z Kościoła
       Zborów Chrystusowych. Chcielibyśmy naszą propozycję poddać pod ocenę
-      podkomisji." />
+      podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1445,7 +1530,8 @@
       Przedstawiciel Kościoła Adwentystów Dnia Siódmego, ks. prof. Zachariasz
       Łyko: Tak jest. Nie jest to mój dokument, bo jest to efekt konsensu
       wypracowanego między przedstawicielami kościołów w czasie prywatnego
-      spotkania po ogłoszeniu przerwy." />
+      spotkania po ogłoszeniu przerwy."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1454,7 +1540,8 @@
       spór, który toczyliśmy wobec pojęć „autonomia i oddzielenie” został
       zredukowany i tego problemu nie mamy. Muszę zapytać posła T.
       Mazowieckiego, czy jest to dobry punkt wyjścia? Ja chętnie taką propozycję
-      akceptuję." />
+      akceptuję."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -1467,7 +1554,8 @@
       W. Cimoszewicza, ale nie jest to jedyna możliwa interpretacja tego
       przepisu. Polityka władz państwowych powinna być jasna. Przy
       skomplikowanej strukturze instytucji publicznych możemy popaść w ogromną
-      liczbę konfliktów przy zachowaniu takiego brzmienia przepisu." />
+      liczbę konfliktów przy zachowaniu takiego brzmienia przepisu."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1475,7 +1563,8 @@
       text="Rozumiem, że wszyscy z państwa mają ten tekst. Czy zastrzeżenie
       dotyczące ust. 1 jest jedynym zastrzeżeniem, czy są inne uwagi?
       Proponowałbym stworzyć rejestr zastrzeżeń, co nie oznacza, że zachęcam do
-      ich wymyślania." />
+      ich wymyślania."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -1499,7 +1588,8 @@
       opowiadam się za wykreśleniem tego określenia. Uważam, że w konstytucji
       należy się trzymać tego, co już sprecyzowano. Chodzi więc o władze
       publiczne działające w formie imperium władczego. Nie na rzucajmy przez
-      nakaz poparty prawem takich czy innych przekonań." />
+      nakaz poparty prawem takich czy innych przekonań."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1514,12 +1604,14 @@
       światopoglądowych” jest w miarę czytelny. Uważam, że przekonania
       ideologiczne są o podłożu filozoficznym. Nie wiem, czy przy szerzeniu
       przekonań faszyzujących lub skrajnie nacjonalistycznych wypływających z
-      określonych filozofii ma być zachowana neutralność." />
+      określonych filozofii ma być zachowana neutralność."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Rozumiem, że wniosek polegałby na skreśleniu ostatniego wyrazu." />
+      text="Rozumiem, że wniosek polegałby na skreśleniu ostatniego wyrazu."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1600,7 +1692,8 @@
       upoważnienia wyrażonego w ustawie i ustawy. Można na czwarte miejsce
       przesunąć ust. 5, ponieważ dotyczy on wzajemnych stosunków, a ust. 4
       znalazłby się na piątym miejscu, bo dotyczy metod regulacji tych
-      stosunków." />
+      stosunków."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -1667,7 +1760,8 @@
       Podtrzymuję swoje wątpliwości co do ścisłości pojęcia „swoich zadań . Nie
       wprowadzajmy do konstytucji pojęć niejasnych, nieostrych, które mogą stać
       się w przyszłości polem rozbieżnych interpretacji. Próbujmy zachować
-      precyzję." />
+      precyzję."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -1690,7 +1784,8 @@
       akcentem. Gdyby chodziło o oddzielenie od organów państwowych, to proszę
       bardzo. Wzajemne niewtrącanie się jest dla mnie oczywiste I jasne. Problem
       stanowi oddzielenie od Rzeczypospolitej i dlatego unikałbym takiego
-      sformułowania." />
+      sformułowania."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -1719,7 +1814,8 @@
       ma tutaj ani słowa o konieczności zawarcia dodatkowych umów. Uważam, że
       jeżeli piszemy „lub umowa międzynarodowa , to dopuszczamy możliwość jej
       zawarcia. Jest to i tak bardzo wyraźny gest mówiący o tym, że bardzo
-      poważnie traktujemy zawarcie umowy między Watykanem a Rzecząpos politą." />
+      poważnie traktujemy zawarcie umowy między Watykanem a Rzecząpos politą."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -1727,12 +1823,14 @@
       text="Konstytucja ta była napisana wówczas, kiedy Hiszpania miała
       konkordat. Nie jestem pewien, czy nie ma tam innych artykułów regulujących
       sytuację prawną kościołów i związków wyznaniowych. Nie mam nic przeciwko
-      przepisaniu tych artykułów z konstytucji hiszpańskiej." />
+      przepisaniu tych artykułów z konstytucji hiszpańskiej."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
-      text="Nie chcę ich przepisywać." />
+      text="Nie chcę ich przepisywać."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1877,7 +1975,8 @@
       uważają, że jego Posiedzenia podkomisji stałych Komisji Konstytucyjnej ZN
       ratyfikacja powinna nastąpić po pojawieniu się nowej konstytucji. Skoro
       nie ma takich kontrowersji, to strach przed wpisywaniem do konstytucji
-      konkordatu w zaproponowanej formie nie jest uzasadniony." />
+      konkordatu w zaproponowanej formie nie jest uzasadniony."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1934,7 +2033,8 @@
       legalizacji. Uważam, że pojęcie „po porozumieniu” konsumuje legalizację
       tego związku. Nie ma potrzeby wprowadzać dodatkowego przepisu mówiącego o
       prawnie uznanych związkach wyznaniowych. Porozumienie zawiera drogę
-      legalizacji." />
+      legalizacji."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -1947,7 +2047,8 @@
       pojęciami oddzielenie oraz autonomia i niezależność. Chyba na ten temat
       nie ma sensu więcej mówić. Jeśli niektórzy z państwa uważają, że trzeba
       podzielić ust. 4, to nie widzę przeszkód, nawet przy podkreśleniu
-      szczególnej roli Kościoła katolickiego." />
+      szczególnej roli Kościoła katolickiego."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -1999,7 +2100,8 @@
       stwórzmy definicję, która znajdzie się w materiałach Komisji
       Konstytucyjnej, a potem Zgromadzenia Narodowego i będzie stanowiła wątłą
       podstawę interpretacyjną w znaczeniu kontekstu tworzenia tych przepisów.
-      Co proponujący formułę „swoich zadań” rozumieją pod tym pojęciem?" />
+      Co proponujący formułę „swoich zadań” rozumieją pod tym pojęciem?"
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -2012,14 +2114,16 @@
       instytucję wykonującą zadania państwa poza władzami publicznymi. Nie jest
       to ostre określenie, lecz umowne. Wydaje mi się, że w ust. I „władze
       publiczne” załatwiają problem. Szukanie dodatkowych elementów jest
-      przejawem pewnego przeczulenia." />
+      przejawem pewnego przeczulenia."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Jeżeli są nowe argumenty, to proszę je zgłaszać, a jeżeli nie, to
       spróbowałbym przedstawić spisane przeze mnie warianty, które zgłoszono w
-      dyskusji." />
+      dyskusji."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -2056,7 +2160,8 @@
       że państwo nie jest równorzędne z Rzecząpospolitą Polską i państwo nie
       jest w tym znaczeniu, ale w rozumieniu aparatu państwowego lub organów
       władz publicznych. Rzeczpospolita nie — ——— naa oznacza tylko władzy
-      państwowej, ponieważ jest to zorganizowane państwo obywatelskie." />
+      państwowej, ponieważ jest to zorganizowane państwo obywatelskie."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -2067,12 +2172,14 @@
       instytucje publiczne. Jeżeli miałyby one pozostać, to rzecz można by ująć
       w następujący sposób: „Władze i instytucje publiczne działające w formach
       władczych...”. Druga możliwość: „Władze publiczne i instytucje posługujące
-      się środkami władztwa publicznego”." />
+      się środkami władztwa publicznego”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Jest to język niekomunikatywny dla szerszej publiczności." />
+      text="Jest to język niekomunikatywny dla szerszej publiczności."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Kazimierz Działocha"
@@ -2081,12 +2188,14 @@
       sposób władczy czy przy pomocy aktów władczych jest tylko jedną z cech
       instytucji wykonujących zadania zlecone przez państwo. Do tego konieczny
       jest jeszcze inny element, a mianowicie upoważnienie ustawy, co oznacza
-      zlecenie zadań przez ustawę. Jest to język zbyt doktrynalny." />
+      zlecenie zadań przez ustawę. Jest to język zbyt doktrynalny."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Szczególnie jak na rozdział I konstytucji." />
+      text="Szczególnie jak na rozdział I konstytucji."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2097,7 +2206,8 @@
       neutralność Światopoglądowa państwa, równouprawniony status kościołów i
       związków wyznaniowych. Sądzę, że wariantem w najwyższym stopniu
       konsumującym generalne założenia jest wariant I podkomisji. Proponuję
-      poddać ponownemu głosowaniu ten właśnie wariant." />
+      poddać ponownemu głosowaniu ten właśnie wariant."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2132,7 +2242,8 @@
       stosunku do decyzji usuwającej z przepisu instytucje. Jeżeli państwo
       zgodziliby się na taką propozycję, to moglibyśmy zmierzać w tym właśnie
       kierunku. Jeśli nie, to myślę, że tylko w drodze głosowania istnieje
-      możliwość dokonania rozstrzygnięć." />
+      możliwość dokonania rozstrzygnięć."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -2148,7 +2259,8 @@
       oznaczają zadania religijne. Czy katolicka nauka społeczna jest
       wykroczeniem poza zadania religijne? To już przeżywaliśmy. Dlatego skłonny
       jestem zgodzić się na formułę posła W. Cimoszewicza, aczkolwiek jest ona
-      mało precyzyjna." />
+      mało precyzyjna."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2160,7 +2272,8 @@
       tego, co kościoły w ogóle mogą robić. Rozumiem, że możemy skłaniać się w
       kierunku formuły przedstawionej przez posła W. Cimoszewicza. Uważam, że
       jesteśmy już bardzo blisko przyjęcia całego artykułu. Formuła oddzielenia
-      od państwa była uzgodniona z przedstawicielami kościołów." />
+      od państwa była uzgodniona z przedstawicielami kościołów."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
@@ -2169,7 +2282,8 @@
       co to jest państwo. Państwo jest Rzecząpospolitą Polską. Jeśli tak, to
       możliwe jest oddzielenie Podkomisja podstaw ustroju politycznego... mma m
       a — — m M od organów państwa, czy od organów Rzeczypospolitej, a nie od
-      Rzeczypospolitej, bo wydaje mi się to absurdalne." />
+      Rzeczypospolitej, bo wydaje mi się to absurdalne."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2180,7 +2294,8 @@
       Zborów Chrystusowych, ks. Henryk Sacewicz: Mam nadzieję, że nie ma o co
       kruszyć tutaj kopii, bo gdy mówimy o kościele lub o związku wyznaniowym,
       to nie mówimy o tłumie, tylko o władzach tegoż kościoła lub związku
-      wyznaniowego. W taki sam sposób odnosimy się do państwa." />
+      wyznaniowego. W taki sam sposób odnosimy się do państwa."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2201,7 +2316,8 @@
       wyznaniowymi”. Wydaje mi się, że jesteśmy bliscy konsensu. Przedstawiciel
       Sekreatariatu Konferencji Episkopatu Polski, ks. prof. Józef Krukowski:
       Oponowałbym przeciwko wpisywaniu instytucji wykonujących zadania państwa.
-      Wystarczy, że władze publiczne w Rzeczypospolitej..." />
+      Wystarczy, że władze publiczne w Rzeczypospolitej..."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2209,7 +2325,8 @@
       text="Przepraszam bardzo, ale w poprzednim tekście, który został nam
       rekomendowany jako uzgodniony przez przedstawicieli kościołów, napisano:
       „władze i instytucje publiczne”. Przedstawiciel Sekretariatu Konferencji
-      Episkopa tu Polski, ks. prof. Józef Krukowski: Mam prawo do autopoprawki." />
+      Episkopa tu Polski, ks. prof. Józef Krukowski: Mam prawo do autopoprawki."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2223,14 +2340,16 @@
       charytatywną, naukową itp. Wiadomo, że zadania te były historycznie
       szeroko realizowane. W Polsce też tak są realizowane, mimo próby zawężeń w
       minionym okresie. Uważam, że taka próba zawężenia byłaby z poprzedniej
-      epoki." />
+      epoki."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Nie użyłem określenia „zadań religijnych”. Przedstawiciel
       Sekretariatu Konferencji Episkopatu Polski, ks. prof. Józef Krukowski:
-      Tak. Dziękuję bardzo. W takim razie pana popieram." />
+      Tak. Dziękuję bardzo. W takim razie pana popieram."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2241,7 +2360,8 @@
       sformułowania redakcyjnego. „„Kościoły i związki wyznaniowe są oddzielone
       od państwa i autonomiczne oraz niezależne w wykonywaniu... Przedstawiciel
       Sekretariatu Konferencji Episkopatu Polski, ks. prof. Józef Krukowski:
-      Stylistycznie jest to samo." />
+      Stylistycznie jest to samo."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2254,49 +2374,58 @@
       poprzednim ujęciu umowa była jak gdyby czymś dodatkowym, a ona oczywiście
       nie jest dodatkowym elementem, chociażby z punktu widzenia historii źródeł
       prawa. Byłbym za tym, żeby ust. 5 przesunąć na czwarte miejsce ze względów
-      merytorycznych." />
+      merytorycznych."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
       text="Co się uważa za wniosek czy projekt poprawki? Upierałbym się przy
-      oddzieleniu od organów państwa, a nie od państwa." />
+      oddzieleniu od organów państwa, a nie od państwa."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Jest teraz ten wniosek zgłoszony." />
+      text="Jest teraz ten wniosek zgłoszony."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
-      text="Ja to wyraziłem kilkadziesiąt minut temu. 100 m" />
+      text="Ja to wyraziłem kilkadziesiąt minut temu. 100 m"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Uwagę przyjmuję z pokorą." />
+      text="Uwagę przyjmuję z pokorą."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
-      text="Naprawdę o tym już mówiłem." />
+      text="Naprawdę o tym już mówiłem."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Jak brzmiałaby ta poprawka?" />
+      text="Jak brzmiałaby ta poprawka?"
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
-      text=",,...oddzielone od organów państwa... ." />
+      text=",,...oddzielone od organów państwa... ."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Prosiłbym o opinię panów profesorów. Jaka jest różnica między
-      oddzieleniem od państwa, a oddzieleniem od organów państwa?" />
+      oddzieleniem od państwa, a oddzieleniem od organów państwa?"
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2304,7 +2433,8 @@
       text="W kwestii formalnej. Prosiłabym o sprecyzowanie, czy jesteśmy w
       fazie ustalania końcowej wersji artykułu, która będzie poddana pod
       głosowanie, czy w fazie dyskusji, czy w fazie wyboru jednego z wariantów?
-      Prosiłabym o sprecyzowanie tego z powodów czasowych." />
+      Prosiłabym o sprecyzowanie tego z powodów czasowych."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2317,7 +2447,8 @@
       Poszukuję możliwości przedstawienia formuły, która nie byłaby projektem
       przyjętym w drodze głosowania. Może okazać się to niemożliwe. Na razie nie
       chciałbym z tego rezygnować. Jeżeli pani <strong>poseł przedłoży wniosek
-      formalny,</strong> to poddam go pod ocenę podkomisji." />
+      formalny,</strong> to poddam go pod ocenę podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2328,7 +2459,8 @@
       przewodniczący udzielił głusu, to okazało się, że porozumienie się oddala.
       Każdy mówca wprowadza nowe elementy, co powoduje, że jesteśmy dalej, a nie
       bliżej wspólnego projektu. Wobec tego proszę o tekst, nad którym
-      moglibyśmy pracować." />
+      moglibyśmy pracować."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2346,7 +2478,8 @@
       będziemy musieli wówczas wrócić do wszystkich innych wariantów tutaj
       przedstawionych. Prawdopodobnie Komisji Konstytucyjnej będziemy musieli
       wówczas przedstawić konkluzję, że nie osiągnęliśmy postawionego przed nami
-      celu." />
+      celu."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -2382,7 +2515,8 @@
       interpretacji użytego sformułowania. Forma orzekająca w interpretacji
       wielu osób, także mojej, jest niemal równoznaczna z nakazem zawarcia umowy
       międzynarodowej. Drugą jest formuła dopuszczająca umowę międzynarodową dla
-      uregulowania tej kwestii. Obawiam się, że różnice zdań nadal występują." />
+      uregulowania tej kwestii. Obawiam się, że różnice zdań nadal występują."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2400,17 +2534,20 @@
       Przed ostateczną rezygnacją z wysiłków chciałbym prosić naszych ekspertów
       o wypowiedź w sprawie wniosku senatora K. Kozłowskiego, który proponował
       użycie zwrotu „organy państwa. Jak moglibyśmy semantycznie interpretować
-      to pojęcie? Co by ono zmieniało w stosunku do proponowanego przepisu?" />
+      to pojęcie? Co by ono zmieniało w stosunku do proponowanego przepisu?"
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
       imgPath="/images/kk-speakers/WinczorekPiotr.png"
-      text="Ciężki obowiązek zrzuca na mnie pan poseł." />
+      text="Ciężki obowiązek zrzuca na mnie pan poseł."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
-      text="Nie pierwszy raz." />
+      text="Nie pierwszy raz."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Piotr Winczorek"
@@ -2428,7 +2565,8 @@
       wiadomo, czy kościoły i związki wyznaniowe ujmowane Są jako instytucje
       władzy kościelnej, czy też jako kongregacje wiernych. Rozumiałbym to jako
       kongregację wiernych, a państwo raczej jako jego organy oraz działalność
-      tych organów. Na pewno nie chodzi tu 0 państwo jako wspólnotę obywatelską." />
+      tych organów. Na pewno nie chodzi tu 0 państwo jako wspólnotę obywatelską."
+    />
 
     <Utterance
       speaker="Ekspert Komisji, prof. Leszek Wiśniewski"
@@ -2436,7 +2574,8 @@
       text="Potwierdzam, że chodzi tu o państwo w rozumieniu struktury
       politycznej, a nie socjologicznej. Jeśli to razi, to proponowałbym użycie
       tej samej formuły, którą zastosowano w ust. 1: „Kościoły i związki
-      wyznaniowe są oddzielone od władz publicznych”." />
+      wyznaniowe są oddzielone od władz publicznych”."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2450,18 +2589,21 @@
       dzisiaj rozstrzygać w drodze głosowania, bo nie możemy powiedzieć, że nie
       ma wniosków senatorów A. Grześkowiak i P. Andrzejewskiego, że nie ma
       wniosków posłów L. Moczulskiego i K. Kamińskiego. Będziemy musieli wrócić
-      do rozpatrywania tego zagadnienia od początku." />
+      do rozpatrywania tego zagadnienia od początku."
+    />
 
     <Utterance
       speaker="Senator Krzysztof Kozłowski (KD)"
       imgPath="/images/kk-speakers/KozlowskiKrzysztof.png"
-      text="Wycofuję swoją propozycję." />
+      text="Wycofuję swoją propozycję."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
       imgPath="/images/kk-speakers/CimoszewiczWlodzimierz.png"
       text="Mogę zrezygnować z jakiejkolwiek próby poszukiwania kompromisu, ale
-      wówczas będę popierał wariant I zawarty w projekcie podkomisji." />
+      wówczas będę popierał wariant I zawarty w projekcie podkomisji."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2483,7 +2625,8 @@
       kościołami i związkami wyznaniowyrni . Jeśli nie byłoby poprawek, a tylko
       występowałby problem kolejności ustępów, to myślę, że mamy szansę na
       porozumienie. Jeżeli są poprawki, to sądzę, że konsensu na pewno nie
-      osiągniemy." />
+      osiągniemy."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -2493,21 +2636,24 @@
       dodatkowych sformułowań będą miarą osiągnięcia kompromisu, czy nie? Na
       przykład w wersji teraz odczytanej w ust. 4 mowa jest o tym, że sytuację
       prawną kościołów i związków wyznaniowych określa ustawa. Dotychczas
-      mówiliśmy, że tę sytuację określają ustawy. 102" />
+      mówiliśmy, że tę sytuację określają ustawy. 102"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Chodzi o ustawy. Przepraszam, to było moje przejęzyczenie. Moją
       intencją było tylko podzielenie ust. 4 na dwa, bez wprowadzania żadnych
-      zmian w stosunku do wersji przedłożonej przez przedstawicieli kościołów." />
+      zmian w stosunku do wersji przedłożonej przez przedstawicieli kościołów."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
       imgPath="/images/kk-speakers/CimoszewiczWlodzimierz.png"
       text="Na jedno pytanie nie uzyskałem jeszcze odpowiedzi. Czy proponujący
       użycie sformułowania „swoich zadań” w odniesieniu do kościołów 4 związków
-      wyznaniowych zechcieliby je jednoznacznie i precyzyjnie zde finiować?" />
+      wyznaniowych zechcieliby je jednoznacznie i precyzyjnie zde finiować?"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2518,7 +2664,8 @@
       Adresuję pytanie do pana przewodniczącego jako formułującego propozycję
       będącą przedmiotem ewentualnego konsensu. Co pan rozumie pod pojęciem
       „swoich zadań”? Po uzyskaniu odpowiedzi będziemy w stanie o czymś
-      rozstrzygać. Nie rozumiem tego pojęcia." />
+      rozstrzygać. Nie rozumiem tego pojęcia."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2528,7 +2675,8 @@
       znajdą się podstawowe elementy określające zadania, które kościoły
       realizują. Zakładam także, że ten problem będzie kształtował się m.in.
       poprzez orzecznictwo dotyczące wykładni konstytucji. W ten sposób utrze
-      się pewna praktyka. Tak rozumiem to pojęcie." />
+      się pewna praktyka. Tak rozumiem to pojęcie."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2538,7 +2686,8 @@
       wnioskodawcy obstają przy przepisie, aby autonomia i niezależność
       dotyczyły wykonywania zadań, a nie wykonywania funkcji religijnych i
       organizacyjnych, to czy należy domniemywać, że zadania wykraczają poza
-      funkcje religijne i organizacyjne?" />
+      funkcje religijne i organizacyjne?"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2554,7 +2703,8 @@
       Kościoła katolickiego i ustawa o gwarancjach wolności sumienia i wyzna
       Posiedzenia podkomisji stałych Komisji Konstytucyjnej ZN nia doprecyzowują
       zadania kościołów. Jest ich cały katalog, który trudno w tej chwili
-      powtarzać." />
+      powtarzać."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2564,7 +2714,8 @@
       Komisjii Konstytucyjnej przedstawić ten tekst z zaznaczeniem, że nie
       została uzgodniona kolejność ustępów? Jeżeli są zastrzeżenia do treści
       ustępów, to proszę je zgłosić. Wówczas nie będę miał prawa powiedzieć, że
-      podkomisja esiągnęła konsens." />
+      podkomisja esiągnęła konsens."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
@@ -2573,7 +2724,8 @@
       zadań, Uważam, że jest to zbyt szerokie określenie. Sprawa druga —
       występują dwa ustępy zamiast jednoustępowego przepisu dotyczącego sytuacji
       prawnej kościołów. Sprawa trzecia — użycie słowa „oraz” nie jest formą
-      alternatywną." />
+      alternatywną."
+    />
 
     <Utterance
       speaker="Poseł Włodzimierz Cimoszewicz (SLD)"
@@ -2587,7 +2739,8 @@
       formule ogólnej? Na to pytanie łatwo uzyskać odpowiedź. Po drugie, czy
       umowa między państwem i Stolicą Apostolską powinna znaleźć się w formule
       sugerującej konieczność jej zawarcia, czy dopuszczalność zawarcia
-      konkordatu?" />
+      konkordatu?"
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
@@ -2598,19 +2751,22 @@
       Nie możemy mieć sytuacji przejściowej. Rozumiem, że w związku z
       zastrzeżeniami zgłoszonymi przez poseł K. Łybacką mogę Komisji
       Konstytucyjnej przedstawić tylko przebieg pracy, nie mogę natomiast
-      powiedzieć, że osiągnęliśmy konsens w sprawie art. 15." />
+      powiedzieć, że osiągnęliśmy konsens w sprawie art. 15."
+    />
 
     <Utterance
       speaker="Poseł Krystyna Łybacka (SLD)"
       imgPath="/images/kk-speakers/LybackaKrystyna.png"
       text="Chcę wrócić do propozycji posła W. Cimoszewicza. O dwóch kwestiach
-      niech rozstrzygnie Komisja Konstytucyjna, bo w pozostałych jest konsens." />
+      niech rozstrzygnie Komisja Konstytucyjna, bo w pozostałych jest konsens."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Pewnie moim błędem było to, że uległem perswazji przewodniczącego
-      Komisji Konstytucyjnej w sprawie poszukiwania formuły kompromisowej." />
+      Komisji Konstytucyjnej w sprawie poszukiwania formuły kompromisowej."
+    />
 
     <Utterance
       speaker="Poseł Tadeusz Mazowiecki (UW)"
@@ -2625,14 +2781,15 @@
       przyjęliśmy zasadę neutralności władzy publicznej, przyjęliśmy zasadę
       oddzielenia ód organów państwa. Chcecie nie w ustawie, tylko w konstytucji
       precyzować, co to jest działalność religijna. Przeczytajcie sobie
-      konstytucję soborową." />
+      konstytucję soborową."
+    />
 
     <Utterance
       speaker="Poseł Ryszard Bugaj (UP)"
       imgPath="/images/kk-speakers/BugajRyszard.png"
       text="Myślę, że spróbowaliśmy zrobić to, co mogliśmy. Wracamy na
       posiedzenie plenarme Komisji Konstytucyjnej, bo musimy mieć chociaż kilka
-      minut przerwy. Dziękuję bardzo za uczestnictwo. Zamykam posiedzenie." />
-
+      minut przerwy. Dziękuję bardzo za uczestnictwo. Zamykam posiedzenie."
+    />
   </div>
 </div>
