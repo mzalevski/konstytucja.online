@@ -17,7 +17,7 @@ android.keystore
 app-release-bundle.aab
 app-release-signed.apk
 app-release-unsigned-aligned.apk
-assetlinks.json
+/assetlinks.json
 build.gradle
 gradle.properties
 gradlew

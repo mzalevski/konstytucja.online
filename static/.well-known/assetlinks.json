@@ -1,0 +1,14 @@
+[
+      {
+            "relation": [
+                  "delegate_permission/common.handle_all_urls"
+            ],
+            "target": {
+                  "namespace": "android_app",
+                  "package_name": "online.konstytucja.twa",
+                  "sha256_cert_fingerprints": [
+                        "64:F7:83:3B:46:AD:7C:41:95:E6:3C:F6:EC:18:69:41:BE:26:C1:65:73:77:DD:79:13:B2:6B:B1:3E:36:00:78"
+                  ]
+            }
+      }
+]
