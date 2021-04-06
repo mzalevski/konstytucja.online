@@ -48,7 +48,7 @@
 <Nav {showDropdown} segment={"info"} />
 
 <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
   Komisja Konstytucyjna
@@ -74,8 +74,8 @@
       />
     </svg>
   </p>
-  <div class="mt-4">
-    <p class="max-w-2xl text-justify">
+  <div class="mt-4 text-xl">
+    <p class="max-w-3xl text-justify">
       Komisja Konstytucyjna
       <a
         class="hover:text-red-new"

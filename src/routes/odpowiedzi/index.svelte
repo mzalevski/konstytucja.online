@@ -48,7 +48,7 @@
 <Nav {showDropdown} segment={"info"} />
 
 <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
   Odpowiedzi

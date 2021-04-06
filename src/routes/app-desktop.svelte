@@ -48,14 +48,14 @@
 <Nav {showDropdown} segment={"info"} />
 
 <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
   Aplikacja desktopowa
 </h1>
 
 <div in:fade={{ duration: 3000 }}>
-  <p class="mt-4 text-justify">
+  <p class="mt-4 text-justify md:text-lg lg:text-xl">
     <strong>Chrome</strong>
     (i inne przeglądarki oparte na Chromium, np. Opera, Brave). Po wejściu na stronę
     konstytucja.online na komputerze w prawym górnym rogu ekranu, w pasku url, pojawi

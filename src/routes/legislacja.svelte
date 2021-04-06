@@ -48,7 +48,7 @@
 <Nav {showDropdown} segment={"info"} />
 
 <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
   Legislacja
@@ -77,7 +77,7 @@
     </svg>
   </p>
 
-  <p class="pt-2 text-justify two-col">
+  <p class="pt-2 text-justify md:text-lg lg:text-xl">
     Konstytucja Rzeczypospolitej Polskiej została uchwalona przez Zgromadzenie
     Narodowe w dniu 2 kwietnia 1997 r., przyjęta przez Naród w referendum
     konstytucyjnym w dniu 25 maja 1997 r., a następnie podpisana przez
@@ -129,7 +129,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify two-col">
+  <p class="pt-2 text-justify md:text-lg lg:text-xl">
     W pierwotnym tekście Konstytucji, znalazły się dwa błędy, które zgodnie z
     art. 17 ust. 3 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
     normatywnych i niektórych innych aktów prawnych (
@@ -195,7 +195,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify two-col">
+  <p class="pt-2 text-justify md:text-lg lg:text-xl">
     8 września 2006 Sejm uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red-new focus:text-red-new"
@@ -279,7 +279,7 @@
     </svg>
   </span>
 
-  <p class="pt-2 text-justify two-col">
+  <p class="pt-2 text-justify md:text-lg lg:text-xl">
     7 maja 2009 Sejm VI kadencji uchwalił ustawę o zmianie
     <a
       class="underline hover:text-red-new focus:text-red-new"

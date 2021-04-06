@@ -38,7 +38,7 @@
 <div class="pt-4 mb-8 shadow-b">
   <div class="flex justify-between">
     <div>
-      <h1 class="text-lg font-thin sm:text-xl lg:text-2xl">
+      <h1 class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl">
         Prasa o pracach konstytucyjnych
       </h1>
       <h5>

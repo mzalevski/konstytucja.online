@@ -49,38 +49,25 @@
 <Nav {showDropdown} segment={"info"} />
 
 <h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl"
+  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
   Nauka
 </h1>
-<div class="mt-4" in:fade={{ duration: 3000 }}>
-  <div class="flex flex-col text-lg sm:flex-row sm:space-x-4">
-    <!-- <a class="sm:w-1/12 hover:text-red-new" href="/91">Art. 91</a> -->
-    <a
-      class="underline sm:w-9/12 hover:text-red-new"
-      href="/nauka/ktory-artykul"
-    >
-      Który artykuł?
-    </a>
-    <!-- <a
-      class="sm:w-2/12 hover:text-red-new"
-      href="https://twitter.com/MichalChodorek">
-      adw. Michał Chodorek
-    </a> -->
-  </div>
-  <div class="flex flex-col text-lg sm:flex-row sm:space-x-4">
-    <!-- <a class="sm:w-1/12 hover:text-red-new" href="/91">Art. 91</a> -->
-    <a
-      class="underline sm:w-9/12 hover:text-red-new"
-      href="/nauka/ktory-rozdzial"
-    >
-      Który rozdział?
-    </a>
-    <!-- <a
-      class="sm:w-2/12 hover:text-red-new"
-      href="https://twitter.com/MichalChodorek">
-      adw. Michał Chodorek
-    </a> -->
-  </div>
+<div
+  class="flex flex-col mt-4 space-y-2 text-justify md:text-lg lg:text-xl"
+  in:fade={{ duration: 3000 }}
+>
+  <a
+    href="/nauka/ktory-artykul"
+    class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
+  >
+    Który artykuł?</a
+  >
+  <a
+    href="/nauka/ktory-rozdzial"
+    class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
+  >
+    Który rozdział?</a
+  >
 </div>
