@@ -102,6 +102,18 @@ body.dark-mode .hover\:text-red-new:hover {
   @apply text-blue-300;
 }
 
+body.dark-mode .bg-gray-200 {
+  @apply bg-blue-700;
+}
+
+body.dark-mode .text-gray-600 {
+  @apply text-blue-300;
+}
+
+body.dark-mode .hover\:bg-gray-300:hover {
+  @apply bg-blue-600;
+}
+
 /*********************\
 |DARK MODE SECTION END|
 \*********************/
