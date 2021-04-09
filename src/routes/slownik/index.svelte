@@ -62,19 +62,19 @@
   <a
     href="/slownik/kancelaria-prezydenta"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
-    >Kancelaria-Prezydenta</a
+    >Kancelaria Prezydenta</a
   >
 
   <a
     href="/slownik/prawo-rzeczypospolitej-polskiej"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
-    >Prawo-Rzeczypospolitej-Polskiej</a
+    >Prawo Rzeczypospolitej Polskiej</a
   >
 
   <a
     href="/slownik/rada-gabinetowa"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
-    >Rada-Gabinetowa</a
+    >Rada Gabinetowa</a
   >
 
   <a
@@ -92,6 +92,6 @@
   <a
     href="/slownik/szef-kprp"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
-    >Szef-KPRP</a
+    >Szef KPRP</a
   >
 </div>
