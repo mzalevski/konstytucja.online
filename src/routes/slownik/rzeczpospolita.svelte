@@ -1,0 +1,151 @@
+<script>
+  import { fly, fade } from "svelte/transition";
+  import Nav from "../../components/Nav.svelte";
+  import { onDestroy, onMount } from "svelte";
+  import { EventManager } from "mjolnir.js";
+  import { goto, prefetch } from "@sapper/app";
+
+  let eventManager;
+  let showDropdown = false;
+
+  const onSwipeLeft = () => (showDropdown = true);
+  const onSwipeRight = () => {
+    if (showDropdown) showDropdown = false;
+    else goto("/odpowiedzi");
+  };
+
+  onMount(() => {
+    prefetch("/odpowiedzi");
+    eventManager = new EventManager(document.documentElement, {
+      touchAction: "pan-y",
+    });
+    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
+  });
+</script>
+
+<svelte:head>
+  <title>Słownik - Rzeczpospolita</title>
+  <meta
+    name="description"
+    content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia
+      2 kwietnia 1997 r."
+  />
+  <meta
+    name="keywords"
+    content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
+      online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
+      trybunał, prezydent, rada ministrów, sejm, senat"
+  />
+  <meta name="konstytucja" content="website" />
+</svelte:head>
+
+<Nav {showDropdown} segment={"info"} />
+
+<div class="flex justify-between h-8">
+  <a
+    id="back-btn"
+    class="w-24 font-thin sm:text-xl hover:text-red-new"
+    rel="prefetch"
+    href="/slownik"
+  >
+    powrót
+  </a>
+  <h3 class="font-thin text-center sm:text-xl">9 kwietnia 2021 r.</h3>
+  <div class="flex justify-end w-24" />
+</div>
+
+<div class="sm:pt-10 md:pt-12 lg:pt-16">
+  <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
+    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+      Dawid Wysocki
+    </a>
+  </h2>
+  <!-- <h2 class="font-thin text-center text-md sm:text-lg">
+    Definicja skonsultowana z konstytucjonalistą, prof. X
+  </h2> -->
+  <h1 class="text-lg font-thin text-center sm:text-5xl leading-tight">
+    RZECZPOSPOLISTA
+  </h1>
+</div>
+
+<div
+  in:fade={{ duration: 1000 }}
+  class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
+>
+  <div in:fade={{ duration: 3000 }}>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
+      Może jakiś subtitle tutaj
+    </h2>
+    <div>
+      Pojęcie to odgrywa dwie role: z jednej strony stanowi tradycyjny element
+      nazwy państwa polskiego, z drugiej zaś – określenie republikańskiej formy
+      ustroju Polski.
+    </div>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
+      Może jakiś subtitle tutaj
+    </h2>
+    <div class="pt-2">
+      W pierwszym znaczeniu pojawia się ono w Preambule Konstytucji RP, gdzie ma
+      za zadanie podkreślić ciągłość polskiej państwowości (vide: wzmianka o I
+      oraz II Rzeczypospolitej przy jednoczesnej swoistej proklamacji III RP).
+      Jak zaznaczają M. Zubik i W. Sokolewicz, określenie „Rzeczpospolita
+      Polska”, to „tradycyjny atrybut państwowości niezależnej, niepodległej i
+      suwerennej, skorelowany z wolnościowymi aspiracjami narodu”. Z tego
+      właśnie względu, ustrojodawca posłużył się sformułowaniem powszechnie
+      znanym, w domyśle – dobrze kojarzonym w społeczeństwie. Warto w tym
+      miejscu zaznaczyć, że nawet w stalinowskiej Konstytucji PRL z 1952 roku
+      powstrzymano się od wprowadzenia utartej nazwy krajów satelickich ZSRR,
+      tj. „republika ludowa”, zamiast tego używając tradycyjnej dla polskiej
+      państwowości „Rzeczypospolitej”, jednocześnie dodając do niej ideologiczne
+      określenie „Ludowa”.
+    </div>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
+      Może jakiś subtitle tutaj
+    </h2>
+    <div class="pt-2">
+      Druga funkcja pojęcia „Rzeczpospolita” wynika głównie z kontekstu
+      historycznego oraz językowego. Przede wszystkim, Konstytucja marcowa z
+      1921 roku wprost utożsamiła terminy „Rzeczpospolita” i „republika”,
+      stanowiąc w swym art. 1, iż „Państwo Polskie jest Rzecząpospolitą”, co
+      należy rozumieć jako oznaczenie szczególnej cechy ustroju –
+      republikańskiego systemu rządów. Trudno o inną ocenę, szczególnie że
+      dalsze przepisy pierwszej „pełnej” międzywojennej ustawy zasadniczej nie
+      zawierają pojęcia „republika”. Wnioski te wydają się zachowywać aktualność
+      także w odniesieniu do obecnie obowiązującej Konstytucji RP, również w
+      żadnym miejscu nieokreślającej polskiego państwa mianem republiki.
+    </div>
+
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
+      Może jakiś subtitle tutaj
+    </h2>
+    <div class="pt-2">
+      Z kolei z punktu widzenia stricte językowego, „Rzeczpospolita” stanowi
+      przetłumaczony na język polski wyraz „republika” (łac. res publica).
+      Wprawdzie w okresie I RP, tzw. Rzeczypospolitej Obojga Narodów, słowo to
+      niewątpliwie nie miało tak wyraźnie republikańskich konotacji, jak
+      obecnie, niemniej jednak zawsze było kojarzone z państwem obywatelskim,
+      którego władcy – pod względem pozycji ustrojowej – bliżej było do modelu
+      demokratycznego aniżeli tradycyjnie monarchicznego.
+    </div>
+
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
+
+    <ul class="pt-1 pb-4 pl-3 text-left">
+      <li>
+        1. L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej.
+        Komentarz, t. I, Warszawa 2016.
+      </li>
+      <li>2. J. Tokarski (red.), Słownik wyrazów obcych PWN, Warszawa 1980.</li>
+      <li>
+        3. L. Wiśniakowska (red.), Słownik wyrazów bliskoznacznych PWN, Warszawa
+        2006.
+      </li>
+    </ul>
+  </div>
+</div>
