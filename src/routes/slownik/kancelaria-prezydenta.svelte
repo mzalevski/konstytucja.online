@@ -69,7 +69,7 @@
   <!-- <h2 class="font-thin text-center text-md sm:text-lg">
     Definicja skonsultowana z konstytucjonalistą, prof. X
   </h2> -->
-  <h1 class="text-2xl font-thin text-center sm:text-5xl leading-tight">
+  <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
     Kancelaria Prezydenta
   </h1>
 </div>
