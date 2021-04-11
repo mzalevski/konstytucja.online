@@ -11,11 +11,11 @@
   const onSwipeLeft = () => (showDropdown = true);
   const onSwipeRight = () => {
     if (showDropdown) showDropdown = false;
-    else goto("/odpowiedzi");
+    else goto("/slownik");
   };
 
   onMount(() => {
-    prefetch("/odpowiedzi");
+    prefetch("/slownik");
     eventManager = new EventManager(document.documentElement, {
       touchAction: "pan-y",
     });
