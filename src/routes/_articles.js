@@ -2285,7 +2285,12 @@ const articles = [
       title: "Prezydent Rzeczypospolitej Polskiej",
     },
     html: `
-			<p>Organem pomocniczym Prezydenta Rzeczypospolitej jest Kancelaria Prezydenta Rzeczypospolitej. Prezydent Rzeczypospolitej nadaje statut Kancelarii oraz powołuje i odwołuje Szefa Kancelarii Prezydenta Rzeczypospolitej.</p>
+			<p>Organem pomocniczym Prezydenta Rzeczypospolitej jest Kancelaria Prezydenta Rzeczypospolitej. Prezydent Rzeczypospolitej nadaje statut Kancelarii oraz powołuje i odwołuje ${link(
+        {
+          text: "Szefa Kancelarii Prezydenta Rzeczypospolitej",
+          href: "/slownik/szef-kprp",
+        }
+      )}.</p>
 		`,
     desc: "",
   },
