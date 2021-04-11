@@ -31,6 +31,7 @@
     <label aria-label="text-search">
       <input
         id="text-search"
+        autocomplete="off"
         class="w-full px-8 py-1 font-light border border-gray-100 rounded-md
       shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10"
         bind:value={searchedText}
