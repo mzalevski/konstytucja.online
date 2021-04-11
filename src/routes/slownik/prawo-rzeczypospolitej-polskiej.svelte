@@ -70,7 +70,7 @@
     Definicja skonsultowana z konstytucjonalistą, prof. X
   </h2> -->
   <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
-    PRAWO RZECZYPOSPOLITEJ POLSKIEJ
+    PRAWO RZECZYPOSPOLITEJ<br />POLSKIEJ
   </h1>
 </div>
 
