@@ -161,7 +161,7 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
-    <ul class="pt-1 pb-4 pl-3 text-left">
+    <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
         1. A. Brzozowski, J. Jastrzębski, M. Kaliński, E. Skowrońska-Bocian,
         Zobowiązania. Część ogólna, wyd. 3., Warszawa 2019.

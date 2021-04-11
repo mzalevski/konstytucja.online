@@ -144,7 +144,7 @@
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
-    <ul class="pt-1 pb-4 pl-3 text-left">
+    <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
         1. B. Banaszak, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
         2., Warszawa 2012.

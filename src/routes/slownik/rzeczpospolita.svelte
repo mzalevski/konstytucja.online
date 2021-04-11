@@ -136,7 +136,7 @@
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
-    <ul class="pt-1 pb-4 pl-3 text-left">
+    <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
         1. L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej.
         Komentarz, t. I, Warszawa 2016.
