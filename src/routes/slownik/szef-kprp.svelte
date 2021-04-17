@@ -87,7 +87,10 @@
       Kancelaria Prezydenta Rzeczypospolitej Polskiej, przewidziana w art. 143
       Konstytucji RP. W związku z takim charakterem, nie może być on uznany za
       konstytucyjny organ państwa; z kolei, jako niezatrudniony w administracji
-      rządowej, nie stanowi członka korpusu służby cywilnej.
+      rządowej, nie stanowi członka korpusu służby cywilnej<sup
+        title="Zob. P. Czarny, Art. 143. Kancelaria Prezydenta [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 3."
+        >1</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Powołanie i odwołanie</h2>
     <div class="pt-2">
@@ -97,9 +100,12 @@
       akt indywidualno-konkretny – formę postanowienia (a nie zarządzenia; vide:
       Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 7 października
       2020 r. nr 1131.29.2020 o powołaniu Szefa Kancelarii Prezydenta
-      Rzeczypospolitej Polskiej). Nie podlega ono kontroli
-      sądowoadministracyjnej, ponieważ nie stanowi przejawu wykonywania zadań z
-      zakresu administracji publicznej.
+      Rzeczypospolitej Polskiej<sup title="M.P. 2020 poz. 963.">2</sup>). Nie
+      podlega ono kontroli sądowoadministracyjnej, ponieważ nie stanowi przejawu
+      wykonywania zadań z zakresu administracji publicznej<sup
+        title="Por. uchwała NSA (7) z 9 listopada 1998 r., sygn. akt OPS 4/98, opubl. ONSA 1999, nr 1, poz. 6."
+        >3</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zasada niepołączalności</h2>
     <div class="pt-2">
@@ -114,23 +120,25 @@
       Prezydenta Rzeczypospolitej Polskiej, stanowiącego załącznik do
       prezydenckiego zarządzenia (obecnie: Zarządzenie Prezydenta
       Rzeczypospolitej Polskiej z dnia 7 sierpnia 2015 r. w sprawie nadania
-      statutu Kancelarii Prezydenta Rzeczypospolitej Polskiej). Akt ten
-      przewiduje, że Szef Kancelarii, kierując jej pracami, działa przede
-      wszystkim poprzez wydawanie zarządzeń, decyzji oraz poleceń (§ 2 ust. 1 i
-      3 Statutu). To on określa zakres, w jakim pracami KPRP kierują inni
-      urzędnicy Kancelarii: Zastępca Szefa KPRP, Szef Gabinetu Prezydenta RP,
-      Dyrektor Generalny KPRP oraz podrzędni sekretarze i podsekretarze stanu (§
-      2 ust. 2). Może on ponadto imiennie upoważniać te podmioty do działania w
-      jego imieniu (§ 4 ust. 1). Szef KPRP legitymuje się poza tym uprawnieniem
-      do powoływania specjalnych zespołów w Kancelarii, przeznaczonych do
-      wykonywania konkretnych zadań, określając ich nazwę, zakres, sposób
-      tudzież okres działania czy skład osobowy (§ 4 ust. 2). Nadaje również
-      regulamin organizacyjny Kancelarii Prezydenta RP, normujący organizację
-      wewnętrzną urzędu, w tym poszczególnych komórek w KPRP (§ 6 ust. 1).
-      Zatwierdza także regulamin wewnętrzny konkretnej komórki organizacyjnej (§
-      6 ust. 3). Szef KPRP ustala, za zgodą Prezydenta RP, liczbę etatów w
-      Kancelarii na dany rok budżetowy; dokonuje ponadto – już samodzielnie –
-      ich podziału pomiędzy poszczególne komórki organizacyjne (§ 3 ust. 4-5).
+      statutu Kancelarii Prezydenta Rzeczypospolitej Polskiej<sup
+        title="M.P. 2015 poz. 762 ze zm.">4</sup
+      >). Akt ten przewiduje, że Szef Kancelarii, kierując jej pracami, działa
+      przede wszystkim poprzez wydawanie zarządzeń, decyzji oraz poleceń (§ 2
+      ust. 1 i 3 Statutu). To on określa zakres, w jakim pracami KPRP kierują
+      inni urzędnicy Kancelarii: Zastępca Szefa KPRP, Szef Gabinetu Prezydenta
+      RP, Dyrektor Generalny KPRP oraz podrzędni sekretarze i podsekretarze
+      stanu (§ 2 ust. 2). Może on ponadto imiennie upoważniać te podmioty do
+      działania w jego imieniu (§ 4 ust. 1). Szef KPRP legitymuje się poza tym
+      uprawnieniem do powoływania specjalnych zespołów w Kancelarii,
+      przeznaczonych do wykonywania konkretnych zadań, określając ich nazwę,
+      zakres, sposób tudzież okres działania czy skład osobowy (§ 4 ust. 2).
+      Nadaje również regulamin organizacyjny Kancelarii Prezydenta RP, normujący
+      organizację wewnętrzną urzędu, w tym poszczególnych komórek w KPRP (§ 6
+      ust. 1). Zatwierdza także regulamin wewnętrzny konkretnej komórki
+      organizacyjnej (§ 6 ust. 3). Szef KPRP ustala, za zgodą Prezydenta RP,
+      liczbę etatów w Kancelarii na dany rok budżetowy; dokonuje ponadto – już
+      samodzielnie – ich podziału pomiędzy poszczególne komórki organizacyjne (§
+      3 ust. 4-5).
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Biuro Szefa Kancelarii</h2>
     <div class="pt-2">
@@ -147,7 +155,10 @@
     <div class="pt-2">
       Odpowiedzialność za działania Szefa Kancelarii Prezydenta RP, jako
       urzędnika swojego aparatu pomocniczego, ponosi Prezydent Rzeczypospolitej
-      Polskiej.
+      Polskiej<sup
+        title="Zob. B. Banaszak, komentarz do art. 143 [w:] tenże, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012."
+        >5</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
