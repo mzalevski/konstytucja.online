@@ -80,9 +80,7 @@
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Funkcje stolicy</h2>
     <div>
       Stolicą Rzeczypospolitej Polskiej, w konstytucyjnym rozumieniu tego
       pojęcia, jest miejscowość stanowiąca siedzibę najwyższych władz RP, jej
@@ -103,9 +101,8 @@
       jednak pamiętać o ich wyspecjalizowanym charakterze, przejawiającym się
       m.in. ścisłym powiązaniem z konkretnymi regionami kraju.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">"Ustawa warszawska"</h2>
     <div class="pt-2">
       Zgodnie z art. 1 ustawy z dnia 15 marca 2002 r. o ustroju miasta
       stołecznego Warszawy<sup title="Dz.U. z 2018 r. poz. 1817.">3</sup>, przez
@@ -123,7 +120,7 @@
       infrastrukturalnym, mających znaczenie dla stołecznych funkcji miasta.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Inne przejawy stołeczności
     </h2>
     <div class="pt-2">
       P. Sarnecki uważa, że istotnym elementem stołeczności jest ponadto
@@ -135,9 +132,6 @@
       >.
     </div>
 
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
     <div class="pt-2">
       Ten sam autor podaje, iż ustrój stolicy może być, dzięki konstytucyjnemu
       wyróżnieniu Warszawy, ukształtowany odmiennie względem organizacji
@@ -145,9 +139,7 @@
         >5</sup
       >. Znalazło to zresztą wyraz w treści wspomnianej „ustawy warszawskiej”.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+
     <div class="pt-2">
       Istotne przykłady szczególnej funkcji Warszawy to także przepisy ustaw
       proceduralnych, m.in. art. 32 § 3 Kodeksu postępowania karnego<sup
