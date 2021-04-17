@@ -93,14 +93,16 @@
       oraz II Rzeczypospolitej przy jednoczesnej swoistej proklamacji III RP).
       Jak zaznaczają M. Zubik i W. Sokolewicz, określenie „Rzeczpospolita
       Polska”, to „tradycyjny atrybut państwowości niezależnej, niepodległej i
-      suwerennej, skorelowany z wolnościowymi aspiracjami narodu”. Z tego
-      właśnie względu, ustrojodawca posłużył się sformułowaniem powszechnie
-      znanym, w domyśle – dobrze kojarzonym w społeczeństwie. Warto w tym
-      miejscu zaznaczyć, że nawet w stalinowskiej Konstytucji PRL z 1952 roku
-      powstrzymano się od wprowadzenia utartej nazwy krajów satelickich ZSRR,
-      tj. „republika ludowa”, zamiast tego używając tradycyjnej dla polskiej
-      państwowości „Rzeczypospolitej”, jednocześnie dodając do niej ideologiczne
-      określenie „Ludowa”.
+      suwerennej, skorelowany z wolnościowymi aspiracjami narodu”<sup
+        title="W. Sokolewicz, M. Zubik, uwaga 4. do art. 1 [w:] L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, t. I, Warszawa 2016."
+        >1</sup
+      >. Z tego właśnie względu, ustrojodawca posłużył się sformułowaniem
+      powszechnie znanym, w domyśle – dobrze kojarzonym w społeczeństwie. Warto
+      w tym miejscu zaznaczyć, że nawet w stalinowskiej Konstytucji PRL z 1952
+      roku<sup title="Dz.U. 1952 Nr 33, poz. 232.">2</sup> powstrzymano się od wprowadzenia
+      utartej nazwy krajów satelickich ZSRR, tj. „republika ludowa”, zamiast tego
+      używając tradycyjnej dla polskiej państwowości „Rzeczypospolitej”, jednocześnie
+      dodając do niej ideologiczne określenie „Ludowa”.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       Rzeczpospolita jako republika
@@ -108,14 +110,18 @@
     <div class="pt-2">
       Druga funkcja pojęcia „Rzeczpospolita” wynika głównie z kontekstu
       historycznego oraz językowego. Przede wszystkim, Konstytucja marcowa z
-      1921 roku wprost utożsamiła terminy „Rzeczpospolita” i „republika”,
-      stanowiąc w swym art. 1, iż „Państwo Polskie jest Rzecząpospolitą”, co
-      należy rozumieć jako oznaczenie szczególnej cechy ustroju –
-      republikańskiego systemu rządów. Trudno o inną ocenę, szczególnie że
-      dalsze przepisy pierwszej „pełnej” międzywojennej ustawy zasadniczej nie
-      zawierają pojęcia „republika”. Wnioski te wydają się zachowywać aktualność
-      także w odniesieniu do obecnie obowiązującej Konstytucji RP, również w
-      żadnym miejscu nieokreślającej polskiego państwa mianem republiki.
+      1921 roku<sup title="Dz.U. 1921 Nr 44, poz. 267.">3</sup> wprost
+      utożsamiła terminy „Rzeczpospolita” i „republika”, stanowiąc w swym art.
+      1, iż „Państwo Polskie jest Rzecząpospolitą”, co należy rozumieć jako
+      oznaczenie szczególnej cechy ustroju – republikańskiego systemu rządów.
+      Trudno o inną ocenę, szczególnie że dalsze przepisy pierwszej „pełnej”
+      międzywojennej ustawy zasadniczej nie zawierają pojęcia „republika”.
+      Wnioski te wydają się zachowywać aktualność także w odniesieniu do obecnie
+      obowiązującej Konstytucji RP, również w żadnym miejscu nieokreślającej
+      polskiego państwa mianem republiki<sup
+        title="W. Sokolewicz, M. Zubik, uwaga 5. do art. 1 [w:] L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, t. I, Warszawa 2016."
+        >4</sup
+      >.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
@@ -123,12 +129,14 @@
     </h2>
     <div class="pt-2">
       Z kolei z punktu widzenia stricte językowego, „Rzeczpospolita” stanowi
-      przetłumaczony na język polski wyraz „republika” (łac. res publica).
-      Wprawdzie w okresie I RP, tzw. Rzeczypospolitej Obojga Narodów, słowo to
-      niewątpliwie nie miało tak wyraźnie republikańskich konotacji, jak
-      obecnie, niemniej jednak zawsze było kojarzone z państwem obywatelskim,
-      którego władcy – pod względem pozycji ustrojowej – bliżej było do modelu
-      demokratycznego aniżeli tradycyjnie monarchicznego.
+      przetłumaczony na język polski wyraz „republika”<sup
+        title="Zob. np. hasło „republika” [w:] J. Tokarski (red.), Słownik wyrazów obcych PWN, Warszawa 1980, s. 644; por. także hasło „republika” [w:] L. Wiśniakowska (red.), Słownik wyrazów bliskoznacznych PWN, Warszawa 2006, s. 472, gdzie wprost określono „rzeczpospolitą” jako synonim „republiki”."
+        >5</sup
+      > (łac. res publica). Wprawdzie w okresie I RP, tzw. Rzeczypospolitej Obojga
+      Narodów, słowo to niewątpliwie nie miało tak wyraźnie republikańskich konotacji,
+      jak obecnie, niemniej jednak zawsze było kojarzone z państwem obywatelskim,
+      którego władcy – pod względem pozycji ustrojowej – bliżej było do modelu demokratycznego
+      aniżeli tradycyjnie monarchicznego.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
