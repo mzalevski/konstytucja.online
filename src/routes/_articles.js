@@ -1456,7 +1456,15 @@ const articles = [
     html: `
 			<p>Każdy ma obowiązek przestrzegania prawa Rzeczypospolitej Polskiej.</p>
 		`,
-    desc: "",
+    desc: `Przepis ten nakłada na „każdego”, tj. każdą osobę podlegającą jurysdykcji
+      Rzeczypospolitej Polskiej, obowiązek przestrzegania jej prawa. Adresatem
+      przymusu są osoby przebywające na terytorium naszego kraju: obywatele
+      polscy, cudzoziemcy oraz bezpaństwowcy (apatrydzi). Obciąża on także osoby
+      prawne oraz jednostki organizacyjne nieposiadające osobowości prawnej.
+      Nakaz, zasadniczo, znajduje zastosowanie również względem obywateli
+      Rzeczypospolitej znajdujących się poza granicami Polski. Więcej na <a target="_blank" class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href="/slownik/prawo-rzeczypospolitej-polskiej">stronie definicji</a>.
+      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/DawidWysocki" rel="nofollow" target="_blank">Dawid Wysocki</a> ${extLink}</p>
+    `,
   },
   {
     title: "Art. 84",

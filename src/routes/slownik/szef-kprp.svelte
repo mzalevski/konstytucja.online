@@ -56,7 +56,25 @@
   >
     powrót
   </a>
+
   <h3 class="font-thin text-center sm:text-xl">9 kwietnia 2021 r.</h3>
+  <div class="flex justify-end w-24" />
+</div>
+
+<div class="flex justify-between h-8">
+  <div>
+    <br />
+    powiązane z:<br />
+    <a
+      id="back-btn"
+      class="w-24 font-thin sm:text-xl hover:text-red-new underline"
+      rel="prefetch"
+      href="/slownik/kancelaria-prezydenta"
+    >
+      Kancelaria Prezydenta
+    </a>
+  </div>
+  <div class="flex justify-center w-24" />
   <div class="flex justify-end w-24" />
 </div>
 

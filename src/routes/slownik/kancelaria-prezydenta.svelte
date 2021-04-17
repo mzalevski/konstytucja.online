@@ -60,6 +60,23 @@
   <div class="flex justify-end w-24" />
 </div>
 
+<div class="flex justify-between h-8">
+  <div>
+    <br />
+    powiązane z:<br />
+    <a
+      id="back-btn"
+      class="w-24 font-thin sm:text-xl hover:text-red-new underline"
+      rel="prefetch"
+      href="/slownik/szef-kprp"
+    >
+      Szef Kancelarii Prezydenta
+    </a>
+  </div>
+  <div class="flex justify-center w-24" />
+  <div class="flex justify-end w-24" />
+</div>
+
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
     <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">

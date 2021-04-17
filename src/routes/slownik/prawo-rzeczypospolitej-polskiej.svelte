@@ -79,7 +79,7 @@
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Rola pojęcia</h2>
+    <!-- <h2 class="mt-8 text-lg font-thin sm:text-2xl">Rola pojęcia</h2>
     <div>
       Pojęcie to pojawia się w art. 83 Konstytucji RP, zlokalizowanym w
       fundamentalnym dla statusu jednostki Rozdziale II ustawy zasadniczej.
@@ -90,7 +90,7 @@
       prawne oraz jednostki organizacyjne nieposiadające osobowości prawnej.
       Nakaz, zasadniczo, znajduje zastosowanie również względem obywateli
       Rzeczypospolitej znajdujących się poza granicami Polski.
-    </div>
+    </div> -->
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zakres znaczeniowy</h2>
     <div class="pt-2">
       Poprzez określenie „prawo” należy z pewnością rozumieć akty normatywne,
