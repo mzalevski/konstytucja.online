@@ -139,7 +139,7 @@
         >5</sup
       >. Znalazło to zresztą wyraz w treści wspomnianej „ustawy warszawskiej”.
     </div>
-
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Ustawy proceduralne</h2>
     <div class="pt-2">
       Istotne przykłady szczególnej funkcji Warszawy to także przepisy ustaw
       proceduralnych, m.in. art. 32 § 3 Kodeksu postępowania karnego<sup

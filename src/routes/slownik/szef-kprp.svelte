@@ -74,14 +74,14 @@
   </h1>
 </div>
 
+<!-- a) "vide", "incompatibilitas" - jw.; błędny pkt 2. w bibliografii - tak jak przy Radzie Gabinetowej -->
+
 <div
   in:fade={{ duration: 1000 }}
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div>
       Podmiot stojący na czele aparatu pomocniczego głowy państwa, jakim jest
       Kancelaria Prezydenta Rzeczypospolitej Polskiej, przewidziana w art. 143
@@ -89,9 +89,7 @@
       konstytucyjny organ państwa; z kolei, jako niezatrudniony w administracji
       rządowej, nie stanowi członka korpusu służby cywilnej.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Powołanie i odwołanie</h2>
     <div class="pt-2">
       Sposób jego powoływania oraz odwoływania określa art. 144 ust. 3 pkt 28
       ustawy zasadniczej. Dzieje się to w drodze skorzystania przez Prezydenta z
@@ -103,18 +101,14 @@
       sądowoadministracyjnej, ponieważ nie stanowi przejawu wykonywania zadań z
       zakresu administracji publicznej.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zasada niepołączalności</h2>
     <div class="pt-2">
       Stanowisko to objęto zasadą niepołączalności (incompatibilitas; art. 103
       Konstytucji). Oznacza ona, w tym przypadku, zakaz jednoczesnego
       wykonywania mandatu posła lub senatora.
     </div>
 
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Kompetencje</h2>
     <div class="pt-2">
       Zakres kompetencji Szefa KPRP wynika z treści Statutu Kancelarii
       Prezydenta Rzeczypospolitej Polskiej, stanowiącego załącznik do
@@ -138,24 +132,18 @@
       Kancelarii na dany rok budżetowy; dokonuje ponadto – już samodzielnie –
       ich podziału pomiędzy poszczególne komórki organizacyjne (§ 3 ust. 4-5).
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Biuro Szefa Kancelarii</h2>
     <div class="pt-2">
       Zaplecze Szefa Kancelarii Prezydenta RP stanowi Biuro Szefa Kancelarii,
       będące jedną z komórek organizacyjnych KPRP (§ 5 pkt 1).
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zastępowanie Szefa KPRP</h2>
     <div class="pt-2">
       Pod nieobecność Szefa KPRP jego obowiązki wykonuje Zastępca Szefa KPRP.
       Gdyby jednak także on nie był obecny, zadania te przejmuje wyznaczony
       przez Szefa Kancelarii sekretarz lub podsekretarz stanu w KPRP.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Odpowiedzialność prawna</h2>
     <div class="pt-2">
       Odpowiedzialność za działania Szefa Kancelarii Prezydenta RP, jako
       urzędnika swojego aparatu pomocniczego, ponosi Prezydent Rzeczypospolitej
