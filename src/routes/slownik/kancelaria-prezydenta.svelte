@@ -86,11 +86,17 @@
       jednak kontrowersje. Kancelaria Prezydenta RP jest bowiem tak naprawdę
       urzędem, a więc aparatem pomocniczym organu (w tym przypadku – głowy
       państwa), nieposiadającym własnych uprawnień, wyłącznie wspomagającym
-      organ w wykonywaniu jego kompetencji. To jedyny urząd sensu stricto wprost
-      przewidziany przepisami ustawy zasadniczej. Ze względu na charakter prawny
-      KPRP (jako właśnie urzędu), czynności jej pracowników są dokonywane w
-      imieniu Prezydenta RP – tym samym to głowa państwa ponosi za nie
-      odpowiedzialność.
+      organ w wykonywaniu jego kompetencji.<sup
+        title="Tak np. P. Czarny, komentarz do art. 143 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 1."
+        >1</sup
+      >
+      To jedyny urząd sensu stricto wprost przewidziany przepisami ustawy
+      zasadniczej. Ze względu na charakter prawny KPRP (jako właśnie urzędu),
+      czynności jej pracowników są dokonywane w imieniu Prezydenta RP – tym
+      samym to głowa państwa ponosi za nie odpowiedzialność<sup
+        title="Zob. B. Banaszak, komentarz do art. 143 [w:] Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012."
+        >2</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Ramy prawne</h2>
     <div class="pt-2">
@@ -98,12 +104,17 @@
       przez Prezydenta RP, tj. poprzez skorzystanie z prerogatywy, bez
       konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (art. 144 ust.
       3 pkt 28 Konstytucji RP). Dokument ten przybiera postać załącznika do
-      prezydenckiego zarządzenia. Jest on w związku z tym aktem prawa
-      wewnętrznego, o którym wspomina art. 93 Konstytucji, wiążącym wyłącznie
-      jednostki podległe organowi wydającemu. Zarządzenie takie ogłasza się w
-      Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski” (vide: art.
-      10 ust. 2 pkt 4 lit. l ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
-      normatywnych i niektórych innych aktów prawnych).
+      prezydenckiego zarządzenia<sup
+        title="Obecnie: Zarządzenie Prezydenta Rzeczypospolitej Polskiej z dnia 7 sierpnia 2015 r. w sprawie nadania statutu Kancelarii Prezydenta Rzeczypospolitej Polskiej; M.P. 2015 poz. 762 ze zm."
+        >3</sup
+      >. Jest on w związku z tym aktem prawa wewnętrznego, o którym wspomina
+      art. 93 Konstytucji, wiążącym wyłącznie jednostki podległe organowi
+      wydającemu. Zarządzenie takie ogłasza się w Dzienniku Urzędowym
+      Rzeczypospolitej Polskiej „Monitor Polski” (vide: art. 10 ust. 2 pkt 4
+      lit. l ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i
+      niektórych innych aktów prawnych<sup title="Dz.U. z 2019 r. poz. 1461."
+        >4</sup
+      >).
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Struktura organizacyjna</h2>
     <div class="pt-2">
@@ -133,7 +144,10 @@
       mandatu posła lub senatora. Regulacja ta służy realizacji celu
       konstytucjonalizacji Kancelarii Prezydenta RP, a więc zagwarantowaniu
       wykonywania zadań głowy państwa w sposób niezależny od pozostałych organów
-      władzy.
+      władzy<sup
+        title=" Por. K. Kozłowski, komentarz do art. 143 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 9-10."
+        >5</sup
+      >.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>

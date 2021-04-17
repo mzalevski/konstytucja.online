@@ -114,19 +114,31 @@
       może ono stanowić podstawy decyzji wobec jednostek niezwiązanych
       stosunkiem podległości. Zdaniem K. Działochy oraz A. Łukaszczuk, w
       odniesieniu do „podległych jednostek” prawo wewnętrzne również mieści się
-      w pojęciu „prawo” z art. 83 Konstytucji. Inaczej twierdzi M.
-      Florczak-Wątor, wymieniająca tylko prawo powszechnie obowiązujące.
+      w pojęciu „prawo” z art. 83 Konstytucji<sup
+        title="K. Działocha, A. Łukaszczuk, uwaga 2. do art. 83 [w:] L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, t. II, Warszawa 2016."
+        >1</sup
+      >. Inaczej twierdzi M. Florczak-Wątor, wymieniająca tylko prawo
+      powszechnie obowiązujące<sup
+        title="M. Florczak-Wątor, komentarz do art. 83 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 1 i 4."
+        >2</sup
+      >.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Prawo zwyczajowe</h2>
     <div class="pt-2">
       Należy podkreślić, że w zakres omawianego pojęcia nie wchodzi prawo
-      zwyczajowe. Nie należy jednak mylić „prawa zwyczajowego” ze „zwyczajem”.
+      zwyczajowe<sup
+        title="Zob. A. Sakowicz, komentarz do art. 83 [w:] M. Safjan, L. Bosek, Konstytucja RP. Tom I. Komentarz do art. 1-86, wyd. 1., Warszawa 2016; nb. 15."
+        >3</sup
+      >. Nie należy jednak mylić „prawa zwyczajowego” ze „zwyczajem”.
       Poszczególne ustawy niejednokrotnie przyznają bowiem moc obowiązującą tzw.
       ustalonym zwyczajom (vide: art. 56 czy art. 354 § 1 Kodeksu cywilnego) czy
       zwyczajom miejscowym (np. art. 908 § 1 KC). Wynika ona jednak nie z samego
       faktu istnienia powszechnie uznanej, spójnej praktyki, lecz wyraźnej woli
-      ustawodawcy.
+      ustawodawcy<sup
+        title="Zob. np. A. Brzozowski, J. Jastrzębski, M. Kaliński, E. Skowrońska-Bocian, Zobowiązania. Część ogólna, wyd. 3., Warszawa 2019; s. 29."
+        >4</sup
+      >.
     </div>
 
     <div class="pt-2">
@@ -134,7 +146,10 @@
       różne zasady czy normy pozaprawne, do których odsyłają poszczególne
       przepisy, otwierając tym samym system prawny na prawo naturalne. Chodzi w
       szczególności o klauzulę „zasad współżycia społecznego” czy „względy
-      słuszności”, znane głównie z przepisów prawa cywilnego.
+      słuszności”, znane głównie z przepisów prawa cywilnego<sup
+        title="Zob. M. Haczkowska, uwaga 3. do art. 83 [w:] M. Haczkowska (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. LexisNexis 2014."
+        >5</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Wymogi formalne</h2>
     <div class="pt-2">
@@ -147,7 +162,9 @@
       cywilizacyjnym paremii ignorantia iuris nocet („nieznajomość prawa
       szkodzi”). Teoretycznie każdy ma bowiem szansę zapoznać się z istniejącymi
       regulacjami, czemu służy instytucja ogłaszania (promulgacji) aktów
-      normatywnych.
+      normatywnych<sup
+        title="Zob. w tym zakresie M. Florczak-Wątor, op. cit., pkt 3.">6</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
