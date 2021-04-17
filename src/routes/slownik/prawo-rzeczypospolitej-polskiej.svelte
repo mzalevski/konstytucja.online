@@ -62,7 +62,7 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+    <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">
       Dawid Wysocki
     </a>
   </h2>
@@ -79,9 +79,7 @@
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Rola pojęcia</h2>
     <div>
       Pojęcie to pojawia się w art. 83 Konstytucji RP, zlokalizowanym w
       fundamentalnym dla statusu jednostki Rozdziale II ustawy zasadniczej.
@@ -93,9 +91,7 @@
       Nakaz, zasadniczo, znajduje zastosowanie również względem obywateli
       Rzeczypospolitej znajdujących się poza granicami Polski.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zakres znaczeniowy</h2>
     <div class="pt-2">
       Poprzez określenie „prawo” należy z pewnością rozumieć akty normatywne,
       które noszą przymiot prawa powszechnie obowiązującego. Jego źródła
@@ -107,7 +103,7 @@
       międzynarodowej (vide: prawo wtórne/pochodne Unii Europejskiej).
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Problem aktów prawa wewnętrzego
     </h2>
     <div class="pt-2">
       Akty prawa wewnętrznego, o których wspomina art. 93 Konstytucji,
@@ -122,9 +118,7 @@
       Florczak-Wątor, wymieniająca tylko prawo powszechnie obowiązujące.
     </div>
 
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Prawo zwyczajowe</h2>
     <div class="pt-2">
       Należy podkreślić, że w zakres omawianego pojęcia nie wchodzi prawo
       zwyczajowe. Nie należy jednak mylić „prawa zwyczajowego” ze „zwyczajem”.
@@ -134,9 +128,7 @@
       faktu istnienia powszechnie uznanej, spójnej praktyki, lecz wyraźnej woli
       ustawodawcy.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+
     <div class="pt-2">
       Poprzez pojęcie „prawo Rzeczypospolitej Polskiej” należy rozumieć także
       różne zasady czy normy pozaprawne, do których odsyłają poszczególne
@@ -144,9 +136,7 @@
       szczególności o klauzulę „zasad współżycia społecznego” czy „względy
       słuszności”, znane głównie z przepisów prawa cywilnego.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Wymogi formalne</h2>
     <div class="pt-2">
       „Prawo”, o którym mowa w art. 83 Konstytucji RP, musi także obowiązywać,
       tzn. zostać prawidłowo uchwalone/wydane, a następnie urzędowo

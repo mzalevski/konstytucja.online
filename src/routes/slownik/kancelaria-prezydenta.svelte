@@ -62,7 +62,7 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+    <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">
       Dawid Wysocki
     </a>
   </h2>
@@ -79,9 +79,7 @@
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Ogólna charakterystyka</h2>
     <div>
       Zgodnie z literalnym brzmieniem art. 143 Konstytucji RP stanowi organ
       pomocniczy Prezydenta Rzeczypospolitej Polskiej. Sformułowanie to budzi
@@ -94,9 +92,7 @@
       imieniu Prezydenta RP – tym samym to głowa państwa ponosi za nie
       odpowiedzialność.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Ramy prawne</h2>
     <div class="pt-2">
       KPRP funkcjonuje na podstawie statutu nadawanego w pełni samodzielnie
       przez Prezydenta RP, tj. poprzez skorzystanie z prerogatywy, bez
@@ -109,9 +105,7 @@
       10 ust. 2 pkt 4 lit. l ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
       normatywnych i niektórych innych aktów prawnych).
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Struktura organizacyjna</h2>
     <div class="pt-2">
       Statut Kancelarii określa jej strukturę. Aparat pomocniczy głowy państwa
       składa się z wielu komórek organizacyjnych, m.in. Biura Szefa Kancelarii,
@@ -120,9 +114,7 @@
       działania urzędu precyzuje regulamin organizacyjny, wydawany przez Szefa
       Kancelarii (§ 6 ust. 1).
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zadania Kancelarii</h2>
     <div class="pt-2">
       Podstawowym celem KPRP jest wspomaganie Prezydenta RP w korzystaniu z
       posiadanych uprawnień. Na podstawie Statutu Kancelarii, wykonuje więc ona
@@ -132,9 +124,7 @@
       Kancelarii, Zastępcy Szefa Kancelarii, Szefa Gabinetu Prezydenta oraz
       sekretarzy i podsekretarzy stanu w KPRP (§ 1 ust. 4).
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zasada niepołączalności</h2>
     <div class="pt-2">
       Na czele Kancelarii Prezydenta stoi Szef Kancelarii Prezydenta. Zarówno
       jego, jak i inne osoby zatrudnione w KPRP, obejmuje zasada

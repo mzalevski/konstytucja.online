@@ -62,7 +62,7 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+    <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">
       Dawid Wysocki
     </a>
   </h2>
@@ -80,7 +80,7 @@
 >
   <div in:fade={{ duration: 3000 }}>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      <!-- Może jakiś subtitle tutaj -->
     </h2>
     <div>
       Jest to Rada Ministrów obradująca w sprawach szczególnej wagi pod
@@ -93,9 +93,7 @@
       czy zaistniała sytuacja wymagająca zwołania posiedzenia omawianego
       gremium.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Skład Rady Gabinetowej</h2>
     <div class="pt-2">
       W skład Rady Gabinetowej, obok Prezydenta Rzeczypospolitej, wchodzą
       wszyscy aktualnie pełniący swe funkcje członkowie Rady Ministrów. Jeżeli
@@ -106,9 +104,7 @@
       odpowiednio – Kancelarii Prezydenta RP lub Kancelarii Prezesa Rady
       Ministrów.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div class="pt-2">
       Jak wynika z art. 141 ust. 2 Konstytucji RP, Rada Gabinetowa nie posiada
       kompetencji Rady Ministrów. Oznacza to, że w praktyce stanowi zaledwie
@@ -122,7 +118,7 @@
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Zwołanie Rady Gabinetowej
     </h2>
     <div class="pt-2">
       Posiedzenia tego organu państwa zwołuje jego przewodniczący – Prezydent
@@ -133,7 +129,7 @@
       zadawanie im pytań.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Ustalenia Rady Gabinetowej
     </h2>
     <div class="pt-2">
       Zapadłe podczas posiedzenia Rady Gabinetowej ustalenia nie mają charakteru
@@ -150,7 +146,7 @@
         2., Warszawa 2012.
       </li>
       <li>
-        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom I. Komentarz do art.
+        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
         1-86, wyd. 1., Warszawa 2016.
       </li>
       <li>

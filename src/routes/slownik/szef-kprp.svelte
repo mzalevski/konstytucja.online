@@ -62,7 +62,7 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/MichalChodorek">
+    <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">
       Dawid Wysocki
     </a>
   </h2>
@@ -168,7 +168,7 @@
         2., Warszawa 2012.
       </li>
       <li>
-        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom I. Komentarz do art.
+        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
         1-86, wyd. 1., Warszawa 2016.
       </li>
       <li>
