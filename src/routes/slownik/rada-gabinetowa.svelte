@@ -142,19 +142,19 @@
 
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
-        1. B. Banaszak, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
+        1. B. Banaszak, "Konstytucja Rzeczypospolitej Polskiej. Komentarz", wyd.
         2., Warszawa 2012.
       </li>
       <li>
-        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
-        1-86, wyd. 1., Warszawa 2016.
+        2. M. Safjan, L. Bosek (red.), "Konstytucja RP. Tom II. Komentarz do
+        art. 87-243", wyd. 1., Warszawa 2016.
       </li>
       <li>
-        3. W. Skrzydło, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
+        3. W. Skrzydło, "Konstytucja Rzeczypospolitej Polskiej. Komentarz", wyd.
         7., opubl. LEX 2013.
       </li>
       <li>
-        4. P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
+        4. P. Tuleja (red.), "Konstytucja Rzeczypospolitej Polskiej. Komentarz",
         opubl. WKP 2019.
       </li>
     </ul>

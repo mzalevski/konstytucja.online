@@ -171,22 +171,22 @@
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
         1. A. Brzozowski, J. Jastrzębski, M. Kaliński, E. Skowrońska-Bocian,
-        Zobowiązania. Część ogólna, wyd. 3., Warszawa 2019.
+        "Zobowiązania. Część ogólna", wyd. 3., Warszawa 2019.
       </li>
       <li>
-        2. L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej.
-        Komentarz, t. I, Warszawa 2016.
+        2. L. Garlicki, M. Zubik (red.), "Konstytucja Rzeczypospolitej Polskiej.
+        Komentarz", t. I, Warszawa 2016.
       </li>
       <li>
-        3. M. Haczkowska (red.), Konstytucja Rzeczypospolitej Polskiej.
-        Komentarz, opubl. LexisNexis 2014.
+        3. M. Haczkowska (red.), "Konstytucja Rzeczypospolitej Polskiej.
+        Komentarz", opubl. LexisNexis 2014.
       </li>
       <li>
-        4. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom I. Komentarz do art.
-        1-86, wyd. 1., Warszawa 2016.
+        4. M. Safjan, L. Bosek (red.), "Konstytucja RP. Tom I. Komentarz do art.
+        1-86", wyd. 1., Warszawa 2016.
       </li>
       <li>
-        5. P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
+        5. P. Tuleja (red.), "Konstytucja Rzeczypospolitej Polskiej. Komentarz",
         opubl. WKP 2019.
       </li>
     </ul>

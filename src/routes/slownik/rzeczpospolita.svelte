@@ -132,24 +132,28 @@
       przetłumaczony na język polski wyraz „republika”<sup
         title="Zob. np. hasło „republika” [w:] J. Tokarski (red.), Słownik wyrazów obcych PWN, Warszawa 1980, s. 644; por. także hasło „republika” [w:] L. Wiśniakowska (red.), Słownik wyrazów bliskoznacznych PWN, Warszawa 2006, s. 472, gdzie wprost określono „rzeczpospolitą” jako synonim „republiki”."
         >5</sup
-      > (łac. res publica). Wprawdzie w okresie I RP, tzw. Rzeczypospolitej Obojga
-      Narodów, słowo to niewątpliwie nie miało tak wyraźnie republikańskich konotacji,
-      jak obecnie, niemniej jednak zawsze było kojarzone z państwem obywatelskim,
-      którego władcy – pod względem pozycji ustrojowej – bliżej było do modelu demokratycznego
-      aniżeli tradycyjnie monarchicznego.
+      >
+      (łac. <italic>res publica</italic>). Wprawdzie w okresie I RP, tzw.
+      Rzeczypospolitej Obojga Narodów, słowo to niewątpliwie nie miało tak
+      wyraźnie republikańskich konotacji, jak obecnie, niemniej jednak zawsze
+      było kojarzone z państwem obywatelskim, którego władcy – pod względem
+      pozycji ustrojowej – bliżej było do modelu demokratycznego aniżeli
+      tradycyjnie monarchicznego.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
 
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
-        1. L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej.
-        Komentarz, t. I, Warszawa 2016.
+        1. L. Garlicki, M. Zubik (red.), "Konstytucja Rzeczypospolitej Polskiej.
+        Komentarz", t. I, Warszawa 2016.
       </li>
-      <li>2. J. Tokarski (red.), Słownik wyrazów obcych PWN, Warszawa 1980.</li>
       <li>
-        3. L. Wiśniakowska (red.), Słownik wyrazów bliskoznacznych PWN, Warszawa
-        2006.
+        2. J. Tokarski (red.), "Słownik wyrazów obcych PWN", Warszawa 1980.
+      </li>
+      <li>
+        3. L. Wiśniakowska (red.), "Słownik wyrazów bliskoznacznych PWN",
+        Warszawa 2006.
       </li>
     </ul>
   </div>

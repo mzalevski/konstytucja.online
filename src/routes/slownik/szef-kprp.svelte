@@ -92,8 +92,6 @@
   </h1>
 </div>
 
-<!-- a) "vide", "incompatibilitas" - jw.; błędny pkt 2. w bibliografii - tak jak przy Radzie Gabinetowej -->
-
 <div
   in:fade={{ duration: 1000 }}
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
@@ -127,9 +125,10 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zasada niepołączalności</h2>
     <div class="pt-2">
-      Stanowisko to objęto zasadą niepołączalności (incompatibilitas; art. 103
-      Konstytucji). Oznacza ona, w tym przypadku, zakaz jednoczesnego
-      wykonywania mandatu posła lub senatora.
+      Stanowisko to objęto zasadą niepołączalności (<italic
+        >incompatibilitas</italic
+      >; art. 103 Konstytucji). Oznacza ona, w tym przypadku, zakaz
+      jednoczesnego wykonywania mandatu posła lub senatora.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Kompetencje</h2>
@@ -182,15 +181,15 @@
 
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
-        1. B. Banaszak, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
+        1. B. Banaszak, "Konstytucja Rzeczypospolitej Polskiej. Komentarz", wyd.
         2., Warszawa 2012.
       </li>
       <li>
-        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
-        1-86, wyd. 1., Warszawa 2016.
+        2. M. Safjan, L. Bosek (red.), "Konstytucja RP. Tom II. Komentarz do
+        art. 87-243", wyd. 1., Warszawa 2016.
       </li>
       <li>
-        3. P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
+        3. P. Tuleja (red.), "Konstytucja Rzeczypospolitej Polskiej. Komentarz",
         opubl. WKP 2019.
       </li>
     </ul>
