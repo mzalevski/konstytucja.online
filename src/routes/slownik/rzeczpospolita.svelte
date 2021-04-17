@@ -70,26 +70,23 @@
     Definicja skonsultowana z konstytucjonalistą, prof. X
   </h2> -->
   <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
-    RZECZPOSPOLISTA
+    RZECZPOSPOLITA
   </h1>
 </div>
-
 <div
   in:fade={{ duration: 1000 }}
   class="max-w-3xl mx-auto leading-relaxed text-justify sm:text-xl"
 >
   <div in:fade={{ duration: 3000 }}>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      <!-- Może jakiś subtitle tutaj -->
     </h2>
     <div>
       Pojęcie to odgrywa dwie role: z jednej strony stanowi tradycyjny element
       nazwy państwa polskiego, z drugiej zaś – określenie republikańskiej formy
       ustroju Polski.
     </div>
-    <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
-    </h2>
+    <h2 class="mt-8 text-lg font-thin sm:text-2xl">Element tradycji</h2>
     <div class="pt-2">
       W pierwszym znaczeniu pojawia się ono w Preambule Konstytucji RP, gdzie ma
       za zadanie podkreślić ciągłość polskiej państwowości (vide: wzmianka o I
@@ -106,7 +103,7 @@
       określenie „Ludowa”.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Rzeczpospolita jako republika
     </h2>
     <div class="pt-2">
       Druga funkcja pojęcia „Rzeczpospolita” wynika głównie z kontekstu
@@ -122,7 +119,7 @@
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
-      Może jakiś subtitle tutaj
+      Znaczenie słownikowe pojęcia
     </h2>
     <div class="pt-2">
       Z kolei z punktu widzenia stricte językowego, „Rzeczpospolita” stanowi
