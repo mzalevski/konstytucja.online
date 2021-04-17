@@ -90,10 +90,10 @@
         title="Tak np. P. Czarny, komentarz do art. 143 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 1."
         >1</sup
       >
-      To jedyny urząd sensu stricto wprost przewidziany przepisami ustawy
-      zasadniczej. Ze względu na charakter prawny KPRP (jako właśnie urzędu),
-      czynności jej pracowników są dokonywane w imieniu Prezydenta RP – tym
-      samym to głowa państwa ponosi za nie odpowiedzialność<sup
+      To jedyny urząd sensu stricto wprost przewidziany przepisami ustawy zasadniczej.
+      Ze względu na charakter prawny KPRP (jako właśnie urzędu), czynności jej pracowników
+      są dokonywane w imieniu Prezydenta RP – tym samym to głowa państwa ponosi za
+      nie odpowiedzialność<sup
         title="Zob. B. Banaszak, komentarz do art. 143 [w:] Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012."
         >2</sup
       >.
@@ -154,15 +154,15 @@
 
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
-        1) B. Banaszak, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
+        1. B. Banaszak, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd.
         2., Warszawa 2012.
       </li>
       <li>
-        2) M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
+        2. M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art.
         87-243, wyd. 1., Warszawa 2016.
       </li>
       <li>
-        3) P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
+        3. P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
         opubl. WKP 2019.
       </li>
     </ul>
