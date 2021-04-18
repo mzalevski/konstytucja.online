@@ -1,4 +1,9 @@
+const link = ({ text, href, tooltip = "" }) => {
+  return `<a title="${tooltip}" class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href="${href}">${text}</a>`;
+};
+
 const extLink = `<svg class="inline fill-current text-gray-900 w-3 h-3 pb-px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"/></svg>`;
+
 const articles = [
   {
     title: "Art. 1",
@@ -366,7 +371,10 @@ const articles = [
       title: "Rzeczpospolita",
     },
     html: `
-			<p>Stolicą Rzeczypospolitej Polskiej jest Warszawa.</p>
+			<p>${link({
+        text: "Stolicą",
+        href: "/slownik/stolica",
+      })} Rzeczypospolitej Polskiej jest Warszawa.</p>
 		`,
     desc: "",
   },
@@ -1448,7 +1456,15 @@ const articles = [
     html: `
 			<p>Każdy ma obowiązek przestrzegania prawa Rzeczypospolitej Polskiej.</p>
 		`,
-    desc: "",
+    desc: `Przepis ten nakłada na „każdego”, tj. każdą osobę podlegającą jurysdykcji
+      Rzeczypospolitej Polskiej, obowiązek przestrzegania jej prawa. Adresatem
+      przymusu są osoby przebywające na terytorium naszego kraju: obywatele
+      polscy, cudzoziemcy oraz bezpaństwowcy (apatrydzi). Obciąża on także osoby
+      prawne oraz jednostki organizacyjne nieposiadające osobowości prawnej.
+      Nakaz, zasadniczo, znajduje zastosowanie również względem obywateli
+      Rzeczypospolitej znajdujących się poza granicami Polski. Więcej na <a target="_blank" class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href="/slownik/prawo-rzeczypospolitej-polskiej">stronie definicji</a>.
+      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/DNWysocki" rel="nofollow" target="_blank">Dawid Wysocki</a> ${extLink}</p>
+    `,
   },
   {
     title: "Art. 84",
@@ -2277,7 +2293,12 @@ const articles = [
       title: "Prezydent Rzeczypospolitej Polskiej",
     },
     html: `
-			<p>Organem pomocniczym Prezydenta Rzeczypospolitej jest Kancelaria Prezydenta Rzeczypospolitej. Prezydent Rzeczypospolitej nadaje statut Kancelarii oraz powołuje i odwołuje Szefa Kancelarii Prezydenta Rzeczypospolitej.</p>
+			<p>Organem pomocniczym Prezydenta Rzeczypospolitej jest Kancelaria Prezydenta Rzeczypospolitej. Prezydent Rzeczypospolitej nadaje statut Kancelarii oraz powołuje i odwołuje ${link(
+        {
+          text: "Szefa Kancelarii Prezydenta Rzeczypospolitej",
+          href: "/slownik/szef-kprp",
+        }
+      )}.</p>
 		`,
     desc: "",
   },
@@ -3685,7 +3706,7 @@ const articles = [
   },
 ];
 
-articles.forEach((article) => {
+articles.forEach(article => {
   article.html = article.html.replace(/^\t{3}/gm, "");
 });
 
