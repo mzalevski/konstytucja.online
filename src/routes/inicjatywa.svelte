@@ -146,7 +146,11 @@
   <div>
     <p class="pt-2">Przygotowaniem słownika zajmował/li się:</p>
     <ul>
-      <li>- Dawid Wysocki</li>
+      <li>
+        - <a target="_blank" href="https://twitter.com/DNWysocki"
+          >Dawid Wysocki</a
+        >
+      </li>
     </ul>
   </div>
 
