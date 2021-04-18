@@ -125,7 +125,7 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Zasada niepołączalności</h2>
     <div class="pt-2">
-      Stanowisko to objęto zasadą niepołączalności (<italic
+      Stanowisko to objęto zasadą niepołączalności (<italic class="italic"
         >incompatibilitas</italic
       >; art. 103 Konstytucji). Oznacza ona, w tym przypadku, zakaz
       jednoczesnego wykonywania mandatu posła lub senatora.
