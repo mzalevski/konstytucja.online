@@ -111,7 +111,7 @@
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Powołanie i odwołanie</h2>
     <div class="pt-2">
       Sposób jego powoływania oraz odwoływania określa <a
-        class="link"
+        class="underline hover:text-red-new focus:text-red-new"
         rel="prefetch"
         href="/144">art. 144 ust. 3 pkt 28</a
       >
@@ -131,8 +131,13 @@
     <div class="pt-2">
       Stanowisko to objęto zasadą niepołączalności (<italic class="italic"
         >incompatibilitas</italic
-      >; <a class="link" rel="prefetch" href="/103">art. 103</a> Konstytucji). Oznacza
-      ona, w tym przypadku, zakaz jednoczesnego wykonywania mandatu posła lub senatora.
+      >;
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        rel="prefetch"
+        href="/103">art. 103</a
+      > Konstytucji). Oznacza ona, w tym przypadku, zakaz jednoczesnego wykonywania
+      mandatu posła lub senatora.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Kompetencje</h2>

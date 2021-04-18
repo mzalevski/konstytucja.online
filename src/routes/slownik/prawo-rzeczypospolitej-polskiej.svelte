@@ -95,31 +95,47 @@
     <div class="pt-2">
       Poprzez określenie „prawo” należy z pewnością rozumieć akty normatywne,
       które noszą przymiot prawa powszechnie obowiązującego. Jego źródła
-      wskazują <a class="link" href="/87" rel="prefetch">art. 87</a> oraz
-      <a class="link" href="/91" rel="prefetch">art. 91 ust. 3</a> ustawy zasadniczej.
-      Są to zatem: Konstytucja RP, ustawy, ratyfikowane umowy międzynarodowe, rozporządzenia,
-      akty prawa miejscowego (na obszarze działania organów, które je ustanowiły)
-      oraz prawo stanowione przez organizację międzynarodową, jeżeli jego obowiązywanie
-      wynika z ratyfikowanej przez Polskę umowy międzynarodowej (vide: prawo wtórne/pochodne
-      Unii Europejskiej).
+      wskazują <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/87"
+        rel="prefetch">art. 87</a
+      >
+      oraz
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/91"
+        rel="prefetch">art. 91 ust. 3</a
+      > ustawy zasadniczej. Są to zatem: Konstytucja RP, ustawy, ratyfikowane umowy
+      międzynarodowe, rozporządzenia, akty prawa miejscowego (na obszarze działania
+      organów, które je ustanowiły) oraz prawo stanowione przez organizację międzynarodową,
+      jeżeli jego obowiązywanie wynika z ratyfikowanej przez Polskę umowy międzynarodowej
+      (vide: prawo wtórne/pochodne Unii Europejskiej).
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       Problem aktów prawa wewnętrzego
     </h2>
     <div class="pt-2">
       Akty prawa wewnętrznego, o których wspomina <a
-        class="link"
+        class="underline hover:text-red-new focus:text-red-new"
         href="/93"
         rel="prefetch">art. 93 Konstytucji</a
       >, obowiązują jedynie jednostki organizacyjnie podległe podmiotowi
       wydającemu dany akt (np. zarządzenie ministra adresowane jest wyłącznie do
       pracowników ministerstwa lub innej kierowanej przez niego struktury). Taki
       charakter prawa wewnętrznego podkreśla
-      <a class="link" href="/93" rel="prefetch">art. 93 ust. 2</a>, precyzując,
-      że nie może ono stanowić podstawy decyzji wobec jednostek niezwiązanych
-      stosunkiem podległości. Zdaniem K. Działochy oraz A. Łukaszczuk, w
-      odniesieniu do „podległych jednostek” prawo wewnętrzne również mieści się
-      w pojęciu „prawo” z <a class="link" href="/83" rel="prefetch">art. 83</a>
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/93"
+        rel="prefetch">art. 93 ust. 2</a
+      >, precyzując, że nie może ono stanowić podstawy decyzji wobec jednostek
+      niezwiązanych stosunkiem podległości. Zdaniem K. Działochy oraz A.
+      Łukaszczuk, w odniesieniu do „podległych jednostek” prawo wewnętrzne
+      również mieści się w pojęciu „prawo” z
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/83"
+        rel="prefetch">art. 83</a
+      >
       Konstytucji<sup
         title="K. Działocha, A. Łukaszczuk, uwaga 2. do art. 83 [w:] L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, t. II, Warszawa 2016."
         >1</sup
@@ -159,15 +175,17 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Wymogi formalne</h2>
     <div class="pt-2">
-      „Prawo”, o którym mowa w <a class="link" href="/83" rel="prefetch"
-        >art. 83</a
+      „Prawo”, o którym mowa w <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/83"
+        rel="prefetch">art. 83</a
       >
-      Konstytucji RP, musi także obowiązywać, tzn. zostać prawidłowo
-      uchwalone/wydane, a następnie urzędowo opublikowane, oraz wejść w życie.
-      Uchylone akty – o ile przepisy szczególne, np. międzyczasowe
-      (intertemporalne) nie stanowią inaczej – nie wiążą obywateli. Prawo nie
-      musi być znane konkretnej jednostce, jeżeli spełnia ww. wymogi, zgodnie z
-      zasadą wynikającą z uznanej w naszym kręgu cywilizacyjnym paremii
+      Konstytucji RP, musi także obowiązywać, tzn. zostać prawidłowo uchwalone/wydane,
+      a następnie urzędowo opublikowane, oraz wejść w życie. Uchylone akty – o ile
+      przepisy szczególne, np. międzyczasowe (intertemporalne) nie stanowią inaczej
+      – nie wiążą obywateli. Prawo nie musi być znane konkretnej jednostce, jeżeli
+      spełnia ww. wymogi, zgodnie z zasadą wynikającą z uznanej w naszym kręgu cywilizacyjnym
+      paremii
       <italic class="italic">ignorantia iuris nocet</italic>
       („nieznajomość prawa szkodzi”). Teoretycznie każdy ma bowiem szansę zapoznać
       się z istniejącymi regulacjami, czemu służy instytucja ogłaszania (promulgacji)

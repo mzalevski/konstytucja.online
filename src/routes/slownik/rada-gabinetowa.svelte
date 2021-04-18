@@ -111,7 +111,10 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div class="pt-2">
-      Jak wynika z <a class="link" rel="prefetch" href="/141">art. 141 ust. 2</a
+      Jak wynika z <a
+        class="underline hover:text-red-new focus:text-red-new"
+        rel="prefetch"
+        href="/141">art. 141 ust. 2</a
       >
       Konstytucji RP, Rada Gabinetowa nie posiada kompetencji Rady Ministrów. Oznacza
       to, że w praktyce stanowi zaledwie forum dyskusyjne, miejsce omawiania kluczowych
@@ -132,7 +135,7 @@
       Posiedzenia tego organu państwa zwołuje jego przewodniczący – Prezydent
       RP. Jest to w pełni samodzielnie realizowane uprawnienie (prerogatywa),
       bez konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (<a
-        class="link"
+        class="underline hover:text-red-new focus:text-red-new"
         rel="prefetch"
         href="/144">art. 144</a
       >

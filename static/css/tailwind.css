@@ -15,18 +15,6 @@ html {
   @apply bg-white;
 }
 
-.link {
-  @apply underline;
-}
-
-.link:hover {
-  @apply text-red-new;
-}
-
-.link:focus {
-  @apply text-red-new;
-}
-
 @media (min-width: 640px) {
   .two-col {
     column-count: 2;
