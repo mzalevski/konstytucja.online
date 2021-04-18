@@ -7,6 +7,10 @@
   export let segment;
   export let showDropdown = false;
 
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
 
   let dropdownTransitionConfig =
@@ -17,14 +21,16 @@
   const onSwipeRight = () => (showDropdown = false);
 
   onMount(() => {
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swiperight: onSwipeRight });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swiperight: onSwipeRight });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swiperight: onSwipeRight });
     }
   });

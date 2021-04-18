@@ -5,6 +5,10 @@
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
 
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
 
   const paragraphs = [
@@ -37,14 +41,16 @@
 
   onMount(() => {
     prefetch("/");
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swipeleft: onSwipeLeft });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swipeleft: onSwipeLeft });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swipeleft: onSwipeLeft });
     }
   });
@@ -56,24 +62,28 @@
   <meta
     name="description"
     content="Preambuła Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
-    1997 r." />
+    1997 r."
+  />
   <meta
     name="keywords"
     content="preambuła, konstytucja, konstytucjarp, preambuła konstytucji,
     preambulakonstytucja, preambula, konstytucjaonline, online, prawo,
     konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
-    rada ministrów, sejm, senat" />
+    rada ministrów, sejm, senat"
+  />
   <meta name="konstytucja" content="website" />
 </svelte:head>
 
-<Nav segment={'preambula'} />
+<Nav segment={"preambula"} />
 
 <div
   class="px-5 py-5 bg-red-100 rounded-lg shadow-xl sm:py-8 md:py-10 sm:px-10 md:px-12 lg:py-12 lg:px-16"
-  in:fade={{ duration: 1000 }}>
+  in:fade={{ duration: 1000 }}
+>
   <div
     class="flex flex-col space-y-6 px-5 py-5 text-base leading-snug text-center bg-white rounded-lg shadow-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl sm:py-8 md:py-10 sm:px-10 md:px-12 lg:py-12 lg:px-16"
-    in:fly={{ y: 100, duration: 1000 }}>
+    in:fly={{ y: 100, duration: 1000 }}
+  >
     {#each paragraphs as paragraph}
       <p>{paragraph}</p>
     {/each}

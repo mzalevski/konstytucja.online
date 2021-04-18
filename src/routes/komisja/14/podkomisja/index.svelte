@@ -5,6 +5,10 @@
   import Nav from "../../../../components/Nav.svelte";
   import { goto, prefetch } from "@sapper/app";
 
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
   let showDropdown = false;
 
@@ -16,14 +20,16 @@
 
   onMount(() => {
     prefetch("/komisja/14");
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });

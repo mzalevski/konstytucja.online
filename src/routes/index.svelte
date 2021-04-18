@@ -26,6 +26,10 @@
   let articlesToShow = selectedArticles.slice(0, 10);
   let searchedText;
   let selectedChapter;
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
   let showDropdown = false;
 
@@ -101,14 +105,18 @@
           .scrollIntoViewIfNeeded();
       }, 50);
     }
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    if (isMobile()) {
+      if (isMobile()) {
+        eventManager = new EventManager(document.documentElement, {
+          touchAction: "pan-y",
+        });
+        eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+      }
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });

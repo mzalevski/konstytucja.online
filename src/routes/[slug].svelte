@@ -21,6 +21,10 @@
 
   export let article;
 
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
 
   const { page } = stores();
@@ -163,19 +167,21 @@
       showDisqus();
     }
 
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
 
-    eventManager.on({
-      swipeleft: onSwipeLeft,
-      swiperight: onSwipeRight,
-      press: onPress,
-    });
+      eventManager.on({
+        swipeleft: onSwipeLeft,
+        swiperight: onSwipeRight,
+        press: onPress,
+      });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({
         swipeleft: onSwipeLeft,
         swiperight: onSwipeRight,

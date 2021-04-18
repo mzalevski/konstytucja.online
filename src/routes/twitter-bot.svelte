@@ -4,20 +4,26 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
+  const isMobile = () => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+  };
   let eventManager;
 
   const onSwipeRight = () => goto("/");
 
   onMount(() => {
     prefetch("/");
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swiperight: onSwipeRight });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swiperight: onSwipeRight });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swiperight: onSwipeRight });
     }
   });
