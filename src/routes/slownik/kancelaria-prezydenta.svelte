@@ -98,11 +98,13 @@
   <div in:fade={{ duration: 3000 }}>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Ogólna charakterystyka</h2>
     <div>
-      Zgodnie z literalnym brzmieniem art. 143 Konstytucji RP stanowi organ
-      pomocniczy Prezydenta Rzeczypospolitej Polskiej. Sformułowanie to budzi
-      jednak kontrowersje. Kancelaria Prezydenta RP jest bowiem tak naprawdę
-      urzędem, a więc aparatem pomocniczym organu (w tym przypadku – głowy
-      państwa), nieposiadającym własnych uprawnień, wyłącznie wspomagającym
+      Zgodnie z literalnym brzmieniem <a class="link" href="/143" rel="prefetch"
+        >art. 143</a
+      >
+      Konstytucji RP stanowi organ pomocniczy Prezydenta Rzeczypospolitej Polskiej.
+      Sformułowanie to budzi jednak kontrowersje. Kancelaria Prezydenta RP jest bowiem
+      tak naprawdę urzędem, a więc aparatem pomocniczym organu (w tym przypadku –
+      głowy państwa), nieposiadającym własnych uprawnień, wyłącznie wspomagającym
       organ w wykonywaniu jego kompetencji<sup
         title="Tak np. P. Czarny, komentarz do art. 143 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 1."
         >1</sup
@@ -118,18 +120,24 @@
     <div class="pt-2">
       KPRP funkcjonuje na podstawie statutu nadawanego w pełni samodzielnie
       przez Prezydenta RP, tj. poprzez skorzystanie z prerogatywy, bez
-      konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (art. 144 ust.
-      3 pkt 28 Konstytucji RP). Dokument ten przybiera postać załącznika do
-      prezydenckiego zarządzenia<sup
+      konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (<a
+        class="link"
+        href="/144"
+        rel="prefetch"
+      >
+        art. 144 ust. 3 pkt 28
+      </a>
+      Konstytucji RP). Dokument ten przybiera postać załącznika do prezydenckiego
+      zarządzenia<sup
         title="Obecnie: Zarządzenie Prezydenta Rzeczypospolitej Polskiej z dnia 7 sierpnia 2015 r. w sprawie nadania statutu Kancelarii Prezydenta Rzeczypospolitej Polskiej; M.P. 2015 poz. 762 ze zm."
         >3</sup
       >. Jest on w związku z tym aktem prawa wewnętrznego, o którym wspomina
-      art. 93 Konstytucji, wiążącym wyłącznie jednostki podległe organowi
-      wydającemu. Zarządzenie takie ogłasza się w Dzienniku Urzędowym
-      Rzeczypospolitej Polskiej „Monitor Polski” (vide: art. 10 ust. 2 pkt 4
-      lit. l ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i
-      niektórych innych aktów prawnych<sup title="Dz.U. z 2019 r. poz. 1461."
-        >4</sup
+      <a class="link" href="/93" rel="prefetch">art. 93 Konstytucji</a>,
+      wiążącym wyłącznie jednostki podległe organowi wydającemu. Zarządzenie
+      takie ogłasza się w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor
+      Polski” (vide: art. 10 ust. 2 pkt 4 lit. l ustawy z dnia 20 lipca 2000 r.
+      o ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych<sup
+        title="Dz.U. z 2019 r. poz. 1461.">4</sup
       >).
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Struktura organizacyjna</h2>

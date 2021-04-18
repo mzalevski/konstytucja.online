@@ -88,12 +88,14 @@
       czy przedstawicielstw organizacji międzynarodowych<sup
         title="Tak K. Kubuj, komentarz do art. 29 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom I. Komentarz do art. 1-86, wyd. 1., Warszawa 2016; nb. 1."
         >1</sup
-      >. Szczególnie w kontekście art. 3 ustawy zasadniczej, proklamującego
-      jednolitość państwa, jawi się ona jako najważniejsze miejsce na mapie
-      polityczno-ustrojowej Polski. P. Tuleja podkreśla, że to właśnie w
-      Warszawie powinny znajdować się siedziby centralnych i naczelnych organów
-      państwa, aczkolwiek zarazem dodaje, iż z Konstytucji nie wynika zakaz
-      lokowania niektórych spośród nich poza stolicą<sup
+      >. Szczególnie w kontekście
+      <a class="link" rel="prefetch" href="/3">art. 3</a>
+      ustawy zasadniczej, proklamującego jednolitość państwa, jawi się ona jako
+      najważniejsze miejsce na mapie polityczno-ustrojowej Polski. P. Tuleja
+      podkreśla, że to właśnie w Warszawie powinny znajdować się siedziby
+      centralnych i naczelnych organów państwa, aczkolwiek zarazem dodaje, iż z
+      Konstytucji nie wynika zakaz lokowania niektórych spośród nich poza
+      stolicą<sup
         title="P. Tuleja, Art. 29. Stolica Rzeczypospolitej Polskiej [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
         >2</sup
       >. Tak też stało się w przypadku np. Prezesa Wyższego Urzędu Górniczego
@@ -108,16 +110,16 @@
       stołecznego Warszawy<sup title="Dz.U. z 2018 r. poz. 1817.">3</sup>, przez
       pojęcie „Warszawa” należy rozumieć miasto stołeczne Warszawę, tj. miasto
       na prawach powiatu, obejmujące obszar wskazany w art. 13 tego aktu
-      normatywnego. Z punktu widzenia zawierającego wyraz „stolica” art. 29
-      Konstytucji RP, najważniejszy wydaje się być art. 3 tzw. „ustawy
-      warszawskiej”, wskazujący jako dodatkowe zadania m.st. Warszawy te
-      „wynikające ze stołecznego charakteru miasta”. Składa się na nie głównie
-      (jest to bowiem katalog otwarty) zapewnianie warunków niezbędnych do
-      funkcjonowania w mieście naczelnych i centralnych organów państwa, obcych
-      przedstawicielstw dyplomatycznych tudzież urzędów konsularnych oraz
-      organizacji międzynarodowych, przyjmowania delegacji zagranicznych, a
-      także funkcjonowania urządzeń publicznych o charakterze
-      infrastrukturalnym, mających znaczenie dla stołecznych funkcji miasta.
+      normatywnego. Z punktu widzenia zawierającego wyraz „stolica”
+      <a class="link" rel="prefetch" href="/29">art. 29</a>
+      Konstytucji RP, najważniejszy wydaje się być art. 3 tzw. „ustawy warszawskiej”,
+      wskazujący jako dodatkowe zadania m.st. Warszawy te „wynikające ze stołecznego
+      charakteru miasta”. Składa się na nie głównie (jest to bowiem katalog otwarty)
+      zapewnianie warunków niezbędnych do funkcjonowania w mieście naczelnych i centralnych
+      organów państwa, obcych przedstawicielstw dyplomatycznych tudzież urzędów konsularnych
+      oraz organizacji międzynarodowych, przyjmowania delegacji zagranicznych, a
+      także funkcjonowania urządzeń publicznych o charakterze infrastrukturalnym,
+      mających znaczenie dla stołecznych funkcji miasta.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       Inne przejawy stołeczności

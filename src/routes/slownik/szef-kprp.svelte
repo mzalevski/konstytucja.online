@@ -110,15 +110,19 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Powołanie i odwołanie</h2>
     <div class="pt-2">
-      Sposób jego powoływania oraz odwoływania określa art. 144 ust. 3 pkt 28
+      Sposób jego powoływania oraz odwoływania określa <a
+        class="link"
+        rel="prefetch"
+        href="/144">art. 144 ust. 3 pkt 28</a
+      >
       ustawy zasadniczej. Dzieje się to w drodze skorzystania przez Prezydenta z
-      prerogatywy, w pełni samodzielnie. Decyzja głowy państwa przybiera – jako
-      akt indywidualno-konkretny – formę postanowienia (a nie zarządzenia; vide:
-      Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 7 października
-      2020 r. nr 1131.29.2020 o powołaniu Szefa Kancelarii Prezydenta
-      Rzeczypospolitej Polskiej<sup title="M.P. 2020 poz. 963.">2</sup>). Nie
-      podlega ono kontroli sądowoadministracyjnej, ponieważ nie stanowi przejawu
-      wykonywania zadań z zakresu administracji publicznej<sup
+      prerogatywy, w pełni samodzielnie. Decyzja głowy państwa przybiera – jako akt
+      indywidualno-konkretny – formę postanowienia (a nie zarządzenia; vide: Postanowienie
+      Prezydenta Rzeczypospolitej Polskiej z dnia 7 października 2020 r. nr 1131.29.2020
+      o powołaniu Szefa Kancelarii Prezydenta Rzeczypospolitej Polskiej<sup
+        title="M.P. 2020 poz. 963.">2</sup
+      >). Nie podlega ono kontroli sądowoadministracyjnej, ponieważ nie stanowi
+      przejawu wykonywania zadań z zakresu administracji publicznej<sup
         title="Por. uchwała NSA (7) z 9 listopada 1998 r., sygn. akt OPS 4/98, opubl. ONSA 1999, nr 1, poz. 6."
         >3</sup
       >.
@@ -127,8 +131,8 @@
     <div class="pt-2">
       Stanowisko to objęto zasadą niepołączalności (<italic class="italic"
         >incompatibilitas</italic
-      >; art. 103 Konstytucji). Oznacza ona, w tym przypadku, zakaz
-      jednoczesnego wykonywania mandatu posła lub senatora.
+      >; <a class="link" rel="prefetch" href="/103">art. 103</a> Konstytucji). Oznacza
+      ona, w tym przypadku, zakaz jednoczesnego wykonywania mandatu posła lub senatora.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Kompetencje</h2>

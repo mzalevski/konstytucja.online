@@ -111,12 +111,12 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div class="pt-2">
-      Jak wynika z art. 141 ust. 2 Konstytucji RP, Rada Gabinetowa nie posiada
-      kompetencji Rady Ministrów. Oznacza to, że w praktyce stanowi zaledwie
-      forum dyskusyjne, miejsce omawiania kluczowych spraw dla państwa.
-      Instytucja ta służy zatem dialogowi pomiędzy obydwoma ośrodkami władzy
-      wykonawczej. B. Banaszak określa Radę mianem organu
-      opiniodawczo-doradczego<sup
+      Jak wynika z <a class="link" rel="prefetch" href="/141">art. 141 ust. 2</a
+      >
+      Konstytucji RP, Rada Gabinetowa nie posiada kompetencji Rady Ministrów. Oznacza
+      to, że w praktyce stanowi zaledwie forum dyskusyjne, miejsce omawiania kluczowych
+      spraw dla państwa. Instytucja ta służy zatem dialogowi pomiędzy obydwoma ośrodkami
+      władzy wykonawczej. B. Banaszak określa Radę mianem organu opiniodawczo-doradczego<sup
         title="B. Banaszak, komentarz do art. 141 [w:] tenże, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012; nb. 1-2."
         >3</sup
       >. Warto nadmienić, że nie istnieje żaden regulamin posiedzeń RG. W
@@ -131,10 +131,14 @@
     <div class="pt-2">
       Posiedzenia tego organu państwa zwołuje jego przewodniczący – Prezydent
       RP. Jest to w pełni samodzielnie realizowane uprawnienie (prerogatywa),
-      bez konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (art. 144
-      ust. 3 pkt 15 ustawy zasadniczej). Prezydent prowadzi także posiedzenia
-      RG, co oznacza, że do niego należy udzielanie głosu członkom Rady czy też
-      zadawanie im pytań<sup title="Por. B. Banaszak, op.cit.; nb. 1.">5</sup>.
+      bez konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (<a
+        class="link"
+        rel="prefetch"
+        href="/144">art. 144</a
+      >
+      ust. 3 pkt 15 ustawy zasadniczej). Prezydent prowadzi także posiedzenia RG,
+      co oznacza, że do niego należy udzielanie głosu członkom Rady czy też zadawanie
+      im pytań<sup title="Por. B. Banaszak, op.cit.; nb. 1.">5</sup>.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       Ustalenia Rady Gabinetowej
