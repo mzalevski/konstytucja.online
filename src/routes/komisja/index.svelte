@@ -6,7 +6,7 @@
   import { goto, prefetch } from "@sapper/app";
   const isMobile = () => {
     if (typeof window === "undefined") return false;
-    return window.innerWidth <= 800 && window.innerHeight <= 600;
+    return window.innerWidth <= 600 && window.innerHeight <= 800;
   };
   let eventManager;
 

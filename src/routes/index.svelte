@@ -28,7 +28,7 @@
   let selectedChapter;
   const isMobile = () => {
     if (typeof window === "undefined") return false;
-    return window.innerWidth <= 800 && window.innerHeight <= 600;
+    return window.innerWidth <= 600 && window.innerHeight <= 800;
   };
   let eventManager;
   let showDropdown = false;
@@ -105,19 +105,20 @@
           .scrollIntoViewIfNeeded();
       }, 50);
     }
+
     if (isMobile()) {
-      if (isMobile()) {
-        eventManager = new EventManager(document.documentElement, {
-          touchAction: "pan-y",
-        });
-        eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
-      }
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });
 
   onDestroy(() => {
-    if (isMobile()) {
-      eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    if (typeof window !== "undefined") {
+      if (isMobile()) {
+        eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+      }
     }
   });
 </script>
