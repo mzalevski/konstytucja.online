@@ -79,7 +79,7 @@
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
   <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/DawidWysocki">
+    <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
       Dawid Wysocki
     </a>
   </h2>

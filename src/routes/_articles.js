@@ -1463,7 +1463,7 @@ const articles = [
       prawne oraz jednostki organizacyjne nieposiadające osobowości prawnej.
       Nakaz, zasadniczo, znajduje zastosowanie również względem obywateli
       Rzeczypospolitej znajdujących się poza granicami Polski. Więcej na <a target="_blank" class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href="/slownik/prawo-rzeczypospolitej-polskiej">stronie definicji</a>.
-      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/DawidWysocki" rel="nofollow" target="_blank">Dawid Wysocki</a> ${extLink}</p>
+      <p class="pt-2 text-right italic hover:text-red-new">autor: <a href="https://twitter.com/DNWysocki" rel="nofollow" target="_blank">Dawid Wysocki</a> ${extLink}</p>
     `,
   },
   {
