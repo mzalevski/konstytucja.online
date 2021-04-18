@@ -133,12 +133,12 @@
         title="Zob. np. hasło „republika” [w:] J. Tokarski (red.), Słownik wyrazów obcych PWN, Warszawa 1980, s. 644; por. także hasło „republika” [w:] L. Wiśniakowska (red.), Słownik wyrazów bliskoznacznych PWN, Warszawa 2006, s. 472, gdzie wprost określono „rzeczpospolitą” jako synonim „republiki”."
         >5</sup
       >
-      (łac. <italic>res publica</italic>). Wprawdzie w okresie I RP, tzw.
-      Rzeczypospolitej Obojga Narodów, słowo to niewątpliwie nie miało tak
-      wyraźnie republikańskich konotacji, jak obecnie, niemniej jednak zawsze
-      było kojarzone z państwem obywatelskim, którego władcy – pod względem
-      pozycji ustrojowej – bliżej było do modelu demokratycznego aniżeli
-      tradycyjnie monarchicznego.
+      (łac. <italic class="italic">res publica</italic>). Wprawdzie w okresie I
+      RP, tzw. Rzeczypospolitej Obojga Narodów, słowo to niewątpliwie nie miało
+      tak wyraźnie republikańskich konotacji, jak obecnie, niemniej jednak
+      zawsze było kojarzone z państwem obywatelskim, którego władcy – pod
+      względem pozycji ustrojowej – bliżej było do modelu demokratycznego
+      aniżeli tradycyjnie monarchicznego.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>

@@ -159,7 +159,7 @@
       szczególne, np. międzyczasowe (intertemporalne) nie stanowią inaczej – nie
       wiążą obywateli. Prawo nie musi być znane konkretnej jednostce, jeżeli
       spełnia ww. wymogi, zgodnie z zasadą wynikającą z uznanej w naszym kręgu
-      cywilizacyjnym paremii "ignorantia iuris nocet" („nieznajomość prawa
+      cywilizacyjnym paremii „ignorantia iuris nocet” („nieznajomość prawa
       szkodzi”). Teoretycznie każdy ma bowiem szansę zapoznać się z istniejącymi
       regulacjami, czemu służy instytucja ogłaszania (promulgacji) aktów
       normatywnych<sup
