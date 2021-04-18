@@ -103,14 +103,13 @@
       jednak kontrowersje. Kancelaria Prezydenta RP jest bowiem tak naprawdę
       urzędem, a więc aparatem pomocniczym organu (w tym przypadku – głowy
       państwa), nieposiadającym własnych uprawnień, wyłącznie wspomagającym
-      organ w wykonywaniu jego kompetencji.<sup
+      organ w wykonywaniu jego kompetencji<sup
         title="Tak np. P. Czarny, komentarz do art. 143 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 1."
         >1</sup
-      >
-      To jedyny urząd sensu stricto wprost przewidziany przepisami ustawy zasadniczej.
-      Ze względu na charakter prawny KPRP (jako właśnie urzędu), czynności jej pracowników
-      są dokonywane w imieniu Prezydenta RP – tym samym to głowa państwa ponosi za
-      nie odpowiedzialność<sup
+      >. To jedyny urząd sensu stricto wprost przewidziany przepisami ustawy
+      zasadniczej. Ze względu na charakter prawny KPRP (jako właśnie urzędu),
+      czynności jej pracowników są dokonywane w imieniu Prezydenta RP – tym
+      samym to głowa państwa ponosi za nie odpowiedzialność<sup
         title="Zob. B. Banaszak, komentarz do art. 143 [w:] Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012."
         >2</sup
       >.

@@ -92,6 +92,6 @@
   <a
     href="/slownik/szef-kprp"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
-    >Szef KPRP</a
+    >Szef Kancelarii Prezydenta</a
   >
 </div>
