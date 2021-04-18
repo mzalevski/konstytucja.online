@@ -90,8 +90,10 @@
       szczególnej wagi” należy do głowy państwa, ponieważ ustrojodawca nie
       zdecydował się na ustanowienie wykazu kwestii mogących stać się
       przedmiotem obrad Rady Gabinetowej. Wobec tego, to Prezydent RP stwierdza,
-      czy zaistniała sytuacja wymagająca zwołania posiedzenia omawianego
-      gremium.
+      czy zaistniała sytuacja wymagająca zwołania posiedzenia omawianego gremium<sup
+        title="Tak P. Czarny, komentarz do art. 141 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 2."
+        >1</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Skład Rady Gabinetowej</h2>
     <div class="pt-2">
@@ -102,7 +104,10 @@
       w posiedzeniach Rady biorą udział osoby z zaplecza politycznego głowy
       państwa oraz premiera, tj. sekretarze i podsekretarze stanu w –
       odpowiednio – Kancelarii Prezydenta RP lub Kancelarii Prezesa Rady
-      Ministrów.
+      Ministrów<sup
+        title="Zob. K. Kozłowski, komentarz do art. 141 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 20."
+        >2</sup
+      >.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div class="pt-2">
@@ -111,10 +116,13 @@
       forum dyskusyjne, miejsce omawiania kluczowych spraw dla państwa.
       Instytucja ta służy zatem dialogowi pomiędzy obydwoma ośrodkami władzy
       wykonawczej. B. Banaszak określa Radę mianem organu
-      opiniodawczo-doradczego. Warto nadmienić, że nie istnieje żaden regulamin
-      posiedzeń RG. W literaturze podkreśla się, że wydanie takiego aktu
-      samodzielnie przez Prezydenta RP mogłoby budzić wątpliwości z punktu
-      widzenia konstytucyjnego katalogu źródeł prawa.
+      opiniodawczo-doradczego<sup
+        title="B. Banaszak, komentarz do art. 141 [w:] tenże, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 2., Warszawa 2012; nb. 1-2."
+        >3</sup
+      >. Warto nadmienić, że nie istnieje żaden regulamin posiedzeń RG. W
+      literaturze podkreśla się, że wydanie takiego aktu samodzielnie przez
+      Prezydenta RP mogłoby budzić wątpliwości z punktu widzenia konstytucyjnego
+      katalogu źródeł prawa<sup title="Zob. P. Czarny, op.cit.; pkt 4.">4</sup>.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
@@ -126,7 +134,7 @@
       bez konieczności uzyskania kontrasygnaty Prezesa Rady Ministrów (art. 144
       ust. 3 pkt 15 ustawy zasadniczej). Prezydent prowadzi także posiedzenia
       RG, co oznacza, że do niego należy udzielanie głosu członkom Rady czy też
-      zadawanie im pytań.
+      zadawanie im pytań<sup title="Por. B. Banaszak, op.cit.; nb. 1.">5</sup>.
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
       Ustalenia Rady Gabinetowej
@@ -134,8 +142,10 @@
     <div class="pt-2">
       Zapadłe podczas posiedzenia Rady Gabinetowej ustalenia nie mają charakteru
       wiążącego. Wymagają one późniejszego potwierdzenia przez „zwykłą” Radę
-      Ministrów, kierowaną już przez Prezesa Rady Ministrów. Nie istnieje żadna
-      sankcja niezrealizowania decyzji RG.
+      Ministrów, kierowaną już przez Prezesa Rady Ministrów<sup
+        title="Zob. W. Skrzydło, komentarz do art. 141 [w:] tenże, Konstytucja Rzeczypospolitej Polskiej. Komentarz, wyd. 7., opubl. LEX 2013."
+        >6</sup
+      >. Nie istnieje żadna sankcja niezrealizowania decyzji RG.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Bibliografia</h2>
