@@ -4,10 +4,8 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
-  const isMobile = () => {
-    if (typeof window === "undefined") return false;
-    return window.innerWidth <= 700 && window.innerHeight <= 900;
-  };
+  import { isMobile } from "../_helpers";
+
   let eventManager;
 
   let showDropdown = false;

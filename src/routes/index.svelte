@@ -16,6 +16,7 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, stores } from "@sapper/app";
+  import { isMobile } from "./_helpers";
 
   export let articles;
 
@@ -26,10 +27,6 @@
   let articlesToShow = selectedArticles.slice(0, 10);
   let searchedText;
   let selectedChapter;
-  const isMobile = () => {
-    if (typeof window === "undefined") return false;
-    return window.innerWidth <= 700 && window.innerHeight <= 900;
-  };
   let eventManager;
   let showDropdown = false;
 

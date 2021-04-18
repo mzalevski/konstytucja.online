@@ -18,13 +18,10 @@
   import Nav from "../components/Nav.svelte";
   import Tooltip from "../components/Tooltip.svelte";
   import { EventManager } from "mjolnir.js";
+  import { isMobile } from "./_helpers";
 
   export let article;
 
-  const isMobile = () => {
-    if (typeof window === "undefined") return false;
-    return window.innerWidth <= 700 && window.innerHeight <= 900;
-  };
   let eventManager;
 
   const { page } = stores();

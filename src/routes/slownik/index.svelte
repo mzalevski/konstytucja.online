@@ -4,6 +4,7 @@
   import { onDestroy, onMount } from "svelte";
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
+  import { isMobile } from "../_helpers";
 
   let eventManager;
   let showDropdown = false;
@@ -17,14 +18,16 @@
 
   onMount(() => {
     prefetch("/");
-    eventManager = new EventManager(document.documentElement, {
-      touchAction: "pan-y",
-    });
-    eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    if (isMobile()) {
+      eventManager = new EventManager(document.documentElement, {
+        touchAction: "pan-y",
+      });
+      eventManager.on({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
+    }
   });
 
   onDestroy(() => {
-    if (typeof window !== "undefined") {
+    if (isMobile()) {
       eventManager.off({ swiperight: onSwipeRight, swipeleft: onSwipeLeft });
     }
   });

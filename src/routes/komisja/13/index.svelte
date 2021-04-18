@@ -4,11 +4,8 @@
   import { fly } from "svelte/transition";
   import Nav from "../../../components/Nav.svelte";
   import { goto, prefetch } from "@sapper/app";
+  import { isMobile } from "../../_helpers";
 
-  const isMobile = () => {
-    if (typeof window === "undefined") return false;
-    return window.innerWidth <= 700 && window.innerHeight <= 900;
-  };
   let eventManager;
   let showDropdown = false;
 

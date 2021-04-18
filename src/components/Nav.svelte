@@ -1,16 +1,11 @@
 <script>
   import { EventManager } from "mjolnir.js";
   import { onDestroy, onMount } from "svelte";
-
-  import { fly, fade } from "svelte/transition";
-
+  import { fly } from "svelte/transition";
+  import { isMobile } from "../routes/_helpers";
   export let segment;
   export let showDropdown = false;
 
-  const isMobile = () => {
-    if (typeof window === "undefined") return false;
-    return window.innerWidth <= 700 && window.innerHeight <= 900;
-  };
   let eventManager;
 
   let dropdownTransitionConfig =
