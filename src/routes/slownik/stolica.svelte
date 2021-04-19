@@ -43,7 +43,7 @@
     name="keywords"
     content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
       online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-      trybunał, prezydent, rada ministrów, sejm, senat"
+      trybunał, prezydent, rada ministrów, sejm, senat, stolica"
   />
   <meta name="konstytucja" content="website" />
 </svelte:head>
