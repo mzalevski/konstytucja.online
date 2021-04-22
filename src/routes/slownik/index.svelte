@@ -87,6 +87,12 @@
   >
 
   <a
+    href="/slownik/spor-kompetencyjny"
+    class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
+    >Spór kompetencyjny</a
+  >
+
+  <a
     href="/slownik/stolica"
     class="flex flex-col max-w-xs p-2 border rounded cursor-pointer hover:bg-gray-100 sm:flex-row sm:space-x-4"
     >Stolica</a

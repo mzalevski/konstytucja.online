@@ -55,8 +55,14 @@
     <changefreq>weekly</changefreq>
     <lastmod>2021-04-19</lastmod>
   </url>
-     <url>
+  <url>
     <loc>https://konstytucja.online/slownik/szef-kprp</loc>
+    <priority>0.3</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2021-04-19</lastmod>
+  </url>
+  <url>
+    <loc>https://konstytucja.online/slownik/spor-kompetencyjny</loc>
     <priority>0.3</priority>
     <changefreq>weekly</changefreq>
     <lastmod>2021-04-19</lastmod>
