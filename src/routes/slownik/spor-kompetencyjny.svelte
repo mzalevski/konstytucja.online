@@ -92,11 +92,13 @@
       stanowiska w zakresie swej kompetencji do rozstrzygnięcia określonej
       sprawy lub wykonania konkretnego zadania. Nie chodzi zatem o spór w
       odniesieniu do stanu prawnego czy faktycznego danej sprawy, lecz wyłącznie
-      problem umocowania konkretnej instytucji do zajęcia się nią. Konflikt taki
-      może przybrać postać pozytywną albo negatywną. Spór pozytywny jest
-      sytuacją, w której obydwa organy uważają się za właściwe w danej sprawie
-      lub już ją niezależnie rozpoznały. Spór negatywny występuje z kolei wtedy,
-      gdy żaden z nich nie uważa się za właściwy.
+      problem umocowania konkretnej instytucji do zajęcia się nią<sup
+        title="Tak P. Czarny, uwaga 4. do art. 166 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
+        >1</sup
+      >. Konflikt taki może przybrać postać pozytywną albo negatywną. Spór
+      pozytywny jest sytuacją, w której obydwa organy uważają się za właściwe w
+      danej sprawie lub już ją niezależnie rozpoznały. Spór negatywny występuje
+      z kolei wtedy, gdy żaden z nich nie uważa się za właściwy.
     </div>
 
     <div class="pt-2">
@@ -123,23 +125,28 @@
       konstytucyjne) oraz obejmować zakresem terytorialnym swego działania cały
       kraj (organy centralne). Zdaniem A. Mączyńskiego i J. Podkowika, istnieje
       ponadto konieczność określenia przez Konstytucję „przynajmniej zrębowo”
-      kompetencji konkretnej instytucji. Inaczej twierdzi B. Naleziński.
-      Przykładami organów niewątpliwie spełniających wszystkie ww. wymogi są:
+      kompetencji konkretnej instytucji<sup
+        title="A. Mączyński, J. Podkowik, komentarz do art. 189 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 27."
+        >2</sup
+      >. Inaczej twierdzi B. Naleziński<sup
+        title="B. Naleziński, uwaga 2. do art. 189 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
+        >3</sup
+      >. Przykładami organów niewątpliwie spełniających wszystkie ww. wymogi są:
       Prezydent RP, Prezes Rady Ministrów, Sejm czy Senat.
     </div>
 
     <div class="pt-2">
       Szczegóły procedury rozstrzygnięcia takiego sporu określa ustawa z dnia 30
       listopada 2016 r. o organizacji i trybie postępowania przed Trybunałem
-      Konstytucyjnym (dalej jako „u.o.p.TK”). Zgodnie z art. 86 u.o.p.TK,
-      wszczęcie postępowania przed Trybunałem skutkuje zawieszeniem procedur
-      toczących się przed skonfliktowanymi organami (ust. 1), zaś sam TK może
-      wydać postanowienie o tymczasowym uregulowaniu kwestii spornych, „jeżeli
-      jest to konieczne dla zapobieżenia poważnym szkodom lub podyktowane
-      szczególnie ważnym interesem społecznym” (ust. 2). Rozstrzygnięcie sporu
-      kompetencyjnego następuje w formie postanowienia (art. 103 ust. 2 pkt 1
-      u.o.p.TK). Trybunał Konstytucyjny rozpoznaje sprawę w pełnym składzie
-      (art. 37 ust. 1 pkt 1 lit. a u.o.p.TK).
+      Konstytucyjnym<sup title="Dz.U. z 2019 r. poz. 2393.">4</sup> (dalej jako „u.o.p.TK”).
+      Zgodnie z art. 86 u.o.p.TK, wszczęcie postępowania przed Trybunałem skutkuje
+      zawieszeniem procedur toczących się przed skonfliktowanymi organami (ust. 1),
+      zaś sam TK może wydać postanowienie o tymczasowym uregulowaniu kwestii spornych,
+      „jeżeli jest to konieczne dla zapobieżenia poważnym szkodom lub podyktowane
+      szczególnie ważnym interesem społecznym” (ust. 2). Rozstrzygnięcie sporu kompetencyjnego
+      następuje w formie postanowienia (art. 103 ust. 2 pkt 1 u.o.p.TK). Trybunał
+      Konstytucyjny rozpoznaje sprawę w pełnym składzie (art. 37 ust. 1 pkt 1 lit.
+      a u.o.p.TK).
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
@@ -150,31 +157,41 @@
       Spory kompetencyjne pomiędzy organami samorządu terytorialnego a organami
       administracji rządowej rozstrzygają z kolei sądy administracyjne. Przez
       „organ samorządu terytorialnego” ustawa z dnia 25 lipca 2002 r. – Prawo o
-      ustroju sądów administracyjnych („PUSA”) pośrednio nakazuje rozumieć
-      zarówno organy jednostek samorządu terytorialnego (np. wójtów,
-      burmistrzów, prezydentów miast), jak i samorządowe kolegia odwoławcze
+      ustroju sądów administracyjnych<sup title="Dz.U. z 2021 r. poz. 137."
+        >5</sup
+      >
+      („PUSA”) pośrednio nakazuje rozumieć zarówno organy jednostek samorządu terytorialnego
+      (np. wójtów, burmistrzów, prezydentów miast), jak i samorządowe kolegia odwoławcze<sup
+        title="Por. A. Skoczylas, W. Piątek, komentarz do art. 166 [w:] M. Safjan, L. Bosek, Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 19."
+        >6</sup
+      >
       (art. 1 § 1 PUSA). Należy zaznaczyć, że art. 166 ust. 3 Konstytucji RP nie
-      określa zakresu terytorialnego działania organów administracji rządowej,
-      co oznacza, iż pojęcie to obejmuje zarówno organy rządowej administracji
-      centralnej, jak i terenowej.
+      określa zakresu terytorialnego działania organów administracji rządowej, co
+      oznacza, iż pojęcie to obejmuje zarówno organy rządowej administracji centralnej,
+      jak i terenowej<sup
+        title="Zob. P. Czarny, uwaga 4. do art. 166 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
+        >7</sup
+      >.
     </div>
 
     <div class="pt-2">
       Szczegóły postępowania w tej kwestii określa ustawa z dnia 30 sierpnia
-      2002 r. – Prawo o postępowaniu przed sądami administracyjnymi („PPSA”).
-      Instytucją rozstrzygającą przedmiotowe konflikty jest – jako jedyna
+      2002 r. – Prawo o postępowaniu przed sądami administracyjnymi<sup
+        title="Dz.U. z 2019 r. poz. 2325 ze zm.">8</sup
+      >
+      („PPSA”). Instytucją rozstrzygającą przedmiotowe konflikty jest – jako jedyna
       instancja – Naczelny Sąd Administracyjny (art. 15 § 1 pkt 4 w zw. z art. 4
-      PPSA). Werdykt zapada na posiedzeniu niejawnym w składzie trzech sędziów.
-      Przybiera formę postanowienia, w którym wskazuje się organ właściwy do
-      rozpoznania określonej sprawy, nie zaś – typu spraw. Rozstrzygnięcia sporu
-      dokonuje się wyłącznie na wniosek legitymowanego podmiotu (art. 15 § 2
-      PPSA), który uprawnia ustawa z dnia 14 czerwca 1960 r. – Kodeks
-      postępowania administracyjnego („KPA”). Na podstawie art. 22 § 3 KPA, z
-      wnioskiem takim mogą zwrócić się: strona postępowania, w którym zaistniał
-      spór, organ pozostający w sporze, minister właściwy ds. administracji
-      publicznej (obecnie: Minister Spraw Wewnętrznych i Administracji),
-      Minister Sprawiedliwości, Prokurator Generalny lub Rzecznik Praw
-      Obywatelskich.
+      PPSA). Werdykt zapada na posiedzeniu niejawnym w składzie trzech sędziów. Przybiera
+      formę postanowienia, w którym wskazuje się organ właściwy do rozpoznania określonej
+      sprawy, nie zaś – typu spraw. Rozstrzygnięcia sporu dokonuje się wyłącznie
+      na wniosek legitymowanego podmiotu (art. 15 § 2 PPSA), który uprawnia ustawa
+      z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego<sup
+        title="Dz.U. z 2020 r. poz. 256 ze zm.">9</sup
+      > („KPA”). Na podstawie art. 22 § 3 KPA, z wnioskiem takim mogą zwrócić się:
+      strona postępowania, w którym zaistniał spór, organ pozostający w sporze, minister
+      właściwy ds. administracji publicznej (obecnie: Minister Spraw Wewnętrznych
+      i Administracji), Minister Sprawiedliwości, Prokurator Generalny lub Rzecznik
+      Praw Obywatelskich.
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
