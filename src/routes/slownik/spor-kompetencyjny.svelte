@@ -217,11 +217,11 @@
 
     <ul class="pt-1 pb-4 pl-3 text-left text-base">
       <li>
-        M. Safjan, L. Bosek, Konstytucja RP. Tom II. Komentarz do art. 87-243,
-        wyd. 1., Warszawa 2016.
+        1. M. Safjan, L. Bosek (red.), "Konstytucja RP. Tom II. Komentarz do
+        art. 87-243", wyd. 1., Warszawa 2016.
       </li>
       <li>
-        P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz,
+        2. P. Tuleja (red.), "Konstytucja Rzeczypospolitej Polskiej. Komentarz",
         opubl. WKP 2019.
       </li>
     </ul>
