@@ -2067,8 +2067,8 @@ const articles = [
 			<p class="pt-4">3. Na Prezydenta Rzeczypospolitej może być wybrany obywatel polski, który najpóźniej w dniu wyborów kończy 35 lat i korzysta z pełni praw wyborczych do Sejmu. Kandydata zgłasza co najmniej 100 000 obywateli mających prawo wybierania do Sejmu.</p>
 			<p class="pt-4">4. Na Prezydenta Rzeczypospolitej wybrany zostaje kandydat, który otrzymał więcej niż połowę ważnie oddanych głosów. Jeżeli żaden z kandydatów nie uzyska wymaganej większości, czternastego dnia po pierwszym głosowaniu przeprowadza się ponowne głosowanie.</p>
 			<p class="pt-4">5. W ponownym głosowaniu wyboru dokonuje się spośród dwóch kandydatów, którzy w pierwszym głosowaniu otrzymali kolejno największą liczbę głosów. Jeżeli którykolwiek z tych dwóch kandydatów wycofa zgodę na kandydowanie, utraci prawo wyborcze lub umrze, w jego miejsce do wyborów w ponownym głosowaniu dopuszcza się kandydata, który otrzymał kolejno największą liczbę głosów w pierwszym głosowaniu. W takim przypadku datę ponownego głosowania odracza się o dalszych 14 dni.</p>
-			<p class="pt-4">6. Na Prezydenta Rzeczypospolitej wybrany zostaje kandydat, który w ponownym głosowaniu otrzymał więcej głosów."</p>
-			<p class="pt-4">7. Zasady i tryb zgłaszania kandydatów i przeprowadzania wyborów oraz warunki ważności wyboru Prezydenta Rzeczypospolitej określa ustawa."</p>
+			<p class="pt-4">6. Na Prezydenta Rzeczypospolitej wybrany zostaje kandydat, który w ponownym głosowaniu otrzymał więcej głosów.</p>
+			<p class="pt-4">7. Zasady i tryb zgłaszania kandydatów i przeprowadzania wyborów oraz warunki ważności wyboru Prezydenta Rzeczypospolitej określa ustawa.</p>
 		`,
     desc: "",
   },
@@ -2374,6 +2374,20 @@ const articles = [
 			<p class="pt-4">2. Do Rady Ministrów należą sprawy polityki państwa nie zastrzeżone dla innych organów państwowych i samorządu terytorialnego.</p>
 			<p class="pt-4">3. Rada Ministrów kieruje administracją rządową.</p>
 			<p class="pt-4">4. W zakresie i na zasadach określonych w Konstytucji i ustawach Rada Ministrów w szczególności:</p>
+      <ul class="pl-4">
+        <li>1) zapewnia wykonanie ustaw,</li>
+        <li>2) wydaje rozporządzenia,</li>
+        <li>3) koordynuje i kontroluje prace organów administracji rządowej,</li>
+        <li>4) chroni interesy Skarbu Państwa,</li>
+        <li>5) uchwala projekt budżetu państwa,</li>
+        <li>6) kieruje wykonaniem budżetu państwa oraz uchwala zamknięcie rachunków państwowych i sprawozdanie z wykonania budżetu,</li>
+        <li>7) zapewnia bezpieczeństwo wewnętrzne państwa oraz porządek publiczny,</li>
+        <li>8) zapewnia bezpieczeństwo zewnętrzne państwa,</li>
+        <li>9) sprawuje ogólne kierownictwo w dziedzinie stosunków z innymi państwami i organizacjami międzynarodowymi,</li>
+        <li>10) zawiera umowy międzynarodowe wymagające ratyfikacji oraz zatwierdza i wypowiada inne umowy międzynarodowe,</li>
+        <li>11) sprawuje ogólne kierownictwo w dziedzinie obronności kraju oraz określa corocznie liczbę obywateli powoływanych do czynnej służby wojskowej,</li>
+        <li>12) określa organizację i tryb swojej pracy.</li>
+			</ul>
 		`,
     desc: "",
   },
