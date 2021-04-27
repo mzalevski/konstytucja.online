@@ -24,7 +24,10 @@
 
   let eventManager;
 
+  let showDropdown = false;
+
   const { page } = stores();
+
   let mounted = true;
   let xDelta = 30;
   let isDescriptionVisible = false;
@@ -33,6 +36,7 @@
   let findDestination;
   let timestamp = 0;
   let currentPage = parseInt($page.params.slug);
+
   const showDisqus = () => {
     timestamp = Date.now();
     let d = document,
@@ -131,9 +135,13 @@
     goto(`/${currentPage - 1}`);
   };
 
-  const onPress = () => {
+  const onDoubleTap = () => {
     findDestination = null;
     isFindVisible = true;
+  };
+
+  const onPress = () => {
+    if (!showDropdown) showDropdown = true;
   };
 
   onMount(() => {
@@ -172,6 +180,7 @@
       eventManager.on({
         swipeleft: onSwipeLeft,
         swiperight: onSwipeRight,
+        doubletap: onDoubleTap,
         press: onPress,
       });
     }
@@ -182,6 +191,8 @@
       eventManager.off({
         swipeleft: onSwipeLeft,
         swiperight: onSwipeRight,
+        doubletap: onDoubleTap,
+        press: onPress,
       });
     }
   });
@@ -202,7 +213,9 @@
   />
   <meta name="konstytucja" content="website" />
 </svelte:head>
-<Nav segment={"articles"} />
+
+<Nav {showDropdown} segment={"articles"} />
+
 <div>
   <div class="flex justify-between h-8">
     <div class="flex justify-start w-24 pt-px mt-px">
@@ -322,7 +335,7 @@
             class="absolute inset-y-0 left-0 flex items-center justify-center
             w-auto ml-2 text-gray-500 pointer-events-none"
           />
-          <div class="flex">
+          <div class="flex space-x-2 justify-center">
             <label aria-label="go to article">
               <input
                 on:keydown={e => {
@@ -358,14 +371,17 @@
                 max="243"
                 name="find"
                 id="find"
-                class="w-full p-px text-xl font-light text-center text-gray-900
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
               bg-white border border-gray-100 rounded shadow appearance-none
               cursor-pointer sm:text-4xl"
               /></label
             >
 
             <Tooltip text={"Naciśnij enter."} pos={"b"}>
-              <svg
+              <button
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
+                bg-white border border-gray-100 rounded shadow appearance-none
+                cursor-pointer sm:text-4xl"
                 on:click={() => {
                   if (!findDestination) return;
                   if (
@@ -381,17 +397,23 @@
                   isDisqusVisible = false;
                   isFindVisible = false;
                 }}
-                class="w-16 h-16 mx-2 text-gray-700 rounded fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
               >
-                <path d="M256 0v32h224v448H32V32h64V0H0v512h512V0z" />
-                <path
-                  d="M128 0h32v32h-32zM192 0h32v32h-32zM148.688 196.688L73.376
-                272l75.312 75.312 22.624-22.624L134.624
-                288H432V176h-32v80H134.624l36.688-36.688zM400 112h32v32h-32z"
-                />
-              </svg>
+                ok
+              </button>
+            </Tooltip>
+            <Tooltip text={"Zamknij."} pos={"b"}>
+              <button
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
+                bg-white border border-gray-100 rounded shadow appearance-none
+                cursor-pointer sm:text-4xl"
+                on:click={() => {
+                  isDescriptionVisible = false;
+                  isDisqusVisible = false;
+                  isFindVisible = false;
+                }}
+              >
+                x
+              </button>
             </Tooltip>
           </div>
           <div
