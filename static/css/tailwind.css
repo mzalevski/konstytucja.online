@@ -32,43 +32,43 @@ html {
 \***********************/
 
 body.dark-mode {
-  @apply bg-blue-900;
+  @apply bg-black;
   @apply text-white;
 }
 
 body.dark-mode input,
 body.dark-mode select,
 body.dark-mode textarea {
-  @apply bg-blue-900;
+  @apply bg-black;
   @apply text-white;
 }
 body.dark-mode .bg-white {
-  @apply bg-blue-900;
+  @apply bg-black;
 }
 
 body.dark-mode .bg-red-100 {
-  @apply bg-blue-800;
+  @apply bg-gray-900;
 }
 
 body.dark-mode .bg-red-300 {
-  @apply bg-blue-600;
+  @apply bg-gray-700;
 }
 
 body.dark-mode .bg-gray-100 {
-  @apply bg-blue-800;
+  @apply bg-gray-900;
 }
 
 body.dark-mode .bg-green-100 {
-  @apply bg-blue-400;
+  @apply bg-gray-500;
 }
 
 body.dark-mode .border-gray-100,
 body.dark-mode .border-gray-200 {
-  @apply border-blue-800;
+  @apply border-gray-900;
 }
 
 body.dark-mode .hover\:shadow-lg:hover {
-  @apply border-blue-700;
+  @apply border-blue-800;
 }
 
 body.dark-mode p,
@@ -83,7 +83,7 @@ body.dark-mode .text-gray-900 {
 }
 
 body.dark-mode svg.text-red-new {
-  @apply text-blue-300;
+  @apply text-gray-400;
 }
 
 body.dark-mode #logo {
@@ -91,27 +91,31 @@ body.dark-mode #logo {
 }
 
 body.dark-mode .active {
-  @apply text-blue-300;
+  @apply text-gray-400;
 }
 
 body.dark-mode .hover\:bg-gray-100:hover {
-  @apply bg-blue-800;
+  @apply bg-gray-900;
 }
 
 body.dark-mode .hover\:text-red-new:hover {
-  @apply text-blue-300;
+  @apply text-gray-400;
 }
 
 body.dark-mode .bg-gray-200 {
-  @apply bg-blue-700;
+  @apply bg-gray-800;
 }
 
 body.dark-mode .text-gray-600 {
-  @apply text-blue-300;
+  @apply text-gray-400;
 }
 
 body.dark-mode .hover\:bg-gray-300:hover {
-  @apply bg-blue-600;
+  @apply bg-gray-700;
+}
+
+body.dark-mode .hover\:bg-gray-200:hover {
+  @apply bg-gray-800;
 }
 
 /*********************\

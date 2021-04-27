@@ -61,7 +61,7 @@
   <a
     target="_blank"
     href="https://play.google.com/store/apps/details?id=online.konstytucja.twa"
-    class="inline-flex items-center px-5 py-3 bg-gray-200 rounded-lg cursor-pointer hover:bg-gray-300 focus:outline-none"
+    class="inline-flex items-center px-5 py-3 bg-gray-100 rounded-lg cursor-pointer hover:bg-gray-200 focus:outline-none"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
