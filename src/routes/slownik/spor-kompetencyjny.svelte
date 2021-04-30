@@ -87,12 +87,22 @@
     </h2>
 
     <div class="pt-2">
-      Pojęcie to pojawia się w art. 166 ust. 3 oraz art. 189 Konstytucji RP.
-      Spór kompetencyjny występuje, kiedy co najmniej dwa organy mają rozbieżne
-      stanowiska w zakresie swej kompetencji do rozstrzygnięcia określonej
-      sprawy lub wykonania konkretnego zadania. Nie chodzi zatem o spór w
-      odniesieniu do stanu prawnego czy faktycznego danej sprawy, lecz wyłącznie
-      problem umocowania konkretnej instytucji do zajęcia się nią<sup
+      Pojęcie to pojawia się w <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/166"
+        rel="prefetch">art. 166 ust. 3</a
+      >
+      oraz
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/189"
+        rel="prefetch">art. 189</a
+      >
+      Konstytucji RP. Spór kompetencyjny występuje, kiedy co najmniej dwa organy
+      mają rozbieżne stanowiska w zakresie swej kompetencji do rozstrzygnięcia określonej
+      sprawy lub wykonania konkretnego zadania. Nie chodzi zatem o spór w odniesieniu
+      do stanu prawnego czy faktycznego danej sprawy, lecz wyłącznie problem umocowania
+      konkretnej instytucji do zajęcia się nią<sup
         title="Tak P. Czarny, uwaga 4. do art. 166 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
         >1</sup
       >. Konflikt taki może przybrać postać pozytywną albo negatywną. Spór
@@ -103,9 +113,18 @@
 
     <div class="pt-2">
       Obowiązująca Konstytucja RP wyróżnia dwa rodzaje sporów kompetencyjnych:
-      pomiędzy centralnymi konstytucyjnymi organami państwa (art. 189) oraz
-      pomiędzy organami samorządu terytorialnego a organami administracji
-      rządowej (art. 166 ust. 3).
+      pomiędzy centralnymi konstytucyjnymi organami państwa (<a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/189"
+        rel="prefetch"
+      >
+        art. 189</a
+      >) oraz pomiędzy organami samorządu terytorialnego a organami
+      administracji rządowej (<a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/166"
+        rel="prefetch">art. 166 ust. 3</a
+      >).
     </div>
 
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">
@@ -114,13 +133,30 @@
 
     <div class="pt-2">
       Spory pomiędzy centralnymi konstytucyjnymi organami państwa są
-      rozstrzygane przez Trybunał Konstytucyjny (art. 189) – na wniosek, nigdy z
-      urzędu. Z wnioskiem takim mogą zwrócić się: Prezydent RP, Marszałek Sejmu,
-      Marszałek Senatu, Prezes Rady Ministrów, Pierwszy Prezes Sądu Najwyższego,
-      Prezes Naczelnego Sądu Administracyjnego lub Prezes Najwyższej Izby
-      Kontroli (art. 192). Jest to węższy krąg niż w przypadku wniosku o
-      dokonanie kontroli hierarchicznej zgodności norm z art. 188 pkt 1-3 (vide:
-      art. 191). Organy, pomiędzy którymi dochodzi do sporu, muszą spełniać dwa
+      rozstrzygane przez Trybunał Konstytucyjny (<a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/189"
+        rel="prefetch">art. 189</a
+      >) – na wniosek, nigdy z urzędu. Z wnioskiem takim mogą zwrócić się:
+      Prezydent RP, Marszałek Sejmu, Marszałek Senatu, Prezes Rady Ministrów,
+      Pierwszy Prezes Sądu Najwyższego, Prezes Naczelnego Sądu Administracyjnego
+      lub Prezes Najwyższej Izby Kontroli (<a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/189"
+        rel="prefetch">art. 189</a
+      >). Jest to węższy krąg niż w przypadku wniosku o dokonanie kontroli
+      hierarchicznej zgodności norm z
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/189"
+        rel="prefetch">art. 189 pkt 1-3</a
+      >
+      (vide:
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/191"
+        rel="prefetch">art. 191</a
+      >). Organy, pomiędzy którymi dochodzi do sporu, muszą spełniać dwa
       warunki: pojawiać się bezpośrednio w tekście Konstytucji (organy
       konstytucyjne) oraz obejmować zakresem terytorialnym swego działania cały
       kraj (organy centralne). Zdaniem A. Mączyńskiego i J. Podkowika, istnieje
@@ -165,10 +201,15 @@
         title="Por. A. Skoczylas, W. Piątek, komentarz do art. 166 [w:] M. Safjan, L. Bosek, Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 19."
         >6</sup
       >
-      (art. 1 § 1 PUSA). Należy zaznaczyć, że art. 166 ust. 3 Konstytucji RP nie
-      określa zakresu terytorialnego działania organów administracji rządowej, co
-      oznacza, iż pojęcie to obejmuje zarówno organy rządowej administracji centralnej,
-      jak i terenowej<sup
+      (art. 1 § 1 PUSA). Należy zaznaczyć, że
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/166"
+        rel="prefetch">art. 166 ust. 3</a
+      >
+      Konstytucji RP nie określa zakresu terytorialnego działania organów
+      administracji rządowej, co oznacza, iż pojęcie to obejmuje zarówno organy
+      rządowej administracji centralnej, jak i terenowej<sup
         title="Zob. P. Czarny, uwaga 4. do art. 166 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
         >7</sup
       >.

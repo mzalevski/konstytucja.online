@@ -103,10 +103,14 @@
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Charakter prawny</h2>
     <div>
       Podmiot stojący na czele aparatu pomocniczego głowy państwa, jakim jest
-      Kancelaria Prezydenta Rzeczypospolitej Polskiej, przewidziana w art. 143
-      Konstytucji RP. W związku z takim charakterem, nie może być on uznany za
-      konstytucyjny organ państwa; z kolei, jako niezatrudniony w administracji
-      rządowej, nie stanowi członka korpusu służby cywilnej<sup
+      Kancelaria Prezydenta Rzeczypospolitej Polskiej, przewidziana w <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/143"
+        rel="prefetch">art. 143</a
+      >
+      Konstytucji RP. W związku z takim charakterem, nie może być on uznany za konstytucyjny
+      organ państwa; z kolei, jako niezatrudniony w administracji rządowej, nie stanowi
+      członka korpusu służby cywilnej<sup
         title="Zob. P. Czarny, Art. 143. Kancelaria Prezydenta [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019; pkt 3."
         >1</sup
       >.

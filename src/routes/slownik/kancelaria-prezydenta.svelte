@@ -140,11 +140,12 @@
       <a
         class="underline hover:text-red-new focus:text-red-new"
         href="/93"
-        rel="prefetch">art. 93 Konstytucji</a
-      >, wiążącym wyłącznie jednostki podległe organowi wydającemu. Zarządzenie
+        rel="prefetch">art. 93</a
+      >
+      Konstytucji, wiążącym wyłącznie jednostki podległe organowi wydającemu. Zarządzenie
       takie ogłasza się w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor
-      Polski” (vide: art. 10 ust. 2 pkt 4 lit. l ustawy z dnia 20 lipca 2000 r.
-      o ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych<sup
+      Polski” (vide: art. 10 ust. 2 pkt 4 lit. l ustawy z dnia 20 lipca 2000 r. o
+      ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych<sup
         title="Dz.U. z 2019 r. poz. 1461.">4</sup
       >).
     </div>
@@ -171,12 +172,17 @@
     <div class="pt-2">
       Na czele Kancelarii Prezydenta stoi Szef Kancelarii Prezydenta. Zarówno
       jego, jak i inne osoby zatrudnione w KPRP, obejmuje zasada
-      niepołączalności (<italic class="italic">incompatibilitas</italic>; art.
-      103 Konstytucji RP). Oznacza ona, w tym przypadku, zakaz łączenia
-      stanowisk w Kancelarii z wykonywaniem mandatu posła lub senatora.
-      Regulacja ta służy realizacji celu konstytucjonalizacji Kancelarii
-      Prezydenta RP, a więc zagwarantowaniu wykonywania zadań głowy państwa w
-      sposób niezależny od pozostałych organów władzy<sup
+      niepołączalności (<italic class="italic">incompatibilitas</italic>;
+      <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/103"
+        rel="prefetch">art. 103</a
+      >
+      Konstytucji RP). Oznacza ona, w tym przypadku, zakaz łączenia stanowisk w
+      Kancelarii z wykonywaniem mandatu posła lub senatora. Regulacja ta służy
+      realizacji celu konstytucjonalizacji Kancelarii Prezydenta RP, a więc
+      zagwarantowaniu wykonywania zadań głowy państwa w sposób niezależny od
+      pozostałych organów władzy<sup
         title=" Por. K. Kozłowski, komentarz do art. 143 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 9-10."
         >5</sup
       >.
