@@ -338,7 +338,10 @@
           <div class="flex space-x-2 justify-center">
             <label aria-label="go to article">
               <input
-                autofocus
+                on:load={() =>
+                  setTimeout(() => {
+                    document.getElementById("find").focus();
+                  }, 100)}
                 on:keydown={e => {
                   if (
                     e.target.value.length === 3 &&
