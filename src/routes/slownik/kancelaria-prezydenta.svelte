@@ -178,12 +178,11 @@
         href="/103"
         rel="prefetch">art. 103</a
       >
-      Konstytucji RP). Oznacza ona, w tym przypadku, zakaz łączenia stanowisk w
-      Kancelarii z wykonywaniem mandatu posła lub senatora. Regulacja ta służy
-      realizacji celu konstytucjonalizacji Kancelarii Prezydenta RP, a więc
-      zagwarantowaniu wykonywania zadań głowy państwa w sposób niezależny od
-      pozostałych organów władzy<sup
-        title=" Por. K. Kozłowski, komentarz do art. 143 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 9-10."
+      Konstytucji RP). Oznacza ona, w tym przypadku, zakaz łączenia stanowisk w Kancelarii
+      z wykonywaniem mandatu posła lub senatora. Regulacja ta służy realizacji celu
+      konstytucjonalizacji Kancelarii Prezydenta RP, a więc zagwarantowaniu wykonywania
+      zadań głowy państwa w sposób niezależny od pozostałych organów władzy<sup
+        title="Por. K. Kozłowski, komentarz do art. 143 [w:] M. Safjan, L. Bosek (red.), Konstytucja RP. Tom II. Komentarz do art. 87-243, wyd. 1., Warszawa 2016; nb. 9-10."
         >5</sup
       >.
     </div>

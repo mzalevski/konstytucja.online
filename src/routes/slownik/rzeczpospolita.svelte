@@ -91,12 +91,16 @@
     </div>
     <h2 class="mt-8 text-lg font-thin sm:text-2xl">Element tradycji</h2>
     <div class="pt-2">
-      W pierwszym znaczeniu pojawia się ono w Preambule Konstytucji RP, gdzie ma
-      za zadanie podkreślić ciągłość polskiej państwowości (vide: wzmianka o I
-      oraz II Rzeczypospolitej przy jednoczesnej swoistej proklamacji III RP).
-      Jak zaznaczają M. Zubik i W. Sokolewicz, określenie „Rzeczpospolita
-      Polska”, to „tradycyjny atrybut państwowości niezależnej, niepodległej i
-      suwerennej, skorelowany z wolnościowymi aspiracjami narodu”<sup
+      W pierwszym znaczeniu pojawia się ono w <a
+        class="underline hover:text-red-new focus:text-red-new"
+        href="/preambula"
+        rel="prefetch">Preambule</a
+      >
+      Konstytucji RP, gdzie ma za zadanie podkreślić ciągłość polskiej państwowości
+      (vide: wzmianka o I oraz II Rzeczypospolitej przy jednoczesnej swoistej proklamacji
+      III RP). Jak zaznaczają M. Zubik i W. Sokolewicz, określenie „Rzeczpospolita
+      Polska”, to „tradycyjny atrybut państwowości niezależnej, niepodległej i suwerennej,
+      skorelowany z wolnościowymi aspiracjami narodu”<sup
         title="W. Sokolewicz, M. Zubik, uwaga 4. do art. 1 [w:] L. Garlicki, M. Zubik (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, t. I, Warszawa 2016."
         >1</sup
       >. Z tego właśnie względu, ustrojodawca posłużył się sformułowaniem
