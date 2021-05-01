@@ -138,9 +138,12 @@
   const onDoubleTap = () => {
     findDestination = null;
     isFindVisible = true;
+    setTimeout(() => {
+      if (isFindVisible) document.getElementById("find").focus();
+    }, 100);
   };
 
-  const onPress = () => {
+  const onPinch = () => {
     if (!showDropdown) showDropdown = true;
   };
 
@@ -181,7 +184,7 @@
         swipeleft: onSwipeLeft,
         swiperight: onSwipeRight,
         doubletap: onDoubleTap,
-        press: onPress,
+        pinch: onPinch,
       });
     }
   });
@@ -192,7 +195,7 @@
         swipeleft: onSwipeLeft,
         swiperight: onSwipeRight,
         doubletap: onDoubleTap,
-        press: onPress,
+        pinch: onPinch,
       });
     }
   });
@@ -338,10 +341,6 @@
           <div class="flex space-x-2 justify-center">
             <label aria-label="go to article">
               <input
-                on:load={() =>
-                  setTimeout(() => {
-                    document.getElementById("find").focus();
-                  }, 100)}
                 on:keydown={e => {
                   if (
                     e.target.value.length === 3 &&
