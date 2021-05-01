@@ -64,17 +64,14 @@
 </div>
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
-  <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
-      Dawid Wysocki
-    </a>
-  </h2>
-  <!-- <h2 class="font-thin text-center text-md sm:text-lg">
-    Definicja skonsultowana z konstytucjonalistą, prof. X
-  </h2> -->
   <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
     SPÓR KOMPETENCYJNY
   </h1>
+  <h2 class="mt-2 text-lg font-thin text-center sm:text-2xl text-gray-700">
+    autor: <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
+      Dawid Wysocki
+    </a>
+  </h2>
 </div>
 
 <div
@@ -207,9 +204,9 @@
         href="/166"
         rel="prefetch">art. 166 ust. 3</a
       >
-      Konstytucji RP nie określa zakresu terytorialnego działania organów
-      administracji rządowej, co oznacza, iż pojęcie to obejmuje zarówno organy
-      rządowej administracji centralnej, jak i terenowej<sup
+      Konstytucji RP nie określa zakresu terytorialnego działania organów administracji
+      rządowej, co oznacza, iż pojęcie to obejmuje zarówno organy rządowej administracji
+      centralnej, jak i terenowej<sup
         title="Zob. P. Czarny, uwaga 4. do art. 166 [w:] P. Tuleja (red.), Konstytucja Rzeczypospolitej Polskiej. Komentarz, opubl. WKP 2019."
         >7</sup
       >.

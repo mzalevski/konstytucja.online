@@ -64,17 +64,14 @@
 </div>
 
 <div class="sm:pt-10 md:pt-12 lg:pt-16">
-  <h2 class="mt-4 text-xl font-thin text-center sm:text-2xl">
-    <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
-      Dawid Wysocki
-    </a>
-  </h2>
-  <!-- <h2 class="font-thin text-center text-md sm:text-lg">
-    Definicja skonsultowana z konstytucjonalistą, prof. X
-  </h2> -->
   <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
     RZECZPOSPOLITA
   </h1>
+  <h2 class="mt-2 text-lg font-thin text-center sm:text-2xl text-gray-700">
+    autor: <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
+      Dawid Wysocki
+    </a>
+  </h2>
 </div>
 <div
   in:fade={{ duration: 1000 }}
