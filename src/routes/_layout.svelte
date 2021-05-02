@@ -8,6 +8,10 @@
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
   import Tooltip from "../components/Tooltip.svelte";
+  import dayjs from "dayjs";
+
+  const todayIsConsitutionDay =
+    dayjs().get("month") === 4 && dayjs().get("date") === 3;
 
   const { page } = stores();
 
@@ -15,6 +19,8 @@
   let showFeedbackModal = false;
   let showTutorialModal = false;
   let darkMode;
+
+  let infoOpen = true;
 
   function handleFeedbackModalTrigger(e) {
     showFeedbackModal = e.detail.msg;
@@ -112,13 +118,10 @@
 <svelte:window bind:scrollY={yAxisPosition} on:keydown={handleKeydown} />
 
 <main
-  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden
-  text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3
-  xl:px-16 sm:text-base"
+  class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base"
 >
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2
-    pb-4 sm:py-6 sm:w-20 sm:h-32"
+    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32"
   >
     <Tooltip text={`Zmień na ${darkMode ? "jasny" : "ciemny"} tryb.`} pos={"r"}>
       <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
@@ -138,8 +141,7 @@
     </Tooltip> -->
   </div>
 
-  <div class="fixed bottom-0 right-0 mr-20 mb-3 hidden
-  xl:block">
+  <div class="fixed bottom-0 right-0 hidden mb-3 mr-20 xl:block">
     <a
       target="_blank"
       href="https://play.google.com/store/apps/details?id=online.konstytucja.twa"
@@ -166,19 +168,16 @@
     <div
       id="feedback-modal"
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay"
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay"
     >
       <div
-        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2"
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-4/5 md:w-3/4 lg:w-1/2"
       >
         <div class="flex justify-between">
           <h2 class="w-1/2 text-2xl font-thin sm:text-4xl">Zgłoś błąd</h2>
           <span
             id="errorMessage"
-            class="self-center w-1/2 text-right transition-opacity duration-1000
-            ease-in-out opacity-0"
+            class="self-center w-1/2 text-right transition-opacity duration-1000 ease-in-out opacity-0"
           >
             Opis powinien zawierać co najmniej 20 znaków.
           </span>
@@ -193,8 +192,7 @@
         >
           <div class="relative inline-block w-full">
             <div
-              class="absolute inset-y-0 left-0 flex items-center justify-center
-              w-auto ml-2 text-gray-500 pointer-events-none"
+              class="absolute inset-y-0 left-0 flex items-center justify-center w-auto ml-2 text-gray-500 pointer-events-none"
             >
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
@@ -213,8 +211,7 @@
             </div>
             <select
               name="topic"
-              class="w-full px-8 py-1 font-light text-gray-900 bg-white border
-              border-gray-100 rounded shadow appearance-none cursor-pointer"
+              class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer"
             >
               <option selected value={$page.path}>
                 obecna strona: {$page.host}{$page.path === "/"
@@ -235,8 +232,7 @@
               <option class="font-light" value="inne">inne</option>
             </select>
             <div
-              class="absolute inset-y-0 right-0 flex items-center px-2
-              text-gray-900 pointer-events-none"
+              class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none"
             >
               <svg
                 class="w-4 h-4 fill-current sm:w-5 sm:h-5"
@@ -253,9 +249,7 @@
             id="feedbackMessage"
             name="message"
             placeholder="opis błędu"
-            class="block w-full h-32 p-2 mt-4 text-lg transition-colors
-            duration-1000 ease-in-out border border-gray-100 rounded shadow
-            resize-none"
+            class="block w-full h-32 p-2 mt-4 text-lg transition-colors duration-1000 ease-in-out border border-gray-100 rounded shadow resize-none"
             type="text"
           />
           <div class="flex justify-around mt-4">
@@ -265,16 +259,14 @@
                 e.preventDefault();
                 showFeedbackModal = false;
               }}
-              class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow
-              hover:bg-gray-100"
+              class="w-full px-4 py-2 mr-2 border border-gray-100 rounded shadow hover:bg-gray-100"
             >
               Anuluj
             </button>
             <button
               aria-label="submit"
               type="submit"
-              class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow
-              hover:bg-gray-100"
+              class="w-full px-4 py-2 ml-2 border border-gray-100 rounded shadow hover:bg-gray-100"
             >
               Wyślij
             </button>
@@ -287,8 +279,7 @@
   {#if showTutorialModal}
     <div
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay"
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay"
     >
       <button
         class="absolute top-0 right-0 w-12 h-12"
@@ -322,6 +313,38 @@
   {/if}
 
   <div class="flex-1">
+    {#if todayIsConsitutionDay && infoOpen}
+      <div
+        out:fly={{ y: -20, duration: 400 }}
+        class="flex justify-between w-full px-3 py-1 font-light border border-gray-100 rounded-md shadow-sm"
+      >
+        <div>
+          Dziś jest Narodowe Święto Konstytucji Trzeciego Maja! 🎉 🇵🇱 Przeczytaj <a
+            target="_blank"
+            class="underline hover:text-red-new"
+            href="https://www.wikiwand.com/pl/%C5%9Awi%C4%99to_Narodowe_Trzeciego_Maja"
+            >więcej</a
+          >.
+        </div>
+        <div
+          on:click={() => (infoOpen = false)}
+          class="-mr-1 flex flex-col justify-center cursor-pointer"
+        >
+          <svg
+            class="mr-px w-4 h-4 text-black stroke-current"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+      </div>
+    {/if}
+
     <slot />
   </div>
 
