@@ -92,7 +92,7 @@
         <a href="/nauka">_</a>
         <a href="/nauka/ktory-artykul">_</a>
         <a href="/nauka/ktory-rozdzial">_</a>
-        <a href="/statystyki">_</a>
+        <!-- <a href="/statystyki">_</a> -->
       </div>
       <!-- crawl helper div end -->
 
@@ -178,13 +178,13 @@
           >
             Nauka
           </a>
-          <a
+          <!-- <a
             class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
             rel="prefetch"
             href="/statystyki"
           >
             Statystyki
-          </a>
+          </a> -->
           {#if showDropdown}
             <div
               class="fixed top-0 right-0 p-4 rounded cursor-pointer sm:hidden hover:bg-gray-100"
