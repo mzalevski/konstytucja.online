@@ -4,11 +4,11 @@
   import { fly, fade } from "svelte/transition";
   import DarkMode from "../components/DarkMode.svelte";
   import Feedback from "../components/Feedback.svelte";
-  // import Tutorial from "../components/Tutorial.svelte";
   import ToTheTopBtn from "../components/ToTheTopBtn.svelte";
   import Footer from "../components/Footer.svelte";
   import Tooltip from "../components/Tooltip.svelte";
   import dayjs from "dayjs";
+  import { darkMode } from "../stores";
 
   const todayIsConsitutionDay =
     dayjs().get("month") === 4 && dayjs().get("date") === 3;
@@ -18,7 +18,6 @@
   let yAxisPosition;
   let showFeedbackModal = false;
   let showTutorialModal = false;
-  let darkMode;
 
   let infoOpen = true;
 
@@ -31,7 +30,7 @@
   }
 
   async function handleDarkModeToggle(e) {
-    darkMode = e.detail.msg;
+    darkMode.set(e.detail.msg);
     window.document.body.classList.toggle("dark-mode");
   }
 
@@ -99,7 +98,7 @@
       document.getElementById("text-search") !== document.activeElement
     ) {
       e.preventDefault();
-      darkMode = !darkMode;
+      darkMode.update(value => !value);
       window.document.body.classList.toggle("dark-mode");
     } else if (
       e.code === "Escape" &&
@@ -111,7 +110,7 @@
 
   onMount(() => {
     visitCount();
-    darkMode = document.body.classList.contains("dark-mode");
+    darkMode.set(document.body.classList.contains("dark-mode"));
   });
 </script>
 
@@ -123,8 +122,11 @@
   <div
     class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32"
   >
-    <Tooltip text={`Zmień na ${darkMode ? "jasny" : "ciemny"} tryb.`} pos={"r"}>
-      <DarkMode {darkMode} on:toggleDarkMode={handleDarkModeToggle} />
+    <Tooltip
+      text={`Zmień na ${$darkMode ? "jasny" : "ciemny"} tryb.`}
+      pos={"r"}
+    >
+      <DarkMode {$darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
 
     <Tooltip text={"Zgłoś błąd."} pos={"r"}>
