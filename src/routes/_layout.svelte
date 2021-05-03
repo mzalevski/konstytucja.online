@@ -15,6 +15,13 @@
 
   const { page } = stores();
 
+  onMount(() => {
+    const x = window.localStorage.getItem("dark-mode");
+    if (x === "true") {
+      window.document.body.classList.add("dark-mode");
+    }
+  });
+
   let yAxisPosition;
   let showFeedbackModal = false;
   let showTutorialModal = false;
@@ -32,6 +39,7 @@
   async function handleDarkModeToggle(e) {
     darkMode.set(e.detail.msg);
     window.document.body.classList.toggle("dark-mode");
+    window.localStorage.setItem("dark-mode", e.detail.msg);
   }
 
   function visitCount() {
@@ -100,6 +108,7 @@
       e.preventDefault();
       darkMode.update(value => !value);
       window.document.body.classList.toggle("dark-mode");
+      window.localStorage.setItem("dark-mode", $darkMode);
     } else if (
       e.code === "Escape" &&
       document.getElementById("text-search") === document.activeElement
