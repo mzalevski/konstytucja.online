@@ -68,7 +68,7 @@ body.dark-mode .border-gray-200 {
 }
 
 body.dark-mode .hover\:shadow-lg:hover {
-  @apply border-blue-800;
+  @apply border-blue-400;
 }
 
 body.dark-mode p,
@@ -83,15 +83,15 @@ body.dark-mode .text-gray-900 {
 }
 
 body.dark-mode svg.text-red-new {
-  @apply text-gray-400;
+  @apply text-blue-400;
 }
 
 body.dark-mode #logo {
-  content: url("/images/logo-white.png");
+  content: url("/images/logo-blue.png");
 }
 
 body.dark-mode .active {
-  @apply text-gray-400;
+  @apply text-blue-400;
 }
 
 body.dark-mode .hover\:bg-gray-100:hover {
@@ -99,7 +99,7 @@ body.dark-mode .hover\:bg-gray-100:hover {
 }
 
 body.dark-mode .hover\:text-red-new:hover {
-  @apply text-gray-400;
+  @apply text-blue-400;
 }
 
 body.dark-mode .bg-gray-200 {
