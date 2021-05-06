@@ -355,7 +355,7 @@
                     e.preventDefault();
                   }
                   if (
-                    e.code === "Enter" &&
+                    e.key === "Enter" &&
                     parseInt(e.target.value) <= 243 &&
                     parseInt(e.target.value) >= 1
                   ) {
