@@ -76,7 +76,7 @@
     >
       strona Prezydenta
     </a>
-    <svg class="inline w-3 h-3 ml-px fill-current" viewBox="0 0 24 24">
+    <svg class="inline w-3 h-3 -ml-px -mr-1 fill-current" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -91,7 +91,7 @@
     >
       strona Sejmu
     </a>
-    <svg class="inline w-3 h-3 ml-px fill-current" viewBox="0 0 24 24">
+    <svg class="inline w-3 h-3 -ml-px -mr-1 fill-current" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -137,8 +137,7 @@
       target="_blank"
     >
       ten adres
-    </a>
-    .
+    </a>.
   </p>
 
   <p class="pt-2">
@@ -146,18 +145,7 @@
     Piotrowskiemu za wsparcie merytoryczne projektu.
   </p>
 
-  <div>
-    <p class="pt-2">Przygotowaniem słownika zajmował/li się:</p>
-    <ul>
-      <li>
-        - <a target="_blank" href="https://twitter.com/DNWysocki"
-          >Dawid Wysocki</a
-        >
-      </li>
-    </ul>
-  </div>
-
-  <p class="flex items-center justify-end pt-4">
+  <p class="flex items-center text-xl lg:text-2xl justify-end pt-4">
     <a
       class="underline hover:text-red-new focus:text-red-new"
       href="https://mzalevski.pl/"
@@ -165,7 +153,10 @@
     >
       Maciej Zalewski
     </a>
-    <svg class="inline w-4 h-4 ml-px fill-current" viewBox="0 0 24 24">
+    <svg
+      class="inline w-4 lg:w-5 h-4 lg:h-5 ml-1 fill-current"
+      viewBox="0 0 24 24"
+    >
       <path d="M0 0h24v24H0z" fill="none" />
       <path
         d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9
@@ -173,4 +164,17 @@
       />
     </svg>
   </p>
+
+  <div class="mt-10">
+    <p class="pt-2">Przygotowaniem słownika zajmował/li się:</p>
+    <ul>
+      <li>
+        - <a
+          class="hover:text-red-new"
+          target="_blank"
+          href="https://twitter.com/DNWysocki">Dawid Wysocki</a
+        >
+      </li>
+    </ul>
+  </div>
 </div>
