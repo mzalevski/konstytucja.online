@@ -11,7 +11,7 @@
 <a class="cursor-pointer" rel="prefetch" href="/{slug}">
   <div
     id={`art-${slug}`}
-    class="px-4 py-6 mb-2 text-justify border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg"
+    class="px-4 py-6 mb-2 text-justify border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg transition duration-200 ease-in-out"
   >
     <div class="flex justify-between">
       <p>

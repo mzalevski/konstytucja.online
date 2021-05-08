@@ -85,7 +85,7 @@
   <h1 class="text-3xl font-thin text-center sm:text-5xl leading-tight">
     SZEF KANCELARII PREZYDENTA<br />RZECZYPOSPOLITEJ POLSKIEJ
   </h1>
-  <h2 class="mt-2 text-lg font-thin text-center sm:text-2xl text-gray-700">
+  <h2 class="mt-1 text-base font-thin text-center sm:text-xl text-gray-700">
     autor: <a class="hover:text-red-new" href="https://twitter.com/DNWysocki">
       Dawid Wysocki
     </a>
