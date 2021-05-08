@@ -41,11 +41,11 @@
       rel="prefetch"
       href="/"
     >
-      <img class="h-6 sm:h-8" id="logo" alt="logo" />
+      <img class="h-6 sm:h-8 select-none" id="logo" alt="logo" />
     </a>
     <a
       class:active={segment === "preambula"}
-      class="self-end pb-px ml-3 sm:ml-4 md:ml-6 hover:text-red-new"
+      class="self-end pb-px ml-3 sm:ml-4 md:ml-6 hover:text-red-new select-none"
       rel="prefetch"
       href="preambula"
     >
@@ -53,7 +53,7 @@
     </a>
     <a
       class:active={segment === undefined}
-      class="self-end pb-px ml-2 md:ml-4 hover:text-red-new"
+      class="self-end pb-px ml-2 md:ml-4 hover:text-red-new select-none"
       rel="prefetch"
       href="/"
     >
@@ -72,7 +72,7 @@
           }
           showDropdown = !showDropdown;
         }}
-        class="self-end ml-2 cursor-default md:ml-4"
+        class="self-end ml-2 cursor-default md:ml-4 select-none"
       >
         Informacje
       </p>

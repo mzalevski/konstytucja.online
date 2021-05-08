@@ -33,7 +33,7 @@
         id="text-search"
         autocomplete="off"
         class="w-full px-8 py-1 font-light border border-gray-100 rounded-md
-      shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10"
+      shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10 select-none"
         bind:value={searchedText}
         on:input={sendChoice}
       />
@@ -44,7 +44,7 @@
       cursor-default"
     >
       <Tooltip text={"Liczba wyświetlonych artykułów."} pos={"b"}>
-        <span>{count}</span>
+        <span class="select-none">{count}</span>
       </Tooltip>
     </div>
     <div
@@ -98,7 +98,7 @@
       <select
         class="w-full px-8 py-1 font-light text-gray-900 bg-white border
       border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8
-      lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900"
+      lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900 select-none"
         bind:value={selectedChapter}
         on:change={sendChoice}
       >
