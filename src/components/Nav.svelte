@@ -66,13 +66,13 @@
       <p
         class:active={segment === "info"}
         on:mouseenter={() => (showDropdown = true)}
-        on:click={e => {
+        on:click={(e) => {
           if (/(android)/i.test(navigator.userAgent)) {
             e.target.click();
           }
           showDropdown = !showDropdown;
         }}
-        class="self-end ml-2 cursor-default md:ml-4 hover:text-red-new"
+        class="self-end ml-2 cursor-default md:ml-4"
       >
         Informacje
       </p>
@@ -99,7 +99,7 @@
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
-          class="fixed top-0 left-0 z-10 w-screen h-screen pt-16 mt-px text-center bg-white border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
+          class=" border fixed top-0 left-0 z-10 w-screen h-screen pt-16 mt-px text-center bg-white border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
         >
           <a
             class="block text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"

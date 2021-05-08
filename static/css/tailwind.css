@@ -51,7 +51,7 @@ body.dark-mode .bg-red-100 {
 }
 
 body.dark-mode .bg-red-300 {
-  @apply bg-gray-700;
+  @apply bg-blue-700;
 }
 
 body.dark-mode .bg-gray-100 {
@@ -62,9 +62,12 @@ body.dark-mode .bg-green-100 {
   @apply bg-gray-500;
 }
 
-body.dark-mode .border-gray-100,
-body.dark-mode .border-gray-200 {
+body.dark-mode .border-gray-100 {
   @apply border-gray-900;
+}
+
+body.dark-mode .border-gray-200 {
+  @apply border-gray-800;
 }
 
 body.dark-mode .hover\:shadow-lg:hover {
