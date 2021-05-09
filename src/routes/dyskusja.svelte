@@ -7,17 +7,18 @@
   import { EventManager } from "mjolnir.js";
   import { goto, prefetch } from "@sapper/app";
   import { isMobile } from "./_helpers";
+  import Head from "../components/Head.svelte";
 
   let eventManager;
   let showDropdown = false;
 
   async function assembleComments(threads) {
     let rawComments = await fetch("/.netlify/functions/rawComments")
-      .then(response => response.json())
-      .then(json => json.msg.response);
+      .then((response) => response.json())
+      .then((json) => json.msg.response);
 
-    let comments = rawComments.map(rc => {
-      const found = threads.find(thread => thread.id === rc.thread);
+    let comments = rawComments.map((rc) => {
+      const found = threads.find((thread) => thread.id === rc.thread);
       rc.link = found.slug;
       return rc;
     });
@@ -48,21 +49,12 @@
   });
 </script>
 
-<svelte:head>
-  <title>Dyskusja</title>
-  <meta
-    name="description"
-    content="Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia
-    2 kwietnia 1997 r."
-  />
-  <meta
-    name="keywords"
-    content="konstytucja, informacje, info, konstytucjarp, konstytucjaonline,
-    online, prawo, konstytucja art, trybunał konstytucyjny, sądownictwo,
-    trybunał, prezydent, rada ministrów, sejm, senat"
-  />
-  <meta name="konstytucja" content="website" />
-</svelte:head>
+<Head
+  title={"Dyskusja"}
+  desc={"Informacje o czytniku Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r."}
+  path={"dyskusja"}
+  keywords={"dyskusja o konstytucji"}
+/>
 
 <Nav {showDropdown} segment={"info"} />
 

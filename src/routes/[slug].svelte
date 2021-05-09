@@ -19,6 +19,7 @@
   import Tooltip from "../components/Tooltip.svelte";
   import { EventManager } from "mjolnir.js";
   import { isMobile } from "./_helpers";
+  import Head from "../components/Head.svelte";
 
   export let article;
 
@@ -59,7 +60,7 @@
     }, 1000);
   });
 
-  const handleKeydown = e => {
+  const handleKeydown = (e) => {
     if (
       e.code === "ArrowLeft" &&
       $page.params.slug > 1 &&
@@ -103,7 +104,7 @@
     }
   };
 
-  const handleKeyup = e => {
+  const handleKeyup = (e) => {
     if (
       e.code === "ArrowLeft" &&
       $page.params.slug > 1 &&
@@ -151,7 +152,7 @@
     let body = document.querySelector("body");
     let html = document.querySelector("html");
 
-    const observer = new MutationObserver(mutations => {
+    const observer = new MutationObserver((mutations) => {
       let scrolledBefore = false;
       for (let mut of mutations) {
         if (body.scrollHeight > window.innerHeight + 100 && !scrolledBefore) {
@@ -203,19 +204,11 @@
 
 <svelte:window on:keydown={handleKeydown} on:keyup={handleKeyup} />
 
-<svelte:head>
-  <title>{article.title} Konstytucji RP</title>
-  <link rel="canonical" href="https://konstytucja.online/{article.slug}" />
-  <meta name="description" content="{article.title} Konstytucji RP" />
-  <meta
-    name="keywords"
-    content="{article.title} konstytucji rp, konstytucja {article.slug}, art {article.slug},
-    art. {article.title}, konstytucja, konstytucjarp, konstytucjaonline, online,
-    prawo, konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał,
-    prezydent, rada ministrów, sejm, senat"
-  />
-  <meta name="konstytucja" content="website" />
-</svelte:head>
+<Head
+  title={article.title + " Konstytucji RP"}
+  path={article.slug}
+  keywords={`art ${article.path}, art. ${article.title}`}
+/>
 
 <Nav {showDropdown} segment={"articles"} />
 
@@ -341,7 +334,7 @@
           <div class="flex space-x-2 justify-center">
             <label aria-label="go to article">
               <input
-                on:keydown={e => {
+                on:keydown={(e) => {
                   if (
                     e.target.value.length === 3 &&
                     ![
@@ -458,7 +451,7 @@
     </h1>
     <div class="py-4" in:fly|fade={{ x: xDelta, duration: 100 }}>
       <div
-        on:click={e => {
+        on:click={(e) => {
           if (e.target.pathname) {
             currentPage = parseInt(e.target.pathname.slice(1));
           }
