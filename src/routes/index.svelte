@@ -1,8 +1,8 @@
 <script context="module">
   export function preload({ params, query }) {
     return this.fetch(`index.json`)
-      .then(r => r.json())
-      .then(articles => {
+      .then((r) => r.json())
+      .then((articles) => {
         return { articles };
       });
   }
@@ -50,15 +50,16 @@
 
     let parsedSearchedText = searchedText.replace(
       /[\?\)\(\.\\\*\+]/g,
-      match => `\\${match}`
+      (match) => `\\${match}`
     );
 
     let allChapters = selectedChapter === "_";
 
-    selectedArticles = articles.filter(article => {
-      let chapterHit = article.chapter["id"] === selectedChapter || allChapters;
+    selectedArticles = articles.filter((article) => {
+      const chapterHit =
+        article.chapter["id"] === selectedChapter || allChapters;
 
-      let parsedArticleHtml = article.html.replace(
+      const parsedArticleHtml = article.html.replace(
         new RegExp(
           `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
           "g"
@@ -66,11 +67,12 @@
         ""
       );
 
-      let textHit = new RegExp(`[ >]${parsedSearchedText}`, "gi").test(
-        parsedArticleHtml
-      );
+      const textHit = new RegExp(
+        `[ >]${parsedSearchedText.replace(/ /g, () => "\\w?\\w?\\w?\\w? ")}`,
+        "gi"
+      ).test(parsedArticleHtml);
 
-      let titleHit = article.title
+      const titleHit = article.title
         .replace(/\./g, "")
         .toLowerCase()
         .includes(searchedText.replace(/\./g, "").toLowerCase());
@@ -162,10 +164,9 @@
         <Article
           html={article.html.replace(
             new RegExp(
-              `[ >]${searchedText.replace(
-                /[\<\>\?\)\(\.\\\*\+]/g,
-                match => `\\${match}`
-              )}`,
+              `[ >]${searchedText
+                .replace(/[\<\>\?\)\(\.\\\*\+]/g, (match) => `\\${match}`)
+                .replace(/ /g, () => "\\w?\\w?\\w?\\w? ")}`,
               "gi"
             ),
             (match, offset, string) => {
