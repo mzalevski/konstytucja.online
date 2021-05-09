@@ -3,6 +3,8 @@
   import { onDestroy, onMount } from "svelte";
   import { fly } from "svelte/transition";
   import { isMobile } from "../routes/_helpers";
+  import NavLink from "./NavLink.svelte";
+
   export let segment;
   export let showDropdown = false;
 
@@ -41,11 +43,11 @@
       rel="prefetch"
       href="/"
     >
-      <img class="h-6 sm:h-8 select-none" id="logo" alt="logo" />
+      <img class="h-6 select-none sm:h-8" id="logo" alt="logo" />
     </a>
     <a
       class:active={segment === "preambula"}
-      class="self-end pb-px ml-3 sm:ml-4 md:ml-6 hover:text-red-new select-none"
+      class="self-end pb-px ml-3 select-none sm:ml-4 md:ml-6 hover:text-red-new"
       rel="prefetch"
       href="preambula"
     >
@@ -53,7 +55,7 @@
     </a>
     <a
       class:active={segment === undefined}
-      class="self-end pb-px ml-2 md:ml-4 hover:text-red-new select-none"
+      class="self-end pb-px ml-2 select-none md:ml-4 hover:text-red-new"
       rel="prefetch"
       href="/"
     >
@@ -72,7 +74,7 @@
           }
           showDropdown = !showDropdown;
         }}
-        class="self-end ml-2 cursor-default md:ml-4 select-none"
+        class="self-end ml-2 cursor-default select-none md:ml-4"
       >
         Informacje
       </p>
@@ -88,103 +90,30 @@
         <a href="/app-desktop">_</a>
         <a href="/inicjatywa">_</a>
         <a href="/skroty">_</a>
-        <!-- <a href="/twitter-bot">_</a> -->
         <a href="/nauka">_</a>
         <a href="/nauka/ktory-artykul">_</a>
         <a href="/nauka/ktory-rozdzial">_</a>
-        <!-- <a href="/statystyki">_</a> -->
+        <a href="/statystyki">_</a>
       </div>
       <!-- crawl helper div end -->
 
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
-          class=" border fixed top-0 left-0 z-10 w-screen h-screen pt-16 mt-px text-center bg-white border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
+          class="fixed top-0 left-0 z-10 flex flex-col w-screen h-screen pt-16 mt-px space-y-1 text-center bg-white border border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
         >
-          <a
-            class="block text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/komisja"
-          >
-            Komisja Konstytucyjna
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/legislacja"
-          >
-            Proces legislacyjny
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/slownik"
-          >
-            Słownik pojęć
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/dyskusja"
-          >
-            Dyskusja
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/odpowiedzi"
-          >
-            Odpowiedzi
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/app-mobile"
-          >
-            Aplikacja - mobile
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/app-desktop"
-          >
-            Aplikacja - desktop
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/inicjatywa"
-          >
-            Inicjatywa
-          </a>
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/skroty"
-          >
-            Skróty klawiszowe
-          </a>
-          <!-- <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/twitter-bot"
-          >
-            Twitter Bot
-          </a> -->
-          <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/nauka"
-          >
-            Nauka
-          </a>
-          <!-- <a
-            class="block pt-3 text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
-            rel="prefetch"
-            href="/statystyki"
-          >
-            Statystyki
-          </a> -->
+          <NavLink href="/komisja" text="Komisja Konstytucyjna" />
+          <NavLink href="/legislacja" text="Proces legislacyjny" />
+          <NavLink href="/slownik" text="Słownik pojęć" />
+          <NavLink href="/dyskusja" text="Dyskusja" />
+          <NavLink href="/odpowiedzi" text="Odpowiedzi" />
+          <NavLink href="/app-mobile" text="Aplikacja - mobile" />
+          <NavLink href="/app-desktop" text="Aplikacja - desktop" />
+          <NavLink href="/inicjatywa" text="Inicjatywa" />
+          <NavLink href="/skroty" text="Skróty klawiszowe" />
+          <NavLink href="/nauka" text="Nauka" />
+          <NavLink href="/statystyki" text="Statystyki" />
+
           {#if showDropdown}
             <div
               class="fixed top-0 right-0 p-4 rounded cursor-pointer sm:hidden hover:bg-gray-100"
