@@ -25,7 +25,7 @@
   let scrollY;
   let selectedArticles = articles;
   let articlesToShow = selectedArticles.slice(0, 10);
-  let searchedText;
+  let searchPhrase;
   let selectedChapter;
   let eventManager;
   let showDropdown = false;
@@ -44,41 +44,78 @@
     }
   }
 
+  const searchFilter = (
+    article,
+    parsedSearchPhrase,
+    selectedChapter,
+    showAllChapters
+  ) => {
+    const chapterHit =
+      article.chapter["id"] === selectedChapter || showAllChapters;
+
+    const parsedArticleHtml = article.html.replace(
+      new RegExp(
+        `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
+        "g"
+      ),
+      ""
+    );
+
+    const textHit = new RegExp(
+      `[ >]${parsedSearchPhrase.replace(/\w /g, () => "\\w{0,6} ")}`,
+      "gi"
+    ).test(parsedArticleHtml);
+
+    const titleHit = article.title
+      .replace(/\./g, "")
+      .toLowerCase()
+      .includes(searchPhrase.replace(/\./g, "").toLowerCase());
+
+    return (chapterHit && textHit) || (titleHit && searchPhrase);
+  };
+
+  const highlight = (article, searchPhrase) => ({
+    ...article,
+    html: article.html.replace(
+      new RegExp(
+        `[ >]${searchPhrase
+          .replace(/[\<\>\?\)\(\.\\\*\+]/g, (match) => `\\${match}`)
+          .replace(/\w /g, () => "\\w{0,6} ")}`,
+        "gi"
+      ),
+      (match, offset, str) => {
+        if (
+          !["href", "clas", "rel="].includes(str.slice(offset + 1, offset + 5))
+        ) {
+          const classes = "py-px pl-px bg-red-300 rounded";
+          const txt = `<span class="${classes}">${match.slice(1)}</span>`;
+          return `${match.slice(0, 1)}${txt}`;
+        }
+      }
+    ),
+  });
+
   function handleSearch(e) {
     selectedChapter = e.detail.chapter;
-    searchedText = e.detail.text;
+    searchPhrase = e.detail.text;
 
-    let parsedSearchedText = searchedText.replace(
+    const parsedSearchPhrase = searchPhrase.replace(
       /[\?\)\(\.\\\*\+]/g,
       (match) => `\\${match}`
     );
 
-    let allChapters = selectedChapter === "_";
+    const showAllChapters = selectedChapter === "_";
 
-    selectedArticles = articles.filter((article) => {
-      const chapterHit =
-        article.chapter["id"] === selectedChapter || allChapters;
-
-      const parsedArticleHtml = article.html.replace(
-        new RegExp(
-          `<a class="underline hover:text-red-new focus:text-red-new" rel="prefetch" href='/\\d+'>`,
-          "g"
-        ),
-        ""
-      );
-
-      const textHit = new RegExp(
-        `[ >]${parsedSearchedText.replace(/\w /g, () => "\\w{0,6} ")}`,
-        "gi"
-      ).test(parsedArticleHtml);
-
-      const titleHit = article.title
-        .replace(/\./g, "")
-        .toLowerCase()
-        .includes(searchedText.replace(/\./g, "").toLowerCase());
-
-      return (chapterHit && textHit) || (titleHit && searchedText);
-    });
+    selectedArticles = articles
+      .filter((article) =>
+        searchFilter(
+          article,
+          parsedSearchPhrase,
+          selectedChapter,
+          showAllChapters
+        )
+      )
+      .map((article) => highlight(article, searchPhrase));
   }
 
   const onSwipeLeft = () => (showDropdown = true);
@@ -150,43 +187,7 @@
 </Nav>
 
 <div in:fly={{ y: 100, duration: 1000 }}>
-  {#if selectedArticles.length === articles.length}
-    {#each articlesToShow as article}
-      <Article {...article} />
-    {/each}
-  {:else}
-    {#each selectedArticles as article}
-      {#if searchedText === ""}
-        <!-- because there is also a chapter select -->
-        <Article {...article} />
-      {:else}
-        <!-- if there is some search text -->
-        <Article
-          html={article.html.replace(
-            new RegExp(
-              `[ >]${searchedText
-                .replace(/[\<\>\?\)\(\.\\\*\+]/g, (match) => `\\${match}`)
-                .replace(/\w /g, () => "\\w{0,6} ")}`,
-              "gi"
-            ),
-            (match, offset, str) => {
-              if (
-                !["href", "clas", "rel="].includes(
-                  str.slice(offset + 1, offset + 5)
-                )
-              ) {
-                const classes = "py-px pl-px bg-red-300 rounded";
-                const txt = `<span class="${classes}">${match.slice(1)}</span>`;
-                return `${match.slice(0, 1)}${txt}`;
-              }
-            }
-          )}
-          slug={article.slug}
-          title={article.title}
-          chapter={article.chapter}
-          desc={article.desc}
-        />
-      {/if}
-    {/each}
-  {/if}
+  {#each selectedArticles.length === 243 ? articlesToShow : selectedArticles as article}
+    <Article {...article} />
+  {/each}
 </div>

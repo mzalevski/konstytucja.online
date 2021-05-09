@@ -3720,7 +3720,7 @@ const articles = [
   },
 ];
 
-articles.forEach(article => {
+articles.forEach((article) => {
   article.html = article.html.replace(/^\t{3}/gm, "");
 });
 
