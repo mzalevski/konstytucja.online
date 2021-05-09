@@ -68,7 +68,7 @@
       );
 
       const textHit = new RegExp(
-        `[ >]${parsedSearchedText.replace(/ /g, () => "\\w?\\w?\\w?\\w? ")}`,
+        `[ >]${parsedSearchedText.replace(/\w /g, () => "\\w{0,6} ")}`,
         "gi"
       ).test(parsedArticleHtml);
 
@@ -166,21 +166,18 @@
             new RegExp(
               `[ >]${searchedText
                 .replace(/[\<\>\?\)\(\.\\\*\+]/g, (match) => `\\${match}`)
-                .replace(/ /g, () => "\\w?\\w?\\w?\\w? ")}`,
+                .replace(/\w /g, () => "\\w{0,6} ")}`,
               "gi"
             ),
-            (match, offset, string) => {
+            (match, offset, str) => {
               if (
                 !["href", "clas", "rel="].includes(
-                  string.slice(offset + 1, offset + 5)
+                  str.slice(offset + 1, offset + 5)
                 )
               ) {
-                return `${match.slice(
-                  0,
-                  1
-                )}<span class="py-px pl-px bg-red-300 rounded">${match.slice(
-                  1
-                )}</span>`;
+                const classes = "py-px pl-px bg-red-300 rounded";
+                const txt = `<span class="${classes}">${match.slice(1)}</span>`;
+                return `${match.slice(0, 1)}${txt}`;
               }
             }
           )}
