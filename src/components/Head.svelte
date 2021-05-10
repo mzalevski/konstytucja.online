@@ -8,7 +8,7 @@
 <svelte:head>
   <title>{title}</title>
   <link rel="canonical" href="https://konstytucja.online/{path}" />
-  <meta name="description" content={desc ?? title} />
+  <meta name="description" content={desc ? desc : title} />
   <meta
     name="keywords"
     content="{title} konstytucji rp, konstytucja {title}, konstytucja, konstytucjarp, konstytucjaonline, online,
