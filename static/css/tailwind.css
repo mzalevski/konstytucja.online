@@ -74,6 +74,10 @@ body.dark-mode .hover\:shadow-lg:hover {
   @apply border-blue-400;
 }
 
+body.dark-mode .focus\:shadow-lg:focus {
+  @apply border-blue-400;
+}
+
 body.dark-mode p,
 body.dark-mode h1,
 body.dark-mode h2,
@@ -121,8 +125,19 @@ body.dark-mode .hover\:bg-gray-200:hover {
   @apply bg-gray-800;
 }
 
+@media (min-width: 640px) {
+  body.dark-mode .sm\:text-transparent {
+    color: black;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.dark-mode .sm\:text-transparent {
+    color: white;
+  }
+}
+
 /*********************\
 |DARK MODE SECTION END|
 \*********************/
-
 @tailwind utilities;

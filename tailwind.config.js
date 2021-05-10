@@ -2,14 +2,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'red-new': '#a02828',
-        'dark-overlay': 'rgba(0, 0, 0, .6)',
+        "red-new": "#a02828",
+        "dark-overlay": "rgba(0, 0, 0, .6)",
       },
       spacing: {
-        162: '38rem',
-      }
-    }
+        162: "38rem",
+      },
+      borderColor: ["focus", "active"],
+    },
   },
   variants: {},
-  plugins: []
+  plugins: [],
 };

@@ -24,7 +24,7 @@
 </script>
 
 <div
-  class="relative -mt-px mb-2 sm:flex sm:justify-end sm:mb-0"
+  class="relative mb-2 -mt-px sm:flex sm:justify-end sm:mb-0"
   in:fly={searchTransitionConfig}
 >
   <div class="relative">
@@ -32,24 +32,21 @@
       <input
         id="text-search"
         autocomplete="off"
-        class="w-full px-8 py-1 font-light border border-gray-100 rounded-md
-      shadow-sm sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10 select-none"
+        class="w-full px-8 py-1 font-light border border-gray-100 rounded-md shadow-sm outline-none select-none sm:w-40 md:w-56 lg:w-64 lg:pl-10 md:pr-10 focus:shadow-lg"
         bind:value={searchedText}
         on:input={sendChoice}
       />
     </label>
 
     <div
-      class="absolute inset-y-0 right-0 flex flex-col justify-center px-2
-      cursor-default"
+      class="absolute inset-y-0 right-0 flex flex-col justify-center px-2 cursor-default"
     >
       <Tooltip text={"Liczba wyświetlonych artykułów."} pos={"b"}>
         <span class="select-none">{count}</span>
       </Tooltip>
     </div>
     <div
-      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500
-      pointer-events-none"
+      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none"
     >
       <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <g fill-rule="evenodd">
@@ -70,12 +67,10 @@
   </div>
 
   <div
-    class="relative inline-block w-full mt-1 sm:mt-0 sm:w-8 lg:w-full sm:ml-1
-    md:ml-2"
+    class="relative inline-block w-full mt-1 sm:mt-0 sm:w-8 lg:w-full sm:ml-1 md:ml-2"
   >
     <div
-      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500
-      pointer-events-none sm:justify-center sm:w-full lg:w-auto sm:px-0 lg:px-2"
+      class="absolute inset-y-0 left-0 flex items-center px-2 text-gray-500 pointer-events-none sm:justify-center sm:w-full lg:w-auto sm:px-0 lg:px-2"
     >
       <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <g fill-rule="evenodd">
@@ -96,9 +91,7 @@
     </div>
     <label aria-label="wybór rozdziału">
       <select
-        class="w-full px-8 py-1 font-light text-gray-900 bg-white border
-      border-gray-100 rounded-md shadow-sm appearance-none cursor-pointer sm:w-8
-      lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900 select-none"
+        class="w-full px-8 py-1 font-light text-gray-900 bg-white border border-gray-100 rounded-md shadow-sm outline-none appearance-none cursor-pointer select-none sm:w-8 lg:w-full sm:px-0 lg:px-10 sm:text-transparent lg:text-gray-900 focus:shadow-lg"
         bind:value={selectedChapter}
         on:change={sendChoice}
       >
@@ -147,8 +140,7 @@
       </select>
     </label>
     <div
-      class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900
-      pointer-events-none sm:hidden lg:flex"
+      class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none sm:hidden lg:flex"
     >
       <svg class="w-4 h-4 fill-current sm:w-5 sm:h-5" viewBox="0 0 20 20">
         <path
