@@ -115,7 +115,9 @@
           showAllChapters
         )
       )
-      .map((article) => highlight(article, searchPhrase));
+      .map((article) =>
+        searchPhrase ? highlight(article, searchPhrase) : article
+      );
   }
 
   const onSwipeLeft = () => (showDropdown = true);
