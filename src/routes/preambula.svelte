@@ -74,7 +74,7 @@
 <Nav segment={"preambula"} />
 
 <div
-  class="px-5 py-5 bg-red-100 rounded-lg shadow-xl sm:py-8 md:py-10 sm:px-10 md:px-12 lg:py-12 lg:px-16"
+  class="px-2 py-2 bg-red-100 rounded-lg shadow-xl sm:py-8 md:py-10 sm:px-10 md:px-12 lg:py-12 lg:px-16"
   in:fade={{ duration: 1000 }}
 >
   <div
