@@ -93,7 +93,7 @@
         <a href="/nauka">_</a>
         <a href="/nauka/ktory-artykul">_</a>
         <a href="/nauka/ktory-rozdzial">_</a>
-        <!-- <a href="/statystyki">_</a> -->
+        <a href="/statystyki">_</a>
       </div>
       <!-- crawl helper div end -->
 
@@ -112,7 +112,7 @@
           <NavLink href="/inicjatywa" text="Inicjatywa" />
           <NavLink href="/skroty" text="Skróty klawiszowe" />
           <NavLink href="/nauka" text="Nauka" />
-          <!-- <NavLink href="/statystyki" text="Statystyki" /> -->
+          <NavLink href="/statystyki" text="Statystyki" />
 
           {#if showDropdown}
             <div

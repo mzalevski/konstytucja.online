@@ -4,8 +4,28 @@
 
   let mode;
 
-  darkMode.subscribe(value => (mode = value));
+  darkMode.subscribe((value) => (mode = value));
 </script>
+
+<svelte:head>
+  <title>Statystyki</title>
+  <link rel="canonical" href="https://konstytucja.online/statystyki" />
+  <meta
+    name="description"
+    content="Statystyki dot. Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+    1997 r."
+  />
+  <meta
+    name="keywords"
+    content="statystyki, stats, popularność, liczba wejść, wejścia, 
+    liczba użytkowników, ostatnie 3 miesiące, ostatnie pół roku, ostatni tydzień, ostatni rok, 
+    preambuła, konstytucja, konstytucjarp, preambuła konstytucji,
+    preambula, konstytucja, konstytucjaonline, online, prawo,
+    konstytucja art, trybunał konstytucyjny, sądownictwo, trybunał, prezydent,
+    rada ministrów, sejm, senat"
+  />
+  <meta name="konstytucja" content="website" />
+</svelte:head>
 
 <Nav segment={"info"} />
 
