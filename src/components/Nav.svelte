@@ -100,7 +100,7 @@
       {#if showDropdown}
         <div
           in:fly={dropdownTransitionConfig}
-          class="fixed top-0 left-0 z-10 flex flex-col w-screen h-screen pt-16 mt-px space-y-6 sm:space-y-px text-center bg-white border border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
+          class="fixed top-0 left-0 z-10 flex flex-col w-screen h-screen pt-16 mt-px space-y-4 sm:space-y-px text-center bg-white border border-gray-200 rounded shadow-lg cursor-default sm:absolute sm:left-auto sm:top-auto sm:pt-0 sm:text-left sm:p-2 sm:w-48 sm:h-auto"
         >
           <NavLink href="/komisja" text="Komisja Konstytucyjna" />
           <NavLink href="/legislacja" text="Proces legislacyjny" />
@@ -113,6 +113,7 @@
           <NavLink href="/skroty" text="Skróty klawiszowe" />
           <NavLink href="/nauka" text="Nauka" />
           <NavLink href="/statystyki" text="Statystyki" />
+          <NavLink href="/zapisane-artykuly" text="Zapisane artykuły" />
 
           {#if showDropdown}
             <div

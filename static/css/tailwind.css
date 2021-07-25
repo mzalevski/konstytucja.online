@@ -6,6 +6,14 @@
   @apply text-red-new;
 }
 
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.sm\:bottom-18 {
+  bottom: 4.5rem;
+}
+
 #logo {
   content: url("/images/logo.png");
 }

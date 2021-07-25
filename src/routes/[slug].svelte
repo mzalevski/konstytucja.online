@@ -37,6 +37,8 @@
   let findDestination;
   let timestamp = 0;
   let currentPage = parseInt($page.params.slug);
+  let currentFavorites = [];
+  $: inFavorites = currentFavorites.includes(article.slug);
 
   const showDisqus = () => {
     timestamp = Date.now();
@@ -152,6 +154,9 @@
     let body = document.querySelector("body");
     let html = document.querySelector("html");
 
+    currentFavorites =
+      JSON.parse(window.localStorage.getItem("favorites")) || [];
+
     const observer = new MutationObserver((mutations) => {
       let scrolledBefore = false;
       for (let mut of mutations) {
@@ -256,6 +261,51 @@
       {article.chapter["id"]}
       {article.chapter["title"]}
     </h3>
+
+    <div
+      in:fly={{ x: -50, duration: 1000 }}
+      class="fixed left-0 bottom-6 sm:bottom-18 justify-center w-16 sm:w-20"
+    >
+      <Tooltip
+        text={inFavorites ? "Usuń z ulubionych." : "Dodaj do ulubionych."}
+        pos={"r"}
+      >
+        <button
+          aria-label="toggle favorite"
+          tabindex="-1"
+          class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
+          on:click={() => {
+            if (inFavorites) {
+              currentFavorites = currentFavorites.filter(
+                (f) => f !== article.slug
+              );
+            } else {
+              currentFavorites = [...currentFavorites, article.slug];
+            }
+            window.localStorage.setItem(
+              "favorites",
+              JSON.stringify(currentFavorites)
+            );
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6 text-gray-700 sm:w-8 sm:h-8"
+            fill={inFavorites ? "currentColor" : "none"}
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+            />
+          </svg>
+        </button>
+      </Tooltip>
+    </div>
+
     <div class="flex justify-end w-24 pt-px mt-px">
       {#if $page.params.slug > 1}
         <Tooltip text={"Poprzedni artykuł."} pos={"b"}>
@@ -313,12 +363,10 @@
     <div
       id="feedback-modal"
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay"
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay"
     >
       <div
-        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
       >
         <div class="">
           <h2 class="text-2xl font-thin text-center sm:text-4xl">
@@ -328,10 +376,9 @@
 
         <div class="relative inline-block w-full pt-4">
           <div
-            class="absolute inset-y-0 left-0 flex items-center justify-center
-            w-auto ml-2 text-gray-500 pointer-events-none"
+            class="absolute inset-y-0 left-0 flex items-center justify-center w-auto ml-2 text-gray-500 pointer-events-none"
           />
-          <div class="flex space-x-2 justify-center">
+          <div class="flex justify-center space-x-2">
             <label aria-label="go to article">
               <input
                 on:keydown={(e) => {
@@ -367,17 +414,13 @@
                 max="243"
                 name="find"
                 id="find"
-                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
-              bg-white border border-gray-100 rounded shadow appearance-none
-              cursor-pointer sm:text-4xl"
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer sm:text-4xl"
               /></label
             >
 
             <Tooltip text={"Naciśnij enter."} pos={"b"}>
               <button
-                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
-                bg-white border border-gray-100 rounded shadow appearance-none
-                cursor-pointer sm:text-4xl"
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer sm:text-4xl"
                 on:click={() => {
                   if (!findDestination) return;
                   if (
@@ -399,9 +442,7 @@
             </Tooltip>
             <Tooltip text={"Zamknij."} pos={"b"}>
               <button
-                class="w-full px-2 py-px text-xl font-light text-center text-gray-900
-                bg-white border border-gray-100 rounded shadow appearance-none
-                cursor-pointer sm:text-4xl"
+                class="w-full px-2 py-px text-xl font-light text-center text-gray-900 bg-white border border-gray-100 rounded shadow appearance-none cursor-pointer sm:text-4xl"
                 on:click={() => {
                   isDescriptionVisible = false;
                   isDisqusVisible = false;
@@ -413,8 +454,7 @@
             </Tooltip>
           </div>
           <div
-            class="absolute inset-y-0 right-0 flex items-center px-2
-            text-gray-900 pointer-events-none"
+            class="absolute inset-y-0 right-0 flex items-center px-2 text-gray-900 pointer-events-none"
           />
         </div>
       </div>
@@ -425,12 +465,10 @@
     <div
       id="feedback-modal"
       transition:fade={{ duration: 400 }}
-      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full
-      bg-dark-overlay"
+      class="fixed inset-0 z-50 flex flex-col items-center justify-center h-full bg-dark-overlay"
     >
       <div
-        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner
-        sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
+        class="w-11/12 p-4 mx-auto bg-white border rounded-lg shadow-inner sm:p-6 md:p-8 lg:p-12 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3"
       >
         <div class="">
           <h2 class="text-2xl font-thin text-center sm:text-4xl">
@@ -444,8 +482,7 @@
   {#if mounted}
     <h1
       in:fly|fade={{ x: xDelta, duration: 100 }}
-      class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16
-    sm:text-4xl"
+      class="pt-8 text-xl font-thin text-center sm:pt-10 md:pt-12 lg:pt-16 sm:text-4xl"
     >
       {article.title}
     </h1>
@@ -458,7 +495,7 @@
         }}
         in:fade={{ duration: 1000 }}
         style="hyphens: auto;"
-        class="max-w-3xl mx-auto leading-relaxed text-justify text-base sm:text-xl"
+        class="max-w-3xl mx-auto text-base leading-relaxed text-justify sm:text-xl"
       >
         {@html article.html}
       </div>
@@ -470,7 +507,7 @@
           <div class="pt-8">
             <button
               aria-label="wyjaśnienie treści artykułu | schowaj"
-              class="text-gray-600 text-sm"
+              class="text-sm text-gray-600"
               on:click={() => (isDescriptionVisible = !isDescriptionVisible)}
             >
               {#if !isDescriptionVisible}
@@ -487,7 +524,7 @@
                 in:fly|fade={{ y: -15, duration: 800 }}
                 out:fly|fade={{ y: -15, duration: 400 }}
               >
-                <h3 class="pt-2 font-thin text-base sm:text-xl">
+                <h3 class="pt-2 text-base font-thin sm:text-xl">
                   Wyjaśnienie treści artykułu
                 </h3>
                 <div class="pt-2 text-sm">
@@ -501,7 +538,7 @@
         <div class="pt-4">
           <button
             aria-label="dyskusja nad artykułem | pokaż"
-            class="text-gray-600 text-sm"
+            class="text-sm text-gray-600"
           >
             {#if !isDisqusVisible}
               <span class="pt-2" on:click={() => showDisqus()}>
