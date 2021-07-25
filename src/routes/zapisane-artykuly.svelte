@@ -30,7 +30,7 @@
   };
 
   const getFavoritesFromLocalStorage = () => {
-    return JSON.parse(window.localStorage.getItem("favorites") ?? []);
+    return JSON.parse(window.localStorage.getItem("favorites") || []);
   };
 
   onMount(() => {

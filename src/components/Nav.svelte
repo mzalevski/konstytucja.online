@@ -94,6 +94,7 @@
         <a href="/nauka/ktory-artykul">_</a>
         <a href="/nauka/ktory-rozdzial">_</a>
         <a href="/statystyki">_</a>
+        <a href="/zapisane-artykuly">_</a>
       </div>
       <!-- crawl helper div end -->
 
