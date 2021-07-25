@@ -79,7 +79,7 @@
   Zapisane artykuły
 </h1>
 
-<div class="text-lg text-justify" in:fade={{ duration: 3000 }}>
+<div in:fade={{ duration: 3000 }}>
   <ul class="mt-4">
     {#each favoriteArticles as article}
       <Article {...article} />
