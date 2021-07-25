@@ -130,7 +130,7 @@
   class="container flex flex-col min-h-screen px-4 py-2 mx-auto overflow-hidden text-xs antialiased font-light text-gray-900 bg-white sm:px-1 sm:px-2 md:px-3 xl:px-16 sm:text-base"
 >
   <div
-    class="fixed bottom-0 left-0 flex flex-col justify-between w-16 h-24 pt-2 pb-4 sm:py-6 sm:w-20 sm:h-32"
+    class="fixed bottom-0 left-0 flex flex-col justify-center w-16 h-16 sm:w-20 sm:h-20"
   >
     <Tooltip
       text={`Zmień na ${$darkMode ? "jasny" : "ciemny"} tryb.`}
@@ -139,12 +139,12 @@
       <DarkMode {$darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
 
-    <Tooltip text={"Zgłoś błąd."} pos={"r"}>
+    <!-- <Tooltip text={"Zgłoś błąd."} pos={"r"}>
       <Feedback
         {showFeedbackModal}
         on:triggerFeedbackModal={handleFeedbackModalTrigger}
       />
-    </Tooltip>
+    </Tooltip> -->
 
     <!-- <Tooltip text={'Zobacz instrukcję.'} pos={'r'}>
       <Tutorial
