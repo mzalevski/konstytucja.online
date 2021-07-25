@@ -79,10 +79,12 @@
   Zapisane artykuły
 </h1>
 
-<div in:fade={{ duration: 3000 }}>
-  <ul class="mt-4">
+<div class="mt-4" in:fade={{ duration: 3000 }}>
+  {#if favoriteArticles.length > 0}
     {#each favoriteArticles as article}
       <Article {...article} />
     {/each}
-  </ul>
+  {:else}
+    Brak zapisanych artykułów
+  {/if}
 </div>
