@@ -76,7 +76,7 @@
   class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
   in:fly={{ x: -50, duration: 1000 }}
 >
-  Ulubione
+  Zapisane artykuły
 </h1>
 
 <div class="text-lg text-justify" in:fade={{ duration: 3000 }}>
