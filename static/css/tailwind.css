@@ -6,12 +6,14 @@
   @apply text-red-new;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.bottom-15 {
+  bottom: 3.75rem;
 }
 
-.sm\:bottom-18 {
-  bottom: 4.5rem;
+@media (min-width: 640px) {
+  .sm\:bottom-18 {
+    bottom: 4.5rem;
+  }
 }
 
 #logo {

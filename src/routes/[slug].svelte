@@ -264,7 +264,7 @@
 
     <div
       in:fly={{ x: -50, duration: 1000 }}
-      class="fixed left-0 bottom-4 sm:bottom-18 justify-center w-16 sm:w-20"
+      class="fixed left-0 bottom-15 sm:bottom-18 md:bottom- justify-center w-16 sm:w-20"
     >
       <Tooltip
         text={inFavorites ? "Usuń z ulubionych." : "Dodaj do ulubionych."}
