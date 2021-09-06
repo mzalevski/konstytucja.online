@@ -527,7 +527,9 @@
                 <h3 class="pt-2 text-base font-thin sm:text-xl">
                   Wyjaśnienie treści artykułu
                 </h3>
-                <div class="pt-2 text-sm">
+                <div
+                  class="pt-2 text-base leading-relaxed text-justify sm:text-xl"
+                >
                   {@html article.desc}
                 </div>
               </div>
