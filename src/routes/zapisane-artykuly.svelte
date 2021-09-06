@@ -72,19 +72,23 @@
 
 <Nav {showDropdown} segment={"info"} />
 
-<h1
-  class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
-  in:fly={{ x: -50, duration: 1000 }}
->
-  Zapisane artykuły
-</h1>
-
 <div class="mt-4" in:fade={{ duration: 3000 }}>
   {#if favoriteArticles.length > 0}
+    <h1
+      class="text-lg font-thin sm:text-xl lg:text-2xl xl:text-3xl"
+      in:fly={{ x: -50, duration: 1000 }}
+    >
+      Zapisane artykuły
+    </h1>
     {#each favoriteArticles as article}
       <Article {...article} />
     {/each}
   {:else}
-    Brak zapisanych artykułów
+    <div
+      in:fly={{ y: 50, duration: 1000 }}
+      class="flex flex-col justify-center text-center h-162 font-bold text-gray-400 text-3xl"
+    >
+      Brak zapisanych artykułów
+    </div>
   {/if}
 </div>
