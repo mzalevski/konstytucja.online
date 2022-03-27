@@ -8,10 +8,10 @@
   export let desc;
 </script>
 
-<a class="cursor-pointer" rel="prefetch" href="/{slug}">
+<a class="cursor-pointer" rel="prefetch" href="/{slug}" tabindex="0">
   <div
     id={`art-${slug}`}
-    class="px-4 py-6 mb-2 text-justify border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg transition duration-200 ease-in-out"
+    class="px-4 py-6 mb-2 text-justify transition duration-200 ease-in-out border border-gray-100 rounded-md shadow-sm md:mb-3 lg:mb-4 hover:shadow-lg"
   >
     <div class="flex justify-between">
       <p>
