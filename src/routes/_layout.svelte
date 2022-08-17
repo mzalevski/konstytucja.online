@@ -10,6 +10,7 @@
   import dayjs from "dayjs";
   import { darkMode } from "../stores";
   import GooglePlay from "../components/GooglePlay.svelte";
+  import GitHub from "../components/GitHub.svelte";
 
   const todayIsConsitutionDay =
     dayjs().get("month") === 4 && dayjs().get("date") === 3;
@@ -154,6 +155,7 @@
   </div>
 
   <div class="fixed bottom-0 right-0 hidden mb-3 mr-20 xl:block">
+    <GitHub />
     <GooglePlay />
   </div>
 
