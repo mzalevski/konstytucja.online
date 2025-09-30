@@ -86,7 +86,6 @@
         <a href="/dyskusja">_</a>
         <a href="/odpowiedzi">_</a>
         <a href="/slownik">_</a>
-        <a href="/app-mobile">_</a>
         <a href="/app-desktop">_</a>
         <a href="/inicjatywa">_</a>
         <a href="/skroty">_</a>
@@ -107,7 +106,6 @@
           <NavLink href="/slownik" text="Słownik pojęć" />
           <NavLink href="/dyskusja" text="Dyskusja" />
           <NavLink href="/odpowiedzi" text="Odpowiedzi" />
-          <NavLink href="/app-mobile" text="Aplikacja - mobile" />
           <NavLink href="/app-desktop" text="Aplikacja - desktop" />
           <NavLink href="/inicjatywa" text="Inicjatywa" />
           <NavLink href="/skroty" text="Skróty klawiszowe" />

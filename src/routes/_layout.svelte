@@ -9,7 +9,6 @@
   import Tooltip from "../components/Tooltip.svelte";
   import dayjs from "dayjs";
   import { darkMode } from "../stores";
-  import GooglePlay from "../components/GooglePlay.svelte";
   import GitHub from "../components/GitHub.svelte";
 
   const todayIsConsitutionDay =
@@ -156,7 +155,6 @@
 
   <div class="fixed bottom-0 right-0 hidden mb-3 mr-20 xl:block">
     <GitHub />
-    <GooglePlay />
   </div>
 
   {#if showFeedbackModal}
