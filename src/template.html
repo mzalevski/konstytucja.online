@@ -6,7 +6,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="apple-touch-icon" href="images/logo-192.png" />
-    <script async defer data-domain="konstytucja.online" src="https://plausible.io/js/plausible.js"></script>
 
     %sapper.base%
 
@@ -18,5 +17,7 @@
   </head>
   <body>
     <div id="sapper">%sapper.html%</div>
+    <!-- Cloudflare Web Analytics: no cookies; automatic SPA measurement. -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0c615806c1644b11990e3600755ca76b"}'></script>
   </body>
 </html>

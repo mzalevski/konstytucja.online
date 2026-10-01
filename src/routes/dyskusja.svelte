@@ -13,6 +13,8 @@
   let showDropdown = false;
 
   async function assembleComments(threads) {
+    // Netlify functions are available in the browser, not during static export.
+    if (typeof window === "undefined") return [];
     let rawComments = await fetch("/.netlify/functions/rawComments")
       .then((response) => response.json())
       .then((json) => json.msg.response);

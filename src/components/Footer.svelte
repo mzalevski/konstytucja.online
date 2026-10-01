@@ -15,4 +15,5 @@
     </svg>
     do Polski
   </p>
+  <a class="ml-4 underline" href="/prywatnosc">Prywatność</a>
 </footer>
