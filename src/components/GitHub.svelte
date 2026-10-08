@@ -1,9 +1,12 @@
 <a
   target="_blank"
   href="https://github.com/mzalevski/konstytucja.online"
-  class="inline-flex items-center p-4 bg-gray-100 rounded-lg cursor-pointer hover:bg-gray-200 focus:outline-none"
+  aria-label="Repozytorium projektu na GitHub"
+  class="inline-flex items-center p-4 bg-gray-100 rounded-lg cursor-pointer hover:bg-gray-200"
 >
   <svg
+    aria-hidden="true"
+    focusable="false"
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
     class="w-6 h-6"

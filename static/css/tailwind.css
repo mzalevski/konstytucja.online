@@ -6,6 +6,10 @@
   @apply text-red-new;
 }
 
+.article-toggle {
+  @apply text-gray-700;
+}
+
 .bottom-15 {
   bottom: 3.75rem;
 }
@@ -124,6 +128,10 @@ body.dark-mode .bg-gray-200 {
 }
 
 body.dark-mode .text-gray-600 {
+  @apply text-gray-400;
+}
+
+body.dark-mode .article-toggle {
   @apply text-gray-400;
 }
 

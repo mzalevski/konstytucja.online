@@ -136,7 +136,7 @@
       text={`Zmień na ${$darkMode ? "jasny" : "ciemny"} tryb.`}
       pos={"r"}
     >
-      <DarkMode {$darkMode} on:toggleDarkMode={handleDarkModeToggle} />
+      <DarkMode darkMode={$darkMode} on:toggleDarkMode={handleDarkModeToggle} />
     </Tooltip>
 
     <!-- <Tooltip text={"Zgłoś błąd."} pos={"r"}>

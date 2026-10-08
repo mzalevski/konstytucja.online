@@ -15,12 +15,13 @@
 
 <div>
   <button
-    aria-label="toggle dark mode"
-    tabindex="-1"
+    aria-label={darkMode ? "Włącz jasny tryb" : "Włącz ciemny tryb"}
     class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
     on:click={toggleDarkMode}
   >
     <svg
+      aria-hidden="true"
+      focusable="false"
       class="w-6 h-6 text-gray-700 fill-current sm:w-8 sm:h-8"
       viewBox="0 0 20 20"
     >

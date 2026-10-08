@@ -223,6 +223,7 @@
       <Tooltip text={"Powrót do listy."} pos={"b"}>
         <a
           id="back-btn"
+          aria-label="Powrót do listy artykułów"
           class="flex flex-col justify-center"
           rel="prefetch"
           href={`/?fromArticle=${$page.params.slug}`}
@@ -233,6 +234,8 @@
         >
           <div class="flex">
             <svg
+              aria-hidden="true"
+              focusable="false"
               class="w-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20"
             >
@@ -243,6 +246,8 @@
               />
             </svg>
             <svg
+              aria-hidden="true"
+              focusable="false"
               class="w-5 h-6 -ml-2 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20"
             >
@@ -271,8 +276,7 @@
         pos={"r"}
       >
         <button
-          aria-label="toggle favorite"
-          tabindex="-1"
+          aria-label={inFavorites ? "Usuń z ulubionych" : "Dodaj do ulubionych"}
           class="flex justify-center w-8 h-8 mx-auto hover:opacity-50"
           on:click={() => {
             if (inFavorites) {
@@ -289,6 +293,8 @@
           }}
         >
           <svg
+            aria-hidden="true"
+            focusable="false"
             xmlns="http://www.w3.org/2000/svg"
             class="w-6 h-6 text-gray-700 sm:w-8 sm:h-8"
             fill={inFavorites ? "currentColor" : "none"}
@@ -310,6 +316,7 @@
       {#if $page.params.slug > 1}
         <Tooltip text={"Poprzedni artykuł."} pos={"b"}>
           <a
+            aria-label="Poprzedni artykuł"
             class="flex flex-col justify-center"
             rel="prefetch"
             href="/{parseInt($page.params.slug) - 1}"
@@ -320,6 +327,8 @@
             }}
           >
             <svg
+              aria-hidden="true"
+              focusable="false"
               class="w-5 h-6 mr-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20"
             >
@@ -336,6 +345,7 @@
         <Tooltip text={"Następny artykuł."} pos={"b"}>
           <a
             id="right-chevron"
+            aria-label="Następny artykuł"
             class="flex flex-col justify-center"
             rel="prefetch"
             href="/{parseInt($page.params.slug) + 1}"
@@ -346,6 +356,8 @@
             }}
           >
             <svg
+              aria-hidden="true"
+              focusable="false"
               class="w-5 h-6 ml-1 text-gray-900 fill-current sm:w-6"
               viewBox="0 0 20 20"
             >
@@ -506,8 +518,8 @@
         {#if article.desc != ``}
           <div class="pt-8">
             <button
-              aria-label="wyjaśnienie treści artykułu | schowaj"
-              class="text-sm text-gray-600"
+              aria-expanded={isDescriptionVisible}
+              class="text-sm article-toggle"
               on:click={() => (isDescriptionVisible = !isDescriptionVisible)}
             >
               {#if !isDescriptionVisible}
@@ -539,21 +551,23 @@
 
         <div class="pt-4">
           <button
-            aria-label="dyskusja nad artykułem | pokaż"
-            class="text-sm text-gray-600"
+            aria-expanded={isDisqusVisible}
+            class="text-sm article-toggle"
+            on:click={() => {
+              if (!isDisqusVisible) {
+                showDisqus();
+              } else {
+                isDisqusVisible = false;
+                timestamp = 0;
+              }
+            }}
           >
             {#if !isDisqusVisible}
-              <span class="pt-2" on:click={() => showDisqus()}>
+              <span class="pt-2">
                 dyskusja nad artykułem | pokaż
               </span>
             {:else}
-              <span
-                class="pt-2"
-                on:click={() => {
-                  isDisqusVisible = false;
-                  timestamp = 0;
-                }}
-              >
+              <span class="pt-2">
                 dyskusja nad artykułem | schowaj
               </span>
             {/if}
