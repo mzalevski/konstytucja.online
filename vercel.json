@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --include=dev --legacy-peer-deps",
+  "buildCommand": "npm run export",
+  "outputDirectory": "__sapper__/export",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "git": { "deploymentEnabled": { "**": false, "master": true } },
+  "rewrites": [
+    { "source": "/.netlify/functions/rawComments", "destination": "/api/rawComments" }
+  ]
+}

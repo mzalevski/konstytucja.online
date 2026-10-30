@@ -24,6 +24,8 @@
   });
 
   let yAxisPosition;
+  // Netlify Forms is unavailable during the temporary Vercel migration.
+  const feedbackEnabled = false;
   let showFeedbackModal = false;
   let showTutorialModal = false;
 
@@ -157,7 +159,7 @@
     <GitHub />
   </div>
 
-  {#if showFeedbackModal}
+  {#if feedbackEnabled && showFeedbackModal}
     <div
       id="feedback-modal"
       transition:fade={{ duration: 400 }}
