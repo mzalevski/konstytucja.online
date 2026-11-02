@@ -111,6 +111,12 @@
           <NavLink href="/skroty" text="Skróty klawiszowe" />
           <NavLink href="/nauka" text="Nauka" />
           <NavLink href="/zapisane-artykuly" text="Zapisane artykuły" />
+          <a
+            class="block text-xl sm:pt-1 md:ml-2 sm:text-base hover:text-red-new"
+            href="https://www.iuso.pl/"
+          >
+            Iuso — nasze aplikacje
+          </a>
 
           {#if showDropdown}
             <div

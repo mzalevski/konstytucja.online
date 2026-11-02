@@ -1,5 +1,5 @@
 <footer
-  class="flex justify-center py-4 mt-12 border-t border-gray-200 select-none"
+  class="flex flex-col items-center justify-center py-4 mt-12 border-t border-gray-200 select-none sm:flex-row"
 >
   <p>
     z miłości
@@ -15,5 +15,10 @@
     </svg>
     do Polski
   </p>
-  <a class="ml-4 underline" href="/prywatnosc">Prywatność</a>
+  <div class="flex mt-2 sm:mt-0 sm:ml-4">
+    <a class="underline hover:text-red-new" href="https://www.iuso.pl/">
+      Iuso — nasze aplikacje
+    </a>
+    <a class="ml-4 underline" href="/prywatnosc">Prywatność</a>
+  </div>
 </footer>
